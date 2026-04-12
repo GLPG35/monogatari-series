@@ -1,0 +1,130 @@
+[
+	{
+		"name": "Tsubasa Song",
+		"when": "After Bakemonogatari",
+		"pictures": [
+			"/covers/tsubasa-song.png"
+		],
+		"file": "/stories/Tsubasa Song.pdf"
+	},
+	{
+		"name": "Something Wrong",
+		"when": "After Kizumonogatari III",
+		"pictures": [
+			"/covers/something-wrong.png"
+		],
+		"file": "/stories/Something Wrong.pdf"
+	},
+	{
+		"name": "Gahara Summit",
+		"when": "After Nisemonogatari",
+		"pictures": [
+			"/covers/gahara-summit.png"
+		],
+		"file": "/stories/Gahara Summit.pdf"
+	},
+	{
+		"name": "Mayoi Room",
+		"when": "After Nekomonogatari Shiro",
+		"pictures": [
+			"/covers/mayoi-room.png"
+		],
+		"file": "/stories/Mayoi Room.pdf"
+	},
+	{
+		"name": "Rouka God",
+		"when": "After Hanamonogatari",
+		"pictures": [
+			"/covers/rouka-god.png"
+		],
+		"file": "/stories/Rouka God.pdf"
+	},
+	{
+		"name": "Yotsugi Snow Dome",
+		"when": "After Tsukimonogatari",
+		"pictures": [
+			"/covers/yotsugi-snow-dome.png"
+		],
+		"file": "/stories/Yotsugi Snow Dome.pdf"
+	},
+	{
+		"name": "Yotsugi Stress",
+		"when": "After Owarimonogatari Jo",
+		"pictures": [
+			"/covers/yotsugi-stress.png"
+		],
+		"file": "/stories/Yotsugi Stress.pdf"
+	},
+	{
+		"name": "And Then",
+		"when": "After Zoku Owarimonogatari",
+		"pictures": [
+			"/covers/and-then.png"
+		],
+		"file": "/stories/And Then.pdf"
+	},
+	{
+		"name": "Sodachi Mirror",
+		"when": "After Zoku Owarimonogatari",
+		"pictures": [
+			"/covers/sodachi-mirror.png"
+		],
+		"file": "/stories/Sodachi Mirror.pdf"
+	},
+	{
+		"name": "Ougi Reflect",
+		"when": "After Zoku Owarimonogatari",
+		"pictures": [
+			"/covers/ougi-reflect.png"
+		],
+		"file": "/stories/Ougi Reflect.pdf"
+	},
+	{
+		"name": "Ougi Road Movie",
+		"when": "After Zoku Owarimonogatari",
+		"pictures": [
+			"/covers/ougi-road-movie.png"
+		],
+		"file": "/stories/Ougi Road Movie.pdf"
+	},
+	{
+		"name": "Karen Brushing",
+		"when": "After Zoku Owarimonogatari",
+		"pictures": [
+			"/covers/karen-brushing.png"
+		],
+		"file": "/stories/Karen Brushing.pdf"
+	},
+	{
+		"name": "Tsukihi Brushing",
+		"when": "After Zoku Owarimonogatari",
+		"pictures": [
+			"/covers/tsukihi-brushing.png"
+		],
+		"file": "/stories/Tsukihi Brushing.pdf"
+	},
+	{
+		"name": "Nadeko Past",
+		"when": "Before Nademonogatari",
+		"pictures": [
+			"/covers/nadeko-past.png"
+		],
+		"file": "/stories/Nadeko Past.pdf"
+	},
+	{
+		"name": "Shinobu Future",
+		"when": "After Nademonogatari",
+		"pictures": [
+			"/covers/shinobu-future.png"
+		],
+		"file": "/stories/Shinobu Future.pdf"
+	},
+	{
+		"name": "Mayoi Welcome",
+		"when": "Before Shinobumonogatari",
+		"pictures": [
+			"/covers/mayoi-welcome.png"
+		],
+		"file": "/stories/Mayoi Welcome.pdf"
+	}
+]

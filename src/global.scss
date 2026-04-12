@@ -1,0 +1,47 @@
+:root {
+    --bg-purple: #831679;
+    --bg-green: #a1c446;
+    --bg-lilac: #62608f;
+    --bg-salmon: #fb796c;
+    --bg-blue: #2472de;
+    --bg-orange: #f4911a;
+    --bg-red: #c32818;
+    --bg-black: #392c1e;
+    --bg-white: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Iwata Mincho Pro M';
+    src: url('./assets/fonts/IwaMinPro-Md.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Iwata Mincho Pro Fate BD';
+    src: url('./assets/fonts/IwaOMinPro-Fate-Bd.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MS PMincho';
+    src: url('./assets/fonts/MS-PMincho-02.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+	font-family: 'Iwata Mincho Pro M';
+}

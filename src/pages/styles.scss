@@ -1,0 +1,359 @@
+main {
+	width: 100%;
+	min-height: 100dvh;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+
+	.hero {
+		width: 100%;
+		height: 100dvh;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.backgroundWrapper {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+		
+		.background {
+			width: 100%;
+			height: 100%;
+			position: relative;
+
+			.overlay {
+				position: absolute;
+				z-index: 1;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				mix-blend-mode: multiply;
+				background-color: #660063;
+			}
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				filter: brightness(0.5) contrast(5) brightness(2);
+			}
+		}
+	}
+
+	.title {
+		position: absolute;
+		mix-blend-mode: hard-light;
+		color: #ffffff;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+
+		ruby {
+			font-size: 10em;
+			ruby-align: center;
+			line-height: 1.1em;
+
+			&.small {
+				font-size: 5em;
+				ruby-position: under;
+
+				rt {
+					font-size: 0.3em;
+					padding-block: 0.5em;
+				}
+			}
+
+			rt {
+				font-size: 0.2em;
+				padding-block: 1em;
+				letter-spacing: 0.2ch;
+				font-style: italic;
+				user-select: none;
+			}
+		}
+	}
+
+	.info {
+		width: 100%;
+		min-height: 100dvh;
+		height: max-content;
+		display: flex;
+		flex-direction: column;
+		gap: 2em;
+		position: relative;
+		background-color: #62608f;
+		padding-inline: 3em;
+		padding-block: 5em 3em;
+		color: #fff;
+
+		.overlay {
+			position: absolute;
+			z-index: 0;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background: url('/noise.svg');
+			opacity: 0.7;
+			mix-blend-mode: overlay;
+			pointer-events: none;
+		}
+
+		.rippedWrapper {
+			position: absolute;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: auto;
+			pointer-events: none;
+	
+			.ripped {
+				width: 100%;
+				height: auto;
+				position: relative;
+				transform: translateY(-30%);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
+				mask-image: linear-gradient(to bottom, black 40%, transparent 50%);
+		
+				img {
+					width: 1920px;
+					height: 100%;
+					object-fit: cover;
+					display: flex;
+					scale: 1.1;
+				}
+
+				:not(.duplicate img) {
+					mix-blend-mode: multiply;
+				}
+
+				.duplicate img {
+					position: absolute;
+					z-index: -1;
+					filter: drop-shadow(0px 2000px 0 #62608f);
+					transform: translateY(calc(-2000px - 46%)) translateX(-90.9%);
+				}
+			}
+		}
+
+		h2 {
+			font-size: 2.5em;
+			line-height: 1.2em;
+			margin-bottom: 0.5em;
+		}
+
+		p {
+			font-size: 1.2em;
+			line-height: 1.75em;
+
+			a {
+				color: white;
+			}
+		}
+
+		.titles {
+			margin-top: 2em;
+			margin-bottom: 2em;
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(clamp(18rem, 15.3315rem + 10.3131vw, 25rem), 1fr));
+			grid-auto-rows: max-content;
+			gap: 2.5em;
+			width: 100%;
+			flex: 1;
+			
+			.section {
+				display: flex;
+				flex-direction: column;
+				gap: 0.2em;
+				width: 100%;
+				align-items: center;
+				color: white;
+				text-decoration: none;
+				position: relative;
+
+				.number {
+					position: absolute;
+					width: 5em;
+					height: 5em;
+					top: 0;
+					left: 0;
+					translate: -30% -30%;
+					z-index: 5;
+
+					.numberWrapper {
+						position: relative;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						overflow: hidden;
+
+						img {
+							width: 100%;
+							height: 100%;
+							object-fit: contain;
+						}
+
+						:not(.duplicate img) {
+							mix-blend-mode: multiply;
+						}
+		
+						.duplicate img {
+							position: absolute;
+							z-index: -1;
+							filter: drop-shadow(0px 2000px 0 #b1afd5);
+							transform: translateY(calc(-2000px - 8.7%));
+							top: 0;
+							left: 0;
+						}
+
+						span {
+							position: absolute;
+							z-index: 2;
+							color: black;
+							font-weight: bold;
+							font-size: 1.5em;
+						}
+					}
+				}
+
+				.cover {
+					width: 100%;
+					height: auto;
+					aspect-ratio: 2 / 3;
+					overflow: hidden;
+					clip-path: polygon(3% 0, 7% 1%, 11% 0%, 16% 2%, 20% 0, 23% 2%, 28% 2%, 32% 1%, 35% 1%, 39% 3%, 41% 1%, 45% 0%, 47% 2%, 50% 2%, 53% 0, 58% 2%, 60% 2%, 63% 1%, 65% 0%, 67% 2%, 69% 2%, 73% 1%, 76% 1%, 79% 0, 82% 1%, 85% 0, 87% 1%, 89% 0, 92% 1%, 96% 0, 98% 3%, 99% 3%, 99% 6%, 100% 11%, 98% 15%, 100% 21%, 99% 28%, 100% 32%, 99% 35%, 99% 40%, 100% 43%, 99% 48%, 100% 53%, 100% 57%, 99% 60%, 100% 64%, 100% 68%, 99% 72%, 100% 75%, 100% 79%, 99% 83%, 100% 86%, 100% 90%, 99% 94%, 99% 98%, 95% 99%, 92% 99%, 89% 100%, 86% 99%, 83% 100%, 77% 99%, 72% 100%, 66% 98%, 62% 100%, 59% 99%, 54% 99%, 49% 100%, 46% 98%, 43% 100%, 40% 98%, 38% 100%, 35% 99%, 31% 100%, 28% 99%, 25% 99%, 22% 100%, 19% 99%, 16% 100%, 13% 99%, 10% 99%, 7% 100%, 4% 99%, 2% 97%, 1% 97%, 0% 94%, 1% 89%, 0% 84%, 1% 81%, 0 76%, 0 71%, 1% 66%, 0% 64%, 0% 61%, 0% 59%, 1% 54%, 0% 49%, 1% 45%, 0% 40%, 1% 37%, 0% 34%, 1% 29%, 0% 23%, 2% 20%, 1% 17%, 1% 13%, 0 10%, 1% 6%, 1% 3%);
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+
+				.description {
+					font-style: italic;
+					margin-top: 0.5em;
+				}
+				
+				.name {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+
+					ruby {
+						font-size: clamp(4rem, 3.6188rem + 1.4733vw, 5rem);
+						ruby-align: center;
+						line-height: 1.1em;
+						ruby-position: under;
+
+						rt {
+							font-size: 0.2em;
+							padding-block: 0.5em;
+							letter-spacing: 0.2ch;
+							font-style: italic;
+							user-select: none;
+						}
+					}
+				}
+			}
+		}
+
+		.stories {
+			margin-top: 2em;
+			margin-bottom: 2em;
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(clamp(18rem, 15.3315rem + 10.3131vw, 25rem), 1fr));
+			grid-auto-rows: max-content;
+			gap: 3.5em 2.5em;
+			width: 100%;
+			flex: 1;
+
+			.story {
+				display: flex;
+				flex-direction: column;
+				gap: 0.2em;
+				width: 100%;
+				align-items: center;
+				color: white;
+				text-decoration: none;
+				position: relative;
+
+				.when {
+					position: absolute;
+					width: 20em;
+					height: auto;
+					top: 0;
+					translate: 0 -40%;
+					pointer-events: none;
+
+					.whenWrapper {
+						position: relative;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						overflow: hidden;
+						
+
+						img {
+							width: 100%;
+							height: 100%;
+							object-fit: contain;
+						}
+
+						:not(.duplicate img) {
+							mix-blend-mode: multiply;
+						}
+		
+						.duplicate img {
+							position: absolute;
+							z-index: -1;
+							filter: drop-shadow(0px 2000px 0 #b1afd5);
+							transform: translateY(calc(-2000px - 5.6%));
+							top: 0;
+							left: 0;
+						}
+
+						span {
+							position: absolute;
+							z-index: 2;
+							color: black;
+							font-weight: bold;
+							font-size: 1.2em;
+							translate: 0 -20%;
+						}
+					}
+				}
+
+				.cover {
+					width: 100%;
+					height: auto;
+					aspect-ratio: 1 / 1;
+					overflow: hidden;
+					clip-path: polygon(3% 0, 7% 1%, 11% 0%, 16% 2%, 20% 0, 23% 2%, 28% 2%, 32% 1%, 35% 1%, 39% 3%, 41% 1%, 45% 0%, 47% 2%, 50% 2%, 53% 0, 58% 2%, 60% 2%, 63% 1%, 65% 0%, 67% 2%, 69% 2%, 73% 1%, 76% 1%, 79% 0, 82% 1%, 85% 0, 87% 1%, 89% 0, 92% 1%, 96% 0, 98% 3%, 99% 3%, 99% 6%, 100% 11%, 98% 15%, 100% 21%, 99% 28%, 100% 32%, 99% 35%, 99% 40%, 100% 43%, 99% 48%, 100% 53%, 100% 57%, 99% 60%, 100% 64%, 100% 68%, 99% 72%, 100% 75%, 100% 79%, 99% 83%, 100% 86%, 100% 90%, 99% 94%, 99% 98%, 95% 99%, 92% 99%, 89% 100%, 86% 99%, 83% 100%, 77% 99%, 72% 100%, 66% 98%, 62% 100%, 59% 99%, 54% 99%, 49% 100%, 46% 98%, 43% 100%, 40% 98%, 38% 100%, 35% 99%, 31% 100%, 28% 99%, 25% 99%, 22% 100%, 19% 99%, 16% 100%, 13% 99%, 10% 99%, 7% 100%, 4% 99%, 2% 97%, 1% 97%, 0% 94%, 1% 89%, 0% 84%, 1% 81%, 0 76%, 0 71%, 1% 66%, 0% 64%, 0% 61%, 0% 59%, 1% 54%, 0% 49%, 1% 45%, 0% 40%, 1% 37%, 0% 34%, 1% 29%, 0% 23%, 2% 20%, 1% 17%, 1% 13%, 0 10%, 1% 6%, 1% 3%);
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+
+				.name {
+					font-size: 2em;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+---
+import './styles.scss'
+
+const active = Astro.url.pathname
+---
+<header>
+	<div class="wrapper">
+		<div class="rippedWrapper2">
+			<div class="ripped2">
+				<picture>
+					<source srcset="/88.avif" type="image/avif">
+					<source srcset="/88.webp" type="image/webp">
+					<img src="/88.png" alt="">
+				</picture>
+				<picture class="duplicate">
+					<source srcset="/88.avif" type="image/avif">
+					<source srcset="/88.webp" type="image/webp">
+					<img src="/88.png" alt="">
+				</picture>
+			</div>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="/stories" class={active == '/stories' ? "active" : ""}>Short Stories</a></li>
+				<li><a href="/lns" class={active == '/lns' ? "active" : ""}>Light Novels</a></li>
+				<li><a href="/" class={active == '/' ? "active" : ""}>Home</a></li>
+				<li><a href="/anime" class={active.includes('/anime') ? "active" : ""}>Anime</a></li>
+				<li><a href="/music" class={active == '/music' ? "active" : ""}>Music</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>

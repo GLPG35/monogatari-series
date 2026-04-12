@@ -1,17 +1,167 @@
 ---
-
+import Layout from '../layouts/Layout.astro'
+import './styles.scss'
+import arcs from '../utils/arcs.json'
+import stories from '../utils/stories.json'
 ---
 
-<html lang="en">
+<html lang="en" style="--bg-color: var(--bg-lilac)">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Monogatari Series</title>
+		<meta name="description" content="〈物語〉Monogatari Series. Here you'll find information about its light novels, the anime adaptation and more!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series" />
+		<meta property="og:description" content="〈物語〉Monogatari Series. Here you'll find information about its light novels, the anime adaptation and more!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatari-series.vercel.app/covers/home-cover.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series" />
+		<meta property="twitter:description" content="〈物語〉Monogatari Series. Here you'll find information about its light novels, the anime adaptation and more!" />
+		<meta property="twitter:image" content="https://monogatari-series.vercel.app/covers/home-cover.jpg" />
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Layout>
+			<main>
+				<div class="hero">
+					<div class="backgroundWrapper">
+						<div class="background">
+							<div class="overlay"></div>
+							<picture>
+								<source srcset="/Monogatari_Paper_Background.avif" type="image/avif">
+								<source srcset="/Monogatari_Paper_Background.webp" type="image/webp">
+								<img src="/Monogatari_Paper_Background.png" alt="">
+							</picture>
+						</div>
+					</div>
+					<div class="title">
+						<ruby>
+							物<rt>mono.</rt>語<rt>gatari.</rt>
+						</ruby>
+						<ruby class="small">
+							シ<rt>shi.</rt>リ<rt>ri.</rt>ー<rt>i.</rt>ズ<rt>zu.</rt>
+						</ruby>
+					</div>
+				</div>
+				<div class="info">
+					<div class="rippedWrapper">
+						<div class="ripped">
+							<picture>
+								<source srcset="/42.avif" type="image/avif">
+								<source srcset="/42.webp" type="image/webp">
+								<img src="/42.png" alt="">
+							</picture>
+							<picture class="duplicate">
+								<source srcset="/42.avif" type="image/avif">
+								<source srcset="/42.webp" type="image/webp">
+								<img src="/42.png" alt="">
+							</picture>
+						</div>
+					</div>
+					<div class="overlay"></div>
+					<div class="subsection">
+						<h2>Introduction</h2>
+						<p>This guide was made to help people have the most immersive experience possible while watching the anime.</p>
+						<p>Originally, it started as a light novel series written by NisiOisiN in 2005, receiving an anime adaptation by Studio SHAFT in 2009. Alongside the main novels, the author produced what is known as <b>短物語</b> (Short Stories)—supplemental pieces that offer valuable context for specific arcs in both the anime and the light novels. These short stories will be crucial in this guide and are detailed immediatly following the "Anime Watch Order" section.</p>
+						<p>There are also audio commentaries (also written by NisiOisiN), which consist of two characters commenting on a specific anime episode. Even though these often contain interesting facts, they are recommended for enthusiasts only, as they are merely <em>optional</em>. These will be included in the anime download (more on that in the <a href="/anime">anime section</a>).</p>
+					</div>
+					<div class="subsection">
+						<h2>Anime Watch Order</h2>
+						<p>Making this order is necessary because Studio SHAFT (the animation studio) had to release some arcs <em>out of order</em> due to time constraints and japanese television restrictions.</p>
+						<p>In this case, the guide follows the <em>light novel release order</em>, as it preserves both the creator's narrative progression and Studio SHAFT's <em>intended broadcast order</em>.</p>
+					</div>
+					<div class="titles">
+						{arcs.map(({ name, text, kanji, pictures }, i) => (
+							<div class="section">
+								<div class="number">
+									<div class="numberWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif">
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp">
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="">
+											</picture>
+											<picture class="duplicate">
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif">
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp">
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="">
+											</picture>
+										</div>
+										<span>{i + 1}</span>
+									</div>
+								</div>
+								<a class="cover" href={`/anime/${name}`}>
+									<picture>
+										{pictures.map((path, i) => {
+											const isLast = pictures.length === i + 1
+											const type = path.split('.').pop()
+
+											if (isLast) return <img src={path} alt="">
+											
+											return <source srcset={path} type={`image/${type}`}>
+										})}
+									</picture>
+								</a>
+								<div class="description">
+									{text}
+								</div>
+								<div class="name">
+									<ruby set:html={(kanji.reduce((prev, [kanji, romaji]) => [...prev, `${kanji}${romaji ? `<rt>${romaji}</rt>` : ''}`], []).join(''))}>
+									</ruby>
+								</div>
+							</div>
+						))}
+					</div>
+					<div class="subsection">
+						<h2>Short Stories</h2>
+						<p>These short stories follow a specific order, so after finishing an arc, come back to this section to check if there's something you need to read.</p>
+						<p><em>Terminology Note: While the anime translates 怪異 as "oddities," these short stories follow the official light novel translation, "aberrations".</em></p>
+					</div>
+					<div class="stories">
+						{stories.map(({ name, when, pictures, file }) => (
+							<div class="story">
+								<a class="cover" href={file} download>
+									<picture>
+										{pictures.map((path, i) => {
+											const isLast = pictures.length === i + 1
+											const type = path.split('.').pop()
+
+											if (isLast) return <img src={path} alt="">
+											
+											return <source srcset={path} type={`image/${type}`}>
+										})}
+									</picture>
+								</a>
+								<div class="when">
+									<div class="whenWrapper">
+										<div class="texture">
+											<picture>
+												<img src={`/23.png`} alt="">
+											</picture>
+											<picture class="duplicate">
+												<img src={`/23.png`} alt="">
+											</picture>
+										</div>
+										<span>{when}</span>
+									</div>
+								</div>
+								<div class="name">
+									{name}
+								</div>
+							</div>
+						))}
+					</div>
+				</div>
+			</main>
+		</Layout>
 	</body>
 </html>

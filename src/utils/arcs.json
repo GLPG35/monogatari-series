@@ -1,0 +1,341 @@
+[
+	{
+		"name": "bakemonogatari",
+		"text": "(Episodes 1 - 15)",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/bakemonogatari.avif",
+			"/covers/bakemonogatari.webp",
+			"/covers/bakemonogatari.png"
+		],
+		"color": "--bg-purple"
+	},
+	{
+		"name": "kizumonogatari-I",
+		"text": "(Tekketsu-hen)",
+		"kanji": [
+			["傷", "kizu."],
+			["物", "mono."],
+			["語", "gatari."],
+			["I"]
+		],
+		"pictures": [
+			"/covers/kizumonogatari-I.avif",
+			"/covers/kizumonogatari-I.webp",
+			"/covers/kizumonogatari-I.png"
+		],
+		"color": "--bg-red"
+	},
+	{
+		"name": "kizumonogatari-II",
+		"text": "(Nekketsu-hen)",
+		"kanji": [
+			["傷", "kizu."],
+			["物", "mono."],
+			["語", "gatari."],
+			["II"]
+		],
+		"pictures": [
+			"/covers/kizumonogatari-II.avif",
+			"/covers/kizumonogatari-II.webp",
+			"/covers/kizumonogatari-II.png"
+		],
+		"color": "--bg-blue"
+	},
+	{
+		"name": "kizumonogatari-III",
+		"text": "(Reiketsu-hen)",
+		"kanji": [
+			["傷", "kizu."],
+			["物", "mono."],
+			["語", "gatari."],
+			["III"]
+		],
+		"pictures": [
+			"/covers/kizumonogatari-III.avif",
+			"/covers/kizumonogatari-III.webp",
+			"/covers/kizumonogatari-III.png"
+		],
+		"color": "--bg-orange"
+	},
+	{
+		"name": "nisemonogatari",
+		"text": "(Episodes 1 - 11)",
+		"kanji": [
+			["偽", "nise."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/nisemonogatari.avif",
+			"/covers/nisemonogatari.webp",
+			"/covers/nisemonogatari.jpg"
+		],
+		"color": "--bg-green"
+	},
+	{
+		"name": "nekomonogatari-kuro",
+		"text": "(Episodes 1 - 4)",
+		"kanji": [
+			["猫", "neko."],
+			["物", "mono."],
+			["語", "gatari."],
+			["黒", "kuro."]
+		],
+		"pictures": [
+			"/covers/nekomonogatari-kuro.avif",
+			"/covers/nekomonogatari-kuro.webp",
+			"/covers/nekomonogatari-kuro.jpg"
+		],
+		"color": "--bg-black"
+	},
+	{
+		"name": "nekomonogatari-shiro",
+		"text": "Second Season (Episodes 1 - 5)",
+		"kanji": [
+			["猫", "neko."],
+			["物", "mono."],
+			["語", "gatari."],
+			["白", "shiro."]
+		],
+		"pictures": [
+			"/covers/nekomonogatari-shiro.avif",
+			"/covers/nekomonogatari-shiro.webp",
+			"/covers/nekomonogatari-shiro.png"
+		],
+		"color": "--bg-white"
+	},
+	{
+		"name": "kabukimonogatari",
+		"text": "Second Season (Episodes 6 - 9)",
+		"kanji": [
+			["傾", "kabuki."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/kabukimonogatari.avif",
+			"/covers/kabukimonogatari.webp",
+			"/covers/kabukimonogatari.jpg"
+		],
+		"color": "--bg-blue"
+	},
+	{
+		"name": "hanamonogatari",
+		"text": "(Episodes 1 - 5)",
+		"kanji": [
+			["花", "hana."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/hanamonogatari.avif",
+			"/covers/hanamonogatari.webp",
+			"/covers/hanamonogatari.jpg"
+		],
+		"color": "--bg-salmon"
+	},
+	{
+		"name": "otorimonogatari",
+		"text": "Second Season (Episodes 10 - 13)",
+		"kanji": [
+			["囮", "otori."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/otorimonogatari.avif",
+			"/covers/otorimonogatari.webp",
+			"/covers/otorimonogatari.jpg"
+		],
+		"color": "--bg-white"
+	},
+	{
+		"name": "onimonogatari",
+		"text": "Second Season (Episodes 14 - 17)",
+		"kanji": [
+			["鬼", "oni."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/onimonogatari.avif",
+			"/covers/onimonogatari.webp",
+			"/covers/onimonogatari.jpg"
+		],
+		"color": "--bg-orange"
+	},
+	{
+		"name": "koimonogatari",
+		"text": "Second Season (Episodes 18 - 23)",
+		"kanji": [
+			["恋", "koi."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/koimonogatari.avif",
+			"/covers/koimonogatari.webp",
+			"/covers/koimonogatari.jpg"
+		],
+		"color": "--bg-purple"
+	},
+	{
+		"name": "tsukimonogatari",
+		"text": "(Episodes 1 - 4)",
+		"kanji": [
+			["憑", "tsuki."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/tsukimonogatari.avif",
+			"/covers/tsukimonogatari.webp",
+			"/covers/tsukimonogatari.jpg"
+		],
+		"color": "--bg-green"
+	},
+	{
+		"name": "koyomimonogatari",
+		"text": "(Episodes 1 - 12)",
+		"kanji": [
+			["暦", "koyomi."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/koyomimonogatari.avif",
+			"/covers/koyomimonogatari.webp",
+			"/covers/koyomimonogatari.png"
+		],
+		"color": "--bg-black"
+	},
+	{
+		"name": "owarimonogatari-jo",
+		"text": "(Episodes 1 - 13)",
+		"kanji": [
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."],
+			["上", "jo."]
+		],
+		"pictures": [
+			"/covers/owarimonogatari-jo.avif",
+			"/covers/owarimonogatari-jo.webp",
+			"/covers/owarimonogatari-jo.jpg"
+		],
+		"color": "--bg-black"
+	},
+	{
+		"name": "owarimonogatari-ge",
+		"text": "(Episodes 1 - 7)",
+		"kanji": [
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."],
+			["下", "ge."]
+		],
+		"pictures": [
+			"/covers/owarimonogatari-ge.avif",
+			"/covers/owarimonogatari-ge.webp",
+			"/covers/owarimonogatari-ge.jpg"
+		],
+		"color": "--bg-purple"
+	},
+	{
+		"name": "zoku-owarimonogatari",
+		"text": "(Episodes 1 - 6)",
+		"kanji": [
+			["続", "zoku."],
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/zoku-owarimonogatari.avif",
+			"/covers/zoku-owarimonogatari.webp",
+			"/covers/zoku-owarimonogatari.png"
+		],
+		"color": "--bg-white"
+	},
+	{
+		"name": "orokamonogatari",
+		"text": "Off & Monster Season (Episode 1)",
+		"kanji": [
+			["愚", "oroka."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/orokamonogatari.avif",
+			"/covers/orokamonogatari.webp",
+			"/covers/orokamonogatari.png"
+		],
+		"color": "--bg-green"
+	},
+	{
+		"name": "nademonogatari",
+		"text": "Off & Monster Season (Episodes 2 - 6)",
+		"kanji": [
+			["撫", "nade."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/nademonogatari.avif",
+			"/covers/nademonogatari.webp",
+			"/covers/nademonogatari.png"
+		],
+		"color": "--bg-green"
+	},
+	{
+		"name": "wazamonogatari-ova",
+		"text": "Off & Monster Season (Episode 6.5)",
+		"kanji": [
+			["業", "waza."],
+			["物", "mono."],
+			["語", "gatari."],
+			["EX"]
+		],
+		"pictures": [
+			"/covers/wazamonogatari-ova.avif",
+			"/covers/wazamonogatari-ova.webp",
+			"/covers/wazamonogatari-ova.jpg"
+		],
+		"color": "--bg-orange"
+	},
+	{
+		"name": "wazamonogatari",
+		"text": "Off & Monster Season (Episodes 7 - 8)",
+		"kanji": [
+			["業", "waza."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/wazamonogatari.avif",
+			"/covers/wazamonogatari.webp",
+			"/covers/wazamonogatari.png"
+		],
+		"color": "--bg-orange"
+	},
+	{
+		"name": "shinobumonogatari",
+		"text": "Off & Monster Season (Episodes 9 - 14)",
+		"kanji": [
+			["忍", "shinobu."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/shinobumonogatari.avif",
+			"/covers/shinobumonogatari.webp",
+			"/covers/shinobumonogatari.png"
+		],
+		"color": "--bg-orange"
+	}
+]

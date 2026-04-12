@@ -1,0 +1,56 @@
+---
+import Layout from '../layouts/Layout.astro'
+import './404.scss'
+---
+
+<html lang="en" style="--bg-color: var(--bg-black)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - Not Found</title>
+		<meta name="description" content="〈物語〉Monogatari Series. Here you'll find information about its light novels, the anime adaptation and more!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series - Not Found" />
+		<meta property="og:description" content="〈物語〉Monogatari Series. Here you'll find information about its light novels, the anime adaptation and more!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatari-series.vercel.app/covers/shinobu-crying.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series - Not Found" />
+		<meta property="twitter:description" content="〈物語〉Monogatari Series. Here you'll find information about its light novels, the anime adaptation and more!" />
+		<meta property="twitter:image" content="https://monogatari-series.vercel.app/covers/shinobu-crying.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="hero">
+					<div class="backgroundWrapper">
+						<div class="background">
+							<div class="overlay"></div>
+							<picture>
+								<source srcset="/Monogatari_Paper_Background.avif" type="image/avif">
+								<source srcset="/Monogatari_Paper_Background.webp" type="image/webp">
+								<img src="/Monogatari_Paper_Background.png" alt="">
+							</picture>
+						</div>
+					</div>
+					<div class="title">
+						<ruby>
+							４<rt>yon.</rt>０<rt>zero.</rt>４<rt>yon.</rt>
+						</ruby>
+						<ruby class="small">
+							見<rt>mi.</rt>つ<rt>tsu.</rt>か<rt>ka.</rt>り<rt>ri.</rt>ま<rt>ma.</rt>せ<rt>se.</rt>ん<rt>n.</rt>
+						</ruby>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+<html>
