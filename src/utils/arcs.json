@@ -229,19 +229,19 @@
 		"color": "--bg-black"
 	},
 	{
-		"name": "owarimonogatari-jo",
-		"title": "Owarimonogatari Jo",
+		"name": "owarimonogatari-jou",
+		"title": "Owarimonogatari Jou",
 		"text": "(Episodes 1 - 13)",
 		"kanji": [
 			["終", "owari."],
 			["物", "mono."],
 			["語", "gatari."],
-			["上", "jo."]
+			["上", "jou."]
 		],
 		"pictures": [
-			"/covers/owarimonogatari-jo.avif",
-			"/covers/owarimonogatari-jo.webp",
-			"/covers/owarimonogatari-jo.jpg"
+			"/covers/owarimonogatari-jou.avif",
+			"/covers/owarimonogatari-jou.webp",
+			"/covers/owarimonogatari-jou.jpg"
 		],
 		"color": "--bg-black"
 	},
