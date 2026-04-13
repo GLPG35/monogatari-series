@@ -57,12 +57,12 @@ main {
 		text-align: center;
 
 		ruby {
-			font-size: 10em;
+			font-size: clamp(7rem, 5.8564rem + 4.4199vw, 10rem);
 			ruby-align: center;
 			line-height: 1.1em;
 
 			&.small {
-				font-size: 3.5em;
+				font-size: clamp(2.5rem, 2.1188rem + 1.4733vw, 3.5rem);
 				ruby-position: under;
 
 				rt {
