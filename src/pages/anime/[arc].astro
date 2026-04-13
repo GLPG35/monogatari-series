@@ -36,7 +36,7 @@ const findArc = arcs.find(x => x.name === arc)
 
 if (!findArc) return Astro.redirect('/404')
 
-const { color, pictures, name } = findArc
+const { color, pictures, name, title } = findArc
 ---
 
 <html lang="en" style={`--bg-color: var(${color})`}>
@@ -53,13 +53,13 @@ const { color, pictures, name } = findArc
 		<title>Monogatari Series - {name}</title>
 		<meta name="description" content="〈物語〉Monogatari Series. Here you'll find information about its light novels, the anime adaptation and more!" />
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content={`〈物語〉Monogatari Series - ${name}`} />
+		<meta property="og:title" content={`〈物語〉Monogatari Series - ${title}`} />
 		<meta property="og:description" content="〈物語〉Monogatari Series. Here you'll find information about its light novels, the anime adaptation and more!" />
 		<meta property="og:url" content="https://monogatariseri.es/" />
 		<meta property="og:image" content={`https://monogatari-series.vercel.app/banners/${name}.jpg`} />
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:url" content="https://monogatariseri.es/" />
-		<meta property="twitter:title" content={`〈物語〉Monogatari Series - ${name}`} />
+		<meta property="twitter:title" content={`〈物語〉Monogatari Series - ${title}`} />
 		<meta property="twitter:description" content="〈物語〉Monogatari Series. Here you'll find information about its light novels, the anime adaptation and more!" />
 		<meta property="twitter:image" content={`https://monogatari-series.vercel.app/banners/${name}.jpg`} />
 	</head>

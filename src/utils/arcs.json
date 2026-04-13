@@ -1,6 +1,7 @@
 [
 	{
 		"name": "bakemonogatari",
+		"title": "Bakemonogatari",
 		"text": "(Episodes 1 - 15)",
 		"kanji": [
 			["化", "bake."],
@@ -16,6 +17,7 @@
 	},
 	{
 		"name": "kizumonogatari-I",
+		"title": "Kizumonogatari I",
 		"text": "(Tekketsu-hen)",
 		"kanji": [
 			["傷", "kizu."],
@@ -32,6 +34,7 @@
 	},
 	{
 		"name": "kizumonogatari-II",
+		"title": "Kizumonogatari II",
 		"text": "(Nekketsu-hen)",
 		"kanji": [
 			["傷", "kizu."],
@@ -48,6 +51,7 @@
 	},
 	{
 		"name": "kizumonogatari-III",
+		"title": "Kizumonogatari III",
 		"text": "(Reiketsu-hen)",
 		"kanji": [
 			["傷", "kizu."],
@@ -64,6 +68,7 @@
 	},
 	{
 		"name": "nisemonogatari",
+		"title": "Nisemonogatari",
 		"text": "(Episodes 1 - 11)",
 		"kanji": [
 			["偽", "nise."],
@@ -79,6 +84,7 @@
 	},
 	{
 		"name": "nekomonogatari-kuro",
+		"title": "Nekomonogatari Kuro",
 		"text": "(Episodes 1 - 4)",
 		"kanji": [
 			["猫", "neko."],
@@ -95,6 +101,7 @@
 	},
 	{
 		"name": "nekomonogatari-shiro",
+		"title": "Nekomonogatari Shiro",
 		"text": "Second Season (Episodes 1 - 5)",
 		"kanji": [
 			["猫", "neko."],
@@ -111,6 +118,7 @@
 	},
 	{
 		"name": "kabukimonogatari",
+		"title": "Kabukimonogatari",
 		"text": "Second Season (Episodes 6 - 9)",
 		"kanji": [
 			["傾", "kabuki."],
@@ -126,6 +134,7 @@
 	},
 	{
 		"name": "hanamonogatari",
+		"title": "Hanamonogatari",
 		"text": "(Episodes 1 - 5)",
 		"kanji": [
 			["花", "hana."],
@@ -141,6 +150,7 @@
 	},
 	{
 		"name": "otorimonogatari",
+		"title": "Otorimonogatari",
 		"text": "Second Season (Episodes 10 - 13)",
 		"kanji": [
 			["囮", "otori."],
@@ -156,6 +166,7 @@
 	},
 	{
 		"name": "onimonogatari",
+		"title": "Onimonogatari",
 		"text": "Second Season (Episodes 14 - 17)",
 		"kanji": [
 			["鬼", "oni."],
@@ -171,6 +182,7 @@
 	},
 	{
 		"name": "koimonogatari",
+		"title": "Koimonogatari",
 		"text": "Second Season (Episodes 18 - 23)",
 		"kanji": [
 			["恋", "koi."],
@@ -186,6 +198,7 @@
 	},
 	{
 		"name": "tsukimonogatari",
+		"title": "Tsukimonogatari",
 		"text": "(Episodes 1 - 4)",
 		"kanji": [
 			["憑", "tsuki."],
@@ -201,6 +214,7 @@
 	},
 	{
 		"name": "koyomimonogatari",
+		"title": "Koyomimonogatari",
 		"text": "(Episodes 1 - 12)",
 		"kanji": [
 			["暦", "koyomi."],
@@ -216,6 +230,7 @@
 	},
 	{
 		"name": "owarimonogatari-jo",
+		"title": "Owarimonogatari Jo",
 		"text": "(Episodes 1 - 13)",
 		"kanji": [
 			["終", "owari."],
@@ -232,6 +247,7 @@
 	},
 	{
 		"name": "owarimonogatari-ge",
+		"title": "Owarimonogatari Ge",
 		"text": "(Episodes 1 - 7)",
 		"kanji": [
 			["終", "owari."],
@@ -248,6 +264,7 @@
 	},
 	{
 		"name": "zoku-owarimonogatari",
+		"title": "Zoku Owarimonogatari",
 		"text": "(Episodes 1 - 6)",
 		"kanji": [
 			["続", "zoku."],
@@ -264,6 +281,7 @@
 	},
 	{
 		"name": "orokamonogatari",
+		"title": "Orokamonogatari",
 		"text": "Off & Monster Season (Episode 1)",
 		"kanji": [
 			["愚", "oroka."],
@@ -279,6 +297,7 @@
 	},
 	{
 		"name": "nademonogatari",
+		"title": "Nademonogatari",
 		"text": "Off & Monster Season (Episodes 2 - 6)",
 		"kanji": [
 			["撫", "nade."],
@@ -294,6 +313,7 @@
 	},
 	{
 		"name": "wazamonogatari-ova",
+		"title": "Wazamonogatari OVA",
 		"text": "Off & Monster Season (Episode 6.5)",
 		"kanji": [
 			["業", "waza."],
@@ -310,6 +330,7 @@
 	},
 	{
 		"name": "wazamonogatari",
+		"title": "Wazamonogatari",
 		"text": "Off & Monster Season (Episodes 7 - 8)",
 		"kanji": [
 			["業", "waza."],
@@ -325,6 +346,7 @@
 	},
 	{
 		"name": "shinobumonogatari",
+		"title": "Shinobumonogatari",
 		"text": "Off & Monster Season (Episodes 9 - 14)",
 		"kanji": [
 			["忍", "shinobu."],
