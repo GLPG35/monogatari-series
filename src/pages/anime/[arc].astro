@@ -1,6 +1,7 @@
 ---
 import type { GetStaticPaths } from "astro"
 import Layout from '../../layouts/Layout.astro'
+import './arc.scss'
 import arcs from '../../utils/arcs.json'
 
 export const getStaticPaths = (() => {
@@ -35,7 +36,7 @@ const findArc = arcs.find(x => x.name === arc)
 
 if (!findArc) return Astro.redirect('/404')
 
-const { color, pictures } = findArc
+const { color, pictures, name } = findArc
 ---
 
 <html lang="en" style={`--bg-color: var(${color})`}>
@@ -49,22 +50,24 @@ const { color, pictures } = findArc
 		<link rel="manifest" href="/favicon/site.webmanifest" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Monogatari Series - Not Found</title>
+		<title>Monogatari Series - {name}</title>
 		<meta name="description" content="〈物語〉Monogatari Series. Here you'll find information about its light novels, the anime adaptation and more!" />
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="〈物語〉Monogatari Series - Not Found" />
+		<meta property="og:title" content={`〈物語〉Monogatari Series - ${name}`} />
 		<meta property="og:description" content="〈物語〉Monogatari Series. Here you'll find information about its light novels, the anime adaptation and more!" />
 		<meta property="og:url" content="https://monogatariseri.es/" />
-		<meta property="og:image" content={`https://monogatari-series.vercel.app/covers/${pictures[2]}`} />
+		<meta property="og:image" content={`https://monogatari-series.vercel.app/banners/${name}.jpg`} />
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:url" content="https://monogatariseri.es/" />
-		<meta property="twitter:title" content="〈物語〉Monogatari Series - Not Found" />
+		<meta property="twitter:title" content={`〈物語〉Monogatari Series - ${name}`} />
 		<meta property="twitter:description" content="〈物語〉Monogatari Series. Here you'll find information about its light novels, the anime adaptation and more!" />
-		<meta property="twitter:image" content={`https://monogatari-series.vercel.app/covers/${pictures[2]}`} />
+		<meta property="twitter:image" content={`https://monogatari-series.vercel.app/banners/${name}.jpg`} />
 	</head>
 	<body>
 		<Layout>
-			
+			<main>
+				
+			</main>
 		</Layout>
 	</body>
 </html>
