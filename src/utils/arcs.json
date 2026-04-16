@@ -13,7 +13,226 @@
 			"/covers/bakemonogatari.webp",
 			"/covers/bakemonogatari.png"
 		],
-		"color": "--bg-purple"
+		"picturesHalf": [
+			"/covers/bakemonogatari-0.5x.avif",
+			"/covers/bakemonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-purple",
+		"info": {
+			"date": "July 3, 2009",
+			"gallery": [
+				[
+					[
+						"/gallery/bakemonogatari/hitagi-crab.avif",
+						"/gallery/bakemonogatari/hitagi-crab.webp",
+						"/gallery/bakemonogatari/hitagi-crab.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/mayoi-snail.avif",
+						"/gallery/bakemonogatari/mayoi-snail.webp",
+						"/gallery/bakemonogatari/mayoi-snail.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/suruga-monkey.avif",
+						"/gallery/bakemonogatari/suruga-monkey.webp",
+						"/gallery/bakemonogatari/suruga-monkey.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/nadeko-snake.avif",
+						"/gallery/bakemonogatari/nadeko-snake.webp",
+						"/gallery/bakemonogatari/nadeko-snake.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/tsubasa-cat.avif",
+						"/gallery/bakemonogatari/tsubasa-cat.webp",
+						"/gallery/bakemonogatari/tsubasa-cat.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/shinobu.avif",
+						"/gallery/bakemonogatari/shinobu.webp",
+						"/gallery/bakemonogatari/shinobu.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/hita-mayo-suru-nade-tsuba.avif",
+						"/gallery/bakemonogatari/hita-mayo-suru-nade-tsuba.webp",
+						"/gallery/bakemonogatari/hita-mayo-suru-nade-tsuba.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG01.avif",
+						"/gallery/bakemonogatari/CG01.webp",
+						"/gallery/bakemonogatari/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG02.avif",
+						"/gallery/bakemonogatari/CG02.webp",
+						"/gallery/bakemonogatari/CG02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG03.avif",
+						"/gallery/bakemonogatari/CG03.webp",
+						"/gallery/bakemonogatari/CG03.jpeg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG04.avif",
+						"/gallery/bakemonogatari/CG04.webp",
+						"/gallery/bakemonogatari/CG04.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG05.avif",
+						"/gallery/bakemonogatari/CG05.webp",
+						"/gallery/bakemonogatari/CG05.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG06.avif",
+						"/gallery/bakemonogatari/CG06.webp",
+						"/gallery/bakemonogatari/CG06.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG07.avif",
+						"/gallery/bakemonogatari/CG07.webp",
+						"/gallery/bakemonogatari/CG07.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG08.avif",
+						"/gallery/bakemonogatari/CG08.webp",
+						"/gallery/bakemonogatari/CG08.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG09.avif",
+						"/gallery/bakemonogatari/CG09.webp",
+						"/gallery/bakemonogatari/CG09.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG10.avif",
+						"/gallery/bakemonogatari/CG10.webp",
+						"/gallery/bakemonogatari/CG10.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG11.avif",
+						"/gallery/bakemonogatari/CG11.webp",
+						"/gallery/bakemonogatari/CG11.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG12.avif",
+						"/gallery/bakemonogatari/CG12.webp",
+						"/gallery/bakemonogatari/CG12.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG13.avif",
+						"/gallery/bakemonogatari/CG13.webp",
+						"/gallery/bakemonogatari/CG13.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG14.avif",
+						"/gallery/bakemonogatari/CG14.webp",
+						"/gallery/bakemonogatari/CG14.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG15.avif",
+						"/gallery/bakemonogatari/CG15.webp",
+						"/gallery/bakemonogatari/CG15.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG16.avif",
+						"/gallery/bakemonogatari/CG16.webp",
+						"/gallery/bakemonogatari/CG16.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG17.avif",
+						"/gallery/bakemonogatari/CG17.webp",
+						"/gallery/bakemonogatari/CG17.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG18.avif",
+						"/gallery/bakemonogatari/CG18.webp",
+						"/gallery/bakemonogatari/CG18.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG19.avif",
+						"/gallery/bakemonogatari/CG19.webp",
+						"/gallery/bakemonogatari/CG19.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": "Thanks to Oshino Meme, Araragi Koyomi, a high school student, is able to remain a human after coming across a female vampire... However, since the incident, Koyomi seems to meet girls who have an apparition-related issue. Senjougahara Hitagi doesn't weigh anything, Kanbaru Suruga's right arm becomes like that of a monkey's, and a young girl, Mayoi, cannot find her way home no matter how many times she tries. Koyomi, a Mr. Nice Guy, ends up helping each and every girl solve her problem with the help of Oshino Meme."
+		}
 	},
 	{
 		"name": "kizumonogatari-I",
@@ -30,7 +249,49 @@
 			"/covers/kizumonogatari-I.webp",
 			"/covers/kizumonogatari-I.png"
 		],
-		"color": "--bg-red"
+		"picturesHalf": [
+			"/covers/kizumonogatari-I-0.5x.avif",
+			"/covers/kizumonogatari-I-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-red",
+		"info": {
+			"date": "January 8, 2016",
+			"gallery": [
+				[
+					[
+						"/gallery/kizumonogatari-I/kiss-shot.avif",
+						"/gallery/kizumonogatari-I/kiss-shot.webp",
+						"/gallery/kizumonogatari-I/kiss-shot.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/tenobu-wide.avif",
+						"/gallery/kizumonogatari-I/tenobu-wide.webp",
+						"/gallery/kizumonogatari-I/tenobu-wide.png"
+					],
+					"visible"
+				]
+			],
+			"description": "",
+			"alternatives": [
+				{
+					"name": "kizumonogatari-koyomi-vamp",
+					"text": "Compilation",
+					"pictures": [
+						"/covers/kizumonogatari-koyomi-vamp.avif",
+						"/covers/kizumonogatari-koyomi-vamp.webp",
+						"/covers/kizumonogatari-koyomi-vamp.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp"
+					]
+				}
+			]
+		}
 	},
 	{
 		"name": "kizumonogatari-II",
@@ -47,7 +308,49 @@
 			"/covers/kizumonogatari-II.webp",
 			"/covers/kizumonogatari-II.png"
 		],
-		"color": "--bg-blue"
+		"picturesHalf": [
+			"/covers/kizumonogatari-II-0.5x.avif",
+			"/covers/kizumonogatari-II-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-blue",
+		"info": {
+			"date": "August 19, 2016",
+			"gallery": [
+				[
+					[
+						"/gallery/kizumonogatari-II/tweenobu.avif",
+						"/gallery/kizumonogatari-II/tweenobu.webp",
+						"/gallery/kizumonogatari-II/tweenobu.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-II/tweenobu-wide.avif",
+						"/gallery/kizumonogatari-II/tweenobu-wide.webp",
+						"/gallery/kizumonogatari-II/tweenobu-wide.png"
+					],
+					"visible"
+				]
+			],
+			"description": "",
+			"alternatives": [
+				{
+					"name": "kizumonogatari-koyomi-vamp",
+					"text": "Compilation",
+					"pictures": [
+						"/covers/kizumonogatari-koyomi-vamp.avif",
+						"/covers/kizumonogatari-koyomi-vamp.webp",
+						"/covers/kizumonogatari-koyomi-vamp.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp"
+					]
+				}
+			]
+		}
 	},
 	{
 		"name": "kizumonogatari-III",
@@ -64,7 +367,126 @@
 			"/covers/kizumonogatari-III.webp",
 			"/covers/kizumonogatari-III.png"
 		],
-		"color": "--bg-orange"
+		"picturesHalf": [
+			"/covers/kizumonogatari-III-0.5x.avif",
+			"/covers/kizumonogatari-III-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-yellow",
+		"info": {
+			"date": "January 6, 2017",
+			"gallery": [
+				[
+					[
+						"/gallery/kizumonogatari-III/hanekawa.avif",
+						"/gallery/kizumonogatari-III/hanekawa.webp",
+						"/gallery/kizumonogatari-III/hanekawa.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-III/kiss-shot-wide.avif",
+						"/gallery/kizumonogatari-III/kiss-shot-wide.webp",
+						"/gallery/kizumonogatari-III/kiss-shot-wide.png"
+					],
+					"visible"
+				]
+			],
+			"description": "",
+			"alternatives": [
+				{
+					"name": "kizumonogatari-koyomi-vamp",
+					"text": "Compilation",
+					"pictures": [
+						"/covers/kizumonogatari-koyomi-vamp.avif",
+						"/covers/kizumonogatari-koyomi-vamp.webp",
+						"/covers/kizumonogatari-koyomi-vamp.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "kizumonogatari-koyomi-vamp",
+		"title": "Kizumonogatari: Koyomi Vamp",
+		"text": "Compilation",
+		"kanji": [
+			["傷", "kizu."],
+			["物", "mono."],
+			["語", "gatari."],
+			["こよみヴァンプ"]
+		],
+		"pictures": [
+			"/covers/kizumonogatari-koyomi-vamp.avif",
+			"/covers/kizumonogatari-koyomi-vamp.webp",
+			"/covers/kizumonogatari-koyomi-vamp.png"
+		],
+		"picturesHalf": [
+			"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
+			"/covers/kizumonogatari-koyomi-vamp-0.5x.webp"
+		],
+		"hidden": true,
+		"color": "--bg-black",
+		"info": {
+			"date": "January 12, 2024",
+			"gallery": [
+				[
+					[
+						"/gallery/kizumonogatari-III/hanekawa.avif",
+						"/gallery/kizumonogatari-III/hanekawa.webp",
+						"/gallery/kizumonogatari-III/hanekawa.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": "",
+			"alternatives": [
+				{
+					"name": "kizumonogatari-I",
+					"text": "Original",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp"
+					]
+				},
+				{
+					"name": "kizumonogatari-II",
+					"text": "Original",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp"
+					]
+				},
+				{
+					"name": "kizumonogatari-III",
+					"text": "Original",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp"
+					]
+				}
+			]
+		}
 	},
 	{
 		"name": "nisemonogatari",
@@ -80,7 +502,90 @@
 			"/covers/nisemonogatari.webp",
 			"/covers/nisemonogatari.jpg"
 		],
-		"color": "--bg-green"
+		"picturesHalf": [
+			"/covers/nisemonogatari-0.5x.avif",
+			"/covers/nisemonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-green",
+		"info": {
+			"date": "March 18, 2012",
+			"gallery": [
+				[
+					[
+						"/gallery/nisemonogatari/hitagi-karen-bee.avif",
+						"/gallery/nisemonogatari/hitagi-karen-bee.webp",
+						"/gallery/nisemonogatari/hitagi-karen-bee.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/karen-bee.avif",
+						"/gallery/nisemonogatari/karen-bee.webp",
+						"/gallery/nisemonogatari/karen-bee.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/tsukihi-phoenix.avif",
+						"/gallery/nisemonogatari/tsukihi-phoenix.webp",
+						"/gallery/nisemonogatari/tsukihi-phoenix.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/ending.avif",
+						"/gallery/nisemonogatari/ending.webp",
+						"/gallery/nisemonogatari/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/shinobu.avif",
+						"/gallery/nisemonogatari/shinobu.webp",
+						"/gallery/nisemonogatari/shinobu.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/fire-sisters.avif",
+						"/gallery/nisemonogatari/fire-sisters.webp",
+						"/gallery/nisemonogatari/fire-sisters.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/CG02.avif",
+						"/gallery/nisemonogatari/CG02.webp",
+						"/gallery/nisemonogatari/CG02.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/CG03.avif",
+						"/gallery/nisemonogatari/CG03.webp",
+						"/gallery/nisemonogatari/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/CG04.avif",
+						"/gallery/nisemonogatari/CG04.webp",
+						"/gallery/nisemonogatari/CG04.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "nekomonogatari-kuro",
@@ -97,7 +602,50 @@
 			"/covers/nekomonogatari-kuro.webp",
 			"/covers/nekomonogatari-kuro.jpg"
 		],
-		"color": "--bg-black"
+		"picturesHalf": [
+			"/covers/nekomonogatari-kuro-0.5x.avif",
+			"/covers/nekomonogatari-kuro-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-black",
+		"info": {
+			"date": "December 31, 2012",
+			"gallery": [
+				[
+					[
+						"/gallery/nekomonogatari-kuro/tsubasa-family.avif",
+						"/gallery/nekomonogatari-kuro/tsubasa-family.webp",
+						"/gallery/nekomonogatari-kuro/tsubasa-family.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-kuro/ending.avif",
+						"/gallery/nekomonogatari-kuro/ending.webp",
+						"/gallery/nekomonogatari-kuro/ending.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-kuro/CG01.avif",
+						"/gallery/nekomonogatari-kuro/CG01.webp",
+						"/gallery/nekomonogatari-kuro/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-kuro/box-art.avif",
+						"/gallery/nekomonogatari-kuro/box-art.webp",
+						"/gallery/nekomonogatari-kuro/box-art.jpg"
+					],
+					"hidden"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "nekomonogatari-shiro",
@@ -114,7 +662,66 @@
 			"/covers/nekomonogatari-shiro.webp",
 			"/covers/nekomonogatari-shiro.png"
 		],
-		"color": "--bg-white"
+		"picturesHalf": [
+			"/covers/nekomonogatari-shiro-0.5x.avif",
+			"/covers/nekomonogatari-shiro-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-white",
+		"info": {
+			"date": "July 6, 2013",
+			"gallery": [
+				[
+					[
+						"/gallery/nekomonogatari-shiro/tsubasa-tiger-2.avif",
+						"/gallery/nekomonogatari-shiro/tsubasa-tiger-2.webp",
+						"/gallery/nekomonogatari-shiro/tsubasa-tiger-2.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-shiro/ending.avif",
+						"/gallery/nekomonogatari-shiro/ending.webp",
+						"/gallery/nekomonogatari-shiro/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-shiro/CG01.avif",
+						"/gallery/nekomonogatari-shiro/CG01.webp",
+						"/gallery/nekomonogatari-shiro/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-shiro/CG02.avif",
+						"/gallery/nekomonogatari-shiro/CG02.webp",
+						"/gallery/nekomonogatari-shiro/CG02.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-shiro/CG03.avif",
+						"/gallery/nekomonogatari-shiro/CG03.webp",
+						"/gallery/nekomonogatari-shiro/CG03.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-shiro/CG04.avif",
+						"/gallery/nekomonogatari-shiro/CG04.webp",
+						"/gallery/nekomonogatari-shiro/CG04.png"
+					],
+					"hidden"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "kabukimonogatari",
@@ -130,7 +737,74 @@
 			"/covers/kabukimonogatari.webp",
 			"/covers/kabukimonogatari.jpg"
 		],
-		"color": "--bg-blue"
+		"picturesHalf": [
+			"/covers/kabukimonogatari-0.5x.avif",
+			"/covers/kabukimonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-blue",
+		"info": {
+			"date": "August 17, 2013",
+			"gallery": [
+				[
+					[
+						"/gallery/kabukimonogatari/mayoi-jiangshi.avif",
+						"/gallery/kabukimonogatari/mayoi-jiangshi.webp",
+						"/gallery/kabukimonogatari/mayoi-jiangshi.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kabukimonogatari/ending.avif",
+						"/gallery/kabukimonogatari/ending.webp",
+						"/gallery/kabukimonogatari/ending.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kabukimonogatari/CG01.avif",
+						"/gallery/kabukimonogatari/CG01.webp",
+						"/gallery/kabukimonogatari/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kabukimonogatari/CG02.avif",
+						"/gallery/kabukimonogatari/CG02.webp",
+						"/gallery/kabukimonogatari/CG02.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kabukimonogatari/CG03.avif",
+						"/gallery/kabukimonogatari/CG03.webp",
+						"/gallery/kabukimonogatari/CG03.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kabukimonogatari/CG04.avif",
+						"/gallery/kabukimonogatari/CG04.webp",
+						"/gallery/kabukimonogatari/CG04.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kabukimonogatari/CG05.avif",
+						"/gallery/kabukimonogatari/CG05.webp",
+						"/gallery/kabukimonogatari/CG05.png"
+					],
+					"hidden"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "hanamonogatari",
@@ -146,7 +820,58 @@
 			"/covers/hanamonogatari.webp",
 			"/covers/hanamonogatari.jpg"
 		],
-		"color": "--bg-salmon"
+		"picturesHalf": [
+			"/covers/hanamonogatari-0.5x.avif",
+			"/covers/hanamonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-salmon",
+		"info": {
+			"date": "August 16, 2014",
+			"gallery": [
+				[
+					[
+						"/gallery/hanamonogatari/suruga-devil.avif",
+						"/gallery/hanamonogatari/suruga-devil.webp",
+						"/gallery/hanamonogatari/suruga-devil.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/hanamonogatari/ending.avif",
+						"/gallery/hanamonogatari/ending.webp",
+						"/gallery/hanamonogatari/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/hanamonogatari/CG01.avif",
+						"/gallery/hanamonogatari/CG01.webp",
+						"/gallery/hanamonogatari/CG01.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/hanamonogatari/CG02.avif",
+						"/gallery/hanamonogatari/CG02.webp",
+						"/gallery/hanamonogatari/CG02.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/hanamonogatari/CG03.avif",
+						"/gallery/hanamonogatari/CG03.webp",
+						"/gallery/hanamonogatari/CG03.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "otorimonogatari",
@@ -162,7 +887,74 @@
 			"/covers/otorimonogatari.webp",
 			"/covers/otorimonogatari.jpg"
 		],
-		"color": "--bg-white"
+		"picturesHalf": [
+			"/covers/otorimonogatari-0.5x.avif",
+			"/covers/otorimonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-white",
+		"info": {
+			"date": "September 21, 2013",
+			"gallery": [
+				[
+					[
+						"/gallery/otorimonogatari/nadeko-medusa-2.avif",
+						"/gallery/otorimonogatari/nadeko-medusa-2.webp",
+						"/gallery/otorimonogatari/nadeko-medusa-2.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/CG01.avif",
+						"/gallery/otorimonogatari/CG01.webp",
+						"/gallery/otorimonogatari/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/CG02.avif",
+						"/gallery/otorimonogatari/CG02.webp",
+						"/gallery/otorimonogatari/CG02.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/CG03.avif",
+						"/gallery/otorimonogatari/CG03.webp",
+						"/gallery/otorimonogatari/CG03.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/CG04.avif",
+						"/gallery/otorimonogatari/CG04.webp",
+						"/gallery/otorimonogatari/CG04.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/CG05.avif",
+						"/gallery/otorimonogatari/CG05.webp",
+						"/gallery/otorimonogatari/CG05.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/CG06.avif",
+						"/gallery/otorimonogatari/CG06.webp",
+						"/gallery/otorimonogatari/CG06.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "onimonogatari",
@@ -178,7 +970,66 @@
 			"/covers/onimonogatari.webp",
 			"/covers/onimonogatari.jpg"
 		],
-		"color": "--bg-orange"
+		"picturesHalf": [
+			"/covers/onimonogatari-0.5x.avif",
+			"/covers/onimonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-orange",
+		"info": {
+			"date": "October 26, 2013",
+			"gallery": [
+				[
+					[
+						"/gallery/onimonogatari/shinobu-time-2.avif",
+						"/gallery/onimonogatari/shinobu-time-2.webp",
+						"/gallery/onimonogatari/shinobu-time-2.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/CG01.avif",
+						"/gallery/onimonogatari/CG01.webp",
+						"/gallery/onimonogatari/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/CG02.avif",
+						"/gallery/onimonogatari/CG02.webp",
+						"/gallery/onimonogatari/CG02.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/CG03.avif",
+						"/gallery/onimonogatari/CG03.webp",
+						"/gallery/onimonogatari/CG03.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/CG04.avif",
+						"/gallery/onimonogatari/CG04.webp",
+						"/gallery/onimonogatari/CG04.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/CG05.avif",
+						"/gallery/onimonogatari/CG05.webp",
+						"/gallery/onimonogatari/CG05.png"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "koimonogatari",
@@ -194,7 +1045,66 @@
 			"/covers/koimonogatari.webp",
 			"/covers/koimonogatari.jpg"
 		],
-		"color": "--bg-purple"
+		"picturesHalf": [
+			"/covers/koimonogatari-0.5x.avif",
+			"/covers/koimonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-purple",
+		"info": {
+			"date": "November 23, 2013",
+			"gallery": [
+				[
+					[
+						"/gallery/koimonogatari/hitagi-end-2.avif",
+						"/gallery/koimonogatari/hitagi-end-2.webp",
+						"/gallery/koimonogatari/hitagi-end-2.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/koimonogatari/CG01.avif",
+						"/gallery/koimonogatari/CG01.webp",
+						"/gallery/koimonogatari/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koimonogatari/CG02.avif",
+						"/gallery/koimonogatari/CG02.webp",
+						"/gallery/koimonogatari/CG02.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/koimonogatari/CG03.avif",
+						"/gallery/koimonogatari/CG03.webp",
+						"/gallery/koimonogatari/CG03.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koimonogatari/CG04.avif",
+						"/gallery/koimonogatari/CG04.webp",
+						"/gallery/koimonogatari/CG04.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/koimonogatari/CG05.avif",
+						"/gallery/koimonogatari/CG05.webp",
+						"/gallery/koimonogatari/CG05.png"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "tsukimonogatari",
@@ -210,7 +1120,26 @@
 			"/covers/tsukimonogatari.webp",
 			"/covers/tsukimonogatari.jpg"
 		],
-		"color": "--bg-green"
+		"picturesHalf": [
+			"/covers/tsukimonogatari-0.5x.avif",
+			"/covers/tsukimonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-green",
+		"info": {
+			"date": "December 31, 2014",
+			"gallery": [
+				[
+					[
+						"/gallery/tsukimonogatari/yotsugi-doll-2.avif",
+						"/gallery/tsukimonogatari/yotsugi-doll-2.webp",
+						"/gallery/tsukimonogatari/yotsugi-doll-2.png"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "koyomimonogatari",
@@ -226,7 +1155,26 @@
 			"/covers/koyomimonogatari.webp",
 			"/covers/koyomimonogatari.png"
 		],
-		"color": "--bg-black"
+		"picturesHalf": [
+			"/covers/koyomimonogatari-0.5x.avif",
+			"/covers/koyomimonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-black",
+		"info": {
+			"date": "January 10, 2016",
+			"gallery": [
+				[
+					[
+						"/covers/koyomimonogatari.avif",
+						"/covers/koyomimonogatari.webp",
+						"/covers/koyomimonogatari.png"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "owarimonogatari-jou",
@@ -243,7 +1191,26 @@
 			"/covers/owarimonogatari-jou.webp",
 			"/covers/owarimonogatari-jou.jpg"
 		],
-		"color": "--bg-black"
+		"picturesHalf": [
+			"/covers/owarimonogatari-jou-0.5x.avif",
+			"/covers/owarimonogatari-jou-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-black",
+		"info": {
+			"date": "October 3, 2015",
+			"gallery": [
+				[
+					[
+						"/covers/owarimonogatari-jou.avif",
+						"/covers/owarimonogatari-jou.webp",
+						"/covers/owarimonogatari-jou.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "owarimonogatari-ge",
@@ -260,7 +1227,26 @@
 			"/covers/owarimonogatari-ge.webp",
 			"/covers/owarimonogatari-ge.jpg"
 		],
-		"color": "--bg-purple"
+		"picturesHalf": [
+			"/covers/owarimonogatari-ge-0.5x.avif",
+			"/covers/owarimonogatari-ge-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-purple",
+		"info": {
+			"date": "August 12, 2017",
+			"gallery": [
+				[
+					[
+						"/covers/owarimonogatari-ge.avif",
+						"/covers/owarimonogatari-ge.webp",
+						"/covers/owarimonogatari-ge.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "zoku-owarimonogatari",
@@ -277,7 +1263,26 @@
 			"/covers/zoku-owarimonogatari.webp",
 			"/covers/zoku-owarimonogatari.png"
 		],
-		"color": "--bg-white"
+		"picturesHalf": [
+			"/covers/zoku-owarimonogatari-0.5x.avif",
+			"/covers/zoku-owarimonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-white",
+		"info": {
+			"date": "May 18, 2019",
+			"gallery": [
+				[
+					[
+						"/covers/zoku-owarimonogatari.avif",
+						"/covers/zoku-owarimonogatari.webp",
+						"/covers/zoku-owarimonogatari.png"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "orokamonogatari",
@@ -293,7 +1298,26 @@
 			"/covers/orokamonogatari.webp",
 			"/covers/orokamonogatari.png"
 		],
-		"color": "--bg-green"
+		"picturesHalf": [
+			"/covers/orokamonogatari-0.5x.avif",
+			"/covers/orokamonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-green",
+		"info": {
+			"date": "July 6, 2024",
+			"gallery": [
+				[
+					[
+						"/covers/orokamonogatari.avif",
+						"/covers/orokamonogatari.webp",
+						"/covers/orokamonogatari.png"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "nademonogatari",
@@ -309,7 +1333,26 @@
 			"/covers/nademonogatari.webp",
 			"/covers/nademonogatari.png"
 		],
-		"color": "--bg-green"
+		"picturesHalf": [
+			"/covers/nademonogatari-0.5x.avif",
+			"/covers/nademonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-green",
+		"info": {
+			"date": "July 13, 2024",
+			"gallery": [
+				[
+					[
+						"/covers/nademonogatari.avif",
+						"/covers/nademonogatari.webp",
+						"/covers/nademonogatari.png"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "wazamonogatari-ova",
@@ -326,7 +1369,26 @@
 			"/covers/wazamonogatari-ova.webp",
 			"/covers/wazamonogatari-ova.jpg"
 		],
-		"color": "--bg-orange"
+		"picturesHalf": [
+			"/covers/wazamonogatari-ova-0.5x.avif",
+			"/covers/wazamonogatari-ova-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-orange",
+		"info": {
+			"date": "August 17, 2024",
+			"gallery": [
+				[
+					[
+						"/covers/wazamonogatari-ova.avif",
+						"/covers/wazamonogatari-ova.webp",
+						"/covers/wazamonogatari-ova.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "wazamonogatari",
@@ -342,7 +1404,26 @@
 			"/covers/wazamonogatari.webp",
 			"/covers/wazamonogatari.png"
 		],
-		"color": "--bg-orange"
+		"picturesHalf": [
+			"/covers/wazamonogatari-0.5x.avif",
+			"/covers/wazamonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-orange",
+		"info": {
+			"date": "August 24, 2024",
+			"gallery": [
+				[
+					[
+						"/covers/wazamonogatari.avif",
+						"/covers/wazamonogatari.webp",
+						"/covers/wazamonogatari.png"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	},
 	{
 		"name": "shinobumonogatari",
@@ -358,6 +1439,25 @@
 			"/covers/shinobumonogatari.webp",
 			"/covers/shinobumonogatari.png"
 		],
-		"color": "--bg-orange"
+		"picturesHalf": [
+			"/covers/shinobumonogatari-0.5x.avif",
+			"/covers/shinobumonogatari-0.5x.webp"
+		],
+		"hidden": false,
+		"color": "--bg-yellow",
+		"info": {
+			"date": "September 14, 2024",
+			"gallery": [
+				[
+					[
+						"/covers/shinobumonogatari.avif",
+						"/covers/shinobumonogatari.webp",
+						"/covers/shinobumonogatari.png"
+					],
+					"visible"
+				]
+			],
+			"description": ""
+		}
 	}
 ]

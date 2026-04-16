@@ -80,7 +80,7 @@ import stories from '../utils/stories.json'
 						<p>In this case, the guide follows the <em>light novel release order</em>, as it preserves both the creator's narrative progression and Studio SHAFT's <em>intended broadcast order</em>.</p>
 					</div>
 					<div class="titles">
-						{arcs.map(({ name, text, kanji, pictures }, i) => (
+						{arcs.filter(x => !x.hidden).map(({ name, text, kanji, pictures }, i) => (
 							<div class="section">
 								<div class="number">
 									<div class="numberWrapper">
@@ -124,7 +124,7 @@ import stories from '../utils/stories.json'
 					<div class="subsection">
 						<h2>Short Stories</h2>
 						<p>These short stories follow a specific order, so after finishing an arc, come back to this section to check if there's something you need to read.</p>
-						<p><em>Terminology Note: While the anime translates 怪異 as "oddities," these short stories follow the official light novel translation, "aberrations".</em></p>
+						<p><em>Terminology note: While the anime translates 怪異 as "oddities", these short stories follow the official light novel translation, "aberrations".</em></p>
 					</div>
 					<div class="stories">
 						{stories.map(({ name, when, pictures, file }) => (

@@ -3,6 +3,7 @@ import type { GetStaticPaths } from "astro"
 import Layout from '../../layouts/Layout.astro'
 import './arc.scss'
 import arcs from '../../utils/arcs.json'
+import GalleryContainer from '../../components/GalleryContainer'
 
 export const getStaticPaths = (() => {
 	return [
@@ -10,6 +11,7 @@ export const getStaticPaths = (() => {
 		{ params: { arc: 'kizumonogatari-I' }},
 		{ params: { arc: 'kizumonogatari-II' }},
 		{ params: { arc: 'kizumonogatari-III' }},
+		{ params: { arc: 'kizumonogatari-koyomi-vamp' }},
 		{ params: { arc: 'nisemonogatari' }},
 		{ params: { arc: 'nekomonogatari-kuro' }},
 		{ params: { arc: 'nekomonogatari-shiro' }},
@@ -20,7 +22,7 @@ export const getStaticPaths = (() => {
 		{ params: { arc: 'koimonogatari' }},
 		{ params: { arc: 'tsukimonogatari' }},
 		{ params: { arc: 'koyomimonogatari' }},
-		{ params: { arc: 'owarimonogatari-jo' }},
+		{ params: { arc: 'owarimonogatari-jou' }},
 		{ params: { arc: 'owarimonogatari-ge' }},
 		{ params: { arc: 'zoku-owarimonogatari' }},
 		{ params: { arc: 'orokamonogatari' }},
@@ -32,11 +34,14 @@ export const getStaticPaths = (() => {
 }) satisfies GetStaticPaths
 
 const { arc } = Astro.params
-const findArc = arcs.find(x => x.name === arc)
+const findArcIndex = arcs.findIndex(x => x.name === arc)
 
-if (!findArc) return Astro.redirect('/404')
+if (findArcIndex === -1) return Astro.redirect('/404')
 
-const { color, pictures, name, title } = findArc
+const { color, pictures, name, title, kanji, info } = arcs[findArcIndex]
+const prevArc = findArcIndex === 0 || arcs[findArcIndex].hidden ? null : arcs[findArcIndex - (arcs[findArcIndex - 1].hidden ? 2 : 1)]
+const nextArc = findArcIndex === arcs.length - 1 || arcs[findArcIndex].hidden ? null : arcs[findArcIndex + (arcs[findArcIndex + 1].hidden ? 2 : 1)]
+const gallery = info.gallery as [string[], "visible"|"hidden"][]
 ---
 
 <html lang="en" style={`--bg-color: var(${color})`}>
@@ -66,7 +71,132 @@ const { color, pictures, name, title } = findArc
 	<body>
 		<Layout>
 			<main>
-				
+				<div class="summary">
+					<div class="cover">
+						<picture>
+							{pictures.map((path, i) => {
+								const isLast = pictures.length === i + 1
+								const type = path.split('.').pop()
+
+								if (isLast) return <img src={path} alt="">
+								
+								return <source srcset={path} type={`image/${type}`}>
+							})}
+						</picture>
+					</div>
+					<div class="info">
+						<div class="subtitle">
+							{kanji.map(x => x[0]).join('')}
+						</div>
+						<div class="title">
+							<h3>{title}</h3>
+						</div>
+						<div class="date">
+							{info.date}
+						</div>
+						<div class="relations">
+							<h4>Relations</h4>
+							<div class="covers">
+								{prevArc &&
+									<a class="relation" href={`/anime/${prevArc.name}`}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<img src="/99.png" alt="">
+													</picture>
+													<picture class="duplicate">
+														<img src="/99.png" alt="">
+													</picture>
+												</div>
+												<span>Previous</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(prevArc.picturesHalf ? prevArc.picturesHalf : prevArc.pictures).map((path, i) => {
+													const isLast = (prevArc.picturesHalf ? prevArc.picturesHalf : prevArc.pictures).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="">
+													
+													return <source srcset={path} type={`image/${type}`}>
+												})}
+											</picture>
+										</div>		
+									</a>
+								}
+								{nextArc &&
+									<a class="relation" href={`/anime/${nextArc.name}`}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<img src="/85.png" alt="">
+													</picture>
+													<picture class="duplicate">
+														<img src="/85.png" alt="">
+													</picture>
+												</div>
+												<span>Next</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(nextArc.picturesHalf ? nextArc.picturesHalf : nextArc.pictures).map((path, i) => {
+													const isLast = (nextArc.picturesHalf ? nextArc.picturesHalf : nextArc.pictures).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="">
+													
+													return <source srcset={path} type={`image/${type}`}>
+												})}
+											</picture>
+										</div>		
+									</a>
+								}
+								{info.alternatives && info.alternatives.map(alternative => (
+									<a class="relation" href={`/anime/${alternative.name}`}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<source srcset="/12.avif" type="image/avif" />
+														<source srcset="/12.webp" type="image/webp" />
+														<img src="/12.png" alt="" />
+													</picture>
+													<picture class="duplicate">
+														<source srcset="/12.avif" type="image/avif" />
+														<source srcset="/12.webp" type="image/webp" />
+														<img src="/12.png" alt="" />
+													</picture>
+												</div>
+												<span>{alternative.text}</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(alternative.picturesHalf ? alternative.picturesHalf : alternative.pictures).map((path, i) => {
+													const isLast = (alternative.picturesHalf ? alternative.picturesHalf : alternative.pictures).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="">
+													
+													return <source srcset={path} type={`image/${type}`}>
+												})}
+											</picture>
+										</div>		
+									</a>
+								))}
+							</div>
+						</div>
+						<div class="section">
+							<h4>Description</h4>
+							<p>{info.description}</p>
+						</div>
+						<GalleryContainer client:load gallery={gallery} />
+					</div>
+				</div>
 			</main>
 		</Layout>
 	</body>
