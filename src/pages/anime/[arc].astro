@@ -192,7 +192,7 @@ const gallery = info.gallery as [string[], "visible"|"hidden"][]
 						</div>
 						<div class="section">
 							<h4>Description</h4>
-							<p>{info.description}</p>
+							{info.description.map(text => (<p>{text}</p>))}
 						</div>
 						<GalleryContainer client:load gallery={gallery} />
 					</div>

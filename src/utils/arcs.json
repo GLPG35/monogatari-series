@@ -80,6 +80,14 @@
 				],
 				[
 					[
+						"/gallery/bakemonogatari/CG20.avif",
+						"/gallery/bakemonogatari/CG20.webp",
+						"/gallery/bakemonogatari/CG20.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
 						"/gallery/bakemonogatari/CG01.avif",
 						"/gallery/bakemonogatari/CG01.webp",
 						"/gallery/bakemonogatari/CG01.jpg"
@@ -231,7 +239,9 @@
 					"visible"
 				]
 			],
-			"description": "Thanks to Oshino Meme, Araragi Koyomi, a high school student, is able to remain a human after coming across a female vampire... However, since the incident, Koyomi seems to meet girls who have an apparition-related issue. Senjougahara Hitagi doesn't weigh anything, Kanbaru Suruga's right arm becomes like that of a monkey's, and a young girl, Mayoi, cannot find her way home no matter how many times she tries. Koyomi, a Mr. Nice Guy, ends up helping each and every girl solve her problem with the help of Oshino Meme."
+			"description": [
+				"Thanks to Oshino Meme, Araragi Koyomi, a high school student, is able to remain a human after coming across a female vampire... However, since the incident, Araragi seems to meet girls who have an oddity-related issue. Senjougahara Hitagi doesn't weigh anything, Kanbaru Suruga's right arm becomes like that of a monkey's, and a young girl, Mayoi, cannot find her way home no matter how many times she tries. Araragi, a Mr. Nice Guy, ends up helping each and every girl solve her problem with the help of Oshino Meme."
+			]
 		}
 	},
 	{
@@ -275,7 +285,10 @@
 					"visible"
 				]
 			],
-			"description": "",
+			"description": [
+				"March 25th—just another day during spring break. Araragi Koyomi, a second year high school student at Naoetsu High School, befriends Hanekawa Tsubasa, the top honors student at his school. Hanekawa mentions a rumor about a \"blonde vampire\" that has been sighted around their town recently. Araragi, who is usually anti-social, takes a liking to her down-to-earth personality.",
+				"That night, Araragi encounters the rumored vampire: she is Kiss-shot Acerola-orion Heart-under-blade, also known as the \"iron-blooded, hot-blooded, cold-blooded King of Oddities\". The stunningly beautiful vampire cries out for Araragi to save her as she lies in a pool of her own blood, all four of her limbs cut off. Kiss-shot asks Araragi to give her his blood, and when he does, the next moment he awakes, Araragi finds himself reborn as her vampire kin. As Araragi struggles to accept his existence, Kiss-shot whispers, \"Welcome to the world of darkness...\""
+			],
 			"alternatives": [
 				{
 					"name": "kizumonogatari-koyomi-vamp",
@@ -334,7 +347,10 @@
 					"visible"
 				]
 			],
-			"description": "",
+			"description": [
+				"In the spring of his second year of high school, Araragi Koyomi met the beautiful vampire Kiss-shot Acerola-orion Heart-under-blade. Araragi saved Kiss-shot, who was on the verge of death with all four of her limbs cut off, but only at the expense of becoming her minion and a vampire. \"In order to go back to being a human again, you must take back all of Kiss-shot's limbs.\" After receiving advice from Oshino Meme, an expert in the supernatural, Araragi prepares to go into battle.",
+				"Awaiting him are three powerful vampire hunters—Dramaturgy, a giant vampire hunter who is a vampire himself. Episode, a half-vampire who wields an enormous cross, and Guillotine Cutter, a quiet man who specializes in killing vampires. Will Araragi be able to take back Kiss-shot's limbs from the vampire hunters? Amidst the soft spring rain, the curtain rises on this fateful blood bath..."
+			],
 			"alternatives": [
 				{
 					"name": "kizumonogatari-koyomi-vamp",
@@ -393,7 +409,9 @@
 					"visible"
 				]
 			],
-			"description": "",
+			"description": [
+				"With help from Oshino Meme, the oddity specialist, Araragi defeats the three powerful vampire hunters: Dramaturgy, Episode and Guillotine Cutter. Araragi takes back all the limbs of Kiss-shot Acerola-orion Heart-under-blade in order to become a human again. But, when he returns to Kiss-shot, she reveals to him the cold truth of what it means to be a vampire—a creature of the night. Unable to take back what he has done, Araragi feels nothing but regret and can only deny his dreadful fate. While Araragi is struggling to face reality, his \"friend\" Hanekawa Tsubasa comes to him with a certain plan..."
+			],
 			"alternatives": [
 				{
 					"name": "kizumonogatari-koyomi-vamp",
@@ -444,7 +462,14 @@
 					"visible"
 				]
 			],
-			"description": "",
+			"description": [
+				"Spring break, an interval of time between the second and third year of high school. It was one fateful evening when Araragi Koyomi encounters her.",
+				"Kiss-shot Acerola-orion Heart-under-blade. Legendary Vampire. Killer of Oddities. King of Oddities.",
+				"Her legs and arms were cruelly torn apart, her extravagant dress soaked in red; she's a monster who finds herself in a tragic state, laying in a pool of her own blood. However, Koyomi finds her to be beautiful this way.",
+				"On the brink of death after losing her four limbs, she asks Koyomi to save her. After experiencing fear, chaos, and finally conflict, Koyomi gives his own blood in order to save her. But when he awakens, he finds himself re-born as her vampire kin.",
+				"Koyomi wishes to revert to being a human from a vampire. However, he must take back all of Kiss-shot's limbs to do so. Working as a negotiator, Oshino Meme stands in middle ground as Koyomi attempts to recapture her four limbs by challenging three powerful vampire hunters.",
+				"This hellish spring break, the final one of his high school life, is only just beginning."
+			],
 			"alternatives": [
 				{
 					"name": "kizumonogatari-I",
@@ -584,7 +609,9 @@
 					"visible"
 				]
 			],
-			"description": ""
+			"description": [
+				"In Bakemonogatari, the story centered on Araragi Koyomi, a third year high school student who has recently survived a vampire attack and finds himself mixed up with all kinds of oddities: gods, ghosts, myths, and spirits. However, in Nisemonogatari, we pick up right where we left off and follow Koyomi as the psychological twists delve deeper and deeper..."
+			]
 		}
 	},
 	{
@@ -644,7 +671,10 @@
 					"hidden"
 				]
 			],
-			"description": ""
+			"description": [
+				"On his way to the bookstore, Araragi Koyomi encounters Hanekawa Tsubasa whose face is covered with a bandage. The incident allows Koyomi to learn what has been happening in the Hanekawa household, but Hanekawa begs him not to tell anyone about it, saying she'll do anything to keep him quiet. Without revealing her family's circumstances, Koyomi tells of the day's incident - he and Hanekawa buried a \"cat\" that had been hit by a car- to Oshino Meme. Meme tells Koyomi that he must immediately go to confirm Hanekawa's safety. He heads to her house, only to find...",
+				"So begins the nightmarish nine days of Golden Week."
+			]
 		}
 	},
 	{
@@ -720,7 +750,10 @@
 					"hidden"
 				]
 			],
-			"description": ""
+			"description": [
+				"\"I don't know everything, but I know a lot about you, Araragi-kun.\"",
+				"The flawless class president Hanekawa Tsubasa's first day of the second semester is closely watched by a monstrous tiger. Amidst the lifeless monologue is an unreachable confession..."
+			]
 		}
 	},
 	{
@@ -803,7 +836,9 @@
 					"hidden"
 				]
 			],
-			"description": ""
+			"description": [
+				"Araragi Koyomi and Oshino Shinobu decided to time travel back into 11 years ago using up the remaining spirit particles at the shrine from Nadeko Snake. In their adventure, Koyomi saved Hachikuji Mayoi from the car accident that killed her. When they returned to the present, they discover the world has changed drastically as a consequence of what Koyomi has done. Now they have to find an alternate way to get back to their original world."
+			]
 		}
 	},
 	{
@@ -870,7 +905,10 @@
 					"visible"
 				]
 			],
-			"description": ""
+			"description": [
+				"Now that Araragi Koyomi and Senjougahara Hitagi have graduated, few familiar faces remain at Naoetsu Private High School. One of them is Kanbaru Suruga, holder of the Monkey's Paw. When she begins to hear talk of a mysterious being known as the \"Devil\", who will magically solve any problem, she immediately thinks these rumors are about her and decides to investigate.",
+				"Kanbaru discovers the Devil is actually Numachi Rouka, a former rival who provides free advice to those who seek her out now that she can no longer play basketball due to a leg injury. As a collector of misfortune, Numachi enjoys relieving her clients' stress by giving them false hope. Though Kanbaru sees no real harm being done, she reprimands Rouka for lying and heads home, relieved she is not the cause of the rumors. But the next morning, when she finds that her left hand has reverted back to its original form, she may have a reason to worry after all."
+			]
 		}
 	},
 	{
@@ -953,7 +991,12 @@
 					"visible"
 				]
 			],
-			"description": ""
+			"description": [
+				"\"—You're a liar, even though you're already a god.\"",
+				"The girl who was once possessed by a winding serpent, Sengoku Nadeko.",
+				"The girl who has been in love with Araragi Koyomi for so long now appears as an \"angel\" in pure white. But her true colors are...?",
+				"As the \"story\" approaches its final chapter, it twists around, entangling, evolving—."
+			]
 		}
 	},
 	{
@@ -1028,7 +1071,9 @@
 					"visible"
 				]
 			],
-			"description": ""
+			"description": [
+				"Immediately following the events of Kabukimonogatari, Araragi and Hachikuji begin having run-ins with a near-indescribable void, which seems to be pursuing them for reasons they cannot determine. The answer to the question, and the solution to their predicament, lies in the memories of Shinobu and the insight of literal know-it-all Gaen Izuko."
+			]
 		}
 	},
 	{
@@ -1103,7 +1148,11 @@
 					"visible"
 				]
 			],
-			"description": ""
+			"description": [
+				"\"Don't you think unrequited love that lasts forever is happier than mutual love?\"",
+				"Senjougahara Hitagi made a deal with the gods with her life in order to protect Araragi Koyomi.",
+				"As winter holidays approach with the promised \"destined day\", she chose the darkest and the worst option..."
+			]
 		}
 	},
 	{
@@ -1136,9 +1185,35 @@
 						"/gallery/tsukimonogatari/yotsugi-doll-2.png"
 					],
 					"visible"
+				],
+				[
+					[
+						"/gallery/tsukimonogatari/CG01.avif",
+						"/gallery/tsukimonogatari/CG01.webp",
+						"/gallery/tsukimonogatari/CG01.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/tsukimonogatari/CG08.avif",
+						"/gallery/tsukimonogatari/CG08.webp",
+						"/gallery/tsukimonogatari/CG08.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/tsukimonogatari/CG09.avif",
+						"/gallery/tsukimonogatari/CG09.webp",
+						"/gallery/tsukimonogatari/CG09.jpg"
+					],
+					"visible"
 				]
 			],
-			"description": ""
+			"description": [
+				"One day in February, Araragi Koyomi was taking a bath with his younger sister Tsukihi amidst finishing his studies for the college entrance exam. This was also following the incident involving Sengoku Nadeko, which was successfully amended behind the scenes by Kaiki Deishuu. Koyomi noticed a change on his body \"that could not be overlooked\" and sought advice from Oshino Shinobu leading him to contact Kagenui Yozuru and Ononoki Yotsugi. Was this change signifying retribution for everything that Koyomi has done?!"
+			]
 		}
 	},
 	{
@@ -1166,14 +1241,232 @@
 			"gallery": [
 				[
 					[
-						"/covers/koyomimonogatari.avif",
-						"/covers/koyomimonogatari.webp",
-						"/covers/koyomimonogatari.png"
+						"/gallery/koyomimonogatari/box-art.avif",
+						"/gallery/koyomimonogatari/box-art.webp",
+						"/gallery/koyomimonogatari/box-art.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/ending.avif",
+						"/gallery/koyomimonogatari/ending.webp",
+						"/gallery/koyomimonogatari/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG01.avif",
+						"/gallery/koyomimonogatari/CG01.webp",
+						"/gallery/koyomimonogatari/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG02.avif",
+						"/gallery/koyomimonogatari/CG02.webp",
+						"/gallery/koyomimonogatari/CG02.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG03.avif",
+						"/gallery/koyomimonogatari/CG03.webp",
+						"/gallery/koyomimonogatari/CG03.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG04.avif",
+						"/gallery/koyomimonogatari/CG04.webp",
+						"/gallery/koyomimonogatari/CG04.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG05.avif",
+						"/gallery/koyomimonogatari/CG05.webp",
+						"/gallery/koyomimonogatari/CG05.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG06.avif",
+						"/gallery/koyomimonogatari/CG06.webp",
+						"/gallery/koyomimonogatari/CG06.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG07.avif",
+						"/gallery/koyomimonogatari/CG07.webp",
+						"/gallery/koyomimonogatari/CG07.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG08.avif",
+						"/gallery/koyomimonogatari/CG08.webp",
+						"/gallery/koyomimonogatari/CG08.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG09.avif",
+						"/gallery/koyomimonogatari/CG09.webp",
+						"/gallery/koyomimonogatari/CG09.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG10.avif",
+						"/gallery/koyomimonogatari/CG10.webp",
+						"/gallery/koyomimonogatari/CG10.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG11.avif",
+						"/gallery/koyomimonogatari/CG11.webp",
+						"/gallery/koyomimonogatari/CG11.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG12.avif",
+						"/gallery/koyomimonogatari/CG12.webp",
+						"/gallery/koyomimonogatari/CG12.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG13.avif",
+						"/gallery/koyomimonogatari/CG13.webp",
+						"/gallery/koyomimonogatari/CG13.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG14.avif",
+						"/gallery/koyomimonogatari/CG14.webp",
+						"/gallery/koyomimonogatari/CG14.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG15.avif",
+						"/gallery/koyomimonogatari/CG15.webp",
+						"/gallery/koyomimonogatari/CG15.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG16.avif",
+						"/gallery/koyomimonogatari/CG16.webp",
+						"/gallery/koyomimonogatari/CG16.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG17.avif",
+						"/gallery/koyomimonogatari/CG17.webp",
+						"/gallery/koyomimonogatari/CG17.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG18.avif",
+						"/gallery/koyomimonogatari/CG18.webp",
+						"/gallery/koyomimonogatari/CG18.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG19.avif",
+						"/gallery/koyomimonogatari/CG19.webp",
+						"/gallery/koyomimonogatari/CG19.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG20.avif",
+						"/gallery/koyomimonogatari/CG20.webp",
+						"/gallery/koyomimonogatari/CG20.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG21.avif",
+						"/gallery/koyomimonogatari/CG21.webp",
+						"/gallery/koyomimonogatari/CG21.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG22.avif",
+						"/gallery/koyomimonogatari/CG22.webp",
+						"/gallery/koyomimonogatari/CG22.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG23.avif",
+						"/gallery/koyomimonogatari/CG23.webp",
+						"/gallery/koyomimonogatari/CG23.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG24.avif",
+						"/gallery/koyomimonogatari/CG24.webp",
+						"/gallery/koyomimonogatari/CG24.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG25.avif",
+						"/gallery/koyomimonogatari/CG25.webp",
+						"/gallery/koyomimonogatari/CG25.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG26.avif",
+						"/gallery/koyomimonogatari/CG26.webp",
+						"/gallery/koyomimonogatari/CG26.jpg"
 					],
 					"visible"
 				]
 			],
-			"description": ""
+			"description": [
+				"\"You're looking for a horror story? I wish I got one for you\". Untold stories... one per month for one year... Taking place between other Monogatari stories, a chapter not yet told surrounds Araragi Koyomi and the strange happenings he gets pulled into over the course of a year. With one episode told per month, the story unravels in this 12 episode-long series of shorts."
+			]
 		}
 	},
 	{
@@ -1202,14 +1495,64 @@
 			"gallery": [
 				[
 					[
-						"/covers/owarimonogatari-jou.avif",
-						"/covers/owarimonogatari-jou.webp",
-						"/covers/owarimonogatari-jou.jpg"
+						"/gallery/owarimonogatari-jou/sodachi-lost.avif",
+						"/gallery/owarimonogatari-jou/sodachi-lost.webp",
+						"/gallery/owarimonogatari-jou/sodachi-lost.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-jou/sodachi-riddle.avif",
+						"/gallery/owarimonogatari-jou/sodachi-riddle.webp",
+						"/gallery/owarimonogatari-jou/sodachi-riddle.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-jou/shinobu-mail.avif",
+						"/gallery/owarimonogatari-jou/shinobu-mail.webp",
+						"/gallery/owarimonogatari-jou/shinobu-mail.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-jou/shinobu-mail-2.avif",
+						"/gallery/owarimonogatari-jou/shinobu-mail-2.webp",
+						"/gallery/owarimonogatari-jou/shinobu-mail-2.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-jou/ending.avif",
+						"/gallery/owarimonogatari-jou/ending.webp",
+						"/gallery/owarimonogatari-jou/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-jou/CG01.avif",
+						"/gallery/owarimonogatari-jou/CG01.webp",
+						"/gallery/owarimonogatari-jou/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-jou/CG02.avif",
+						"/gallery/owarimonogatari-jou/CG02.webp",
+						"/gallery/owarimonogatari-jou/CG02.png"
 					],
 					"visible"
 				]
 			],
-			"description": ""
+			"description": [
+				"During the month of October of his third year in high school, Araragi Koyomi is introduced to a transfer student named Oshino Ougi by his underclassman Kanbaru Suruga. Ougi tells Koyomi that she has something she wishes to consult with him. When she draws the map of Naoetsu High School, she finds something peculiar on there. This discovery reveals a tale that wasn't meant to be told, and this makes Koyomi's high school life totally different. This is the story that brings to light \"what\" makes Araragi Koyomi. This is the story that reveals the \"beginning\" of everything."
+			]
 		}
 	},
 	{
@@ -1238,14 +1581,64 @@
 			"gallery": [
 				[
 					[
-						"/covers/owarimonogatari-ge.avif",
-						"/covers/owarimonogatari-ge.webp",
-						"/covers/owarimonogatari-ge.jpg"
+						"/gallery/owarimonogatari-ge/mayoi-hell.avif",
+						"/gallery/owarimonogatari-ge/mayoi-hell.webp",
+						"/gallery/owarimonogatari-ge/mayoi-hell.jpg"
 					],
 					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-ge/ougi-dark.avif",
+						"/gallery/owarimonogatari-ge/ougi-dark.webp",
+						"/gallery/owarimonogatari-ge/ougi-dark.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-ge/ending.avif",
+						"/gallery/owarimonogatari-ge/ending.webp",
+						"/gallery/owarimonogatari-ge/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-ge/CG01.avif",
+						"/gallery/owarimonogatari-ge/CG01.webp",
+						"/gallery/owarimonogatari-ge/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-ge/CG02.avif",
+						"/gallery/owarimonogatari-ge/CG02.webp",
+						"/gallery/owarimonogatari-ge/CG02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-ge/CG03.avif",
+						"/gallery/owarimonogatari-ge/CG03.webp",
+						"/gallery/owarimonogatari-ge/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-ge/CG04.avif",
+						"/gallery/owarimonogatari-ge/CG04.webp",
+						"/gallery/owarimonogatari-ge/CG04.jpg"
+					],
+					"hidden"
 				]
 			],
-			"description": ""
+			"description": [
+				"Koyomi wakes up to see Hachikuji Mayoi before him, the girl who supposedly had gone to the afterlife. She tells Koyomi that they are currently in Avichi, the lowest levels of hell. Koyomi is dubious of how Mayoi knew about the exact timing of his death and which hell he would drop into, when Mayoi tells him that she was there to pick him up by the request of a certain individual."
+			]
 		}
 	},
 	{
@@ -1274,14 +1667,64 @@
 			"gallery": [
 				[
 					[
-						"/covers/zoku-owarimonogatari.avif",
-						"/covers/zoku-owarimonogatari.webp",
-						"/covers/zoku-owarimonogatari.png"
+						"/gallery/zoku-owarimonogatari/koyomi-reverse-3.avif",
+						"/gallery/zoku-owarimonogatari/koyomi-reverse-3.webp",
+						"/gallery/zoku-owarimonogatari/koyomi-reverse-3.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/ending.avif",
+						"/gallery/zoku-owarimonogatari/ending.webp",
+						"/gallery/zoku-owarimonogatari/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/CG01.avif",
+						"/gallery/zoku-owarimonogatari/CG01.webp",
+						"/gallery/zoku-owarimonogatari/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/CG02.avif",
+						"/gallery/zoku-owarimonogatari/CG02.webp",
+						"/gallery/zoku-owarimonogatari/CG02.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/CG03.avif",
+						"/gallery/zoku-owarimonogatari/CG03.webp",
+						"/gallery/zoku-owarimonogatari/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/CG04.avif",
+						"/gallery/zoku-owarimonogatari/CG04.webp",
+						"/gallery/zoku-owarimonogatari/CG04.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/CG05.avif",
+						"/gallery/zoku-owarimonogatari/CG05.webp",
+						"/gallery/zoku-owarimonogatari/CG05.jpg"
 					],
 					"visible"
 				]
 			],
-			"description": ""
+			"description": [
+				"The morning after high school graduation, Koyomi is standing in front of the mirror above the sink to wash his face when he suddenly feels like his reflection is staring back at him. He instinctively reaches for the mirror, and upon touching it, his fingers sink in... When he comes to, Koyomi finds himself in a world where everything appears to be reversed."
+			]
 		}
 	},
 	{
@@ -1309,14 +1752,24 @@
 			"gallery": [
 				[
 					[
-						"/covers/orokamonogatari.avif",
-						"/covers/orokamonogatari.webp",
-						"/covers/orokamonogatari.png"
+						"/gallery/orokamonogatari/CG01.avif",
+						"/gallery/orokamonogatari/CG01.webp",
+						"/gallery/orokamonogatari/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/orokamonogatari/CG02.avif",
+						"/gallery/orokamonogatari/CG02.webp",
+						"/gallery/orokamonogatari/CG02.jpg"
 					],
 					"visible"
 				]
 			],
-			"description": ""
+			"description": [
+				"While pretending to be her doll, Tsukihi catches Yotsugi moving when she thought she was wasn't around. Yotsugi tries to convince Tsukihi she's a magical girl possessing her doll in charge of an important mission."
+			]
 		}
 	},
 	{
@@ -1344,14 +1797,51 @@
 			"gallery": [
 				[
 					[
-						"/covers/nademonogatari.avif",
-						"/covers/nademonogatari.webp",
-						"/covers/nademonogatari.png"
+						"/gallery/nademonogatari/nadeko-draw-2.avif",
+						"/gallery/nademonogatari/nadeko-draw-2.webp",
+						"/gallery/nademonogatari/nadeko-draw-2.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nademonogatari/CG01.avif",
+						"/gallery/nademonogatari/CG01.webp",
+						"/gallery/nademonogatari/CG01.png"
 					],
 					"visible"
+				],
+				[
+					[
+						"/gallery/nademonogatari/CG02.avif",
+						"/gallery/nademonogatari/CG02.webp",
+						"/gallery/nademonogatari/CG02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nademonogatari/CG03.avif",
+						"/gallery/nademonogatari/CG03.webp",
+						"/gallery/nademonogatari/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nademonogatari/CG04.avif",
+						"/gallery/nademonogatari/CG04.webp",
+						"/gallery/nademonogatari/CG04.jpg"
+					],
+					"hidden"
 				]
 			],
-			"description": ""
+			"description": [
+				"The girl who was once a god, Sengoku Nadeko. She, who followed her dreams and was forced into reality, is successful in creating an alter ego by borrowing the power of the little girl shikigami, Ononoki Yotsugi.",
+				"However, the four \"Nadekos\" run away, scattered......?",
+				"The Oddities! Oddities! Oddities! of these modern days.",
+				"Youth is being unable to control even oneself."
+			]
 		}
 	},
 	{
@@ -1387,7 +1877,9 @@
 					"visible"
 				]
 			],
-			"description": ""
+			"description": [
+				"Once upon a time, there was a true story that happened about 600 years ago. It's a story of a very beautiful girl who lived in a country that no longer exists."
+			]
 		}
 	},
 	{
@@ -1415,14 +1907,19 @@
 			"gallery": [
 				[
 					[
-						"/covers/wazamonogatari.avif",
-						"/covers/wazamonogatari.webp",
-						"/covers/wazamonogatari.png"
+						"/gallery/wazamonogatari/CG01.avif",
+						"/gallery/wazamonogatari/CG01.webp",
+						"/gallery/wazamonogatari/CG01.png"
 					],
 					"visible"
 				]
 			],
-			"description": ""
+			"description": [
+				"\"The name Kiss-shot Acerola-orion Heart-under-blade has always been attached to me...\"",
+				"About 600 years from the present, this now-destroyed country was where the girl called the \"Princess Fair\" had lived. With such beauty that anyone would offer one's life for, the road the girl trod on became a mountain of corpses.",
+				"These are the legendary Oddities! Oddities! Oddities!",
+				"Youth is cruel like a fairy tale."
+			]
 		}
 	},
 	{
@@ -1450,14 +1947,58 @@
 			"gallery": [
 				[
 					[
-						"/covers/shinobumonogatari.avif",
-						"/covers/shinobumonogatari.webp",
-						"/covers/shinobumonogatari.png"
+						"/gallery/shinobumonogatari/shinobu-mustard-2.avif",
+						"/gallery/shinobumonogatari/shinobu-mustard-2.webp",
+						"/gallery/shinobumonogatari/shinobu-mustard-2.png"
 					],
 					"visible"
+				],
+				[
+					[
+						"/gallery/shinobumonogatari/shinobu-mustard-3.avif",
+						"/gallery/shinobumonogatari/shinobu-mustard-3.webp",
+						"/gallery/shinobumonogatari/shinobu-mustard-3.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/shinobumonogatari/CG01.avif",
+						"/gallery/shinobumonogatari/CG01.webp",
+						"/gallery/shinobumonogatari/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/shinobumonogatari/CG02.avif",
+						"/gallery/shinobumonogatari/CG02.webp",
+						"/gallery/shinobumonogatari/CG02.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/shinobumonogatari/CG03.avif",
+						"/gallery/shinobumonogatari/CG03.webp",
+						"/gallery/shinobumonogatari/CG03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/shinobumonogatari/CG04.avif",
+						"/gallery/shinobumonogatari/CG04.webp",
+						"/gallery/shinobumonogatari/CG04.jpg"
+					],
+					"hidden"
 				]
 			],
-			"description": ""
+			"description": [
+				"\"It's chic to go saving a girl who has nothing to do with you every once in a while.\"",
+				"Female students from Naoetsu High School have gone missing one after the other. When the mummified bodies of the girls are discovered, there's a very distinctive marking left on the napes of their necks...?",
+				"Araragi Koyomi, now a first year university student, goes on the move to track down the culprit!"
+			]
 		}
 	}
 ]
