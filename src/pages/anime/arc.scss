@@ -18,6 +18,8 @@ main {
 		@media (width < 1130px) {
 			flex-direction: column;
 			gap: 2em;
+			padding: 2em;
+			padding-top: 10em;
 
 			> .cover {
 				aspect-ratio: 3 / 2 !important;
@@ -92,6 +94,8 @@ main {
 				.covers {
 					display: flex;
 					gap: 2em;
+					flex-wrap: wrap;
+					width: 100%;
 
 					.relation {
 						position: relative;
