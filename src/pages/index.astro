@@ -37,9 +37,9 @@ import stories from '../utils/stories.json'
 						<div class="background">
 							<div class="overlay"></div>
 							<picture>
-								<source srcset="/Monogatari_Paper_Background.avif" type="image/avif">
-								<source srcset="/Monogatari_Paper_Background.webp" type="image/webp">
-								<img src="/Monogatari_Paper_Background.png" alt="">
+								<source srcset="/Monogatari_Paper_Background.avif" type="image/avif" />
+								<source srcset="/Monogatari_Paper_Background.webp" type="image/webp" />
+								<img src="/Monogatari_Paper_Background.png" alt="" />
 							</picture>
 						</div>
 					</div>
@@ -56,14 +56,14 @@ import stories from '../utils/stories.json'
 					<div class="rippedWrapper">
 						<div class="ripped">
 							<picture>
-								<source srcset="/42.avif" type="image/avif">
-								<source srcset="/42.webp" type="image/webp">
+								<source srcset="/42.avif" type="image/avif" />
+								<source srcset="/42.webp" type="image/webp" />
 								<img src="/42.png" alt="">
 							</picture>
 							<picture class="duplicate">
-								<source srcset="/42.avif" type="image/avif">
-								<source srcset="/42.webp" type="image/webp">
-								<img src="/42.png" alt="">
+								<source srcset="/42.avif" type="image/avif" />
+								<source srcset="/42.webp" type="image/webp" />
+								<img src="/42.png" alt="" />
 							</picture>
 						</div>
 					</div>
@@ -86,14 +86,14 @@ import stories from '../utils/stories.json'
 									<div class="numberWrapper">
 										<div class="texture">
 											<picture>
-												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif">
-												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp">
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
 												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="">
 											</picture>
 											<picture class="duplicate">
-												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif">
-												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp">
-												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="">
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" />
 											</picture>
 										</div>
 										<span>{i + 1}</span>
@@ -105,9 +105,9 @@ import stories from '../utils/stories.json'
 											const isLast = pictures.length === i + 1
 											const type = path.split('.').pop()
 
-											if (isLast) return <img src={path} alt="">
+											if (isLast) return <img src={path} alt="" />
 											
-											return <source srcset={path} type={`image/${type}`}>
+											return <source srcset={path} type={`image/${type}`} />
 										})}
 									</picture>
 								</a>
@@ -135,9 +135,9 @@ import stories from '../utils/stories.json'
 											const isLast = pictures.length === i + 1
 											const type = path.split('.').pop()
 
-											if (isLast) return <img src={path} alt="">
+											if (isLast) return <img src={path} alt="" />
 											
-											return <source srcset={path} type={`image/${type}`}>
+											return <source srcset={path} type={`image/${type}`} />
 										})}
 									</picture>
 								</a>
@@ -145,10 +145,14 @@ import stories from '../utils/stories.json'
 									<div class="whenWrapper">
 										<div class="texture">
 											<picture>
-												<img src={`/23.png`} alt="">
+												<source srcset="/23.avif" type="image/avif" />
+												<source srcset="/23.webp" type="image/webp" />
+												<img src='/23.png' alt="" />
 											</picture>
 											<picture class="duplicate">
-												<img src={`/23.png`} alt="">
+												<source srcset="/23.avif" type="image/avif" />
+												<source srcset="/23.webp" type="image/webp" />
+												<img src='/23.png' alt="" />
 											</picture>
 										</div>
 										<span>{when}</span>

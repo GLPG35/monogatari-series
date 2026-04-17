@@ -42,6 +42,7 @@ const { color, pictures, name, title, kanji, info } = arcs[findArcIndex]
 const prevArc = findArcIndex === 0 || arcs[findArcIndex].hidden ? null : arcs[findArcIndex - (arcs[findArcIndex - 1].hidden ? 2 : 1)]
 const nextArc = findArcIndex === arcs.length - 1 || arcs[findArcIndex].hidden ? null : arcs[findArcIndex + (arcs[findArcIndex + 1].hidden ? 2 : 1)]
 const gallery = info.gallery as [string[], "visible"|"hidden"][]
+const arcsText = info.arcs.length > 1 ? `${info.arcs.slice(0, info.arcs.length - 1).join(', ')} and ${info.arcs[info.arcs.length - 1]}` : info.arcs.join(', ')
 ---
 
 <html lang="en" style={`--bg-color: var(${color})`}>
@@ -73,6 +74,7 @@ const gallery = info.gallery as [string[], "visible"|"hidden"][]
 			<main>
 				<div class="summary">
 					<div class="cover">
+						<a href={pictures[2]} target="_blank">Full resolution</a>
 						<picture>
 							{pictures.map((path, i) => {
 								const isLast = pictures.length === i + 1
@@ -189,6 +191,10 @@ const gallery = info.gallery as [string[], "visible"|"hidden"][]
 									</a>
 								))}
 							</div>
+						</div>
+						<div class="section">
+							<h4>Arcs</h4>
+							<p>{arcsText}</p>
 						</div>
 						<div class="section">
 							<h4>Description</h4>

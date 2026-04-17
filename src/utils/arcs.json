@@ -11,7 +11,7 @@
 		"pictures": [
 			"/covers/bakemonogatari.avif",
 			"/covers/bakemonogatari.webp",
-			"/covers/bakemonogatari.png"
+			"/covers/bakemonogatari.jpg"
 		],
 		"picturesHalf": [
 			"/covers/bakemonogatari-0.5x.avif",
@@ -21,6 +21,13 @@
 		"color": "--bg-purple",
 		"info": {
 			"date": "July 3, 2009",
+			"arcs": [
+				"Hitagi Crab",
+				"Mayoi Snail",
+				"Suruga Monkey",
+				"Nadeko Snake",
+				"Tsubasa Cat"
+			],
 			"gallery": [
 				[
 					[
@@ -237,6 +244,30 @@
 						"/gallery/bakemonogatari/CG19.jpg"
 					],
 					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG21.avif",
+						"/gallery/bakemonogatari/CG21.webp",
+						"/gallery/bakemonogatari/CG21.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG23.avif",
+						"/gallery/bakemonogatari/CG23.webp",
+						"/gallery/bakemonogatari/CG23.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG22.avif",
+						"/gallery/bakemonogatari/CG22.webp",
+						"/gallery/bakemonogatari/CG22.jpg"
+					],
+					"visible"
 				]
 			],
 			"description": [
@@ -257,7 +288,7 @@
 		"pictures": [
 			"/covers/kizumonogatari-I.avif",
 			"/covers/kizumonogatari-I.webp",
-			"/covers/kizumonogatari-I.png"
+			"/covers/kizumonogatari-I.jpg"
 		],
 		"picturesHalf": [
 			"/covers/kizumonogatari-I-0.5x.avif",
@@ -267,6 +298,9 @@
 		"color": "--bg-red",
 		"info": {
 			"date": "January 8, 2016",
+			"arcs": [
+				"Koyomi Vamp"
+			],
 			"gallery": [
 				[
 					[
@@ -281,6 +315,54 @@
 						"/gallery/kizumonogatari-I/tenobu-wide.avif",
 						"/gallery/kizumonogatari-I/tenobu-wide.webp",
 						"/gallery/kizumonogatari-I/tenobu-wide.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/CG01.avif",
+						"/gallery/kizumonogatari-I/CG01.webp",
+						"/gallery/kizumonogatari-I/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/CG06.avif",
+						"/gallery/kizumonogatari-I/CG06.webp",
+						"/gallery/kizumonogatari-I/CG06.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/CG02.avif",
+						"/gallery/kizumonogatari-I/CG02.webp",
+						"/gallery/kizumonogatari-I/CG02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/CG04.avif",
+						"/gallery/kizumonogatari-I/CG04.webp",
+						"/gallery/kizumonogatari-I/CG04.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/CG03.avif",
+						"/gallery/kizumonogatari-I/CG03.webp",
+						"/gallery/kizumonogatari-I/CG03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/CG05.avif",
+						"/gallery/kizumonogatari-I/CG05.webp",
+						"/gallery/kizumonogatari-I/CG05.jpg"
 					],
 					"visible"
 				]
@@ -319,7 +401,7 @@
 		"pictures": [
 			"/covers/kizumonogatari-II.avif",
 			"/covers/kizumonogatari-II.webp",
-			"/covers/kizumonogatari-II.png"
+			"/covers/kizumonogatari-II.jpg"
 		],
 		"picturesHalf": [
 			"/covers/kizumonogatari-II-0.5x.avif",
@@ -329,6 +411,9 @@
 		"color": "--bg-blue",
 		"info": {
 			"date": "August 19, 2016",
+			"arcs": [
+				"Koyomi Vamp"
+			],
 			"gallery": [
 				[
 					[
@@ -344,7 +429,31 @@
 						"/gallery/kizumonogatari-II/tweenobu-wide.webp",
 						"/gallery/kizumonogatari-II/tweenobu-wide.png"
 					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-II/CG01.avif",
+						"/gallery/kizumonogatari-II/CG01.webp",
+						"/gallery/kizumonogatari-II/CG01.jpg"
+					],
 					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-II/CG02.avif",
+						"/gallery/kizumonogatari-II/CG02.webp",
+						"/gallery/kizumonogatari-II/CG02.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-II/CG03.avif",
+						"/gallery/kizumonogatari-II/CG03.webp",
+						"/gallery/kizumonogatari-II/CG03.jpg"
+					],
+					"hidden"
 				]
 			],
 			"description": [
@@ -381,7 +490,7 @@
 		"pictures": [
 			"/covers/kizumonogatari-III.avif",
 			"/covers/kizumonogatari-III.webp",
-			"/covers/kizumonogatari-III.png"
+			"/covers/kizumonogatari-III.jpg"
 		],
 		"picturesHalf": [
 			"/covers/kizumonogatari-III-0.5x.avif",
@@ -391,6 +500,9 @@
 		"color": "--bg-yellow",
 		"info": {
 			"date": "January 6, 2017",
+			"arcs": [
+				"Koyomi Vamp"
+			],
 			"gallery": [
 				[
 					[
@@ -407,6 +519,38 @@
 						"/gallery/kizumonogatari-III/kiss-shot-wide.png"
 					],
 					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-III/CG01.avif",
+						"/gallery/kizumonogatari-III/CG01.webp",
+						"/gallery/kizumonogatari-III/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-III/CG02.avif",
+						"/gallery/kizumonogatari-III/CG02.webp",
+						"/gallery/kizumonogatari-III/CG02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-III/CG03.avif",
+						"/gallery/kizumonogatari-III/CG03.webp",
+						"/gallery/kizumonogatari-III/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-III/CG04.avif",
+						"/gallery/kizumonogatari-III/CG04.webp",
+						"/gallery/kizumonogatari-III/CG04.jpg"
+					],
+					"hidden"
 				]
 			],
 			"description": [
@@ -452,14 +596,41 @@
 		"color": "--bg-black",
 		"info": {
 			"date": "January 12, 2024",
+			"arcs": [
+				"Koyomi Vamp"
+			],
 			"gallery": [
 				[
 					[
-						"/gallery/kizumonogatari-III/hanekawa.avif",
-						"/gallery/kizumonogatari-III/hanekawa.webp",
-						"/gallery/kizumonogatari-III/hanekawa.jpg"
+						"/gallery/kizumonogatari-koyomi-vamp/CG01.avif",
+						"/gallery/kizumonogatari-koyomi-vamp/CG01.webp",
+						"/gallery/kizumonogatari-koyomi-vamp/CG01.jpg"
 					],
 					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-koyomi-vamp/CG02.avif",
+						"/gallery/kizumonogatari-koyomi-vamp/CG02.webp",
+						"/gallery/kizumonogatari-koyomi-vamp/CG02.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-koyomi-vamp/CG03.avif",
+						"/gallery/kizumonogatari-koyomi-vamp/CG03.webp",
+						"/gallery/kizumonogatari-koyomi-vamp/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-koyomi-vamp/kiss-shot.avif",
+						"/gallery/kizumonogatari-koyomi-vamp/kiss-shot.webp",
+						"/gallery/kizumonogatari-koyomi-vamp/kiss-shot.jpg"
+					],
+					"hidden"
 				]
 			],
 			"description": [
@@ -535,6 +706,10 @@
 		"color": "--bg-green",
 		"info": {
 			"date": "March 18, 2012",
+			"arcs": [
+				"Karen Bee",
+				"Tsukihi Phoenix"
+			],
 			"gallery": [
 				[
 					[
@@ -637,6 +812,9 @@
 		"color": "--bg-black",
 		"info": {
 			"date": "December 31, 2012",
+			"arcs": [
+				"Tsubasa Family"
+			],
 			"gallery": [
 				[
 					[
@@ -700,6 +878,9 @@
 		"color": "--bg-white",
 		"info": {
 			"date": "July 6, 2013",
+			"arcs": [
+				"Tsubasa Tiger"
+			],
 			"gallery": [
 				[
 					[
@@ -778,6 +959,9 @@
 		"color": "--bg-blue",
 		"info": {
 			"date": "August 17, 2013",
+			"arcs": [
+				"Mayoi Jiangshi"
+			],
 			"gallery": [
 				[
 					[
@@ -863,6 +1047,9 @@
 		"color": "--bg-salmon",
 		"info": {
 			"date": "August 16, 2014",
+			"arcs": [
+				"Suruga Devil"
+			],
 			"gallery": [
 				[
 					[
@@ -933,6 +1120,9 @@
 		"color": "--bg-white",
 		"info": {
 			"date": "September 21, 2013",
+			"arcs": [
+				"Nadeko Medusa"
+			],
 			"gallery": [
 				[
 					[
@@ -1021,12 +1211,23 @@
 		"color": "--bg-orange",
 		"info": {
 			"date": "October 26, 2013",
+			"arcs": [
+				"Shinobu Time"
+			],
 			"gallery": [
 				[
 					[
 						"/gallery/onimonogatari/shinobu-time-2.avif",
 						"/gallery/onimonogatari/shinobu-time-2.webp",
 						"/gallery/onimonogatari/shinobu-time-2.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/CG06.avif",
+						"/gallery/onimonogatari/CG06.webp",
+						"/gallery/onimonogatari/CG06.png"
 					],
 					"visible"
 				],
@@ -1098,6 +1299,9 @@
 		"color": "--bg-purple",
 		"info": {
 			"date": "November 23, 2013",
+			"arcs": [
+				"Hitagi End"
+			],
 			"gallery": [
 				[
 					[
@@ -1177,6 +1381,9 @@
 		"color": "--bg-green",
 		"info": {
 			"date": "December 31, 2014",
+			"arcs": [
+				"Yotsugi Doll"
+			],
 			"gallery": [
 				[
 					[
@@ -1228,7 +1435,7 @@
 		"pictures": [
 			"/covers/koyomimonogatari.avif",
 			"/covers/koyomimonogatari.webp",
-			"/covers/koyomimonogatari.png"
+			"/covers/koyomimonogatari.jpg"
 		],
 		"picturesHalf": [
 			"/covers/koyomimonogatari-0.5x.avif",
@@ -1238,6 +1445,20 @@
 		"color": "--bg-black",
 		"info": {
 			"date": "January 10, 2016",
+			"arcs": [
+				"Koyomi Stone",
+				"Koyomi Flower",
+				"Koyomi Sand",
+				"Koyomi Water",
+				"Koyomi Wind",
+				"Koyomi Tree",
+				"Koyomi Tea",
+				"Koyomi Mountain",
+				"Koyomi Torus",
+				"Koyomi Seed",
+				"Koyomi Nothing",
+				"Koyomi Dead"
+			],
 			"gallery": [
 				[
 					[
@@ -1462,6 +1683,14 @@
 						"/gallery/koyomimonogatari/CG26.jpg"
 					],
 					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG27.avif",
+						"/gallery/koyomimonogatari/CG27.webp",
+						"/gallery/koyomimonogatari/CG27.jpg"
+					],
+					"visible"
 				]
 			],
 			"description": [
@@ -1492,6 +1721,12 @@
 		"color": "--bg-black",
 		"info": {
 			"date": "October 3, 2015",
+			"arcs": [
+				"Ougi Formula",
+				"Sodachi Riddle",
+				"Sodachi Lost",
+				"Shinobu Mail"
+			],
 			"gallery": [
 				[
 					[
@@ -1578,6 +1813,11 @@
 		"color": "--bg-purple",
 		"info": {
 			"date": "August 12, 2017",
+			"arcs": [
+				"Mayoi Hell",
+				"Hitagi Rendezvous",
+				"Ougi Dark"
+			],
 			"gallery": [
 				[
 					[
@@ -1664,12 +1904,15 @@
 		"color": "--bg-white",
 		"info": {
 			"date": "May 18, 2019",
+			"arcs": [
+				"Koyomi Reverse"
+			],
 			"gallery": [
 				[
 					[
 						"/gallery/zoku-owarimonogatari/koyomi-reverse-3.avif",
 						"/gallery/zoku-owarimonogatari/koyomi-reverse-3.webp",
-						"/gallery/zoku-owarimonogatari/koyomi-reverse-3.png"
+						"/gallery/zoku-owarimonogatari/koyomi-reverse-3.jpg"
 					],
 					"hidden"
 				],
@@ -1702,6 +1945,14 @@
 						"/gallery/zoku-owarimonogatari/CG03.avif",
 						"/gallery/zoku-owarimonogatari/CG03.webp",
 						"/gallery/zoku-owarimonogatari/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/CG06.avif",
+						"/gallery/zoku-owarimonogatari/CG06.webp",
+						"/gallery/zoku-owarimonogatari/CG06.jpg"
 					],
 					"hidden"
 				],
@@ -1749,6 +2000,9 @@
 		"color": "--bg-green",
 		"info": {
 			"date": "July 6, 2024",
+			"arcs": [
+				"Tsukihi Undo"
+			],
 			"gallery": [
 				[
 					[
@@ -1794,6 +2048,9 @@
 		"color": "--bg-green",
 		"info": {
 			"date": "July 13, 2024",
+			"arcs": [
+				"Nadeko Draw"
+			],
 			"gallery": [
 				[
 					[
@@ -1867,6 +2124,9 @@
 		"color": "--bg-orange",
 		"info": {
 			"date": "August 17, 2024",
+			"arcs": [
+				"A Cruel Fairy Tale: The Beautiful Princess"
+			],
 			"gallery": [
 				[
 					[
@@ -1904,6 +2164,9 @@
 		"color": "--bg-orange",
 		"info": {
 			"date": "August 24, 2024",
+			"arcs": [
+				"Acerola Bon Appétit"
+			],
 			"gallery": [
 				[
 					[
@@ -1944,6 +2207,9 @@
 		"color": "--bg-yellow",
 		"info": {
 			"date": "September 14, 2024",
+			"arcs": [
+				"Shinobu Mustard"
+			],
 			"gallery": [
 				[
 					[
@@ -1990,6 +2256,14 @@
 						"/gallery/shinobumonogatari/CG04.avif",
 						"/gallery/shinobumonogatari/CG04.webp",
 						"/gallery/shinobumonogatari/CG04.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/shinobumonogatari/CG05.avif",
+						"/gallery/shinobumonogatari/CG05.webp",
+						"/gallery/shinobumonogatari/CG05.jpg"
 					],
 					"hidden"
 				]

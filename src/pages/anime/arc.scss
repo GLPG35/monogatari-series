@@ -45,6 +45,13 @@ main {
 			aspect-ratio: 2 / 3;
 			position: relative;
 
+			a {
+				color: white;
+				position: absolute;
+				bottom: -3em;
+				right: 0;
+			}
+
 			&::before {
 				position: absolute;
 				content: '';

@@ -30,7 +30,7 @@ const GalleryContainer = ({ gallery }: Props) => {
 									const isLast = picture[0].length === i + 1
 									const type = path.split('.').pop()
 
-									if (isLast) return <img key={path} src={path} alt="" />
+									if (isLast) return <img key={path} src={path} alt="" loading='lazy' />
 
 									return <source key={path} srcSet={path} type={`image/${type}`} />
 								})}
