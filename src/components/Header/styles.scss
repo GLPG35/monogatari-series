@@ -96,6 +96,14 @@ header {
 						height: 100%;
 						display: flex;
 						align-items: center;
+
+						@media (height < 750px) {
+							align-items: flex-end;
+
+							ul {
+								font-size: 1.2em !important;
+							}
+						}
 						
 						ul {
 							display: flex;
@@ -121,6 +129,12 @@ header {
 						display: flex;
 						align-items: center;
 						gap: 0.5em;
+
+						@media (height < 870px) {
+							font-size: 1.7em;
+							padding: 1em;
+							top: 0;
+						}
 						
 						span {
 							font-size: 0.8em;
