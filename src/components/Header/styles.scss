@@ -14,6 +14,10 @@ header {
 		align-items: center;
 		justify-content: center;
 
+		@media (width < 750px) {
+			justify-content: flex-start;
+		}
+
 		.rippedWrapper2 {
 			position: absolute;
 			z-index: -1;
@@ -54,6 +58,117 @@ header {
 		}
 
 		nav {
+			.menuIcon {
+				display: flex;
+				align-items: center;
+				gap: 1em;
+				font-size: 2em;
+				width: 100%;
+				justify-content: flex-start;
+				color: white;
+				padding: 0.8em;
+				border: none;
+				outline: none;
+				background-color: transparent;
+				cursor: pointer;
+
+				@media (width >= 750px) {
+					display: none;
+				}
+			}
+
+			.menu {
+				position: fixed;
+				z-index: 15;
+				width: 100%;
+				height: 100dvh;
+				top: 0;
+				left: 0;
+
+				.menuWrapper {
+					width: 100%;
+					height: 100%;
+					position: relative;
+					display: flex;
+
+					nav {
+						padding: 4em;
+						height: 100%;
+						display: flex;
+						align-items: center;
+						
+						ul {
+							display: flex;
+							flex-direction: column;
+							align-items: flex-start;
+							font-size: 1.5em;
+							gap: 1.5em;
+						}
+					}
+
+					button {
+						background-color: transparent;
+						border: none;
+						outline: none;
+						color: white;
+						font-size: 2em;
+						padding: 0.8em;
+						cursor: pointer;
+						position: absolute;
+						top: 1em;
+						left: 1em;
+						font-family: 'Iwata Mincho Pro M', serif;
+						display: flex;
+						align-items: center;
+						gap: 0.5em;
+						
+						span {
+							font-size: 0.8em;
+						}
+					}
+
+					.menuBackground {
+						position: absolute;
+						z-index: -1;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: auto;
+						pointer-events: none;
+						translate: -7em;
+				
+						.backgroundWrapper {
+							width: 30em;
+							height: 100%;
+							position: relative;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							scale: 1;
+					
+							img {
+								width: 100%;
+								height: 100%;
+								object-fit: contain;
+								display: flex;
+								scale: 1.1;
+							}
+
+							:not(.duplicate img) {
+								mix-blend-mode: multiply;
+							}
+
+							.duplicate img {
+								position: absolute;
+								z-index: -2;
+								filter: drop-shadow(0px 2000px 0 var(--bg-color));
+								transform: translateY(calc(-2000px - 45.5%)) translateX(-90.9%);
+							}
+						}
+					}
+				}
+			}
+			
 			ul {
 				list-style: none;
 				font-size: 1.2em;
@@ -61,6 +176,10 @@ header {
 				align-items: center;
 				justify-content: center;
 				gap: 2em;
+
+				@media (width < 750px) {
+					display: none;
+				}
 
 				li {
 					a {

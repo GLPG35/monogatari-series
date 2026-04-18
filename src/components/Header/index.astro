@@ -1,5 +1,6 @@
 ---
 import './styles.scss'
+import Menu from '../Menu'
 
 const active = Astro.url.pathname
 ---
@@ -20,9 +21,10 @@ const active = Astro.url.pathname
 			</div>
 		</div>
 		<nav>
+			<Menu client:idle active={active} />
 			<ul>
-				<li><a href="/stories" class={active == '/stories' ? "active" : ""}>Short Stories</a></li>
-				<li><a href="/lns" class={active == '/lns' ? "active" : ""}>Light Novels</a></li>
+				<li><a href="/stories" class={active.includes('/stories') ? "active" : ""}>Short Stories</a></li>
+				<li><a href="/lns" class={active.includes('/lns') ? "active" : ""}>Light Novels</a></li>
 				<li><a href="/" class={active == '/' ? "active" : ""}>Home</a></li>
 				<li><a href="/anime" class={active.includes('/anime') ? "active" : ""}>Anime</a></li>
 				<li><a href="/manga" class={active.includes('/manga') ? "active" : ""}>Manga</a></li>
