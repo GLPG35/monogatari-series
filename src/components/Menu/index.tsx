@@ -18,9 +18,13 @@ const Menu = ({ active }: { active: string }) => {
 							<div className="menuBackground">
 								<div className="backgroundWrapper">
 									<picture>
+										<source srcSet="/48.avif" type='image/avif' />
+										<source srcSet="/48.webp" type='image/webp' />
 										<img src="/48.png" alt="" />
 									</picture>
 									<picture className='duplicate'>
+										<source srcSet="/48.avif" type='image/avif' />
+										<source srcSet="/48.webp" type='image/webp' />
 										<img src="/48.png" alt="" />
 									</picture>
 								</div>
