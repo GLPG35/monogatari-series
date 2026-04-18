@@ -58,12 +58,12 @@ import stories from '../utils/stories.json'
 							<picture>
 								<source srcset="/42.avif" type="image/avif" />
 								<source srcset="/42.webp" type="image/webp" />
-								<img src="/42.png" alt="">
+								<img src="/42.png" alt="" fetchpriority="high">
 							</picture>
 							<picture class="duplicate">
 								<source srcset="/42.avif" type="image/avif" />
 								<source srcset="/42.webp" type="image/webp" />
-								<img src="/42.png" alt="" />
+								<img src="/42.png" alt="" fetchpriority="high" />
 							</picture>
 						</div>
 					</div>
@@ -89,12 +89,12 @@ import stories from '../utils/stories.json'
 											<picture>
 												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
 												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
-												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="">
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
 											</picture>
 											<picture class="duplicate">
 												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
 												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
-												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" />
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
 											</picture>
 										</div>
 										<span>{i + 1}</span>
@@ -106,7 +106,7 @@ import stories from '../utils/stories.json'
 											const isLast = pictures.length === i + 1
 											const type = path.split('.').pop()
 
-											if (isLast) return <img src={path} alt="" />
+											if (isLast) return <img src={path} alt="" loading="lazy" />
 											
 											return <source srcset={path} type={`image/${type}`} />
 										})}
@@ -136,7 +136,7 @@ import stories from '../utils/stories.json'
 											const isLast = pictures.length === i + 1
 											const type = path.split('.').pop()
 
-											if (isLast) return <img src={path} alt="" />
+											if (isLast) return <img src={path} alt="" loading="lazy" />
 											
 											return <source srcset={path} type={`image/${type}`} />
 										})}
@@ -148,12 +148,12 @@ import stories from '../utils/stories.json'
 											<picture>
 												<source srcset="/23.avif" type="image/avif" />
 												<source srcset="/23.webp" type="image/webp" />
-												<img src='/23.png' alt="" />
+												<img src='/23.png' alt="" loading="lazy" />
 											</picture>
 											<picture class="duplicate">
 												<source srcset="/23.avif" type="image/avif" />
 												<source srcset="/23.webp" type="image/webp" />
-												<img src='/23.png' alt="" />
+												<img src='/23.png' alt="" loading="lazy" />
 											</picture>
 										</div>
 										<span>{when}</span>

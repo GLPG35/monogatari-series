@@ -11,12 +11,12 @@ const active = Astro.url.pathname
 				<picture>
 					<source srcset="/88.avif" type="image/avif" />
 					<source srcset="/88.webp" type="image/webp" />
-					<img src="/88.png" alt="" />
+					<img src="/88.png" alt="" fetchpriority="high" />
 				</picture>
 				<picture class="duplicate">
 					<source srcset="/88.avif" type="image/avif" />
 					<source srcset="/88.webp" type="image/webp" />
-					<img src="/88.png" alt="" />
+					<img src="/88.png" alt="" fetchpriority="high" />
 				</picture>
 			</div>
 		</div>
