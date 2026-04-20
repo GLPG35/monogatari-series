@@ -126,6 +126,10 @@ main {
 				justify-content: center;
 				clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
 				mask-image: linear-gradient(to bottom, black 40%, transparent 50%);
+
+				@media (width > 1920px) {
+					transform: translateY(-35%);
+				}
 		
 				img {
 					width: 1920px;
@@ -133,6 +137,10 @@ main {
 					object-fit: cover;
 					display: flex;
 					scale: 1.1;
+
+					@media (width > 1920px) {
+						width: 97vw;
+					}
 				}
 
 				:not(.duplicate img) {

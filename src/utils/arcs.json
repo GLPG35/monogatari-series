@@ -17,6 +17,7 @@
 			"/covers/bakemonogatari-0.5x.avif",
 			"/covers/bakemonogatari-0.5x.webp"
 		],
+		"responsivePosition": "top",
 		"hidden": false,
 		"color": "--bg-purple",
 		"info": {
@@ -294,6 +295,7 @@
 			"/covers/kizumonogatari-I-0.5x.avif",
 			"/covers/kizumonogatari-I-0.5x.webp"
 		],
+		"responsivePosition": "center",
 		"hidden": false,
 		"color": "--bg-red",
 		"info": {
@@ -407,6 +409,7 @@
 			"/covers/kizumonogatari-II-0.5x.avif",
 			"/covers/kizumonogatari-II-0.5x.webp"
 		],
+		"responsivePosition": "top",
 		"hidden": false,
 		"color": "--bg-blue",
 		"info": {
@@ -496,6 +499,7 @@
 			"/covers/kizumonogatari-III-0.5x.avif",
 			"/covers/kizumonogatari-III-0.5x.webp"
 		],
+		"responsivePosition": "top 20% left 0",
 		"hidden": false,
 		"color": "--bg-yellow",
 		"info": {
@@ -592,6 +596,7 @@
 			"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
 			"/covers/kizumonogatari-koyomi-vamp-0.5x.webp"
 		],
+		"responsivePosition": "center",
 		"hidden": true,
 		"color": "--bg-black",
 		"info": {
@@ -702,6 +707,7 @@
 			"/covers/nisemonogatari-0.5x.avif",
 			"/covers/nisemonogatari-0.5x.webp"
 		],
+		"responsivePosition": "center",
 		"hidden": false,
 		"color": "--bg-green",
 		"info": {
@@ -808,6 +814,7 @@
 			"/covers/nekomonogatari-kuro-0.5x.avif",
 			"/covers/nekomonogatari-kuro-0.5x.webp"
 		],
+		"responsivePosition": "top",
 		"hidden": false,
 		"color": "--bg-black",
 		"info": {
@@ -874,6 +881,7 @@
 			"/covers/nekomonogatari-shiro-0.5x.avif",
 			"/covers/nekomonogatari-shiro-0.5x.webp"
 		],
+		"responsivePosition": "top",
 		"hidden": false,
 		"color": "--bg-white",
 		"info": {
@@ -955,6 +963,7 @@
 			"/covers/kabukimonogatari-0.5x.avif",
 			"/covers/kabukimonogatari-0.5x.webp"
 		],
+		"responsivePosition": "top",
 		"hidden": false,
 		"color": "--bg-blue",
 		"info": {
@@ -1043,6 +1052,7 @@
 			"/covers/hanamonogatari-0.5x.avif",
 			"/covers/hanamonogatari-0.5x.webp"
 		],
+		"responsivePosition": "top",
 		"hidden": false,
 		"color": "--bg-salmon",
 		"info": {
@@ -1116,6 +1126,7 @@
 			"/covers/otorimonogatari-0.5x.avif",
 			"/covers/otorimonogatari-0.5x.webp"
 		],
+		"responsivePosition": "center 35%",
 		"hidden": false,
 		"color": "--bg-white",
 		"info": {
@@ -1207,6 +1218,7 @@
 			"/covers/onimonogatari-0.5x.avif",
 			"/covers/onimonogatari-0.5x.webp"
 		],
+		"responsivePosition": "top",
 		"hidden": false,
 		"color": "--bg-orange",
 		"info": {
@@ -1295,6 +1307,7 @@
 			"/covers/koimonogatari-0.5x.avif",
 			"/covers/koimonogatari-0.5x.webp"
 		],
+		"responsivePosition": "top",
 		"hidden": false,
 		"color": "--bg-purple",
 		"info": {
@@ -1377,6 +1390,7 @@
 			"/covers/tsukimonogatari-0.5x.avif",
 			"/covers/tsukimonogatari-0.5x.webp"
 		],
+		"responsivePosition": "center 20%",
 		"hidden": false,
 		"color": "--bg-green",
 		"info": {
@@ -1441,6 +1455,7 @@
 			"/covers/koyomimonogatari-0.5x.avif",
 			"/covers/koyomimonogatari-0.5x.webp"
 		],
+		"responsivePosition": "top",
 		"hidden": false,
 		"color": "--bg-black",
 		"info": {
@@ -1717,6 +1732,7 @@
 			"/covers/owarimonogatari-jou-0.5x.avif",
 			"/covers/owarimonogatari-jou-0.5x.webp"
 		],
+		"responsivePosition": "top",
 		"hidden": false,
 		"color": "--bg-black",
 		"info": {
@@ -1809,6 +1825,7 @@
 			"/covers/owarimonogatari-ge-0.5x.avif",
 			"/covers/owarimonogatari-ge-0.5x.webp"
 		],
+		"responsivePosition": "center 20%",
 		"hidden": false,
 		"color": "--bg-purple",
 		"info": {
@@ -1900,6 +1917,7 @@
 			"/covers/zoku-owarimonogatari-0.5x.avif",
 			"/covers/zoku-owarimonogatari-0.5x.webp"
 		],
+		"responsivePosition": "top",
 		"hidden": false,
 		"color": "--bg-white",
 		"info": {
@@ -1996,6 +2014,7 @@
 			"/covers/orokamonogatari-0.5x.avif",
 			"/covers/orokamonogatari-0.5x.webp"
 		],
+		"responsivePosition": "top",
 		"hidden": false,
 		"color": "--bg-green",
 		"info": {
@@ -2044,6 +2063,7 @@
 			"/covers/nademonogatari-0.5x.avif",
 			"/covers/nademonogatari-0.5x.webp"
 		],
+		"responsivePosition": "center 10%",
 		"hidden": false,
 		"color": "--bg-green",
 		"info": {
@@ -2120,6 +2140,7 @@
 			"/covers/wazamonogatari-ova-0.5x.avif",
 			"/covers/wazamonogatari-ova-0.5x.webp"
 		],
+		"responsivePosition": "center 40%",
 		"hidden": false,
 		"color": "--bg-orange",
 		"info": {
@@ -2160,6 +2181,7 @@
 			"/covers/wazamonogatari-0.5x.avif",
 			"/covers/wazamonogatari-0.5x.webp"
 		],
+		"responsivePosition": "center 70%",
 		"hidden": false,
 		"color": "--bg-orange",
 		"info": {
@@ -2203,6 +2225,7 @@
 			"/covers/shinobumonogatari-0.5x.avif",
 			"/covers/shinobumonogatari-0.5x.webp"
 		],
+		"responsivePosition": "center 25%",
 		"hidden": false,
 		"color": "--bg-yellow",
 		"info": {

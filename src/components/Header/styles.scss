@@ -35,6 +35,18 @@ header {
 				display: flex;
 				align-items: center;
 				justify-content: center;
+
+				@media (width < 750px) {
+					transform: translateY(-58%);
+				}
+
+				@media (width > 1920px) {
+					transform: translateY(calc(4vh - 11vw));
+
+					@media (min-resolution: 1.35dppx) {
+						transform: translateY(calc((4vh - 11vw) + 1em)) !important;
+					}
+				}
 		
 				img {
 					width: 115em;
@@ -42,6 +54,10 @@ header {
 					object-fit: cover;
 					display: flex;
 					scale: 1.1;
+
+					@media (width > 1920px) {
+						width: 100vw;
+					}
 				}
 
 				:not(.duplicate img) {
@@ -61,7 +77,7 @@ header {
 			.menuIcon {
 				display: flex;
 				align-items: center;
-				gap: 1em;
+				gap: 0.5em;
 				font-size: 2em;
 				width: 100%;
 				justify-content: flex-start;
@@ -71,6 +87,11 @@ header {
 				outline: none;
 				background-color: transparent;
 				cursor: pointer;
+				font-family: 'Iwata Mincho Pro', serif;
+
+				span {
+					font-size: 0.7em;
+				}
 
 				@media (width >= 750px) {
 					display: none;

@@ -45,6 +45,7 @@ const Menu = ({ active }: { active: string }) => {
 			</AnimatePresence>
 			<button className="menuIcon" onClick={() => setMenu(true)}>
 				<LuMenu />
+				<span>Menu</span>
 			</button>
 		</>
 	)
