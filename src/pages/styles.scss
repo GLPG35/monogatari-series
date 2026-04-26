@@ -259,22 +259,22 @@ main {
 					display: flex;
 					align-items: center;
 					justify-content: center;
-
+	
 					ruby {
 						font-size: 4rem;
 						ruby-align: center;
 						line-height: 1.1em;
 						ruby-position: under;
-
+	
 						&.small {
 							font-size: 2em;
-							translate: 0.2em 25%;
-
+							margin-top: auto;
+	
 							rt {
 								font-size: 0.45em;
 							}
 						}
-
+	
 						rt {
 							font-size: 0.22em;
 							padding-block: 0.5em;
