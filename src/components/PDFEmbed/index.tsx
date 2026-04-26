@@ -1,4 +1,4 @@
-import { PDFViewer, DocumentManagerPlugin, UIPlugin, ZoomMode } from '@embedpdf/react-pdf-viewer' 
+import { PDFViewer, type DocumentManagerPlugin, type UIPlugin, ZoomMode } from '@embedpdf/react-pdf-viewer' 
 import './styles.scss'
 
 const PDFEmbed = ({ url, setView }: { url: string, setView: (view?: string) => void }) => {
