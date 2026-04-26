@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro'
 import './styles.scss'
 import arcs from '../utils/arcs.json'
 import stories from '../utils/stories.json'
+import InteractiveStory from '../components/InteractiveStory'
 ---
 
 <html lang="en" style="--bg-color: var(--bg-lilac)">
@@ -72,7 +73,8 @@ import stories from '../utils/stories.json'
 						<h2>Introduction</h2>
 						<p>This guide was made to help people have the most immersive experience possible while watching the anime.</p>
 						<p>Originally, it started as a light novel series written by NisiOisiN in 2005, receiving an anime adaptation by Studio SHAFT in 2009. Alongside the main novels, the author produced what is known as <b>短物語</b> (Short Stories)—supplemental pieces that offer valuable context for specific arcs in both the anime and the light novels. These short stories will be crucial in this guide and are detailed immediatly following the "Anime Watch Order" section.</p>
-						<p>There are also audio commentaries (also written by NisiOisiN), which consist of two characters commenting on a specific anime episode. Even though these often contain interesting facts, they are recommended for enthusiasts only, as they are merely <em>optional</em>. These will be included in the anime download (more on that in the <a href="/anime">anime section</a>).</p>
+						<p>Keep in mind that most of these short stories are just fragments taken from the fan-made English translation book. More information on that in the <a href="/ss">short stories page</a>.</p>
+						<p>There are also audio commentaries (also written by NisiOisiN), which consist of two characters commenting on a specific anime episode. Even though these often contain interesting facts, they are recommended for enthusiasts only, as they are merely <em>optional</em>. These will be included in the anime download (more on that in the <a href="/downloads/anime">anime downloads page</a>).</p>
 						<p><em>Original text by @trenole.</em></p>
 					</div>
 					<div class="subsection">
@@ -116,8 +118,13 @@ import stories from '../utils/stories.json'
 									{text}
 								</div>
 								<div class="name">
-									<ruby set:html={(kanji.reduce((prev, [kanji, romaji]) => [...prev, `${kanji}${romaji ? `<rt>${romaji}</rt>` : ''}`], []).join(''))}>
+									<ruby set:html={(kanji.filter(([kanji]) => !kanji.includes('(')).reduce((prev, [kanji, romaji]) => [...prev, `${kanji}${romaji ? `<rt>${romaji}</rt>` : ''}`], []).join(''))}>
 									</ruby>
+									{kanji.some(([kanji]) => kanji.includes('(')) &&
+										<ruby class="small">
+											{kanji.filter(([kanji]) => kanji.includes('('))[0][0]}<rt>{kanji.filter(([kanji]) => kanji.includes('('))[0][1]}</rt>
+										</ruby>
+									}
 								</div>
 							</div>
 						))}
@@ -125,46 +132,11 @@ import stories from '../utils/stories.json'
 					<div class="subsection">
 						<h2>Short Stories</h2>
 						<p>These short stories follow a specific order, so after finishing an arc, come back to this section to check if there's something you need to read.</p>
+						<p>Keep in mind that this is only an "essential" selection of short stories, taken from the "Mijikanamonogatari" book compilation made by @maxdefolsch (<a href="/ss_credits.jpg">full credits here</a>).</p>
+						<p>If you want to see all of the short stories, please <a href="/stories">go to the short stories page</a>.</p>
 						<p><em>Terminology note: While the anime translates 怪異 as "oddities", these short stories follow the official light novel translation, "aberrations".</em></p>
 					</div>
-					<div class="stories">
-						{stories.map(({ name, when, pictures, file }) => (
-							<div class="story">
-								<a class="cover" href={file} download>
-									<picture>
-										{pictures.map((path, i) => {
-											const isLast = pictures.length === i + 1
-											const type = path.split('.').pop()
-
-											if (isLast) return <img src={path} alt="" loading="lazy" />
-											
-											return <source srcset={path} type={`image/${type}`} />
-										})}
-									</picture>
-								</a>
-								<div class="when">
-									<div class="whenWrapper">
-										<div class="texture">
-											<picture>
-												<source srcset="/23.avif" type="image/avif" />
-												<source srcset="/23.webp" type="image/webp" />
-												<img src='/23.png' alt="" loading="lazy" />
-											</picture>
-											<picture class="duplicate">
-												<source srcset="/23.avif" type="image/avif" />
-												<source srcset="/23.webp" type="image/webp" />
-												<img src='/23.png' alt="" loading="lazy" />
-											</picture>
-										</div>
-										<span>{when}</span>
-									</div>
-								</div>
-								<div class="name">
-									{name}
-								</div>
-							</div>
-						))}
-					</div>
+					<InteractiveStory {...{stories}} client:idle />
 				</div>
 			</main>
 		</Layout>

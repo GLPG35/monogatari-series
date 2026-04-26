@@ -273,6 +273,54 @@
 			],
 			"description": [
 				"Thanks to Oshino Meme, Araragi Koyomi, a high school student, is able to remain a human after coming across a female vampire... However, since the incident, Araragi seems to meet girls who have an oddity-related issue. Senjougahara Hitagi doesn't weigh anything, Kanbaru Suruga's right arm becomes like that of a monkey's, and a young girl, Mayoi, cannot find her way home no matter how many times she tries. Araragi, a Mr. Nice Guy, ends up helping each and every girl solve her problem with the help of Oshino Meme."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Tsubasa Song",
+					"when": "After",
+					"pictures": [
+						"/covers/tsubasa-song-0.5x.avif",
+						"/covers/tsubasa-song-0.5x.webp"
+					],
+					"file": "/stories/Tsubasa Song.pdf"
+				},
+				{
+					"name": "Hitagi Throwing",
+					"when": "After",
+					"pictures": [
+						"/covers/hitagi-throwing-0.5x.avif",
+						"/covers/hitagi-throwing-0.5x.webp"
+					],
+					"file": "/stories/Hitagi Throwing.pdf"
+				}
 			]
 		}
 	},
@@ -375,7 +423,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "kizumonogatari-koyomi-vamp",
+					"name": "/anime/kizumonogatari-koyomi-vamp",
 					"text": "Compilation",
 					"pictures": [
 						"/covers/kizumonogatari-koyomi-vamp.avif",
@@ -385,6 +433,19 @@
 					"picturesHalf": [
 						"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
 						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp"
 					]
 				}
 			]
@@ -465,7 +526,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "kizumonogatari-koyomi-vamp",
+					"name": "/anime/kizumonogatari-koyomi-vamp",
 					"text": "Compilation",
 					"pictures": [
 						"/covers/kizumonogatari-koyomi-vamp.avif",
@@ -475,6 +536,19 @@
 					"picturesHalf": [
 						"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
 						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp"
 					]
 				}
 			]
@@ -562,7 +636,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "kizumonogatari-koyomi-vamp",
+					"name": "/anime/kizumonogatari-koyomi-vamp",
 					"text": "Compilation",
 					"pictures": [
 						"/covers/kizumonogatari-koyomi-vamp.avif",
@@ -573,6 +647,39 @@
 						"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
 						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp"
 					]
+				},
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "As A Human",
+					"when": "After",
+					"pictures": [
+						"/covers/as-a-human-0.5x.avif",
+						"/covers/as-a-human-0.5x.webp"
+					],
+					"file": "/stories/As A Human.pdf"
+				},
+				{
+					"name": "Something Wrong",
+					"when": "After",
+					"pictures": [
+						"/covers/something-wrong-0.5x.avif",
+						"/covers/something-wrong-0.5x.webp"
+					],
+					"file": "/stories/Something Wrong.pdf"
 				}
 			]
 		}
@@ -648,7 +755,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "kizumonogatari-I",
+					"name": "/anime/kizumonogatari-I",
 					"text": "Original",
 					"pictures": [
 						"/covers/kizumonogatari-I.avif",
@@ -661,7 +768,7 @@
 					]
 				},
 				{
-					"name": "kizumonogatari-II",
+					"name": "/anime/kizumonogatari-II",
 					"text": "Original",
 					"pictures": [
 						"/covers/kizumonogatari-II.avif",
@@ -674,7 +781,7 @@
 					]
 				},
 				{
-					"name": "kizumonogatari-III",
+					"name": "/anime/kizumonogatari-III",
 					"text": "Original",
 					"pictures": [
 						"/covers/kizumonogatari-III.avif",
@@ -684,6 +791,19 @@
 					"picturesHalf": [
 						"/covers/kizumonogatari-III-0.5x.avif",
 						"/covers/kizumonogatari-III-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp"
 					]
 				}
 			]
@@ -792,18 +912,57 @@
 			],
 			"description": [
 				"In Bakemonogatari, the story centered on Araragi Koyomi, a third year high school student who has recently survived a vampire attack and finds himself mixed up with all kinds of oddities: gods, ghosts, myths, and spirits. However, in Nisemonogatari, we pick up right where we left off and follow Koyomi as the psychological twists delve deeper and deeper..."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nisemonogatari-jou",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/nisemonogatari-jou.avif",
+						"/covers/lns/nisemonogatari-jou.webp",
+						"/covers/lns/nisemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nisemonogatari-jou-0.5x.avif",
+						"/covers/lns/nisemonogatari-jou-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/nisemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/nisemonogatari-ge.avif",
+						"/covers/lns/nisemonogatari-ge.webp",
+						"/covers/lns/nisemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nisemonogatari-ge-0.5x.avif",
+						"/covers/lns/nisemonogatari-ge-0.5x.webp"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Gahara Summit",
+					"when": "After",
+					"pictures": [
+						"/covers/gahara-summit-0.5x.avif",
+						"/covers/gahara-summit-0.5x.webp"
+					],
+					"file": "/stories/Gahara Summit.pdf"
+				}
 			]
 		}
 	},
 	{
 		"name": "nekomonogatari-kuro",
-		"title": "Nekomonogatari Kuro",
+		"title": "Nekomonogatari (Kuro)",
 		"text": "(Episodes 1 - 4)",
 		"kanji": [
 			["猫", "neko."],
 			["物", "mono."],
 			["語", "gatari."],
-			["黒", "kuro."]
+			["(黒)", "kuro."]
 		],
 		"pictures": [
 			"/covers/nekomonogatari-kuro.avif",
@@ -859,18 +1018,33 @@
 			"description": [
 				"On his way to the bookstore, Araragi Koyomi encounters Hanekawa Tsubasa whose face is covered with a bandage. The incident allows Koyomi to learn what has been happening in the Hanekawa household, but Hanekawa begs him not to tell anyone about it, saying she'll do anything to keep him quiet. Without revealing her family's circumstances, Koyomi tells of the day's incident - he and Hanekawa buried a \"cat\" that had been hit by a car- to Oshino Meme. Meme tells Koyomi that he must immediately go to confirm Hanekawa's safety. He heads to her house, only to find...",
 				"So begins the nightmarish nine days of Golden Week."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nekomonogatari-kuro",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/nekomonogatari-kuro.avif",
+						"/covers/lns/nekomonogatari-kuro.webp",
+						"/covers/lns/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-kuro-0.5x.avif",
+						"/covers/lns/nekomonogatari-kuro-0.5x.webp"
+					]
+				}
 			]
 		}
 	},
 	{
 		"name": "nekomonogatari-shiro",
-		"title": "Nekomonogatari Shiro",
+		"title": "Nekomonogatari (Shiro)",
 		"text": "Second Season (Episodes 1 - 5)",
 		"kanji": [
 			["猫", "neko."],
 			["物", "mono."],
 			["語", "gatari."],
-			["白", "shiro."]
+			["(白)", "shiro."]
 		],
 		"pictures": [
 			"/covers/nekomonogatari-shiro.avif",
@@ -942,6 +1116,32 @@
 			"description": [
 				"\"I don't know everything, but I know a lot about you, Araragi-kun.\"",
 				"The flawless class president Hanekawa Tsubasa's first day of the second semester is closely watched by a monstrous tiger. Amidst the lifeless monologue is an unreachable confession..."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nekomonogatari-shiro",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/nekomonogatari-shiro.avif",
+						"/covers/lns/nekomonogatari-shiro.webp",
+						"/covers/lns/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Mayoi Room",
+					"when": "Before",
+					"pictures": [
+						"/covers/mayoi-room-0.5x.avif",
+						"/covers/mayoi-room-0.5x.webp"
+					],
+					"file": "/stories/Mayoi Room.pdf"
+				}
 			]
 		}
 	},
@@ -1031,6 +1231,21 @@
 			],
 			"description": [
 				"Araragi Koyomi and Oshino Shinobu decided to time travel back into 11 years ago using up the remaining spirit particles at the shrine from Nadeko Snake. In their adventure, Koyomi saved Hachikuji Mayoi from the car accident that killed her. When they returned to the present, they discover the world has changed drastically as a consequence of what Koyomi has done. Now they have to find an alternate way to get back to their original world."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kabukimonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kabukimonogatari.avif",
+						"/covers/lns/kabukimonogatari.webp",
+						"/covers/lns/kabukimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kabukimonogatari-0.5x.avif",
+						"/covers/lns/kabukimonogatari-0.5x.webp"
+					]
+				}
 			]
 		}
 	},
@@ -1105,6 +1320,32 @@
 			"description": [
 				"Now that Araragi Koyomi and Senjougahara Hitagi have graduated, few familiar faces remain at Naoetsu Private High School. One of them is Kanbaru Suruga, holder of the Monkey's Paw. When she begins to hear talk of a mysterious being known as the \"Devil\", who will magically solve any problem, she immediately thinks these rumors are about her and decides to investigate.",
 				"Kanbaru discovers the Devil is actually Numachi Rouka, a former rival who provides free advice to those who seek her out now that she can no longer play basketball due to a leg injury. As a collector of misfortune, Numachi enjoys relieving her clients' stress by giving them false hope. Though Kanbaru sees no real harm being done, she reprimands Rouka for lying and heads home, relieved she is not the cause of the rumors. But the next morning, when she finds that her left hand has reverted back to its original form, she may have a reason to worry after all."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/hanamonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/hanamonogatari.avif",
+						"/covers/lns/hanamonogatari.webp",
+						"/covers/lns/hanamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/hanamonogatari-0.5x.avif",
+						"/covers/lns/hanamonogatari-0.5x.webp"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Rouka God",
+					"when": "After",
+					"pictures": [
+						"/covers/rouka-god-0.5x.avif",
+						"/covers/rouka-god-0.5x.webp"
+					],
+					"file": "/stories/Rouka God.pdf"
+				}
 			]
 		}
 	},
@@ -1197,6 +1438,21 @@
 				"The girl who was once possessed by a winding serpent, Sengoku Nadeko.",
 				"The girl who has been in love with Araragi Koyomi for so long now appears as an \"angel\" in pure white. But her true colors are...?",
 				"As the \"story\" approaches its final chapter, it twists around, entangling, evolving—."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/otorimonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/otorimonogatari.avif",
+						"/covers/lns/otorimonogatari.webp",
+						"/covers/lns/otorimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/otorimonogatari-0.5x.avif",
+						"/covers/lns/otorimonogatari-0.5x.webp"
+					]
+				}
 			]
 		}
 	},
@@ -1286,6 +1542,21 @@
 			],
 			"description": [
 				"Immediately following the events of Kabukimonogatari, Araragi and Hachikuji begin having run-ins with a near-indescribable void, which seems to be pursuing them for reasons they cannot determine. The answer to the question, and the solution to their predicament, lies in the memories of Shinobu and the insight of literal know-it-all Gaen Izuko."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/onimonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/onimonogatari.avif",
+						"/covers/lns/onimonogatari.webp",
+						"/covers/lns/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/onimonogatari-0.5x.avif",
+						"/covers/lns/onimonogatari-0.5x.webp"
+					]
+				}
 			]
 		}
 	},
@@ -1369,6 +1640,32 @@
 				"\"Don't you think unrequited love that lasts forever is happier than mutual love?\"",
 				"Senjougahara Hitagi made a deal with the gods with her life in order to protect Araragi Koyomi.",
 				"As winter holidays approach with the promised \"destined day\", she chose the darkest and the worst option..."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/koimonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/koimonogatari.avif",
+						"/covers/lns/koimonogatari.webp",
+						"/covers/lns/koimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/koimonogatari-0.5x.avif",
+						"/covers/lns/koimonogatari-0.5x.webp"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Hitagi Salamander",
+					"when": "After",
+					"pictures": [
+						"/covers/hitagi-salamander-0.5x.avif",
+						"/covers/hitagi-salamander-0.5x.webp"
+					],
+					"file": "/stories/Hitagi Salamander.pdf"
+				}
 			]
 		}
 	},
@@ -1434,6 +1731,32 @@
 			],
 			"description": [
 				"One day in February, Araragi Koyomi was taking a bath with his younger sister Tsukihi amidst finishing his studies for the college entrance exam. This was also following the incident involving Sengoku Nadeko, which was successfully amended behind the scenes by Kaiki Deishuu. Koyomi noticed a change on his body \"that could not be overlooked\" and sought advice from Oshino Shinobu leading him to contact Kagenui Yozuru and Ononoki Yotsugi. Was this change signifying retribution for everything that Koyomi has done?!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/tsukimonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/tsukimonogatari.avif",
+						"/covers/lns/tsukimonogatari.webp",
+						"/covers/lns/tsukimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/tsukimonogatari-0.5x.avif",
+						"/covers/lns/tsukimonogatari-0.5x.webp"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Yotsugi Snow Dome",
+					"when": "After",
+					"pictures": [
+						"/covers/yotsugi-snow-dome-0.5x.avif",
+						"/covers/yotsugi-snow-dome-0.5x.webp"
+					],
+					"file": "/stories/Yotsugi Snow Dome.pdf"
+				}
 			]
 		}
 	},
@@ -1710,18 +2033,33 @@
 			],
 			"description": [
 				"\"You're looking for a horror story? I wish I got one for you\". Untold stories... one per month for one year... Taking place between other Monogatari stories, a chapter not yet told surrounds Araragi Koyomi and the strange happenings he gets pulled into over the course of a year. With one episode told per month, the story unravels in this 12 episode-long series of shorts."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/koyomimonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/koyomimonogatari.avif",
+						"/covers/lns/koyomimonogatari.webp",
+						"/covers/lns/koyomimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/koyomimonogatari-0.5x.avif",
+						"/covers/lns/koyomimonogatari-0.5x.webp"
+					]
+				}
 			]
 		}
 	},
 	{
 		"name": "owarimonogatari-jou",
-		"title": "Owarimonogatari Jou",
+		"title": "Owarimonogatari (Part 1)",
 		"text": "(Episodes 1 - 13)",
 		"kanji": [
 			["終", "owari."],
 			["物", "mono."],
 			["語", "gatari."],
-			["上", "jou."]
+			["(上)", "jou."]
 		],
 		"pictures": [
 			"/covers/owarimonogatari-jou.avif",
@@ -1803,18 +2141,57 @@
 			],
 			"description": [
 				"During the month of October of his third year in high school, Araragi Koyomi is introduced to a transfer student named Oshino Ougi by his underclassman Kanbaru Suruga. Ougi tells Koyomi that she has something she wishes to consult with him. When she draws the map of Naoetsu High School, she finds something peculiar on there. This discovery reveals a tale that wasn't meant to be told, and this makes Koyomi's high school life totally different. This is the story that brings to light \"what\" makes Araragi Koyomi. This is the story that reveals the \"beginning\" of everything."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/owarimonogatari-jou",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/owarimonogatari-jou.avif",
+						"/covers/lns/owarimonogatari-jou.webp",
+						"/covers/lns/owarimonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-jou-0.5x.avif",
+						"/covers/lns/owarimonogatari-jou-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/owarimonogatari-chuu",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/owarimonogatari-chuu.avif",
+						"/covers/lns/owarimonogatari-chuu.webp",
+						"/covers/lns/owarimonogatari-chuu.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-chuu-0.5x.avif",
+						"/covers/lns/owarimonogatari-chuu-0.5x.webp"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Yotsugi Stress",
+					"when": "After",
+					"pictures": [
+						"/covers/yotsugi-stress-0.5x.avif",
+						"/covers/yotsugi-stress-0.5x.webp"
+					],
+					"file": "/stories/Yotsugi Stress.pdf"
+				}
 			]
 		}
 	},
 	{
 		"name": "owarimonogatari-ge",
-		"title": "Owarimonogatari Ge",
+		"title": "Owarimonogatari (Part 2)",
 		"text": "(Episodes 1 - 7)",
 		"kanji": [
 			["終", "owari."],
 			["物", "mono."],
 			["語", "gatari."],
-			["下", "ge."]
+			["(下)", "ge."]
 		],
 		"pictures": [
 			"/covers/owarimonogatari-ge.avif",
@@ -1895,6 +2272,21 @@
 			],
 			"description": [
 				"Koyomi wakes up to see Hachikuji Mayoi before him, the girl who supposedly had gone to the afterlife. She tells Koyomi that they are currently in Avichi, the lowest levels of hell. Koyomi is dubious of how Mayoi knew about the exact timing of his death and which hell he would drop into, when Mayoi tells him that she was there to pick him up by the request of a certain individual."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/owarimonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/owarimonogatari-ge.avif",
+						"/covers/lns/owarimonogatari-ge.webp",
+						"/covers/lns/owarimonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-ge-0.5x.avif",
+						"/covers/lns/owarimonogatari-ge-0.5x.webp"
+					]
+				}
 			]
 		}
 	},
@@ -1993,6 +2385,77 @@
 			],
 			"description": [
 				"The morning after high school graduation, Koyomi is standing in front of the mirror above the sink to wash his face when he suddenly feels like his reflection is staring back at him. He instinctively reaches for the mirror, and upon touching it, his fingers sink in... When he comes to, Koyomi finds himself in a world where everything appears to be reversed."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/zoku-owarimonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/zoku-owarimonogatari.avif",
+						"/covers/lns/zoku-owarimonogatari.webp",
+						"/covers/lns/zoku-owarimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/zoku-owarimonogatari-0.5x.avif",
+						"/covers/lns/zoku-owarimonogatari-0.5x.webp"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "And Then",
+					"when": "After",
+					"pictures": [
+						"/covers/and-then-0.5x.avif",
+						"/covers/and-then-0.5x.webp"
+					],
+					"file": "/stories/And Then.pdf"
+				},
+				{
+					"name": "Sodachi Mirror",
+					"when": "After",
+					"pictures": [
+						"/covers/sodachi-mirror-0.5x.avif",
+						"/covers/sodachi-mirror-0.5x.webp"
+					],
+					"file": "/stories/Sodachi Mirror.pdf"
+				},
+				{
+					"name": "Ougi Reflect",
+					"when": "After",
+					"pictures": [
+						"/covers/ougi-reflect-0.5x.avif",
+						"/covers/ougi-reflect-0.5x.webp"
+					],
+					"file": "/stories/Ougi Reflect.pdf"
+				},
+				{
+					"name": "Ougi Road Movie",
+					"when": "After",
+					"pictures": [
+						"/covers/ougi-road-movie-0.5x.avif",
+						"/covers/ougi-road-movie-0.5x.webp"
+					],
+					"file": "/stories/Ougi Road Movie.pdf"
+				},
+				{
+					"name": "Karen Brushing",
+					"when": "After",
+					"pictures": [
+						"/covers/karen-brushing-0.5x.avif",
+						"/covers/karen-brushing-0.5x.webp"
+					],
+					"file": "/stories/Karen Brushing.pdf"
+				},
+				{
+					"name": "Tsukihi Brushing",
+					"when": "After",
+					"pictures": [
+						"/covers/tsukihi-brushing-0.5x.avif",
+						"/covers/tsukihi-brushing-0.5x.webp"
+					],
+					"file": "/stories/Tsukihi Brushing.pdf"
+				}
 			]
 		}
 	},
@@ -2042,6 +2505,21 @@
 			],
 			"description": [
 				"While pretending to be her doll, Tsukihi catches Yotsugi moving when she thought she was wasn't around. Yotsugi tries to convince Tsukihi she's a magical girl possessing her doll in charge of an important mission."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/orokamonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/orokamonogatari.avif",
+						"/covers/lns/orokamonogatari.webp",
+						"/covers/lns/orokamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/orokamonogatari-0.5x.avif",
+						"/covers/lns/orokamonogatari-0.5x.webp"
+					]
+				}
 			]
 		}
 	},
@@ -2118,6 +2596,41 @@
 				"However, the four \"Nadekos\" run away, scattered......?",
 				"The Oddities! Oddities! Oddities! of these modern days.",
 				"Youth is being unable to control even oneself."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nademonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/nademonogatari.avif",
+						"/covers/lns/nademonogatari.webp",
+						"/covers/lns/nademonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nademonogatari-0.5x.avif",
+						"/covers/lns/nademonogatari-0.5x.webp"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Nadeko Past",
+					"when": "Before",
+					"pictures": [
+						"/covers/nadeko-past-0.5x.avif",
+						"/covers/nadeko-past-0.5x.webp"
+					],
+					"file": "/stories/Nadeko Past.pdf"
+				},
+				{
+					"name": "Shinobu Future",
+					"when": "After",
+					"pictures": [
+						"/covers/shinobu-future-0.5x.avif",
+						"/covers/shinobu-future-0.5x.webp"
+					],
+					"file": "/stories/Shinobu Future.pdf"
+				}
 			]
 		}
 	},
@@ -2160,6 +2673,21 @@
 			],
 			"description": [
 				"Once upon a time, there was a true story that happened about 600 years ago. It's a story of a very beautiful girl who lived in a country that no longer exists."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/wazamonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/wazamonogatari.avif",
+						"/covers/lns/wazamonogatari.webp",
+						"/covers/lns/wazamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/wazamonogatari-0.5x.avif",
+						"/covers/lns/wazamonogatari-0.5x.webp"
+					]
+				}
 			]
 		}
 	},
@@ -2204,6 +2732,21 @@
 				"About 600 years from the present, this now-destroyed country was where the girl called the \"Princess Fair\" had lived. With such beauty that anyone would offer one's life for, the road the girl trod on became a mountain of corpses.",
 				"These are the legendary Oddities! Oddities! Oddities!",
 				"Youth is cruel like a fairy tale."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/wazamonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/wazamonogatari.avif",
+						"/covers/lns/wazamonogatari.webp",
+						"/covers/lns/wazamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/wazamonogatari-0.5x.avif",
+						"/covers/lns/wazamonogatari-0.5x.webp"
+					]
+				}
 			]
 		}
 	},
@@ -2231,7 +2774,7 @@
 		"info": {
 			"date": "September 14, 2024",
 			"arcs": [
-				"Shinobu Mustard"
+				"Shinobu Mastered"
 			],
 			"gallery": [
 				[
@@ -2295,6 +2838,32 @@
 				"\"It's chic to go saving a girl who has nothing to do with you every once in a while.\"",
 				"Female students from Naoetsu High School have gone missing one after the other. When the mummified bodies of the girls are discovered, there's a very distinctive marking left on the napes of their necks...?",
 				"Araragi Koyomi, now a first year university student, goes on the move to track down the culprit!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/shinobumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/shinobumonogatari.avif",
+						"/covers/lns/shinobumonogatari.webp",
+						"/covers/lns/shinobumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/shinobumonogatari-0.5x.avif",
+						"/covers/lns/shinobumonogatari-0.5x.webp"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Mayoi Welcome",
+					"when": "Before",
+					"pictures": [
+						"/covers/mayoi-welcome-0.5x.avif",
+						"/covers/mayoi-welcome-0.5x.webp"
+					],
+					"file": "/stories/Mayoi Welcome.pdf"
+				}
 			]
 		}
 	}

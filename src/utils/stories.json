@@ -10,6 +10,26 @@
 		"file": "/stories/Tsubasa Song.pdf"
 	},
 	{
+		"name": "Hitagi Throwing",
+		"when": "After Bakemonogatari",
+		"pictures": [
+			"/covers/hitagi-throwing.avif",
+			"/covers/hitagi-throwing.webp",
+			"/covers/hitagi-throwing.jpg"
+		],
+		"file": "/stories/Hitagi Throwing.pdf"
+	},
+	{
+		"name": "As A Human",
+		"when": "After Kizumonogatari III",
+		"pictures": [
+			"/covers/as-a-human.avif",
+			"/covers/as-a-human.webp",
+			"/covers/as-a-human.jpg"
+		],
+		"file": "/stories/As A Human.pdf"
+	},
+	{
 		"name": "Something Wrong",
 		"when": "After Kizumonogatari III",
 		"pictures": [
@@ -31,7 +51,7 @@
 	},
 	{
 		"name": "Mayoi Room",
-		"when": "After Nekomonogatari Shiro",
+		"when": "Before Nekomonogatari Shiro",
 		"pictures": [
 			"/covers/mayoi-room.avif",
 			"/covers/mayoi-room.webp",
@@ -48,6 +68,16 @@
 			"/covers/rouka-god.png"
 		],
 		"file": "/stories/Rouka God.pdf"
+	},
+	{
+		"name": "Hitagi Salamander",
+		"when": "After Koimonogatari",
+		"pictures": [
+			"/covers/hitagi-salamander.avif",
+			"/covers/hitagi-salamander.webp",
+			"/covers/hitagi-salamander.jpg"
+		],
+		"file": "/stories/Hitagi Salamander.pdf"
 	},
 	{
 		"name": "Yotsugi Snow Dome",

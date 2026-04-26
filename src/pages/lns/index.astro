@@ -1,0 +1,138 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import './styles.scss'
+import lns from '../../utils/lns.json'
+import lnsEn from '../../utils/lns_en.json'
+---
+
+<html lang="en" style="--bg-color: var(--bg-green)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series</title>
+		<meta name="description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series" />
+		<meta property="og:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatari-series.vercel.app/covers/home-cover.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series" />
+		<meta property="twitter:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="twitter:image" content="https://monogatari-series.vercel.app/covers/home-cover.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="info">
+					<div class="subsection">
+						<h2>Japanese Releases</h2>
+						<p>These are the original Japanese light novels, written by NisiOisiN with the covers made by VOFAN.</p>
+						<p>The novels are ordered by release date (the intended order). If you want to read them, please check the <a href="/downloads/lns">light novel downloads page</a>.</p>
+					</div>
+					<div class="titles">
+						{lns.map(({ name, kanji, pictures }, i) => (
+							<div class="book">
+								<div class="number">
+									<div class="numberWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
+											</picture>
+											<picture class="duplicate">
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
+											</picture>
+										</div>
+										<span>{i + 1}</span>
+									</div>
+								</div>
+								<a class="cover" href={`/lns/${name}`}>
+									<picture>
+										{pictures.map((path, i) => {
+											const isLast = pictures.length === i + 1
+											const type = path.split('.').pop()
+	
+											if (isLast) return <img src={path} alt="" loading="lazy" />
+											
+											return <source srcset={path} type={`image/${type}`} />
+										})}
+									</picture>
+								</a>
+								<div class="name">
+									<ruby set:html={(kanji.filter(([kanji]) => !kanji.includes('(')).reduce((prev, [kanji, romaji]) => [...prev, `${kanji}${romaji ? `<rt>${romaji}</rt>` : ''}`], []).join(''))}>
+									</ruby>
+									{kanji.some(([kanji]) => kanji.includes('(')) &&
+										<ruby class="small">
+											{kanji.filter(([kanji]) => kanji.includes('('))[0][0]}<rt>{kanji.filter(([kanji]) => kanji.includes('('))[0][1]}</rt>
+										</ruby>
+									}
+								</div>
+							</div>
+						))}
+					</div>
+					<div class="subsection">
+						<h2>English Releases</h2>
+						<p>These light novels were released by Vertical (an imprint of Penguin Random House), and they offer high quality translations along with new art covers (for most of the books) also made by VOFAN, like in the original Japanese releases.</p>
+						<p>In this case, most novels are ordered by release date, except for Kizumonogatari, because Vertical released it before Bakemonogatari. If you want to read them, please check the <a href="/downloads/lns">light novel downloads page</a>.</p>
+					</div>
+					<div class="titles">
+						{lnsEn.map(({ name, kanji, pictures }, i) => (
+							<div class="book">
+								<div class="number">
+									<div class="numberWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
+											</picture>
+											<picture class="duplicate">
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
+											</picture>
+										</div>
+										<span>{i + 1}</span>
+									</div>
+								</div>
+								<a class="cover" href={`/lns/en/${name}`}>
+									<picture>
+										{pictures.map((path, i) => {
+											const isLast = pictures.length === i + 1
+											const type = path.split('.').pop()
+	
+											if (isLast) return <img src={path} alt="" loading="lazy" />
+											
+											return <source srcset={path} type={`image/${type}`} />
+										})}
+									</picture>
+								</a>
+								<div class="name">
+									<ruby set:html={(kanji.filter(([kanji]) => !kanji.includes('(')).reduce((prev, [kanji, romaji]) => [...prev, `${kanji}${romaji ? `<rt>${romaji}</rt>` : ''}`], []).join(''))}>
+									</ruby>
+									{kanji.some(([kanji]) => kanji.includes('(')) &&
+										<ruby class="small">
+											{kanji.filter(([kanji]) => kanji.includes('('))[0][0]}<rt>{kanji.filter(([kanji]) => kanji.includes('('))[0][1]}</rt>
+										</ruby>
+									}
+								</div>
+							</div>
+						))}
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

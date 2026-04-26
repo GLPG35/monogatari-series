@@ -31,12 +31,12 @@ const Menu = ({ active }: { active: string }) => {
 							</div>	
 							<nav>
 								<ul>
-									<li><a href="/stories" className={active.includes('/stories') ? "active" : ""}>Short Stories</a></li>
-									<li><a href="/lns" className={active.includes('/lns') ? "active" : ""}>Light Novels</a></li>
-									<li><a href="/" className={active == '/' ? "active" : ""}>Home</a></li>
-									<li><a href="/anime" className={active.includes('/anime') ? "active" : ""}>Anime</a></li>
-									<li><a href="/manga" className={active.includes('/manga') ? "active" : ""}>Manga</a></li>
-									<li><a href="/music" className={active == '/music' ? "active" : ""}>Music</a></li>
+									<li><a href="/stories" className={active.startsWith('/stories') ? "active" : ""}>Short Stories</a></li>
+									<li><a href="/lns" className={active.startsWith('/lns') ? "active" : ""}>Light Novels</a></li>
+									<li><a href="/" className={active == '/' || active.startsWith('/anime') ? "active" : ""}>Anime</a></li>
+									<li><a href="/manga" className={active.startsWith('/manga') ? "active" : ""}>Manga</a></li>
+									<li><a href="/music" className={active.startsWith('/music') ? "active" : ""}>Music</a></li>
+									<li><a href="/downloads" className={active.startsWith('/downloads') ? "active" : ""}>Downloads</a></li>
 								</ul>
 							</nav>
 						</div>

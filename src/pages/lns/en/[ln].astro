@@ -1,0 +1,204 @@
+---
+import type { GetStaticPaths } from "astro"
+import Layout from '../../../layouts/Layout.astro'
+import '../ln.scss'
+import lns from '../../../utils/lns_en.json'
+
+export const getStaticPaths = (() => {
+	return [
+		{ params: { ln: 'bakemonogatari-jou' }},
+		{ params: { ln: 'bakemonogatari-chuu' }},
+		{ params: { ln: 'bakemonogatari-ge' }},
+		{ params: { ln: 'kizumonogatari' }},
+		{ params: { ln: 'nisemonogatari-jou' }},
+		{ params: { ln: 'nisemonogatari-ge' }},
+		{ params: { ln: 'nekomonogatari-kuro' }},
+		{ params: { ln: 'nekomonogatari-shiro' }},
+		{ params: { ln: 'kabukimonogatari' }},
+		{ params: { ln: 'hanamonogatari' }},
+		{ params: { ln: 'otorimonogatari' }},
+		{ params: { ln: 'onimonogatari' }},
+		{ params: { ln: 'koimonogatari' }},
+		{ params: { ln: 'tsukimonogatari' }},
+		{ params: { ln: 'koyomimonogatari-jou' }},
+		{ params: { ln: 'koyomimonogatari-ge' }},
+		{ params: { ln: 'owarimonogatari-jou' }},
+		{ params: { ln: 'owarimonogatari-chuu' }},
+		{ params: { ln: 'owarimonogatari-ge' }},
+		{ params: { ln: 'zoku-owarimonogatari' }}
+	]
+}) satisfies GetStaticPaths
+
+const { ln } = Astro.params
+const findLnIndex = lns.findIndex(x => x.name === ln)
+
+if (findLnIndex === -1) return Astro.redirect('/404')
+
+const { color, pictures, name, title, kanji, info, responsivePosition } = lns[findLnIndex]
+const prevLn = findLnIndex === 0 ? null : lns[findLnIndex - 1]
+const nextLn = findLnIndex === lns.length - 1 ? null : lns[findLnIndex + 1]
+---
+
+<html lang="en" style={`--bg-color: var(${color}); --position: ${responsivePosition}`}>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - {name}</title>
+		<meta name="description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={`〈物語〉Monogatari Series - ${title}`} />
+		<meta property="og:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content={`https://monogatari-series.vercel.app/banners/${name}.jpg`} />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content={`〈物語〉Monogatari Series - ${title}`} />
+		<meta property="twitter:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="twitter:image" content={`https://monogatari-series.vercel.app/banners/${name}.jpg`} />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="summary">
+					<div class="cover">
+						<a href={pictures[2]} target="_blank">Full resolution</a>
+						<picture>
+							{pictures.map((path, i) => {
+								const isLast = pictures.length === i + 1
+								const type = path.split('.').pop()
+
+								if (isLast) return <img src={path} alt="">
+								
+								return <source srcset={path} type={`image/${type}`}>
+							})}
+						</picture>
+					</div>
+					<div class="info">
+						<div class="subtitle">
+							{kanji.map(x => x[0]).join('')}
+						</div>
+						<div class="title">
+							<h3>{title}</h3>
+						</div>
+						<div class="date">
+							{info.date}
+						</div>
+						<div class="relations">
+							<h4>Relations</h4>
+							<div class="covers">
+								{prevLn &&
+									<a class="relation" href={`/lns/en/${prevLn.name}`}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<img src="/99.png" alt="">
+													</picture>
+													<picture class="duplicate">
+														<img src="/99.png" alt="">
+													</picture>
+												</div>
+												<span>Previous</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(prevLn.picturesHalf ? prevLn.picturesHalf : prevLn.pictures).map((path, i) => {
+													const isLast = (prevLn.picturesHalf ? prevLn.picturesHalf : prevLn.pictures).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="">
+													
+													return <source srcset={path} type={`image/${type}`}>
+												})}
+											</picture>
+										</div>		
+									</a>
+								}
+								{nextLn &&
+									<a class="relation" href={`/lns/en/${nextLn.name}`}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<img src="/85.png" alt="">
+													</picture>
+													<picture class="duplicate">
+														<img src="/85.png" alt="">
+													</picture>
+												</div>
+												<span>Next</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(nextLn.picturesHalf ? nextLn.picturesHalf : nextLn.pictures).map((path, i) => {
+													const isLast = (nextLn.picturesHalf ? nextLn.picturesHalf : nextLn.pictures).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="">
+													
+													return <source srcset={path} type={`image/${type}`}>
+												})}
+											</picture>
+										</div>		
+									</a>
+								}
+								{info.alternatives && info.alternatives.map(alternative => (
+									<a class="relation" href={alternative.name}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<source srcset="/12.avif" type="image/avif" />
+														<source srcset="/12.webp" type="image/webp" />
+														<img src="/12.png" alt="" />
+													</picture>
+													<picture class="duplicate">
+														<source srcset="/12.avif" type="image/avif" />
+														<source srcset="/12.webp" type="image/webp" />
+														<img src="/12.png" alt="" />
+													</picture>
+												</div>
+												<span>{alternative.text}</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(alternative.picturesHalf ? alternative.picturesHalf : alternative.pictures).map((path, i) => {
+													const isLast = (alternative.picturesHalf ? alternative.picturesHalf : alternative.pictures).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="">
+													
+													return <source srcset={path} type={`image/${type}`}>
+												})}
+											</picture>
+										</div>		
+									</a>
+								))}
+							</div>
+						</div>
+						<div class="section">
+							<h4>Arcs</h4>
+							<ul>
+								{info.arcs.map(arc => <li>{arc[0]}<span>{arc[1]}</span></li>)}
+							</ul>
+						</div>
+						<div class="section description">
+							<h4>Synopsis</h4>
+							{info.description.map(text => (<p>{text}</p>))}
+						</div>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

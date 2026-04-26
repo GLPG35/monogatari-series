@@ -4,6 +4,7 @@ import Layout from '../../layouts/Layout.astro'
 import './arc.scss'
 import arcs from '../../utils/arcs.json'
 import GalleryContainer from '../../components/GalleryContainer'
+import InteractiveMiniStory from '../../components/InteractiveMiniStory'
 
 export const getStaticPaths = (() => {
 	return [
@@ -158,7 +159,7 @@ const arcsText = info.arcs.length > 1 ? `${info.arcs.slice(0, info.arcs.length -
 									</a>
 								}
 								{info.alternatives && info.alternatives.map(alternative => (
-									<a class="relation" href={`/anime/${alternative.name}`}>
+									<a class="relation" href={alternative.name}>
 										<div class="when">
 											<div class="whenWrapper">
 												<div class="texture">
@@ -192,12 +193,18 @@ const arcsText = info.arcs.length > 1 ? `${info.arcs.slice(0, info.arcs.length -
 								))}
 							</div>
 						</div>
+						{info.shortStories &&
+							<div class="relations shortStories">
+								<h4>Short Stories</h4>
+								<InteractiveMiniStory shortStories={info.shortStories} client:idle />
+							</div>
+						}
 						<div class="section">
 							<h4>Arcs</h4>
 							<p>{arcsText}</p>
 						</div>
 						<div class="section">
-							<h4>Description</h4>
+							<h4>Synopsis</h4>
 							{info.description.map(text => (<p>{text}</p>))}
 						</div>
 						<GalleryContainer client:load gallery={gallery} />

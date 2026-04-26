@@ -1,0 +1,1686 @@
+[
+	{
+		"name": "bakemonogatari-jou",
+		"title": "Bakemonogatari (Part 1)",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(上)", "jou."]
+		],
+		"pictures": [
+			"/covers/lns/bakemonogatari-jou.avif",
+			"/covers/lns/bakemonogatari-jou.webp",
+			"/covers/lns/bakemonogatari-jou.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/bakemonogatari-jou-0.5x.avif",
+			"/covers/lns/bakemonogatari-jou-0.5x.webp",
+			"/covers/lns/bakemonogatari-jou-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-purple",
+		"info": {
+			"date": "November 2, 2006",
+			"arcs": [
+				["Episode One: Hitagi Crab", "第一話 ひたぎクラブ"],
+				["Episode Two: Mayoi Maimai", "第二話 まよいマイマイ"],
+				["Episode Three: Suruga Monkey", "第三話 するがモンキー"]
+			],
+			"description": [
+				"The girl who fell from the sky into Araragi Koyomi's arms, Senjougahara Hitagi, didn't have anything that could be called weight at all!",
+				"With a new illustrator from Taiwan, VOFAN, known as the \"Magician of Light\", and a new duo, Nisio Isin is ready to unleash this modern-day monster! In youth, strange things are bound to happen!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/bakemonogatari-jou",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/bakemonogatari-jou.avif",
+						"/covers/lns/en/bakemonogatari-jou.webp",
+						"/covers/lns/en/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/en/bakemonogatari-jou-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/en/bakemonogatari-chuu",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/bakemonogatari-chuu.avif",
+						"/covers/lns/en/bakemonogatari-chuu.webp",
+						"/covers/lns/en/bakemonogatari-chuu.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/bakemonogatari-chuu-0.5x.avif",
+						"/covers/lns/en/bakemonogatari-chuu-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-ge",
+		"title": "Bakemonogatari (Part 2)",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(下)", "ge."]
+		],
+		"pictures": [
+			"/covers/lns/bakemonogatari-ge.avif",
+			"/covers/lns/bakemonogatari-ge.webp",
+			"/covers/lns/bakemonogatari-ge.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/bakemonogatari-ge-0.5x.avif",
+			"/covers/lns/bakemonogatari-ge-0.5x.webp",
+			"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-blue",
+		"info": {
+			"date": "December 5, 2006",
+			"arcs": [
+				["Episode Four: Nadeko Snake", "第四話 なでこスネイク"],
+				["Episode Five: Tsubasa Cat", "第五話 つばさキャット"]
+			],
+			"description": [
+				"It's the things that come with youth that make it crazy!",
+				"Araragi Koyomi is confronted with a \"monster\" that the perfect committee chairman, Hanekawa Tsubasa, was enchanted by! Teaming up with the promising new illustrator from Taiwan, VOFAN, aka the \"Magician of Light\", Nisio Isin is giving it his all for this modern day ghost story!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/bakemonogatari-chuu",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/bakemonogatari-chuu.avif",
+						"/covers/lns/en/bakemonogatari-chuu.webp",
+						"/covers/lns/en/bakemonogatari-chuu.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/bakemonogatari-chuu-0.5x.avif",
+						"/covers/lns/en/bakemonogatari-chuu-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/en/bakemonogatari-ge",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/bakemonogatari-ge.avif",
+						"/covers/lns/en/bakemonogatari-ge.webp",
+						"/covers/lns/en/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/en/bakemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "kizumonogatari",
+		"title": "Kizumonogatari",
+		"kanji": [
+			["傷", "kizu."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/kizumonogatari.avif",
+			"/covers/lns/kizumonogatari.webp",
+			"/covers/lns/kizumonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/kizumonogatari-0.5x.avif",
+			"/covers/lns/kizumonogatari-0.5x.webp",
+			"/covers/lns/kizumonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-red",
+		"info": {
+			"date": "May 8, 2008",
+			"arcs": [
+				["Episode Zero: Koyomi Vamp", "第零話 こよみヴァンプ"]
+			],
+			"description": [
+				"It all starts here! A prequel to \"Bakemonogatari\"! It all began on the night of the last day of school, when Araragi Koyomi met the beautiful vampire, Kiss-shot Acerola-orion Heart-under-blade."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/kizumonogatari",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/kizumonogatari.avif",
+						"/covers/lns/en/kizumonogatari.webp",
+						"/covers/lns/en/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/kizumonogatari-0.5x.avif",
+						"/covers/lns/en/kizumonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "nisemonogatari-jou",
+		"title": "Nisemonogatari (Part 1)",
+		"kanji": [
+			["偽", "nise."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(上)", "jou."]
+		],
+		"pictures": [
+			"/covers/lns/nisemonogatari-jou.avif",
+			"/covers/lns/nisemonogatari-jou.webp",
+			"/covers/lns/nisemonogatari-jou.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/nisemonogatari-jou-0.5x.avif",
+			"/covers/lns/nisemonogatari-jou-0.5x.webp",
+			"/covers/lns/nisemonogatari-jou-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "September 2, 2008",
+			"arcs": [
+				["Episode Six: Karen Bee", "第六話 かれんビー"]
+			],
+			"description": [
+				"The highly popular \"Bakemonogatari\" series returns with its long-awaited latest installment! Araragi Koyomi's youth is always intertwined with supernatural phenomena!? The main characters from the previous installment are joined by Koyomi's two younger sisters—the Fire Sisters—for even more chaos! The long-awaited latest installment in the series!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/nisemonogatari-jou",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/nisemonogatari-jou.avif",
+						"/covers/lns/en/nisemonogatari-jou.webp",
+						"/covers/lns/en/nisemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/nisemonogatari-jou-0.5x.avif",
+						"/covers/lns/en/nisemonogatari-jou-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/nisemonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/nisemonogatari.avif",
+						"/covers/nisemonogatari.webp",
+						"/covers/nisemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/nisemonogatari-0.5x.avif",
+						"/covers/nisemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "nisemonogatari-ge",
+		"title": "Nisemonogatari (Part 2)",
+		"kanji": [
+			["偽", "nise."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(下)", "ge."]
+		],
+		"pictures": [
+			"/covers/lns/nisemonogatari-ge.avif",
+			"/covers/lns/nisemonogatari-ge.webp",
+			"/covers/lns/nisemonogatari-ge.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/nisemonogatari-ge-0.5x.avif",
+			"/covers/lns/nisemonogatari-ge-0.5x.webp",
+			"/covers/lns/nisemonogatari-ge-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-green",
+		"info": {
+			"date": "June 11, 2009",
+			"arcs": [
+				["Final Episode: Tsukihi Phoenix", "最終話 つきひフェニックス"]
+			],
+			"description": [
+				"The second sister proclaims the end of the world. \"I think this world full of fakes should just be destroyed, onii-chan.\" What kind of burning justice will Araragi Koyomi's sister, Tsukihi, carry out!? Nisemonogatari concludes in grand style!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/nisemonogatari-ge",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/nisemonogatari-ge.avif",
+						"/covers/lns/en/nisemonogatari-ge.webp",
+						"/covers/lns/en/nisemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/nisemonogatari-ge-0.5x.avif",
+						"/covers/lns/en/nisemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/nisemonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/nisemonogatari.avif",
+						"/covers/nisemonogatari.webp",
+						"/covers/nisemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/nisemonogatari-0.5x.avif",
+						"/covers/nisemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "nekomonogatari-kuro",
+		"title": "Nekomonogatari (Kuro)",
+		"kanji": [
+			["猫", "neko."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(黒)", "kuro."]
+		],
+		"pictures": [
+			"/covers/lns/nekomonogatari-kuro.avif",
+			"/covers/lns/nekomonogatari-kuro.webp",
+			"/covers/lns/nekomonogatari-kuro.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/nekomonogatari-kuro-0.5x.avif",
+			"/covers/lns/nekomonogatari-kuro-0.5x.webp",
+			"/covers/lns/nekomonogatari-kuro-0.5x.jpg"
+		],
+		"responsivePosition": "center 50%",
+		"color": "--bg-black",
+		"info": {
+			"date": "July 29, 2010",
+			"arcs": [
+				["Episode Nixed: Tsubasa Family", "第禁話 つばさファミリー"]
+			],
+			"description": [
+				"The flawless class president, Hanekawa Tsubasa. The girl whom Araragi Koyomi owes his life to was charmed by a cat during Golden Week. This is the story of a... human who plays a forbidden game towards becoming a monster. Those \"nightmarish nine days\", once sealed off and hidden, is now finally revealed!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/nekomonogatari-kuro",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/nekomonogatari-kuro.avif",
+						"/covers/lns/en/nekomonogatari-kuro.webp",
+						"/covers/lns/en/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/nekomonogatari-kuro-0.5x.avif",
+						"/covers/lns/en/nekomonogatari-kuro-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-kuro",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/nekomonogatari-kuro.avif",
+						"/covers/nekomonogatari-kuro.webp",
+						"/covers/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-kuro-0.5x.avif",
+						"/covers/nekomonogatari-kuro-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "nekomonogatari-shiro",
+		"title": "Nekomonogatari (Shiro)",
+		"kanji": [
+			["猫", "neko."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(白)", "shiro."]
+		],
+		"pictures": [
+			"/covers/lns/nekomonogatari-shiro.avif",
+			"/covers/lns/nekomonogatari-shiro.webp",
+			"/covers/lns/nekomonogatari-shiro.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/nekomonogatari-shiro-0.5x.avif",
+			"/covers/lns/nekomonogatari-shiro-0.5x.webp",
+			"/covers/lns/nekomonogatari-shiro-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-white",
+		"info": {
+			"date": "October 28, 2010",
+			"arcs": [
+				["Episode Snug: Tsubasa Tiger", "第懇話 つばさタイガー"]
+			],
+			"description": [
+				"\"I don't know everything, but I know a lot about you, Araragi-kun.\"",
+				"",
+				"The flawless class president Hanekawa Tsubasa's first day of the second semester is closely watched by a monstrous tiger. Amidst the lifeless monologue is an unreachable confession..."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/nekomonogatari-shiro",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/nekomonogatari-shiro.avif",
+						"/covers/lns/en/nekomonogatari-shiro.webp",
+						"/covers/lns/en/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/nekomonogatari-shiro-0.5x.avif",
+						"/covers/lns/en/nekomonogatari-shiro-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-shiro",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/nekomonogatari-shiro.avif",
+						"/covers/nekomonogatari-shiro.webp",
+						"/covers/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-shiro-0.5x.avif",
+						"/covers/nekomonogatari-shiro-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "kabukimonogatari",
+		"title": "Kabukimonogatari",
+		"kanji": [
+			["傾", "kabuki."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/kabukimonogatari.avif",
+			"/covers/lns/kabukimonogatari.webp",
+			"/covers/lns/kabukimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/kabukimonogatari-0.5x.avif",
+			"/covers/lns/kabukimonogatari-0.5x.webp",
+			"/covers/lns/kabukimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-blue",
+		"info": {
+			"date": "December 25, 2010",
+			"arcs": [
+				["Episode Idle: Mayoi Jiangshi", "第閑話 まよいキョンシー"]
+			],
+			"description": [
+				"Araragi Koyomi and Oshino Shinobu decided to time travel back into 11 years ago using up the remaining spirit particles at the shrine from Nadeko Snake. In their adventure, Koyomi saved Hachikuji Mayoi from the car accident that killed her. When they returned to the present, they discover the world has changed drastically as a consequence of what Koyomi has done. Now they have to find an alternate way to get back to their original world."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/kabukimonogatari",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/kabukimonogatari.avif",
+						"/covers/lns/en/kabukimonogatari.webp",
+						"/covers/lns/en/kabukimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/kabukimonogatari-0.5x.avif",
+						"/covers/lns/en/kabukimonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kabukimonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/kabukimonogatari.avif",
+						"/covers/kabukimonogatari.webp",
+						"/covers/kabukimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/kabukimonogatari-0.5x.avif",
+						"/covers/kabukimonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "hanamonogatari",
+		"title": "Hanamonogatari",
+		"kanji": [
+			["花", "hana."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/hanamonogatari.avif",
+			"/covers/lns/hanamonogatari.webp",
+			"/covers/lns/hanamonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/hanamonogatari-0.5x.avif",
+			"/covers/lns/hanamonogatari-0.5x.webp",
+			"/covers/lns/hanamonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-salmon",
+		"info": {
+			"date": "March 30, 2011",
+			"arcs": [
+				["Episode Change: Suruga Devil", "第変話 するがデビル"]
+			],
+			"description": [
+				"\"If you can't be the medicine, be poison. Otherwise Otherwise you're nothing but water.\"",
+				"",
+				"After Araragi Koyomi has graduated, Kanbaru Suruga goes towards her third year in high school. Alone in Naoetsu High School, she hears the rumors of \" a demon that grants any wish\"...",
+				"",
+				"The story slowly sinks into the depths ー",
+				"",
+				"A story to meet and unveil the mystery."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/hanamonogatari",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/hanamonogatari.avif",
+						"/covers/lns/en/hanamonogatari.webp",
+						"/covers/lns/en/hanamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/hanamonogatari-0.5x.avif",
+						"/covers/lns/en/hanamonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/hanamonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/hanamonogatari.avif",
+						"/covers/hanamonogatari.webp",
+						"/covers/hanamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/hanamonogatari-0.5x.avif",
+						"/covers/hanamonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "otorimonogatari",
+		"title": "Otorimonogatari",
+		"kanji": [
+			["囮", "otori."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/otorimonogatari.avif",
+			"/covers/lns/otorimonogatari.webp",
+			"/covers/lns/otorimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/otorimonogatari-0.5x.avif",
+			"/covers/lns/otorimonogatari-0.5x.webp",
+			"/covers/lns/otorimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 40%",
+		"color": "--bg-white",
+		"info": {
+			"date": "June 29, 2011",
+			"arcs": [
+				["Episode Chaos: Nadeko Medusa", "第乱話 なでこメドゥーサ"]
+			],
+			"description": [
+				"\"—You're a liar, even though you're already a god\".",
+				"",
+				"The girl who was once possessed by a winding serpent, Sengoku Nadeko.",
+				"The girl who has been in love with Araragi Koyomi for so long now appears as an \"angel\" in pure white. But her true colors are...?",
+				"",
+				"As the \"story\" approaches its final chapter, it twists around, entangling, evolving—."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/otorimonogatari",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/otorimonogatari.avif",
+						"/covers/lns/en/otorimonogatari.webp",
+						"/covers/lns/en/otorimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/otorimonogatari-0.5x.avif",
+						"/covers/lns/en/otorimonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/otorimonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/otorimonogatari.avif",
+						"/covers/otorimonogatari.webp",
+						"/covers/otorimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/otorimonogatari-0.5x.avif",
+						"/covers/otorimonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "onimonogatari",
+		"title": "Onimonogatari",
+		"kanji": [
+			["鬼", "oni."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/onimonogatari.avif",
+			"/covers/lns/onimonogatari.webp",
+			"/covers/lns/onimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/onimonogatari-0.5x.avif",
+			"/covers/lns/onimonogatari-0.5x.webp",
+			"/covers/lns/onimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-orange",
+		"info": {
+			"date": "September 29, 2011",
+			"arcs": [
+				["Episode Endure: Shinobu Time", "第忍話 しのぶタイム"]
+			],
+			"description": [
+				"Immediately following the events of Kabukimonogatari, Araragi and Hachikuji begin having run-ins with a near-indescribable void, which seems to be pursuing them for reasons they cannot determine. The answer to the question, and the solution to their predicament, lies in the memories of Shinobu and the insight of literal know-it-all Gaen Izuko."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/onimonogatari",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/onimonogatari.avif",
+						"/covers/lns/en/onimonogatari.webp",
+						"/covers/lns/en/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/onimonogatari-0.5x.avif",
+						"/covers/lns/en/onimonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/onimonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/onimonogatari.avif",
+						"/covers/onimonogatari.webp",
+						"/covers/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/onimonogatari-0.5x.avif",
+						"/covers/onimonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "koimonogatari",
+		"title": "Koimonogatari",
+		"kanji": [
+			["恋", "koi."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/koimonogatari.avif",
+			"/covers/lns/koimonogatari.webp",
+			"/covers/lns/koimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/koimonogatari-0.5x.avif",
+			"/covers/lns/koimonogatari-0.5x.webp",
+			"/covers/lns/koimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-purple",
+		"info": {
+			"date": "December 21, 2011",
+			"arcs": [
+				["Episode Love: Hitagi End", "第恋話 ひたぎエンド"]
+			],
+			"description": [
+				"\"Don't you think unrequited love that lasts forever is happier than mutual love?\"",
+				"",
+				"Senjougahara Hitagi made a deal with the gods with her life in order to protect Araragi Koyomi.",
+				"",
+				"As winter holidays approach with the promised \"destined day\", she chose the darkest and the worst option..."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/koimonogatari",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/koimonogatari.avif",
+						"/covers/lns/en/koimonogatari.webp",
+						"/covers/lns/en/koimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/koimonogatari-0.5x.avif",
+						"/covers/lns/en/koimonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/koimonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/koimonogatari.avif",
+						"/covers/koimonogatari.webp",
+						"/covers/koimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/koimonogatari-0.5x.avif",
+						"/covers/koimonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "tsukimonogatari",
+		"title": "Tsukimonogatari",
+		"kanji": [
+			["憑", "tsuki."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/tsukimonogatari.avif",
+			"/covers/lns/tsukimonogatari.webp",
+			"/covers/lns/tsukimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/tsukimonogatari-0.5x.avif",
+			"/covers/lns/tsukimonogatari-0.5x.webp",
+			"/covers/lns/tsukimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-green",
+		"info": {
+			"date": "September 27, 2012",
+			"arcs": [
+				["Episode Body: Yotsugi Doll", "第体話 よつぎドール"]
+			],
+			"description": [
+				"\"Please!—Do it, and get it over with.\" Slowly but surely, Araragi Koyomi, who \"has been averting his eyes from reality\", has no choice but to face it. February comes, and the college entrance exam is approaching. What is this \"change\" that is happening to his body that cannot be overlooked? The \"story\" begins to sprint towards its conclusion. This is Oddity taking place in the modern world! In a story of youth, a word of farewell is inevitable."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/tsukimonogatari",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/tsukimonogatari.avif",
+						"/covers/lns/en/tsukimonogatari.webp",
+						"/covers/lns/en/tsukimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/tsukimonogatari-0.5x.avif",
+						"/covers/lns/en/tsukimonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/tsukimonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/tsukimonogatari.avif",
+						"/covers/tsukimonogatari.webp",
+						"/covers/tsukimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/tsukimonogatari-0.5x.avif",
+						"/covers/tsukimonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "koyomimonogatari",
+		"title": "Koyomimonogatari",
+		"kanji": [
+			["暦", "koyomi."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/koyomimonogatari.avif",
+			"/covers/lns/koyomimonogatari.webp",
+			"/covers/lns/koyomimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/koyomimonogatari-0.5x.avif",
+			"/covers/lns/koyomimonogatari-0.5x.webp",
+			"/covers/lns/koyomimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-black",
+		"info": {
+			"date": "May 21, 2013",
+			"arcs": [
+				["Episode One: Koyomi Stone", "第一話 こよみストーン"],
+				["Episode Two: Koyomi Flower", "第二話 こよみフラワー"],
+				["Episode Three: Koyomi Sand", "第三話 こよみサンド"],
+				["Episode Four: Koyomi Water", "第四話 こよみウォーター"],
+				["Episode Five: Koyomi Wind", "第五話 こよみウインド"],
+				["Episode Six: Koyomi Tree", "第六話 こよみツリー"],
+				["Episode Seven: Koyomi Tea", "第七話 こよみティー"],
+				["Episode Eight: Koyomi Mountain", "第八話 こよみマウンテン"],
+				["Episode Nine: Koyomi Torus", "第九話 こよみトーラス"],
+				["Episode Ten: Koyomi Seed", "第十話 こよみシード"],
+				["Episode Eleven: Koyomi Nothing", "第十一話 こよみナッシング"],
+				["Episode Twelve: Koyomi Dead", "第十二話 こよみデッド"]
+			],
+			"description": [
+				"From the spring night when he encountered that beautiful vampire, Araragi Koyomi has been continuously drawn to Oddities. Twelve months have passed without him being able to stop, and the \"story\" finally reaches its fateful dawn!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/koyomimonogatari-jou",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/koyomimonogatari-jou.avif",
+						"/covers/lns/en/koyomimonogatari-jou.webp",
+						"/covers/lns/en/koyomimonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/koyomimonogatari-jou-0.5x.avif",
+						"/covers/lns/en/koyomimonogatari-jou-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/en/koyomimonogatari-ge",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/koyomimonogatari-ge.avif",
+						"/covers/lns/en/koyomimonogatari-ge.webp",
+						"/covers/lns/en/koyomimonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/koyomimonogatari-ge-0.5x.avif",
+						"/covers/lns/en/koyomimonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/koyomimonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/koyomimonogatari.avif",
+						"/covers/koyomimonogatari.webp",
+						"/covers/koyomimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/koyomimonogatari-0.5x.avif",
+						"/covers/koyomimonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "owarimonogatari-jou",
+		"title": "Owarimonogatari (Part 1)",
+		"kanji": [
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(上)", "jou."]
+		],
+		"pictures": [
+			"/covers/lns/owarimonogatari-jou.avif",
+			"/covers/lns/owarimonogatari-jou.webp",
+			"/covers/lns/owarimonogatari-jou.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/owarimonogatari-jou-0.5x.avif",
+			"/covers/lns/owarimonogatari-jou-0.5x.webp",
+			"/covers/lns/owarimonogatari-jou-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-black",
+		"info": {
+			"date": "October 22, 2013",
+			"arcs": [
+				["Episode One: Ougi Formula", "第一話 おうぎフォーミュラ"],
+				["Episode Two: Sodachi Riddle", "第二話 そだちリドル"],
+				["Episode Three: Sodachi Lost", "第三話 そだちロスト"]
+			],
+			"description": [
+				"The transfer student with pitch black eyes, Oshino Ougi. As she explains with a smile on her lips, what is Araragi Koyomi's \"starting point\"? On that day during his first year in middle school, the boy tastes despair—These are the modern-day oddities! Oddities! Oddities!",
+				"",
+				"A shadow that tells of the end of youth pierces through."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/owarimonogatari-jou",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/owarimonogatari-jou.avif",
+						"/covers/lns/en/owarimonogatari-jou.webp",
+						"/covers/lns/en/owarimonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/owarimonogatari-jou-0.5x.avif",
+						"/covers/lns/en/owarimonogatari-jou-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/owarimonogatari-jou",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/owarimonogatari-jou.avif",
+						"/covers/owarimonogatari-jou.webp",
+						"/covers/owarimonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/owarimonogatari-jou-0.5x.avif",
+						"/covers/owarimonogatari-jou-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "owarimonogatari-chuu",
+		"title": "Owarimonogatari (Part 2)",
+		"kanji": [
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(中​)", "chuu."]
+		],
+		"pictures": [
+			"/covers/lns/owarimonogatari-chuu.avif",
+			"/covers/lns/owarimonogatari-chuu.webp",
+			"/covers/lns/owarimonogatari-chuu.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/owarimonogatari-chuu-0.5x.avif",
+			"/covers/lns/owarimonogatari-chuu-0.5x.webp",
+			"/covers/lns/owarimonogatari-chuu-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "January 30, 2014",
+			"arcs": [
+				["Episode Four: Shinobu Mail", "第四話 しのぶメイル"]
+			],
+			"description": [
+				"\"Kanbaru Suruga is the daughter of my elder sister, you know—a precious gift sleeps within her.\"",
+				"",
+				"\"The lady who knows everything\", Gaen Izuko. As she lectures Araragi Koyomi, what is the test that aims to reach the end? Four hundred years after, a resurrected warrior—These are the modern-day oddities! Oddities! Oddities!",
+				"",
+				"Youth cannot end until \"his\" story is told."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/owarimonogatari-chuu",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/owarimonogatari-chuu.avif",
+						"/covers/lns/en/owarimonogatari-chuu.webp",
+						"/covers/lns/en/owarimonogatari-chuu.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/owarimonogatari-chuu-0.5x.avif",
+						"/covers/lns/en/owarimonogatari-chuu-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/owarimonogatari-jou",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/owarimonogatari-jou.avif",
+						"/covers/owarimonogatari-jou.webp",
+						"/covers/owarimonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/owarimonogatari-jou-0.5x.avif",
+						"/covers/owarimonogatari-jou-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "owarimonogatari-ge",
+		"title": "Owarimonogatari (Part 3)",
+		"kanji": [
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(下)", "ge."]
+		],
+		"pictures": [
+			"/covers/lns/owarimonogatari-ge.avif",
+			"/covers/lns/owarimonogatari-ge.webp",
+			"/covers/lns/owarimonogatari-ge.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/owarimonogatari-ge-0.5x.avif",
+			"/covers/lns/owarimonogatari-ge-0.5x.webp",
+			"/covers/lns/owarimonogatari-ge-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-purple",
+		"info": {
+			"date": "April 2, 2014",
+			"arcs": [
+				["Episode Five: Mayoi Hell", "第五話 まよいヘル"],
+				["Episode Six: Hitagi Rendezvous", "第六話 ひたぎランデブー"],
+				["Episode Seven: Ougi Dark", "第七話 おうぎダーク"]
+			],
+			"description": [
+				"\"That is—the end of your youth\". On the morning of the appointed day of the college entrance examinations, Araragi Koyomi headed towards Kita-Shirahebi Shrine. What awaits him there with an unexpected smiling face is the gunshot that marks the final decisive battle—All of the \"stories\" now meet their resolution!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/owarimonogatari-ge",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/owarimonogatari-ge.avif",
+						"/covers/lns/en/owarimonogatari-ge.webp",
+						"/covers/lns/en/owarimonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/owarimonogatari-ge-0.5x.avif",
+						"/covers/lns/en/owarimonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/owarimonogatari-ge",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/owarimonogatari-ge.avif",
+						"/covers/owarimonogatari-ge.webp",
+						"/covers/owarimonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/owarimonogatari-ge-0.5x.avif",
+						"/covers/owarimonogatari-ge-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "zoku-owarimonogatari",
+		"title": "Zoku Owarimonogatari",
+		"kanji": [
+			["属", "zoku."],
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/zoku-owarimonogatari.avif",
+			"/covers/lns/zoku-owarimonogatari.webp",
+			"/covers/lns/zoku-owarimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/zoku-owarimonogatari-0.5x.avif",
+			"/covers/lns/zoku-owarimonogatari-0.5x.webp",
+			"/covers/lns/zoku-owarimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-white",
+		"info": {
+			"date": "September 18, 2014",
+			"arcs": [
+				["Final Episode: Koyomi Reverse", "最終話 こよみリバース"]
+			],
+			"description": [
+				"\"I'm so happy right now, but... somehow I think all of this is a lie.\"",
+				"",
+				"With the battle with Oshino Ougi over, it was finally time to graduate from Naoetsu High School the next morning.",
+				"",
+				"Waking up without his sisters' help, what is the new world that Araragi Koyomi, who just became a nobody, going to face...?",
+				"",
+				"The continuation of their story. This is the modern-day oddities! Oddities! Oddities!",
+				"",
+				"The story that grows with us."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/en/zoku-owarimonogatari",
+					"text": "Localization",
+					"pictures": [
+						"/covers/lns/en/zoku-owarimonogatari.avif",
+						"/covers/lns/en/zoku-owarimonogatari.webp",
+						"/covers/lns/en/zoku-owarimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/en/zoku-owarimonogatari-0.5x.avif",
+						"/covers/lns/en/zoku-owarimonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/zoku-owarimonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/zoku-owarimonogatari.avif",
+						"/covers/zoku-owarimonogatari.webp",
+						"/covers/zoku-owarimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/zoku-owarimonogatari-0.5x.avif",
+						"/covers/zoku-owarimonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "orokamonogatari",
+		"title": "Orokamonogatari",
+		"kanji": [
+			["愚", "oroka."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/orokamonogatari.avif",
+			"/covers/lns/orokamonogatari.webp",
+			"/covers/lns/orokamonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/orokamonogatari-0.5x.avif",
+			"/covers/lns/orokamonogatari-0.5x.webp",
+			"/covers/lns/orokamonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-green",
+		"info": {
+			"date": "October 6, 2015",
+			"arcs": [
+				["Episode Zero: Sodachi Fiasco", "第零話 そだちフィアスコ"],
+				["Episode Zero: Suruga Bonehead", "第零話 するがボーンヘッド"],
+				["Episode Zero: Tsukihi Undo", "第零話 つきひアンドゥ"]
+			],
+			"description": [
+				"Ononoki Yotsugi, the shikigami girl assigned to watch over Araragi Koyomi. This dead tsukumogami girl faces a challenge, but what exactly is that do-or-die struggle with her life on the line? As the \"story\" grows, it keeps on running, ever burning bright!",
+				"",
+				"These are the modern-day oddities! Oddities! Oddities!",
+				"",
+				"Youth is going back and forth between pain and peace."
+			],
+			"alternatives": [
+				{
+					"name": "/anime/orokamonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/orokamonogatari.avif",
+						"/covers/orokamonogatari.webp",
+						"/covers/orokamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/orokamonogatari-0.5x.avif",
+						"/covers/orokamonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "wazamonogatari",
+		"title": "Wazamonogatari",
+		"kanji": [
+			["業", "waza."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/wazamonogatari.avif",
+			"/covers/lns/wazamonogatari.webp",
+			"/covers/lns/wazamonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/wazamonogatari-0.5x.avif",
+			"/covers/lns/wazamonogatari-0.5x.webp",
+			"/covers/lns/wazamonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "January 14, 2016",
+			"arcs": [
+				["A Cruel Fairy Tale: The Beautiful Princess", "残酷童話 うつくし姫"],
+				["Episode Zero: Acerola Bon Appétit", "第零話 あせろらボナペティ"],
+				["Episode Zero: Karen Ouga", "第零話 かれんオウガ"],
+				["Episode Zero: Tsubasa Sleeping", "第零話 つばさスリーピング"]
+			],
+			"description": [
+				"\"The name Kiss-shot Acerola-orion Heart-under-blade has always been attached to me...\"",
+				"",
+				"About 600 years from the present, this now-destroyed country was where the girl called the \"Princess Beauty\" had lived. With such beauty that anyone would offer one's life for, the road the girl trod on became a mountain of corpses.",
+				"",
+				"These are the legendary oddities! Oddities! Oddities!",
+				"",
+				"Youth is cruel like a fairy tale."
+			],
+			"alternatives": [
+				{
+					"name": "/anime/wazamonogatari-ova",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/wazamonogatari-ova.avif",
+						"/covers/wazamonogatari-ova.webp",
+						"/covers/wazamonogatari-ova.png"
+					],
+					"picturesHalf": [
+						"/covers/wazamonogatari-ova-0.5x.avif",
+						"/covers/wazamonogatari-ova-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/wazamonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/wazamonogatari.avif",
+						"/covers/wazamonogatari.webp",
+						"/covers/wazamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/wazamonogatari-0.5x.avif",
+						"/covers/wazamonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "nademonogatari",
+		"title": "Nademonogatari",
+		"kanji": [
+			["撫", "nade."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/nademonogatari.avif",
+			"/covers/lns/nademonogatari.webp",
+			"/covers/lns/nademonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/nademonogatari-0.5x.avif",
+			"/covers/lns/nademonogatari-0.5x.webp",
+			"/covers/lns/nademonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-green",
+		"info": {
+			"date": "July 28, 2016",
+			"arcs": [
+				["Episode Zero: Nadeko Draw", "第零話 なでこドロー"]
+			],
+			"description": [
+				"The girl who was once a god, Sengoku Nadeko. She, who followed her dreams and was forced into reality, is successful in creating an alter ego by borrowing the power of the little girl shikigami, Ononoki Yotsugi.",
+				"",
+				"However, the four \"Nadekos\" run away, scattered......?",
+				"",
+				"The Oddities! Oddities! Oddities! of these modern days.",
+				"",
+				"Youth is being unable to control even oneself."
+			],
+			"alternatives": [
+				{
+					"name": "/anime/nademonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/nademonogatari.avif",
+						"/covers/nademonogatari.webp",
+						"/covers/nademonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/nademonogatari-0.5x.avif",
+						"/covers/nademonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "musubimonogatari",
+		"title": "Musubimonogatari",
+		"kanji": [
+			["結", "musubi."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/musubimonogatari.avif",
+			"/covers/lns/musubimonogatari.webp",
+			"/covers/lns/musubimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/musubimonogatari-0.5x.avif",
+			"/covers/lns/musubimonogatari-0.5x.webp",
+			"/covers/lns/musubimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-lilac",
+		"info": {
+			"date": "January 12, 2017",
+			"arcs": [
+				["Episode One: Zenka Mermaid", "第一話 ぜんかマーメイド"],
+				["Episode Two: Nozomi Golem", "第二話 のぞみゴーレム"],
+				["Episode Three: Mitome Wolf", "第三話 みとめウルフ"],
+				["Episode Four: Tsuzura Human", "第四話 つづらヒューマン"]
+			],
+			"description": [
+				"\"I don't know anything. You're the one who knows... Officer Araragi.\"",
+				"",
+				"Cracking down on a \"rumor\" before it can turn into a ghost story. Police officer Araragi Koyomi who has begun working at the Hearsay Department of Naoetsu Station. Hitagi and Tsubasa have left town.",
+				"",
+				"What paths have the three have chosen after turning 23 years old... and what are the feelings Koyomi will convey in the end...?",
+				"",
+				"As one knows more, the more you find things you don't know.",
+				"",
+				"These are the modern-day oddities! Oddities! Oddities!",
+				"",
+				"For all time, these hearts in love cannot be unbound."
+			]
+		}
+	},
+	{
+		"name": "shinobumonogatari",
+		"title": "Shinobumonogatari",
+		"kanji": [
+			["忍", "shinobu."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/shinobumonogatari.avif",
+			"/covers/lns/shinobumonogatari.webp",
+			"/covers/lns/shinobumonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/shinobumonogatari-0.5x.avif",
+			"/covers/lns/shinobumonogatari-0.5x.webp",
+			"/covers/lns/shinobumonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-orange",
+		"info": {
+			"date": "July 20, 2017",
+			"arcs": [
+				["Episode One: Shinobu Mastered", "第一話 しのぶマスタード"]
+			],
+			"description": [
+				"\"It's chic to go saving a girl who has nothing to do with you every once in a while.\"",
+				"",
+				"Female students from Naoetsu High School have gone missing one after the other. When the mummified bodies of the girls are discovered, there's a very distinctive marking left on the napes of their necks...? Araragi Koyomi, now a first year university student, goes on the move to track down the culprit! The curtain opens on Monogatari Series: Monster Season!"
+			],
+			"alternatives": [
+				{
+					"name": "/anime/shinobumonogatari",
+					"text": "Adaptation",
+					"pictures": [
+						"/covers/shinobumonogatari.avif",
+						"/covers/shinobumonogatari.webp",
+						"/covers/shinobumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/shinobumonogatari-0.5x.avif",
+						"/covers/shinobumonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "yoimonogatari",
+		"title": "Yoimonogatari",
+		"kanji": [
+			["宵", "yoi."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/yoimonogatari.avif",
+			"/covers/lns/yoimonogatari.webp",
+			"/covers/lns/yoimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/yoimonogatari-0.5x.avif",
+			"/covers/lns/yoimonogatari-0.5x.webp",
+			"/covers/lns/yoimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-blue",
+		"info": {
+			"date": "June 14, 2018",
+			"arcs": [
+				["Episode Two: Mayoi Snail", "第二話 まよいスネイル"],
+				["Episode Three: Mayoi Snake", "第三話 まよいスネイク"]
+			],
+			"description": [
+				"\"Do you still feel like playing as detective?\"",
+				"",
+				"From his kouhai at Naoetsu Highschool, Higasa Seiu, comes rumours of the kidnapping of an elementary school girl.",
+				"",
+				"Araragi Koyomi, now a first year university student, along with Hachikuji Mayoi, Oshino Shinobu and Ononoki Yotsugi begin investigating, but...!",
+				"",
+				"This modern day oddity! Oddity! Oddity!",
+				"",
+				"In the Evening(Yoi) darkness, youth shines brightly."
+			]
+		}
+	},
+	{
+		"name": "amarimonogatari",
+		"title": "Amarimonogatari",
+		"kanji": [
+			["余", "amari."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/amarimonogatari.avif",
+			"/covers/lns/amarimonogatari.webp",
+			"/covers/lns/amarimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/amarimonogatari-0.5x.avif",
+			"/covers/lns/amarimonogatari-0.5x.webp",
+			"/covers/lns/amarimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-green",
+		"info": {
+			"date": "April 17, 2019",
+			"arcs": [
+				["Episode Four: Yotsugi Buddy", "第四話 よつぎボディ"],
+				["Episode Five: Yotsugi Shadow", "第五話 よつぎシャドウ"]
+			],
+			"description": [
+				"Araragi Koyomi receives a request from Iezumi, an associate professor of linguistics: \"Please save my child from my abuse.\"",
+				"",
+				"Apparently, they had heard from Sodachi Oikura that Koyomi is \"an expert on child abuse\". As Koyomi scrambles to take his beloved car to the associate professor's apartment, the scene of the abuse, he is suddenly confronted by Ononoki Yotsugi. He has no idea why she's tagging along, but the pair soon bear witness to an astonishing sight at their destination."
+			]
+		}
+	},
+	{
+		"name": "ougimonogatari",
+		"title": "Ougimonogatari",
+		"kanji": [
+			["扇", "ougi."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/ougimonogatari.avif",
+			"/covers/lns/ougimonogatari.webp",
+			"/covers/lns/ougimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/ougimonogatari-0.5x.avif",
+			"/covers/lns/ougimonogatari-0.5x.webp",
+			"/covers/lns/ougimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-black",
+		"info": {
+			"date": "October 28, 2020",
+			"arcs": [
+				["Episode Six: Ougi Right", "第六話 おうぎライト"],
+				["Episode Seven: Ougi Flight", "第七話 おうぎフライト"]
+			],
+			"description": [
+				"\"It's a monster no joke. Even vampires are no match for them\"",
+				"",
+				"Araragi Koyomi is approached by his friend, Hamukai Meniko, for advice about a falling out with her boyfriend.",
+				"",
+				"He himself had just been dumped by Senjougahara Hitagi—along with an apology.",
+				"",
+				"Deducing that the commotion was the work of a supernatural entity, Koyomi heads to Oshino Ougi, an expert on oddities.",
+				"",
+				"These are the modern-day oddities! Oddities! Oddities!"
+			]
+		}
+	},
+	{
+		"name": "shinomonogatari-jou",
+		"title": "Shinomonogatari (Part 1)",
+		"kanji": [
+			["死", "shino."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(上)", "jou."]
+		],
+		"pictures": [
+			"/covers/lns/shinomonogatari-jou.avif",
+			"/covers/lns/shinomonogatari-jou.webp",
+			"/covers/lns/shinomonogatari-jou.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/shinomonogatari-jou-0.5x.avif",
+			"/covers/lns/shinomonogatari-jou-0.5x.webp",
+			"/covers/lns/shinomonogatari-jou-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-orange",
+		"info": {
+			"date": "August 19, 2021",
+			"arcs": [
+				["Episode Eight: Shinobu Suicide", "第八話 しのぶスーサイド"]
+			],
+			"description": [
+				"\"Every time I see you, it's always a death sentence\"",
+				"",
+				"Oshino Shinobu and Araragi Koyomi head to their homeland, the \"Acerola Kingdom (provisional)\", to meet with Deathtopia Virtuoso Suicide-master.",
+				"",
+				"While human society has fallen into a state of abnormality, a virus that only infects Oddities is killing vampiresー?",
+				"",
+				"These are the modern-day oddities! Oddities! Oddities!",
+				"",
+				"\"Youth is only truly fulfilling when you live it beside me\"."
+			]
+		}
+	},
+	{
+		"name": "shinomonogatari-ge",
+		"title": "Shinomonogatari (Part 2)",
+		"kanji": [
+			["死", "shino."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(下)", "ge."]
+		],
+		"pictures": [
+			"/covers/lns/shinomonogatari-ge.avif",
+			"/covers/lns/shinomonogatari-ge.webp",
+			"/covers/lns/shinomonogatari-ge.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/shinomonogatari-ge-0.5x.avif",
+			"/covers/lns/shinomonogatari-ge-0.5x.webp",
+			"/covers/lns/shinomonogatari-ge-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-green",
+		"info": {
+			"date": "August 19, 2021",
+			"arcs": [
+				["Final Episode: Nadeko Araundo", "最終話 なでこアラウンド"]
+			],
+			"description": [
+				"\"Good night. Have a good night and sweet dreams\"",
+				"",
+				"As an apprentice specialist, Sengoku Nadeko heads to Iriomote Island with Ononoki Yotsugi and Kaiki Deishuu.",
+				"",
+				"Their enemy is the snake charmer, Araihito Urokoーthe root of all evil.",
+				"",
+				"What will be the outcome of the \"deadly battle\" that Nadeko faces?",
+				"",
+				"These are the modern-day oddities! Oddities! Oddities!",
+				"",
+				"Thank you. Youth lasts until we meet again."
+			]
+		}
+	},
+	{
+		"name": "ikusamonogatari",
+		"title": "Ikusamonogatari",
+		"kanji": [
+			["戦", "ikusa."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/ikusamonogatari.avif",
+			"/covers/lns/ikusamonogatari.webp",
+			"/covers/lns/ikusamonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/ikusamonogatari-0.5x.avif",
+			"/covers/lns/ikusamonogatari-0.5x.webp",
+			"/covers/lns/ikusamonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-purple",
+		"info": {
+			"date": "May 17, 2023",
+			"arcs": [
+				["Episode Wedding: Hitagi Honeymoon", "第婚話 ひたぎハネムーン"]
+			],
+			"description": [
+				"The latest issue of Nisio Isin's Youth Ghost Story Monogatari series! Araragi Koyomi and Senjougahara Hitagi are finally married. Oshino Shinobu and Kanbaru Suruga accompany the couple on their eccentric honeymoon, and the itinerary includes an investigation into a strange phenomenon. Koyomi has a plan related to Hitagi and Shinobu? These are the modern-day oddities! Oddities! Oddities!"
+			]
+		}
+	},
+	{
+		"name": "tsugimonogatari",
+		"title": "Tsugimonogatari",
+		"kanji": [
+			["接", "tsugi."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/tsugimonogatari.avif",
+			"/covers/lns/tsugimonogatari.webp",
+			"/covers/lns/tsugimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/tsugimonogatari-0.5x.avif",
+			"/covers/lns/tsugimonogatari-0.5x.webp",
+			"/covers/lns/tsugimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-green",
+		"info": {
+			"date": "October 16, 2025",
+			"arcs": [
+				["Episode Ninety-Nine: Yotsugi Frank", "第九十九話 よつぎフランク"]
+			],
+			"description": [
+				"\"Recipe revealed. How to make Ononoki Yotsugi.\"",
+				"",
+				"Oshino Meme and Kaiki Deishuu, members of the Sakaimiyako University Occult Research Club, are invited by their senior and leader, Gaen Izuko, to take part in a forbidden ritual. Together with the high school girl Kagenui Yozuru, they scramble to make preparations, but the project takes an unexpected turn-! It's a modern-day Oddity! Oddity! Oddity!",
+				"",
+				"A doll stitched together out of youth itself."
+			]
+		}
+	}
+]

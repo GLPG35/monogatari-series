@@ -1,0 +1,97 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import './styles.scss'
+---
+
+<html lang="en" style="--bg-color: var(--bg-purple)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - Downloads</title>
+		<meta name="description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series - Downloads" />
+		<meta property="og:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatari-series.vercel.app/banners/anime-banner.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series - Downloads" />
+		<meta property="twitter:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="twitter:image" content="https://monogatari-series.vercel.app/banners/anime-banner.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="info">
+					<div class="subsection">
+						<h2>Downloads</h2>
+						<p>Here you'll find download links for every section of the Monogatari Series.</p>
+						<p>I'll frequently update this section to keep people up to date with the latest releases.</p>
+					</div>
+					<div class="sections">
+						<a class="section" href="/downloads/anime">
+							<div class="covers">
+								<div class="cover">
+									<picture>
+										<source srcset="/covers/bakemonogatari.avif" type="image/avif" />
+										<source srcset="/covers/bakemonogatari.webp" type="image/webp" />
+										<img src="/covers/bakemonogatari.jpg" alt="" />
+									</picture>
+								</div>
+								<div class="cover">
+									<picture>
+										<source srcset="/covers/kizumonogatari-I.avif" type="image/avif" />
+										<source srcset="/covers/kizumonogatari-I.webp" type="image/webp" />
+										<img src="/covers/kizumonogatari-I.jpg" alt="" />
+									</picture>
+								</div>
+								<div class="cover">
+									<picture>
+										<source srcset="/covers/nisemonogatari.avif" type="image/avif" />
+										<source srcset="/covers/nisemonogatari.webp" type="image/webp" />
+										<img src="/covers/nisemonogatari.jpg" alt="" />
+									</picture>
+								</div>
+							</div>
+							<h4>Anime + Extras</h4>
+						</a>
+						<a class="section" href="/downloads/lns">
+							<div class="covers">
+								<div class="cover">
+									<picture>
+										<source srcset="/covers/lns/bakemonogatari-jou.avif" type="image/avif" />
+										<source srcset="/covers/lns/bakemonogatari-jou.webp" type="image/webp" />
+										<img src="/covers/lns/bakemonogatari-jou.jpg" alt="" />
+									</picture>
+								</div>
+								<div class="cover">
+									<picture>
+										<source srcset="/covers/lns/en/bakemonogatari-jou.avif" type="image/avif" />
+										<source srcset="/covers/lns/en/bakemonogatari-jou.webp" type="image/webp" />
+										<img src="/covers/lns/en/bakemonogatari-jou.jpg" alt="" />
+									</picture>
+								</div>
+								<div class="cover">
+									<picture>
+										<source srcset="/covers/lns/kizumonogatari.avif" type="image/avif" />
+										<source srcset="/covers/lns/kizumonogatari.webp" type="image/webp" />
+										<img src="/covers/lns/kizumonogatari.jpg" alt="" />
+									</picture>
+								</div>
+							</div>
+							<h4>Light Novels</h4>
+						</a>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>
