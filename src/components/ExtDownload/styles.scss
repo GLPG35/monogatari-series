@@ -1,0 +1,24 @@
+.loader {
+    width: 1.2em;
+    height: 1.2em;
+    border: 5px solid white;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block !important;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+	margin-left: 0.5em;
+	opacity: 1 !important;
+	font-size: 1em !important;
+	translate: 0 15%;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+} 
