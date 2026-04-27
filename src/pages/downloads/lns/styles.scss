@@ -144,6 +144,12 @@ main {
 						font-size: 0.8em;
 						line-height: 1.5em;
 					}
+
+					.anchor {
+						display: inline;
+						text-decoration: underline;
+						cursor: pointer;
+					}
 				}
 			}
 
