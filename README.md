@@ -1,43 +1,74 @@
-# Astro Starter Kit: Minimal
+# Monogatari Series
 
+<img src="https://monogatari-series.vercel.app/favicon/favicon.svg" width="100px" align="right" />
+
+This website was made for the fans of the Monogatari Series. The idea is to have a centralized hub with all of the information about the Monogatari Series light novels, anime, manga, short stories and some extra stuff.
+
+All of this wouldn't be possible without of the incredible help of the fandom and my supportive friends. Thank you everyone.
+
+## How to run this project?
+
+You'll need the following things installed:
+
+- [git](https://git-scm.com/install/)
+
+- [Bun](https://bun.sh/) or [Node.js](https://nodejs.org/en/download)
+
+Once you have everything installed:
+
+- Clone the repository
 ```sh
-bun create astro@latest -- --template minimal
+git clone https://github.com/GLPG35/monogatari-series
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- Install the necessary packages
 
-## 🚀 Project Structure
+<details>
+	<summary>Bun</summary>
 
-Inside of your Astro project, you'll see the following folders and files:
+	bun install
+</details>
+<br/>
+<details>
+	<summary>Node.js</summary>
+	
+	npm install
+</details>
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+<br />
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- Run the project in development mode
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+<details>
+	<summary>Bun</summary>
 
-Any static assets, like images, can be placed in the `public/` directory.
+	bun dev
+</details>
+<br/>
+<details>
+	<summary>Node.js</summary>
+	
+	npm run dev
+</details>
 
-## 🧞 Commands
+<br />
 
-All commands are run from the root of the project, from a terminal:
+- Build and run the project in production mode
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+<details>
+	<summary>Bun</summary>
 
-## 👀 Want to learn more?
+	bun run build
+	bun run preview
+</details>
+<br/>
+<details>
+	<summary>Node.js</summary>
+	
+	npm run build
+	npm run preview
+</details>
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## License
+
+This project is under the GNU GPLv3 license - see the [LICENSE](LICENSE) file for more details.
