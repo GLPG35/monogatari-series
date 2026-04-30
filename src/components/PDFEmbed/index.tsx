@@ -1,10 +1,10 @@
 import { PDFViewer, type DocumentManagerPlugin, type UIPlugin, ZoomMode } from '@embedpdf/react-pdf-viewer' 
 import './styles.scss'
 
-const PDFEmbed = ({ url, setView }: { url: string, setView: (view?: string) => void }) => {
+const PDFEmbed = ({ url, fileName, setView }: { url: string, fileName: string, setView: (view?: { file: string, fileName: string }) => void }) => {
 	return (
 		<div className='pdfEmbed'>
-			<PDFViewer className='viewer' config={{ src: url, theme: { preference: 'dark', background: { app: '#000000' } }, tabBar: 'never', pan: { defaultMode: 'always' }, zoom: { defaultZoomLevel: ZoomMode.FitWidth }, disabledCategories: ['annotation', 'print', 'export', 'insert', 'form', 'redaction', 'tools', 'document-open', 'document-print', 'document-capture', 'document-fullscreen', 'document-protect', 'panel-comment'], export: { defaultFileName: url.split('/').pop() } }} style={{ height: '100%' }} onReady={(registry) => {
+			<PDFViewer className='viewer' config={{ src: url, theme: { preference: 'dark', background: { app: '#000000' } }, tabBar: 'never', pan: { defaultMode: 'always' }, zoom: { defaultZoomLevel: ZoomMode.FitWidth }, disabledCategories: ['annotation', 'print', 'export', 'insert', 'form', 'redaction', 'tools', 'document-open', 'document-print', 'document-capture', 'document-fullscreen', 'document-protect', 'panel-comment'], export: { defaultFileName: fileName } }} style={{ height: '100%' }} onReady={(registry) => {
 				const ui = registry.getPlugin<UIPlugin>('ui')?.provides()
 				const schema = ui?.getSchema()
 				const toolbar = schema?.toolbars['main-toolbar']

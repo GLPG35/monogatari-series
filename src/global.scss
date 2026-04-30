@@ -45,4 +45,26 @@
 
 body {
 	font-family: 'Iwata Mincho Pro M', serif;
+    --sb-track-color: white;
+    --sb-thumb-color: var(--bg-color);
+    --sb-size: 5px;
+    
+
+    &::-webkit-scrollbar {
+        width: var(--sb-size);
+    }
+
+    &::-webkit-scrollbar-track {
+        background: var(--sb-track-color);
+        border-radius: 1px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: var(--sb-track-color);
+        border-radius: 1px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: var(--sb-thumb-color);
+    }
 }

@@ -7,7 +7,28 @@
 			"/covers/tsubasa-song.webp",
 			"/covers/tsubasa-song.png"
 		],
-		"file": "/stories/Tsubasa Song.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Tsubasa Song.pdf",
+				"fileName": "Tsubasa Song.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Tsubasa Song.pdf",
+				"fileName": "Canción Tsubasa.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Tsubasa Song.pdf",
+				"fileName": "Tsubasa Canção.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Tsubasa Song.pdf",
+				"fileName": "つばさソング.pdf"
+			}
+		]
 	},
 	{
 		"name": "Hitagi Throwing",
@@ -17,7 +38,28 @@
 			"/covers/hitagi-throwing.webp",
 			"/covers/hitagi-throwing.jpg"
 		],
-		"file": "/stories/Hitagi Throwing.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Hitagi Throwing.pdf",
+				"fileName": "Hitagi Throwing.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Hitagi Throwing.pdf",
+				"fileName": "Lanzamiento Hitagi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Hitagi Throwing.pdf",
+				"fileName": "Hitagi Arremesso.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Hitagi Throwing.pdf",
+				"fileName": "ひたぎスローイング.pdf"
+			}
+		]
 	},
 	{
 		"name": "As A Human",
@@ -27,7 +69,28 @@
 			"/covers/as-a-human.webp",
 			"/covers/as-a-human.jpg"
 		],
-		"file": "/stories/As A Human.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/As A Human.pdf",
+				"fileName": "As A Human.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/As A Human.pdf",
+				"fileName": "Como Humano.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/As A Human.pdf",
+				"fileName": "Como Um Humano.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/As A Human.pdf",
+				"fileName": "人として.pdf"
+			}
+		]
 	},
 	{
 		"name": "Something Wrong",
@@ -37,7 +100,28 @@
 			"/covers/something-wrong.webp",
 			"/covers/something-wrong.png"
 		],
-		"file": "/stories/Something Wrong.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Something Wrong.pdf",
+				"fileName": "Something Wrong.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Something Wrong.pdf",
+				"fileName": "Algo Anda Mal.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Something Wrong.pdf",
+				"fileName": "Algo De Errado.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Something Wrong.pdf",
+				"fileName": "どうかして.pdf"
+			}
+		]
 	},
 	{
 		"name": "Gahara Summit",
@@ -47,7 +131,28 @@
 			"/covers/gahara-summit.webp",
 			"/covers/gahara-summit.png"
 		],
-		"file": "/stories/Gahara Summit.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Gahara Summit.pdf",
+				"fileName": "Gahara Summit.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Gahara Summit.pdf",
+				"fileName": "Cumbre Gahara.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Gahara Summit.pdf",
+				"fileName": "Gahara Cume.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Gahara Summit.pdf",
+				"fileName": "がはらサミット.pdf"
+			}
+		]
 	},
 	{
 		"name": "Mayoi Room",
@@ -57,7 +162,28 @@
 			"/covers/mayoi-room.webp",
 			"/covers/mayoi-room.png"
 		],
-		"file": "/stories/Mayoi Room.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Mayoi Room.pdf",
+				"fileName": "Mayoi Room.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Mayoi Room.pdf",
+				"fileName": "Habitación Mayoi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Mayoi Room.pdf",
+				"fileName": "Mayoi Quarto.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Mayoi Room.pdf",
+				"fileName": "まよいルーム.pdf"
+			}
+		]
 	},
 	{
 		"name": "Rouka God",
@@ -67,7 +193,28 @@
 			"/covers/rouka-god.webp",
 			"/covers/rouka-god.png"
 		],
-		"file": "/stories/Rouka God.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Rouka God.pdf",
+				"fileName": "Rouka God.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Rouka God.pdf",
+				"fileName": "Dios Rouka.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Rouka God.pdf",
+				"fileName": "Rouka Deus.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Rouka God.pdf",
+				"fileName": "ろうかゴッド.pdf"
+			}
+		]
 	},
 	{
 		"name": "Hitagi Salamander",
@@ -77,7 +224,28 @@
 			"/covers/hitagi-salamander.webp",
 			"/covers/hitagi-salamander.jpg"
 		],
-		"file": "/stories/Hitagi Salamander.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Hitagi Salamander.pdf",
+				"fileName": "Hitagi Salamander.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Hitagi Salamander.pdf",
+				"fileName": "Salamandra Hitagi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Hitagi Salamander.pdf",
+				"fileName": "Hitagi Salamandra.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Hitagi Salamander.pdf",
+				"fileName": "ひたぎサラマンダー.pdf"
+			}
+		]
 	},
 	{
 		"name": "Yotsugi Snow Dome",
@@ -87,7 +255,28 @@
 			"/covers/yotsugi-snow-dome.webp",
 			"/covers/yotsugi-snow-dome.png"
 		],
-		"file": "/stories/Yotsugi Snow Dome.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Yotsugi Snow Dome.pdf",
+				"fileName": "Yotsugi Snow Dome.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Yotsugi Snow Dome.pdf",
+				"fileName": "Domo De Nieve Yotsugi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Yotsugi Snow Dome.pdf",
+				"fileName": "Yotsugi Domo De Neve.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Yotsugi Snow Dome.pdf",
+				"fileName": "よつぎスノードーム.pdf"
+			}
+		]
 	},
 	{
 		"name": "Yotsugi Stress",
@@ -97,7 +286,28 @@
 			"/covers/yotsugi-stress.webp",
 			"/covers/yotsugi-stress.png"
 		],
-		"file": "/stories/Yotsugi Stress.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Yotsugi Stress.pdf",
+				"fileName": "Yotsugi Stress.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Yotsugi Stress.pdf",
+				"fileName": "Estrés Yotsugi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Yotsugi Stress.pdf",
+				"fileName": "Yotsugi Estresse.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Yotsugi Stress.pdf",
+				"fileName": "よつぎストレス.pdf"
+			}
+		]
 	},
 	{
 		"name": "And Then",
@@ -107,7 +317,28 @@
 			"/covers/and-then.webp",
 			"/covers/and-then.png"
 		],
-		"file": "/stories/And Then.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/And Then.pdf",
+				"fileName": "And Then.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/And Then.pdf",
+				"fileName": "Y Luego.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/And Then.pdf",
+				"fileName": "E Depois.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/And Then.pdf",
+				"fileName": "そして.pdf"
+			}
+		]
 	},
 	{
 		"name": "Sodachi Mirror",
@@ -117,7 +348,23 @@
 			"/covers/sodachi-mirror.webp",
 			"/covers/sodachi-mirror.png"
 		],
-		"file": "/stories/Sodachi Mirror.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Sodachi Mirror.pdf",
+				"fileName": "Sodachi Mirror.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Sodachi Mirror.pdf",
+				"fileName": "Espejo Sodachi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Sodachi Mirror.pdf",
+				"fileName": "Sodachi Espelho.pdf"
+			}
+		]
 	},
 	{
 		"name": "Ougi Reflect",
@@ -127,7 +374,23 @@
 			"/covers/ougi-reflect.webp",
 			"/covers/ougi-reflect.png"
 		],
-		"file": "/stories/Ougi Reflect.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Ougi Reflect.pdf",
+				"fileName": "Ougi Reflect.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Ougi Reflect.pdf",
+				"fileName": "Reflejo Ougi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Ougi Reflect.pdf",
+				"fileName": "Ougi Reflexo.pdf"
+			}
+		]
 	},
 	{
 		"name": "Ougi Road Movie",
@@ -137,7 +400,28 @@
 			"/covers/ougi-road-movie.webp",
 			"/covers/ougi-road-movie.png"
 		],
-		"file": "/stories/Ougi Road Movie.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Ougi Road Movie.pdf",
+				"fileName": "Ougi Road Movie.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Ougi Road Movie.pdf",
+				"fileName": "Película De Carretera Ougi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Ougi Road Movie.pdf",
+				"fileName": "Ougi Filme De Estrada.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Ougi Road Movie.pdf",
+				"fileName": "おうぎロードムービー.pdf"
+			}
+		]
 	},
 	{
 		"name": "Karen Brushing",
@@ -147,7 +431,28 @@
 			"/covers/karen-brushing.webp",
 			"/covers/karen-brushing.png"
 		],
-		"file": "/stories/Karen Brushing.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Karen Brushing.pdf",
+				"fileName": "Karen Brushing.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Karen Brushing.pdf",
+				"fileName": "Cepillado Karen.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Karen Brushing.pdf",
+				"fileName": "Karen Escovando.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Karen Brushing.pdf",
+				"fileName": "かれんブラッシング.pdf"
+			}
+		]
 	},
 	{
 		"name": "Tsukihi Brushing",
@@ -157,7 +462,28 @@
 			"/covers/tsukihi-brushing.webp",
 			"/covers/tsukihi-brushing.png"
 		],
-		"file": "/stories/Tsukihi Brushing.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Tsukihi Brushing.pdf",
+				"fileName": "Tsukihi Brushing.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Tsukihi Brushing.pdf",
+				"fileName": "Cepillado Tsukihi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Tsukihi Brushing.pdf",
+				"fileName": "Tsukihi Escovando.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Tsukihi Brushing.pdf",
+				"fileName": "つきひブラッシング.pdf"
+			}
+		]
 	},
 	{
 		"name": "Nadeko Past",
@@ -167,7 +493,28 @@
 			"/covers/nadeko-past.webp",
 			"/covers/nadeko-past.png"
 		],
-		"file": "/stories/Nadeko Past.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Nadeko Past.pdf",
+				"fileName": "Nadeko Past.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Nadeko Past.pdf",
+				"fileName": "Pasado Nadeko.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Nadeko Past.pdf",
+				"fileName": "Nadeko Passado.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Nadeko Past.pdf",
+				"fileName": "なでこパスト.pdf"
+			}
+		]
 	},
 	{
 		"name": "Shinobu Future",
@@ -177,7 +524,28 @@
 			"/covers/shinobu-future.webp",
 			"/covers/shinobu-future.png"
 		],
-		"file": "/stories/Shinobu Future.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Shinobu Future.pdf",
+				"fileName": "Shinobu Future.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Shinobu Future.pdf",
+				"fileName": "Futuro Shinobu.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Shinobu Future.pdf",
+				"fileName": "Shinobu Futuro.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Shinobu Future.pdf",
+				"fileName": "しのぶフューチャー.pdf"
+			}
+		]
 	},
 	{
 		"name": "Mayoi Welcome",
@@ -187,6 +555,27 @@
 			"/covers/mayoi-welcome.webp",
 			"/covers/mayoi-welcome.png"
 		],
-		"file": "/stories/Mayoi Welcome.pdf"
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Mayoi Welcome.pdf",
+				"fileName": "Mayoi Welcome.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Mayoi Welcome.pdf",
+				"fileName": "Bienvenida Mayoi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Mayoi Welcome.pdf",
+				"fileName": "Mayoi Bem-vindo.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Mayoi Welcome.pdf",
+				"fileName": "まよいウエルカム.pdf"
+			}
+		]
 	}
 ]
