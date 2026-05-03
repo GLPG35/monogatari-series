@@ -81,9 +81,9 @@ const arcsText = info.arcs.length > 1 ? `${info.arcs.slice(0, info.arcs.length -
 								const isLast = pictures.length === i + 1
 								const type = path.split('.').pop()
 
-								if (isLast) return <img src={path} alt="">
-								
-								return <source srcset={path} type={`image/${type}`}>
+								if (isLast) return <img src={path} alt="" />
+
+								return <source srcset={path} type={`image/${type}`} />
 							})}
 						</picture>
 					</div>
@@ -121,12 +121,12 @@ const arcsText = info.arcs.length > 1 ? `${info.arcs.slice(0, info.arcs.length -
 													const isLast = (prevArc.picturesHalf ? prevArc.picturesHalf : prevArc.pictures).length === i + 1
 													const type = path.split('.').pop()
 
-													if (isLast) return <img src={path} alt="">
-													
-													return <source srcset={path} type={`image/${type}`}>
+													if (isLast) return <img src={path} alt="" />
+
+													return <source srcset={path} type={`image/${type}`} />
 												})}
 											</picture>
-										</div>		
+										</div>
 									</a>
 								}
 								{nextArc &&
@@ -150,12 +150,12 @@ const arcsText = info.arcs.length > 1 ? `${info.arcs.slice(0, info.arcs.length -
 													const isLast = (nextArc.picturesHalf ? nextArc.picturesHalf : nextArc.pictures).length === i + 1
 													const type = path.split('.').pop()
 
-													if (isLast) return <img src={path} alt="">
-													
-													return <source srcset={path} type={`image/${type}`}>
+													if (isLast) return <img src={path} alt="" />
+
+													return <source srcset={path} type={`image/${type}`} />
 												})}
 											</picture>
-										</div>		
+										</div>
 									</a>
 								}
 								{info.alternatives && info.alternatives.map(alternative => (
@@ -183,12 +183,12 @@ const arcsText = info.arcs.length > 1 ? `${info.arcs.slice(0, info.arcs.length -
 													const isLast = (alternative.picturesHalf ? alternative.picturesHalf : alternative.pictures).length === i + 1
 													const type = path.split('.').pop()
 
-													if (isLast) return <img src={path} alt="">
-													
-													return <source srcset={path} type={`image/${type}`}>
+													if (isLast) return <img src={path} alt="" />
+
+													return <source srcset={path} type={`image/${type}`} />
 												})}
 											</picture>
-										</div>		
+										</div>
 									</a>
 								))}
 							</div>
