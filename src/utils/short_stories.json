@@ -1,0 +1,117 @@
+[
+	{
+		"name": "mazemonogatari",
+		"title": "Mazemonogatari",
+		"kanji": [
+			["混", "maze."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/mazemonogatari.avif",
+			"/covers/lns/mazemonogatari.webp",
+			"/covers/lns/mazemonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/mazemonogatari-0.5x.avif",
+			"/covers/lns/mazemonogatari-0.5x.webp",
+			"/covers/lns/mazemonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-red",
+		"info": {
+			"date": "February 6, 2019",
+			"stories": [
+			    ["Kyouko Balance", "きょうこバランス"],
+			    ["Jun Build", "じゅんビルド"],
+			    ["Nomi Rule", "のみルール"],
+			    ["Mayumi Red Eye", "まゆみレッドアイ"],
+			    ["Kuroneko Bed", "くろねこベッド"],
+			    ["Risuka Blood", "りすかブラッド"],
+			    ["Hitei Clear", "ひていクリア"],
+			    ["Iori Fuga", "いおりフーガ"],
+			    ["Shiogi Ranger", "しおぎレンジャー"],
+			    ["Akari Triple", "あかりトリプル"],
+			    ["Rizumu Rock 'n", "りずむロックン"],
+			    ["Mikoko Community", "みここコミュニティ"],
+			    ["Kuu Invisible", "くうインビジブル"],
+			    ["Rai Roulette", "らいルーレット"],
+			    ["Magokoro Finisher", "まごころフィニッシャー"]
+			],
+			"description": [
+				"Crossing the boundaries of the series, the heroines meet Araragi Koyomi! Nisio Isin's first crossover novel collection is proudly published!"
+			]
+		}
+	},
+	{
+		"name": "mijikanamonogatari",
+		"title": "Mijikanamonogatari",
+		"kanji": [
+			["短", "mijikana."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/mijikanamonogatari.avif",
+			"/covers/lns/mijikanamonogatari.webp",
+			"/covers/lns/mijikanamonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/mijikanamonogatari-0.5x.avif",
+			"/covers/lns/mijikanamonogatari-0.5x.webp",
+			"/covers/lns/mijikanamonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-green",
+		"info": {
+			"date": "September 11, 2024",
+			"stories": [
+			    ["Hitagi Buffet", "ひたぎブッフェ"],
+			    ["Mayoi Room", "まよいルーム"],
+			    ["Suruga Court", "するがコート"],
+			    ["Nadeko Pool", "なでこプール"],
+			    ["Tsubasa Song", "つばさソング"],
+			    ["Hitagi Neck","ひたぎネック"],
+			    ["Karen Arm Leg", "かれんアームレッグ"],
+			    ["Tsukihi Eternal", "つきひエターナル"],
+			    ["Shinobu House", "しのぶハウス"],
+			    ["Tsubasa Board", "つばさボード"],
+			    ["Mayoi Castle", "まよいキャッスル"],
+			    ["Hitagi Coin", "ひたぎコイン"],
+			    ["Nadeko Mirror", "なでこミラー"],
+			    ["Shinobu Science", "しのぶサイエンス"],
+			    ["Hitagi Figure", "ひたぎフィギュア"],
+			    ["Hitagi Salamander", "ひたぎサラマンダー"],
+			    ["Hitagi Throwing", "ひたぎスローイング"],
+			    ["Suruga Palace", "するがパレス"],
+			    ["Yotsugi Future", "よつぎフューチャー"],
+			    ["Ougi Travel", "おうぎトラベル"],
+			    ["Suruga Neat", "するがニート"],
+			    ["Rouka God", "ろうかゴッド"],
+			    ["Shinobu Figure", "しのぶフィギュア"],
+			    ["Karen Brushing", "かれんブラッシング"],
+			    ["Tsukihi Brushing", "つきひブラッシング"],
+			    ["Koyomi History", "こよみヒストリー"],
+			    ["Yotsugi Stress", "よつぎストレス"],
+			    ["Hito Toshite", "人として"],
+			    ["Douka Shite", "どうかして"],
+			    ["Soshite", "そして"],
+			    ["Doushite", "どうして"],
+			    ["Kokoro Shite", "心して"],
+			    ["Mayoi Welcome", "まよいウエルカム"],
+			    ["Yotsugi Snow Dome", "よつぎスノードーム"],
+			    ["Ougi Road Movie", "おうぎロードムービー"],
+			    ["Sodachi Penalty", "そだちペナルティ"],
+			    ["Shinobu Tonight", "しのぶトゥナイト"],
+			    ["Nadeko Past", "なでこパスト"],
+			    ["Shinobu Future", "しのぶフューチャー"]
+			],
+			"description": [
+				"Nisio Isin presents the first ever collection of short stories from his coming-of-age supernatural tale series, Monogatari!",
+				"This collection features 39 relatable stories, including the initial 33 stories and six newly written short stories!",
+				"These are the modern day Oddities! Oddities! Oddities!",
+				"The ability to talk about the past and future is what youth is all about."
+			]
+		}
+	}
+]

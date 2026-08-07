@@ -47,6 +47,25 @@ if (findLnIndex === -1) return Astro.redirect('/404')
 const { color, pictures, name, title, kanji, info, responsivePosition } = lns[findLnIndex]
 const prevLn = findLnIndex === 0 ? null : lns[findLnIndex - 1]
 const nextLn = findLnIndex === lns.length - 1 ? null : lns[findLnIndex + 1]
+
+const anim = {
+	old: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)",
+		direction: "reverse"
+	},
+	new: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)"
+	}
+}
+
+const customTransition = {
+	forwards: anim,
+	backwards: anim
+}
 ---
 
 <html lang="en" style={`--bg-color: var(${color}); --position: ${responsivePosition}`}>
@@ -79,14 +98,14 @@ const nextLn = findLnIndex === lns.length - 1 ? null : lns[findLnIndex + 1]
 				<div class="summary">
 					<div class="cover">
 						<a href={pictures[2]} target="_blank">Full resolution</a>
-						<picture>
+						<picture transition:name={`ln-cover-${ln}`} transition:animate={customTransition}>
 							{pictures.map((path, i) => {
 								const isLast = pictures.length === i + 1
 								const type = path.split('.').pop()
 
-								if (isLast) return <img src={path} alt="">
+								if (isLast) return <img src={path} alt="" />
 								
-								return <source srcset={path} type={`image/${type}`}>
+								return <source srcset={path} type={`image/${type}`} />
 							})}
 						</picture>
 					</div>

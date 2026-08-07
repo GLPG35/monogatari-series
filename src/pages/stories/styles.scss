@@ -3,34 +3,26 @@ main {
 	min-height: 100dvh;
 	display: flex;
 	flex-direction: column;
+	gap: 2em;
+	position: relative;
+	padding-inline: 3em;
+	padding-block: 8em 3em;
+	color: #fff;
+	background-color: var(--bg-color);
 	overflow-x: hidden;
 
-	.info {
-		width: 100%;
-		min-height: 100dvh;
-		height: max-content;
-		display: flex;
-		flex-direction: column;
-		gap: 2em;
-		position: relative;
-		background-color: var(--bg-color);
-		padding-inline: 3em;
-		padding-block: 8em 3em;
-		color: #fff;
+	h2 {
+		font-size: 2.5em;
+		line-height: 1.2em;
+		margin-bottom: 0.5em;
+	}
 
-		h2 {
-			font-size: 2.5em;
-			line-height: 1.2em;
-			margin-bottom: 0.5em;
-		}
+	p {
+		font-size: 1.2em;
+		line-height: 1.75em;
 
-		p {
-			font-size: 1.2em;
-			line-height: 1.75em;
-
-			a {
-				color: white;
-			}
+		a {
+			color: white;
 		}
 	}
 
@@ -52,54 +44,6 @@ main {
 			color: white;
 			text-decoration: none;
 			position: relative;
-
-			.number {
-				position: absolute;
-				width: 5em;
-				height: 5em;
-				top: 0;
-				left: 0;
-				translate: -30% -30%;
-				z-index: 5;
-
-				.numberWrapper {
-					position: relative;
-					display: flex;
-					align-items: center;
-					justify-content: center;
-					overflow: hidden;
-
-					img {
-						width: 100%;
-						height: 100%;
-						object-fit: contain;
-						display: block;
-						mix-blend-mode: multiply;
-					}
-	
-					.duplicate {
-						position: absolute;
-						z-index: -1;
-						background-color: var(--bg-color);
-						top: 0;
-						left: 0;
-						width: 100%;
-						height: 100%;
-						-webkit-mask: var(--current-img) no-repeat center / contain;
-						mask: var(--current-img) no-repeat center / contain;
-						filter: brightness(150%) saturate(70%);
-					}
-
-					span {
-						position: absolute;
-						z-index: 2;
-						color: black;
-						font-weight: bold;
-						font-size: 1.5em;
-						translate: 0 2px;
-					}
-				}
-			}
 
 			.cover {
 				width: 100%;

@@ -3,7 +3,7 @@ import GalleryVisualizer from '../GalleryVisualizer'
 import { useState } from 'react'
 
 type Props = {
-	gallery: [string[], "visible"|"hidden"][],
+	gallery: [string[], "visible"|"hidden", boolean?][],
 }
 
 const GalleryContainer = ({ gallery }: Props) => {
@@ -24,7 +24,7 @@ const GalleryContainer = ({ gallery }: Props) => {
 				</div>
 				<div className="pictures">
 					{gallery.filter(x => !showHidden ? x[1] === 'visible' : x).map((picture, index) => (
-						<div key={picture[0][0] + index} className='picture' onClick={() => setViewSS(index)}>
+						<div key={picture[0][0] + index} className={`picture ${picture[2] ? 'wide' : ''}`} onClick={() => setViewSS(index)}>
 							<picture>
 								{picture[0].map((path, i) => {
 									const isLast = picture[0].length === i + 1

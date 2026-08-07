@@ -54,21 +54,30 @@ header {
 					object-fit: cover;
 					display: flex;
 					scale: 1.1;
+					mix-blend-mode: multiply;
+					display: block;
 
 					@media (width > 1920px) {
 						width: 100vw;
+						translate: 0 1em;
 					}
 				}
 
-				:not(.duplicate img) {
-					mix-blend-mode: multiply;
-				}
-
-				.duplicate img {
+				.duplicate {
 					position: absolute;
-					z-index: -2;
-					filter: drop-shadow(0px 2000px 0 var(--bg-color));
-					transform: translateY(calc(-2000px - 45%)) translateX(-90.9%);
+					z-index: -1;
+					background-color: var(--bg-color);
+					top: 0;
+					width: 115em;
+					height: 100%;
+					scale: 1.1;
+					-webkit-mask: var(--current-img) no-repeat center / contain;
+					mask: var(--current-img) no-repeat center / contain;
+
+					@media (width > 1920px) {
+						width: 100vw;
+						translate: 0 1em;
+					}
 				}
 			}
 		}
@@ -187,10 +196,20 @@ header {
 								object-fit: contain;
 								display: flex;
 								scale: 1.1;
+								mix-blend-mode: multiply;
 							}
 
-							:not(.duplicate img) {
-								mix-blend-mode: multiply;
+							.duplicate {
+								position: absolute;
+								z-index: -1;
+								background-color: var(--bg-color);
+								top: 0;
+								left: 0;
+								width: 100%;
+								height: 100%;
+								scale: 1.1;
+								-webkit-mask: var(--current-img) no-repeat center / contain;
+								mask: var(--current-img) no-repeat center / contain;
 							}
 
 							.duplicate img {

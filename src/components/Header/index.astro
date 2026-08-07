@@ -13,11 +13,8 @@ const active = Astro.url.pathname
 					<source srcset="/88.webp" type="image/webp" />
 					<img src="/88.png" alt="" fetchpriority="high" />
 				</picture>
-				<picture class="duplicate">
-					<source srcset="/88.avif" type="image/avif" />
-					<source srcset="/88.webp" type="image/webp" />
-					<img src="/88.png" alt="" fetchpriority="high" />
-				</picture>
+				<div class="duplicate" style={`--current-img: image-set(url('/88.avif') type('image/avif'), url('/88.webp') type('image/webp'), url('/88.png') type('image/png'));`}>
+				</div>
 			</div>
 		</div>
 		<nav>

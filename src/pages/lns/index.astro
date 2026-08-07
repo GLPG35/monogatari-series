@@ -3,6 +3,25 @@ import Layout from '../../layouts/Layout.astro'
 import './styles.scss'
 import lns from '../../utils/lns.json'
 import lnsEn from '../../utils/lns_en.json'
+
+const anim = {
+	old: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)",
+		direction: "reverse"
+	},
+	new: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)"
+	}
+}
+
+const customTransition = {
+	forwards: anim,
+	backwards: anim
+}
 ---
 
 <html lang="en" style="--bg-color: var(--bg-blue)">
@@ -49,17 +68,14 @@ import lnsEn from '../../utils/lns_en.json'
 												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
 												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
 											</picture>
-											<picture class="duplicate">
-												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
-												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
-												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
-											</picture>
+											<div class="duplicate" style={`--current-img: image-set(url('${`/${i % 2 == 0 ? 1 : 2}.avif`}') type('image/avif'), url('${`/${i % 2 == 0 ? 1 : 2}.webp`}') type('image/webp'), url('${`/${i % 2 == 0 ? 1 : 2}.png`}') type('image/png'));`}>
+											</div>
 										</div>
 										<span>{i + 1}</span>
 									</div>
 								</div>
 								<a class="cover" href={`/lns/${name}`}>
-									<picture>
+									<picture transition:name={`ln-cover-${name}`} transition:animate={customTransition}>
 										{pictures.map((path, i) => {
 											const isLast = pictures.length === i + 1
 											const type = path.split('.').pop()
@@ -98,17 +114,14 @@ import lnsEn from '../../utils/lns_en.json'
 												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
 												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
 											</picture>
-											<picture class="duplicate">
-												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
-												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
-												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
-											</picture>
+											<div class="duplicate" style={`--current-img: image-set(url('${`/${i % 2 == 0 ? 1 : 2}.avif`}') type('image/avif'), url('${`/${i % 2 == 0 ? 1 : 2}.webp`}') type('image/webp'), url('${`/${i % 2 == 0 ? 1 : 2}.png`}') type('image/png'));`}>
+											</div>
 										</div>
 										<span>{i + 1}</span>
 									</div>
 								</div>
 								<a class="cover" href={`/lns/en/${name}`}>
-									<picture>
+									<picture transition:name={`ln-en-cover-${name}`} transition:animate={customTransition}>
 										{pictures.map((path, i) => {
 											const isLast = pictures.length === i + 1
 											const type = path.split('.').pop()

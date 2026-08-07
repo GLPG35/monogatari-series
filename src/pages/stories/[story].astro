@@ -1,42 +1,24 @@
 ---
 import type { GetStaticPaths } from "astro"
-import Layout from '../../../layouts/Layout.astro'
-import '../ln.scss'
-import lns from '../../../utils/lns_en.json'
+import Layout from '../../layouts/Layout.astro'
+import './story.scss'
+import stories from '../../utils/short_stories.json'
 
 export const getStaticPaths = (() => {
 	return [
-		{ params: { ln: 'bakemonogatari-jou' }},
-		{ params: { ln: 'bakemonogatari-chuu' }},
-		{ params: { ln: 'bakemonogatari-ge' }},
-		{ params: { ln: 'kizumonogatari' }},
-		{ params: { ln: 'nisemonogatari-jou' }},
-		{ params: { ln: 'nisemonogatari-ge' }},
-		{ params: { ln: 'nekomonogatari-kuro' }},
-		{ params: { ln: 'nekomonogatari-shiro' }},
-		{ params: { ln: 'kabukimonogatari' }},
-		{ params: { ln: 'hanamonogatari' }},
-		{ params: { ln: 'otorimonogatari' }},
-		{ params: { ln: 'onimonogatari' }},
-		{ params: { ln: 'koimonogatari' }},
-		{ params: { ln: 'tsukimonogatari' }},
-		{ params: { ln: 'koyomimonogatari-jou' }},
-		{ params: { ln: 'koyomimonogatari-ge' }},
-		{ params: { ln: 'owarimonogatari-jou' }},
-		{ params: { ln: 'owarimonogatari-chuu' }},
-		{ params: { ln: 'owarimonogatari-ge' }},
-		{ params: { ln: 'zoku-owarimonogatari' }}
+		{ params: { story: 'mazemonogatari' }},
+		{ params: { story: 'mijikanamonogatari' }}
 	]
 }) satisfies GetStaticPaths
 
-const { ln } = Astro.params
-const findLnIndex = lns.findIndex(x => x.name === ln)
+const { story } = Astro.params
+const findLnIndex = stories.findIndex(x => x.name === story)
 
 if (findLnIndex === -1) return Astro.redirect('/404')
 
-const { color, pictures, name, title, kanji, info, responsivePosition } = lns[findLnIndex]
-const prevLn = findLnIndex === 0 ? null : lns[findLnIndex - 1]
-const nextLn = findLnIndex === lns.length - 1 ? null : lns[findLnIndex + 1]
+const { color, pictures, name, title, kanji, info, responsivePosition } = stories[findLnIndex]
+const prevLn = findLnIndex === 0 ? null : stories[findLnIndex - 1]
+const nextLn = findLnIndex === stories.length - 1 ? null : stories[findLnIndex + 1]
 
 const anim = {
 	old: {
@@ -75,12 +57,12 @@ const customTransition = {
 		<meta property="og:title" content={`〈物語〉Monogatari Series - ${title}`} />
 		<meta property="og:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
 		<meta property="og:url" content="https://monogatariseri.es/" />
-		<meta property="og:image" content={`https://monogatari-series.vercel.app/banners/lns/en/${name}.jpg`} />
+		<meta property="og:image" content={`https://monogatari-series.vercel.app/banners/lns/${name}.jpg`} />
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:url" content="https://monogatariseri.es/" />
 		<meta property="twitter:title" content={`〈物語〉Monogatari Series - ${title}`} />
 		<meta property="twitter:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
-		<meta property="twitter:image" content={`https://monogatari-series.vercel.app/banners/lns/en/${name}.jpg`} />
+		<meta property="twitter:image" content={`https://monogatari-series.vercel.app/banners/lns/${name}.jpg`} />
 	</head>
 	<body>
 		<Layout>
@@ -88,7 +70,7 @@ const customTransition = {
 				<div class="summary">
 					<div class="cover">
 						<a href={pictures[2]} target="_blank">Full resolution</a>
-						<picture transition:name={`ln-en-cover-${ln}`} transition:animate={customTransition}>
+						<picture transition:name={`story-cover-${story}`} transition:animate={customTransition}>
 							{pictures.map((path, i) => {
 								const isLast = pictures.length === i + 1
 								const type = path.split('.').pop()
@@ -113,7 +95,7 @@ const customTransition = {
 							<h4>Relations</h4>
 							<div class="covers">
 								{prevLn &&
-									<a class="relation" href={`/lns/en/${prevLn.name}`}>
+									<a class="relation" href={`/stories/${prevLn.name}`}>
 										<div class="when">
 											<div class="whenWrapper">
 												<div class="texture">
@@ -142,7 +124,7 @@ const customTransition = {
 									</a>
 								}
 								{nextLn &&
-									<a class="relation" href={`/lns/en/${nextLn.name}`}>
+									<a class="relation" href={`/stories/${nextLn.name}`}>
 										<div class="when">
 											<div class="whenWrapper">
 												<div class="texture">
@@ -170,46 +152,13 @@ const customTransition = {
 										</div>		
 									</a>
 								}
-								{info.alternatives && info.alternatives.map(alternative => (
-									<a class="relation" href={alternative.name}>
-										<div class="when">
-											<div class="whenWrapper">
-												<div class="texture">
-													<picture>
-														<source srcset="/12.avif" type="image/avif" />
-														<source srcset="/12.webp" type="image/webp" />
-														<img src="/12.png" alt="" />
-													</picture>
-													<picture class="duplicate">
-														<source srcset="/12.avif" type="image/avif" />
-														<source srcset="/12.webp" type="image/webp" />
-														<img src="/12.png" alt="" />
-													</picture>
-												</div>
-												<span>{alternative.text}</span>
-											</div>
-										</div>
-										<div class="cover">
-											<picture>
-												{(alternative.picturesHalf ? alternative.picturesHalf : alternative.pictures).map((path, i) => {
-													const isLast = (alternative.picturesHalf ? alternative.picturesHalf : alternative.pictures).length === i + 1
-													const type = path.split('.').pop()
-
-													if (isLast) return <img src={path} alt="">
-													
-													return <source srcset={path} type={`image/${type}`}>
-												})}
-											</picture>
-										</div>		
-									</a>
-								))}
 							</div>
 						</div>
 						<div class="section">
-							<h4>Arcs</h4>
-							<ul>
-								{info.arcs.map(arc => <li>{arc[0]}<span>{arc[1]}</span></li>)}
-							</ul>
+							<h4>Stories</h4>
+							<ol>
+								{info.stories.map(story => <li>{story[0]}<span>{story[1]}</span></li>)}
+							</ol>
 						</div>
 						<div class="section description">
 							<h4>Synopsis</h4>

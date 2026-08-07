@@ -48,7 +48,7 @@ body {
     --sb-track-color: white;
     --sb-thumb-color: var(--bg-color);
     --sb-size: 5px;
-    
+    background-color: var(--bg-color);
 
     &::-webkit-scrollbar {
         width: var(--sb-size);

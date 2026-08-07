@@ -1,0 +1,94 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import './styles.scss'
+
+const anim = {
+	old: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)",
+		direction: "reverse"
+	},
+	new: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)"
+	}
+}
+
+const customTransition = {
+	forwards: anim,
+	backwards: anim
+}
+---
+
+<html lang="en" style="--bg-color: var(--bg-green)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - Short Stories</title>
+		<meta name="description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series - Short Stories" />
+		<meta property="og:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatari-series.vercel.app/banners/lns-banner.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series - Short Stories" />
+		<meta property="twitter:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="twitter:image" content="https://monogatari-series.vercel.app/banners/lns-banner.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="subsection">
+					<h2>Short Stories</h2>
+					<p>The Monogatari Series has a lot of these "short stories", stories that were written mostly to complement the main story, while also giving more context about certain events.</p>
+					<p>While there are two official books released with a compilation of said short stories, there are also many short stories that were released individually, that never made it into the official books. One example of that is the short stories included in the special editions of the Bakemonogatari manga.</p>
+					<p>Thankfully, fans have made a compilation book (also called Mijikanamonogatari), that collects <em>almost</em> every short story ever released. That includes all of the previously mentioned books, the manga short stories, and a couple of short stories that were released individually.</p>
+					<br />
+					<p>Aside from those short stories, there's another book called Mazemonogatari. This spin-off crossover compilation features Araragi Koyomi interacting with the heroines from NisiOisiN's other works.</p>
+					<p>If you want to read all of these stories, please refer to the <a href="/downloads/stories">short story downloads page</a>.</p>
+				</div>
+				<div class="titles">
+					<div class="book">
+						<a class="cover" href="/stories/mazemonogatari">
+							<picture transition:name={`story-cover-mazemonogatari`} transition:animate={customTransition}>
+								<source srcset="/covers/lns/mazemonogatari.avif" type="image/avif" />
+								<source srcset="/covers/lns/mazemonogatari.webp" type="image/webp" />
+								<img src="/covers/lns/mazemonogatari.png" alt="">
+							</picture>
+						</a>
+						<div class="name">
+							<ruby>
+								混<rt>maze.</rt>物<rt>mono.</rt>語<rt>gatari.</rt>
+							</ruby>
+						</div>
+					</div>
+					<div class="book">
+						<a class="cover" href="/stories/mijikanamonogatari">
+							<picture transition:name={`story-cover-mijikanamonogatari`} transition:animate={customTransition}>
+								<source srcset="/covers/lns/mijikanamonogatari.avif" type="image/avif" />
+								<source srcset="/covers/lns/mijikanamonogatari.webp" type="image/webp" />
+								<img src="/covers/lns/mijikanamonogatari.png" alt="">
+							</picture>
+						</a>
+						<div class="name">
+							<ruby>
+								短<rt>mijikana.</rt>物<rt>mono.</rt>語<rt>gatari.</rt>
+							</ruby>
+						</div>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>
