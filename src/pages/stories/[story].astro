@@ -68,6 +68,9 @@ const customTransition = {
 					<div class="cover">
 						<a href={pictures[2]} target="_blank">Full resolution</a>
 						<picture transition:name={`story-cover-${story}`} transition:animate={customTransition}>
+							<source srcset={`/banners/stories/${name}.avif`} type="image/avif" media="(width < 1130px)" />
+							<source srcset={`/banners/stories/${name}.webp`} type="image/webp" media="(width < 1130px)" />
+							<source srcset={`/banners/stories/${name}.jpg`} type="image/jpeg" media="(width < 1130px)" />
 							{pictures.map((path, i) => {
 								const isLast = pictures.length === i + 1
 								const type = path.split('.').pop()
@@ -97,10 +100,10 @@ const customTransition = {
 											<div class="whenWrapper">
 												<div class="texture">
 													<picture>
-														<img src="/99.png" alt="">
+														<img src="/99.png" alt="" />
 													</picture>
 													<picture class="duplicate">
-														<img src="/99.png" alt="">
+														<img src="/99.png" alt="" />
 													</picture>
 												</div>
 												<span>Previous</span>
@@ -112,9 +115,9 @@ const customTransition = {
 													const isLast = (prevLn.picturesHalf ? prevLn.picturesHalf : prevLn.pictures).length === i + 1
 													const type = path.split('.').pop()
 
-													if (isLast) return <img src={path} alt="">
+													if (isLast) return <img src={path} alt="" />
 													
-													return <source srcset={path} type={`image/${type}`}>
+													return <source srcset={path} type={`image/${type}`} />
 												})}
 											</picture>
 										</div>		
@@ -126,10 +129,10 @@ const customTransition = {
 											<div class="whenWrapper">
 												<div class="texture">
 													<picture>
-														<img src="/85.png" alt="">
+														<img src="/85.png" alt="" />
 													</picture>
 													<picture class="duplicate">
-														<img src="/85.png" alt="">
+														<img src="/85.png" alt="" />
 													</picture>
 												</div>
 												<span>Next</span>
@@ -141,9 +144,9 @@ const customTransition = {
 													const isLast = (nextLn.picturesHalf ? nextLn.picturesHalf : nextLn.pictures).length === i + 1
 													const type = path.split('.').pop()
 
-													if (isLast) return <img src={path} alt="">
+													if (isLast) return <img src={path} alt="" />
 													
-													return <source srcset={path} type={`image/${type}`}>
+													return <source srcset={path} type={`image/${type}`} />
 												})}
 											</picture>
 										</div>		

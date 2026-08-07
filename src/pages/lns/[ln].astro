@@ -5,38 +5,7 @@ import './ln.scss'
 import lns from '../../utils/lns.json'
 
 export const getStaticPaths = (() => {
-	return [
-		{ params: { ln: 'bakemonogatari-jou' }},
-		{ params: { ln: 'bakemonogatari-ge' }},
-		{ params: { ln: 'kizumonogatari' }},
-		{ params: { ln: 'nisemonogatari-jou' }},
-		{ params: { ln: 'nisemonogatari-ge' }},
-		{ params: { ln: 'nekomonogatari-kuro' }},
-		{ params: { ln: 'nekomonogatari-shiro' }},
-		{ params: { ln: 'kabukimonogatari' }},
-		{ params: { ln: 'hanamonogatari' }},
-		{ params: { ln: 'otorimonogatari' }},
-		{ params: { ln: 'onimonogatari' }},
-		{ params: { ln: 'koimonogatari' }},
-		{ params: { ln: 'tsukimonogatari' }},
-		{ params: { ln: 'koyomimonogatari' }},
-		{ params: { ln: 'owarimonogatari-jou' }},
-		{ params: { ln: 'owarimonogatari-chuu' }},
-		{ params: { ln: 'owarimonogatari-ge' }},
-		{ params: { ln: 'zoku-owarimonogatari' }},
-		{ params: { ln: 'orokamonogatari' }},
-		{ params: { ln: 'wazamonogatari' }},
-		{ params: { ln: 'nademonogatari' }},
-		{ params: { ln: 'musubimonogatari' }},
-		{ params: { ln: 'shinobumonogatari' }},
-		{ params: { ln: 'yoimonogatari' }},
-		{ params: { ln: 'amarimonogatari' }},
-		{ params: { ln: 'ougimonogatari' }},
-		{ params: { ln: 'shinomonogatari-jou' }},
-		{ params: { ln: 'shinomonogatari-ge' }},
-		{ params: { ln: 'ikusamonogatari' }},
-		{ params: { ln: 'tsugimonogatari' }},
-	]
+	return lns.map(({ name }) => ({ params: { ln: name }}))
 }) satisfies GetStaticPaths
 
 const { ln } = Astro.params
@@ -99,6 +68,9 @@ const customTransition = {
 					<div class="cover">
 						<a href={pictures[2]} target="_blank">Full resolution</a>
 						<picture transition:name={`ln-cover-${ln}`} transition:animate={customTransition}>
+							<source srcset={`/banners/lns/${name}.avif`} type="image/avif" media="(width < 1130px)" />
+							<source srcset={`/banners/lns/${name}.webp`} type="image/webp" media="(width < 1130px)" />
+							<source srcset={`/banners/lns/${name}.jpg`} type="image/jpeg" media="(width < 1130px)" />
 							{pictures.map((path, i) => {
 								const isLast = pictures.length === i + 1
 								const type = path.split('.').pop()
@@ -128,10 +100,10 @@ const customTransition = {
 											<div class="whenWrapper">
 												<div class="texture">
 													<picture>
-														<img src="/99.png" alt="">
+														<img src="/99.png" alt="" />
 													</picture>
 													<picture class="duplicate">
-														<img src="/99.png" alt="">
+														<img src="/99.png" alt="" />
 													</picture>
 												</div>
 												<span>Previous</span>
@@ -143,9 +115,9 @@ const customTransition = {
 													const isLast = (prevLn.picturesHalf ? prevLn.picturesHalf : prevLn.pictures).length === i + 1
 													const type = path.split('.').pop()
 
-													if (isLast) return <img src={path} alt="">
+													if (isLast) return <img src={path} alt="" />
 													
-													return <source srcset={path} type={`image/${type}`}>
+													return <source srcset={path} type={`image/${type}`} />
 												})}
 											</picture>
 										</div>		
@@ -157,10 +129,10 @@ const customTransition = {
 											<div class="whenWrapper">
 												<div class="texture">
 													<picture>
-														<img src="/85.png" alt="">
+														<img src="/85.png" alt="" />
 													</picture>
 													<picture class="duplicate">
-														<img src="/85.png" alt="">
+														<img src="/85.png" alt="" />
 													</picture>
 												</div>
 												<span>Next</span>
@@ -172,9 +144,9 @@ const customTransition = {
 													const isLast = (nextLn.picturesHalf ? nextLn.picturesHalf : nextLn.pictures).length === i + 1
 													const type = path.split('.').pop()
 
-													if (isLast) return <img src={path} alt="">
+													if (isLast) return <img src={path} alt="" />
 													
-													return <source srcset={path} type={`image/${type}`}>
+													return <source srcset={path} type={`image/${type}`} />
 												})}
 											</picture>
 										</div>		
@@ -205,9 +177,9 @@ const customTransition = {
 													const isLast = (alternative.picturesHalf ? alternative.picturesHalf : alternative.pictures).length === i + 1
 													const type = path.split('.').pop()
 
-													if (isLast) return <img src={path} alt="">
+													if (isLast) return <img src={path} alt="" />
 													
-													return <source srcset={path} type={`image/${type}`}>
+													return <source srcset={path} type={`image/${type}`} />
 												})}
 											</picture>
 										</div>		

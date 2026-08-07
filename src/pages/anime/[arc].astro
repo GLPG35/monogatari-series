@@ -7,31 +7,7 @@ import GalleryContainer from '../../components/GalleryContainer'
 import InteractiveMiniStory from '../../components/InteractiveMiniStory'
 
 export const getStaticPaths = (() => {
-	return [
-		{ params: { arc: 'bakemonogatari' }},
-		{ params: { arc: 'kizumonogatari-I' }},
-		{ params: { arc: 'kizumonogatari-II' }},
-		{ params: { arc: 'kizumonogatari-III' }},
-		{ params: { arc: 'kizumonogatari-koyomi-vamp' }},
-		{ params: { arc: 'nisemonogatari' }},
-		{ params: { arc: 'nekomonogatari-kuro' }},
-		{ params: { arc: 'nekomonogatari-shiro' }},
-		{ params: { arc: 'kabukimonogatari' }},
-		{ params: { arc: 'hanamonogatari' }},
-		{ params: { arc: 'otorimonogatari' }},
-		{ params: { arc: 'onimonogatari' }},
-		{ params: { arc: 'koimonogatari' }},
-		{ params: { arc: 'tsukimonogatari' }},
-		{ params: { arc: 'koyomimonogatari' }},
-		{ params: { arc: 'owarimonogatari-jou' }},
-		{ params: { arc: 'owarimonogatari-ge' }},
-		{ params: { arc: 'zoku-owarimonogatari' }},
-		{ params: { arc: 'orokamonogatari' }},
-		{ params: { arc: 'nademonogatari' }},
-		{ params: { arc: 'wazamonogatari-ova' }},
-		{ params: { arc: 'wazamonogatari' }},
-		{ params: { arc: 'shinobumonogatari' }},
-	]
+	return arcs.map(({ name }) => ({ params: { arc: name }}))
 }) satisfies GetStaticPaths
 
 const { arc } = Astro.params
@@ -96,6 +72,9 @@ const customTransition = {
 					<div class="cover">
 						<a href={pictures[2]} target="_blank">Full resolution</a>
 						<picture transition:name={`anime-cover-${arc}`} transition:animate={customTransition}>
+							<source srcset={`/banners/${name}.avif`} type="image/avif" media="(width < 1130px)" />
+							<source srcset={`/banners/${name}.webp`} type="image/webp" media="(width < 1130px)" />
+							<source srcset={`/banners/${name}.jpg`} type="image/jpeg" media="(width < 1130px)" />
 							{pictures.map((path, i) => {
 								const isLast = pictures.length === i + 1
 								const type = path.split('.').pop()
