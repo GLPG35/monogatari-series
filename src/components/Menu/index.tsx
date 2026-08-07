@@ -22,7 +22,7 @@ const Menu = ({ active }: { active: string }) => {
 										<source srcSet="/48.webp" type='image/webp' />
 										<img src="/48.png" alt="" />
 									</picture>
-									<div className="duplicate" style={{ '--current-img': "image-set(url('48.avif') type('image/avif'), url('48.webp') type('image/webp'), url('48.png') type('image/png'))" } as React.CSSProperties}>
+									<div className="duplicate" style={{ '--current-img': "image-set(url('/48.avif') type('image/avif'), url('/48.webp') type('image/webp'), url('/48.png') type('image/png'))" } as React.CSSProperties}>
 									</div>
 								</div>
 							</div>	
