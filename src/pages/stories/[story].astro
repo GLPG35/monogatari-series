@@ -5,10 +5,7 @@ import './story.scss'
 import stories from '../../utils/short_stories.json'
 
 export const getStaticPaths = (() => {
-	return [
-		{ params: { story: 'mazemonogatari' }},
-		{ params: { story: 'mijikanamonogatari' }}
-	]
+	return stories.map(({ name }) => ({ params: { story: name }}))
 }) satisfies GetStaticPaths
 
 const { story } = Astro.params

@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro'
+import stories from '../../utils/short_stories.json'
 import './styles.scss'
 
 const anim = {
@@ -51,42 +52,40 @@ const customTransition = {
 			<main>
 				<div class="subsection">
 					<h2>Short Stories</h2>
-					<p>The Monogatari Series has a lot of these "short stories", stories that were written mostly to complement the main story, while also giving more context about certain events.</p>
-					<p>While there are two official books released with a compilation of said short stories, there are also many short stories that were released individually, that never made it into the official books. One example of that is the short stories included in the special editions of the Bakemonogatari manga.</p>
-					<p>Thankfully, fans have made a compilation book (also called Mijikanamonogatari), that collects <em>almost</em> every short story ever released. That includes all of the previously mentioned books, the manga short stories, and a couple of short stories that were released individually.</p>
+					<p>The Monogatari Series numerous "short stories" written primarily to complement the main narrative and provide extra context for specific events.</p>
+					<p>While two official compilation books have been released, many other short stories were published individually and never made it into these volumes. A prime example is the collection of short stories included in the special editions of the Bakemonogatari manga.</p>
+					<p>Thankfully, fans have created a compilation book also called Mijikanamonogatari, which collects <em>almost</em> every short story ever released. This volume includes the content of both official books, the manga short stories, and various individual releases.</p>
 					<br />
-					<p>Aside from those short stories, there's another book called Mazemonogatari. This spin-off crossover compilation features Araragi Koyomi interacting with the heroines from NisiOisiN's other works.</p>
+					<p>Aside from those short stories, there are two additional crossover books. The first, titled called Tsukimonogatari (written as 月物語, meaning "Month Story"), features a crossover between Sangatsu no Lion's protagonist Kiriyama Rei and Hanekawa Tsubasa. It was released as a collaboration between Umino Chika (Sangatsu no Lion's author) and NisiOisiN.</p>
+				 	<p>The second book is Mazemonogatari (written as 混物語, meaning "Mixed Story"), a spin-off crossover compilation that features Araragi Koyomi interacting with the characters from NisiOisiN's other works.</p>
 					<p>If you want to read all of these stories, please refer to the <a href="/downloads/stories">short story downloads page</a>.</p>
 				</div>
 				<div class="titles">
-					<div class="book">
-						<a class="cover" href="/stories/mazemonogatari">
-							<picture transition:name={`story-cover-mazemonogatari`} transition:animate={customTransition}>
-								<source srcset="/covers/lns/mazemonogatari.avif" type="image/avif" />
-								<source srcset="/covers/lns/mazemonogatari.webp" type="image/webp" />
-								<img src="/covers/lns/mazemonogatari.png" alt="">
-							</picture>
-						</a>
-						<div class="name">
-							<ruby>
-								混<rt>maze.</rt>物<rt>mono.</rt>語<rt>gatari.</rt>
-							</ruby>
+					{stories.map(({ name, kanji, pictures }) => (
+						<div class="book">
+							<a class="cover" href={`/stories/${name}`}>
+								<picture transition:name={`story-cover-${name}`} transition:animate={customTransition}>
+									{pictures.map((path, i) => {
+										const isLast = pictures.length === i + 1
+										const type = path.split('.').pop()
+
+										if (isLast) return <img src={path} alt="" loading="lazy" />
+										
+										return <source srcset={path} type={`image/${type}`} />
+									})}
+								</picture>
+							</a>
+							<div class="name">
+								<ruby set:html={(kanji.filter(([kanji]) => !kanji.includes('(')).reduce((prev, [kanji, romaji]) => [...prev, `${kanji}${romaji ? `<rt>${romaji}</rt>` : ''}`], []).join(''))}>
+								</ruby>
+								{kanji.some(([kanji]) => kanji.includes('(')) &&
+									<ruby class="small">
+										{kanji.filter(([kanji]) => kanji.includes('('))[0][0]}<rt>{kanji.filter(([kanji]) => kanji.includes('('))[0][1]}</rt>
+									</ruby>
+								}
+							</div>
 						</div>
-					</div>
-					<div class="book">
-						<a class="cover" href="/stories/mijikanamonogatari">
-							<picture transition:name={`story-cover-mijikanamonogatari`} transition:animate={customTransition}>
-								<source srcset="/covers/lns/mijikanamonogatari.avif" type="image/avif" />
-								<source srcset="/covers/lns/mijikanamonogatari.webp" type="image/webp" />
-								<img src="/covers/lns/mijikanamonogatari.png" alt="">
-							</picture>
-						</a>
-						<div class="name">
-							<ruby>
-								短<rt>mijikana.</rt>物<rt>mono.</rt>語<rt>gatari.</rt>
-							</ruby>
-						</div>
-					</div>
+					))}
 				</div>
 			</main>
 		</Layout>

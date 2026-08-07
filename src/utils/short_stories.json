@@ -1,5 +1,37 @@
 [
 	{
+		"name": "tsukimonogatari",
+		"title": "Tsukimonogatari",
+		"kanji": [
+			["月", "tsuki."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/tsukimonogatari-tsubasa.avif",
+			"/covers/lns/tsukimonogatari-tsubasa.webp",
+			"/covers/lns/tsukimonogatari-tsubasa.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/tsukimonogatari-tsubasa-0.5x.avif",
+			"/covers/lns/tsukimonogatari-tsubasa-0.5x.webp",
+			"/covers/lns/tsukimonogatari-tsubasa-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-white",
+		"info": {
+			"date": "September 29, 2016",
+			"stories": [
+			    ["Tsubasa Lion", "つばさライオン"]
+			],
+			"description": [
+				"Kiriyama Rei, a professional shogi player, finds a strange sight waiting for him early one cold morning in front of the Shogi Association building: Hanekawa Tsubasa—a girl who looks like a cat curled up and sleeping wrapped in old newspapers.",
+				"",
+				"Caught and latched onto by the model student and top-ranking academic 'class rep among class reps', Rei is pulled into an unexpected encounter. What does an unfamiliar girl found in a familiar landscape bring to Rei?"
+			]
+		}
+	},
+	{
 		"name": "mazemonogatari",
 		"title": "Mazemonogatari",
 		"kanji": [

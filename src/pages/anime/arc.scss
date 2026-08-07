@@ -20,10 +20,11 @@ main {
 			gap: 2em;
 			padding: 2em;
 			padding-top: 10em;
+			align-items: initial;
 
 			> .cover {
 				aspect-ratio: 3 / 2 !important;
-				max-width: none !important;
+				max-width: 100% !important;
 				top: initial !important;
 
 				img {
