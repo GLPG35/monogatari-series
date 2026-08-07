@@ -1682,5 +1682,48 @@
 				"A doll stitched together out of youth itself."
 			]
 		}
+	},
+	{
+		"name": "torimonogatari",
+		"title": "Torimonogatari",
+		"kanji": [
+			["鳥", "tori."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/torimonogatari.avif",
+			"/covers/lns/torimonogatari.webp",
+			"/covers/lns/torimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/torimonogatari-0.5x.avif",
+			"/covers/lns/torimonogatari-0.5x.webp",
+			"/covers/lns/torimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-blue",
+		"info": {
+			"date": "September 4, 2026",
+			"arcs": [
+			],
+			"description": [
+				"☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★",
+				"\"I think a world so full of fakes like this might as well just be destroyed, onii-chan.\"",
+				"",
+				"☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★",
+				"Araragi Tsukihi has vanished.",
+				"She completely outwitted the surveillance of none other than Gaen Izuko.",
+				"",
+				"The order to assassinate the phoenix is reignited!",
+				"",
+				"Running around in search of the bird, Ononoki Yotsugi's partner is... the popular manga artist, Sengoku Nadeko—!?",
+				"",
+				"These are the modern-day Oddities! Oddities! Oddities!",
+				"☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★",
+				"Rising again from the ashes of youth.",
+				"☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★"
+			]
+		}
 	}
 ]

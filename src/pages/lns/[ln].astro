@@ -187,12 +187,14 @@ const customTransition = {
 								))}
 							</div>
 						</div>
-						<div class="section">
-							<h4>Arcs</h4>
-							<ul>
-								{info.arcs.map(arc => <li>{arc[0]}<span>{arc[1]}</span></li>)}
-							</ul>
-						</div>
+						{info.arcs.length > 0 &&
+							<div class="section">
+								<h4>Arcs</h4>
+								<ul>
+									{info.arcs.map(arc => <li>{arc[0]}<span>{arc[1]}</span></li>)}
+								</ul>
+							</div>
+						}
 						<div class="section description">
 							<h4>Synopsis</h4>
 							{info.description.map(text => (<p>{text}</p>))}
