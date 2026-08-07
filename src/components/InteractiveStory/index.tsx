@@ -60,11 +60,8 @@ const InteractiveStory = ({ stories }: { stories: { name: string, when: string, 
 										<source srcSet="/104.webp" type='image/webp' />
 										<img src="/104.png" alt="" />
 									</picture>
-									<picture className='duplicate'>
-										<source srcSet="/104.avif" type='image/avif' />
-										<source srcSet="/104.webp" type='image/webp' />
-										<img src="/104.png" alt="" />
-									</picture>
+									<div className="duplicate" style={{ "--current-img": "image-set(url('/104.avif') type('image/avif'), url('/104.webp') type('image/webp'), url('/104.png') type('image/png'))" } as React.CSSProperties}>
+									</div>
 								</div>
 							</div>
 							<motion.div className="modal" onClick={e => e.stopPropagation()}>
@@ -99,11 +96,8 @@ const InteractiveStory = ({ stories }: { stories: { name: string, when: string, 
 									<source srcSet="/23.webp" type="image/webp" />
 									<img src='/23.png' alt="" loading="lazy" />
 								</picture>
-								<picture className="duplicate">
-									<source srcSet="/23.avif" type="image/avif" />
-									<source srcSet="/23.webp" type="image/webp" />
-									<img src='/23.png' alt="" loading="lazy" />
-								</picture>
+								<div className="duplicate" style={{ "--current-img": "image-set(url('/23.avif') type('image/avif'), url('/23.webp') type('image/webp'), url('/23.png') type('image/png'));" } as React.CSSProperties}>
+								</div>
 							</div>
 							<span>{when}</span>
 						</div>
