@@ -1,0 +1,2115 @@
+[
+	{
+		"name": "bakemonogatari-01",
+		"title": "Bakemonogatari Volume 1",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["1", "ichi."]
+		],
+		"pictures": [
+			"/covers/manga/01.avif",
+			"/covers/manga/01.webp",
+			"/covers/manga/01.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/01-0.5x.avif",
+			"/covers/manga/01-0.5x.webp",
+			"/covers/manga/01-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-purple",
+		"info": {
+			"date": "June 15, 2018",
+			"arcs": [
+				["Hitagi Crab", "ひたぎクラブ"]
+			],
+			"chapters": [
+				"001",
+				"002",
+				"003"
+			],
+			"description": [
+				"Senjougahara Hitagi—the girl Araragi Koyomi caught one day. That's right, her body had... no weight at all.",
+				"After an encounter with a certain \"crab\", her weight had been completely stripped away. Oddities have been there from the very beginning. Always. Everywhere.",
+				"Nisioisin (The Memorandum of Kyouko Okitegami) × Oh! great (Air Gear) present a brand-new take on oddities! Oddities! Oddities! A new \"story\" begins right now!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-02",
+		"title": "Bakemonogatari Volume 2",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["2", "ni."]
+		],
+		"pictures": [
+			"/covers/manga/02.avif",
+			"/covers/manga/02.webp",
+			"/covers/manga/02.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/02-0.5x.avif",
+			"/covers/manga/02-0.5x.webp",
+			"/covers/manga/02-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-blue",
+		"info": {
+			"date": "August 17, 2018",
+			"arcs": [
+				["Hitagi Crab", "ひたぎクラブ"],
+				["Mayoi Maimai", "まよいマイマイ"]
+			],
+			"chapters": [
+				"004",
+				"005",
+				"006",
+				"007",
+				"008",
+				"009",
+				"010",
+				"011",
+				"012"
+			],
+			"description": [
+				"\"I'm just here to act as your guide\".",
+				"The one Araragi Koyomi caught was Senjougahara Hitagi—the \"girl whose weight was stolen\".",
+				"She must save herself, so she doesn't lose her way trying to find her true feelings...",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! Youth is a \"story\" you can only experience once!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-03",
+		"title": "Bakemonogatari Volume 3",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["3", "san."]
+		],
+		"pictures": [
+			"/covers/manga/03.avif",
+			"/covers/manga/03.webp",
+			"/covers/manga/03.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/03-0.5x.avif",
+			"/covers/manga/03-0.5x.webp",
+			"/covers/manga/03-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-white",
+		"info": {
+			"date": "November 16, 2018",
+			"arcs": [
+				["Mayoi Maimai", "まよいマイマイ"]
+			],
+			"chapters": [
+				"013",
+				"014",
+				"015",
+				"016",
+				"017",
+				"018",
+				"019",
+				"020",
+				"021"
+			],
+			"description": [
+				"Hachikuji Mayoi. The elementary school girl Araragi Koyomi met was a lost child of the \"snail\", forever unable to reach her destination.",
+				"\"Bringing her back safely... that is my duty\". Before her memories weather away and fade away completely...",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! A \"story\" where feelings shine brilliantly through!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-04",
+		"title": "Bakemonogatari Volume 4",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["4", "yon."]
+		],
+		"pictures": [
+			"/covers/manga/04.avif",
+			"/covers/manga/04.webp",
+			"/covers/manga/04.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/04-0.5x.avif",
+			"/covers/manga/04-0.5x.webp",
+			"/covers/manga/04-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "January 17, 2019",
+			"arcs": [
+				["Suruga Monkey", "するがモンキー"]
+			],
+			"chapters": [
+				"022",
+				"023",
+				"024",
+				"025",
+				"026",
+				"027",
+				"028",
+				"029",
+				"030"
+			],
+			"description": [
+				"\"I LOVE YOU\", \"Senjougahara fascination\"",
+				"Having accepted Hitagi's feelings and successfully resolved Mayoi Hachikuji's case, Araragi Koyomi felt like everything was finally moving forward smoothly. That is, until his body was completely blown open by a mysterious raincoat-clad figure who appeared out of nowhere...!",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! A \"story\" that wanted nothing more than to hear you call its name!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-05",
+		"title": "Bakemonogatari Volume 5",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["5", "go."]
+		],
+		"pictures": [
+			"/covers/manga/05.avif",
+			"/covers/manga/05.webp",
+			"/covers/manga/05.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/05-0.5x.avif",
+			"/covers/manga/05-0.5x.webp",
+			"/covers/manga/05-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-orange",
+		"info": {
+			"date": "April 17, 2019",
+			"arcs": [
+				["Suruga Monkey", "するがモンキー"]
+			],
+			"chapters": [
+				"031",
+				"032",
+				"033",
+				"034",
+				"035",
+				"036",
+				"037",
+				"038",
+				"039",
+				"040"
+			],
+			"description": [
+				"Kanbaru Suruga is the school's absolute superstar—someone who lives in a completely different world from Araragi Koyomi. Yet, for some reason, Araragi finds himself being relentlessly stalked by her. As he digs for a reason, he uncovers the presence of an oddity. But what is the true \"wish\" Kanbaru confesses to him when they finally confront one another...?",
+				"Nisioisin × Oh! great present a brand-new take on oddites! Oddities! Oddities! A \"story\" of unresolvable wishes and deep regrets!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-06",
+		"title": "Bakemonogatari Volume 6",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["6", "roku."]
+		],
+		"pictures": [
+			"/covers/manga/06.avif",
+			"/covers/manga/06.webp",
+			"/covers/manga/06.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/06-0.5x.avif",
+			"/covers/manga/06-0.5x.webp",
+			"/covers/manga/06-0.5x.jpg"
+		],
+		"responsivePosition": "center 50%",
+		"color": "--bg-black",
+		"info": {
+			"date": "July 17, 2019",
+			"arcs": [
+				["Suruga Monkey", "するがモンキー"],
+				["Nadeko Snake", "なでこスネイク"]
+			],
+			"chapters": [
+				"041",
+				"042",
+				"043",
+				"044",
+				"045",
+				"046",
+				"047",
+				"048",
+				"049"
+			],
+			"description": [
+				"Araragi Koyomi is forced to face the stark, undeniable reality of how different his world is from Kanbaru Suruga's. Left thoroughly agonizing over his own naivety, Araragi is suddenly ambushed by Kanbaru's raw, unfiltered \"true feelings\"—exposed like a venomous curse...",
+				"\"I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you\"",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! Youth is a hardcore, rock-and-roll \"story\"!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-07",
+		"title": "Bakemonogatari Volume 7",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["7", "nana."]
+		],
+		"pictures": [
+			"/covers/manga/07.avif",
+			"/covers/manga/07.webp",
+			"/covers/manga/07.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/07-0.5x.avif",
+			"/covers/manga/07-0.5x.webp",
+			"/covers/manga/07-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-white",
+		"info": {
+			"date": "October 17, 2019",
+			"arcs": [
+				["Nadeko Snake", "なでこスネイク"]
+			],
+			"chapters": [
+				"050",
+				"051",
+				"052",
+				"053",
+				"054",
+				"055",
+				"056",
+				"057",
+				"058"
+			],
+			"description": [
+				"At a shrine visited alongside Kanbaru Suruga, Araragi Koyomi is confronted by a gruesome sight: chopped-up snakes and a massive wave of violently scrawled curses. As Araragi stands speechless before the horrific scene, the name of a long-forgotten friend of his younger sisters suddenly flashes through his mind—Sengoku Nadeko.",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! Even if left unnamed, it is a \"story\" that dwells within us all!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-08",
+		"title": "Bakemonogatari Volume 8",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["8", "hachi."]
+		],
+		"pictures": [
+			"/covers/manga/08.avif",
+			"/covers/manga/08.webp",
+			"/covers/manga/08.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/08-0.5x.avif",
+			"/covers/manga/08-0.5x.webp",
+			"/covers/manga/08-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-lilac",
+		"info": {
+			"date": "February 17, 2020",
+			"arcs": [
+				["Nadeko Snake", "なでこスネイク"],
+				["Koyomi Vamp", "こよみヴァンプ"]
+			],
+			"chapters": [
+				"059",
+				"060",
+				"061",
+				"062",
+				"063",
+				"064",
+				"065",
+				"066",
+				"067"
+			],
+			"description": [
+				"There weren't one, but two \"snakes\" coiled around Sengoku Nadeko's body. Can Araragi Koyomi save her as her life is suddenly pushed to the absolute brink? And now, the tale surrounding Araragi's very first \"wound\" is finally about to be unveiled...",
+				"\"I suppose I must speak of it. Of the day my personal hell began\"",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! A \"story\" of begging to live, even if you have to crawl!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-09",
+		"title": "Bakemonogatari Volume 9",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["9", "kyuu."]
+		],
+		"pictures": [
+			"/covers/manga/09.avif",
+			"/covers/manga/09.webp",
+			"/covers/manga/09.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/09-0.5x.avif",
+			"/covers/manga/09-0.5x.webp",
+			"/covers/manga/09-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "May 15, 2020",
+			"arcs": [
+				["Koyomi Vamp", "こよみヴァンプ"]
+			],
+			"chapters": [
+				"068",
+				"069",
+				"070",
+				"071",
+				"072",
+				"073",
+				"074",
+				"075",
+				"076"
+			],
+			"description": [
+				"Now, the story of Araragi Koyomi's \"beginning\" is finally told. It all began with his encounter with a noble, arrogant, beautiful, and deeply scarred vampire. What lay waiting for him next was a series of days that could only be described as hell... The prequel and Chapter Zero to Bakemonogatari—Kizumonogatari!!",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! A \"story\" bound by nostalgia, that was never meant to end!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-10",
+		"title": "Bakemonogatari Volume 10",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["10", "juu."]
+		],
+		"pictures": [
+			"/covers/manga/10.avif",
+			"/covers/manga/10.webp",
+			"/covers/manga/10.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/10-0.5x.avif",
+			"/covers/manga/10-0.5x.webp",
+			"/covers/manga/10-0.5x.jpg"
+		],
+		"responsivePosition": "center 40%",
+		"color": "--bg-purple",
+		"info": {
+			"date": "August 17, 2020",
+			"arcs": [
+				["Koyomi Vamp", "こよみヴァンプ"]
+			],
+			"chapters": [
+				"077",
+				"078",
+				"079",
+				"080",
+				"081",
+				"082",
+				"083",
+				"084",
+				"085"
+			],
+			"description": [
+				"To become human again, Araragi Koyomi must battle three vampire hunters and reclaim Kiss-shot's severed limbs. His first opponent is Dramaturgy—a vampire himself who kills his own kind! Yet, the words he extends to Araragi are... \"Join me. Become one of my allies—\"",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! A \"story\" of clashing schemes revolving around the King!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-11",
+		"title": "Bakemonogatari Volume 11",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["11", "juuichi."]
+		],
+		"pictures": [
+			"/covers/manga/11.avif",
+			"/covers/manga/11.webp",
+			"/covers/manga/11.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/11-0.5x.avif",
+			"/covers/manga/11-0.5x.webp",
+			"/covers/manga/11-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "November 17, 2020",
+			"arcs": [
+				["Koyomi Vamp", "こよみヴァンプ"]
+			],
+			"chapters": [
+				"086",
+				"087",
+				"088",
+				"089",
+				"090",
+				"091",
+				"092",
+				"093",
+				"094"
+			],
+			"description": [
+				"The prequel and Chapter Zero to Bakemonogatari—Kizumonogatari.",
+				"Araragi Koyomi fights to become \"human\" once more. Having defeated Dramaturgy and reclaimed Kiss-shot's right arm, Araragi's next opponent is the half-vampire, Episode. However, this man possesses none of a vampire's natural weaknesses—?! A \"story\" that will make your entire body break into goosebumps!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-12",
+		"title": "Bakemonogatari Volume 12",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["12", "juuni."]
+		],
+		"pictures": [
+			"/covers/manga/12.avif",
+			"/covers/manga/12.webp",
+			"/covers/manga/12.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/12-0.5x.avif",
+			"/covers/manga/12-0.5x.webp",
+			"/covers/manga/12-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-red",
+		"info": {
+			"date": "February 17, 2021",
+			"arcs": [
+				["Koyomi Vamp", "こよみヴァンプ"]
+			],
+			"chapters": [
+				"095",
+				"096",
+				"097",
+				"098",
+				"099",
+				"100",
+				"101",
+				"102",
+				"103"
+			],
+			"description": [
+				"The prequel and Chapter Zero to Bakemonogatari—Kizumonogatari!!",
+				"Araragi Koyomi fights to save Kiss-shot and return to being a \"human\" himself. Having turned away two formidable enemies, his final opponent is the \"ordinary human\", Guillotine Cutter. Yet, just as a fired-up Araragi readies himself for the final stretch, shocking news strikes right before the battle: \"Hanekawa has been kidnapped\"—! A \"story\" that will completely defy your imagination!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-13",
+		"title": "Bakemonogatari Volume 13",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["13", "juusan."]
+		],
+		"pictures": [
+			"/covers/manga/13.avif",
+			"/covers/manga/13.webp",
+			"/covers/manga/13.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/13-0.5x.avif",
+			"/covers/manga/13-0.5x.webp",
+			"/covers/manga/13-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-orange",
+		"info": {
+			"date": "May 17, 2021",
+			"arcs": [
+				["Koyomi Vamp", "こよみヴァンプ"]
+			],
+			"chapters": [
+				"104",
+				"105",
+				"106",
+				"107",
+				"108",
+				"109",
+				"110",
+				"111",
+				"112"
+			],
+			"description": [
+				"The prequel and Chapter Zero to Bakemonogatari—Kizumonogatari!!",
+				"Having repelled the three vampire hunters targeting Kiss-shot, Araragi Koyomi has successfully restored her to her complete, perfect form. It seemed the only thing left to do was for Araragi himself to return to being human—until he suddenly realizes a catastrophic mistake...!",
+				"The Kizumonogatari arc reaches its absolute final phase! A grueling, agonizing \"story\" of master and servant, humans and monsters!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-14",
+		"title": "Bakemonogatari Volume 14",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["14", "juuyon."]
+		],
+		"pictures": [
+			"/covers/manga/14.avif",
+			"/covers/manga/14.webp",
+			"/covers/manga/14.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/14-0.5x.avif",
+			"/covers/manga/14-0.5x.webp",
+			"/covers/manga/14-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-blue",
+		"info": {
+			"date": "August 17, 2021",
+			"arcs": [
+				["Koyomi Vamp", "こよみヴァンプ"]
+			],
+			"chapters": [
+				"113",
+				"114",
+				"115",
+				"116",
+				"117",
+				"118",
+				"119",
+				"120",
+				"121"
+			],
+			"description": [
+				"\"Then perish, my servant!!!!\" —vs. Kiss-shot, the \"King of Oddities\"!!! The \"Koyomi Vamp\" chapter of the Kizumonogatari arc reaches its ultimate climax.",
+				"The prequel and Chapter Zero to Bakemonogatari—Kizumonogatari!!",
+				"Araragi Koyomi realizes that saving Kiss-shot and aiding her resurrection was a catastrophic mistake \"as a human being\". Now, he must directly confront his own master—the King of Oddities. The final, genuine battle officially begins—!",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! A \"story\" of layer upon layer of unavoidable fate!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/onimonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/onimonogatari.avif",
+						"/covers/lns/onimonogatari.webp",
+						"/covers/lns/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/onimonogatari-0.5x.avif",
+						"/covers/lns/onimonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/onimonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/onimonogatari.avif",
+						"/covers/onimonogatari.webp",
+						"/covers/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/onimonogatari-0.5x.avif",
+						"/covers/onimonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-15",
+		"title": "Bakemonogatari Volume 15",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["15", "juugo."]
+		],
+		"pictures": [
+			"/covers/manga/15.avif",
+			"/covers/manga/15.webp",
+			"/covers/manga/15.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/15-0.5x.avif",
+			"/covers/manga/15-0.5x.webp",
+			"/covers/manga/15-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-black",
+		"info": {
+			"date": "November 17, 2021",
+			"arcs": [
+				["Koyomi Vamp", "こよみヴァンプ"],
+				["Tsubasa Cat", "つばさキャット"]
+			],
+			"chapters": [
+				"122",
+				"123",
+				"124",
+				"125",
+				"126",
+				"127",
+				"128",
+				"129",
+				"130"
+			],
+			"description": [
+				"The prequel and Chapter Zero to Bakemonogatari—Kizumonogatari concludes!!",
+				"Araragi Koyomi finally drives Kiss-shot into a corner. However, he soon learns the horrifying truth: it was all a setup orchestrated by her, designed to sacrifice her own life so that Araragi could become human again. Defying even her tragic scheme, what is the final curtain call Araragi decides to pull—!",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! A \"story\" of recurring, bitter errors in judgment!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-16",
+		"title": "Bakemonogatari Volume 16",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["16", "juuroku."]
+		],
+		"pictures": [
+			"/covers/manga/16.avif",
+			"/covers/manga/16.webp",
+			"/covers/manga/16.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/16-0.5x.avif",
+			"/covers/manga/16-0.5x.webp",
+			"/covers/manga/16-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "February 17, 2022",
+			"arcs": [
+				["Tsubasa Cat", "つばさキャット"]
+			],
+			"chapters": [
+				"131",
+				"132",
+				"133",
+				"134",
+				"135",
+				"136",
+				"137",
+				"138",
+				"139"
+			],
+			"description": [
+				"The Final Chapter—\"Tsubasa Cat\" begins!",
+				"Receiving a sudden SOS from Hanekawa Tsubasa, Araragi Koyomi rushes to her side immediately. What awaits him there is a starkly familiar pair of \"cat ears\". The oddity that hurts absolutely anyone, the Sawari Neko, Black Hanekawa... Accompanied by a multitude of names and a massive, splitting headache, Araragi's greatest and most formidable enemy rears its head—!",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! From beginning to end, a \"story\" that utterly confounds the senses!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/nekomonogatari-kuro",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/nekomonogatari-kuro.avif",
+						"/covers/lns/nekomonogatari-kuro.webp",
+						"/covers/lns/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-kuro-0.5x.avif",
+						"/covers/lns/nekomonogatari-kuro-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-kuro",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/nekomonogatari-kuro.avif",
+						"/covers/nekomonogatari-kuro.webp",
+						"/covers/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-kuro-0.5x.avif",
+						"/covers/nekomonogatari-kuro-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-17",
+		"title": "Bakemonogatari Volume 17",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["17", "juunana."]
+		],
+		"pictures": [
+			"/covers/manga/17.avif",
+			"/covers/manga/17.webp",
+			"/covers/manga/17.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/17-0.5x.avif",
+			"/covers/manga/17-0.5x.webp",
+			"/covers/manga/17-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-green",
+		"info": {
+			"date": "May 17, 2022",
+			"arcs": [
+				["Tsubasa Cat", "つばさキャット"]
+			],
+			"chapters": [
+				"140",
+				"141",
+				"142",
+				"143",
+				"144",
+				"145",
+				"146",
+				"147",
+				"148"
+			],
+			"description": [
+				"The Final Chapter—\"Tsubasa Cat\"!!",
+				"The \"Sawari Neko\"—an oddity that should have already been laid to rest after a period of immense suffering. Yet, she has manifested once more, harboring even deeper and darker emotions. Araragi Koyomi scrambles desperately to save her again and again, completely blind to what his own kindness truly means...!",
+				"Nisioisin × Oh! great presnet a brand-new take on oddities! Oddities! Oddities! A \"story\" that cynically betrays the entire world!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nekomonogatari-kuro",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/nekomonogatari-kuro.avif",
+						"/covers/lns/nekomonogatari-kuro.webp",
+						"/covers/lns/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-kuro-0.5x.avif",
+						"/covers/lns/nekomonogatari-kuro-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-kuro",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/nekomonogatari-kuro.avif",
+						"/covers/nekomonogatari-kuro.webp",
+						"/covers/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-kuro-0.5x.avif",
+						"/covers/nekomonogatari-kuro-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-18",
+		"title": "Bakemonogatari Volume 18",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["18", "juuhachi."]
+		],
+		"pictures": [
+			"/covers/manga/18.avif",
+			"/covers/manga/18.webp",
+			"/covers/manga/18.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/18-0.5x.avif",
+			"/covers/manga/18-0.5x.webp",
+			"/covers/manga/18-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-blue",
+		"info": {
+			"date": "August 17, 2022",
+			"arcs": [
+				["Tsubasa Cat", "つばさキャット"]
+			],
+			"chapters": [
+				"149",
+				"150",
+				"151",
+				"152",
+				"153",
+				"154",
+				"155",
+				"156",
+				"157"
+			],
+			"description": [
+				"The Final Chapter—\"Tsubasa Cat\"!!",
+				"The \"Sawari Neko\" has returned, manifesting with far greater power than ever before. To make matters worse, Shinobu has suddenly vanished from inside Araragi’s shadow. Can Araragi resolve everything before his upcoming date with Senjougahara? And to hold the ultimate key to it all, a shocking confession falls from Hanekawa's own lips...!",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! Ah, a \"story\" of a shadow servant seeking the entire universe!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-19",
+		"title": "Bakemonogatari Volume 19",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["19", "juukyuu."]
+		],
+		"pictures": [
+			"/covers/manga/19.avif",
+			"/covers/manga/19.webp",
+			"/covers/manga/19.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/19-0.5x.avif",
+			"/covers/manga/19-0.5x.webp",
+			"/covers/manga/19-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-orange",
+		"info": {
+			"date": "November 17, 2022",
+			"arcs": [
+				["Tsubasa Cat", "つばさキャット"]
+			],
+			"chapters": [
+				"158",
+				"159",
+				"160",
+				"161",
+				"162",
+				"163",
+				"164",
+				"165",
+				"166"
+			],
+			"description": [
+				"The Final Chapter—\"Tsubasa Cat\"!!",
+				"The shocking truth behind the return of the \"Sawari Neko\" is none other than Hanekawa’s unrequited love for Araragi... In an attempt to sever the root of her pain, Araragi is pushed to the absolute brink of erasure. Yet, just as he desperately calls out to the empty sky in a frantic bid to survive, a figure suddenly appears before him—?!",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! A half-duplex \"story\" of futile courtship!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/nekomonogatari-shiro",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/nekomonogatari-shiro.avif",
+						"/covers/lns/nekomonogatari-shiro.webp",
+						"/covers/lns/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/owarimonogatari-chuu",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/owarimonogatari-chuu.avif",
+						"/covers/lns/owarimonogatari-chuu.webp",
+						"/covers/lns/owarimonogatari-chuu.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-chuu-0.5x.avif",
+						"/covers/lns/owarimonogatari-chuu-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-shiro",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/nekomonogatari-shiro.avif",
+						"/covers/nekomonogatari-shiro.webp",
+						"/covers/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-shiro-0.5x.avif",
+						"/covers/nekomonogatari-shiro-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/owarimonogatari-jou",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/owarimonogatari-jou.avif",
+						"/covers/owarimonogatari-jou.webp",
+						"/covers/owarimonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/owarimonogatari-jou-0.5x.avif",
+						"/covers/owarimonogatari-jou-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-20",
+		"title": "Bakemonogatari Volume 20",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["20", "nijuu."]
+		],
+		"pictures": [
+			"/covers/manga/20.avif",
+			"/covers/manga/20.webp",
+			"/covers/manga/20.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/20-0.5x.avif",
+			"/covers/manga/20-0.5x.webp",
+			"/covers/manga/20-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-green",
+		"info": {
+			"date": "January 17, 2023",
+			"arcs": [
+				["Tsubasa Cat", "つばさキャット"]
+			],
+			"chapters": [
+				"167",
+				"168",
+				"169",
+				"170",
+				"171",
+				"172",
+				"173",
+				"174",
+				"175"
+			],
+			"description": [
+				"The Final Chapter—\"Tsubasa Cat\"!!",
+				"Despite the \"Cat's\" desperate attempts to erase Araragi, her plans fail, and the situation deteriorates rapidly. Then, out of the chaos, Kiss-shot’s very \"first kin\"—Seishirou Shishirui—suddenly manifests. As the scattered threads of the \"story\" converge, the ultimate truth is finally brought to light! Forced to face a grim reality and backed into a corner, what choice will Araragi Koyomi make?!",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! The truth is a \"story\" that doesn't end with a simple double standard!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/owarimonogatari-chuu",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/owarimonogatari-chuu.avif",
+						"/covers/lns/owarimonogatari-chuu.webp",
+						"/covers/lns/owarimonogatari-chuu.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-chuu-0.5x.avif",
+						"/covers/lns/owarimonogatari-chuu-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/nekomonogatari-shiro",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/nekomonogatari-shiro.avif",
+						"/covers/lns/nekomonogatari-shiro.webp",
+						"/covers/lns/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/owarimonogatari-jou",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/owarimonogatari-jou.avif",
+						"/covers/owarimonogatari-jou.webp",
+						"/covers/owarimonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/owarimonogatari-jou-0.5x.avif",
+						"/covers/owarimonogatari-jou-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-shiro",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/nekomonogatari-shiro.avif",
+						"/covers/nekomonogatari-shiro.webp",
+						"/covers/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-shiro-0.5x.avif",
+						"/covers/nekomonogatari-shiro-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-21",
+		"title": "Bakemonogatari Volume 21",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["21", "nijuuichi."]
+		],
+		"pictures": [
+			"/covers/manga/21.avif",
+			"/covers/manga/21.webp",
+			"/covers/manga/21.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/21-0.5x.avif",
+			"/covers/manga/21-0.5x.webp",
+			"/covers/manga/21-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-white",
+		"info": {
+			"date": "March 16, 2023",
+			"arcs": [
+				["Tsubasa Cat", "つばさキャット"]
+			],
+			"chapters": [
+				"176",
+				"177",
+				"178",
+				"179",
+				"180",
+				"181",
+				"182",
+				"183",
+				"184"
+			],
+			"description": [
+				"The Final Chapter—\"Tsubasa Cat\" reaches its ultimate conclusion!!",
+				"With Shinobu's crisis finally laid to rest, the only remaining problem is Hanekawa Tsubasa herself. However, her buried emotions have manifested as a terrifying new oddity—the Kako—swelling to a truly overwhelming size. No matter how many times Araragi stands up to face her, her raw power is simply too immense...!",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! A \"story\" where the armor of war can never be stripped away for eternity!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nekomonogatari-shiro",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/nekomonogatari-shiro.avif",
+						"/covers/lns/nekomonogatari-shiro.webp",
+						"/covers/lns/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-shiro",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/nekomonogatari-shiro.avif",
+						"/covers/nekomonogatari-shiro.webp",
+						"/covers/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-shiro-0.5x.avif",
+						"/covers/nekomonogatari-shiro-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-22",
+		"title": "Bakemonogatari Volume 22",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["22", "nijuuni."]
+		],
+		"pictures": [
+			"/covers/manga/22.avif",
+			"/covers/manga/22.webp",
+			"/covers/manga/22.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/22-0.5x.avif",
+			"/covers/manga/22-0.5x.webp",
+			"/covers/manga/22-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-lilac",
+		"info": {
+			"date": "May 17, 2023",
+			"arcs": [
+				["Tsubasa Cat", "つばさキャット"],
+				["Koyomi Almanac", "こよみアルマナック"]
+			],
+			"chapters": [
+				"185",
+				"186",
+				"187",
+				"188",
+				"189",
+				"190",
+				"191",
+				"192",
+				"193"
+			],
+			"description": [
+				"Having triumphed over a series of fierce battles, Araragi Koyomi finally reaches his promised moment with Senjougahara Hitagi. Looking up at a sky so utterly overflowing with stars it feels as though they might fall at any second, Araragi watches Hitagi lay bare her entire heart to express her feelings—and he deeply cherishes the profound joy of simply being able to stand by her side.",
+				"The Bakemonogatari manga—is officially complete!!",
+				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! A \"story\" that was never going to end easily!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/onimonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/onimonogatari.avif",
+						"/covers/lns/onimonogatari.webp",
+						"/covers/lns/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/onimonogatari-0.5x.avif",
+						"/covers/lns/onimonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/nisemonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/nisemonogatari-ge.avif",
+						"/covers/lns/nisemonogatari-ge.webp",
+						"/covers/lns/nisemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nisemonogatari-ge-0.5x.avif",
+						"/covers/lns/nisemonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/otorimonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/otorimonogatari.avif",
+						"/covers/lns/otorimonogatari.webp",
+						"/covers/lns/otorimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/otorimonogatari-0.5x.avif",
+						"/covers/lns/otorimonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/lns/owarimonogatari-ge",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/owarimonogatari-ge.avif",
+						"/covers/lns/owarimonogatari-ge.webp",
+						"/covers/lns/owarimonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-ge-0.5x.avif",
+						"/covers/lns/owarimonogatari-ge-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/onimonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/onimonogatari.avif",
+						"/covers/onimonogatari.webp",
+						"/covers/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/onimonogatari-0.5x.avif",
+						"/covers/onimonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/nisemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/nisemonogatari.avif",
+						"/covers/nisemonogatari.webp",
+						"/covers/nisemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/nisemonogatari-0.5x.avif",
+						"/covers/nisemonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/otorimonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/otorimonogatari.avif",
+						"/covers/otorimonogatari.webp",
+						"/covers/otorimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/otorimonogatari-0.5x.avif",
+						"/covers/otorimonogatari-0.5x.webp"
+					]
+				},
+				{
+					"name": "/anime/owarimonogatari-ge",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/owarimonogatari-ge.avif",
+						"/covers/owarimonogatari-ge.webp",
+						"/covers/owarimonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/owarimonogatari-ge-0.5x.avif",
+						"/covers/owarimonogatari-ge-0.5x.webp"
+					]
+				}
+			]
+		}
+	}
+]

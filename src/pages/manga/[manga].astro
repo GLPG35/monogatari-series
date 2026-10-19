@@ -1,0 +1,215 @@
+---
+import type { GetStaticPaths } from "astro"
+import Layout from '../../layouts/Layout.astro'
+import './manga.scss'
+import mangas from '../../utils/manga.json'
+
+export const getStaticPaths = (() => {
+	return mangas.map(({ name }) => ({ params: { manga: name }}))
+}) satisfies GetStaticPaths
+
+const { manga } = Astro.params
+const findLnIndex = mangas.findIndex(x => x.name === manga)
+
+if (findLnIndex === -1) return Astro.redirect('/404')
+
+const { color, pictures, name, title, kanji, info, responsivePosition } = mangas[findLnIndex]
+const prevLn = findLnIndex === 0 ? null : mangas[findLnIndex - 1]
+const nextLn = findLnIndex === mangas.length - 1 ? null : mangas[findLnIndex + 1]
+
+const anim = {
+	old: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)",
+		direction: "reverse"
+	},
+	new: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)"
+	}
+}
+
+const customTransition = {
+	forwards: anim,
+	backwards: anim
+}
+---
+
+<html lang="en" style={`--bg-color: var(${color}); --position: ${responsivePosition}`}>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - {title}</title>
+		<meta name="description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={`〈物語〉Monogatari Series - ${title}`} />
+		<meta property="og:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content={`https://monogatari-series.vercel.app/banners/manga/${name}.jpg`} />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content={`〈物語〉Monogatari Series - ${title}`} />
+		<meta property="twitter:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="twitter:image" content={`https://monogatari-series.vercel.app/banners/manga/${name}.jpg`} />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="summary">
+					<div class="cover">
+						<a href={pictures[2]} target="_blank">Full resolution</a>
+						<picture transition:name={`manga-cover-${manga}`} transition:animate={customTransition}>
+							<source srcset={`/banners/manga/${name}.avif`} type="image/avif" media="(width < 1130px)" />
+							<source srcset={`/banners/manga/${name}.webp`} type="image/webp" media="(width < 1130px)" />
+							<source srcset={`/banners/manga/${name}.jpg`} type="image/jpeg" media="(width < 1130px)" />
+							{pictures.map((path, i) => {
+								const isLast = pictures.length === i + 1
+								const type = path.split('.').pop()
+
+								if (isLast) return <img src={path} alt="" />
+								
+								return <source srcset={path} type={`image/${type}`} />
+							})}
+						</picture>
+					</div>
+					<div class="info">
+						<div class="subtitle">
+							{kanji.map(x => x[0]).join('')}
+						</div>
+						<div class="title">
+							<h3>{title}</h3>
+						</div>
+						<div class="date">
+							{info.date}
+						</div>
+						<div class="relations">
+							<h4>Relations</h4>
+							<div class="covers">
+								{prevLn &&
+									<a class="relation" href={`/manga/${prevLn.name}`}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<img src="/99.png" alt="" />
+													</picture>
+													<picture class="duplicate">
+														<img src="/99.png" alt="" />
+													</picture>
+												</div>
+												<span>Previous</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(prevLn.picturesHalf ? prevLn.picturesHalf : prevLn.pictures).map((path, i) => {
+													const isLast = (prevLn.picturesHalf ? prevLn.picturesHalf : prevLn.pictures).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="" />
+													
+													return <source srcset={path} type={`image/${type}`} />
+												})}
+											</picture>
+										</div>		
+									</a>
+								}
+								{nextLn &&
+									<a class="relation" href={`/manga/${nextLn.name}`}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<img src="/85.png" alt="" />
+													</picture>
+													<picture class="duplicate">
+														<img src="/85.png" alt="" />
+													</picture>
+												</div>
+												<span>Next</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(nextLn.picturesHalf ? nextLn.picturesHalf : nextLn.pictures).map((path, i) => {
+													const isLast = (nextLn.picturesHalf ? nextLn.picturesHalf : nextLn.pictures).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="" />
+													
+													return <source srcset={path} type={`image/${type}`} />
+												})}
+											</picture>
+										</div>		
+									</a>
+								}
+								{info.alternatives && info.alternatives.map(alternative => (
+									<a class="relation" href={alternative.name}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<source srcset="/12.avif" type="image/avif" />
+														<source srcset="/12.webp" type="image/webp" />
+														<img src="/12.png" alt="" />
+													</picture>
+													<picture class="duplicate">
+														<source srcset="/12.avif" type="image/avif" />
+														<source srcset="/12.webp" type="image/webp" />
+														<img src="/12.png" alt="" />
+													</picture>
+												</div>
+												<span>{alternative.text}</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(alternative.picturesHalf ? alternative.picturesHalf : alternative.pictures).map((path, i) => {
+													const isLast = (alternative.picturesHalf ? alternative.picturesHalf : alternative.pictures).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="" />
+													
+													return <source srcset={path} type={`image/${type}`} />
+												})}
+											</picture>
+										</div>		
+									</a>
+								))}
+							</div>
+						</div>
+						{info.chapters.length > 0 &&
+							<div class="section chapters">
+								<h4>Chapters</h4>
+								<ul>
+									{info.chapters.map(chapter => <li>{chapter}</li>)}
+								</ul>
+							</div>
+						}
+						{info.arcs.length > 0 &&
+							<div class="section">
+								<h4>Arcs</h4>
+								<ul>
+									{info.arcs.map(arc => <li>{arc[0]}<span>{arc[1]}</span></li>)}
+								</ul>
+							</div>
+						}
+						<div class="section description">
+							<h4>Synopsis</h4>
+							{info.description.map(text => (<p>{text}</p>))}
+						</div>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

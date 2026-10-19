@@ -1,0 +1,105 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import manga from '../../utils/manga.json'
+import './styles.scss'
+
+const anim = {
+	old: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)",
+		direction: "reverse"
+	},
+	new: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)"
+	}
+}
+
+const customTransition = {
+	forwards: anim,
+	backwards: anim
+}
+---
+
+<html lang="en" style="--bg-color: var(--bg-orange)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - Manga</title>
+		<meta name="description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series - Manga" />
+		<meta property="og:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatari-series.vercel.app/banners/lns-banner.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series - Manga" />
+		<meta property="twitter:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="twitter:image" content="https://monogatari-series.vercel.app/banners/lns-banner.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="info">
+					<div class="subsection">
+						<h2>Manga</h2>
+						<p>Bakemonogatari, the manga adaptation of the Monogatari Series, was released in 2018 in Japan featuring illustrations by <em>Oh! great</em> (Ogure Ito). Despite its title, the manga covers multiple arcs from the light novels, though it alters both the order and the pacing.</p>
+						<p>This adaptation was designed to offer a unique experience separate from the original work, which is why it's highly recommended to read it after finishing the final season of the <a href="/lns">light novels</a>.</p>
+						<p>Notably, the manga brings several of the short stories to life for the first time. Additionally, NisiOisiN wrote exclusive short stories for the Japanese limited editions, which were later translated by fans and are available in the <a href="/downloads/stories">short story downloads section</a>.</p>
+					</div>
+					<div class="titles">
+						{manga.map(({ name, kanji, pictures }, i) => (
+							<div class="book">
+								<div class="number">
+									<div class="numberWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
+											</picture>
+											<div class="duplicate" style={`--current-img: image-set(url('${`/${i % 2 == 0 ? 1 : 2}.avif`}') type('image/avif'), url('${`/${i % 2 == 0 ? 1 : 2}.webp`}') type('image/webp'), url('${`/${i % 2 == 0 ? 1 : 2}.png`}') type('image/png'));`}>
+											</div>
+										</div>
+										<span>{i + 1}</span>
+									</div>
+								</div>
+								<a class="cover" href={`/manga/${name}`}>
+									<picture transition:name={`ln-cover-${name}`} transition:animate={customTransition}>
+										{pictures.map((path, i) => {
+											const isLast = pictures.length === i + 1
+											const type = path.split('.').pop()
+	
+											if (isLast) return <img src={path} alt="" loading="lazy" />
+											
+											return <source srcset={path} type={`image/${type}`} />
+										})}
+									</picture>
+								</a>
+								<div class="name">
+									<ruby set:html={(kanji.filter(([kanji]) => !kanji.includes('(')).reduce((prev, [kanji, romaji]) => [...prev, `${kanji}${romaji ? `<rt>${romaji}</rt>` : ''}`], []).join(''))}>
+									</ruby>
+									{kanji.some(([kanji]) => kanji.includes('(')) &&
+										<ruby class="small">
+											{kanji.filter(([kanji]) => kanji.includes('('))[0][0]}<rt>{kanji.filter(([kanji]) => kanji.includes('('))[0][1]}</rt>
+										</ruby>
+									}
+								</div>
+							</div>
+						))}
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>
