@@ -75,7 +75,10 @@ const customTransition = {
 									</div>
 								</div>
 								<a class="cover" href={`/manga/${name}`}>
-									<picture transition:name={`ln-cover-${name}`} transition:animate={customTransition}>
+									<picture transition:name={`manga-cover-${name}`} transition:animate={customTransition}>
+										<source srcset={`/banners/manga/${name}.avif`} type='image/avif' media="(width < 950px)" />
+										<source srcset={`/banners/manga/${name}.webp`} type='image/webp' media="(width < 950px)" />
+										<source srcset={`/banners/manga/${name}.jpg`} type='image/jpg' media="(width < 950px)" />
 										{pictures.map((path, i) => {
 											const isLast = pictures.length === i + 1
 											const type = path.split('.').pop()

@@ -117,6 +117,9 @@ const customTransition = {
 								</div>
 								<a class="cover" href={`/anime/${name}`}>
 									<picture transition:name={`anime-cover-${name}`} transition:animate={customTransition}>
+										<source srcset={`/banners/${name}.avif`} type='image/avif' media="(width < 950px)" />
+										<source srcset={`/banners/${name}.webp`} type='image/webp' media="(width < 950px)" />
+										<source srcset={`/banners/${name}.jpg`} type='image/jpg' media="(width < 950px)" />
 										{pictures.map((path, i) => {
 											const isLast = pictures.length === i + 1
 											const type = path.split('.').pop()

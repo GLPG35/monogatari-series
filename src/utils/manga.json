@@ -13,6 +13,11 @@
 			"/covers/manga/01.webp",
 			"/covers/manga/01.jpg"
 		],
+		"picturesAlt": [
+			"/covers/manga/01-alt.avif",
+			"/covers/manga/01-alt.webp",
+			"/covers/manga/01-alt.jpg"
+		],
 		"picturesHalf": [
 			"/covers/manga/01-0.5x.avif",
 			"/covers/manga/01-0.5x.webp",
@@ -65,6 +70,11 @@
 			"/covers/manga/02.avif",
 			"/covers/manga/02.webp",
 			"/covers/manga/02.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/02-alt.avif",
+			"/covers/manga/02-alt.webp",
+			"/covers/manga/02-alt.jpg"
 		],
 		"picturesHalf": [
 			"/covers/manga/02-0.5x.avif",
@@ -126,6 +136,11 @@
 			"/covers/manga/03.avif",
 			"/covers/manga/03.webp",
 			"/covers/manga/03.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/03-alt.avif",
+			"/covers/manga/03-alt.webp",
+			"/covers/manga/03-alt.jpg"
 		],
 		"picturesHalf": [
 			"/covers/manga/03-0.5x.avif",
@@ -199,6 +214,11 @@
 			"/covers/manga/04.webp",
 			"/covers/manga/04.jpg"
 		],
+		"picturesAlt": [
+			"/covers/manga/04-alt.avif",
+			"/covers/manga/04-alt.webp",
+			"/covers/manga/04-alt.jpg"
+		],
 		"picturesHalf": [
 			"/covers/manga/04-0.5x.avif",
 			"/covers/manga/04-0.5x.webp",
@@ -271,6 +291,11 @@
 			"/covers/manga/05.webp",
 			"/covers/manga/05.jpg"
 		],
+		"picturesAlt": [
+			"/covers/manga/05-alt.avif",
+			"/covers/manga/05-alt.webp",
+			"/covers/manga/05-alt.jpg"
+		],
 		"picturesHalf": [
 			"/covers/manga/05-0.5x.avif",
 			"/covers/manga/05-0.5x.webp",
@@ -342,6 +367,11 @@
 			"/covers/manga/06.avif",
 			"/covers/manga/06.webp",
 			"/covers/manga/06.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/06-alt.avif",
+			"/covers/manga/06-alt.webp",
+			"/covers/manga/06-alt.jpg"
 		],
 		"picturesHalf": [
 			"/covers/manga/06-0.5x.avif",
@@ -429,6 +459,11 @@
 			"/covers/manga/07.webp",
 			"/covers/manga/07.jpg"
 		],
+		"picturesAlt": [
+			"/covers/manga/07-alt.avif",
+			"/covers/manga/07-alt.webp",
+			"/covers/manga/07-alt.jpg"
+		],
 		"picturesHalf": [
 			"/covers/manga/07-0.5x.avif",
 			"/covers/manga/07-0.5x.webp",
@@ -499,6 +534,11 @@
 			"/covers/manga/08.avif",
 			"/covers/manga/08.webp",
 			"/covers/manga/08.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/08-alt.avif",
+			"/covers/manga/08-alt.webp",
+			"/covers/manga/08-alt.jpg"
 		],
 		"picturesHalf": [
 			"/covers/manga/08-0.5x.avif",
@@ -625,6 +665,11 @@
 			"/covers/manga/09.webp",
 			"/covers/manga/09.jpg"
 		],
+		"picturesAlt": [
+			"/covers/manga/09-alt.avif",
+			"/covers/manga/09-alt.webp",
+			"/covers/manga/09-alt.jpg"
+		],
 		"picturesHalf": [
 			"/covers/manga/09-0.5x.avif",
 			"/covers/manga/09-0.5x.webp",
@@ -721,6 +766,11 @@
 			"/covers/manga/10.avif",
 			"/covers/manga/10.webp",
 			"/covers/manga/10.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/10-alt.avif",
+			"/covers/manga/10-alt.webp",
+			"/covers/manga/10-alt.jpg"
 		],
 		"picturesHalf": [
 			"/covers/manga/10-0.5x.avif",
@@ -819,6 +869,11 @@
 			"/covers/manga/11.webp",
 			"/covers/manga/11.jpg"
 		],
+		"picturesAlt": [
+			"/covers/manga/11-alt.avif",
+			"/covers/manga/11-alt.webp",
+			"/covers/manga/11-alt.jpg"
+		],
 		"picturesHalf": [
 			"/covers/manga/11-0.5x.avif",
 			"/covers/manga/11-0.5x.webp",
@@ -915,6 +970,11 @@
 			"/covers/manga/12.avif",
 			"/covers/manga/12.webp",
 			"/covers/manga/12.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/12-alt.avif",
+			"/covers/manga/12-alt.webp",
+			"/covers/manga/12-alt.jpg"
 		],
 		"picturesHalf": [
 			"/covers/manga/12-0.5x.avif",
@@ -1013,6 +1073,11 @@
 			"/covers/manga/13.webp",
 			"/covers/manga/13.jpg"
 		],
+		"picturesAlt": [
+			"/covers/manga/13-alt.avif",
+			"/covers/manga/13-alt.webp",
+			"/covers/manga/13-alt.jpg"
+		],
 		"picturesHalf": [
 			"/covers/manga/13-0.5x.avif",
 			"/covers/manga/13-0.5x.webp",
@@ -1110,6 +1175,11 @@
 			"/covers/manga/14.avif",
 			"/covers/manga/14.webp",
 			"/covers/manga/14.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/14-alt.avif",
+			"/covers/manga/14-alt.webp",
+			"/covers/manga/14-alt.jpg"
 		],
 		"picturesHalf": [
 			"/covers/manga/14-0.5x.avif",
@@ -1236,6 +1306,11 @@
 			"/covers/manga/15.webp",
 			"/covers/manga/15.jpg"
 		],
+		"picturesAlt": [
+			"/covers/manga/15-alt.avif",
+			"/covers/manga/15-alt.webp",
+			"/covers/manga/15-alt.jpg"
+		],
 		"picturesHalf": [
 			"/covers/manga/15-0.5x.avif",
 			"/covers/manga/15-0.5x.webp",
@@ -1361,6 +1436,11 @@
 			"/covers/manga/16.webp",
 			"/covers/manga/16.jpg"
 		],
+		"picturesAlt": [
+			"/covers/manga/16-alt.avif",
+			"/covers/manga/16-alt.webp",
+			"/covers/manga/16-alt.jpg"
+		],
 		"picturesHalf": [
 			"/covers/manga/16-0.5x.avif",
 			"/covers/manga/16-0.5x.webp",
@@ -1458,6 +1538,11 @@
 			"/covers/manga/17.avif",
 			"/covers/manga/17.webp",
 			"/covers/manga/17.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/17-alt.avif",
+			"/covers/manga/17-alt.webp",
+			"/covers/manga/17-alt.jpg"
 		],
 		"picturesHalf": [
 			"/covers/manga/17-0.5x.avif",
@@ -1557,6 +1642,11 @@
 			"/covers/manga/18.webp",
 			"/covers/manga/18.jpg"
 		],
+		"picturesAlt": [
+			"/covers/manga/18-alt.avif",
+			"/covers/manga/18-alt.webp",
+			"/covers/manga/18-alt.jpg"
+		],
 		"picturesHalf": [
 			"/covers/manga/18-0.5x.avif",
 			"/covers/manga/18-0.5x.webp",
@@ -1628,6 +1718,11 @@
 			"/covers/manga/19.avif",
 			"/covers/manga/19.webp",
 			"/covers/manga/19.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/19-alt.avif",
+			"/covers/manga/19-alt.webp",
+			"/covers/manga/19-alt.jpg"
 		],
 		"picturesHalf": [
 			"/covers/manga/19-0.5x.avif",
@@ -1753,6 +1848,11 @@
 			"/covers/manga/20.webp",
 			"/covers/manga/20.jpg"
 		],
+		"picturesAlt": [
+			"/covers/manga/20-alt.avif",
+			"/covers/manga/20-alt.webp",
+			"/covers/manga/20-alt.jpg"
+		],
 		"picturesHalf": [
 			"/covers/manga/20-0.5x.avif",
 			"/covers/manga/20-0.5x.webp",
@@ -1851,6 +1951,11 @@
 			"/covers/manga/21.webp",
 			"/covers/manga/21.jpg"
 		],
+		"picturesAlt": [
+			"/covers/manga/21-alt.avif",
+			"/covers/manga/21-alt.webp",
+			"/covers/manga/21-alt.jpg"
+		],
 		"picturesHalf": [
 			"/covers/manga/21-0.5x.avif",
 			"/covers/manga/21-0.5x.webp",
@@ -1948,6 +2053,11 @@
 			"/covers/manga/22.avif",
 			"/covers/manga/22.webp",
 			"/covers/manga/22.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/22-alt.avif",
+			"/covers/manga/22-alt.webp",
+			"/covers/manga/22-alt.jpg"
 		],
 		"picturesHalf": [
 			"/covers/manga/22-0.5x.avif",

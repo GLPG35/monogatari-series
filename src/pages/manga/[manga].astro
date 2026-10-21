@@ -1,5 +1,6 @@
 ---
 import type { GetStaticPaths } from "astro"
+import CoverWithAlt from '../../components/CoverWithAlt'
 import Layout from '../../layouts/Layout.astro'
 import './manga.scss'
 import mangas from '../../utils/manga.json'
@@ -13,7 +14,7 @@ const findLnIndex = mangas.findIndex(x => x.name === manga)
 
 if (findLnIndex === -1) return Astro.redirect('/404')
 
-const { color, pictures, name, title, kanji, info, responsivePosition } = mangas[findLnIndex]
+const { color, pictures, picturesAlt, name, title, kanji, info, responsivePosition } = mangas[findLnIndex]
 const prevLn = findLnIndex === 0 ? null : mangas[findLnIndex - 1]
 const nextLn = findLnIndex === mangas.length - 1 ? null : mangas[findLnIndex + 1]
 
@@ -65,22 +66,7 @@ const customTransition = {
 		<Layout>
 			<main>
 				<div class="summary">
-					<div class="cover">
-						<a href={pictures[2]} target="_blank">Full resolution</a>
-						<picture transition:name={`manga-cover-${manga}`} transition:animate={customTransition}>
-							<source srcset={`/banners/manga/${name}.avif`} type="image/avif" media="(width < 1130px)" />
-							<source srcset={`/banners/manga/${name}.webp`} type="image/webp" media="(width < 1130px)" />
-							<source srcset={`/banners/manga/${name}.jpg`} type="image/jpeg" media="(width < 1130px)" />
-							{pictures.map((path, i) => {
-								const isLast = pictures.length === i + 1
-								const type = path.split('.').pop()
-
-								if (isLast) return <img src={path} alt="" />
-								
-								return <source srcset={path} type={`image/${type}`} />
-							})}
-						</picture>
-					</div>
+					<CoverWithAlt {...{pictures, picturesAlt, name, manga}} client:idle transition:name={`manga-cover-${manga}`} transition:animate={customTransition} />
 					<div class="info">
 						<div class="subtitle">
 							{kanji.map(x => x[0]).join('')}

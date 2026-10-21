@@ -65,6 +65,9 @@ const customTransition = {
 						<div class="book">
 							<a class="cover" href={`/stories/${name}`}>
 								<picture transition:name={`story-cover-${name}`} transition:animate={customTransition}>
+									<source srcset={`/banners/stories/${name}.avif`} type='image/avif' media="(width < 950px)" />
+									<source srcset={`/banners/stories/${name}.webp`} type='image/webp' media="(width < 950px)" />
+									<source srcset={`/banners/stories/${name}.jpg`} type='image/jpg' media="(width < 950px)" />
 									{pictures.map((path, i) => {
 										const isLast = pictures.length === i + 1
 										const type = path.split('.').pop()

@@ -76,6 +76,9 @@ const customTransition = {
 								</div>
 								<a class="cover" href={`/lns/${name}`}>
 									<picture transition:name={`ln-cover-${name}`} transition:animate={customTransition}>
+										<source srcset={`/banners/lns/${name}.avif`} type='image/avif' media="(width < 950px)" />
+										<source srcset={`/banners/lns/${name}.webp`} type='image/webp' media="(width < 950px)" />
+										<source srcset={`/banners/lns/${name}.jpg`} type='image/jpg' media="(width < 950px)" />
 										{pictures.map((path, i) => {
 											const isLast = pictures.length === i + 1
 											const type = path.split('.').pop()
@@ -122,6 +125,9 @@ const customTransition = {
 								</div>
 								<a class="cover" href={`/lns/en/${name}`}>
 									<picture transition:name={`ln-en-cover-${name}`} transition:animate={customTransition}>
+										<source srcset={`/banners/lns/en/${name}.avif`} type='image/avif' media="(width < 950px)" />
+										<source srcset={`/banners/lns/en/${name}.webp`} type='image/webp' media="(width < 950px)" />
+										<source srcset={`/banners/lns/en/${name}.jpg`} type='image/jpg' media="(width < 950px)" />
 										{pictures.map((path, i) => {
 											const isLast = pictures.length === i + 1
 											const type = path.split('.').pop()
