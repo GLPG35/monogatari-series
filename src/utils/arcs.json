@@ -8,6 +8,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/bakemonogatari.avif",
 			"/covers/bakemonogatari.webp",
@@ -376,6 +377,7 @@
 			["語", "gatari."],
 			["I"]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/kizumonogatari-I.avif",
 			"/covers/kizumonogatari-I.webp",
@@ -503,6 +505,7 @@
 			["語", "gatari."],
 			["II"]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/kizumonogatari-II.avif",
 			"/covers/kizumonogatari-II.webp",
@@ -606,6 +609,7 @@
 			["語", "gatari."],
 			["III"]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/kizumonogatari-III.avif",
 			"/covers/kizumonogatari-III.webp",
@@ -778,6 +782,7 @@
 			["語", "gatari."],
 			["こよみヴァンプ"]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/kizumonogatari-koyomi-vamp.avif",
 			"/covers/kizumonogatari-koyomi-vamp.webp",
@@ -902,6 +907,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/nisemonogatari.avif",
 			"/covers/nisemonogatari.webp",
@@ -1069,6 +1075,7 @@
 			["語", "gatari."],
 			["(黒)", "kuro."]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/nekomonogatari-kuro.avif",
 			"/covers/nekomonogatari-kuro.webp",
@@ -1151,6 +1158,7 @@
 			["語", "gatari."],
 			["(白)", "shiro."]
 		],
+		"season": "Second Season",
 		"pictures": [
 			"/covers/nekomonogatari-shiro.avif",
 			"/covers/nekomonogatari-shiro.webp",
@@ -1280,6 +1288,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Second Season",
 		"pictures": [
 			"/covers/kabukimonogatari.avif",
 			"/covers/kabukimonogatari.webp",
@@ -1384,6 +1393,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Second Season",
 		"pictures": [
 			"/covers/hanamonogatari.avif",
 			"/covers/hanamonogatari.webp",
@@ -1505,6 +1515,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Second Season",
 		"pictures": [
 			"/covers/otorimonogatari.avif",
 			"/covers/otorimonogatari.webp",
@@ -1612,6 +1623,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Second Season",
 		"pictures": [
 			"/covers/onimonogatari.avif",
 			"/covers/onimonogatari.webp",
@@ -1716,6 +1728,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Second Season",
 		"pictures": [
 			"/covers/koimonogatari.avif",
 			"/covers/koimonogatari.webp",
@@ -1846,6 +1859,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Final Season",
 		"pictures": [
 			"/covers/tsukimonogatari.avif",
 			"/covers/tsukimonogatari.webp",
@@ -1958,6 +1972,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Final Season",
 		"pictures": [
 			"/covers/koyomimonogatari.avif",
 			"/covers/koyomimonogatari.webp",
@@ -2250,6 +2265,7 @@
 			["語", "gatari."],
 			["(上)", "jou."]
 		],
+		"season": "Final Season",
 		"pictures": [
 			"/covers/owarimonogatari-jou.avif",
 			"/covers/owarimonogatari-jou.webp",
@@ -2403,6 +2419,7 @@
 			["語", "gatari."],
 			["(下)", "ge."]
 		],
+		"season": "Final Season",
 		"pictures": [
 			"/covers/owarimonogatari-ge.avif",
 			"/covers/owarimonogatari-ge.webp",
@@ -2510,6 +2527,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Final Season",
 		"pictures": [
 			"/covers/zoku-owarimonogatari.avif",
 			"/covers/zoku-owarimonogatari.webp",
@@ -2794,6 +2812,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Off & Monster Season",
 		"pictures": [
 			"/covers/orokamonogatari.avif",
 			"/covers/orokamonogatari.webp",
@@ -2858,6 +2877,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Off & Monster Season",
 		"pictures": [
 			"/covers/nademonogatari.avif",
 			"/covers/nademonogatari.webp",
@@ -3012,6 +3032,7 @@
 			["語", "gatari."],
 			["EX"]
 		],
+		"season": "Off & Monster Season",
 		"pictures": [
 			"/covers/wazamonogatari-ova.avif",
 			"/covers/wazamonogatari-ova.webp",
@@ -3028,16 +3049,6 @@
 			"date": "August 17, 2024",
 			"arcs": [
 				"A Cruel Fairy Tale: The Beautiful Princess"
-			],
-			"gallery": [
-				[
-					[
-						"/covers/wazamonogatari-ova.avif",
-						"/covers/wazamonogatari-ova.webp",
-						"/covers/wazamonogatari-ova.jpg"
-					],
-					"visible"
-				]
 			],
 			"description": [
 				"Once upon a time, there was a true story that happened about 600 years ago. It's a story of a very beautiful girl who lived in a country that no longer exists."
@@ -3068,6 +3079,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Off & Monster Season",
 		"pictures": [
 			"/covers/wazamonogatari.avif",
 			"/covers/wazamonogatari.webp",
@@ -3127,6 +3139,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Off & Monster Season",
 		"pictures": [
 			"/covers/shinobumonogatari.avif",
 			"/covers/shinobumonogatari.webp",

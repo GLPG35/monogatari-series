@@ -58,7 +58,7 @@ const customTransition = {
 						<p>The novels are ordered by release date (the intended order). If you want to read them, please check the <a href="/downloads/lns">light novel downloads page</a>.</p>
 					</div>
 					<div class="titles">
-						{lns.map(({ name, kanji, pictures }, i) => (
+						{lns.map(({ name, kanji, season, pictures }, i) => (
 							<div class="book">
 								<div class="number">
 									<div class="numberWrapper">
@@ -72,6 +72,20 @@ const customTransition = {
 											</div>
 										</div>
 										<span>{i + 1}</span>
+									</div>
+								</div>
+								<div class="season">
+									<div class="seasonWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/27.avif`} type="image/avif" />
+												<source srcset={`/27.webp`} type="image/webp" />
+												<img src={`/27.png`} alt="" loading="lazy" />
+											</picture>
+											<div class="duplicate" style={`--current-img: image-set(url('/27.avif') type('image/avif'), url('/27.webp') type('image/webp'), url('/27.png') type('image/png'));`}>
+											</div>
+										</div>
+										<span>{season}</span>
 									</div>
 								</div>
 								<a class="cover" href={`/lns/${name}`}>
@@ -107,7 +121,7 @@ const customTransition = {
 						<p>In this case, most novels are ordered by release date, except for Kizumonogatari, because Vertical released it before Bakemonogatari. If you want to read them, please check the <a href="/downloads/lns">light novel downloads page</a>.</p>
 					</div>
 					<div class="titles">
-						{lnsEn.map(({ name, kanji, pictures }, i) => (
+						{lnsEn.map(({ name, kanji, season, pictures }, i) => (
 							<div class="book">
 								<div class="number">
 									<div class="numberWrapper">
@@ -121,6 +135,20 @@ const customTransition = {
 											</div>
 										</div>
 										<span>{i + 1}</span>
+									</div>
+								</div>
+								<div class="season">
+									<div class="seasonWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/27.avif`} type="image/avif" />
+												<source srcset={`/27.webp`} type="image/webp" />
+												<img src={`/27.png`} alt="" loading="lazy" />
+											</picture>
+											<div class="duplicate" style={`--current-img: image-set(url('/27.avif') type('image/avif'), url('/27.webp') type('image/webp'), url('/27.png') type('image/png'));`}>
+											</div>
+										</div>
+										<span>{season}</span>
 									</div>
 								</div>
 								<a class="cover" href={`/lns/en/${name}`}>

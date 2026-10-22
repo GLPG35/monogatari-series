@@ -205,7 +205,7 @@ const customTransition = {
 							<h4>Synopsis</h4>
 							{info.description.map(text => (<p>{text}</p>))}
 						</div>
-						<GalleryContainer client:load gallery={gallery} />
+						{gallery && <GalleryContainer client:load gallery={gallery} />}
 					</div>
 				</div>
 			</main>

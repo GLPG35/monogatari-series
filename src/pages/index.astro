@@ -99,7 +99,7 @@ const customTransition = {
 						<p>In this case, the guide follows the <em>light novel release order</em>, as it preserves both the creator's narrative progression and Studio SHAFT's <em>intended broadcast order</em>.</p>
 					</div>
 					<div class="titles">
-						{arcs.filter(x => !x.hidden).map(({ name, text, kanji, pictures }, i) => (
+						{arcs.filter(x => !x.hidden).map(({ name, text, kanji, season, pictures }, i) => (
 							<div class="section">
 								<div class="number">
 									<div class="numberWrapper">
@@ -113,6 +113,20 @@ const customTransition = {
 											</div>
 										</div>
 										<span>{i + 1}</span>
+									</div>
+								</div>
+								<div class="season">
+									<div class="seasonWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/27.avif`} type="image/avif" />
+												<source srcset={`/27.webp`} type="image/webp" />
+												<img src={`/27.png`} alt="" loading="lazy" />
+											</picture>
+											<div class="duplicate" style={`--current-img: image-set(url('/27.avif') type('image/avif'), url('/27.webp') type('image/webp'), url('/27.png') type('image/png'));`}>
+											</div>
+										</div>
+										<span>{season}</span>
 									</div>
 								</div>
 								<a class="cover" href={`/anime/${name}`}>

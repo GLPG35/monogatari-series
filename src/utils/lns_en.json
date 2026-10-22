@@ -8,6 +8,7 @@
 			["語", "gatari."],
 			["(上)", "jou."]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/lns/en/bakemonogatari-jou.avif",
 			"/covers/lns/en/bakemonogatari-jou.webp",
@@ -55,6 +56,7 @@
 			["語", "gatari."],
 			["(中)", "chuu."]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/lns/en/bakemonogatari-chuu.avif",
 			"/covers/lns/en/bakemonogatari-chuu.webp",
@@ -115,6 +117,7 @@
 			["語", "gatari."],
 			["(下)", "ge."]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/lns/en/bakemonogatari-ge.avif",
 			"/covers/lns/en/bakemonogatari-ge.webp",
@@ -160,6 +163,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/lns/en/kizumonogatari.avif",
 			"/covers/lns/en/kizumonogatari.webp",
@@ -206,6 +210,7 @@
 			["語", "gatari."],
 			["(上)", "jou."]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/lns/en/nisemonogatari-jou.avif",
 			"/covers/lns/en/nisemonogatari-jou.webp",
@@ -252,6 +257,7 @@
 			["語", "gatari."],
 			["(下)", "ge."]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/lns/en/nisemonogatari-ge.avif",
 			"/covers/lns/en/nisemonogatari-ge.webp",
@@ -298,6 +304,7 @@
 			["語", "gatari."],
 			["(黒)", "kuro."]
 		],
+		"season": "First Season",
 		"pictures": [
 			"/covers/lns/en/nekomonogatari-kuro.avif",
 			"/covers/lns/en/nekomonogatari-kuro.webp",
@@ -344,6 +351,7 @@
 			["語", "gatari."],
 			["(白)", "shiro."]
 		],
+		"season": "Second Season",
 		"pictures": [
 			"/covers/lns/en/nekomonogatari-shiro.avif",
 			"/covers/lns/en/nekomonogatari-shiro.webp",
@@ -389,6 +397,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Second Season",
 		"pictures": [
 			"/covers/lns/en/kabukimonogatari.avif",
 			"/covers/lns/en/kabukimonogatari.webp",
@@ -434,6 +443,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Second Season",
 		"pictures": [
 			"/covers/lns/en/hanamonogatari.avif",
 			"/covers/lns/en/hanamonogatari.webp",
@@ -479,6 +489,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Second Season",
 		"pictures": [
 			"/covers/lns/en/otorimonogatari.avif",
 			"/covers/lns/en/otorimonogatari.webp",
@@ -524,6 +535,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Second Season",
 		"pictures": [
 			"/covers/lns/en/onimonogatari.avif",
 			"/covers/lns/en/onimonogatari.webp",
@@ -569,6 +581,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Second Season",
 		"pictures": [
 			"/covers/lns/en/koimonogatari.avif",
 			"/covers/lns/en/koimonogatari.webp",
@@ -614,6 +627,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Final Season",
 		"pictures": [
 			"/covers/lns/en/tsukimonogatari.avif",
 			"/covers/lns/en/tsukimonogatari.webp",
@@ -660,6 +674,7 @@
 			["語", "gatari."],
 			["(上​)", "jou."]
 		],
+		"season": "Final Season",
 		"pictures": [
 			"/covers/lns/en/koyomimonogatari-jou.avif",
 			"/covers/lns/en/koyomimonogatari-jou.webp",
@@ -711,6 +726,7 @@
 			["語", "gatari."],
 			["(下​)", "ge."]
 		],
+		"season": "Final Season",
 		"pictures": [
 			"/covers/lns/en/koyomimonogatari-ge.avif",
 			"/covers/lns/en/koyomimonogatari-ge.webp",
@@ -762,6 +778,7 @@
 			["語", "gatari."],
 			["(上)", "jou."]
 		],
+		"season": "Final Season",
 		"pictures": [
 			"/covers/lns/en/owarimonogatari-jou.avif",
 			"/covers/lns/en/owarimonogatari-jou.webp",
@@ -808,8 +825,9 @@
 			["終", "owari."],
 			["物", "mono."],
 			["語", "gatari."],
-			["(中​)", "chuu."]
+			["(中)", "chuu."]
 		],
+		"season": "Final Season",
 		"pictures": [
 			"/covers/lns/en/owarimonogatari-chuu.avif",
 			"/covers/lns/en/owarimonogatari-chuu.webp",
@@ -856,6 +874,7 @@
 			["語", "gatari."],
 			["(下)", "ge."]
 		],
+		"season": "Final Season",
 		"pictures": [
 			"/covers/lns/en/owarimonogatari-ge.avif",
 			"/covers/lns/en/owarimonogatari-ge.webp",
@@ -904,6 +923,7 @@
 			["物", "mono."],
 			["語", "gatari."]
 		],
+		"season": "Final Season",
 		"pictures": [
 			"/covers/lns/en/zoku-owarimonogatari.avif",
 			"/covers/lns/en/zoku-owarimonogatari.webp",

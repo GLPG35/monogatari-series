@@ -245,6 +245,53 @@ main {
 					}
 				}
 
+				.season {
+					position: absolute;
+					width: 90%;
+					height: auto;
+					top: 0;
+					z-index: 4;
+					translate: 0 -40%;
+	
+					.seasonWrapper {
+						position: relative;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						overflow: hidden;
+	
+						img {
+							width: 100%;
+							height: 100%;
+							object-fit: contain;
+							display: block;
+							mix-blend-mode: multiply;
+						}
+		
+						.duplicate {
+							position: absolute;
+							z-index: -1;
+							background-color: var(--bg-color);
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 100%;
+							-webkit-mask: var(--current-img) no-repeat center / contain;
+							mask: var(--current-img) no-repeat center / contain;
+							filter: brightness(150%) saturate(70%);
+						}
+	
+						span {
+							position: absolute;
+							z-index: 2;
+							color: black;
+							font-weight: bold;
+							font-size: 1.2em;
+							translate: 0 -2px;
+						}
+					}
+				}
+
 				.cover {
 					width: 100%;
 					height: auto;
