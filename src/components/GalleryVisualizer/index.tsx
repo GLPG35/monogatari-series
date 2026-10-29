@@ -49,7 +49,7 @@ const GalleryVisualizer = ({ viewSS, setViewSS, screenshots }: Props) => {
 										return <source srcSet={path} type={`image/${type}`} />
 									})}
 								</picture>
-								<a href={pictures[2]} target='_blank' onClick={e => e.stopPropagation()}>View original</a>
+								<a href={pictures[2]} target='_blank' onClick={e => e.stopPropagation()}>Full resolution</a>
 							</div>
 						</div>
 					))}

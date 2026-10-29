@@ -11,7 +11,7 @@ const CoverWithAlt = ({ pictures, picturesAlt, manga, name }: Props) => {
 	const [alt, setAlt] = useState(false)
 	
 	return (
-		<div className="cover">
+		<div className="cover withAlt">
 			<p>Full resolution (<a href={pictures[2]} target="_blank">Vertical</a> / <a href={`/banners/manga/${manga}.jpg`} target="_blank">Horizontal</a> / <a href={picturesAlt[2]} target="_blank">Original</a>)</p>
 			<p>{!alt ? <>Full resolution (<a href={pictures[2]} target="_blank">Vertical</a> / <a href={`/banners/manga/${manga}.jpg`} target="_blank">Horizontal</a>)</> : <><a href={picturesAlt[2]} target="_blank">Full resolution</a></>}</p>
 			<p><a onClick={() => setAlt(!alt)}>{!alt ? 'Original' : 'Limited Edition'}</a></p>

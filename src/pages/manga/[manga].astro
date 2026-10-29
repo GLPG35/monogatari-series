@@ -4,6 +4,8 @@ import CoverWithAlt from '../../components/CoverWithAlt'
 import Layout from '../../layouts/Layout.astro'
 import './manga.scss'
 import mangas from '../../utils/manga.json'
+import GalleryContainer from "../../components/GalleryContainer"
+import CardContainer from '../../components/CardContainer'
 
 export const getStaticPaths = (() => {
 	return mangas.map(({ name }) => ({ params: { manga: name }}))
@@ -15,6 +17,8 @@ const findLnIndex = mangas.findIndex(x => x.name === manga)
 if (findLnIndex === -1) return Astro.redirect('/404')
 
 const { color, pictures, picturesAlt, name, title, kanji, info, responsivePosition } = mangas[findLnIndex]
+const gallery = info.gallery as [string[], "visible"|"hidden"][]
+const cards = info.cards as [string[], string[], "visible"|"hidden"][]
 const prevLn = findLnIndex === 0 ? null : mangas[findLnIndex - 1]
 const nextLn = findLnIndex === mangas.length - 1 ? null : mangas[findLnIndex + 1]
 
@@ -193,6 +197,8 @@ const customTransition = {
 							<h4>Synopsis</h4>
 							{info.description.map(text => (<p>{text}</p>))}
 						</div>
+						{gallery && <GalleryContainer client:load gallery={gallery} />}
+						{cards && <CardContainer client:load cards={cards} />}
 					</div>
 				</div>
 			</main>
