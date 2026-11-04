@@ -95,6 +95,14 @@
 						"/gallery/manga/01/05.jpg"
 					],
 					"visible"
+				],
+				[
+					[
+						"/gallery/manga/01/06.avif",
+						"/gallery/manga/01/06.webp",
+						"/gallery/manga/01/06.jpg"
+					],
+					"visible"
 				]
 			],
 			"cards": [
@@ -2263,6 +2271,14 @@
 						"/gallery/manga/16/04.avif",
 						"/gallery/manga/16/04.webp",
 						"/gallery/manga/16/04.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/16/05.avif",
+						"/gallery/manga/16/05.webp",
+						"/gallery/manga/16/05.jpg"
 					],
 					"visible"
 				]

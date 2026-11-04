@@ -3,7 +3,16 @@ import Layout from '../layouts/Layout.astro'
 import './styles.scss'
 import arcs from '../utils/arcs.json'
 import stories from '../utils/stories.json'
+import audiovisual from '../utils/audiovisual.json'
 import InteractiveStory from '../components/InteractiveStory'
+import InteractiveAudiovisual from '../components/InteractiveAudiovisual'
+
+const parseLang = {
+	'ENG': 'English',
+	'SPA': 'Spanish',
+	'PT-BR': 'Portuguese (Brazil)',
+	'JPN': 'Japanese'
+}
 
 const anim = {
 	old: {
@@ -40,14 +49,15 @@ const customTransition = {
 		<meta name="description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="〈物語〉Monogatari Series" />
+		<meta property="og:site_name" content="〈物語〉Monogatari Series" />
 		<meta property="og:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
 		<meta property="og:url" content="https://monogatariseri.es/" />
-		<meta property="og:image" content="https://monogatari-series.vercel.app/covers/home-cover.jpg" />
+		<meta property="og:image" content="https://monogatariseri.es/covers/home-cover.jpg" />
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:url" content="https://monogatariseri.es/" />
 		<meta property="twitter:title" content="〈物語〉Monogatari Series" />
 		<meta property="twitter:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
-		<meta property="twitter:image" content="https://monogatari-series.vercel.app/covers/home-cover.jpg" />
+		<meta property="twitter:image" content="https://monogatariseri.es/covers/home-cover.jpg" />
 	</head>
 	<body>
 		<Layout>
@@ -173,9 +183,9 @@ const customTransition = {
 						<h2>Essential Audiovisual Content</h2>
 						<p>This section is dedicated exclusively to supplementary content essential to the anime and the light novels.</p>
 						<p>Over the years, NisiOisiN and SHAFT have collaborated on numerous projects to promote both the anime and the light novels. These collaborations often involved other works by NisiOisiN or even unrelated franchises like Madoka Magica. In this section, you'll find most of the relevant audiovisual content for this series, organized by release date alongside recommendations on the best time to experience it.</p>
-						<p>My most sincere thanks to @maxdefolsch once again for compiling this material on Reddit (<a href="/av_credits.txt" target="_blank">full credits here</a>).</p>
+						<p>My most sincere thanks to @maxdefolsch once again for compiling this material on Reddit (<a href="/av_credits.txt" target="_blank">full credits here</a>), and to <a href="https://x.com/rokko_00">@rokko_00</a> for compiling most of the material in Spanish.</p>
 					</div>
-					
+					<InteractiveAudiovisual audiovisual={audiovisual} client:idle />
 				</div>
 			</main>
 		</Layout>

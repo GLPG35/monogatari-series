@@ -2,81 +2,310 @@
 	{
 		"name": "Hyakumonogatari",
 		"date": "2009-08-04",
-		"when": "After Nisemonogatari"
+		"when": "After Nisemonogatari",
+		"pictures": [
+			"/audiovisual/hyakumonogatari.avif",
+			"/audiovisual/hyakumonogatari.webp",
+			"/audiovisual/hyakumonogatari.png"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1eNSd3XXB_n4KeeIxeErAnBsldbHzq6bc/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://youtube.com/playlist?list=PLbswCduZXzjDQCUOmVNReftcyzshRVjnp&si=aN3uld1sA7aIGDww"
+			}
+		]
 	},
 	{
 		"name": "Hanekawa Tsubasa Monologue",
 		"date": "2013-10-23",
-		"when": "Before Nekomonogatari Shiro"
+		"when": "Before Nekomonogatari Shiro",
+		"pictures": [
+			"/audiovisual/tsubasa-monologue.avif",
+			"/audiovisual/tsubasa-monologue.webp",
+			"/audiovisual/tsubasa-monologue.png"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1BCrFKlI4RWeRfIaRvez-UAfr-ikcwwR9/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://www.youtube.com/watch?v=oCzlnrDfNvo"
+			}
+		]
 	},
 	{
 		"name": "Tsubasa's Letter",
 		"date": "2013-11-27",
-		"when": "After Nekomonogatari Shiro"
+		"when": "After Nekomonogatari Shiro",
+		"pictures": [
+			"/audiovisual/tsubasa-letter.avif",
+			"/audiovisual/tsubasa-letter.webp",
+			"/audiovisual/tsubasa-letter.png"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1wJTOljd-GyTFq2DWBmlEeDMslyDb_tCX/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://drive.google.com/file/d/18RiNdQ5DjzxfGrMbrfr28FIabV1gw009/view?usp=drive_link"
+			}
+		]
 	},
 	{
 		"name": "Hanamonogatari Ad Truck Narration",
 		"date": "2014-08-16",
-		"when": "Before Hanamonogatari"
+		"when": "Before Hanamonogatari",
+		"pictures": [
+			"/audiovisual/hanamonogatari-ad.avif",
+			"/audiovisual/hanamonogatari-ad.webp",
+			"/audiovisual/hanamonogatari-ad.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1_yf-d3fhLDYMj_yAgEpNgaDL4ZiILKwG/edit"
+			}
+		]
 	},
 	{
 		"name": "Madoka Magica Rebellion x Monogatari Series Manner Movies",
 		"date": "2013-10-26",
-		"when": "After Second Season"
+		"when": "After Second Season",
+		"pictures": [
+			"/audiovisual/rebellion-manner-movies.avif",
+			"/audiovisual/rebellion-manner-movies.webp",
+			"/audiovisual/rebellion-manner-movies.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/drive/folders/108Ec9OkvaCYKY_WQGELMDpxMaUZN4Nhv?usp=sharing"
+			},
+			{
+				"language": "SPA",
+				"url": "https://youtube.com/playlist?list=PLbswCduZXzjBn7Gojsky9zrzp9MuRn3pT&si=DChpnMHiJ1iC4o6x"
+			}
+		]
 	},
 	{
 		"name": "The Memorandum of Okitegami Kyouko PV",
 		"date": "2014-12-31",
-		"when": "After Second Season"
+		"when": "After Second Season",
+		"pictures": [
+			"/audiovisual/memorandum.avif",
+			"/audiovisual/memorandum.webp",
+			"/audiovisual/memorandum.png"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1diSQ0lEAdHMcoGKGKPTgVEOALuYhrDu8/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://www.youtube.com/watch?v=In3kezd89os"
+			}
+		]
 	},
 	{
 		"name": "Madogatari Manner Movie",
 		"date": "2016-09-22",
-		"when": "After Madoka Magica: Rebellion"
+		"when": "After Madoka Magica: Rebellion",
+		"pictures": [
+			"/audiovisual/madogatari-manner-movie.avif",
+			"/audiovisual/madogatari-manner-movie.webp",
+			"/audiovisual/madogatari-manner-movie.png"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/drive/folders/1U9YvZHK0eL25U7lBkymJA4Nyw91g9uNY?usp=sharing"
+			}
+		]
 	},
 	{
 		"name": "Koyomi History",
 		"date": "2016-09-22",
-		"when": "After Second Season"
+		"when": "After Second Season",
+		"pictures": [
+			"/audiovisual/koyomi-history.avif",
+			"/audiovisual/koyomi-history.webp",
+			"/audiovisual/koyomi-history.png"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1U_KsfiPtkc_D1RGmKlWBYb6kQfuBWC4e/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://www.youtube.com/watch?v=Js5-00jQBV0"
+			}
+		]
 	},
 	{
 		"name": "Nisio Isin Daijiten Welcome Video",
 		"date": "2017-07-21",
-		"when": "After Nisemonogatari"
+		"when": "After Nisemonogatari",
+		"pictures": [
+			"/audiovisual/nisioisin-daijiten.avif",
+			"/audiovisual/nisioisin-daijiten.webp",
+			"/audiovisual/nisioisin-daijiten.png"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1FSdL-4ND544n3RJodCweNNjaE6sJBlE5/edit"
+			}
+		]
 	},
 	{
-		"name": "Monogatari Fes ~10th Anniversay Story~",
+		"name": "Monogatari Fes 〜10th Anniversay Story〜",
 		"date": "2019-05-11",
-		"when": "After Zoku Owarimonogatari"
+		"when": "After Zoku Owarimonogatari",
+		"pictures": [
+			"/audiovisual/monogatari-fes.avif",
+			"/audiovisual/monogatari-fes.webp",
+			"/audiovisual/monogatari-fes.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/drive/folders/1uxlgNvOr7CdmjfMRCvD-9L0Eh_qyJ597?usp=sharing"
+			},
+			{
+				"language": "SPA",
+				"url": "https://www.youtube.com/playlist?list=PLbswCduZXzjAu19q2mVVoxogjVytHPvHJ",
+				"incomplete": true
+			}
+		]
 	},
 	{
 		"name": "Understanding the Monogatari Series in 120 Seconds",
 		"date": "2021-08-17",
-		"when": "After Shinomonogatari"
+		"when": "After Shinomonogatari",
+		"pictures": [
+			"/audiovisual/120-seconds.avif",
+			"/audiovisual/120-seconds.webp",
+			"/audiovisual/120-seconds.png"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1dQRS0CTjqYjPS4ARvZuv23pUGeZ_dpTe/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://www.youtube.com/watch?v=gOkZzLrjuJY"
+			}
+		]
+	},
+	{
+		"name": "Bakemonogatari Manga PV",
+		"date": "2022-02-16",
+		"when": "After Kizumonogatari",
+		"pictures": [
+			"/audiovisual/bakemonogatari-pv.avif",
+			"/audiovisual/bakemonogatari-pv.webp",
+			"/audiovisual/bakemonogatari-pv.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1CZBvoqWnRBTdXqaXSPT8l5HVxKDt1GoS/view?usp=sharing"
+			}
+		]
 	},
 	{
 		"name": "An Urgent Conversation! Nonsense User x Araragi Koyomi",
 		"date": "2023-02-22",
-		"when": "After Zoku Owarimonogatari"
+		"when": "After Zoku Owarimonogatari",
+		"pictures": [
+			"/audiovisual/nonsense-user.avif",
+			"/audiovisual/nonsense-user.webp",
+			"/audiovisual/nonsense-user.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1Q3EVWP0CDN2N47psmf756PtbtaBHIW8z/edit"
+			}
+		]
 	},
 	{
 		"name": "Ikusamonogatari Message Movie",
 		"date": "2023-05-17",
-		"when": "Before Ikusamonogatari"
+		"when": "Before Ikusamonogatari",
+		"pictures": [
+			"/audiovisual/ikusamonogatari.avif",
+			"/audiovisual/ikusamonogatari.webp",
+			"/audiovisual/ikusamonogatari.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1otuf0u8KjgRdMx_JEifpwIzuDV6Bt1WG/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://www.youtube.com/watch?v=g01AlIA8E98&pp=0gcJCSsMAYcqIYzv"
+			}
+		]
 	},
 	{
 		"name": "Nazomonogatari",
 		"date": "2024-06-06",
-		"when": "After Zoku Owarimonogatari"
+		"when": "After Second Season",
+		"pictures": [
+			"/audiovisual/nazomonogatari.avif",
+			"/audiovisual/nazomonogatari.webp",
+			"/audiovisual/nazomonogatari.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/drive/folders/1b55UYkm7JdvVa96LMbCplfJD8SIK29Lc?usp=sharing"
+			}
+		]
 	},
 	{
 		"name": "Koyomi New Year Live Reading",
 		"date": "2026-01-10",
-		"when": "After Zoku Owarimonogatari"
+		"when": "After Zoku Owarimonogatari",
+		"pictures": [
+			"/audiovisual/shaft-50.avif",
+			"/audiovisual/shaft-50.webp",
+			"/audiovisual/shaft-50.png"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/drive/folders/1cOz3faJxoza2E14pX9vZhS35lxpQKIBQ?usp=sharing"
+			}
+		]
 	},
 	{
 		"name": "Mahou Doujo Yotsugi☆Peace",
 		"date": "2026-08-20",
-		"when": "After Off & Monster Season"
+		"when": "After Off & Monster Season",
+		"pictures": [
+			"/audiovisual/yotsugi-peace.avif",
+			"/audiovisual/yotsugi-peace.webp",
+			"/audiovisual/yotsugi-peace.png"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/drive/folders/1AF-bSSKPUP-r7VRraDQQPGJ_AGA2fg0W?usp=sharing"
+			}
+		]
 	}
 ]
