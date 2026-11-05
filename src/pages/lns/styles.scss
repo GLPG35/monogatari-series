@@ -18,6 +18,10 @@ main {
 		padding-block: 8em 3em;
 		color: #fff;
 
+		@media (width < 500px) {
+			padding-inline: 2em;
+		}
+
 		h2 {
 			font-size: 2.5em;
 			line-height: 1.2em;

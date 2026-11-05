@@ -11,6 +11,10 @@ main {
 	background-color: var(--bg-color);
 	overflow-x: hidden;
 
+	@media (width < 500px) {
+		padding-inline: 2em;
+	}
+
 	h2 {
 		font-size: 2.5em;
 		line-height: 1.2em;
