@@ -98,6 +98,10 @@ main {
 		padding-block: 5em 3em;
 		color: #fff;
 
+		@media (width < 500px) {
+			padding-inline: 2em;
+		}
+
 		.overlay {
 			position: absolute;
 			z-index: 0;
@@ -602,7 +606,7 @@ main {
 		height: max-content;
 		display: grid;
 		gap: 3.5em 2.5em;
-		grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(clamp(18rem, 15.3315rem + 10.3131vw, 25rem), 1fr));
 		margin-top: 2em;
 
 		.modalWrapper {
