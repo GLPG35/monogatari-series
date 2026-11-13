@@ -1,0 +1,45 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import MusicList from '../../components/MusicList'
+import music from '../../utils/music.json'
+import './styles.scss'
+---
+
+<html lang="en" style="--bg-color: var(--bg-salmon)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - Music</title>
+		<meta name="description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series - Music" />
+		<meta property="og:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatariseri.es/banners/music-banner.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series - Music" />
+		<meta property="twitter:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="twitter:image" content="https://monogatariseri.es/banners/music-banner.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="info">
+					<div class="subsection">
+						<h2>Music</h2>
+						<p>This section features the majority of available physical albums from the Monogatari Series. To streamline navigation and prevent redundancy, digital-exclusive albums are omitted from the main list and are instead linked inside their respective original releases.</p>
+					</div>
+					<MusicList music={music} client:idle />
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

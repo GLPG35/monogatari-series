@@ -3,6 +3,7 @@ import type { GetStaticPaths } from "astro"
 import Layout from '../../layouts/Layout.astro'
 import './arc.scss'
 import arcs from '../../utils/arcs.json'
+import music from '../../utils/music.json'
 import GalleryContainer from '../../components/GalleryContainer'
 import InteractiveMiniStory from '../../components/InteractiveMiniStory'
 
@@ -64,6 +65,16 @@ const customTransition = {
 		<meta property="twitter:title" content={`〈物語〉Monogatari Series - ${title}`} />
 		<meta property="twitter:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
 		<meta property="twitter:image" content={`https://monogatariseri.es/banners/${name}.jpg`} />
+		<script is:inline>
+			const spoilers = () => {
+				const showSpoilers = localStorage.getItem('musicSpoilers')
+				if (showSpoilers) document.documentElement.classList.add('showSpoilers')
+			}
+
+			spoilers()
+
+			document.addEventListener('astro:after-swap', spoilers)
+		</script>
 	</head>
 	<body>
 		<Layout>
@@ -104,10 +115,14 @@ const customTransition = {
 											<div class="whenWrapper">
 												<div class="texture">
 													<picture>
-														<img src="/99.png" alt="">
+														<source srcset="/99.avif" type="image/avif">
+														<source srcset="/99.webp" type="image/webp">
+														<img src="/99.png" alt="" />
 													</picture>
 													<picture class="duplicate">
-														<img src="/99.png" alt="">
+														<source srcset="/99.avif" type="image/avif">
+														<source srcset="/99.webp" type="image/webp">
+														<img src="/99.png" alt="" />
 													</picture>
 												</div>
 												<span>Previous</span>
@@ -133,10 +148,14 @@ const customTransition = {
 											<div class="whenWrapper">
 												<div class="texture">
 													<picture>
-														<img src="/85.png" alt="">
+														<source srcset="/85.avif" type="image/avif">
+														<source srcset="/85.webp" type="image/webp">
+														<img src="/85.png" alt="" />
 													</picture>
 													<picture class="duplicate">
-														<img src="/85.png" alt="">
+														<source srcset="/85.avif" type="image/avif">
+														<source srcset="/85.webp" type="image/webp">
+														<img src="/85.png" alt="" />
 													</picture>
 												</div>
 												<span>Next</span>
@@ -195,6 +214,52 @@ const customTransition = {
 							<div class="relations shortStories">
 								<h4>Short Stories</h4>
 								<InteractiveMiniStory shortStories={info.shortStories} client:idle />
+							</div>
+						}
+						{info.music &&
+							<div class="relations music">
+								<h4>Music</h4>
+								<div class="covers">
+									{info.music.map(({ name, type }) => {
+										const album = music.find(x => x.title === name)
+	
+										if (!album) return ''
+									
+										return (
+											<a class="relation" href={`/music/${name}`}>
+												<div class="when">
+													<div class="whenWrapper">
+														<div class="texture">
+															<picture>
+																<source srcset="/12.avif" type="image/avif" />
+																<source srcset="/12.webp" type="image/webp" />
+																<img src="/12.png" alt="" />
+															</picture>
+															<picture class="duplicate">
+																<source srcset="/12.avif" type="image/avif" />
+																<source srcset="/12.webp" type="image/webp" />
+																<img src="/12.png" alt="" />
+															</picture>
+														</div>
+														<span>{type}</span>
+													</div>
+												</div>
+												<div class="cover">
+													<picture>
+														{(album.coverHalf ? album.coverHalf : album.cover).map((path, i) => {
+															const isLast = (album.coverHalf ? album.coverHalf : album.cover).length === i + 1
+															const type = path.split('.').pop()
+		
+															if (isLast) return <img src={path} alt="" style={album.position ? `object-position: ${album.position};` : ''} class={album.hidden ? 'hidden' : ''} />
+		
+															return <source srcset={path} type={`image/${type}`} />
+														})}
+													</picture>
+												</div>
+											</a>
+										)
+									})}
+								</div>
 							</div>
 						}
 						<div class="section">

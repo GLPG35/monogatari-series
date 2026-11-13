@@ -8,14 +8,15 @@ main {
 	.summary {
 		width: 100%;
 		min-height: 100dvh;
-		display: flex;
-		align-items: flex-start;
+		display: grid;
+		grid-template-columns: 30em 1fr;
 		padding: 4em;
 		padding-top: 10em;
 		gap: 4em;
 		position: relative;
 
 		@media (width < 1130px) {
+			display: flex;
 			flex-direction: column;
 			gap: 2.5em;
 			padding: 2em;
@@ -80,9 +81,10 @@ main {
 		.info {
 			display: flex;
 			height: 100%;
-			flex: 1;
+			max-width: 100%;
 			flex-direction: column;
 			color: white;
+			min-width: 0;
 
 			.modalWrapper {
 				position: fixed;
@@ -257,14 +259,21 @@ main {
 				display: flex;
 				flex-direction: column;
 				gap: 0.5em;
+				width: 100%;
 
 				h4 {
 					font-size: 1.4em;
 				}
 
 				&.shortStories {
-					margin-top: 1.5em;
+					margin-top: 0.5em;
 					
+					.relation {
+						aspect-ratio: 1 / 1;
+					}
+				}
+
+				&.music {
 					.relation {
 						aspect-ratio: 1 / 1;
 					}
@@ -273,8 +282,14 @@ main {
 				.covers {
 					display: flex;
 					gap: 2em;
-					flex-wrap: wrap;
+					flex-wrap: nowrap;
 					width: 100%;
+					max-width: 100%;
+					overflow-x: auto;
+					overflow-y: visible;
+					padding: 0.5em;
+					padding-bottom: 2em;
+					height: max-content;
 
 					.relation {
 						position: relative;
@@ -334,6 +349,14 @@ main {
 	
 							&::before {
 								scale: 1.05;
+							}
+
+							img.hidden {
+								filter: blur(10px);
+
+								html.showSpoilers & {
+									filter: none;
+								}
 							}
 						}
 					}

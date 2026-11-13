@@ -1,0 +1,224 @@
+---
+import type { GetStaticPaths } from "astro"
+import MusicCover from '../../components/MusicCover'
+import Layout from '../../layouts/Layout.astro'
+import './album.scss'
+import music from '../../utils/music.json'
+import arcs from '../../utils/arcs.json'
+
+export const getStaticPaths = (() => {
+	return music.map(({ title }) => ({ params: { album: title }}))
+}) satisfies GetStaticPaths
+
+const { album } = Astro.params
+const findAlbumIndex = music.findIndex(x => x.title === album)
+
+if (findAlbumIndex === -1) return Astro.redirect('/404')
+
+const { title, name, kanji, artist, date, color, cover, coverAlt, hidden, position, sources, trackList } = music[findAlbumIndex]
+
+const isDate = date.includes('-')
+const [fullYear, month, day] = date.split('-')
+const parseDate = isDate ? Intl.DateTimeFormat('en-US', { dateStyle: 'long' }).format(new Date(+fullYear, +month - 1, +day)) : date
+
+const prevAlbum = findAlbumIndex === 0 ? null : music[findAlbumIndex - 1]
+const nextAlbum = findAlbumIndex === music.length - 1 ? null : music[findAlbumIndex + 1]
+
+const anim = {
+	old: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)",
+		direction: "reverse"
+	},
+	new: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)"
+	}
+}
+
+const customTransition = {
+	forwards: anim,
+	backwards: anim
+}
+---
+
+<html lang="en" style={`--bg-color: var(${color}); --position: ${position};`}>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - {name}</title>
+		<meta name="description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={`〈物語〉Monogatari Series - ${name}`} />
+		<meta property="og:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content={`https://monogatariseri.es/banners/music/${title}.jpg`} />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content={`〈物語〉Monogatari Series - ${name}`} />
+		<meta property="twitter:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="twitter:image" content={`https://monogatariseri.es/banners/music/${title}.jpg`} />
+		<script is:inline>
+			const spoilers = () => {
+				const showSpoilers = localStorage.getItem('musicSpoilers')
+				if (showSpoilers) document.documentElement.classList.add('showSpoilers')
+			}
+
+			spoilers()
+
+			document.addEventListener('astro:after-swap', spoilers)
+		</script>
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="summary">
+					<MusicCover {...{cover, coverAlt, hidden}} client:idle transition:name={`music-cover-${title}`} transition:animate={customTransition} />
+					<div class="info">
+						<div class="subtitle">
+							{kanji}
+						</div>
+						<div class="title">
+							<h3>{name}</h3>
+						</div>
+						<div class="date">
+							<span>{artist}</span>
+							<span>•</span>
+							<span>{parseDate}</span>
+						</div>
+						<div class="relations">
+							<h4>Relations</h4>
+							<div class="covers">
+								{prevAlbum &&
+									<a class="relation" href={`/music/${prevAlbum.title}`}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<source srcset="/99.avif" type="image/avif">
+														<source srcset="/99.webp" type="image/webp">
+														<img src="/99.png" alt="" />
+													</picture>
+													<picture class="duplicate">
+														<source srcset="/99.avif" type="image/avif">
+														<source srcset="/99.webp" type="image/webp">
+														<img src="/99.png" alt="" />
+													</picture>
+												</div>
+												<span>Previous</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(prevAlbum.coverHalf ? prevAlbum.coverHalf : prevAlbum.cover).map((path, i) => {
+													const isLast = (prevAlbum.coverHalf ? prevAlbum.coverHalf : prevAlbum.cover).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="" style={prevAlbum.position ? `object-position: ${prevAlbum.position}` : ''} class={prevAlbum.hidden ? 'hidden' : ''} />
+													
+													return <source srcset={path} type={`image/${type}`} />
+												})}
+											</picture>
+										</div>		
+									</a>
+								}
+								{nextAlbum &&
+									<a class="relation" href={`/music/${nextAlbum.title}`}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<source srcset="/85.avif" type="image/avif">
+														<source srcset="/85.webp" type="image/webp">
+														<img src="/85.png" alt="" />
+													</picture>
+													<picture class="duplicate">
+														<source srcset="/85.avif" type="image/avif">
+														<source srcset="/85.webp" type="image/webp">
+														<img src="/85.png" alt="" />
+													</picture>
+												</div>
+												<span>Next</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(nextAlbum.coverHalf ? nextAlbum.coverHalf : nextAlbum.cover).map((path, i) => {
+													const isLast = (nextAlbum.coverHalf ? nextAlbum.coverHalf : nextAlbum.cover).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="" style={nextAlbum.position ? `object-position: ${nextAlbum.position};` : ''} class={nextAlbum.hidden ? 'hidden' : ''} />
+													
+													return <source srcset={path} type={`image/${type}`} />
+												})}
+											</picture>
+										</div>		
+									</a>
+								}
+								{sources && sources.map(source => {
+									const anime = arcs.find(x => x.name === source)
+
+									if (!anime) return ''
+									
+									return (
+										<a class="relation source" href={`/anime/${source}`}>
+											<div class="when">
+												<div class="whenWrapper">
+													<div class="texture">
+														<picture>
+															<source srcset="/12.avif" type="image/avif">
+															<source srcset="/12.webp" type="image/webp">
+															<img src="/12.png" alt="" />
+														</picture>
+														<picture class="duplicate">
+															<source srcset="/12.avif" type="image/avif">
+															<source srcset="/12.webp" type="image/webp">
+															<img src="/12.png" alt="" />
+														</picture>
+													</div>
+													<span>Source</span>
+												</div>
+											</div>
+											<div class="cover">
+												<picture>
+													{(anime.picturesHalf ? anime.picturesHalf : anime.pictures).map((path, i) => {
+														const isLast = (anime.picturesHalf ? anime.picturesHalf : anime.pictures).length === i + 1
+														const type = path.split('.').pop()
+		
+														if (isLast) return <img src={path} alt="" />
+														
+														return <source srcset={path} type={`image/${type}`} />
+													})}
+												</picture>
+											</div>		
+										</a>
+									)
+								})}
+							</div>
+						</div>
+						<div class="section tracklist">
+							<h4>Tracklist</h4>
+							<ol>
+								{trackList.map(track => <li>
+									<div>
+										<span>{track.name}</span>
+										<span>{track.length}</span>
+									</div>
+								</li>)}
+							</ol>
+						</div>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

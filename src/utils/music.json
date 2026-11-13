@@ -1,0 +1,5926 @@
+[
+    {
+        "title": "kimi-no-shiranai-monogatari",
+        "name": "Kimi no Shiranai Monogatari",
+        "kanji": "君の知らない物語",
+        "artist": "supercell",
+        "date": "2009-08-12",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/kimi-no-shiranai-monogatari.avif",
+            "/music/kimi-no-shiranai-monogatari.webp",
+            "/music/kimi-no-shiranai-monogatari.jpg"
+        ],
+        "coverAlt": [
+            "/music/kimi-no-shiranai-monogatari-alt.avif",
+            "/music/kimi-no-shiranai-monogatari-alt.webp",
+            "/music/kimi-no-shiranai-monogatari-alt.jpg"
+        ],
+        "coverHalf": [
+            "/music/kimi-no-shiranai-monogatari-0.5x.avif",
+            "/music/kimi-no-shiranai-monogatari-0.5x.webp",
+            "/music/kimi-no-shiranai-monogatari-0.5x.jpg"
+        ],
+        "sources": [
+        	"bakemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "君の知らない物語",
+                "length": "5:41"
+            },
+            {
+                "name": "LOVE & ROLL",
+                "length": "4:55"
+            },
+            {
+                "name": "theme of \"CENCOROLL\"",
+                "length": "1:25"
+            },
+            {
+                "name": "君の知らない物語 -TV Edit-",
+                "length": "1:33"
+            },
+            {
+                "name": "君の知らない物語 -Instrumental-",
+                "length": "5:40"
+            }
+        ]
+    },
+    {
+        "title": "staple-stable",
+        "name": "staple stable & Atogatari",
+        "kanji": "「staple stable」&あとがたり",
+        "artist": "戦場ヶ原ひたぎ(斎藤千和)",
+        "date": "2009-09-30",
+        "color": "--bg-lilac",
+        "cover": [
+            "/music/staple-stable.avif",
+            "/music/staple-stable.webp",
+            "/music/staple-stable.jpg"
+        ],
+        "coverHalf": [
+            "/music/staple-stable-0.5x.avif",
+            "/music/staple-stable-0.5x.webp",
+            "/music/staple-stable-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"bakemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "staple stable",
+                "length": "4:36"
+            },
+            {
+                "name": "staple stable",
+                "length": "4:37"
+            },
+            {
+                "name": "あとがたり",
+                "length": "41:33"
+            }
+        ]
+    },
+    {
+        "title": "kaerimichi",
+        "name": "Kaerimichi & Atogatari",
+        "kanji": "「帰り道」&あとがたり",
+        "artist": "八九寺真宵(加藤英美里)",
+        "date": "2009-10-28",
+        "color": "--bg-orange",
+        "cover": [
+            "/music/kaerimichi.avif",
+            "/music/kaerimichi.webp",
+            "/music/kaerimichi.jpg"
+        ],
+        "coverHalf": [
+            "/music/kaerimichi-0.5x.avif",
+            "/music/kaerimichi-0.5x.webp",
+            "/music/kaerimichi-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"bakemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "帰り道",
+                "length": "4:08"
+            },
+            {
+                "name": "帰り道 -instrumental-",
+                "length": "4:08"
+            },
+            {
+                "name": "あとがたり",
+                "length": "40:25"
+            }
+        ]
+    },
+    {
+        "title": "ambivalent-world",
+        "name": "ambivalent world & Atogatari",
+        "kanji": "「ambivalent world」&あとがたり",
+        "artist": "神原駿河(沢城みゆき)",
+        "date": "2009-11-25",
+        "color": "--bg-green",
+        "cover": [
+            "/music/ambivalent-world.avif",
+            "/music/ambivalent-world.webp",
+            "/music/ambivalent-world.jpg"
+        ],
+        "coverHalf": [
+            "/music/ambivalent-world-0.5x.avif",
+            "/music/ambivalent-world-0.5x.webp",
+            "/music/ambivalent-world-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"bakemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "ambivalent world",
+                "length": "4:17"
+            },
+            {
+                "name": "ambivalent world -instrumental-",
+                "length": "4:18"
+            },
+            {
+                "name": "あとがたり",
+                "length": "43:50"
+            }
+        ]
+    },
+    {
+        "title": "renai-circulation",
+        "name": "Ren'ai Circulation & Atogatari",
+        "kanji": "「恋愛サーキュレーション」&あとがたり",
+        "artist": "千石撫子(花澤香菜)",
+        "date": "2010-01-27",
+        "color": "--bg-salmon",
+        "cover": [
+            "/music/renai-circulation.avif",
+            "/music/renai-circulation.webp",
+            "/music/renai-circulation.jpg"
+        ],
+        "coverHalf": [
+            "/music/renai-circulation-0.5x.avif",
+            "/music/renai-circulation-0.5x.webp",
+            "/music/renai-circulation-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"bakemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "恋愛サーキュレーション",
+                "length": "4:14"
+            },
+            {
+                "name": "恋愛サーキュレーション -instrumental-",
+                "length": "4:15"
+            },
+            {
+                "name": "あとがたり",
+                "length": "45:58"
+            }
+        ]
+    },
+    {
+        "title": "sugar-sweet-nightmare",
+        "name": "sugar sweet nightmare & Bakemonogatari Music Collection I",
+        "kanji": "「sugar sweet nightmare」&「化物語」劇伴音楽集 其ノ壹",
+        "artist": "羽川翼(堀江由衣) & 神前暁",
+        "date": "2010-02-24",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/sugar-sweet-nightmare.avif",
+            "/music/sugar-sweet-nightmare.webp",
+            "/music/sugar-sweet-nightmare.jpg"
+        ],
+        "coverHalf": [
+            "/music/sugar-sweet-nightmare-0.5x.avif",
+            "/music/sugar-sweet-nightmare-0.5x.webp",
+            "/music/sugar-sweet-nightmare-0.5x.jpg"
+        ],
+        "hidden": true,
+        "position": "top",
+        "sources": [
+        	"bakemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "sugar sweet nightmare",
+                "length": "4:30"
+            },
+            {
+                "name": "sugar sweet nightmare -instrumental-",
+                "length": "4:30"
+            },
+            {
+                "name": "序章",
+                "length": "1:16"
+            },
+            {
+                "name": "街談巷説",
+                "length": "2:47"
+            },
+            {
+                "name": "観念",
+                "length": "1:44"
+            },
+            {
+                "name": "戦争",
+                "length": "1:43"
+            },
+            {
+                "name": "人畜",
+                "length": "2:28"
+            },
+            {
+                "name": "戯言",
+                "length": "2:36"
+            },
+            {
+                "name": "廃墟",
+                "length": "2:16"
+            },
+            {
+                "name": "修験道",
+                "length": "1:52"
+            },
+            {
+                "name": "神域",
+                "length": "1:58"
+            },
+            {
+                "name": "以下、回想",
+                "length": "1:49"
+            }
+        ]
+    },
+    {
+        "title": "bakemonogatari-ii",
+        "name": "Bakemonogatari Music Collection II & Atogatari",
+        "kanji": "「化物語」劇伴音楽集 其ノ貮&あとがたり",
+        "artist": "神前暁",
+        "date": "2010-07-28",
+        "color": "--bg-salmon",
+        "cover": [
+            "/music/bakemonogatari-ii.avif",
+            "/music/bakemonogatari-ii.webp",
+            "/music/bakemonogatari-ii.jpg"
+        ],
+        "coverHalf": [
+            "/music/bakemonogatari-ii-0.5x.avif",
+            "/music/bakemonogatari-ii-0.5x.webp",
+            "/music/bakemonogatari-ii-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"bakemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "散歩",
+                "length": "2:24"
+            },
+            {
+                "name": "素敵滅法",
+                "length": "2:37"
+            },
+            {
+                "name": "放浪者",
+                "length": "2:37"
+            },
+            {
+                "name": "毒舌",
+                "length": "2:37"
+            },
+            {
+                "name": "思案中",
+                "length": "2:47"
+            },
+            {
+                "name": "バカロリート",
+                "length": "3:17"
+            },
+            {
+                "name": "輔翼",
+                "length": "1:51"
+            },
+            {
+                "name": "色ボケ猫",
+                "length": "2:43"
+            },
+            {
+                "name": "表裏",
+                "length": "1:46"
+            },
+            {
+                "name": "お人よし",
+                "length": "2:32"
+            },
+            {
+                "name": "あとがたり",
+                "length": "45:01"
+            }
+        ]
+    },
+    {
+        "title": "bakemonogatari-complete-music-works",
+        "name": "Bakemonogatari Complete Music Works: Songs & Soundtracks",
+        "kanji": "化物語 音楽全集 Songs & Soundtracks",
+        "artist": "Various Artists",
+        "date": "2011-12-21",
+        "color": "--bg-salmon",
+        "cover": [
+            "/music/bakemonogatari-complete-music-works.avif",
+            "/music/bakemonogatari-complete-music-works.webp",
+            "/music/bakemonogatari-complete-music-works.jpg"
+        ],
+        "coverHalf": [
+            "/music/bakemonogatari-complete-music-works-0.5x.avif",
+            "/music/bakemonogatari-complete-music-works-0.5x.webp",
+            "/music/bakemonogatari-complete-music-works-0.5x.jpg"
+        ],
+        "sources": [
+        	"bakemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "豫告",
+                "length": "1:01"
+            },
+            {
+                "name": "staple stable",
+                "length": "4:35"
+            },
+            {
+                "name": "帰り道",
+                "length": "4:06"
+            },
+            {
+                "name": "ambivalent world",
+                "length": "4:17"
+            },
+            {
+                "name": "恋愛サーキュレーション",
+                "length": "4:15"
+            },
+            {
+                "name": "sugar sweet nightmare",
+                "length": "4:31"
+            },
+            {
+                "name": "序章",
+                "length": "1:16"
+            },
+            {
+                "name": "深窓の令嬢",
+                "length": "2:40"
+            },
+            {
+                "name": "道聴塗説",
+                "length": "2:36"
+            },
+            {
+                "name": "羽川翼の場合",
+                "length": "1:18"
+            },
+            {
+                "name": "観念",
+                "length": "1:44"
+            },
+            {
+                "name": "戦争",
+                "length": "1:44"
+            },
+            {
+                "name": "クラスメイト",
+                "length": "2:42"
+            },
+            {
+                "name": "街談巷説",
+                "length": "2:46"
+            },
+            {
+                "name": "廃墟",
+                "length": "2:16"
+            },
+            {
+                "name": "修験道",
+                "length": "1:52"
+            },
+            {
+                "name": "神域",
+                "length": "1:58"
+            },
+            {
+                "name": "素敵滅法",
+                "length": "2:37"
+            },
+            {
+                "name": "毒舌",
+                "length": "2:37"
+            },
+            {
+                "name": "結界",
+                "length": "1:37"
+            },
+            {
+                "name": "外法",
+                "length": "1:44"
+            },
+            {
+                "name": "浄化",
+                "length": "1:52"
+            },
+            {
+                "name": "重し蟹",
+                "length": "2:12"
+            },
+            {
+                "name": "表裏",
+                "length": "1:46"
+            },
+            {
+                "name": "以下、回想",
+                "length": "1:50"
+            },
+            {
+                "name": "「戦場ヶ原、蕩れ」",
+                "length": "2:10"
+            },
+            {
+                "name": "君の知らない物語",
+                "length": "5:42"
+            },
+            {
+                "name": "次回、ひたぎクラブ",
+                "length": "0:53"
+            },
+            {
+                "name": "言葉の暴力",
+                "length": "1:19"
+            },
+            {
+                "name": "吹き溜まり",
+                "length": "2:34"
+            },
+            {
+                "name": "けだもの",
+                "length": "1:38"
+            },
+            {
+                "name": "雑多坩堝",
+                "length": "0:18"
+            },
+            {
+                "name": "散歩",
+                "length": "2:24"
+            },
+            {
+                "name": "日曜日",
+                "length": "2:41"
+            },
+            {
+                "name": "人畜",
+                "length": "2:28"
+            },
+            {
+                "name": "戯言",
+                "length": "2:37"
+            },
+            {
+                "name": "言い訳",
+                "length": "2:05"
+            },
+            {
+                "name": "八九寺真宵の場合",
+                "length": "1:30"
+            },
+            {
+                "name": "逢う魔が刻",
+                "length": "2:12"
+            },
+            {
+                "name": "殺風景",
+                "length": "2:37"
+            },
+            {
+                "name": "渦",
+                "length": "1:31"
+            },
+            {
+                "name": "ファーストタッチ",
+                "length": "1:46"
+            },
+            {
+                "name": "戦場ヶ原ひたぎの場合",
+                "length": "1:16"
+            },
+            {
+                "name": "迷い牛",
+                "length": "3:02"
+            },
+            {
+                "name": "「ただいまっ、帰りましたっ」",
+                "length": "1:32"
+            },
+            {
+                "name": "次回、まよいマイマイ",
+                "length": "0:49"
+            },
+            {
+                "name": "放浪者",
+                "length": "2:37"
+            },
+            {
+                "name": "バカロリート",
+                "length": "3:18"
+            },
+            {
+                "name": "神原駿河の場合～全裸",
+                "length": "0:58"
+            },
+            {
+                "name": "神原駿河の場合～着衣",
+                "length": "1:53"
+            },
+            {
+                "name": "レイニー・デヴィル",
+                "length": "1:40"
+            },
+            {
+                "name": "「戦場ヶ原先輩」",
+                "length": "2:24"
+            },
+            {
+                "name": "次回、するがモンキー",
+                "length": "0:53"
+            },
+            {
+                "name": "千石撫子の場合",
+                "length": "1:16"
+            },
+            {
+                "name": "「暦お兄ちゃん」",
+                "length": "1:18"
+            },
+            {
+                "name": "蛇切縄",
+                "length": "2:04"
+            },
+            {
+                "name": "次回、なでこスネイク",
+                "length": "0:37"
+            },
+            {
+                "name": "輔翼",
+                "length": "1:51"
+            },
+            {
+                "name": "思案中",
+                "length": "2:48"
+            },
+            {
+                "name": "色ボケ猫",
+                "length": "2:46"
+            },
+            {
+                "name": "父親",
+                "length": "3:01"
+            },
+            {
+                "name": "星空",
+                "length": "1:35"
+            },
+            {
+                "name": "頭痛",
+                "length": "2:40"
+            },
+            {
+                "name": "障り猫",
+                "length": "2:34"
+            },
+            {
+                "name": "「私、嘘なんかついたことがないもの」",
+                "length": "1:55"
+            },
+            {
+                "name": "翌朝",
+                "length": "1:50"
+            },
+            {
+                "name": "お人よし",
+                "length": "2:31"
+            },
+            {
+                "name": "次回、つばさキャット",
+                "length": "0:58"
+            },
+            {
+                "name": "デート",
+                "length": "1:29"
+            },
+            {
+                "name": "普通最高",
+                "length": "2:31"
+            }
+        ]
+    },
+    {
+        "title": "naisho-no-hanashi",
+        "name": "Naisho no Hanashi",
+        "kanji": "ナイショの話",
+        "artist": "ClariS",
+        "date": "2012-02-01",
+        "color": "--bg-yellow",
+        "cover": [
+            "/music/naisho-no-hanashi.avif",
+            "/music/naisho-no-hanashi.webp",
+            "/music/naisho-no-hanashi.jpg"
+        ],
+        "coverAlt": [
+            "/music/naisho-no-hanashi-alt.avif",
+            "/music/naisho-no-hanashi-alt.webp",
+            "/music/naisho-no-hanashi-alt.jpg"
+        ],
+        "coverHalf": [
+            "/music/naisho-no-hanashi-0.5x.avif",
+            "/music/naisho-no-hanashi-0.5x.webp",
+            "/music/naisho-no-hanashi-0.5x.jpg"
+        ],
+        "sources": [
+        	"nisemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "ナイショの話",
+                "length": "4:21"
+            },
+            {
+                "name": "I'm in love",
+                "length": "4:25"
+            },
+            {
+                "name": "本当は",
+                "length": "4:24"
+            },
+            {
+                "name": "ナイショの話 -Instrumental-",
+                "length": "4:15"
+            }
+        ]
+    },
+    {
+        "title": "marshmallow-justice",
+        "name": "marshmallow justice",
+        "artist": "阿良々木火憐(喜多村英梨)",
+        "date": "2012-04-25",
+        "color": "--bg-yellow",
+        "cover": [
+            "/music/marshmallow-justice.avif",
+            "/music/marshmallow-justice.webp",
+            "/music/marshmallow-justice.jpg"
+        ],
+        "coverHalf": [
+            "/music/marshmallow-justice-0.5x.avif",
+            "/music/marshmallow-justice-0.5x.webp",
+            "/music/marshmallow-justice-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"nisemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "marshmallow justice",
+                "length": "4:15"
+            },
+            {
+                "name": "marshmallow justice -instrumental-",
+                "length": "4:13"
+            }
+        ]
+    },
+    {
+        "title": "futakotome",
+        "name": "Futakotome & Nisemonogatari Music Collection I",
+        "kanji": "「二言目」&「偽物語」劇伴音楽集 其ノ壹",
+        "artist": "戦場ヶ原ひたぎ(斎藤千和) & 神前暁",
+        "date": "2012-05-23",
+        "color": "--bg-green",
+        "cover": [
+            "/music/futakotome.avif",
+            "/music/futakotome.webp",
+            "/music/futakotome.jpg"
+        ],
+        "coverHalf": [
+            "/music/futakotome-0.5x.avif",
+            "/music/futakotome-0.5x.webp",
+            "/music/futakotome-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"nisemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "二言目",
+                "length": "4:26"
+            },
+            {
+                "name": "二言目 -instrumental-",
+                "length": "4:26"
+            },
+            {
+                "name": "毒",
+                "length": "2:11"
+            },
+            {
+                "name": "恋人同士",
+                "length": "2:13"
+            },
+            {
+                "name": "物語",
+                "length": "2:03"
+            },
+            {
+                "name": "妹達",
+                "length": "1:57"
+            },
+            {
+                "name": "誘惑",
+                "length": "2:01"
+            },
+            {
+                "name": "大人",
+                "length": "2:50"
+            },
+            {
+                "name": "都市伝説",
+                "length": "2:45"
+            },
+            {
+                "name": "魔手",
+                "length": "1:43"
+            },
+            {
+                "name": "相槌",
+                "length": "2:16"
+            },
+            {
+                "name": "鉄仮面",
+                "length": "1:42"
+            },
+            {
+                "name": "勇気",
+                "length": "1:43"
+            },
+            {
+                "name": "「怒られるのは怖いですからね」",
+                "length": "1:45"
+            },
+            {
+                "name": "次回、かれんビー (戦場ヶ原ひたぎver.)",
+                "length": "0:50"
+            }
+        ]
+    },
+    {
+        "title": "nisemonogatari-music-collection-ii",
+        "name": "Nisemonogatari Music Collection II & Atogatari",
+        "kanji": "「偽物語」劇伴音楽集 其ノ貮&あとがたり",
+        "artist": "神前暁",
+        "date": "2012-06-27",
+        "color": "--bg-salmon",
+        "cover": [
+            "/music/nisemonogatari-music-collection-ii.avif",
+            "/music/nisemonogatari-music-collection-ii.webp",
+            "/music/nisemonogatari-music-collection-ii.jpg"
+        ],
+        "coverHalf": [
+            "/music/nisemonogatari-music-collection-ii-0.5x.avif",
+            "/music/nisemonogatari-music-collection-ii-0.5x.webp",
+            "/music/nisemonogatari-music-collection-ii-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"nisemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "前髪",
+                "length": "2:04"
+            },
+            {
+                "name": "全裸",
+                "length": "1:50"
+            },
+            {
+                "name": "燃える女",
+                "length": "1:42"
+            },
+            {
+                "name": "ブレスレット",
+                "length": "2:14"
+            },
+            {
+                "name": "愛人関係",
+                "length": "1:45"
+            },
+            {
+                "name": "不吉",
+                "length": "2:13"
+            },
+            {
+                "name": "悲痛",
+                "length": "2:47"
+            },
+            {
+                "name": "動揺",
+                "length": "2:03"
+            },
+            {
+                "name": "尊大",
+                "length": "2:10"
+            },
+            {
+                "name": "怪異の王",
+                "length": "1:34"
+            },
+            {
+                "name": "囲い火蜂",
+                "length": "1:51"
+            },
+            {
+                "name": "絆",
+                "length": "2:53"
+            },
+            {
+                "name": "次回、かれんビー (阿良々木火憐ver.)",
+                "length": "0:46"
+            },
+            {
+                "name": "あとがたり",
+                "length": "51:28"
+            }
+        ]
+    },
+    {
+        "title": "platinum-disco",
+        "name": "Platinum Disco & Nisemonogatari Music Collection III",
+        "kanji": "「白金ディスコ」&「偽物語」劇伴音楽集 其ノ參",
+        "artist": "阿良々木月火(井口裕香) & 神前暁",
+        "date": "2012-07-25",
+        "color": "--bg-lilac",
+        "cover": [
+            "/music/platinum-disco.avif",
+            "/music/platinum-disco.webp",
+            "/music/platinum-disco.jpg"
+        ],
+        "coverHalf": [
+            "/music/platinum-disco-0.5x.avif",
+            "/music/platinum-disco-0.5x.webp",
+            "/music/platinum-disco-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"nisemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "白金ディスコ",
+                "length": "4:15"
+            },
+            {
+                "name": "白金ディスコ -instrumental-",
+                "length": "4:16"
+            },
+            {
+                "name": "喧嘩",
+                "length": "2:43"
+            },
+            {
+                "name": "「兄ちゃん。あとは、任せた」",
+                "length": "2:28"
+            },
+            {
+                "name": "偽物",
+                "length": "1:59"
+            },
+            {
+                "name": "嘘",
+                "length": "3:40"
+            },
+            {
+                "name": "条件",
+                "length": "1:34"
+            },
+            {
+                "name": "快楽",
+                "length": "4:41"
+            },
+            {
+                "name": "必勝法",
+                "length": "2:55"
+            },
+            {
+                "name": "罰ゲーム",
+                "length": "2:40"
+            },
+            {
+                "name": "陰陽師",
+                "length": "2:17"
+            },
+            {
+                "name": "優等生",
+                "length": "2:27"
+            },
+            {
+                "name": "式神",
+                "length": "1:59"
+            }
+        ]
+    },
+    {
+        "title": "nisemonogatari-music-collection-iv",
+        "name": "Nisemonogatari Music Collection IV & Atogatari",
+        "kanji": "「偽物語」劇伴音楽集 其ノ肆&あとがたり",
+        "artist": "神前暁",
+        "date": "2012-08-22",
+        "color": "--bg-salmon",
+        "cover": [
+            "/music/nisemonogatari-music-collection-iv.avif",
+            "/music/nisemonogatari-music-collection-iv.webp",
+            "/music/nisemonogatari-music-collection-iv.jpg"
+        ],
+        "coverHalf": [
+            "/music/nisemonogatari-music-collection-iv-0.5x.avif",
+            "/music/nisemonogatari-music-collection-iv-0.5x.webp",
+            "/music/nisemonogatari-music-collection-iv-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"nisemonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "夏休み",
+                "length": "1:35"
+            },
+            {
+                "name": "ドーナツ・ハイ",
+                "length": "1:37"
+            },
+            {
+                "name": "『例外の方が多い規則』",
+                "length": "1:57"
+            },
+            {
+                "name": "しでの鳥",
+                "length": "2:12"
+            },
+            {
+                "name": "兄妹",
+                "length": "2:36"
+            },
+            {
+                "name": "破壊",
+                "length": "2:22"
+            },
+            {
+                "name": "人為",
+                "length": "4:13"
+            },
+            {
+                "name": "「プラチナむかつく」",
+                "length": "1:35"
+            },
+            {
+                "name": "次回、つきひフェニックス",
+                "length": "0:54"
+            },
+            {
+                "name": "あとがたり",
+                "length": "44:56"
+            }
+        ]
+    },
+    {
+        "title": "perfect-slumbers",
+        "name": "perfect slumbers & Nekomonogatari (Kuro) Music Collection",
+        "kanji": "「perfect slumbers」&「猫物語(黒)」劇伴音楽集",
+        "artist": "羽川翼(堀江由衣) & 神前暁",
+        "date": "2013-03-06",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/perfect-slumbers.avif",
+            "/music/perfect-slumbers.webp",
+            "/music/perfect-slumbers.jpg"
+        ],
+        "coverHalf": [
+            "/music/perfect-slumbers-0.5x.avif",
+            "/music/perfect-slumbers-0.5x.webp",
+            "/music/perfect-slumbers-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"nekomonogatari-kuro"
+        ],
+        "trackList": [
+            {
+                "name": "perfect slumbers",
+                "length": "4:29"
+            },
+            {
+                "name": "perfect slumbers -instrumental-",
+                "length": "4:31"
+            },
+            {
+                "name": "ヤンデレ",
+                "length": "0:46"
+            },
+            {
+                "name": "恋かもしれない何かの話",
+                "length": "1:38"
+            },
+            {
+                "name": "あまのじゃく",
+                "length": "1:35"
+            },
+            {
+                "name": "ロケット作り",
+                "length": "1:32"
+            },
+            {
+                "name": "タッチならぬキャッチ",
+                "length": "1:17"
+            },
+            {
+                "name": "月火ちゃん",
+                "length": "2:20"
+            },
+            {
+                "name": "火憐ちゃん",
+                "length": "1:37"
+            },
+            {
+                "name": "ゴールデンウィーク",
+                "length": "1:28"
+            },
+            {
+                "name": "赤の他人",
+                "length": "1:18"
+            },
+            {
+                "name": "約束",
+                "length": "1:24"
+            },
+            {
+                "name": "最低の男",
+                "length": "1:57"
+            },
+            {
+                "name": "名残",
+                "length": "1:12"
+            },
+            {
+                "name": "朴念仁",
+                "length": "1:47"
+            },
+            {
+                "name": "言えないこと以外のこと",
+                "length": "0:52"
+            },
+            {
+                "name": "ブラック羽川",
+                "length": "3:28"
+            },
+            {
+                "name": "オールドファッション",
+                "length": "1:35"
+            },
+            {
+                "name": "憔悴",
+                "length": "2:00"
+            },
+            {
+                "name": "憂さ晴らし",
+                "length": "4:04"
+            },
+            {
+                "name": "「普通の女の子」",
+                "length": "3:56"
+            },
+            {
+                "name": "妖刀『心渡』",
+                "length": "1:06"
+            },
+            {
+                "name": "鬼出鬼没",
+                "length": "1:21"
+            },
+            {
+                "name": "後日談",
+                "length": "2:59"
+            },
+            {
+                "name": "恋",
+                "length": "3:05"
+            },
+            {
+                "name": "次回、つばさファミリー",
+                "length": "0:49"
+            }
+        ]
+    },
+    {
+        "title": "kieru-daydream",
+        "name": "Kieru Daydream",
+        "kanji": "「消えるdaydream」&あとがたり",
+        "artist": "河野マリナ",
+        "date": "2013-04-03",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/kieru-daydream.avif",
+            "/music/kieru-daydream.webp",
+            "/music/kieru-daydream.png"
+        ],
+        "coverHalf": [
+            "/music/kieru-daydream-0.5x.avif",
+            "/music/kieru-daydream-0.5x.webp",
+            "/music/kieru-daydream-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"nekomonogatari-kuro"
+        ],
+        "trackList": [
+            {
+                "name": "消えるdaydream",
+                "length": "4:39"
+            },
+            {
+                "name": "消えるdaydream -instrumental-",
+                "length": "4:41"
+            },
+            {
+                "name": "あとがたり",
+                "length": "57:58"
+            }
+        ]
+    },
+    {
+        "title": "ai-wo-utae",
+        "name": "Ai wo Utae",
+        "kanji": "アイヲウタエ",
+        "artist": "春奈るな",
+        "date": "2013-07-24",
+        "color": "--bg-red",
+        "cover": [
+            "/music/ai-wo-utae.avif",
+            "/music/ai-wo-utae.webp",
+            "/music/ai-wo-utae.jpg"
+        ],
+        "coverAlt": [
+            "/music/ai-wo-utae-alt.avif",
+            "/music/ai-wo-utae-alt.webp",
+            "/music/ai-wo-utae-alt.jpg"
+        ],
+        "coverHalf": [
+            "/music/ai-wo-utae-0.5x.avif",
+            "/music/ai-wo-utae-0.5x.webp",
+            "/music/ai-wo-utae-0.5x.jpg"
+        ],
+        "sources": [
+        	"nekomonogatari-shiro",
+         	"kabukimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "アイヲウタエ",
+                "length": "4:09"
+            },
+            {
+                "name": "恋の戦士",
+                "length": "4:12"
+            },
+            {
+                "name": "打ち上げ花火",
+                "length": "4:29"
+            },
+            {
+                "name": "アイヲウタエ -Instrumental-",
+                "length": "4:08"
+            }
+        ]
+    },
+    {
+        "title": "sono-koe-wo-oboeteru",
+        "name": "Sono Koe wo Oboeteru",
+        "kanji": "その声を覚えてる",
+        "artist": "河野マリナ",
+        "date": "2013-10-09",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/sono-koe-wo-oboeteru.avif",
+            "/music/sono-koe-wo-oboeteru.webp",
+            "/music/sono-koe-wo-oboeteru.jpg"
+        ],
+        "coverAlt": [
+            "/music/sono-koe-wo-oboeteru-alt.avif",
+            "/music/sono-koe-wo-oboeteru-alt.webp",
+            "/music/sono-koe-wo-oboeteru-alt.jpg"
+        ],
+        "coverHalf": [
+            "/music/sono-koe-wo-oboeteru-0.5x.avif",
+            "/music/sono-koe-wo-oboeteru-0.5x.webp",
+            "/music/sono-koe-wo-oboeteru-0.5x.jpg"
+        ],
+        "sources": [
+        	"otorimonogatari",
+         	"onimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "その声を覚えてる",
+                "length": "4:08"
+            },
+            {
+                "name": "消えるdaydream -Acoustic ver.-",
+                "length": "4:43"
+            },
+            {
+                "name": "その声を覚えてる -Instrumental-",
+                "length": "4:06"
+            }
+        ]
+    },
+    {
+        "title": "chocolate-insomnia",
+        "name": "chocolate insomnia",
+        "artist": "羽川翼(堀江由衣)",
+        "date": "2013-10-23",
+        "color": "--bg-salmon",
+        "cover": [
+            "/music/chocolate-insomnia.avif",
+            "/music/chocolate-insomnia.webp",
+            "/music/chocolate-insomnia.jpg"
+        ],
+        "coverHalf": [
+            "/music/chocolate-insomnia-0.5x.avif",
+            "/music/chocolate-insomnia-0.5x.webp",
+            "/music/chocolate-insomnia-0.5x.jpg"
+        ],
+        "sources": [
+        	"nekomonogatari-shiro"
+        ],
+        "trackList": [
+            {
+                "name": "chocolate insomnia",
+                "length": "4:39"
+            },
+            {
+                "name": "chocolate insomnia -instrumental-",
+                "length": "4:36"
+            }
+        ]
+    },
+    {
+        "title": "snowdrop",
+        "name": "snowdrop",
+        "artist": "春奈るな",
+        "date": "2013-12-11",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/snowdrop.avif",
+            "/music/snowdrop.webp",
+            "/music/snowdrop.jpeg"
+        ],
+        "coverAlt": [
+            "/music/snowdrop-alt.avif",
+            "/music/snowdrop-alt.webp",
+            "/music/snowdrop-alt.jpg"
+        ],
+        "coverHalf": [
+            "/music/snowdrop-0.5x.avif",
+            "/music/snowdrop-0.5x.webp",
+            "/music/snowdrop-0.5x.jpg"
+        ],
+        "sources": [
+        	"koimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "snowdrop",
+                "length": "5:09"
+            },
+            {
+                "name": "TRUE STORY",
+                "length": "4:00"
+            },
+            {
+                "name": "深海羽化のラプソディア",
+                "length": "4:14"
+            },
+            {
+                "name": "snowdrop -Instrumental-",
+                "length": "5:07"
+            }
+        ]
+    },
+    {
+        "title": "nekomonogatari-shiro-music-collection",
+        "name": "Nekomonogatari (Shiro) Music Collection & Atogatari",
+        "kanji": "「猫物語(白)」劇伴音楽集&あとがたり",
+        "artist": "神前暁",
+        "date": "2013-11-27",
+        "color": "--bg-salmon",
+        "cover": [
+            "/music/nekomonogatari-shiro-music-collection.avif",
+            "/music/nekomonogatari-shiro-music-collection.webp",
+            "/music/nekomonogatari-shiro-music-collection.jpg"
+        ],
+        "coverHalf": [
+            "/music/nekomonogatari-shiro-music-collection-0.5x.avif",
+            "/music/nekomonogatari-shiro-music-collection-0.5x.webp",
+            "/music/nekomonogatari-shiro-music-collection-0.5x.jpg"
+        ],
+        "hidden": true,
+        "position": "top",
+        "sources": [
+        	"nekomonogatari-shiro"
+        ],
+        "trackList": [
+            {
+                "name": "私の物語",
+                "length": "3:09"
+            },
+            {
+                "name": "真実からは 程遠い存在",
+                "length": "3:03"
+            },
+            {
+                "name": "苛虎",
+                "length": "1:15"
+            },
+            {
+                "name": "唐突な問い",
+                "length": "2:41"
+            },
+            {
+                "name": "家族会議",
+                "length": "2:34"
+            },
+            {
+                "name": "貫徹",
+                "length": "2:30"
+            },
+            {
+                "name": "民倉荘",
+                "length": "2:39"
+            },
+            {
+                "name": "下心",
+                "length": "3:27"
+            },
+            {
+                "name": "女子同士",
+                "length": "1:12"
+            },
+            {
+                "name": "怪訝",
+                "length": "2:27"
+            },
+            {
+                "name": "手紙",
+                "length": "1:15"
+            },
+            {
+                "name": "草々不一",
+                "length": "3:24"
+            },
+            {
+                "name": "吾輩は虎である",
+                "length": "1:50"
+            },
+            {
+                "name": "羽川翼は－否定する。",
+                "length": "2:47"
+            },
+            {
+                "name": "告白",
+                "length": "4:31"
+            },
+            {
+                "name": "「ただいま」",
+                "length": "2:10"
+            },
+            {
+                "name": "次回、つばさタイガー",
+                "length": "0:51"
+            },
+            {
+                "name": "あとがたり",
+                "length": "29:55"
+            }
+        ]
+    },
+    {
+        "title": "happy-bite",
+        "name": "happy bite",
+        "artist": "八九寺真宵(加藤英美里)",
+        "date": "2013-12-25",
+        "color": "--bg-yellow",
+        "cover": [
+            "/music/happy-bite.avif",
+            "/music/happy-bite.webp",
+            "/music/happy-bite.jpg"
+        ],
+        "coverHalf": [
+            "/music/happy-bite-0.5x.avif",
+            "/music/happy-bite-0.5x.webp",
+            "/music/happy-bite-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"kabukimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "happy bite",
+                "length": "4:10"
+            },
+            {
+                "name": "happy bite -instrumental-",
+                "length": "4:09"
+            }
+        ]
+    },
+    {
+        "title": "kabukimonogatari-music-collection",
+        "name": "Kabukimonogatari Music Collection & Atogatari",
+        "kanji": "「傾物語」劇伴音楽集&あとがたり",
+        "artist": "神前暁",
+        "date": "2014-01-22",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/kabukimonogatari-music-collection.avif",
+            "/music/kabukimonogatari-music-collection.webp",
+            "/music/kabukimonogatari-music-collection.jpg"
+        ],
+        "coverHalf": [
+            "/music/kabukimonogatari-music-collection-0.5x.avif",
+            "/music/kabukimonogatari-music-collection-0.5x.webp",
+            "/music/kabukimonogatari-music-collection-0.5x.jpg"
+        ],
+        "hidden": true,
+        "position": "top",
+        "sources": [
+        	"kabukimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "まがいものそのものの女",
+                "length": "2:01"
+            },
+            {
+                "name": "トリビア",
+                "length": "1:52"
+            },
+            {
+                "name": "違和感",
+                "length": "2:59"
+            },
+            {
+                "name": "生まれ変わり",
+                "length": "2:21"
+            },
+            {
+                "name": "詠唱",
+                "length": "3:11"
+            },
+            {
+                "name": "タイムワープ",
+                "length": "3:32"
+            },
+            {
+                "name": "廃墟の町",
+                "length": "2:20"
+            },
+            {
+                "name": "八つ当たり",
+                "length": "4:18"
+            },
+            {
+                "name": "十一年後の姿",
+                "length": "1:23"
+            },
+            {
+                "name": "手紙",
+                "length": "3:05"
+            },
+            {
+                "name": "親切",
+                "length": "1:41"
+            },
+            {
+                "name": "僕達の戦い",
+                "length": "2:29"
+            },
+            {
+                "name": "襲来",
+                "length": "3:10"
+            },
+            {
+                "name": "ただのお願い",
+                "length": "1:56"
+            },
+            {
+                "name": "「わたしは阿良々木さんと会えたんですから」",
+                "length": "1:30"
+            },
+            {
+                "name": "次回、まよいキョンシー",
+                "length": "0:55"
+            },
+            {
+                "name": "あとがたり",
+                "length": "32:38"
+            }
+        ]
+    },
+    {
+        "title": "mousou-express",
+        "name": "Mousou♡Express",
+        "kanji": "もうそう♡えくすぷれす",
+        "artist": "千石撫子(花澤香菜)",
+        "date": "2014-02-26",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/mousou-express.avif",
+            "/music/mousou-express.webp",
+            "/music/mousou-express.jpg"
+        ],
+        "coverHalf": [
+            "/music/mousou-express-0.5x.avif",
+            "/music/mousou-express-0.5x.webp",
+            "/music/mousou-express-0.5x.jpg"
+        ],
+        "sources": [
+        	"otorimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "もうそう♡えくすぷれす",
+                "length": "4:25"
+            },
+            {
+                "name": "もうそう♡えくすぷれす -instrumental-",
+                "length": "4:20"
+            }
+        ]
+    },
+    {
+        "title": "otorimonogatari-music-collection",
+        "name": "Otorimonogatari Music Collection & Atogatari",
+        "kanji": "「囮物語」劇伴音楽集&あとがたり",
+        "artist": "神前暁",
+        "date": "2014-03-26",
+        "color": "--bg-white",
+        "cover": [
+            "/music/otorimonogatari-music-collection.avif",
+            "/music/otorimonogatari-music-collection.webp",
+            "/music/otorimonogatari-music-collection.jpg"
+        ],
+        "coverHalf": [
+            "/music/otorimonogatari-music-collection-0.5x.avif",
+            "/music/otorimonogatari-music-collection-0.5x.webp",
+            "/music/otorimonogatari-music-collection-0.5x.jpg"
+        ],
+        "hidden": true,
+        "position": "top",
+        "sources": [
+        	"otorimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "千石撫子、十四歳。",
+                "length": "1:19"
+            },
+            {
+                "name": "蛇髪娘",
+                "length": "2:13"
+            },
+            {
+                "name": "A級不審人物",
+                "length": "3:00"
+            },
+            {
+                "name": "二年二組",
+                "length": "3:36"
+            },
+            {
+                "name": "失言",
+                "length": "2:23"
+            },
+            {
+                "name": "クチナワ",
+                "length": "2:16"
+            },
+            {
+                "name": "無理な相談",
+                "length": "2:45"
+            },
+            {
+                "name": "中学生ライフ",
+                "length": "2:51"
+            },
+            {
+                "name": "死体探し",
+                "length": "3:30"
+            },
+            {
+                "name": "ダウジング",
+                "length": "1:59"
+            },
+            {
+                "name": "ジャンヌ・ダルク気取り",
+                "length": "4:03"
+            },
+            {
+                "name": "勝手な話",
+                "length": "3:24"
+            },
+            {
+                "name": "竜頭蛇尾",
+                "length": "4:12"
+            },
+            {
+                "name": "取引",
+                "length": "3:11"
+            },
+            {
+                "name": "「ようこそ暦お兄ちゃん。可愛がってあげるね。」",
+                "length": "1:57"
+            },
+            {
+                "name": "次回、なでこメドゥーサ",
+                "length": "0:57"
+            },
+            {
+                "name": "あとがたり",
+                "length": "28:00"
+            }
+        ]
+    },
+    {
+        "title": "white-lies",
+        "name": "white lies & Special Cast Talk \"Araragi Koyomi, Kesseki Saiban!?\"",
+        "kanji": "「white lies」&スペシャルキャストトーク「阿良々木暦、欠席裁判!?」",
+        "artist": "Various Artists",
+        "date": "2014-04-23",
+        "color": "--bg-orange",
+        "cover": [
+            "/music/white-lies.avif",
+            "/music/white-lies.webp",
+            "/music/white-lies.jpg"
+        ],
+        "coverHalf": [
+            "/music/white-lies-0.5x.avif",
+            "/music/white-lies-0.5x.webp",
+            "/music/white-lies-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"onimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "white lies",
+                "length": "3:26"
+            },
+            {
+                "name": "スペシャルキャストトーク「阿良々木暦、欠席裁判!?」",
+                "length": "30:14"
+            }
+        ]
+    },
+    {
+        "title": "onimonogatari-music-collection",
+        "name": "Onimonogatari Music Collection & Atogatari",
+        "kanji": "「鬼物語」劇伴音楽集&あとがたり",
+        "artist": "神前暁",
+        "date": "2014-05-28",
+        "color": "--bg-salmon",
+        "cover": [
+            "/music/onimonogatari-music-collection.avif",
+            "/music/onimonogatari-music-collection.webp",
+            "/music/onimonogatari-music-collection.jpg"
+        ],
+        "coverHalf": [
+            "/music/onimonogatari-music-collection-0.5x.avif",
+            "/music/onimonogatari-music-collection-0.5x.webp",
+            "/music/onimonogatari-music-collection-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"onimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "気まぐれ",
+                "length": "1:25"
+            },
+            {
+                "name": "くらやみ",
+                "length": "1:53"
+            },
+            {
+                "name": "赤信号",
+                "length": "0:17"
+            },
+            {
+                "name": "現象",
+                "length": "2:17"
+            },
+            {
+                "name": "理不尽",
+                "length": "2:39"
+            },
+            {
+                "name": "不意打ち",
+                "length": "2:03"
+            },
+            {
+                "name": "昔語り",
+                "length": "2:53"
+            },
+            {
+                "name": "神扱い",
+                "length": "2:33"
+            },
+            {
+                "name": "異常事態",
+                "length": "2:16"
+            },
+            {
+                "name": "神隠しの正体",
+                "length": "1:13"
+            },
+            {
+                "name": "孤独感",
+                "length": "1:32"
+            },
+            {
+                "name": "天罰",
+                "length": "4:07"
+            },
+            {
+                "name": "お見通しの千里眼",
+                "length": "2:14"
+            },
+            {
+                "name": "断言",
+                "length": "1:40"
+            },
+            {
+                "name": "臥煙家の血統",
+                "length": "1:59"
+            },
+            {
+                "name": "幽霊の幽霊",
+                "length": "2:14"
+            },
+            {
+                "name": "自分の言葉",
+                "length": "2:09"
+            },
+            {
+                "name": "はなむけ",
+                "length": "6:00"
+            },
+            {
+                "name": "「ろくでもない、鬼の物語が」",
+                "length": "3:14"
+            },
+            {
+                "name": "次回、しのぶタイム",
+                "length": "1:01"
+            },
+            {
+                "name": "あとがたり",
+                "length": "32:13"
+            }
+        ]
+    },
+    {
+        "title": "fast-love",
+        "name": "fast love & Koimonogatari Music Collection",
+        "kanji": "「fast love」&「恋物語」劇伴音楽集",
+        "artist": "神前暁",
+        "date": "2014-06-25",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/fast-love.avif",
+            "/music/fast-love.webp",
+            "/music/fast-love.jpg"
+        ],
+        "coverHalf": [
+            "/music/fast-love-0.5x.avif",
+            "/music/fast-love-0.5x.webp",
+            "/music/fast-love-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"koimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "fast love",
+                "length": "4:37"
+            },
+            {
+                "name": "fast love -instrumental-",
+                "length": "4:39"
+            },
+            {
+                "name": "怠け者の節句働き",
+                "length": "2:31"
+            },
+            {
+                "name": "腹芸",
+                "length": "2:04"
+            },
+            {
+                "name": "老婆心",
+                "length": "2:53"
+            },
+            {
+                "name": "白けた反応",
+                "length": "2:31"
+            },
+            {
+                "name": "悪い冗談",
+                "length": "3:37"
+            },
+            {
+                "name": "フェイント",
+                "length": "3:10"
+            },
+            {
+                "name": "把握",
+                "length": "1:22"
+            },
+            {
+                "name": "満身創痍",
+                "length": "6:29"
+            },
+            {
+                "name": "適材適所",
+                "length": "3:51"
+            },
+            {
+                "name": "「ありがとうございます。助かりました」",
+                "length": "2:11"
+            },
+            {
+                "name": "地獄の沙汰も金次第",
+                "length": "1:17"
+            },
+            {
+                "name": "次回、ひたぎエンド",
+                "length": "1:21"
+            }
+        ]
+    },
+    {
+        "title": "kogarashi-sentiment",
+        "name": "Kogarashi Sentiment & Atogatari",
+        "kanji": "「木枯らしセンティメント」&あとがたり",
+        "artist": "戦場ヶ原ひたぎ(斎藤千和) & 貝木泥舟(三木眞一郎)",
+        "date": "2014-07-23",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/kogarashi-sentiment.avif",
+            "/music/kogarashi-sentiment.webp",
+            "/music/kogarashi-sentiment.jpg"
+        ],
+        "coverHalf": [
+            "/music/kogarashi-sentiment-0.5x.avif",
+            "/music/kogarashi-sentiment-0.5x.webp",
+            "/music/kogarashi-sentiment-0.5x.jpg"
+        ],
+        "hidden": true,
+        "sources": [
+        	"koimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "木枯らしセンティメント -戦場ヶ原ひたぎ&貝木泥舟 ver.-",
+                "length": "4:35"
+            },
+            {
+                "name": "あとがたり",
+                "length": "42:56"
+            },
+            {
+                "name": "木枯らしセンティメント -ときめき/cm ver.-",
+                "length": "4:35"
+            }
+        ]
+    },
+    {
+        "title": "the-last-day-of-my-adolescence",
+        "name": "the last day of my adolescence & Hanamonogatari Music Collection I",
+        "kanji": "「the last day of my adolescence」&「花物語」劇伴音楽集 其ノ壹",
+        "artist": "羽岡佳",
+        "date": "2014-09-24",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/the-last-day-of-my-adolescence.avif",
+            "/music/the-last-day-of-my-adolescence.webp",
+            "/music/the-last-day-of-my-adolescence.jpg"
+        ],
+        "coverHalf": [
+            "/music/the-last-day-of-my-adolescence-0.5x.avif",
+            "/music/the-last-day-of-my-adolescence-0.5x.webp",
+            "/music/the-last-day-of-my-adolescence-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"hanamonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "the last day of my adolescence",
+                "length": "4:25"
+            },
+            {
+                "name": "the last day of my adolescence -instrumental-",
+                "length": "4:23"
+            },
+            {
+                "name": "私の話と、彼女の話",
+                "length": "2:53"
+            },
+            {
+                "name": "神原駿河の人生",
+                "length": "2:42"
+            },
+            {
+                "name": "いまどきの後輩",
+                "length": "2:34"
+            },
+            {
+                "name": "悪魔様",
+                "length": "2:44"
+            },
+            {
+                "name": "陽気な調子",
+                "length": "2:42"
+            },
+            {
+                "name": "茶髪の悪魔",
+                "length": "3:01"
+            },
+            {
+                "name": "挑発的な物言い",
+                "length": "2:53"
+            },
+            {
+                "name": "意地悪クイズ",
+                "length": "3:20"
+            },
+            {
+                "name": "宿敵",
+                "length": "2:40"
+            },
+            {
+                "name": "戸惑う気持ち",
+                "length": "2:40"
+            },
+            {
+                "name": "ポニーテイル",
+                "length": "2:38"
+            },
+            {
+                "name": "所在不明",
+                "length": "2:42"
+            },
+            {
+                "name": "通せんぼ",
+                "length": "2:44"
+            },
+            {
+                "name": "肉奉行",
+                "length": "2:36"
+            },
+            {
+                "name": "ノスタルジィ",
+                "length": "2:37"
+            },
+            {
+                "name": "親切なおじさん",
+                "length": "2:44"
+            },
+            {
+                "name": "ひたむきな気概",
+                "length": "2:38"
+            }
+        ]
+    },
+    {
+        "title": "shirushi",
+        "name": "shirushi & Hanamonogatari Music Collection II & Atogatari",
+        "kanji": "「花痕 -shirushi-」&「花物語」劇伴音楽集 其ノ貳&あとがたり",
+        "artist": "羽岡佳",
+        "date": "2014-10-22",
+        "color": "--bg-white",
+        "cover": [
+            "/music/shirushi.avif",
+            "/music/shirushi.webp",
+            "/music/shirushi.jpg"
+        ],
+        "coverHalf": [
+            "/music/shirushi-0.5x.avif",
+            "/music/shirushi-0.5x.webp",
+            "/music/shirushi-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"hanamonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "花痕 -shirushi-",
+                "length": "4:33"
+            },
+            {
+                "name": "花痕 -shirushi- (instrumental)",
+                "length": "4:34"
+            },
+            {
+                "name": "バスケットボール",
+                "length": "2:35"
+            },
+            {
+                "name": "邪魔っけなあとがき",
+                "length": "2:55"
+            },
+            {
+                "name": "悪魔の理不尽",
+                "length": "4:01"
+            },
+            {
+                "name": "不幸の蒐集",
+                "length": "3:35"
+            },
+            {
+                "name": "ナンバーゼロイチ",
+                "length": "4:29"
+            },
+            {
+                "name": "沼地の人生",
+                "length": "1:25"
+            },
+            {
+                "name": "タイミングのいい奴",
+                "length": "3:34"
+            },
+            {
+                "name": "納得",
+                "length": "2:49"
+            },
+            {
+                "name": "想定外",
+                "length": "2:43"
+            },
+            {
+                "name": "卒業",
+                "length": "3:19"
+            },
+            {
+                "name": "「私はあいつが―羨ましかったんだ」",
+                "length": "3:17"
+            },
+            {
+                "name": "あとがたり",
+                "length": "30:54"
+            }
+        ]
+    },
+    {
+        "title": "border",
+        "name": "border",
+        "artist": "ClariS",
+        "date": "2015-01-07",
+        "color": "--bg-green",
+        "cover": [
+            "/music/border.avif",
+            "/music/border.webp",
+            "/music/border.jpg"
+        ],
+        "coverAlt": [
+            "/music/border-alt.avif",
+            "/music/border-alt.webp",
+            "/music/border-alt.jpg"
+        ],
+        "coverHalf": [
+            "/music/border-0.5x.avif",
+            "/music/border-0.5x.webp",
+            "/music/border-0.5x.jpg"
+        ],
+        "sources": [
+        	"tsukimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "border",
+                "length": "4:25"
+            },
+            {
+                "name": "Reflect",
+                "length": "4:31"
+            },
+            {
+                "name": "カイト",
+                "length": "4:31"
+            },
+            {
+                "name": "border -TV MIX-",
+                "length": "1:31"
+            }
+        ]
+    },
+    {
+        "title": "orange-mint",
+        "name": "Orange Mint & Tsukimonogatari Music Collection I",
+        "kanji": "「オレンジミント」&「憑物語」劇伴音楽集 其ノ壹",
+        "artist": "羽岡佳",
+        "date": "2015-02-04",
+        "color": "--bg-green",
+        "cover": [
+            "/music/orange-mint.avif",
+            "/music/orange-mint.webp",
+            "/music/orange-mint.jpg"
+        ],
+        "coverHalf": [
+            "/music/orange-mint-0.5x.avif",
+            "/music/orange-mint-0.5x.webp",
+            "/music/orange-mint-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"tsukimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "オレンジミント",
+                "length": "4:35"
+            },
+            {
+                "name": "オレンジミント (Instrumental)",
+                "length": "4:34"
+            },
+            {
+                "name": "出自",
+                "length": "2:38"
+            },
+            {
+                "name": "終わりの始まり",
+                "length": "3:04"
+            },
+            {
+                "name": "とけいもうと",
+                "length": "2:47"
+            },
+            {
+                "name": "目を覚ますべき頃",
+                "length": "2:47"
+            },
+            {
+                "name": "お湯の毒味",
+                "length": "1:37"
+            },
+            {
+                "name": "無限の沈黙",
+                "length": "1:43"
+            },
+            {
+                "name": "ポジショニング",
+                "length": "1:37"
+            },
+            {
+                "name": "スリリング",
+                "length": "1:49"
+            },
+            {
+                "name": "役回り",
+                "length": "1:37"
+            },
+            {
+                "name": "超自然",
+                "length": "1:36"
+            },
+            {
+                "name": "温度差",
+                "length": "2:42"
+            },
+            {
+                "name": "模範解答",
+                "length": "2:39"
+            },
+            {
+                "name": "クレーンゲーム",
+                "length": "3:02"
+            },
+            {
+                "name": "シュール萌え",
+                "length": "2:51"
+            },
+            {
+                "name": "完全回復",
+                "length": "2:24"
+            },
+            {
+                "name": "適切を超えて完璧",
+                "length": "2:38"
+            },
+            {
+                "name": "威風堂々",
+                "length": "2:40"
+            },
+            {
+                "name": "絶望的な回答",
+                "length": "2:42"
+            }
+        ]
+    },
+    {
+        "title": "tsukimonogatari-music-collection-ii",
+        "name": "Tsukimonogatari Music Collection II & Atogatari",
+        "kanji": "「憑物語」劇伴音楽集 其ノ貳&あとがたり",
+        "artist": "羽岡佳",
+        "date": "2015-03-04",
+        "color": "--bg-green",
+        "cover": [
+            "/music/tsukimonogatari-music-collection-ii.avif",
+            "/music/tsukimonogatari-music-collection-ii.webp",
+            "/music/tsukimonogatari-music-collection-ii.jpg"
+        ],
+        "coverHalf": [
+            "/music/tsukimonogatari-music-collection-ii-0.5x.avif",
+            "/music/tsukimonogatari-music-collection-ii-0.5x.webp",
+            "/music/tsukimonogatari-music-collection-ii-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"tsukimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "仕上げの総仕上げ",
+                "length": "2:44"
+            },
+            {
+                "name": "そういう奴",
+                "length": "3:53"
+            },
+            {
+                "name": "犯行予告状",
+                "length": "2:37"
+            },
+            {
+                "name": "人質救出",
+                "length": "3:06"
+            },
+            {
+                "name": "ふわふわする子",
+                "length": "2:37"
+            },
+            {
+                "name": "出自",
+                "length": "3:04"
+            },
+            {
+                "name": "重い言葉",
+                "length": "2:40"
+            },
+            {
+                "name": "犯人",
+                "length": "2:37"
+            },
+            {
+                "name": "自虐的な微笑",
+                "length": "2:35"
+            },
+            {
+                "name": "「こうはならないでね、鬼いちゃん。人間は化物なってしまえば-おしまいだ」",
+                "length": "1:49"
+            },
+            {
+                "name": "バレンタインデー",
+                "length": "2:39"
+            },
+            {
+                "name": "騒がしい日々",
+                "length": "1:38"
+            },
+            {
+                "name": "あとがたり",
+                "length": "29:27"
+            }
+        ]
+    },
+    {
+        "title": "decent-black",
+        "name": "decent black & Atogatari",
+        "kanji": "「decent black」&あとがたり",
+        "artist": "忍野扇(水橋かおり)",
+        "date": "2015-12-23",
+        "color": "--bg-black",
+        "cover": [
+            "/music/decent-black.avif",
+            "/music/decent-black.webp",
+            "/music/decent-black.jpg"
+        ],
+        "coverHalf": [
+            "/music/decent-black-0.5x.avif",
+            "/music/decent-black-0.5x.webp",
+            "/music/decent-black-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"owarimonogatari-jou"
+        ],
+        "trackList": [
+            {
+                "name": "decent black",
+                "length": "4:35"
+            },
+            {
+                "name": "decent black (instrumental)",
+                "length": "4:41"
+            },
+            {
+                "name": "あとがたり",
+                "length": "28:56"
+            }
+        ]
+    },
+    {
+        "title": "mathemagics",
+        "name": "mathemagics & Atogatari",
+        "kanji": "「mathemagics」&あとがたり",
+        "artist": "老倉育(井上麻里奈)",
+        "date": "2016-01-27",
+        "color": "--bg-white",
+        "cover": [
+            "/music/mathemagics.avif",
+            "/music/mathemagics.webp",
+            "/music/mathemagics.jpg"
+        ],
+        "coverHalf": [
+            "/music/mathemagics-0.5x.avif",
+            "/music/mathemagics-0.5x.webp",
+            "/music/mathemagics-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"owarimonogatari-jou"
+        ],
+        "trackList": [
+            {
+                "name": "mathemagics",
+                "length": "4:05"
+            },
+            {
+                "name": "mathemagics (instrumental)",
+                "length": "4:05"
+            },
+            {
+                "name": "あとがたり",
+                "length": "40:41"
+            }
+        ]
+    },
+    {
+        "title": "sayonara-no-yukue",
+        "name": "Sayonara no Yukue",
+        "kanji": "さよならのゆくえ",
+        "artist": "瀧川ありさ",
+        "date": "2015-11-18",
+        "color": "--bg-green",
+        "cover": [
+            "/music/sayonara-no-yukue.avif",
+            "/music/sayonara-no-yukue.webp",
+            "/music/sayonara-no-yukue.jpg"
+        ],
+        "coverAlt": [
+            "/music/sayonara-no-yukue-alt.avif",
+            "/music/sayonara-no-yukue-alt.webp",
+            "/music/sayonara-no-yukue-alt.jpg"
+        ],
+        "coverHalf": [
+            "/music/sayonara-no-yukue-0.5x.avif",
+            "/music/sayonara-no-yukue-0.5x.webp",
+            "/music/sayonara-no-yukue-0.5x.jpg"
+        ],
+        "sources": [
+        	"owarimonogatari-jou"
+        ],
+        "trackList": [
+            {
+                "name": "さよならのゆくえ",
+                "length": "3:57"
+            },
+            {
+                "name": "1991",
+                "length": "5:00"
+            },
+            {
+                "name": "銀河鉄道の降り方",
+                "length": "4:09"
+            },
+            {
+                "name": "さよならのゆくえ 〜TV size〜",
+                "length": "1:33"
+            },
+            {
+                "name": "さよならのゆくえ 〜TV size ver. Instrumental〜",
+                "length": "1:31"
+            }
+        ]
+    },
+    {
+        "title": "utamonogatari",
+        "name": "Utamonogatari: Monogatari Series Theme Songs Compilation Album",
+        "kanji": "歌物語 -<物語>シリーズ主題歌集-",
+        "artist": "Various Artists",
+        "date": "2016-01-06",
+        "color": "--bg-salmon",
+        "cover": [
+            "/music/utamonogatari.avif",
+            "/music/utamonogatari.webp",
+            "/music/utamonogatari.jpg"
+        ],
+        "coverHalf": [
+            "/music/utamonogatari-0.5x.avif",
+            "/music/utamonogatari-0.5x.webp",
+            "/music/utamonogatari-0.5x.jpg"
+        ],
+        "sources": [
+        	"bakemonogatari",
+         	"nisemonogatari",
+          	"nekomonogatari-kuro",
+           	"nekomonogatari-shiro",
+            "kabukimonogatari",
+            "hanamonogatari",
+            "otorimonogatari",
+            "onimonogatari",
+            "koimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "staple stable",
+                "length": "4:33"
+            },
+            {
+                "name": "帰り道",
+                "length": "4:03"
+            },
+            {
+                "name": "ambivalent world",
+                "length": "4:15"
+            },
+            {
+                "name": "恋愛サーキュレーション",
+                "length": "4:11"
+            },
+            {
+                "name": "sugar sweet nightmare",
+                "length": "4:27"
+            },
+            {
+                "name": "君の知らない物語",
+                "length": "5:40"
+            },
+            {
+                "name": "二言目",
+                "length": "4:23"
+            },
+            {
+                "name": "marshmallow justice",
+                "length": "4:13"
+            },
+            {
+                "name": "白金ディスコ",
+                "length": "4:13"
+            },
+            {
+                "name": "ナイショの話",
+                "length": "4:18"
+            },
+            {
+                "name": "perfect slumbers",
+                "length": "4:25"
+            },
+            {
+                "name": "消えるdaydream",
+                "length": "4:37"
+            },
+            {
+                "name": "chocolate insomnia",
+                "length": "4:36"
+            },
+            {
+                "name": "happy bite",
+                "length": "4:09"
+            },
+            {
+                "name": "アイヲウタエ",
+                "length": "4:08"
+            },
+            {
+                "name": "the last day of my adolescence",
+                "length": "4:22"
+            },
+            {
+                "name": "花痕 -shirushi-",
+                "length": "4:30"
+            },
+            {
+                "name": "もうそう♡えくすぷれす",
+                "length": "4:20"
+            },
+            {
+                "name": "white lies",
+                "length": "3:23"
+            },
+            {
+                "name": "その声を覚えてる",
+                "length": "4:06"
+            },
+            {
+                "name": "fast love",
+                "length": "4:35"
+            },
+            {
+                "name": "木枯らしセンティメント",
+                "length": "4:35"
+            },
+            {
+                "name": "snowdrop",
+                "length": "5:09"
+            }
+        ]
+    },
+    {
+        "title": "whiz",
+        "name": "whiz",
+        "artist": "TrySail",
+        "date": "2016-02-10",
+        "color": "--bg-orange",
+        "cover": [
+            "/music/whiz.avif",
+            "/music/whiz.webp",
+            "/music/whiz.jpg"
+        ],
+        "coverAlt": [
+            "/music/whiz-alt.avif",
+            "/music/whiz-alt.webp",
+            "/music/whiz-alt.jpg"
+        ],
+        "coverHalf": [
+            "/music/whiz-0.5x.avif",
+            "/music/whiz-0.5x.webp",
+            "/music/whiz-0.5x.jpg"
+        ],
+        "sources": [
+        	"koyomimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "whiz",
+                "length": "4:25"
+            },
+            {
+                "name": "Baby My Step",
+                "length": "4:08"
+            },
+            {
+                "name": "whiz [TV ver.]",
+                "length": "1:30"
+            },
+            {
+                "name": "whiz [Instrumental]",
+                "length": "4:25"
+            },
+            {
+                "name": "Baby My Step [Instrumental]",
+                "length": "4:06"
+            }
+        ]
+    },
+    {
+        "title": "yuudachi-houteishiki",
+        "name": "Yuudachi Houteishiki & Atogatari",
+        "kanji": "「夕立方程式」&あとがたり",
+        "artist": "老倉育(井上麻里奈)",
+        "date": "2016-02-24",
+        "color": "--bg-white",
+        "cover": [
+            "/music/yuudachi-houteishiki.avif",
+            "/music/yuudachi-houteishiki.webp",
+            "/music/yuudachi-houteishiki.jpg"
+        ],
+        "coverHalf": [
+            "/music/yuudachi-houteishiki-0.5x.avif",
+            "/music/yuudachi-houteishiki-0.5x.webp",
+            "/music/yuudachi-houteishiki-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"owarimonogatari-jou"
+        ],
+        "trackList": [
+            {
+                "name": "夕立方程式",
+                "length": "4:40"
+            },
+            {
+                "name": "夕立方程式 (instrumental)",
+                "length": "4:42"
+            },
+            {
+                "name": "あとがたり",
+                "length": "43:02"
+            }
+        ]
+    },
+    {
+        "title": "mein-schatz",
+        "name": "mein schatz & Owarimonogatari Music Collection I",
+        "kanji": "「mein schatz」&「終物語」劇伴音楽集 其ノ壹",
+        "artist": "羽岡佳",
+        "date": "2016-03-23",
+        "color": "--bg-orange",
+        "cover": [
+            "/music/mein-schatz.avif",
+            "/music/mein-schatz.webp",
+            "/music/mein-schatz.jpg"
+        ],
+        "coverHalf": [
+            "/music/mein-schatz-0.5x.avif",
+            "/music/mein-schatz-0.5x.webp",
+            "/music/mein-schatz-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"owarimonogatari-jou"
+        ],
+        "trackList": [
+            {
+                "name": "mein schatz",
+                "length": "4:05"
+            },
+            {
+                "name": "オイラー",
+                "length": "2:35"
+            },
+            {
+                "name": "みたいな感じ",
+                "length": "2:38"
+            },
+            {
+                "name": "姪っ子",
+                "length": "2:38"
+            },
+            {
+                "name": "デッドスペース",
+                "length": "2:34"
+            },
+            {
+                "name": "居残り授業",
+                "length": "2:37"
+            },
+            {
+                "name": "見えるはずのない風景",
+                "length": "2:41"
+            },
+            {
+                "name": "七月十五日",
+                "length": "2:42"
+            },
+            {
+                "name": "老倉委員長",
+                "length": "2:37"
+            },
+            {
+                "name": "秘密学級会",
+                "length": "2:42"
+            },
+            {
+                "name": "学級会の幽霊",
+                "length": "2:41"
+            },
+            {
+                "name": "水かけ論",
+                "length": "2:53"
+            },
+            {
+                "name": "多数決",
+                "length": "2:50"
+            },
+            {
+                "name": "新旧文房具女対決",
+                "length": "2:41"
+            },
+            {
+                "name": "数学の妖精",
+                "length": "2:39"
+            },
+            {
+                "name": "部外者",
+                "length": "2:42"
+            },
+            {
+                "name": "遡らなければならない記憶",
+                "length": "2:40"
+            },
+            {
+                "name": "お見舞い",
+                "length": "2:35"
+            },
+            {
+                "name": "割り込み横入り",
+                "length": "2:37"
+            },
+            {
+                "name": "二者択一",
+                "length": "2:37"
+            },
+            {
+                "name": "444号室",
+                "length": "2:55"
+            },
+            {
+                "name": "手遅れ",
+                "length": "2:44"
+            },
+            {
+                "name": "最悪の真相",
+                "length": "3:18"
+            },
+            {
+                "name": "やっぱり",
+                "length": "2:54"
+            },
+            {
+                "name": "「私は何も知りませんよ。あなたが知っているんです-阿良々木先輩。」",
+                "length": "2:23"
+            }
+        ]
+    },
+    {
+        "title": "owarimonogatari-music-collection-ii",
+        "name": "Owarimonogatari Music Collection II & Atogatari",
+        "kanji": "「終物語」劇伴音楽集 其ノ貳&あとがたり",
+        "artist": "羽岡佳",
+        "date": "2016-04-27",
+        "color": "--bg-black",
+        "cover": [
+            "/music/owarimonogatari-music-collection-ii.avif",
+            "/music/owarimonogatari-music-collection-ii.webp",
+            "/music/owarimonogatari-music-collection-ii.jpg"
+        ],
+        "coverHalf": [
+            "/music/owarimonogatari-music-collection-ii-0.5x.avif",
+            "/music/owarimonogatari-music-collection-ii-0.5x.webp",
+            "/music/owarimonogatari-music-collection-ii-0.5x.jpg"
+        ],
+        "hidden": true,
+        "position": "top",
+        "sources": [
+        	"owarimonogatari-jou"
+        ],
+        "trackList": [
+            {
+                "name": "前節",
+                "length": "2:25"
+            },
+            {
+                "name": "潰れた蛙",
+                "length": "2:18"
+            },
+            {
+                "name": "放恣なご奉仕",
+                "length": "2:15"
+            },
+            {
+                "name": "甲冑",
+                "length": "2:35"
+            },
+            {
+                "name": "我者我者",
+                "length": "2:35"
+            },
+            {
+                "name": "鎧武者",
+                "length": "2:38"
+            },
+            {
+                "name": "開示すべき場面",
+                "length": "2:09"
+            },
+            {
+                "name": "棒読み",
+                "length": "2:16"
+            },
+            {
+                "name": "リスキーな真似",
+                "length": "2:39"
+            },
+            {
+                "name": "後始末",
+                "length": "2:39"
+            },
+            {
+                "name": "悲しき無限コンティニュー",
+                "length": "3:04"
+            },
+            {
+                "name": "怪異殺し少年",
+                "length": "2:53"
+            },
+            {
+                "name": "女子同士の喧嘩",
+                "length": "2:30"
+            },
+            {
+                "name": "ただの人見知り",
+                "length": "2:25"
+            },
+            {
+                "name": "道破",
+                "length": "2:40"
+            },
+            {
+                "name": "先輩冥利",
+                "length": "2:35"
+            },
+            {
+                "name": "誰かの特別",
+                "length": "2:40"
+            },
+            {
+                "name": "最後の会話",
+                "length": "3:09"
+            },
+            {
+                "name": "「儂のほうこそ悪かった-生死郎」",
+                "length": "2:42"
+            },
+            {
+                "name": "あとがたり",
+                "length": "28:58"
+            }
+        ]
+    },
+    {
+    	"title": "koyomimonogatari-atogatari",
+        "name": "Koyomimonogatari Atogatari",
+        "kanji": "暦物語あとがたり",
+        "artist": "神谷浩史, 斎藤千和 & 堀江由衣",
+        "date": "2016-06-29",
+        "color": "--bg-purple",
+        "cover": [
+            "/music/koyomimonogatari-atogatari.avif",
+            "/music/koyomimonogatari-atogatari.webp",
+            "/music/koyomimonogatari-atogatari.jpg"
+        ],
+        "coverHalf": [
+            "/music/koyomimonogatari-atogatari-0.5x.avif",
+            "/music/koyomimonogatari-atogatari-0.5x.webp",
+            "/music/koyomimonogatari-atogatari-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"koyomimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "あとがたり",
+                "length": "47:09"
+            }
+        ]
+    },
+    {
+        "title": "kizumonogatari-music-collection-i",
+        "name": "Kizumonogatari Music Collection I: Tekketsu-hen",
+        "kanji": "「傷物語」劇伴音楽集 其ノ壹 鉄血篇",
+        "artist": "神前暁・高田龍一・帆足圭吾・難波研",
+        "date": "2016-07-27",
+        "color": "--bg-red",
+        "cover": [
+            "/music/kizumonogatari-music-collection-i.avif",
+            "/music/kizumonogatari-music-collection-i.webp",
+            "/music/kizumonogatari-music-collection-i.jpg"
+        ],
+        "coverHalf": [
+            "/music/kizumonogatari-music-collection-i-0.5x.avif",
+            "/music/kizumonogatari-music-collection-i-0.5x.webp",
+            "/music/kizumonogatari-music-collection-i-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"kizumonogatari-I"
+        ],
+        "trackList": [
+            {
+                "name": "三月二十八日",
+                "length": "1:22"
+            },
+            {
+                "name": "記憶",
+                "length": "1:39"
+            },
+            {
+                "name": "燃焼",
+                "length": "0:25"
+            },
+            {
+                "name": "鉄血篇 タイトルバック",
+                "length": "1:07"
+            },
+            {
+                "name": "一陣の風",
+                "length": "0:53"
+            },
+            {
+                "name": "見られたくないもの",
+                "length": "0:48"
+            },
+            {
+                "name": "フルネーム",
+                "length": "1:33"
+            },
+            {
+                "name": "噂",
+                "length": "2:04"
+            },
+            {
+                "name": "人間強度",
+                "length": "1:36"
+            },
+            {
+                "name": "友達",
+                "length": "1:21"
+            },
+            {
+                "name": "劣情に近い感情",
+                "length": "0:19"
+            },
+            {
+                "name": "ミッション",
+                "length": "0:10"
+            },
+            {
+                "name": "三月二十六日",
+                "length": "3:17"
+            },
+            {
+                "name": "瀕死",
+                "length": "1:55"
+            },
+            {
+                "name": "人外",
+                "length": "0:33"
+            },
+            {
+                "name": "懇願",
+                "length": "2:03"
+            },
+            {
+                "name": "血",
+                "length": "1:34"
+            },
+            {
+                "name": "あと気分",
+                "length": "1:03"
+            },
+            {
+                "name": "火達磨",
+                "length": "1:00"
+            },
+            {
+                "name": "ハートアンダーブレード",
+                "length": "1:01"
+            },
+            {
+                "name": "従僕",
+                "length": "1:57"
+            },
+            {
+                "name": "服従の証",
+                "length": "1:33"
+            },
+            {
+                "name": "前振り",
+                "length": "1:07"
+            },
+            {
+                "name": "三人がかり",
+                "length": "6:31"
+            },
+            {
+                "name": "敵か味方か",
+                "length": "1:23"
+            },
+            {
+                "name": "交渉人",
+                "length": "2:22"
+            },
+            {
+                "name": "明日からの前途",
+                "length": "2:02"
+            },
+            {
+                "name": "鉄血篇 エンドロール",
+                "length": "2:39"
+            },
+            {
+                "name": "reprise",
+                "length": "1:22"
+            }
+        ]
+    },
+    {
+        "title": "kizumonogatari-music-collection-ii",
+        "name": "Kizumonogatari Music Collection II: Nekketsu-hen",
+        "kanji": "「傷物語」劇伴音楽集 其ノ貳 熱血篇",
+        "artist": "神前暁",
+        "date": "2016-12-21",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/kizumonogatari-music-collection-ii.avif",
+            "/music/kizumonogatari-music-collection-ii.webp",
+            "/music/kizumonogatari-music-collection-ii.jpg"
+        ],
+        "coverHalf": [
+            "/music/kizumonogatari-music-collection-ii-0.5x.avif",
+            "/music/kizumonogatari-music-collection-ii-0.5x.webp",
+            "/music/kizumonogatari-music-collection-ii-0.5x.jpg"
+        ],
+        "hidden": true,
+        "position": "top",
+        "sources": [
+        	"kizumonogatari-II"
+        ],
+        "trackList": [
+            {
+                "name": "熱血篇タイトルバック",
+                "length": "0:54"
+            },
+            {
+                "name": "寡聞",
+                "length": "0:49"
+            },
+            {
+                "name": "スパシーボ!",
+                "length": "3:24"
+            },
+            {
+                "name": "気に障ること",
+                "length": "0:47"
+            },
+            {
+                "name": "辛辣",
+                "length": "1:54"
+            },
+            {
+                "name": "学園異能バトルI",
+                "length": "3:11"
+            },
+            {
+                "name": "学園異能バトルII",
+                "length": "0:58"
+            },
+            {
+                "name": "学園異能バトルIII",
+                "length": "1:06"
+            },
+            {
+                "name": "友達面",
+                "length": "1:58"
+            },
+            {
+                "name": "食事中",
+                "length": "1:05"
+            },
+            {
+                "name": "貴重種",
+                "length": "1:27"
+            },
+            {
+                "name": "命の恩人",
+                "length": "0:48"
+            },
+            {
+                "name": "私のせい",
+                "length": "1:39"
+            },
+            {
+                "name": "いけない悪戯",
+                "length": "2:39"
+            },
+            {
+                "name": "眼鏡の委員長特集",
+                "length": "0:45"
+            },
+            {
+                "name": "ヴァンパイア・ハーフ",
+                "length": "0:40"
+            },
+            {
+                "name": "悪い者いじめ",
+                "length": "2:09"
+            },
+            {
+                "name": "力ずく",
+                "length": "1:46"
+            },
+            {
+                "name": "頬ずり",
+                "length": "0:47"
+            },
+            {
+                "name": "四月五日",
+                "length": "1:31"
+            },
+            {
+                "name": "わかっていたつもり",
+                "length": "2:26"
+            },
+            {
+                "name": "お役御免",
+                "length": "3:33"
+            },
+            {
+                "name": "その布",
+                "length": "0:18"
+            },
+            {
+                "name": "別れの余韻",
+                "length": "1:09"
+            },
+            {
+                "name": "沈痛",
+                "length": "0:17"
+            },
+            {
+                "name": "千年樹",
+                "length": "0:57"
+            },
+            {
+                "name": "étoile et toi",
+                "length": "5:53"
+            },
+            {
+                "name": "次回、冷血篇",
+                "length": "0:49"
+            }
+        ]
+    },
+    {
+        "title": "kizumonogatari-music-collection-iii",
+        "name": "Kizumonogatari Music Collection III: Reiketsu-hen",
+        "kanji": "「傷物語」劇伴音楽集 其ノ參 冷血篇",
+        "artist": "神前暁",
+        "date": "2017-07-12",
+        "color": "--bg-red",
+        "cover": [
+            "/music/kizumonogatari-music-collection-iii.avif",
+            "/music/kizumonogatari-music-collection-iii.webp",
+            "/music/kizumonogatari-music-collection-iii.jpg"
+        ],
+        "coverHalf": [
+            "/music/kizumonogatari-music-collection-iii-0.5x.avif",
+            "/music/kizumonogatari-music-collection-iii-0.5x.webp",
+            "/music/kizumonogatari-music-collection-iii-0.5x.jpg"
+        ],
+        "position": "bottom",
+        "sources": [
+        	"kizumonogatari-III"
+        ],
+        "trackList": [
+            {
+                "name": "四月六日",
+                "length": "7:21"
+            },
+            {
+                "name": "屋根の上で",
+                "length": "2:15"
+            },
+            {
+                "name": "眷属",
+                "length": "2:33"
+            },
+            {
+                "name": "悪くない春休み",
+                "length": "1:06"
+            },
+            {
+                "name": "おかしらつき",
+                "length": "1:01"
+            },
+            {
+                "name": "食物連鎖",
+                "length": "0:23"
+            },
+            {
+                "name": "一般常識",
+                "length": "0:54"
+            },
+            {
+                "name": "滑稽譚",
+                "length": "1:37"
+            },
+            {
+                "name": "女の子のお届物",
+                "length": "1:01"
+            },
+            {
+                "name": "友達。の、つもり",
+                "length": "6:08"
+            },
+            {
+                "name": "罪滅ぼし",
+                "length": "1:17"
+            },
+            {
+                "name": "下らない理由",
+                "length": "1:10"
+            },
+            {
+                "name": "おっぱい",
+                "length": "2:38"
+            },
+            {
+                "name": "奴隷根性",
+                "length": "0:37"
+            },
+            {
+                "name": "続きは新学期",
+                "length": "0:27"
+            },
+            {
+                "name": "冷たい眼",
+                "length": "2:34"
+            },
+            {
+                "name": "等活地獄 〜Soundtrack Version〜",
+                "length": "4:57"
+            },
+            {
+                "name": "グラウンド",
+                "length": "0:55"
+            },
+            {
+                "name": "エナジードレイン",
+                "length": "0:56"
+            },
+            {
+                "name": "死に場所",
+                "length": "3:13"
+            },
+            {
+                "name": "責任",
+                "length": "0:56"
+            },
+            {
+                "name": "みんなが不幸になる方法",
+                "length": "4:38"
+            },
+            {
+                "name": "四月八日",
+                "length": "1:01"
+            },
+            {
+                "name": "傷物達の物語",
+                "length": "1:09"
+            },
+            {
+                "name": "étoile et toi [édition le blanc]",
+                "length": "6:02"
+            },
+            {
+                "name": "「傷物語」制作発表PV BGM",
+                "length": "0:45"
+            },
+            {
+                "name": "熱血篇 特報 BGM",
+                "length": "0:24"
+            }
+        ]
+    },
+    {
+        "title": "nisemonogatari-and-nekomonogatari-kuro-original-soundtracks",
+        "name": "Nisemonogatari & Nekomonogatari (Kuro) Original Soundtracks",
+        "kanji": "偽物語&猫物語(黒) Original Soundtracks",
+        "artist": "神前暁",
+        "date": "2017-07-26",
+        "color": "--bg-orange",
+        "cover": [
+            "/music/nisemonogatari-and-nekomonogatari-kuro-original-soundtracks.avif",
+            "/music/nisemonogatari-and-nekomonogatari-kuro-original-soundtracks.webp",
+            "/music/nisemonogatari-and-nekomonogatari-kuro-original-soundtracks.jpg"
+        ],
+        "coverHalf": [
+            "/music/nisemonogatari-and-nekomonogatari-kuro-original-soundtracks-0.5x.avif",
+            "/music/nisemonogatari-and-nekomonogatari-kuro-original-soundtracks-0.5x.webp",
+            "/music/nisemonogatari-and-nekomonogatari-kuro-original-soundtracks-0.5x.jpg"
+        ],
+        "sources": [
+        	"nisemonogatari",
+         	"nekomonogatari-kuro"
+        ],
+        "trackList": [
+            {
+                "name": "毒",
+                "length": "2:10"
+            },
+            {
+                "name": "恋人同士",
+                "length": "2:13"
+            },
+            {
+                "name": "物語",
+                "length": "2:03"
+            },
+            {
+                "name": "妹達",
+                "length": "1:57"
+            },
+            {
+                "name": "誘惑",
+                "length": "2:01"
+            },
+            {
+                "name": "大人",
+                "length": "2:49"
+            },
+            {
+                "name": "都市伝説",
+                "length": "2:44"
+            },
+            {
+                "name": "魔手",
+                "length": "1:43"
+            },
+            {
+                "name": "相槌",
+                "length": "2:16"
+            },
+            {
+                "name": "鉄仮面",
+                "length": "1:41"
+            },
+            {
+                "name": "勇気",
+                "length": "1:42"
+            },
+            {
+                "name": "「怒られるのは怖いですからね」",
+                "length": "1:45"
+            },
+            {
+                "name": "次回、かれんビー (戦場ヶ原ひたぎver.)",
+                "length": "0:54"
+            },
+            {
+                "name": "前髪",
+                "length": "2:04"
+            },
+            {
+                "name": "全裸",
+                "length": "1:50"
+            },
+            {
+                "name": "燃える女",
+                "length": "1:42"
+            },
+            {
+                "name": "ブレスレット",
+                "length": "2:14"
+            },
+            {
+                "name": "愛人関係",
+                "length": "1:45"
+            },
+            {
+                "name": "不吉",
+                "length": "2:13"
+            },
+            {
+                "name": "悲痛",
+                "length": "2:47"
+            },
+            {
+                "name": "動揺",
+                "length": "2:03"
+            },
+            {
+                "name": "尊大",
+                "length": "2:10"
+            },
+            {
+                "name": "怪異の王",
+                "length": "1:34"
+            },
+            {
+                "name": "囲い火蜂",
+                "length": "1:51"
+            },
+            {
+                "name": "絆",
+                "length": "2:53"
+            },
+            {
+                "name": "次回、かれんビー (阿良々木火憐ver.)",
+                "length": "0:41"
+            },
+            {
+                "name": "喧嘩",
+                "length": "2:43"
+            },
+            {
+                "name": "「兄ちゃん。あとは、任せた」",
+                "length": "2:29"
+            },
+            {
+                "name": "偽物",
+                "length": "1:59"
+            },
+            {
+                "name": "嘘",
+                "length": "3:40"
+            },
+            {
+                "name": "条件",
+                "length": "1:34"
+            },
+            {
+                "name": "快楽",
+                "length": "4:41"
+            },
+            {
+                "name": "必勝法",
+                "length": "2:55"
+            },
+            {
+                "name": "罰ゲーム",
+                "length": "2:40"
+            },
+            {
+                "name": "陰陽師",
+                "length": "2:17"
+            },
+            {
+                "name": "優等生",
+                "length": "2:27"
+            },
+            {
+                "name": "式神",
+                "length": "2:00"
+            },
+            {
+                "name": "夏休み",
+                "length": "1:35"
+            },
+            {
+                "name": "ドーナツ・ハイ",
+                "length": "1:37"
+            },
+            {
+                "name": "『例外の方が多い規則』",
+                "length": "1:57"
+            },
+            {
+                "name": "しでの鳥",
+                "length": "2:12"
+            },
+            {
+                "name": "兄妹",
+                "length": "2:36"
+            },
+            {
+                "name": "破壊",
+                "length": "2:22"
+            },
+            {
+                "name": "人為",
+                "length": "4:13"
+            },
+            {
+                "name": "「プラチナむかつく」",
+                "length": "1:35"
+            },
+            {
+                "name": "次回、つきひフェニックス",
+                "length": "0:52"
+            },
+            {
+                "name": "ヤンデレ",
+                "length": "0:46"
+            },
+            {
+                "name": "恋かもしれない何かの話",
+                "length": "1:38"
+            },
+            {
+                "name": "あまのじゃく",
+                "length": "1:35"
+            },
+            {
+                "name": "ロケット作り",
+                "length": "1:32"
+            },
+            {
+                "name": "タッチならぬキャッチ",
+                "length": "1:17"
+            },
+            {
+                "name": "月火ちゃん",
+                "length": "2:20"
+            },
+            {
+                "name": "火憐ちゃん",
+                "length": "1:37"
+            },
+            {
+                "name": "ゴールデンウィーク",
+                "length": "1:28"
+            },
+            {
+                "name": "赤の他人",
+                "length": "1:18"
+            },
+            {
+                "name": "約束",
+                "length": "1:24"
+            },
+            {
+                "name": "最低の男",
+                "length": "1:57"
+            },
+            {
+                "name": "名残",
+                "length": "1:12"
+            },
+            {
+                "name": "朴念仁",
+                "length": "1:47"
+            },
+            {
+                "name": "言えないこと以外のこと",
+                "length": "0:52"
+            },
+            {
+                "name": "ブラック羽川",
+                "length": "3:28"
+            },
+            {
+                "name": "オールドファッション",
+                "length": "1:35"
+            },
+            {
+                "name": "憔悴",
+                "length": "2:00"
+            },
+            {
+                "name": "憂さ晴らし",
+                "length": "4:04"
+            },
+            {
+                "name": "「普通の女の子」",
+                "length": "3:56"
+            },
+            {
+                "name": "妖刀『心渡』",
+                "length": "1:06"
+            },
+            {
+                "name": "鬼出鬼没",
+                "length": "1:21"
+            },
+            {
+                "name": "後日談",
+                "length": "2:59"
+            },
+            {
+                "name": "恋",
+                "length": "3:05"
+            },
+            {
+                "name": "次回、つばさファミリー",
+                "length": "0:49"
+            }
+        ]
+    },
+    {
+        "title": "monogatari-series-second-season-original-soundtracks",
+        "name": "Monogatari Series Second Season Original Soundtracks",
+        "kanji": "物語シリーズ セカンドシーズン Original Soundtracks",
+        "artist": "神前暁 / 羽岡佳",
+        "date": "2017-07-26",
+        "color": "--bg-purple",
+        "cover": [
+            "/music/monogatari-series-second-season-original-soundtracks.avif",
+            "/music/monogatari-series-second-season-original-soundtracks.webp",
+            "/music/monogatari-series-second-season-original-soundtracks.jpg"
+        ],
+        "coverHalf": [
+            "/music/monogatari-series-second-season-original-soundtracks-0.5x.avif",
+            "/music/monogatari-series-second-season-original-soundtracks-0.5x.webp",
+            "/music/monogatari-series-second-season-original-soundtracks-0.5x.jpg"
+        ],
+        "sources": [
+        	"nekomonogatari-shiro",
+         	"kabukimonogatari",
+          	"hanamonogatari",
+           	"otorimonogatari",
+            "onimonogatari",
+            "koimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "私の物語",
+                "length": "3:09"
+            },
+            {
+                "name": "真実からは程遠い存在",
+                "length": "3:03"
+            },
+            {
+                "name": "苛虎",
+                "length": "1:15"
+            },
+            {
+                "name": "唐突な問い",
+                "length": "2:41"
+            },
+            {
+                "name": "家族会議",
+                "length": "2:34"
+            },
+            {
+                "name": "貫徹",
+                "length": "2:30"
+            },
+            {
+                "name": "民倉荘",
+                "length": "2:39"
+            },
+            {
+                "name": "下心",
+                "length": "3:27"
+            },
+            {
+                "name": "女子同士",
+                "length": "1:12"
+            },
+            {
+                "name": "怪訝",
+                "length": "2:27"
+            },
+            {
+                "name": "手紙",
+                "length": "1:15"
+            },
+            {
+                "name": "草々不一",
+                "length": "3:24"
+            },
+            {
+                "name": "吾輩は虎である",
+                "length": "1:50"
+            },
+            {
+                "name": "羽川翼は-否定する。",
+                "length": "2:47"
+            },
+            {
+                "name": "告白",
+                "length": "4:31"
+            },
+            {
+                "name": "「ただいま」",
+                "length": "2:10"
+            },
+            {
+                "name": "次回、つばさタイガー",
+                "length": "0:53"
+            },
+            {
+                "name": "まがいものそのものの女",
+                "length": "2:01"
+            },
+            {
+                "name": "トリビア",
+                "length": "1:52"
+            },
+            {
+                "name": "違和感",
+                "length": "2:59"
+            },
+            {
+                "name": "生まれ変わり",
+                "length": "2:21"
+            },
+            {
+                "name": "詠唱",
+                "length": "3:11"
+            },
+            {
+                "name": "タイムワープ",
+                "length": "3:32"
+            },
+            {
+                "name": "廃墟の町",
+                "length": "2:20"
+            },
+            {
+                "name": "八つ当たり",
+                "length": "4:18"
+            },
+            {
+                "name": "十一年後の姿",
+                "length": "1:23"
+            },
+            {
+                "name": "手紙",
+                "length": "3:05"
+            },
+            {
+                "name": "親切",
+                "length": "1:41"
+            },
+            {
+                "name": "僕達の戦い",
+                "length": "2:29"
+            },
+            {
+                "name": "襲来",
+                "length": "3:10"
+            },
+            {
+                "name": "ただのお願い",
+                "length": "1:56"
+            },
+            {
+                "name": "「わたしは阿良々木さんと会えたんですから」",
+                "length": "1:30"
+            },
+            {
+                "name": "次回、まよいキョンシー",
+                "length": "0:53"
+            },
+            {
+                "name": "千石撫子、十四歳。",
+                "length": "1:19"
+            },
+            {
+                "name": "蛇髪娘",
+                "length": "2:13"
+            },
+            {
+                "name": "A級不審人物",
+                "length": "3:00"
+            },
+            {
+                "name": "二年二組",
+                "length": "3:36"
+            },
+            {
+                "name": "失言",
+                "length": "2:23"
+            },
+            {
+                "name": "クチナワ",
+                "length": "2:16"
+            },
+            {
+                "name": "無理な相談",
+                "length": "2:45"
+            },
+            {
+                "name": "中学生ライフ",
+                "length": "2:51"
+            },
+            {
+                "name": "死体探し",
+                "length": "3:30"
+            },
+            {
+                "name": "ダウジング",
+                "length": "1:59"
+            },
+            {
+                "name": "ジャンヌ・ダルク気取り",
+                "length": "4:03"
+            },
+            {
+                "name": "勝手な話",
+                "length": "3:24"
+            },
+            {
+                "name": "竜頭蛇尾",
+                "length": "4:12"
+            },
+            {
+                "name": "取引",
+                "length": "3:11"
+            },
+            {
+                "name": "「ようこそ暦お兄ちゃん。可愛がってあげるね。」",
+                "length": "1:57"
+            },
+            {
+                "name": "次回、なでこメドゥーサ",
+                "length": "0:59"
+            },
+            {
+                "name": "気まぐれ",
+                "length": "1:25"
+            },
+            {
+                "name": "くらやみ",
+                "length": "1:53"
+            },
+            {
+                "name": "赤信号",
+                "length": "0:17"
+            },
+            {
+                "name": "現象",
+                "length": "2:17"
+            },
+            {
+                "name": "理不尽",
+                "length": "2:39"
+            },
+            {
+                "name": "不意打ち",
+                "length": "2:03"
+            },
+            {
+                "name": "昔語り",
+                "length": "2:53"
+            },
+            {
+                "name": "神扱い",
+                "length": "2:33"
+            },
+            {
+                "name": "異常事態",
+                "length": "2:16"
+            },
+            {
+                "name": "神隠しの正体",
+                "length": "1:13"
+            },
+            {
+                "name": "孤独感",
+                "length": "1:32"
+            },
+            {
+                "name": "天罰",
+                "length": "4:07"
+            },
+            {
+                "name": "お見通しの千里眼",
+                "length": "2:14"
+            },
+            {
+                "name": "断言",
+                "length": "1:40"
+            },
+            {
+                "name": "臥煙家の血統",
+                "length": "1:59"
+            },
+            {
+                "name": "幽霊の幽霊",
+                "length": "2:14"
+            },
+            {
+                "name": "自分の言葉",
+                "length": "2:09"
+            },
+            {
+                "name": "はなむけ",
+                "length": "6:00"
+            },
+            {
+                "name": "「ろくでもない、鬼の物語が」",
+                "length": "3:14"
+            },
+            {
+                "name": "次回、しのぶタイム",
+                "length": "1:00"
+            },
+            {
+                "name": "怠け者の節句働き",
+                "length": "2:31"
+            },
+            {
+                "name": "腹芸",
+                "length": "2:04"
+            },
+            {
+                "name": "老婆心",
+                "length": "2:53"
+            },
+            {
+                "name": "白けた反応",
+                "length": "2:31"
+            },
+            {
+                "name": "悪い冗談",
+                "length": "3:37"
+            },
+            {
+                "name": "フェイント",
+                "length": "3:10"
+            },
+            {
+                "name": "把握",
+                "length": "1:22"
+            },
+            {
+                "name": "満身創痍",
+                "length": "6:29"
+            },
+            {
+                "name": "適材適所",
+                "length": "3:51"
+            },
+            {
+                "name": "「ありがとうございます。助かりました」",
+                "length": "2:11"
+            },
+            {
+                "name": "地獄の沙汰も金次第",
+                "length": "1:17"
+            },
+            {
+                "name": "次回、ひたぎエンド",
+                "length": "1:24"
+            },
+            {
+                "name": "私の話と、彼女の話",
+                "length": "2:53"
+            },
+            {
+                "name": "神原駿河の人生",
+                "length": "2:42"
+            },
+            {
+                "name": "いまどきの後輩",
+                "length": "2:34"
+            },
+            {
+                "name": "悪魔様",
+                "length": "2:44"
+            },
+            {
+                "name": "陽気な調子",
+                "length": "2:42"
+            },
+            {
+                "name": "茶髪の悪魔",
+                "length": "3:01"
+            },
+            {
+                "name": "挑発的な物言い",
+                "length": "2:53"
+            },
+            {
+                "name": "意地悪クイズ",
+                "length": "3:20"
+            },
+            {
+                "name": "宿敵",
+                "length": "2:40"
+            },
+            {
+                "name": "戸惑う気持ち",
+                "length": "2:40"
+            },
+            {
+                "name": "ポニーテイル",
+                "length": "2:38"
+            },
+            {
+                "name": "所在不明",
+                "length": "2:42"
+            },
+            {
+                "name": "通せんぼ",
+                "length": "2:44"
+            },
+            {
+                "name": "肉奉行",
+                "length": "2:36"
+            },
+            {
+                "name": "ノスタルジィ",
+                "length": "2:37"
+            },
+            {
+                "name": "親切なおじさん",
+                "length": "2:44"
+            },
+            {
+                "name": "ひたむきな気概",
+                "length": "2:39"
+            },
+            {
+                "name": "バスケットボール",
+                "length": "2:35"
+            },
+            {
+                "name": "邪魔っけなあとがき",
+                "length": "2:55"
+            },
+            {
+                "name": "悪魔の理不尽",
+                "length": "4:01"
+            },
+            {
+                "name": "不幸の蒐集",
+                "length": "3:35"
+            },
+            {
+                "name": "ナンバーゼロイチ",
+                "length": "4:29"
+            },
+            {
+                "name": "沼地の人生",
+                "length": "1:25"
+            },
+            {
+                "name": "タイミングのいい奴",
+                "length": "3:34"
+            },
+            {
+                "name": "納得",
+                "length": "2:49"
+            },
+            {
+                "name": "想定外",
+                "length": "2:43"
+            },
+            {
+                "name": "卒業",
+                "length": "3:19"
+            },
+            {
+                "name": "「私はあいつが-羨ましかったんだ」",
+                "length": "3:13"
+            }
+        ]
+    },
+    {
+        "title": "monogataremix",
+        "name": "MonogataRemix",
+        "kanji": "<物語>MIX",
+        "artist": "Various Artists",
+        "date": "2017-08-11",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/monogataremix.avif",
+            "/music/monogataremix.webp",
+            "/music/monogataremix.jpg"
+        ],
+        "coverHalf": [
+            "/music/monogataremix-0.5x.avif",
+            "/music/monogataremix-0.5x.webp",
+            "/music/monogataremix-0.5x.jpg"
+        ],
+        "sources": [
+        	"bakemonogatari",
+         	"owarimonogatari-jou"
+        ],
+        "trackList": [
+            {
+                "name": "Staple Stable × 二言目 -DJ MASAKARI Mushup-",
+                "length": "4:30"
+            },
+            {
+                "name": "帰り道 -Swirl Remix-",
+                "length": "3:49"
+            },
+            {
+                "name": "decent black -Inquire Myself Remix-",
+                "length": "5:09"
+            }
+        ]
+    },
+    {
+        "title": "shiori",
+        "name": "SHIORI",
+        "artist": "ClariS",
+        "date": "2017-09-13",
+        "color": "--bg-purple",
+        "cover": [
+            "/music/shiori.avif",
+            "/music/shiori.webp",
+            "/music/shiori.jpg"
+        ],
+        "coverAlt": [
+            "/music/shiori-alt.avif",
+            "/music/shiori-alt.webp",
+            "/music/shiori-alt.jpg"
+        ],
+        "coverHalf": [
+            "/music/shiori-0.5x.avif",
+            "/music/shiori-0.5x.webp",
+            "/music/shiori-0.5x.jpg"
+        ],
+        "sources": [
+        	"owarimonogatari-ge"
+        ],
+        "trackList": [
+            {
+                "name": "SHIORI",
+                "length": "4:09"
+            },
+            {
+                "name": "君の知らない物語",
+                "length": "5:41"
+            },
+            {
+                "name": "アイヲウタエ",
+                "length": "4:03"
+            },
+            {
+                "name": "ナイショの話 -2017 ver.-",
+                "length": "4:19"
+            },
+            {
+                "name": "border -TeddyLoid remix-",
+                "length": "3:50"
+            },
+            {
+                "name": "SHIORI -TV size mix-",
+                "length": "1:30"
+            }
+        ]
+    },
+    {
+        "title": "terminal-terminal",
+        "name": "terminal terminal & Owarimonogatari Music Collection III",
+        "kanji": "「terminal terminal」&「終物語」劇伴音楽集 其ノ參",
+        "artist": "羽岡佳",
+        "date": "2017-10-25",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/terminal-terminal.avif",
+            "/music/terminal-terminal.webp",
+            "/music/terminal-terminal.jpg"
+        ],
+        "coverHalf": [
+            "/music/terminal-terminal-0.5x.avif",
+            "/music/terminal-terminal-0.5x.webp",
+            "/music/terminal-terminal-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"owarimonogatari-ge"
+        ],
+        "trackList": [
+            {
+                "name": "terminal terminal",
+                "length": "4:28"
+            },
+            {
+                "name": "terminal terminal -instrumental-",
+                "length": "4:27"
+            },
+            {
+                "name": "小僧",
+                "length": "2:22"
+            },
+            {
+                "name": "お約束",
+                "length": "2:11"
+            },
+            {
+                "name": "ご愛嬌",
+                "length": "2:05"
+            },
+            {
+                "name": "阿鼻地獄",
+                "length": "2:08"
+            },
+            {
+                "name": "計算通り",
+                "length": "2:14"
+            },
+            {
+                "name": "不思議の国",
+                "length": "2:14"
+            },
+            {
+                "name": "バランス",
+                "length": "2:15"
+            },
+            {
+                "name": "迎合",
+                "length": "2:13"
+            },
+            {
+                "name": "盤根錯節",
+                "length": "2:10"
+            },
+            {
+                "name": "現世の土産",
+                "length": "2:28"
+            },
+            {
+                "name": "長ゼリ",
+                "length": "2:18"
+            }
+        ]
+    },
+    {
+        "title": "dreamy-date-drive",
+        "name": "dreamy date drive & Owarimonogatari Music Collection IV",
+        "kanji": "「dreamy date drive」&「終物語」劇伴音楽集 其ノ肆",
+        "artist": "羽岡佳",
+        "date": "2017-11-29",
+        "color": "--bg-lilac",
+        "cover": [
+            "/music/dreamy-date-drive.avif",
+            "/music/dreamy-date-drive.webp",
+            "/music/dreamy-date-drive.jpg"
+        ],
+        "coverHalf": [
+            "/music/dreamy-date-drive-0.5x.avif",
+            "/music/dreamy-date-drive-0.5x.webp",
+            "/music/dreamy-date-drive-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"owarimonogatari-ge"
+        ],
+        "trackList": [
+            {
+                "name": "dreamy date drive",
+                "length": "4:42"
+            },
+            {
+                "name": "dreamy date drive (Instrumental)",
+                "length": "4:43"
+            },
+            {
+                "name": "自己愛",
+                "length": "2:13"
+            },
+            {
+                "name": "脅迫",
+                "length": "2:25"
+            },
+            {
+                "name": "ディスティネーション",
+                "length": "2:16"
+            },
+            {
+                "name": "ピーキー",
+                "length": "2:30"
+            },
+            {
+                "name": "ドライバーヶ原ひたぎ",
+                "length": "2:10"
+            },
+            {
+                "name": "ワトソンくん",
+                "length": "2:08"
+            },
+            {
+                "name": "プラネタリウム",
+                "length": "2:04"
+            },
+            {
+                "name": "胡蝶の夢",
+                "length": "2:05"
+            },
+            {
+                "name": "十三星座",
+                "length": "2:00"
+            },
+            {
+                "name": "そういう生き方",
+                "length": "2:04"
+            },
+            {
+                "name": "お姫様だっこ",
+                "length": "2:16"
+            },
+            {
+                "name": "訂正",
+                "length": "2:09"
+            },
+            {
+                "name": "燕雀安んぞ鴻鵠の志を知らんや",
+                "length": "2:17"
+            },
+            {
+                "name": "青春の終わり",
+                "length": "2:11"
+            },
+            {
+                "name": "友人の一面",
+                "length": "2:05"
+            },
+            {
+                "name": "心中",
+                "length": "2:59"
+            },
+            {
+                "name": "「変わりませんねぇ、阿良々木先輩」",
+                "length": "3:11"
+            }
+        ]
+    },
+    {
+        "title": "dark-cherry-mystery",
+        "name": "dark cherry mystery & Atogatari",
+        "kanji": "「dark cherry mystery」&あとがたり",
+        "artist": "忍野扇(水橋かおり)",
+        "date": "2017-12-27",
+        "color": "--bg-black",
+        "cover": [
+            "/music/dark-cherry-mystery.avif",
+            "/music/dark-cherry-mystery.webp",
+            "/music/dark-cherry-mystery.jpg"
+        ],
+        "coverHalf": [
+            "/music/dark-cherry-mystery-0.5x.avif",
+            "/music/dark-cherry-mystery-0.5x.webp",
+            "/music/dark-cherry-mystery-0.5x.jpg"
+        ],
+        "hidden": true,
+        "sources": [
+        	"owarimonogatari-ge"
+        ],
+        "trackList": [
+            {
+                "name": "dark cherry mystery",
+                "length": "3:51"
+            },
+            {
+                "name": "dark cherry mystery -Instrumental-",
+                "length": "3:53"
+            },
+            {
+                "name": "あとがたり",
+                "length": "48:34"
+            }
+        ]
+    },
+    {
+        "title": "wicked-prince",
+        "name": "wicked prince",
+        "artist": "princess à la mode",
+        "date": "2018-08-29",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/wicked-prince.avif",
+            "/music/wicked-prince.webp",
+            "/music/wicked-prince.jpg"
+        ],
+        "coverHalf": [
+            "/music/wicked-prince-0.5x.avif",
+            "/music/wicked-prince-0.5x.webp",
+            "/music/wicked-prince-0.5x.jpg"
+        ],
+        "trackList": [
+            {
+                "name": "wicked prince",
+                "length": "4:00"
+            },
+            {
+                "name": "wicked prince -Instrumental-",
+                "length": "3:56"
+            }
+        ]
+    },
+    {
+        "title": "azure",
+        "name": "azure",
+        "artist": "TrySail",
+        "date": "2018-11-14",
+        "color": "--bg-green",
+        "cover": [
+            "/music/azure.avif",
+            "/music/azure.webp",
+            "/music/azure.jpg"
+        ],
+        "coverAlt": [
+            "/music/azure-alt.avif",
+            "/music/azure-alt.webp",
+            "/music/azure-alt.jpg"
+        ],
+        "coverHalf": [
+            "/music/azure-0.5x.avif",
+            "/music/azure-0.5x.webp",
+            "/music/azure-0.5x.jpg"
+        ],
+        "sources": [
+        	"zoku-owarimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "azure",
+                "length": "4:25"
+            },
+            {
+                "name": "Make Me Happy?",
+                "length": "4:46"
+            },
+            {
+                "name": "azure -Short Ver.-",
+                "length": "1:31"
+            },
+            {
+                "name": "azure -Instrumental-",
+                "length": "4:25"
+            },
+            {
+                "name": "Make Me Happy? -Instrumental-",
+                "length": "4:45"
+            }
+        ]
+    },
+    {
+        "title": "07734",
+        "name": "07734 & Zoku Owarimonogatari Music Collection I",
+        "kanji": "「07734」&「続・終物語」劇伴音楽集 其ノ壹",
+        "artist": "羽岡佳",
+        "date": "2019-02-27",
+        "color": "--bg-white",
+        "cover": [
+            "/music/07734.avif",
+            "/music/07734.webp",
+            "/music/07734.jpg"
+        ],
+        "coverHalf": [
+            "/music/07734-0.5x.avif",
+            "/music/07734-0.5x.webp",
+            "/music/07734-0.5x.jpg"
+        ],
+        "hidden": true,
+        "sources": [
+        	"zoku-owarimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "07734",
+                "length": "3:49"
+            },
+            {
+                "name": "ただの阿良々木暦",
+                "length": "3:00"
+            },
+            {
+                "name": "鏡像",
+                "length": "2:44"
+            },
+            {
+                "name": "平然とした風",
+                "length": "3:20"
+            },
+            {
+                "name": "異変",
+                "length": "3:18"
+            },
+            {
+                "name": "『少女』の『シ』",
+                "length": "2:43"
+            },
+            {
+                "name": "八九寺おねーさん",
+                "length": "3:26"
+            },
+            {
+                "name": "ハードな世界観",
+                "length": "3:23"
+            },
+            {
+                "name": "冴えたやり方",
+                "length": "1:45"
+            },
+            {
+                "name": "増幅する憎悪",
+                "length": "1:50"
+            },
+            {
+                "name": "マジの胸騒ぎ",
+                "length": "3:31"
+            },
+            {
+                "name": "圧迫される感",
+                "length": "1:58"
+            },
+            {
+                "name": "別人老倉",
+                "length": "1:53"
+            },
+            {
+                "name": "クチナワさん",
+                "length": "2:22"
+            },
+            {
+                "name": "ブラッシュアップ",
+                "length": "3:34"
+            },
+            {
+                "name": "凸凹コンビ",
+                "length": "2:51"
+            }
+        ]
+    },
+    {
+        "title": "zoku-owarimonogatari-music-collection-ii",
+        "name": "Zoku Owarimonogatari Music Collection II & Atogatari",
+        "kanji": "「続・終物語」劇伴音楽集 其ノ貳&あとがたり",
+        "artist": "羽岡佳",
+        "date": "2019-03-27",
+        "color": "--bg-white",
+        "cover": [
+            "/music/zoku-owarimonogatari-music-collection-ii.avif",
+            "/music/zoku-owarimonogatari-music-collection-ii.webp",
+            "/music/zoku-owarimonogatari-music-collection-ii.jpg"
+        ],
+        "coverHalf": [
+            "/music/zoku-owarimonogatari-music-collection-ii-0.5x.avif",
+            "/music/zoku-owarimonogatari-music-collection-ii-0.5x.webp",
+            "/music/zoku-owarimonogatari-music-collection-ii-0.5x.jpg"
+        ],
+        "sources": [
+        	"zoku-owarimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "カリスマ",
+                "length": "4:13"
+            },
+            {
+                "name": "姫様",
+                "length": "4:03"
+            },
+            {
+                "name": "そんな奴",
+                "length": "2:34"
+            },
+            {
+                "name": "反射率",
+                "length": "2:36"
+            },
+            {
+                "name": "超解決策",
+                "length": "4:17"
+            },
+            {
+                "name": "超天才肌",
+                "length": "3:08"
+            },
+            {
+                "name": "『どーでもいい』こと",
+                "length": "3:19"
+            },
+            {
+                "name": "ナオエツコウコウ",
+                "length": "3:37"
+            },
+            {
+                "name": "マジ切れ",
+                "length": "3:25"
+            },
+            {
+                "name": "最上の恐怖",
+                "length": "3:20"
+            },
+            {
+                "name": "白々しい口調",
+                "length": "2:42"
+            },
+            {
+                "name": "夢落ちの逆",
+                "length": "2:37"
+            },
+            {
+                "name": "裏返しからの、恩返し",
+                "length": "4:12"
+            },
+            {
+                "name": "巻き添え",
+                "length": "2:17"
+            },
+            {
+                "name": "「阿良々木暦。見たまんまの男さ」",
+                "length": "4:45"
+            },
+            {
+                "name": "あとがたり",
+                "length": "28:18"
+            }
+        ]
+    },
+    {
+        "title": "utamonogatari-2",
+        "name": "Utamonogatari 2: Monogatari Series Theme Songs Compilation Album",
+        "kanji": "歌物語2 -<物語>シリーズ主題歌集-",
+        "artist": "Various Artists",
+        "date": "2019-05-10",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/utamonogatari-2.avif",
+            "/music/utamonogatari-2.webp",
+            "/music/utamonogatari-2.jpg"
+        ],
+        "coverHalf": [
+            "/music/utamonogatari-2-0.5x.avif",
+            "/music/utamonogatari-2-0.5x.webp",
+            "/music/utamonogatari-2-0.5x.jpg"
+        ],
+        "sources": [
+        	"tsukimonogatari",
+         	"owarimonogatari-jou",
+          	"owarimonogatari-ge",
+           	"zoku-owarimonogatari",
+            "koyomimonogatari",
+            "kizumonogatari-II",
+            "kizumonogatari-III"
+        ],
+        "trackList": [
+            {
+                "name": "オレンジミント",
+                "length": "4:34"
+            },
+            {
+                "name": "border",
+                "length": "4:26"
+            },
+            {
+                "name": "decent black",
+                "length": "4:39"
+            },
+            {
+                "name": "mathemagics",
+                "length": "4:03"
+            },
+            {
+                "name": "夕立方程式",
+                "length": "4:40"
+            },
+            {
+                "name": "mein schatz",
+                "length": "4:04"
+            },
+            {
+                "name": "さよならのゆくえ",
+                "length": "3:58"
+            },
+            {
+                "name": "terminal terminal",
+                "length": "4:28"
+            },
+            {
+                "name": "dreamy date drive",
+                "length": "4:42"
+            },
+            {
+                "name": "dark cherry mystery",
+                "length": "3:51"
+            },
+            {
+                "name": "SHIORI",
+                "length": "4:10"
+            },
+            {
+                "name": "07734",
+                "length": "3:46"
+            },
+            {
+                "name": "azure",
+                "length": "4:27"
+            },
+            {
+                "name": "whiz",
+                "length": "4:26"
+            },
+            {
+                "name": "étoile et toi [édition le bleu]",
+                "length": "5:52"
+            },
+            {
+                "name": "étoile et toi [édition le blanc]",
+                "length": "5:57"
+            },
+            {
+                "name": "wicked prince",
+                "length": "3:57"
+            }
+        ]
+    },
+    {
+        "title": "undead",
+        "name": "UNDEAD",
+        "artist": "YOASOBI",
+        "date": "2024-07-01",
+        "color": "--bg-red",
+        "cover": [
+            "/music/undead.avif",
+            "/music/undead.webp",
+            "/music/undead.jpg"
+        ],
+        "coverHalf": [
+            "/music/undead-0.5x.avif",
+            "/music/undead-0.5x.webp",
+            "/music/undead-0.5x.jpg"
+        ],
+        "sources": [
+        	"orokamonogatari",
+         	"nademonogatari",
+          	"wazamonogatari",
+          	"shinobumonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "UNDEAD",
+                "length": "3:02"
+            }
+        ]
+    },
+    {
+        "title": "kizumonogatari-koyomi-vamp-music-collection",
+        "name": "Kizumonogatari -Koyomi Vamp- Music Collection",
+        "kanji": "「傷物語 -こよみヴァンプ-」劇伴音楽集",
+        "artist": "神前暁 & 高田龍",
+        "date": "2024-07-24",
+        "color": "--bg-black",
+        "cover": [
+            "/music/kizumonogatari-koyomi-vamp-music-collection.avif",
+            "/music/kizumonogatari-koyomi-vamp-music-collection.webp",
+            "/music/kizumonogatari-koyomi-vamp-music-collection.jpeg"
+        ],
+        "coverHalf": [
+            "/music/kizumonogatari-koyomi-vamp-music-collection-0.5x.avif",
+            "/music/kizumonogatari-koyomi-vamp-music-collection-0.5x.webp",
+            "/music/kizumonogatari-koyomi-vamp-music-collection-0.5x.jpg"
+        ],
+        "sources": [
+        	"kizumonogatari-koyomi-vamp"
+        ],
+        "trackList": [
+            {
+                "name": "主人従僕の関係",
+                "length": "4:27"
+            },
+            {
+                "name": "三人がかり -Koyomi Vamp Edition-",
+                "length": "5:31"
+            },
+            {
+                "name": "義を見てせざるは勇なきなり",
+                "length": "0:38"
+            },
+            {
+                "name": "住所不定の自由人",
+                "length": "1:02"
+            },
+            {
+                "name": "決意",
+                "length": "5:29"
+            },
+            {
+                "name": "午前二時過ぎ",
+                "length": "0:42"
+            },
+            {
+                "name": "女の子の届け物",
+                "length": "0:36"
+            },
+            {
+                "name": "瀕死の吸血鬼",
+                "length": "2:50"
+            },
+            {
+                "name": "étoile et toi [édition le noir]",
+                "length": "8:09"
+            }
+        ]
+    },
+    {
+        "title": "icecream",
+        "name": "icecream° & Orokamonogatari Music Collection & Atogatari",
+        "kanji": "「icecream°」&「愚物語」劇伴音楽集&あとがたり",
+        "artist": "Various Artists",
+        "date": "2024-12-11",
+        "color": "--bg-green",
+        "cover": [
+            "/music/icecream.avif",
+            "/music/icecream.webp",
+            "/music/icecream.png"
+        ],
+        "coverHalf": [
+            "/music/icecream-0.5x.avif",
+            "/music/icecream-0.5x.webp",
+            "/music/icecream-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"orokamonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "icecream°",
+                "length": "4:11"
+            },
+            {
+                "name": "icecream° -instrumental-",
+                "length": "4:12"
+            },
+            {
+                "name": "観察報告",
+                "length": "1:30"
+            },
+            {
+                "name": "人間の振り",
+                "length": "1:09"
+            },
+            {
+                "name": "ちゃかちゃか着火",
+                "length": "1:37"
+            },
+            {
+                "name": "格好いい台詞",
+                "length": "1:22"
+            },
+            {
+                "name": "成長期",
+                "length": "2:23"
+            },
+            {
+                "name": "キャラデザ",
+                "length": "2:19"
+            },
+            {
+                "name": "怪異退治",
+                "length": "1:51"
+            },
+            {
+                "name": "理解できない感情",
+                "length": "2:16"
+            },
+            {
+                "name": "天敵",
+                "length": "1:38"
+            },
+            {
+                "name": "裏目",
+                "length": "1:52"
+            },
+            {
+                "name": "ことの原因",
+                "length": "1:31"
+            },
+            {
+                "name": "白紙撤回",
+                "length": "2:31"
+            },
+            {
+                "name": "あとがたり",
+                "length": "35:03"
+            }
+        ]
+    },
+    {
+        "title": "caramel-ribbon-cursetard",
+        "name": "caramel ribbon cursetard & Nademonogatari Music Collection I",
+        "kanji": "「caramel ribbon cursetard」&「撫物語」劇伴音楽集 其ノ壹",
+        "artist": "Various Artists",
+        "date": "2025-01-08",
+        "color": "--bg-salmon",
+        "cover": [
+            "/music/caramel-ribbon-cursetard.avif",
+            "/music/caramel-ribbon-cursetard.webp",
+            "/music/caramel-ribbon-cursetard.png"
+        ],
+        "coverHalf": [
+            "/music/caramel-ribbon-cursetard-0.5x.avif",
+            "/music/caramel-ribbon-cursetard-0.5x.webp",
+            "/music/caramel-ribbon-cursetard-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"nademonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "caramel ribbon cursetard",
+                "length": "3:08"
+            },
+            {
+                "name": "caramel ribbon cursetard -instrumental-",
+                "length": "3:10"
+            },
+            {
+                "name": "八方美人",
+                "length": "1:34"
+            },
+            {
+                "name": "初対面",
+                "length": "2:27"
+            },
+            {
+                "name": "一万時間の法则",
+                "length": "2:07"
+            },
+            {
+                "name": "自業自得",
+                "length": "2:35"
+            },
+            {
+                "name": "二つ目のほう",
+                "length": "2:25"
+            },
+            {
+                "name": "キャラクターデザイン",
+                "length": "2:07"
+            },
+            {
+                "name": "自画像",
+                "length": "1:49"
+            },
+            {
+                "name": "四散",
+                "length": "2:02"
+            },
+            {
+                "name": "式神と自分",
+                "length": "2:43"
+            },
+            {
+                "name": "ルマ撫子",
+                "length": "2:18"
+            },
+            {
+                "name": "育お姉ちゃん",
+                "length": "2:18"
+            },
+            {
+                "name": "人生相談",
+                "length": "2:23"
+            },
+            {
+                "name": "自戒",
+                "length": "1:42"
+            }
+        ]
+    },
+    {
+        "title": "nademonogatari-music-collection-ii",
+        "name": "Nademonogatari Music Collection II & Atogatari",
+        "kanji": "「撫物語」劇伴音楽集 其ノ貮&あとがたり",
+        "artist": "神前暁",
+        "date": "2025-02-05",
+        "color": "--bg-blue",
+        "cover": [
+            "/music/nademonogatari-music-collection-ii.avif",
+            "/music/nademonogatari-music-collection-ii.webp",
+            "/music/nademonogatari-music-collection-ii.png"
+        ],
+        "coverHalf": [
+            "/music/nademonogatari-music-collection-ii-0.5x.avif",
+            "/music/nademonogatari-music-collection-ii-0.5x.webp",
+            "/music/nademonogatari-music-collection-ii-0.5x.jpg"
+        ],
+        "hidden": true,
+        "position": "top",
+        "sources": [
+        	"nademonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "死体感",
+                "length": "2:38"
+            },
+            {
+                "name": "敗因",
+                "length": "2:42"
+            },
+            {
+                "name": "未来志向",
+                "length": "1:50"
+            },
+            {
+                "name": "決戦の地",
+                "length": "2:26"
+            },
+            {
+                "name": "「約束……、絶対、描き直してあげるから」",
+                "length": "2:01"
+            },
+            {
+                "name": "神撫子",
+                "length": "0:44"
+            },
+            {
+                "name": "答え合わせ",
+                "length": "3:05"
+            },
+            {
+                "name": "千石撫子、十五歳",
+                "length": "4:23"
+            },
+            {
+                "name": "レクチャー",
+                "length": "2:41"
+            },
+            {
+                "name": "あとがたり",
+                "length": "32:54"
+            }
+        ]
+    },
+    {
+        "title": "suicidal-tendency",
+        "name": "Suicidal Tendency & Wazamonogatari Music Collection & Atogatari",
+        "kanji": "「Suicidal Tendency」&「業物語」劇伴音楽集&あとがたり",
+        "artist": "Various Artists",
+        "date": "2025-03-05",
+        "color": "--bg-orange",
+        "cover": [
+            "/music/suicidal-tendency.avif",
+            "/music/suicidal-tendency.webp",
+            "/music/suicidal-tendency.png"
+        ],
+        "coverHalf": [
+            "/music/suicidal-tendency-0.5x.avif",
+            "/music/suicidal-tendency-0.5x.webp",
+            "/music/suicidal-tendency-0.5x.jpg"
+        ],
+        "sources": [
+        	"wazamonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "Suicidal Tendency",
+                "length": "2:51"
+            },
+            {
+                "name": "俺様の役目",
+                "length": "1:06"
+            },
+            {
+                "name": "亡国の美女",
+                "length": "3:57"
+            },
+            {
+                "name": "死体城",
+                "length": "1:19"
+            },
+            {
+                "name": "膝枕",
+                "length": "1:57"
+            },
+            {
+                "name": "ご容赦",
+                "length": "1:47"
+            },
+            {
+                "name": "利害の一致",
+                "length": "1:54"
+            },
+            {
+                "name": "鬼死",
+                "length": "3:36"
+            },
+            {
+                "name": "下拵え",
+                "length": "2:16"
+            },
+            {
+                "name": "線引き",
+                "length": "2:37"
+            },
+            {
+                "name": "事実は事実",
+                "length": "1:58"
+            },
+            {
+                "name": "委細承知の上",
+                "length": "3:14"
+            },
+            {
+                "name": "キスショット・アセロラオリオン・ ハートアンダーブレード",
+                "length": "2:17"
+            },
+            {
+                "name": "救済",
+                "length": "1:48"
+            },
+            {
+                "name": "六百年ぶりに",
+                "length": "1:19"
+            },
+            {
+                "name": "あとがたり",
+                "length": "34:12"
+            }
+        ]
+    },
+    {
+        "title": "banshi-no-theme",
+        "name": "Banshi no Theme & Shinobumonogatari Music Collection I",
+        "kanji": "「万死のテーマ」&「忍物語」劇伴音楽集 其ノ壹",
+        "artist": "羽岡佳",
+        "date": "2025-04-02",
+        "color": "--bg-yellow",
+        "cover": [
+            "/music/banshi-no-theme.avif",
+            "/music/banshi-no-theme.webp",
+            "/music/banshi-no-theme.png"
+        ],
+        "coverHalf": [
+            "/music/banshi-no-theme-0.5x.avif",
+            "/music/banshi-no-theme-0.5x.webp",
+            "/music/banshi-no-theme-0.5x.jpg"
+        ],
+        "sources": [
+        	"shinobumonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "万死のテーマ",
+                "length": "2:55"
+            },
+            {
+                "name": "現実逃避",
+                "length": "2:29"
+            },
+            {
+                "name": "木乃伊",
+                "length": "2:40"
+            },
+            {
+                "name": "正体不明",
+                "length": "2:57"
+            },
+            {
+                "name": "ミッシング・リンク",
+                "length": "2:29"
+            },
+            {
+                "name": "解読",
+                "length": "2:59"
+            },
+            {
+                "name": "D,V,S",
+                "length": "2:41"
+            },
+            {
+                "name": "特異な組織",
+                "length": "2:38"
+            },
+            {
+                "name": "個人情報",
+                "length": "2:39"
+            },
+            {
+                "name": "同調圧力",
+                "length": "2:36"
+            },
+            {
+                "name": "伝説の源泉",
+                "length": "2:53"
+            },
+            {
+                "name": "なれ合い",
+                "length": "2:36"
+            },
+            {
+                "name": "かつてのあるじ",
+                "length": "2:54"
+            },
+            {
+                "name": "クリプトビオシス",
+                "length": "2:40"
+            },
+            {
+                "name": "幻風景",
+                "length": "2:57"
+            }
+        ]
+    },
+    {
+        "title": "shinobumonogatari-music-collection-ii",
+        "name": "Shinobumonogatari Music Collection II",
+        "kanji": "「忍物語」劇伴音楽集 其ノ貳",
+        "artist": "羽岡佳",
+        "date": "2025-05-14",
+        "color": "--bg-green",
+        "cover": [
+            "/music/shinobumonogatari-music-collection-ii.avif",
+            "/music/shinobumonogatari-music-collection-ii.webp",
+            "/music/shinobumonogatari-music-collection-ii.png"
+        ],
+        "coverHalf": [
+            "/music/shinobumonogatari-music-collection-ii-0.5x.avif",
+            "/music/shinobumonogatari-music-collection-ii-0.5x.webp",
+            "/music/shinobumonogatari-music-collection-ii-0.5x.jpg"
+        ],
+        "position": "top",
+        "sources": [
+        	"shinobumonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "復元",
+                "length": "2:50"
+            },
+            {
+                "name": "開眼",
+                "length": "2:44"
+            },
+            {
+                "name": "カリスマ性",
+                "length": "2:44"
+            },
+            {
+                "name": "見栄",
+                "length": "2:38"
+            },
+            {
+                "name": "そうでないケース",
+                "length": "2:53"
+            },
+            {
+                "name": "潮時",
+                "length": "2:42"
+            },
+            {
+                "name": "素人",
+                "length": "2:51"
+            },
+            {
+                "name": "赤い闇",
+                "length": "2:41"
+            },
+            {
+                "name": "「はは。まあ、乗りかかった船だからな。」",
+                "length": "2:52"
+            },
+            {
+                "name": "再会",
+                "length": "2:34"
+            }
+        ]
+    },
+    {
+        "title": "shinobumonogatari-atogatari",
+        "name": "Shinobumonogatari Atogatari",
+        "kanji": "忍物語あとがたり",
+        "artist": "神谷浩史&坂本真綾",
+        "date": "2025-06-04",
+        "color": "--bg-yellow",
+        "cover": [
+            "/music/shinobumonogatari-atogatari.avif",
+            "/music/shinobumonogatari-atogatari.webp",
+            "/music/shinobumonogatari-atogatari.png"
+        ],
+        "coverHalf": [
+            "/music/shinobumonogatari-atogatari-0.5x.avif",
+            "/music/shinobumonogatari-atogatari-0.5x.webp",
+            "/music/shinobumonogatari-atogatari-0.5x.jpg"
+        ],
+        "hidden": true,
+        "sources": [
+        	"shinobumonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "あとがたり",
+                "length": "35:58"
+            }
+        ]
+    },
+    {
+        "title": "tsukimonogatari-original-soundtracks",
+        "name": "Tsukimonogatari Original Soundtracks",
+        "kanji": "憑物語 Original Soundtracks",
+        "artist": "羽岡佳",
+        "date": "2026-07-01",
+        "color": "--bg-green",
+        "cover": [
+            "/music/tsukimonogatari-original-soundtracks.avif",
+            "/music/tsukimonogatari-original-soundtracks.webp",
+            "/music/tsukimonogatari-original-soundtracks.jpg"
+        ],
+        "coverHalf": [
+            "/music/tsukimonogatari-original-soundtracks-0.5x.avif",
+            "/music/tsukimonogatari-original-soundtracks-0.5x.webp",
+            "/music/tsukimonogatari-original-soundtracks-0.5x.jpg"
+        ],
+        "sources": [
+        	"tsukimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "出自",
+                "length": "2:39"
+            },
+            {
+                "name": "終わりの始まり",
+                "length": "3:04"
+            },
+            {
+                "name": "とけいもうと",
+                "length": "2:48"
+            },
+            {
+                "name": "目を覚ますべき頃",
+                "length": "2:48"
+            },
+            {
+                "name": "お湯の毒味",
+                "length": "1:37"
+            },
+            {
+                "name": "無限の沈黙",
+                "length": "1:44"
+            },
+            {
+                "name": "ポジショニング",
+                "length": "1:38"
+            },
+            {
+                "name": "スリリング",
+                "length": "1:49"
+            },
+            {
+                "name": "役回り",
+                "length": "1:38"
+            },
+            {
+                "name": "超自然",
+                "length": "1:37"
+            },
+            {
+                "name": "温度差",
+                "length": "2:43"
+            },
+            {
+                "name": "模範解答",
+                "length": "2:39"
+            },
+            {
+                "name": "クレーンゲーム",
+                "length": "3:03"
+            },
+            {
+                "name": "シュール萌え",
+                "length": "2:51"
+            },
+            {
+                "name": "完全回復",
+                "length": "2:24"
+            },
+            {
+                "name": "適切を超えて完璧",
+                "length": "2:39"
+            },
+            {
+                "name": "威風堂々",
+                "length": "2:41"
+            },
+            {
+                "name": "絶望的な回答",
+                "length": "2:42"
+            },
+            {
+                "name": "仕上げの総仕上げ",
+                "length": "2:44"
+            },
+            {
+                "name": "そういう奴",
+                "length": "3:53"
+            },
+            {
+                "name": "犯行予告状",
+                "length": "2:38"
+            },
+            {
+                "name": "人質救出",
+                "length": "3:06"
+            },
+            {
+                "name": "ふわふわする子",
+                "length": "2:38"
+            },
+            {
+                "name": "出自 Ⅱ",
+                "length": "3:04"
+            },
+            {
+                "name": "重い言葉",
+                "length": "2:41"
+            },
+            {
+                "name": "犯人",
+                "length": "2:37"
+            },
+            {
+                "name": "自虐的な微笑",
+                "length": "2:35"
+            },
+            {
+                "name": "「こうはならないでね、鬼いちゃん。人間は化物(こう)なってしまえば ― おしまいだ」",
+                "length": "1:49"
+            },
+            {
+                "name": "バレンタインデー",
+                "length": "2:40"
+            },
+            {
+                "name": "騒がしい日々",
+                "length": "1:36"
+            }
+        ]
+    },
+    {
+        "title": "owarimonogatari-original-soundtracks",
+        "name": "Owarimonogatari Original Soundtracks",
+        "kanji": "終物語 Original Soundtracks",
+        "artist": "羽岡佳",
+        "date": "2026-07-01",
+        "color": "--bg-black",
+        "cover": [
+            "/music/owarimonogatari-original-soundtracks.avif",
+            "/music/owarimonogatari-original-soundtracks.webp",
+            "/music/owarimonogatari-original-soundtracks.jpg"
+        ],
+        "coverHalf": [
+            "/music/owarimonogatari-original-soundtracks-0.5x.avif",
+            "/music/owarimonogatari-original-soundtracks-0.5x.webp",
+            "/music/owarimonogatari-original-soundtracks-0.5x.jpg"
+        ],
+        "sources": [
+        	"owarimonogatari-jou",
+         	"owarimonogatari-ge"
+        ],
+        "trackList": [
+            {
+                "name": "オイラー",
+                "length": "2:35"
+            },
+            {
+                "name": "みたいな感じ",
+                "length": "2:39"
+            },
+            {
+                "name": "姪っ子",
+                "length": "2:38"
+            },
+            {
+                "name": "デッドスペース",
+                "length": "2:35"
+            },
+            {
+                "name": "居残り授業",
+                "length": "2:37"
+            },
+            {
+                "name": "見えるはずのない風景",
+                "length": "2:42"
+            },
+            {
+                "name": "七月十五日",
+                "length": "2:42"
+            },
+            {
+                "name": "老倉委員長",
+                "length": "2:37"
+            },
+            {
+                "name": "秘密学級会",
+                "length": "2:42"
+            },
+            {
+                "name": "学級会の幽霊",
+                "length": "2:42"
+            },
+            {
+                "name": "水かけ論",
+                "length": "2:53"
+            },
+            {
+                "name": "多数決",
+                "length": "2:51"
+            },
+            {
+                "name": "新旧文房具女対決",
+                "length": "2:41"
+            },
+            {
+                "name": "数学の妖精",
+                "length": "2:39"
+            },
+            {
+                "name": "部外者",
+                "length": "2:43"
+            },
+            {
+                "name": "遡らなければならない記憶",
+                "length": "2:40"
+            },
+            {
+                "name": "お見舞い",
+                "length": "2:36"
+            },
+            {
+                "name": "割り込み横入り",
+                "length": "2:37"
+            },
+            {
+                "name": "二者択一",
+                "length": "2:38"
+            },
+            {
+                "name": "444号室",
+                "length": "2:55"
+            },
+            {
+                "name": "手遅れ",
+                "length": "2:45"
+            },
+            {
+                "name": "最悪の真相",
+                "length": "3:19"
+            },
+            {
+                "name": "やっぱり",
+                "length": "2:55"
+            },
+            {
+                "name": "「私は何も知りませんよ。あなたが知っているんです―阿良々木先輩。」",
+                "length": "2:25"
+            },
+            {
+                "name": "前節",
+                "length": "2:25"
+            },
+            {
+                "name": "潰れた蛙",
+                "length": "2:19"
+            },
+            {
+                "name": "放恣なご奉仕",
+                "length": "2:15"
+            },
+            {
+                "name": "甲冑",
+                "length": "2:36"
+            },
+            {
+                "name": "我者我者",
+                "length": "2:35"
+            },
+            {
+                "name": "鎧武者",
+                "length": "2:39"
+            },
+            {
+                "name": "開示すべき場面",
+                "length": "2:10"
+            },
+            {
+                "name": "棒読み",
+                "length": "2:17"
+            },
+            {
+                "name": "リスキーな真似",
+                "length": "2:40"
+            },
+            {
+                "name": "後始末",
+                "length": "2:40"
+            },
+            {
+                "name": "悲しき無限コンティニュー",
+                "length": "3:04"
+            },
+            {
+                "name": "怪異殺し少年",
+                "length": "2:53"
+            },
+            {
+                "name": "女子同士の喧嘩",
+                "length": "2:31"
+            },
+            {
+                "name": "ただの人見知り",
+                "length": "2:26"
+            },
+            {
+                "name": "道破",
+                "length": "2:40"
+            },
+            {
+                "name": "先輩冥利",
+                "length": "2:35"
+            },
+            {
+                "name": "誰かの特別",
+                "length": "2:40"
+            },
+            {
+                "name": "最後の会話",
+                "length": "3:10"
+            },
+            {
+                "name": "「儂のほうこそ悪かった ― 生死郎」",
+                "length": "2:42"
+            },
+            {
+                "name": "小僧",
+                "length": "2:22"
+            },
+            {
+                "name": "お約束",
+                "length": "2:12"
+            },
+            {
+                "name": "ご愛嬌",
+                "length": "2:06"
+            },
+            {
+                "name": "阿鼻地獄",
+                "length": "2:09"
+            },
+            {
+                "name": "計算通り",
+                "length": "2:15"
+            },
+            {
+                "name": "不思議の国",
+                "length": "2:14"
+            },
+            {
+                "name": "バランス",
+                "length": "2:15"
+            },
+            {
+                "name": "迎合",
+                "length": "2:14"
+            },
+            {
+                "name": "盤根錯節",
+                "length": "2:10"
+            },
+            {
+                "name": "現世の土産",
+                "length": "2:28"
+            },
+            {
+                "name": "長ゼリ",
+                "length": "2:20"
+            },
+            {
+                "name": "自己愛",
+                "length": "2:14"
+            },
+            {
+                "name": "脅迫",
+                "length": "2:25"
+            },
+            {
+                "name": "ディスティネーション",
+                "length": "2:17"
+            },
+            {
+                "name": "ピーキー",
+                "length": "2:30"
+            },
+            {
+                "name": "ドライバーヶ原ひたぎ",
+                "length": "2:10"
+            },
+            {
+                "name": "ワトソンくん",
+                "length": "2:08"
+            },
+            {
+                "name": "プラネタリウム",
+                "length": "2:05"
+            },
+            {
+                "name": "胡蝶の夢",
+                "length": "2:06"
+            },
+            {
+                "name": "十三星座",
+                "length": "2:00"
+            },
+            {
+                "name": "そういう生き方",
+                "length": "2:04"
+            },
+            {
+                "name": "お姫様だっこ",
+                "length": "2:17"
+            },
+            {
+                "name": "訂正",
+                "length": "2:10"
+            },
+            {
+                "name": "燕雀安んぞ鴻鵠の志を知らんや",
+                "length": "2:17"
+            },
+            {
+                "name": "青春の終わり",
+                "length": "2:12"
+            },
+            {
+                "name": "友人の一面",
+                "length": "2:06"
+            },
+            {
+                "name": "心中",
+                "length": "2:59"
+            },
+            {
+                "name": "「変わりませんねぇ、阿良々木先輩」",
+                "length": "3:12"
+            }
+        ]
+    },
+    {
+        "title": "zoku-owarimonogatari-original-soundtracks",
+        "name": "Zoku Owarimonogatari Original Soundtracks",
+        "kanji": "続・終物語 Original Soundtracks",
+        "artist": "羽岡佳",
+        "date": "2026-07-01",
+        "color": "--bg-white",
+        "cover": [
+            "/music/zoku-owarimonogatari-original-soundtracks.avif",
+            "/music/zoku-owarimonogatari-original-soundtracks.webp",
+            "/music/zoku-owarimonogatari-original-soundtracks.jpg"
+        ],
+        "coverHalf": [
+            "/music/zoku-owarimonogatari-original-soundtracks-0.5x.avif",
+            "/music/zoku-owarimonogatari-original-soundtracks-0.5x.webp",
+            "/music/zoku-owarimonogatari-original-soundtracks-0.5x.jpg"
+        ],
+        "sources": [
+        	"zoku-owarimonogatari"
+        ],
+        "trackList": [
+            {
+                "name": "ただの阿良々木暦",
+                "length": "3:01"
+            },
+            {
+                "name": "鏡像",
+                "length": "2:44"
+            },
+            {
+                "name": "平然とした風",
+                "length": "3:20"
+            },
+            {
+                "name": "異変",
+                "length": "3:19"
+            },
+            {
+                "name": "『少女』の『シ』",
+                "length": "2:43"
+            },
+            {
+                "name": "八九寺おねーさん",
+                "length": "3:26"
+            },
+            {
+                "name": "ハードな世界観",
+                "length": "3:23"
+            },
+            {
+                "name": "冴えたやり方",
+                "length": "1:46"
+            },
+            {
+                "name": "増幅する憎悪",
+                "length": "1:51"
+            },
+            {
+                "name": "マジの胸騒ぎ",
+                "length": "3:31"
+            },
+            {
+                "name": "圧迫される感",
+                "length": "1:59"
+            },
+            {
+                "name": "別人老倉",
+                "length": "1:54"
+            },
+            {
+                "name": "クチナワさん",
+                "length": "2:22"
+            },
+            {
+                "name": "ブラッシュアップ",
+                "length": "3:35"
+            },
+            {
+                "name": "凸凹コンビ",
+                "length": "2:54"
+            },
+            {
+                "name": "カリスマ",
+                "length": "4:13"
+            },
+            {
+                "name": "姫様",
+                "length": "4:04"
+            },
+            {
+                "name": "そんな奴",
+                "length": "2:35"
+            },
+            {
+                "name": "反射率",
+                "length": "2:36"
+            },
+            {
+                "name": "超解決策",
+                "length": "4:18"
+            },
+            {
+                "name": "超天才肌",
+                "length": "3:08"
+            },
+            {
+                "name": "『どーでもいい』こと",
+                "length": "3:19"
+            },
+            {
+                "name": "ナオエツコウコウ",
+                "length": "3:37"
+            },
+            {
+                "name": "マジ切れ",
+                "length": "3:25"
+            },
+            {
+                "name": "最上の恐怖",
+                "length": "3:21"
+            },
+            {
+                "name": "白々しい口調",
+                "length": "2:42"
+            },
+            {
+                "name": "夢落ちの逆",
+                "length": "2:38"
+            },
+            {
+                "name": "裏返しからの、恩返し",
+                "length": "4:12"
+            },
+            {
+                "name": "巻き添え",
+                "length": "2:18"
+            },
+            {
+                "name": "「阿良々木暦。見たまんまの男さ」",
+                "length": "4:43"
+            }
+        ]
+    }
+]
