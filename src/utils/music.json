@@ -24,6 +24,20 @@
         "sources": [
         	"bakemonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/75UFYCI7xGzNNBqqZmuznH?si=C4f2dE28TZuX_2Zt5cfp2A"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/君の知らない物語-ep/1537405914"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_m5osv2lu8-vP16ESuZZK0Pk4sRz57_tvc&si=Vmb06YMWNnlQbTfS"
+            }
+        ],
         "trackList": [
             {
                 "name": "君の知らない物語",
@@ -68,13 +82,27 @@
         "sources": [
         	"bakemonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/7AhiAL6fOhqIabtgZ8gF5L?si=f17a4ca94c244b00"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/staple-stable/1439324896"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=CXDUXjsU5ao&si=wSkq3gj20QkLXDD7"
+            }
+        ],
         "trackList": [
             {
                 "name": "staple stable",
                 "length": "4:36"
             },
             {
-                "name": "staple stable",
+                "name": "staple stable -instrumental-",
                 "length": "4:37"
             },
             {
@@ -103,6 +131,20 @@
         "position": "top",
         "sources": [
         	"bakemonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/7Lrlrt1WYfAtge84kr92T0?si=c82bea1a94c4478f"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/kaerimichi/1439324899"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=M2hWLKfuZKE&si=LyS29GhmyPbvjKYm"
+            }
         ],
         "trackList": [
             {
@@ -140,6 +182,20 @@
         "sources": [
         	"bakemonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/1eugvD24GPd6H8bMhNgIj3?si=9c17ddfc8c8c4f13"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/ambivalent-world/1439324903"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=wj1Xnv1YvHY&si=tVjfQhA2NHO6Cvsl"
+            }
+        ],
         "trackList": [
             {
                 "name": "ambivalent world",
@@ -175,6 +231,20 @@
         "position": "top",
         "sources": [
         	"bakemonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/6luI5Go8acCnPJvx7A8BkF?si=43745736d69f4e92"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/renai-circulation/1439324904"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=F8xpmTmdf6o&si=7boiUdMZeF81Lqsk"
+            }
         ],
         "trackList": [
             {
@@ -212,6 +282,20 @@
         "position": "top",
         "sources": [
         	"bakemonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/5T0BXmeILaHo8vIprV89C7?si=d217868988464749"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/sugar-sweet-nightmare/1439324905"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=BAchFngRQeA&si=3-cpmsbv2Ae-mp--"
+            }
         ],
         "trackList": [
             {
@@ -285,6 +369,20 @@
         "sources": [
         	"bakemonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/2sEpN2bNZaS8xgpaPDNJej?si=NMxhX5JuREygTz-xTS5hQw"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/bakemonogatari-gekihanongakushu-original-soundtrack/1439324785"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_nRJ6OZSQ01PRWpTeUFJaOXizldun0eTBI&si=hYHZR95cSYWQgSqJ"
+            }
+        ],
         "trackList": [
             {
                 "name": "散歩",
@@ -351,6 +449,20 @@
         ],
         "sources": [
         	"bakemonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/2sEpN2bNZaS8xgpaPDNJej?si=NMxhX5JuREygTz-xTS5hQw"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/bakemonogatari-gekihanongakushu-original-soundtrack/1439324785"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_nRJ6OZSQ01PRWpTeUFJaOXizldun0eTBI&si=hYHZR95cSYWQgSqJ"
+            }
         ],
         "trackList": [
             {
@@ -660,6 +772,20 @@
         "sources": [
         	"nisemonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/6euY48zcyJTp1vTdsNM383?si=lKamOz3zRMqsQ_MMYhtcdA"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/ナイショの話-ep/1537248652"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_nukvouH1VHhrg1cVBLspdbpi2FPfUyRlc&si=t1pLlfIWBVwhPNrd"
+            }
+        ],
         "trackList": [
             {
                 "name": "ナイショの話",
@@ -699,6 +825,20 @@
         "sources": [
         	"nisemonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/7IiKtKFZibFW5Wj35cHPEb?si=7a8ffd1e39e642f9"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/marshmallow-justice/1439324475"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=DOF_GkqMYTw&si=4SPrfw6WbncYUyZ2"
+            }
+        ],
         "trackList": [
             {
                 "name": "marshmallow justice",
@@ -730,6 +870,20 @@
         "position": "top",
         "sources": [
         	"nisemonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/1D1oqJGlRiSL5zbPcNGFud?si=d6360bde475d4011"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/futakotome/1439324473"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=t55_9fHcJx8&si=lgh2OTVvIlidZea2"
+            }
         ],
         "trackList": [
             {
@@ -815,6 +969,20 @@
         "sources": [
         	"nisemonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/6KcPqBUDv4lHUt0idVQEgC?si=ScTaKRksQdWlPCX_tzqSlw"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/nisemonogatari-gekihanongakushu-original-soundtrack/1439323749"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_mFEtvmR3s8cYRuSQ8Vk3AnTPTxK5iShX0&si=at6Y8BsuEBND7top"
+            }
+        ],
         "trackList": [
             {
                 "name": "前髪",
@@ -895,6 +1063,20 @@
         "sources": [
         	"nisemonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/71Mjox4H55HJlv0BJj2hhX?si=53703bec6fd6423e"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/platinum-disco/1439324476"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=S-4r9ZnBycQ&si=UzAQlR1T_VrSDKNx"
+            }
+        ],
         "trackList": [
             {
                 "name": "白金ディスコ",
@@ -971,6 +1153,20 @@
         "sources": [
         	"nisemonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/6KcPqBUDv4lHUt0idVQEgC?si=ScTaKRksQdWlPCX_tzqSlw"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/nisemonogatari-gekihanongakushu-original-soundtrack/1439323749"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_mFEtvmR3s8cYRuSQ8Vk3AnTPTxK5iShX0&si=at6Y8BsuEBND7top"
+            }
+        ],
         "trackList": [
             {
                 "name": "夏休み",
@@ -1034,6 +1230,20 @@
         "position": "top",
         "sources": [
         	"nekomonogatari-kuro"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/2HXVrYL6bACjOzVEmoNvMM?si=NqlTHuEHSFeCICuwYM8uMQ"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/nekomonogatari-kuro-gekihanongakushu-original-soundtrack/1439323378"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_m4e1uf4rNJe_WUxROvNxVhBN17GMHdyoc&si=iDEwXijEZSyB_mDK"
+            }
         ],
         "trackList": [
             {
@@ -1163,6 +1373,20 @@
         "sources": [
         	"nekomonogatari-kuro"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/52QAUD1fx0vmbBPkXDVOxk?si=99aa3904427142bb"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/kieru-daydream/1439323599"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=S4CuHHyLqN8&si=G_tEl40ae3T7znXL"
+            }
+        ],
         "trackList": [
             {
                 "name": "消えるdaydream",
@@ -1203,6 +1427,20 @@
         "sources": [
         	"nekomonogatari-shiro",
          	"kabukimonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/0CqBmQPW9g5PcYuSga1GRz?si=1DPdtFKNSJaDDdG0O7zOKA"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/アイヲウタエ-ep/1537262851"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_lJ_WrDqT3SmerKKXAdkCl90TD85yWoREk&si=_FUUEa4NaDwBbxVV"
+            }
         ],
         "trackList": [
             {
@@ -1249,6 +1487,20 @@
         	"otorimonogatari",
          	"onimonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/2XWSv4w9Ixb9MR9kNmXUIb?si=c98b3a23ba484806"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/sonokoewo-oboeteru/1439329288"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=4PYI37KrmC4&si=v2h8thysaQOhRjzU"
+            }
+        ],
         "trackList": [
             {
                 "name": "その声を覚えてる",
@@ -1282,6 +1534,20 @@
         ],
         "sources": [
         	"nekomonogatari-shiro"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/1ku2LBifRZrAvPx7yJdWfJ?si=6c94d6541ba8446f"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/chocolate-insomnia/1439156491"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=4BP_NJ41bB8&si=NdRsdMfK_RnN8d2I"
+            }
         ],
         "trackList": [
             {
@@ -1317,6 +1583,20 @@
         ],
         "sources": [
         	"koimonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/3agJEXdTaooPMkYO17z0xQ?si=Uz3XFnY0RnKIu47GuPymWg"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/snowdrop-ep/1537264514"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_lqe3zzyUKj2Vlb8ifuvyja_ebl3r8VAeM&si=o3c52fCVhL13cwIr"
+            }
         ],
         "trackList": [
             {
@@ -1358,6 +1638,20 @@
         "position": "top",
         "sources": [
         	"nekomonogatari-shiro"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/7BPZGcFGCvH4Sf2vTfYCq5?si=RM58iiitQCy6oshUp1wu8g"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/nekomonogatari-shiro-gekihanongakushu-original-soundtrack/1439156488"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_kxqnT52w7Da7DRpP43sUksmL7VHvsNdDo&si=kkUl98T03i4s9aoh"
+            }
         ],
         "trackList": [
             {
@@ -1454,6 +1748,20 @@
         "sources": [
         	"kabukimonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/6yVfuJ83Jeuni0VdTrgEfW?si=14d7081a366b430d"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/happy-bite/1439323327"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=461ON5K7AQI&si=Dup52XhGUTWiXBja"
+            }
+        ],
         "trackList": [
             {
                 "name": "happy bite",
@@ -1486,6 +1794,20 @@
         "position": "top",
         "sources": [
         	"kabukimonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/6hf1rG8h49LGEU4cdHI0jD?si=942Y8CZzQFmFkWvJrwGpJg"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/kabukimonogatari-gekihanongakushu-original-soundtrack/1439323325"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_kTvjIabRyUXaSM3r4cplL67k9uq3RdA6w&si=9jONNwMqWIiN4jKK"
+            }
         ],
         "trackList": [
             {
@@ -1578,6 +1900,20 @@
         "sources": [
         	"otorimonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/0AMPzoNXlZxOQfcnajreKx?si=138f11daf1f64cf5"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/mousou-express/1439328812"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=y2XArpEcygc&si=qWlvPwlpJKY-Rm7K"
+            }
+        ],
         "trackList": [
             {
                 "name": "もうそう♡えくすぷれす",
@@ -1610,6 +1946,20 @@
         "position": "top",
         "sources": [
         	"otorimonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/3b3OirqmoWgWojOebQtqIH?si=friYgI8XQbGSbprhDhoKEg"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/otorimonogatari-gekihanongakushu-original-soundtrack/1439328802"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_mnizK9AKNjPiJi8rehOvmU_9jj9R7YFFY&si=vYf_AQ1DTYXlrZKy"
+            }
         ],
         "trackList": [
             {
@@ -1703,6 +2053,20 @@
         "sources": [
         	"onimonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/6I8lJ0aTvAhJySbzAteKVY?si=d8a73ef195da4356"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/white-lies/1439329084"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=j-ks1F9bpik&si=bjzKdlFHXEIc9lvx"
+            }
+        ],
         "trackList": [
             {
                 "name": "white lies",
@@ -1734,6 +2098,20 @@
         "position": "top",
         "sources": [
         	"onimonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/4YW768RWErxgTuJ7RYc3po?si=lbbKpk1wRAe5t4gkP8ztuA"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/onimonogatari-gekihanongakushu-original-soundtrack/1439329081"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_lBnaxDk4dnBHKNwxUIfxkU0ZJYOvwV11M&si=QkiflWC78YPN2pMp"
+            }
         ],
         "trackList": [
             {
@@ -1843,6 +2221,20 @@
         "sources": [
         	"koimonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/1FUoLHrGZ2762VqO9FidkU?si=i7NkBeBOSIqTyYcCnVuIPA"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/koimonogatari-gekihanongakushu-original-soundtrack/1439323326"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_lBzg0vPrPThOU5xghUu4H-TqNUinE7UE4&si=041wA8yvtfR7BZpb"
+            }
+        ],
         "trackList": [
             {
                 "name": "fast love",
@@ -1923,6 +2315,20 @@
         "sources": [
         	"koimonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/1jd2jYSUu3reC3rR6EAwYB?si=38cb24b685814097"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/kogarashi-sentiment-senjogahara-hitagi-kaiki-deisyu/1439323329"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=FhTXpx_fOHM&si=xAjx--9HlDDCKiyc"
+            }
+        ],
         "trackList": [
             {
                 "name": "木枯らしセンティメント -戦場ヶ原ひたぎ&貝木泥舟 ver.-",
@@ -1958,6 +2364,20 @@
         "position": "top",
         "sources": [
         	"hanamonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/05AkgTrYfbj7bK1b5ctV79?si=i4X9eDRfQ6Wh_WTqalVt_Q"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/hanamonogatari-gekihanongakushu-original-soundtrack/1439328728"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_lAnNxfACXh806LBJUxwURBrtotw-aVgcY&si=_beFJn6_pOEyB5A_"
+            }
         ],
         "trackList": [
             {
@@ -2059,6 +2479,20 @@
         "sources": [
         	"hanamonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/05AkgTrYfbj7bK1b5ctV79?si=i4X9eDRfQ6Wh_WTqalVt_Q"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/hanamonogatari-gekihanongakushu-original-soundtrack/1439328728"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_lAnNxfACXh806LBJUxwURBrtotw-aVgcY&si=_beFJn6_pOEyB5A_"
+            }
+        ],
         "trackList": [
             {
                 "name": "花痕 -shirushi-",
@@ -2142,6 +2576,20 @@
         "sources": [
         	"tsukimonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/3bqb6vmiu1TAyZ89uHIb5m?si=uLR4F-J7S-WWawyOf8zcJw"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/border-ep/1537252922"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_mlkVbOV2qgduoz5MVYfzfcK7WDgPSbIgY&si=B_WrBM7L_RKu4Xp1"
+            }
+        ],
         "trackList": [
             {
                 "name": "border",
@@ -2181,6 +2629,20 @@
         "position": "top",
         "sources": [
         	"tsukimonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/0dhVqUkUR8w0gkkkXh2zyU?si=O49YNf1zQXK4JYCZLTrKSQ"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/tukimonogatari-gekihanongakushu-original-soundtrack/1439155267"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_kcPAMXL_O_OHu1dh2BDoQ1fe6gvS10Bow&si=DYwBfQdvnhs5HuVU"
+            }
         ],
         "trackList": [
             {
@@ -2286,6 +2748,20 @@
         "sources": [
         	"tsukimonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/6Jdh5LG9jS9FrdD6cvOTu9?si=1xswlZhCSpqYby8U1SMACw"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/憑物語-劇伴音楽集/6781662737"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_ltXlmZGza9Tz3LJpcoEp6upmHXEZosA_8&si=VuGmSmzdson1_dt9"
+            }
+        ],
         "trackList": [
             {
                 "name": "仕上げの総仕上げ",
@@ -2362,6 +2838,20 @@
         "sources": [
         	"owarimonogatari-jou"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/54DwM8DsqdLcZG6Ua2Bomw?si=f02578a2da21459e"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/decent-black/1439324566"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=A0Iw47S3z90&si=KCZnCCdzQUyYZQp_"
+            }
+        ],
         "trackList": [
             {
                 "name": "decent black",
@@ -2397,6 +2887,20 @@
         "position": "top",
         "sources": [
         	"owarimonogatari-jou"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/2tbQxtjeai98CxjBnF4wJC?si=afde94a83280487b"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/mathemagics/1439324638"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=F_Cr9vZ08Ws&si=uJ1JuOWvi2Ou6d0n"
+            }
         ],
         "trackList": [
             {
@@ -2437,6 +2941,20 @@
         ],
         "sources": [
         	"owarimonogatari-jou"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/6TgqICSIlJWxDUtMtNUImn?si=fVz3klC2SkmSYIwremNKcw"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/さよならのゆくえ-ep/1537254429"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_l4ExRmTF0g1t6MHcqDYAGxvglWktDY1HE&si=MjOnyguRylSqJdjO"
+            }
         ],
         "trackList": [
             {
@@ -2488,6 +3006,20 @@
             "otorimonogatari",
             "onimonogatari",
             "koimonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/0Wibr4Xn7la0V69fnnujJw?si=uniadOVmQ2aEH0vdheLI9A"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/utamonogatari-special-edition-original-soundtrack/1439331924"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_kY9m1l-QDPi7JuRE7tdd6glVlj8c3J8fs&si=uBss5O_ZhBmk8CRv"
+            }
         ],
         "trackList": [
             {
@@ -2608,6 +3140,20 @@
         "sources": [
         	"koyomimonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/4wPSOZD5k4Jg2qwqbCn2c2?si=a27f7dd655304af0"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/whiz/1827402242"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=xbT072qVq8A&si=Pwk0QCGLv8YUUoY2"
+            }
+        ],
         "trackList": [
             {
                 "name": "whiz",
@@ -2652,6 +3198,20 @@
         "sources": [
         	"owarimonogatari-jou"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/2fMkdSMrfhmEqbNBDJtyU7?si=11ef1d3d160b4a0d"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/yuudachihouteishiki/1439324641"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=aoV0PKHdWXw&si=xDxNcUEER1c4QmxC"
+            }
+        ],
         "trackList": [
             {
                 "name": "夕立方程式",
@@ -2687,6 +3247,20 @@
         "position": "top",
         "sources": [
         	"owarimonogatari-jou"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/6Y4aoedUzZ4losxpXscJWy?si=8f122b108a42482f"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/mein-schatz/1439324646"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=FJ58Dk_cJKA&si=i6Y9GULO3AUKh-jK"
+            }
         ],
         "trackList": [
             {
@@ -2812,6 +3386,20 @@
         "position": "top",
         "sources": [
         	"owarimonogatari-jou"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/5yuggoIWa00tr1a7vvd0VC?si=f4boxPkSTj-htiJRNABAEA"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/%E7%B5%82%E7%89%A9%E8%AA%9E-%E5%8A%87%E4%BC%B4%E9%9F%B3%E6%A5%BD%E9%9B%86/6781672701"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_lpz5CxjX00OdRziNG5eiNL9Mx1HB1ST3Q&si=IJROK2c82eB6b7qb"
+            }
         ],
         "trackList": [
             {
@@ -3086,6 +3674,20 @@
         "sources": [
         	"kizumonogatari-II"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/7HpPrrYlxfEuAoLj04W2i3?si=5ab52d4b1bf1459e"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/%C3%A9toile-et-toi/1439323299"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=rzXEw5VTtoo&si=KWKjfrqA-z9FTo-c"
+            }
+        ],
         "trackList": [
             {
                 "name": "熱血篇タイトルバック",
@@ -3221,6 +3823,20 @@
         "position": "bottom",
         "sources": [
         	"kizumonogatari-III"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/5HBnVSa57l3B4Cxg7XQ8VL?si=3ac9dcc573ba4dbc"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/%C3%A9toile-et-toi-edition-le-blanc/1439323547"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=G2hWYfflWB0&si=68X84AYGHBp_7kox"
+            }
         ],
         "trackList": [
             {
@@ -4161,6 +4777,20 @@
         "sources": [
         	"owarimonogatari-ge"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/00paTaIXU1wa5JRcpZE21q?si=V1C3D1E7Q8Gk_LTBwl6SYw"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/shiori-ep/1292257203"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_mbXayDjZboqn7Q10y2bVrEz4G5TERp6nE&si=ppqV67eBBPBPHhD9"
+            }
+        ],
         "trackList": [
             {
                 "name": "SHIORI",
@@ -4208,6 +4838,20 @@
         "position": "top",
         "sources": [
         	"owarimonogatari-ge"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/5yuggoIWa00tr1a7vvd0VC?si=f4boxPkSTj-htiJRNABAEA"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/%E7%B5%82%E7%89%A9%E8%AA%9E-%E5%8A%87%E4%BC%B4%E9%9F%B3%E6%A5%BD%E9%9B%86/6781672701"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_lpz5CxjX00OdRziNG5eiNL9Mx1HB1ST3Q&si=IJROK2c82eB6b7qb"
+            }
         ],
         "trackList": [
             {
@@ -4284,6 +4928,20 @@
         "position": "top",
         "sources": [
         	"owarimonogatari-ge"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/5yuggoIWa00tr1a7vvd0VC?si=f4boxPkSTj-htiJRNABAEA"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/%E7%B5%82%E7%89%A9%E8%AA%9E-%E5%8A%87%E4%BC%B4%E9%9F%B3%E6%A5%BD%E9%9B%86/6781672701"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_lpz5CxjX00OdRziNG5eiNL9Mx1HB1ST3Q&si=IJROK2c82eB6b7qb"
+            }
         ],
         "trackList": [
             {
@@ -4385,6 +5043,20 @@
         "sources": [
         	"owarimonogatari-ge"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/6Z9JnFYXEbdVrxG45xlhSA?si=01cf3812ded24d1a"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/dark-cherry-mystery/1439324784"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=_XdwYtDT910&si=Vfv2cDUpafkN7Ker"
+            }
+        ],
         "trackList": [
             {
                 "name": "dark cherry mystery",
@@ -4415,6 +5087,20 @@
             "/music/wicked-prince-0.5x.avif",
             "/music/wicked-prince-0.5x.webp",
             "/music/wicked-prince-0.5x.jpg"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/track/4zbRevTbdBUrLjl9ypp74i?si=8cddbabdf17d42a0"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/song/wicked-prince/1439333023"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/watch?v=KRe1SLtUqP8&si=tCOquYSqHzQdsN8o"
+            }
         ],
         "trackList": [
             {
@@ -4450,6 +5136,20 @@
         ],
         "sources": [
         	"zoku-owarimonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/5r1PSL9dBXfAL6s77H7zEy?si=-sXd8xHIS6eDGbhhfMG6-w"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/azure-ep/1537901247"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_mkrgLWFpMsJSr376mlircwXY7F7bvoTRc&si=ecrL2HuZ0MXwHVrW"
+            }
         ],
         "trackList": [
             {
@@ -4494,6 +5194,20 @@
         "hidden": true,
         "sources": [
         	"zoku-owarimonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/74zA5PdvpgDYaAvYzIB9DN?si=QkaWhQcPRsKdj8B8ZxYdAA"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/続-終物語-劇伴音楽集/6781662113"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_mQ5Z-ebBYtIL3inaYU3GDF-fkD1GooOwE&si=2W9yY4kssq4w9fEV"
+            }
         ],
         "trackList": [
             {
@@ -4581,6 +5295,20 @@
         ],
         "sources": [
         	"zoku-owarimonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/74zA5PdvpgDYaAvYzIB9DN?si=QkaWhQcPRsKdj8B8ZxYdAA"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/続-終物語-劇伴音楽集/6781662113"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_mQ5Z-ebBYtIL3inaYU3GDF-fkD1GooOwE&si=2W9yY4kssq4w9fEV"
+            }
         ],
         "trackList": [
             {
@@ -4768,6 +5496,20 @@
           	"wazamonogatari",
           	"shinobumonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/6MJBA73OCvq4FEJqYhXn9e?si=3Rl-kxL8RNK3ZuhjUQu_Mg"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/undead-single/1752838718"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_lopAwgynlvcz7lrVjPoD_ZvnJOp8oYefw&si=KqOYapuUU2bnE-1W"
+            }
+        ],
         "trackList": [
             {
                 "name": "UNDEAD",
@@ -4855,6 +5597,20 @@
         "sources": [
         	"orokamonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/3sJxT9yjblNAjOPawwhQlk?si=YwrMGyfcSPSoGnGxTthYaQ"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/icecream-single/6781660757"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_kuoiYeSmogEZORoqgZE_pOS4_KEvaoHDM&si=pQ8JrfCvxOKXOvgH"
+            }
+        ],
         "trackList": [
             {
                 "name": "icecream°",
@@ -4938,6 +5694,20 @@
         "position": "top",
         "sources": [
         	"nademonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/0CyuR95rGeGRWjRzNLxLY2?si=XlcR3k9RRamfVGw474suqA"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/caramel-ribbon-cursetard-single/6781661028"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_k_x8SLgTQw8he_lvHuroGVbYKLfueC1tg&si=rWcIOTv0ufo4b8Rj"
+            }
         ],
         "trackList": [
             {
@@ -5087,6 +5857,20 @@
         "sources": [
         	"wazamonogatari"
         ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/3Te5ZKo8ASISK0w58e6upj?si=Hp-lhk9tScqG5kb_7IROdQ"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/suicidal-tendency-single/6781662092"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_kYJNmifhxcB1_18NAcnn-XiKRBaXL5Q8M&si=1PBtLQkWOO7Q-165"
+            }
+        ],
         "trackList": [
             {
                 "name": "Suicidal Tendency",
@@ -5173,6 +5957,20 @@
         ],
         "sources": [
         	"shinobumonogatari"
+        ],
+        "links": [
+        	{
+         		"name": "Spotify",
+           		"url": "https://open.spotify.com/album/3FU7MCPafRMfGmckXUrCaA?si=iaGQcfjhTjqjg75yYm0cUw"
+         	},
+          	{
+           		"name": "Apple Music",
+             	"url": "https://music.apple.com/es/album/万死のテーマ-single/6781661984"
+           	},
+            {
+            	"name": "YouTube Music",
+             	"url": "https://music.youtube.com/playlist?list=OLAK5uy_nNsD9qtJctdmiEMlEhBbM75KWodtr17r4&si=Q3YQJAF-JBzJk4i1"
+            }
         ],
         "trackList": [
             {

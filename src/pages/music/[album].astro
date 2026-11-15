@@ -5,6 +5,7 @@ import Layout from '../../layouts/Layout.astro'
 import './album.scss'
 import music from '../../utils/music.json'
 import arcs from '../../utils/arcs.json'
+import { Icon } from 'astro-icon/components'
 
 export const getStaticPaths = (() => {
 	return music.map(({ title }) => ({ params: { album: title }}))
@@ -15,7 +16,7 @@ const findAlbumIndex = music.findIndex(x => x.title === album)
 
 if (findAlbumIndex === -1) return Astro.redirect('/404')
 
-const { title, name, kanji, artist, date, color, cover, coverAlt, hidden, position, sources, trackList } = music[findAlbumIndex]
+const { title, name, kanji, artist, date, color, cover, coverAlt, hidden, position, sources, links, trackList } = music[findAlbumIndex]
 
 const isDate = date.includes('-')
 const [fullYear, month, day] = date.split('-')
@@ -23,6 +24,12 @@ const parseDate = isDate ? Intl.DateTimeFormat('en-US', { dateStyle: 'long' }).f
 
 const prevAlbum = findAlbumIndex === 0 ? null : music[findAlbumIndex - 1]
 const nextAlbum = findAlbumIndex === music.length - 1 ? null : music[findAlbumIndex + 1]
+
+const logos = {
+	'Spotify': 'simple-icons:spotify',
+	'YouTube Music': 'simple-icons:youtubemusic',
+	'Apple Music': 'simple-icons:applemusic',
+}
 
 const anim = {
 	old: {
@@ -95,6 +102,14 @@ const customTransition = {
 							<span>•</span>
 							<span>{parseDate}</span>
 						</div>
+						{links && <div class="links">
+							{links.map(({ name, url }) => (
+								<a class="link" href={url} target="_blank">
+									<Icon name={logos[name as keyof typeof logos]} />
+									{name}
+								</a>
+							))}
+						</div>}
 						<div class="relations">
 							<h4>Relations</h4>
 							<div class="covers">

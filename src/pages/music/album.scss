@@ -18,15 +18,18 @@ main {
 		@media (width < 1130px) {
 			display: flex;
 			flex-direction: column;
-			gap: 2.5em;
+			gap: 0.5em;
 			padding: 2em;
 			padding-top: 10em;
 			align-items: initial;
 
+			.coverWrapper {
+				top: initial !important;
+			}
+
 			.cover:first-of-type {
 				aspect-ratio: 1 / 1;
 				max-width: 100% !important;
-				top: initial !important;
 
 				img {
 					object-position: var(--position);
@@ -38,12 +41,20 @@ main {
 			}
 		}
 
+		.coverWrapper {
+			display: flex;
+			flex-direction: column;
+			gap: 0.7em;
+			position: sticky !important;
+			top: 10em;
+			height: max-content;
+		}
+
 		.cover {
 			width: 100%;
 			height: fit-content;
 			max-height: 70dvh;
-			position: sticky;
-			top: 10em;
+			position: relative;
 
 			&.withAlt {
 				p:last-of-type {
@@ -51,17 +62,6 @@ main {
 					right: initial;
 					text-decoration: underline;
 					cursor: pointer;
-				}
-			}
-
-			p {
-				position: absolute;
-				bottom: -3em;
-				right: 0;
-				color: white;
-
-				a {
-					color: white;
 				}
 			}
 
@@ -97,6 +97,22 @@ main {
 			}
 		}
 
+		.sources {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: row-reverse;
+
+			p {
+				color: white;
+
+				a {
+					color: white;
+					text-decoration: underline;
+					cursor: pointer;
+				}
+			}
+		}
+
 		.info {
 			display: flex;
 			height: 100%;
@@ -120,6 +136,21 @@ main {
 				font-size: 1.2em;
 				opacity: 0.5;
 				line-height: 1.5em;
+			}
+
+			.links {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 1em;
+				line-height: 1em;
+				margin-top: 1em;
+
+				.link {
+					display: flex;
+					align-items: center;
+					gap: 0.2em;
+					color: white;
+				}
 			}
 
 			h3 {
