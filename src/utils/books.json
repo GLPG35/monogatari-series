@@ -1,0 +1,92 @@
+[
+	{
+		"name": "Heroine Book Vol. 1: Hanekawa Tsubasa",
+		"path": "/books/hanekawa-tsubasa.pdf",
+		"when": "After Nekomonogatari Shiro",
+		"cover": [
+			"/books/covers/hanekawa-tsubasa.avif",
+			"/books/covers/hanekawa-tsubasa.webp",
+			"/books/covers/hanekawa-tsubasa.jpg"
+		]
+	},
+	{
+		"name": "Heroine Book Vol. 2: Hachikuji Mayoi",
+		"path": "/books/hachikuji-mayoi.pdf",
+		"when": "After Kabukimonogatari",
+		"cover": [
+			"/books/covers/hachikuji-mayoi.avif",
+			"/books/covers/hachikuji-mayoi.webp",
+			"/books/covers/hachikuji-mayoi.jpg"
+		]
+	},
+	{
+		"name": "Heroine Book Vol. 3: Oshino Shinobu",
+		"path": "/books/oshino-shinobu.pdf",
+		"when": "After Onimonogatari",
+		"cover": [
+			"/books/covers/oshino-shinobu.avif",
+			"/books/covers/oshino-shinobu.webp",
+			"/books/covers/oshino-shinobu.jpg"
+		]
+	},
+	{
+		"name": "Heroine Book Vol. 4: Sengoku Nadeko",
+		"path": "/books/sengoku-nadeko.pdf",
+		"when": "After Otorimonogatari",
+		"cover": [
+			"/books/covers/sengoku-nadeko.avif",
+			"/books/covers/sengoku-nadeko.webp",
+			"/books/covers/sengoku-nadeko.jpg"
+		]
+	},
+	{
+		"name": "Heroine Book Vol. 5: Senjougahara Hitagi",
+		"path": "/books/senjougahara-hitagi.pdf",
+		"when": "After Koimonogatari",
+		"cover": [
+			"/books/covers/senjougahara-hitagi.avif",
+			"/books/covers/senjougahara-hitagi.webp",
+			"/books/covers/senjougahara-hitagi.jpg"
+		]
+	},
+	{
+		"name": "Heroine Book Vol. 6: Kanbaru Suruga",
+		"path": "/books/kanbaru-suruga.pdf",
+		"when": "After Hanamonogatari",
+		"cover": [
+			"/books/covers/kanbaru-suruga.avif",
+			"/books/covers/kanbaru-suruga.webp",
+			"/books/covers/kanbaru-suruga.jpg"
+		]
+	},
+	{
+		"name": "Heroine Book Vol. 7: Fire Sisters",
+		"path": "/books/fire-sisters.pdf",
+		"when": "After Tsukimonogatari",
+		"cover": [
+			"/books/covers/fire-sisters.avif",
+			"/books/covers/fire-sisters.webp",
+			"/books/covers/fire-sisters.jpg"
+		]
+	},
+	{
+		"name": "Heroine Book Vol. 8: Ononoki Yotsugi",
+		"path": "/books/ononoki-yotsugi.pdf",
+		"when": "After Tsukimonogatari",
+		"cover": [
+			"/books/covers/ononoki-yotsugi.avif",
+			"/books/covers/ononoki-yotsugi.webp",
+			"/books/covers/ononoki-yotsugi.jpg"
+		]
+	},
+	{
+		"name": "Monogatari Series 10th Anniversary Illustration Works",
+		"path": "/books/monogatari-series-10th-anniversary-illustration-works.pdf",
+		"when": "After Zoku Owarimonogatari",
+		"cover": [
+			"/books/covers/10th-anniversary.avif",
+			"/books/covers/10th-anniversary.webp",
+			"/books/covers/10th-anniversary.jpg"
+		]
+	}
+]
