@@ -1,4 +1,5 @@
 ---
+import BackToTop from '../../components/BackToTop';
 import Layout from '../../layouts/Layout.astro'
 import manga from '../../utils/manga.json'
 import './styles.scss'
@@ -49,6 +50,7 @@ const customTransition = {
 	</head>
 	<body>
 		<Layout>
+			<BackToTop client:load />
 			<main>
 				<div class="info">
 					<div class="subsection">

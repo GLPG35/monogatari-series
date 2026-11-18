@@ -1,4 +1,5 @@
 ---
+import BackToTop from '../../components/BackToTop';
 import Layout from '../../layouts/Layout.astro'
 import stories from '../../utils/short_stories.json'
 import './styles.scss'
@@ -49,6 +50,7 @@ const customTransition = {
 	</head>
 	<body>
 		<Layout>
+			<BackToTop client:load />
 			<main>
 				<div class="subsection">
 					<h2>Short Stories</h2>

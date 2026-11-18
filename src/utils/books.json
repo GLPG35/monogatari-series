@@ -1,8 +1,99 @@
 [
 	{
+		"name": "Anime Bakemonogatari Official Guidebook",
+		"when": "After Bakemonogatari",
+		"date": "2009-07-01",
+		"cover": [
+			"/books/covers/bakemonogatari-official-guidebook.avif",
+			"/books/covers/bakemonogatari-official-guidebook.webp",
+			"/books/covers/bakemonogatari-official-guidebook.jpg"
+		]
+	},
+	{
+		"name": "Hyakumonogatari Script Booklet",
+		"when": "After Bakemonogatari",
+		"date": "2009-08-03",
+		"cover": [
+			"/books/covers/hyakumonogatari.avif",
+			"/books/covers/hyakumonogatari.webp",
+			"/books/covers/hyakumonogatari.jpg"
+		]
+	},
+	{
+		"name": "Bakemonogatari Anime Complete Guidebook",
+		"when": "After Bakemonogatari",
+		"date": "2010-10-28",
+		"cover": [
+			"/books/covers/bakemonogatari-complete-guidebook.avif",
+			"/books/covers/bakemonogatari-complete-guidebook.webp",
+			"/books/covers/bakemonogatari-complete-guidebook.jpg"
+		]
+	},
+	{
+		"name": "Anime Bakemonogatari Audio Commentary Supplementary Book Vol. 1",
+		"when": "After Bakemonogatari",
+		"date": "2012-04-26",
+		"cover": [
+			"/books/covers/bakemonogatari-audio-commentary-1.avif",
+			"/books/covers/bakemonogatari-audio-commentary-1.webp",
+			"/books/covers/bakemonogatari-audio-commentary-1.jpg"
+		]
+	},
+	{
+		"name": "Anime Bakemonogatari Audio Commentary Supplementary Book Vol. 2",
+		"when": "After Bakemonogatari",
+		"date": "2012-06-20",
+		"cover": [
+			"/books/covers/bakemonogatari-audio-commentary-2.avif",
+			"/books/covers/bakemonogatari-audio-commentary-2.webp",
+			"/books/covers/bakemonogatari-audio-commentary-2.jpg"
+		]
+	},
+	{
+		"name": "Bakemonogatari Portable Complete Guidebook",
+		"when": "After Bakemonogatari",
+		"date": "2012-09-28",
+		"cover": [
+			"/books/covers/bakemonogatari-portable-guidebook.avif",
+			"/books/covers/bakemonogatari-portable-guidebook.webp",
+			"/books/covers/bakemonogatari-portable-guidebook.jpg"
+		]
+	},
+	{
+		"name": "Nisemonogatari Anime Complete Guidebook",
+		"when": "After Nisemonogatari",
+		"date": "2012-09-28",
+		"cover": [
+			"/books/covers/nisemonogatari-complete-guidebook.avif",
+			"/books/covers/nisemonogatari-complete-guidebook.webp",
+			"/books/covers/nisemonogatari-complete-guidebook.jpg"
+		]
+	},
+	{
+		"name": "Bakemonogatari Key Animation Note Prologue",
+		"when": "After Bakemonogatari",
+		"date": "2012-12-31",
+		"cover": [
+			"/books/covers/bakemonogatari-key-animation-note-prologue.avif",
+			"/books/covers/bakemonogatari-key-animation-note-prologue.webp",
+			"/books/covers/bakemonogatari-key-animation-note-prologue.jpg"
+		]
+	},
+	{
+		"name": "Bakemonogatari [Introduction]",
+		"when": "After Bakemonogatari",
+		"date": "2013-09-13",
+		"cover": [
+			"/books/covers/bakemonogatari-introduction.avif",
+			"/books/covers/bakemonogatari-introduction.webp",
+			"/books/covers/bakemonogatari-introduction.jpg"
+		]
+	},
+	{
 		"name": "Heroine Book Vol. 1: Hanekawa Tsubasa",
 		"path": "/books/hanekawa-tsubasa.pdf",
 		"when": "After Nekomonogatari Shiro",
+		"date": "2013-09-20",
 		"cover": [
 			"/books/covers/hanekawa-tsubasa.avif",
 			"/books/covers/hanekawa-tsubasa.webp",
@@ -13,6 +104,7 @@
 		"name": "Heroine Book Vol. 2: Hachikuji Mayoi",
 		"path": "/books/hachikuji-mayoi.pdf",
 		"when": "After Kabukimonogatari",
+		"date": "2013-10-30",
 		"cover": [
 			"/books/covers/hachikuji-mayoi.avif",
 			"/books/covers/hachikuji-mayoi.webp",
@@ -20,9 +112,20 @@
 		]
 	},
 	{
+		"name": "Bakemonogatari Key Animation Note Part 1",
+		"when": "After Bakemonogatari",
+		"date": "2013-11-30",
+		"cover": [
+			"/books/covers/bakemonogatari-key-animation-note-1.avif",
+			"/books/covers/bakemonogatari-key-animation-note-1.webp",
+			"/books/covers/bakemonogatari-key-animation-note-1.jpg"
+		]
+	},
+	{
 		"name": "Heroine Book Vol. 3: Oshino Shinobu",
 		"path": "/books/oshino-shinobu.pdf",
 		"when": "After Onimonogatari",
+		"date": "2013-12-20",
 		"cover": [
 			"/books/covers/oshino-shinobu.avif",
 			"/books/covers/oshino-shinobu.webp",
@@ -33,6 +136,7 @@
 		"name": "Heroine Book Vol. 4: Sengoku Nadeko",
 		"path": "/books/sengoku-nadeko.pdf",
 		"when": "After Otorimonogatari",
+		"date": "2014-01-31",
 		"cover": [
 			"/books/covers/sengoku-nadeko.avif",
 			"/books/covers/sengoku-nadeko.webp",
@@ -40,9 +144,21 @@
 		]
 	},
 	{
+		"name": "Bakemonogatari Production Note Characters",
+		"path": "/books/bakemonogatari-production-note.pdf",
+		"when": "After Bakemonogatari",
+		"date": "2014-02-03",
+		"cover": [
+			"/books/covers/bakemonogatari-production-note.avif",
+			"/books/covers/bakemonogatari-production-note.webp",
+			"/books/covers/bakemonogatari-production-note.jpg"
+		]
+	},
+	{
 		"name": "Heroine Book Vol. 5: Senjougahara Hitagi",
 		"path": "/books/senjougahara-hitagi.pdf",
 		"when": "After Koimonogatari",
+		"date": "2014-04-02",
 		"cover": [
 			"/books/covers/senjougahara-hitagi.avif",
 			"/books/covers/senjougahara-hitagi.webp",
@@ -50,9 +166,32 @@
 		]
 	},
 	{
+		"name": "Monogatari Series Newspaper Advertisements Part 1",
+		"path": "/books/monogatari-series-newspaper-advertisements-part-1.pdf",
+		"when": "After Koimonogatari",
+		"date": "2014-04-23",
+		"cover": [
+			"/books/covers/monogatari-series-newspaper-advertisements-part-1.avif",
+			"/books/covers/monogatari-series-newspaper-advertisements-part-1.webp",
+			"/books/covers/monogatari-series-newspaper-advertisements-part-1.jpg"
+		]
+	},
+	{
+		"name": "Monogatari Series Newspaper Advertisements Part 2",
+		"path": "/books/monogatari-series-newspaper-advertisements-part-2.pdf",
+		"when": "After Koimonogatari",
+		"date": "2014-05-28",
+		"cover": [
+			"/books/covers/monogatari-series-newspaper-advertisements-part-2.avif",
+			"/books/covers/monogatari-series-newspaper-advertisements-part-2.webp",
+			"/books/covers/monogatari-series-newspaper-advertisements-part-2.jpg"
+		]
+	},
+	{
 		"name": "Heroine Book Vol. 6: Kanbaru Suruga",
 		"path": "/books/kanbaru-suruga.pdf",
 		"when": "After Hanamonogatari",
+		"date": "2014-09-19",
 		"cover": [
 			"/books/covers/kanbaru-suruga.avif",
 			"/books/covers/kanbaru-suruga.webp",
@@ -60,9 +199,20 @@
 		]
 	},
 	{
+		"name": "Bakemonogatari Key Animation Note Part 2",
+		"when": "After Bakemonogatari",
+		"date": "2015-01-01",
+		"cover": [
+			"/books/covers/bakemonogatari-key-animation-note-2.avif",
+			"/books/covers/bakemonogatari-key-animation-note-2.webp",
+			"/books/covers/bakemonogatari-key-animation-note-2.jpg"
+		]
+	},
+	{
 		"name": "Heroine Book Vol. 7: Fire Sisters",
 		"path": "/books/fire-sisters.pdf",
 		"when": "After Tsukimonogatari",
+		"date": "2015-07-09",
 		"cover": [
 			"/books/covers/fire-sisters.avif",
 			"/books/covers/fire-sisters.webp",
@@ -70,9 +220,50 @@
 		]
 	},
 	{
+		"name": "Fukumonogatari Vol. 1: Anime Nisemonogatari & Nekomonogatari (Kuro) Additional Audio Commentary Supplementary Book",
+		"when": "After Nekomonogatari Kuro",
+		"date": "2015-08-11",
+		"cover": [
+			"/books/covers/fukumonogatari.avif",
+			"/books/covers/fukumonogatari.webp",
+			"/books/covers/fukumonogatari.jpg"
+		]
+	},
+	{
+		"name": "Nisemonogatari & Nekomonogatari Kuro Production Note",
+		"when": "After Nekomonogatari Kuro",
+		"date": "2015-08-14",
+		"cover": [
+			"/books/covers/nisemonogatari-production-note.avif",
+			"/books/covers/nisemonogatari-production-note.webp",
+			"/books/covers/nisemonogatari-production-note.jpg"
+		]
+	},
+	{
+		"name": "Fukumonogatari Vol. 2: Anime Nisemonogatari & Nekomonogatari (Kuro) Additional Audio Commentary Supplementary Book",
+		"when": "After Nekomonogatari Kuro",
+		"date": "2015-09-17",
+		"cover": [
+			"/books/covers/fukumonogatari-2.avif",
+			"/books/covers/fukumonogatari-2.webp",
+			"/books/covers/fukumonogatari-2.jpg"
+		]
+	},
+	{
+		"name": "Madogatari Exhibition Pamphlet",
+		"when": "After Second Season",
+		"date": "2015-11-27",
+		"cover": [
+			"/books/covers/madogatari-pamphlet.avif",
+			"/books/covers/madogatari-pamphlet.webp",
+			"/books/covers/madogatari-pamphlet.jpg"
+		]
+	},
+	{
 		"name": "Heroine Book Vol. 8: Ononoki Yotsugi",
 		"path": "/books/ononoki-yotsugi.pdf",
 		"when": "After Tsukimonogatari",
+		"date": "2015-12-23",
 		"cover": [
 			"/books/covers/ononoki-yotsugi.avif",
 			"/books/covers/ononoki-yotsugi.webp",
@@ -80,9 +271,102 @@
 		]
 	},
 	{
+		"name": "Kizumonogatari Visual Book",
+		"when": "After Kizumonogatari",
+		"date": "2016-07-28",
+		"cover": [
+			"/books/covers/kizumonogatari-visual-book-1.avif",
+			"/books/covers/kizumonogatari-visual-book-1.webp",
+			"/books/covers/kizumonogatari-visual-book-1.jpg"
+		]
+	},
+	{
+		"name": "Kizumonogatari I Tekketsu-hen Key Animation Note",
+		"when": "After Kizumonogatari",
+		"date": "2016-09-17",
+		"cover": [
+			"/books/covers/kizumonogatari-key-animation-note.avif",
+			"/books/covers/kizumonogatari-key-animation-note.webp",
+			"/books/covers/kizumonogatari-key-animation-note.jpg"
+		]
+	},
+	{
+		"name": "Madogatari Exhibition Visual Book",
+		"when": "After Kizumonogatari",
+		"date": "2016-09-22",
+		"cover": [
+			"/books/covers/madogatari-visual-book.avif",
+			"/books/covers/madogatari-visual-book.webp",
+			"/books/covers/madogatari-visual-book.jpg"
+		]
+	},
+	{
+		"name": "Kizumonogatari Visual Book Part 2",
+		"when": "After Kizumonogatari",
+		"date": "2017-01-14",
+		"hidden": true,
+		"cover": [
+			"/books/covers/kizumonogatari-visual-book-2.avif",
+			"/books/covers/kizumonogatari-visual-book-2.webp",
+			"/books/covers/kizumonogatari-visual-book-2.jpg"
+		]
+	},
+	{
+		"name": "Nisioisin Daijiten Official Pamphlet",
+		"when": "After Kizumonogatari",
+		"date": "2017-07-17",
+		"cover": [
+			"/books/covers/nisioisin-daijiten.avif",
+			"/books/covers/nisioisin-daijiten.webp",
+			"/books/covers/nisioisin-daijiten.jpg"
+		]
+	},
+	{
+		"name": "Kizumonogatari Complete Guidebook",
+		"when": "After Kizumonogatari",
+		"date": "2017-11-29",
+		"hidden": true,
+		"cover": [
+			"/books/covers/kizumonogatari-complete-guidebook.avif",
+			"/books/covers/kizumonogatari-complete-guidebook.webp",
+			"/books/covers/kizumonogatari-complete-guidebook.jpg"
+		]
+	},
+	{
+		"name": "Zoku Owarimonogatari Theater Pamphlet",
+		"when": "After Zoku Owarimonogatari",
+		"date": "2018-11-10",
+		"cover": [
+			"/books/covers/zoku-owarimonogatari-theater-pamphlet.avif",
+			"/books/covers/zoku-owarimonogatari-theater-pamphlet.webp",
+			"/books/covers/zoku-owarimonogatari-theater-pamphlet.jpg"
+		]
+	},
+	{
+		"name": "Monogatari Fes 〜10th Anniversary Story〜 Deluxe Pamphlet",
+		"when": "After Zoku Owarimonogatari",
+		"date": "2019-05-11",
+		"cover": [
+			"/books/covers/monogatari-fes-pamphlet.avif",
+			"/books/covers/monogatari-fes-pamphlet.webp",
+			"/books/covers/monogatari-fes-pamphlet.jpg"
+		]
+	},
+	{
+		"name": "Monogatari Fes 〜10th Anniversary Story〜 MEMORIAL ALBUM",
+		"when": "After Zoku Owarimonogatari",
+		"date": "2019-12-18",
+		"cover": [
+			"/books/covers/monogatari-fes-memorial-album.avif",
+			"/books/covers/monogatari-fes-memorial-album.webp",
+			"/books/covers/monogatari-fes-memorial-album.jpg"
+		]
+	},
+	{
 		"name": "Monogatari Series 10th Anniversary Illustration Works",
 		"path": "/books/monogatari-series-10th-anniversary-illustration-works.pdf",
 		"when": "After Zoku Owarimonogatari",
+		"date": "2020-01-31",
 		"cover": [
 			"/books/covers/10th-anniversary.avif",
 			"/books/covers/10th-anniversary.webp",

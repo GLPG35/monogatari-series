@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro'
 import './styles.scss'
 import lns from '../../utils/lns.json'
 import lnsEn from '../../utils/lns_en.json'
+import BackToTop from '../../components/BackToTop'
 
 const anim = {
 	old: {
@@ -50,6 +51,7 @@ const customTransition = {
 	</head>
 	<body>
 		<Layout>
+			<BackToTop client:load />
 			<main>
 				<div class="info">
 					<div class="subsection">

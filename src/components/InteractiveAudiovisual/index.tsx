@@ -85,11 +85,11 @@ const InteractiveAudiovisual = ({ audiovisual }: { audiovisual: { name: string, 
 						<div className="whenWrapper">
 							<div className="texture">
 								<picture>
-									<source srcSet="/42.avif" type="image/avif" />
-									<source srcSet="/42.webp" type="image/webp" />
-									<img src='/42.png' alt="" loading="lazy" />
+									<source srcSet="/42-small.avif" type="image/avif" />
+									<source srcSet="/42-small.webp" type="image/webp" />
+									<img src='/42-small.png' alt="" loading="lazy" />
 								</picture>
-								<div className="duplicate" style={{ "--current-img": "image-set(url('/42.avif') type('image/avif'), url('/42.webp') type('image/webp'), url('/42.png') type('image/png'));" } as React.CSSProperties}>
+								<div className="duplicate" style={{ "--current-img": "image-set(url('/42-small.avif') type('image/avif'), url('/42-small.webp') type('image/webp'), url('/42-small.png') type('image/png'));" } as React.CSSProperties}>
 								</div>
 							</div>
 							<span>{when}</span>

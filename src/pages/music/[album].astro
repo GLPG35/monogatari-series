@@ -31,6 +31,24 @@ const logos = {
 	'Apple Music': 'simple-icons:applemusic',
 }
 
+const colors = [
+	'--bg-purple',
+    '--bg-green',
+    '--bg-lilac',
+    '--bg-salmon',
+    '--bg-blue',
+    '--bg-orange',
+    '--bg-yellow',
+    '--bg-red',
+    '--bg-black',
+    '--bg-white'
+]
+
+const nextRandomCover = Math.floor(Math.random() * 3) + 1
+const prevRandomCover = Math.floor(Math.random() * 3) + 1
+const randomCover = Math.floor(Math.random() * 3) + 1
+const randomColor = Math.floor(Math.random() * colors.length)
+
 const anim = {
 	old: {
 		name: "bezier",
@@ -89,7 +107,7 @@ const customTransition = {
 		<Layout>
 			<main>
 				<div class="summary">
-					<MusicCover {...{cover, coverAlt, hidden}} client:idle transition:name={`music-cover-${title}`} transition:animate={customTransition} />
+					<MusicCover {...{cover, coverAlt, hidden, randomColor, randomCover}} client:idle transition:name={`music-cover-${title}`} transition:animate={customTransition} />
 					<div class="info">
 						<div class="subtitle">
 							{kanji}
@@ -133,6 +151,14 @@ const customTransition = {
 											</div>
 										</div>
 										<div class="cover">
+											{prevAlbum.hidden &&
+												<div class="overlay" style={`background-color: var(${colors[Math.floor(Math.random() * colors.length)]})`}></div>
+												<picture class="spoiler">
+													<source srcset={`/wrinkled${prevRandomCover}.avif`} type='image/avif' />
+													<source srcset={`/wrinkled${prevRandomCover}.webp`} type='image/webp' />
+													<img src={`/wrinkled${prevRandomCover}.jpg`} alt="" />
+												</picture>
+											}
 											<picture>
 												{(prevAlbum.coverHalf ? prevAlbum.coverHalf : prevAlbum.cover).map((path, i) => {
 													const isLast = (prevAlbum.coverHalf ? prevAlbum.coverHalf : prevAlbum.cover).length === i + 1
@@ -166,6 +192,14 @@ const customTransition = {
 											</div>
 										</div>
 										<div class="cover">
+											{nextAlbum.hidden &&
+												<div class="overlay" style={`background-color: var(${colors[Math.floor(Math.random() * colors.length)]})`}></div>
+												<picture class="spoiler">
+													<source srcset={`/wrinkled${nextRandomCover}.avif`} type='image/avif' />
+													<source srcset={`/wrinkled${nextRandomCover}.webp`} type='image/webp' />
+													<img src={`/wrinkled${nextRandomCover}.jpg`} alt="" />
+												</picture>
+											}
 											<picture>
 												{(nextAlbum.coverHalf ? nextAlbum.coverHalf : nextAlbum.cover).map((path, i) => {
 													const isLast = (nextAlbum.coverHalf ? nextAlbum.coverHalf : nextAlbum.cover).length === i + 1

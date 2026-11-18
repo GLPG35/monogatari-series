@@ -9,6 +9,8 @@
     --bg-red: #b33629;
     --bg-black: #392c1e;
     --bg-white: #5e5e5e;
+
+    scroll-behavior: smooth;
 }
 
 *,
@@ -74,5 +76,71 @@ body {
 
     &::-webkit-scrollbar-thumb {
         background: var(--sb-thumb-color);
+    }
+
+    .backToTop {
+    	position: fixed;
+     	bottom: 0.5em;
+      	right: 0.5em;
+       	z-index: 50;
+        translate: 0 200%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        padding: 0.5em;
+        font-size: 2em;
+        transition: 0.3s ease-in-out;
+        color: black;
+        cursor: pointer;
+
+        &.active {
+        	translate: 0 0;
+        }
+
+        .wrapper {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			display: flex;
+        	align-items: center;
+        }
+
+        .textureWrapper {
+			position: absolute;
+			width: 100%;
+			rotate: -135deg;
+			z-index: -1;
+			translate: 60% 130%;
+			scale: 4;
+			
+			.texture {
+				width: 100%;
+				height: auto;
+				position: relative;
+		
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					display: flex;
+					scale: 1.1;
+					mix-blend-mode: multiply;
+				}
+	
+				.duplicate {
+					position: absolute;
+					z-index: -1;
+					background-color: var(--bg-color);
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					scale: 1.1;
+					-webkit-mask: var(--current-img) no-repeat center / contain;
+					mask: var(--current-img) no-repeat center / contain;
+					filter: brightness(150%) saturate(70%);
+				}
+			}
+		}
     }
 }

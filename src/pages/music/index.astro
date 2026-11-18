@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro'
 import MusicList from '../../components/MusicList'
 import music from '../../utils/music.json'
 import './styles.scss'
+import BackToTop from '../../components/BackToTop';
 ---
 
 <html lang="en" style="--bg-color: var(--bg-salmon)">
@@ -31,6 +32,7 @@ import './styles.scss'
 	</head>
 	<body>
 		<Layout>
+			<BackToTop client:load />
 			<main>
 				<div class="info">
 					<div class="subsection">
