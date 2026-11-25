@@ -4,6 +4,28 @@ import MusicList from '../../components/MusicList'
 import music from '../../utils/music.json'
 import './styles.scss'
 import BackToTop from '../../components/BackToTop';
+import { getLangFromUrl } from '../../i18n/utils';
+
+const currentLang = getLangFromUrl(Astro.url)
+
+const anim = {
+	old: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)",
+		direction: "reverse"
+	},
+	new: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)"
+	}
+}
+
+const customTransition = {
+	forwards: anim,
+	backwards: anim
+}
 ---
 
 <html lang="en" style="--bg-color: var(--bg-salmon)">
@@ -39,7 +61,7 @@ import BackToTop from '../../components/BackToTop';
 						<h2>Music</h2>
 						<p>This section features the majority of available physical albums from the Monogatari Series. To streamline navigation and prevent redundancy, digital-exclusive albums are omitted from the main list and are instead linked inside their respective original releases.</p>
 					</div>
-					<MusicList music={music} client:idle />
+					<MusicList {...{music, currentLang}} client:idle transition:animate={customTransition} />
 				</div>
 			</main>
 		</Layout>

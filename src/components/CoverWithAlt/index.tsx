@@ -1,14 +1,18 @@
 import { useState } from "react"
+import type { languages } from "../../i18n/ui"
+import { useTranslations } from "../../i18n/utils"
 
 type Props = {
 	pictures: string[],
 	picturesAlt: string[],
 	manga: string,
-	name: string
+	name: string,
+	currentLang: keyof typeof languages
 }
 
-const CoverWithAlt = ({ pictures, picturesAlt, manga, name }: Props) => {
+const CoverWithAlt = ({ pictures, picturesAlt, manga, name, currentLang }: Props) => {
 	const [alt, setAlt] = useState(false)
+	const t = useTranslations(currentLang)
 	
 	return (
 		<div className="coverWrapper">
@@ -21,16 +25,16 @@ const CoverWithAlt = ({ pictures, picturesAlt, manga, name }: Props) => {
 						const isLast = pictures.length === i + 1
 						const type = path.split('.').pop()
 	
-						if (isLast) return <img src={path} alt="" key={i} />
+						if (isLast) return <img src={path} alt="" key={i} style={{ viewTransitionName: `manga-cover-${manga}` }} />
 						
 						return <source srcSet={path} type={`image/${type}`} key={i} />
 					})}
 				</picture>
 			</div>
 			<div className="sources">
-				<p>Full resolution (<a href={pictures[2]} target="_blank">Vertical</a> / <a href={`/banners/manga/${manga}.jpg`} target="_blank">Horizontal</a> / <a href={picturesAlt[2]} target="_blank">Original</a>)</p>
-				<p>{!alt ? <>Full resolution (<a href={pictures[2]} target="_blank">Vertical</a> / <a href={`/banners/manga/${manga}.jpg`} target="_blank">Horizontal</a>)</> : <><a href={picturesAlt[2]} target="_blank">Full resolution</a></>}</p>
-				<p><a onClick={() => setAlt(!alt)}>{!alt ? 'Original' : 'Limited Edition'}</a></p>
+				<p>{t('fullResolution')} (<a href={pictures[2]} target="_blank">Vertical</a> / <a href={`/banners/manga/${manga}.jpg`} target="_blank">Horizontal</a> / <a href={picturesAlt[2]} target="_blank">Original</a>)</p>
+				<p>{!alt ? <>{t('fullResolution')} (<a href={pictures[2]} target="_blank">Vertical</a> / <a href={`/banners/manga/${manga}.jpg`} target="_blank">Horizontal</a>)</> : <><a href={picturesAlt[2]} target="_blank">{t('fullResolution')}</a></>}</p>
+				<p><a onClick={() => setAlt(!alt)}>{!alt ? 'Original' : t('limitedEdition')}</a></p>
 			</div>
 		</div>
 	)

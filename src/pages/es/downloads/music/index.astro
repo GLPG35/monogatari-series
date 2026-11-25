@@ -1,0 +1,72 @@
+---
+import { getLangFromUrl, useTranslations } from '../../../../i18n/utils';
+import Layout from '../../../../layouts/Layout.astro'
+import './styles.scss'
+
+const currentLang = getLangFromUrl(Astro.url)
+const t = useTranslations(currentLang)
+---
+
+<html lang="en" style="--bg-color: var(--bg-lilac)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - Descargas de la música</title>
+		<meta name="description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series - Descargas de la música" />
+		<meta property="og:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatariseri.es/banners/music-downloads.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series - Descargas de la música" />
+		<meta property="twitter:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="twitter:image" content="https://monogatariseri.es/banners/music-downloads.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="section">
+					<div class="cover">
+						<a href="/covers/music-cover.png" target="_blank">{t('fullResolution')}</a>
+						<picture>
+							<source srcset="/covers/music-cover-horizontal.avif" type="image/avif" media="(width < 1130px)" />
+							<source srcset="/covers/music-cover-horizontal.webp" type="image/avif" media="(width < 1130px)" />
+							<source srcset="/covers/music-cover-horizontal.png" type="image/png" media="(width < 1130px)" />
+							<source srcset="/covers/music-cover.avif" type="image/avif" />
+							<source srcset="/covers/music-cover.webp" type="image/webp" />
+							<img src="/covers/music-cover.png" alt="" transition:name="music-downloads" />
+						</picture>
+					</div>
+					<div class="info">
+						<div class="subtitle">
+							〈物語〉シリーズ 音楽作品
+						</div>
+						<div class="title">
+							<h3>Obras musicales de la Monogatari Series</h3>
+						</div>
+						<div class="links">
+							<h4>Links</h4>
+							<ul>
+								<li>Monogatari Series Music Collection (Bakemonogatari - Zoku Owarimonogatari) <a href="magnet:?xt=urn:btih:9b6d5838075e5f86413659f3b29608029d4f048e&dn=Monogatari%20Series%20Music%20Collection&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce" target="_blank">[Torrent (31.9GB)]</a></li>
+								<li>Música de Monogatari Series: Off & Monster Season y Kizumonogatari -Koyomi Vamp- <a href="https://mega.nz/folder/VVMDnDZK#TU5lICVMXRCQAQoNBn1_SQ" target="_blank">[MEGA (1.55GB)]</a></li>
+							</ul>
+						</div>
+						<div class="notes">
+							<h4>Notas</h4>
+							<p>La Monogatari Series Music Collection incluye algunos Drama CDs como Hyakumonogatari y Monogatari Fes.</p>
+						</div>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

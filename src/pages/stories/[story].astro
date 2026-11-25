@@ -67,7 +67,7 @@ const customTransition = {
 				<div class="summary">
 					<div class="cover">
 						<a href={pictures[2]} target="_blank">Full resolution</a>
-						<picture transition:name={`story-cover-${story}`} transition:animate={customTransition}>
+						<picture>
 							<source srcset={`/banners/stories/${name}.avif`} type="image/avif" media="(width < 1130px)" />
 							<source srcset={`/banners/stories/${name}.webp`} type="image/webp" media="(width < 1130px)" />
 							<source srcset={`/banners/stories/${name}.jpg`} type="image/jpeg" media="(width < 1130px)" />
@@ -75,7 +75,7 @@ const customTransition = {
 								const isLast = pictures.length === i + 1
 								const type = path.split('.').pop()
 
-								if (isLast) return <img src={path} alt="">
+								if (isLast) return <img src={path} alt="" transition:name={`story-cover-${story}`} transition:animate={customTransition} />
 								
 								return <source srcset={path} type={`image/${type}`}>
 							})}
@@ -156,7 +156,7 @@ const customTransition = {
 						</div>
 						<div class="section">
 							<h4>Stories</h4>
-							<ol>
+							<ol class={story === 'mijikanamonogatari' ? 'small' : ''}>
 								{info.stories.map(story => <li>{story[0]}<span>{story[1]}</span></li>)}
 							</ol>
 						</div>

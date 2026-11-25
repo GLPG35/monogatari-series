@@ -3,14 +3,18 @@ import { AnimatePresence, motion } from 'motion/react'
 import useEmblaCarousel from 'embla-carousel-react'
 import type { EmblaCarouselType } from 'embla-carousel'
 import { useCallback, useEffect, useState } from 'react'
+import type { languages } from '../../i18n/ui'
+import { useTranslations } from '../../i18n/utils'
 
 type Props = {
 	viewSS: number,
 	setViewSS: (state?: number) => void,
-	screenshots: string[][]
+	screenshots: string[][],
+	currentLang: keyof typeof languages
 }
 
-const GalleryVisualizer = ({ viewSS, setViewSS, screenshots }: Props) => {
+const GalleryVisualizer = ({ viewSS, setViewSS, screenshots, currentLang }: Props) => {
+	const t = useTranslations(currentLang)
 	const [startSS, setStartSS] = useState(0)
 	const [bullet, setBullet] = useState<number>(viewSS)
 	const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, startIndex: startSS })
@@ -49,7 +53,7 @@ const GalleryVisualizer = ({ viewSS, setViewSS, screenshots }: Props) => {
 										return <source srcSet={path} type={`image/${type}`} />
 									})}
 								</picture>
-								<a href={pictures[2]} target='_blank' onClick={e => e.stopPropagation()}>Full resolution</a>
+								<a href={pictures[2]} target='_blank' onClick={e => e.stopPropagation()}>{t('fullResolution')}</a>
 							</div>
 						</div>
 					))}

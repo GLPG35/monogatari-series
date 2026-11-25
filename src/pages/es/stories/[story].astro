@@ -1,0 +1,181 @@
+---
+import type { GetStaticPaths } from "astro"
+import Layout from '../../../layouts/Layout.astro'
+import './story.scss'
+import stories from '../../../utils/es/short_stories.json'
+import { getLangFromUrl, useTranslatedPath, useTranslations } from "../../../i18n/utils"
+
+export const getStaticPaths = (() => {
+	return stories.map(({ name }) => ({ params: { story: name }}))
+}) satisfies GetStaticPaths
+
+const { story } = Astro.params
+const findLnIndex = stories.findIndex(x => x.name === story)
+
+if (findLnIndex === -1) return Astro.redirect('/404')
+
+const currentLang = getLangFromUrl(Astro.url)
+const translatePath = useTranslatedPath(currentLang)
+const t = useTranslations(currentLang)
+
+const { color, pictures, name, title, kanji, info, responsivePosition } = stories[findLnIndex]
+const prevLn = findLnIndex === 0 ? null : stories[findLnIndex - 1]
+const nextLn = findLnIndex === stories.length - 1 ? null : stories[findLnIndex + 1]
+
+const isDate = info.date.includes('-')
+const [fullYear, month, day] = info.date.split('-')
+const parseDate = isDate ? Intl.DateTimeFormat(currentLang, { dateStyle: 'long' }).format(new Date(+fullYear, +month - 1, +day)) : info.date
+
+const anim = {
+	old: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)",
+		direction: "reverse"
+	},
+	new: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)"
+	}
+}
+
+const customTransition = {
+	forwards: anim,
+	backwards: anim
+}
+---
+
+<html lang="en" style={`--bg-color: var(${color}); --position: ${responsivePosition}`}>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - {title}</title>
+		<meta name="description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={`〈物語〉Monogatari Series - ${title}`} />
+		<meta property="og:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content={`https://monogatariseri.es/banners/stories/${name}.jpg`} />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content={`〈物語〉Monogatari Series - ${title}`} />
+		<meta property="twitter:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="twitter:image" content={`https://monogatariseri.es/banners/stories/${name}.jpg`} />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="summary">
+					<div class="cover">
+						<a href={pictures[2]} target="_blank">{t('fullResolution')}</a>
+						<picture>
+							<source srcset={`/banners/stories/${name}.avif`} type="image/avif" media="(width < 1130px)" />
+							<source srcset={`/banners/stories/${name}.webp`} type="image/webp" media="(width < 1130px)" />
+							<source srcset={`/banners/stories/${name}.jpg`} type="image/jpeg" media="(width < 1130px)" />
+							{pictures.map((path, i) => {
+								const isLast = pictures.length === i + 1
+								const type = path.split('.').pop()
+
+								if (isLast) return <img src={path} alt="" transition:name={`story-cover-${story}`} transition:animate={customTransition} />
+								
+								return <source srcset={path} type={`image/${type}`}>
+							})}
+						</picture>
+					</div>
+					<div class="info">
+						<div class="subtitle">
+							{kanji.map(x => x[0]).join('')}
+						</div>
+						<div class="title">
+							<h3>{title}</h3>
+						</div>
+						<div class="date">
+							{parseDate}
+						</div>
+						<div class="relations">
+							<h4>Relacionados</h4>
+							<div class="covers">
+								{prevLn &&
+									<a class="relation" href={translatePath(`/stories/${prevLn.name}`)}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<img src="/99.png" alt="" />
+													</picture>
+													<picture class="duplicate">
+														<img src="/99.png" alt="" />
+													</picture>
+												</div>
+												<span>Anterior</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(prevLn.picturesHalf ? prevLn.picturesHalf : prevLn.pictures).map((path, i) => {
+													const isLast = (prevLn.picturesHalf ? prevLn.picturesHalf : prevLn.pictures).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="" />
+													
+													return <source srcset={path} type={`image/${type}`} />
+												})}
+											</picture>
+										</div>		
+									</a>
+								}
+								{nextLn &&
+									<a class="relation" href={translatePath(`/stories/${nextLn.name}`)}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<img src="/85.png" alt="" />
+													</picture>
+													<picture class="duplicate">
+														<img src="/85.png" alt="" />
+													</picture>
+												</div>
+												<span>Siguiente</span>
+											</div>
+										</div>
+										<div class="cover">
+											<picture>
+												{(nextLn.picturesHalf ? nextLn.picturesHalf : nextLn.pictures).map((path, i) => {
+													const isLast = (nextLn.picturesHalf ? nextLn.picturesHalf : nextLn.pictures).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="" />
+													
+													return <source srcset={path} type={`image/${type}`} />
+												})}
+											</picture>
+										</div>		
+									</a>
+								}
+							</div>
+						</div>
+						<div class="section">
+							<h4>Historias</h4>
+							<ol class={story === 'mijikanamonogatari' ? 'small' : ''}>
+								{info.stories.map(story => <li>{story[0]}<span>{story[1][0]}, {story[1][1]}</span></li>)}
+							</ol>
+						</div>
+						<div class="section description">
+							<h4>Sinopsis</h4>
+							{info.description.map(text => (<p>{text}</p>))}
+						</div>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

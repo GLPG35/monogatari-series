@@ -16,7 +16,8 @@
 		],
 		"picturesHalf": [
 			"/covers/bakemonogatari-0.5x.avif",
-			"/covers/bakemonogatari-0.5x.webp"
+			"/covers/bakemonogatari-0.5x.webp",
+			"/covers/bakemonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "top",
 		"hidden": false,
@@ -24,11 +25,11 @@
 		"info": {
 			"date": "July 3, 2009",
 			"arcs": [
-				"Hitagi Crab",
-				"Mayoi Snail",
-				"Suruga Monkey",
-				"Nadeko Snake",
-				"Tsubasa Cat"
+				["Hitagi Crab", "ひたぎクラブ"],
+				["Mayoi Maimai", "まよいマイマイ"],
+				["Suruga Monkey", "するがモンキー"],
+				["Nadeko Snake", "なでこスネイク"],
+				["Tsubasa Cat", "つばさキャット"]
 			],
 			"gallery": [
 				[
@@ -286,7 +287,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-jou-0.5x.avif",
-						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
 					]
 				},
 				{
@@ -299,7 +301,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-ge-0.5x.avif",
-						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
 					]
 				}
 			],
@@ -427,7 +430,8 @@
 		],
 		"picturesHalf": [
 			"/covers/kizumonogatari-I-0.5x.avif",
-			"/covers/kizumonogatari-I-0.5x.webp"
+			"/covers/kizumonogatari-I-0.5x.webp",
+			"/covers/kizumonogatari-I-0.5x.jpg"
 		],
 		"responsivePosition": "center",
 		"hidden": false,
@@ -435,7 +439,7 @@
 		"info": {
 			"date": "January 8, 2016",
 			"arcs": [
-				"Koyomi Vamp"
+				["Koyomi Vamp", "こよみヴァンプ"]
 			],
 			"gallery": [
 				[
@@ -526,7 +530,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
-						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp"
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp",
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.jpg"
 					]
 				},
 				{
@@ -539,7 +544,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kizumonogatari-0.5x.avif",
-						"/covers/lns/kizumonogatari-0.5x.webp"
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -569,7 +575,8 @@
 		],
 		"picturesHalf": [
 			"/covers/kizumonogatari-II-0.5x.avif",
-			"/covers/kizumonogatari-II-0.5x.webp"
+			"/covers/kizumonogatari-II-0.5x.webp",
+			"/covers/kizumonogatari-II-0.5x.jpg"
 		],
 		"responsivePosition": "top",
 		"hidden": false,
@@ -577,7 +584,7 @@
 		"info": {
 			"date": "August 19, 2016",
 			"arcs": [
-				"Koyomi Vamp"
+				["Koyomi Vamp", "こよみヴァンプ"]
 			],
 			"gallery": [
 				[
@@ -622,7 +629,7 @@
 				]
 			],
 			"description": [
-				"In the spring of his second year of high school, Araragi Koyomi met the beautiful vampire Kiss-shot Acerola-orion Heart-under-blade. Araragi saved Kiss-shot, who was on the verge of death with all four of her limbs cut off, but only at the expense of becoming her minion and a vampire. \"In order to go back to being a human again, you must take back all of Kiss-shot's limbs.\" After receiving advice from Oshino Meme, an expert in the supernatural, Araragi prepares to go into battle.",
+				"In the spring of his second year of high school, Araragi Koyomi met the beautiful vampire Kiss-shot Acerola-orion Heart-under-blade. Araragi saved Kiss-shot, who was on the verge of death with all four of her limbs cut off, but only at the expense of becoming her minion and a vampire. \"In order to go back to being a human again, you must take back all of Kiss-shot's limbs\". After receiving advice from Oshino Meme, an expert in the supernatural, Araragi prepares to go into battle.",
 				"Awaiting him are three powerful vampire hunters—Dramaturgy, a giant vampire hunter who is a vampire himself. Episode, a half-vampire who wields an enormous cross, and Guillotine Cutter, a quiet man who specializes in killing vampires. Will Araragi be able to take back Kiss-shot's limbs from the vampire hunters? Amidst the soft spring rain, the curtain rises on this fateful blood bath..."
 			],
 			"alternatives": [
@@ -636,7 +643,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
-						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp"
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp",
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.jpg"
 					]
 				},
 				{
@@ -649,7 +657,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kizumonogatari-0.5x.avif",
-						"/covers/lns/kizumonogatari-0.5x.webp"
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -683,7 +692,8 @@
 		],
 		"picturesHalf": [
 			"/covers/kizumonogatari-III-0.5x.avif",
-			"/covers/kizumonogatari-III-0.5x.webp"
+			"/covers/kizumonogatari-III-0.5x.webp",
+			"/covers/kizumonogatari-III-0.5x.jpg"
 		],
 		"responsivePosition": "top 20% left 0",
 		"hidden": false,
@@ -691,7 +701,7 @@
 		"info": {
 			"date": "January 6, 2017",
 			"arcs": [
-				"Koyomi Vamp"
+				["Koyomi Vamp", "こよみヴァンプ"]
 			],
 			"gallery": [
 				[
@@ -757,7 +767,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
-						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp"
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp",
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.jpg"
 					]
 				},
 				{
@@ -770,7 +781,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kizumonogatari-0.5x.avif",
-						"/covers/lns/kizumonogatari-0.5x.webp"
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -866,7 +878,8 @@
 		],
 		"picturesHalf": [
 			"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
-			"/covers/kizumonogatari-koyomi-vamp-0.5x.webp"
+			"/covers/kizumonogatari-koyomi-vamp-0.5x.webp",
+			"/covers/kizumonogatari-koyomi-vamp-0.5x.jpg"
 		],
 		"responsivePosition": "center",
 		"hidden": true,
@@ -874,7 +887,7 @@
 		"info": {
 			"date": "January 12, 2024",
 			"arcs": [
-				"Koyomi Vamp"
+				["Koyomi Vamp", "こよみヴァンプ"]
 			],
 			"gallery": [
 				[
@@ -929,7 +942,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-I-0.5x.avif",
-						"/covers/kizumonogatari-I-0.5x.webp"
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
 					]
 				},
 				{
@@ -942,7 +956,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-II-0.5x.avif",
-						"/covers/kizumonogatari-II-0.5x.webp"
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
 					]
 				},
 				{
@@ -955,7 +970,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-III-0.5x.avif",
-						"/covers/kizumonogatari-III-0.5x.webp"
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
 					]
 				},
 				{
@@ -968,7 +984,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kizumonogatari-0.5x.avif",
-						"/covers/lns/kizumonogatari-0.5x.webp"
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -997,7 +1014,8 @@
 		],
 		"picturesHalf": [
 			"/covers/nisemonogatari-0.5x.avif",
-			"/covers/nisemonogatari-0.5x.webp"
+			"/covers/nisemonogatari-0.5x.webp",
+			"/covers/nisemonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "center",
 		"hidden": false,
@@ -1005,8 +1023,8 @@
 		"info": {
 			"date": "March 18, 2012",
 			"arcs": [
-				"Karen Bee",
-				"Tsukihi Phoenix"
+				["Karen Bee", "かれんビー"],
+				["Tsukihi Phoenix", "つきひフェニックス"]
 			],
 			"gallery": [
 				[
@@ -1096,7 +1114,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/nisemonogatari-jou-0.5x.avif",
-						"/covers/lns/nisemonogatari-jou-0.5x.webp"
+						"/covers/lns/nisemonogatari-jou-0.5x.webp",
+						"/covers/lns/nisemonogatari-jou-0.5x.jpg"
 					]
 				},
 				{
@@ -1109,7 +1128,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/nisemonogatari-ge-0.5x.avif",
-						"/covers/lns/nisemonogatari-ge-0.5x.webp"
+						"/covers/lns/nisemonogatari-ge-0.5x.webp",
+						"/covers/lns/nisemonogatari-ge-0.5x.jpg"
 					]
 				}
 			],
@@ -1199,7 +1219,8 @@
 		],
 		"picturesHalf": [
 			"/covers/nekomonogatari-kuro-0.5x.avif",
-			"/covers/nekomonogatari-kuro-0.5x.webp"
+			"/covers/nekomonogatari-kuro-0.5x.webp",
+			"/covers/nekomonogatari-kuro-0.5x.jpg"
 		],
 		"responsivePosition": "top",
 		"hidden": false,
@@ -1207,7 +1228,7 @@
 		"info": {
 			"date": "December 31, 2012",
 			"arcs": [
-				"Tsubasa Family"
+				["Tsubasa Family", "つばさファミリー"]
 			],
 			"gallery": [
 				[
@@ -1258,7 +1279,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/nekomonogatari-kuro-0.5x.avif",
-						"/covers/lns/nekomonogatari-kuro-0.5x.webp"
+						"/covers/lns/nekomonogatari-kuro-0.5x.webp",
+						"/covers/lns/nekomonogatari-kuro-0.5x.jpg"
 					]
 				}
 			],
@@ -1300,7 +1322,8 @@
 		],
 		"picturesHalf": [
 			"/covers/nekomonogatari-shiro-0.5x.avif",
-			"/covers/nekomonogatari-shiro-0.5x.webp"
+			"/covers/nekomonogatari-shiro-0.5x.webp",
+			"/covers/nekomonogatari-shiro-0.5x.jpg"
 		],
 		"responsivePosition": "top",
 		"hidden": false,
@@ -1308,7 +1331,7 @@
 		"info": {
 			"date": "July 6, 2013",
 			"arcs": [
-				"Tsubasa Tiger"
+				["Tsubasa Tiger", "つばさタイガー"]
 			],
 			"gallery": [
 				[
@@ -1375,7 +1398,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
-						"/covers/lns/nekomonogatari-shiro-0.5x.webp"
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp",
+						"/covers/lns/nekomonogatari-shiro-0.5x.jpg"
 					]
 				}
 			],
@@ -1452,7 +1476,8 @@
 		],
 		"picturesHalf": [
 			"/covers/kabukimonogatari-0.5x.avif",
-			"/covers/kabukimonogatari-0.5x.webp"
+			"/covers/kabukimonogatari-0.5x.webp",
+			"/covers/kabukimonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "top",
 		"hidden": false,
@@ -1460,7 +1485,7 @@
 		"info": {
 			"date": "August 17, 2013",
 			"arcs": [
-				"Mayoi Jiangshi"
+				["Mayoi Jiangshi", "まよいキョンシー"]
 			],
 			"gallery": [
 				[
@@ -1534,7 +1559,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kabukimonogatari-0.5x.avif",
-						"/covers/lns/kabukimonogatari-0.5x.webp"
+						"/covers/lns/kabukimonogatari-0.5x.webp",
+						"/covers/lns/kabukimonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -1579,7 +1605,8 @@
 		],
 		"picturesHalf": [
 			"/covers/hanamonogatari-0.5x.avif",
-			"/covers/hanamonogatari-0.5x.webp"
+			"/covers/hanamonogatari-0.5x.webp",
+			"/covers/hanamonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "top",
 		"hidden": false,
@@ -1587,7 +1614,7 @@
 		"info": {
 			"date": "August 16, 2014",
 			"arcs": [
-				"Suruga Devil"
+				["Suruga Devil", "するがデビル"]
 			],
 			"gallery": [
 				[
@@ -1646,7 +1673,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/hanamonogatari-0.5x.avif",
-						"/covers/lns/hanamonogatari-0.5x.webp"
+						"/covers/lns/hanamonogatari-0.5x.webp",
+						"/covers/lns/hanamonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -1719,7 +1747,8 @@
 		],
 		"picturesHalf": [
 			"/covers/otorimonogatari-0.5x.avif",
-			"/covers/otorimonogatari-0.5x.webp"
+			"/covers/otorimonogatari-0.5x.webp",
+			"/covers/otorimonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "center 35%",
 		"hidden": false,
@@ -1727,7 +1756,7 @@
 		"info": {
 			"date": "September 21, 2013",
 			"arcs": [
-				"Nadeko Medusa"
+				["Nadeko Medusa", "なでこメドゥーサ"]
 			],
 			"gallery": [
 				[
@@ -1812,7 +1841,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/otorimonogatari-0.5x.avif",
-						"/covers/lns/otorimonogatari-0.5x.webp"
+						"/covers/lns/otorimonogatari-0.5x.webp",
+						"/covers/lns/otorimonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -1857,7 +1887,8 @@
 		],
 		"picturesHalf": [
 			"/covers/onimonogatari-0.5x.avif",
-			"/covers/onimonogatari-0.5x.webp"
+			"/covers/onimonogatari-0.5x.webp",
+			"/covers/onimonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "top",
 		"hidden": false,
@@ -1865,7 +1896,7 @@
 		"info": {
 			"date": "October 26, 2013",
 			"arcs": [
-				"Shinobu Time"
+				["Shinobu Time", "しのぶタイム"]
 			],
 			"gallery": [
 				[
@@ -1947,7 +1978,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/onimonogatari-0.5x.avif",
-						"/covers/lns/onimonogatari-0.5x.webp"
+						"/covers/lns/onimonogatari-0.5x.webp",
+						"/covers/lns/onimonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -1992,7 +2024,8 @@
 		],
 		"picturesHalf": [
 			"/covers/koimonogatari-0.5x.avif",
-			"/covers/koimonogatari-0.5x.webp"
+			"/covers/koimonogatari-0.5x.webp",
+			"/covers/koimonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "top",
 		"hidden": false,
@@ -2000,7 +2033,7 @@
 		"info": {
 			"date": "November 23, 2013",
 			"arcs": [
-				"Hitagi End"
+				["Hitagi End", "ひたぎエンド"]
 			],
 			"gallery": [
 				[
@@ -2084,7 +2117,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/koimonogatari-0.5x.avif",
-						"/covers/lns/koimonogatari-0.5x.webp"
+						"/covers/lns/koimonogatari-0.5x.webp",
+						"/covers/lns/koimonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -2161,7 +2195,8 @@
 		],
 		"picturesHalf": [
 			"/covers/tsukimonogatari-0.5x.avif",
-			"/covers/tsukimonogatari-0.5x.webp"
+			"/covers/tsukimonogatari-0.5x.webp",
+			"/covers/tsukimonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "center 20%",
 		"hidden": false,
@@ -2169,7 +2204,7 @@
 		"info": {
 			"date": "December 31, 2014",
 			"arcs": [
-				"Yotsugi Doll"
+				["Yotsugi Doll", "よつぎドール"]
 			],
 			"gallery": [
 				[
@@ -2227,7 +2262,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/tsukimonogatari-0.5x.avif",
-						"/covers/lns/tsukimonogatari-0.5x.webp"
+						"/covers/lns/tsukimonogatari-0.5x.webp",
+						"/covers/lns/tsukimonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -2304,7 +2340,8 @@
 		],
 		"picturesHalf": [
 			"/covers/koyomimonogatari-0.5x.avif",
-			"/covers/koyomimonogatari-0.5x.webp"
+			"/covers/koyomimonogatari-0.5x.webp",
+			"/covers/koyomimonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "top",
 		"hidden": false,
@@ -2312,18 +2349,18 @@
 		"info": {
 			"date": "January 10, 2016",
 			"arcs": [
-				"Koyomi Stone",
-				"Koyomi Flower",
-				"Koyomi Sand",
-				"Koyomi Water",
-				"Koyomi Wind",
-				"Koyomi Tree",
-				"Koyomi Tea",
-				"Koyomi Mountain",
-				"Koyomi Torus",
-				"Koyomi Seed",
-				"Koyomi Nothing",
-				"Koyomi Dead"
+				["Koyomi Stone", "こよみストーン"],
+				["Koyomi Flower", "こよみフラワー"],
+				["Koyomi Sand", "こよみサンド"],
+				["Koyomi Water", "こよみウォーター"],
+				["Koyomi Wind", "こよみウインド"],
+				["Koyomi Tree", "こよみツリー"],
+				["Koyomi Tea", "こよみティー"],
+				["Koyomi Mountain", "こよみマウンテン"],
+				["Koyomi Torus", "こよみトーラス"],
+				["Koyomi Seed", "こよみシード"],
+				["Koyomi Nothing", "こよみナッシング"],
+				["Koyomi Dead", "こよみデッド"]
 			],
 			"gallery": [
 				[
@@ -2581,7 +2618,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/koyomimonogatari-0.5x.avif",
-						"/covers/lns/koyomimonogatari-0.5x.webp"
+						"/covers/lns/koyomimonogatari-0.5x.webp",
+						"/covers/lns/koyomimonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -2615,7 +2653,8 @@
 		],
 		"picturesHalf": [
 			"/covers/owarimonogatari-jou-0.5x.avif",
-			"/covers/owarimonogatari-jou-0.5x.webp"
+			"/covers/owarimonogatari-jou-0.5x.webp",
+			"/covers/owarimonogatari-jou-0.5x.jpg"
 		],
 		"responsivePosition": "top",
 		"hidden": false,
@@ -2623,10 +2662,10 @@
 		"info": {
 			"date": "October 3, 2015",
 			"arcs": [
-				"Ougi Formula",
-				"Sodachi Riddle",
-				"Sodachi Lost",
-				"Shinobu Mail"
+				["Ougi Formula", "おうぎフォーミュラ"],
+				["Sodachi Riddle", "そだちリドル"],
+				["Sodachi Lost", "そだちロスト"],
+				["Shinobu Mail", "しのぶメイル"]
 			],
 			"gallery": [
 				[
@@ -2700,7 +2739,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/owarimonogatari-jou-0.5x.avif",
-						"/covers/lns/owarimonogatari-jou-0.5x.webp"
+						"/covers/lns/owarimonogatari-jou-0.5x.webp",
+						"/covers/lns/owarimonogatari-jou-0.5x.jpg"
 					]
 				},
 				{
@@ -2713,7 +2753,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/owarimonogatari-chuu-0.5x.avif",
-						"/covers/lns/owarimonogatari-chuu-0.5x.webp"
+						"/covers/lns/owarimonogatari-chuu-0.5x.webp",
+						"/covers/lns/owarimonogatari-chuu-0.5x.jpg"
 					]
 				}
 			],
@@ -2807,7 +2848,8 @@
 		],
 		"picturesHalf": [
 			"/covers/owarimonogatari-ge-0.5x.avif",
-			"/covers/owarimonogatari-ge-0.5x.webp"
+			"/covers/owarimonogatari-ge-0.5x.webp",
+			"/covers/owarimonogatari-ge-0.5x.jpg"
 		],
 		"responsivePosition": "center 20%",
 		"hidden": false,
@@ -2815,9 +2857,9 @@
 		"info": {
 			"date": "August 12, 2017",
 			"arcs": [
-				"Mayoi Hell",
-				"Hitagi Rendezvous",
-				"Ougi Dark"
+				["Mayoi Hell", "まよいヘル"],
+				["Hitagi Rendezvous", "ひたぎランデブー"],
+				["Ougi Dark", "おうぎダーク"]
 			],
 			"gallery": [
 				[
@@ -2891,7 +2933,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/owarimonogatari-ge-0.5x.avif",
-						"/covers/lns/owarimonogatari-ge-0.5x.webp"
+						"/covers/lns/owarimonogatari-ge-0.5x.webp",
+						"/covers/lns/owarimonogatari-ge-0.5x.jpg"
 					]
 				}
 			],
@@ -2941,7 +2984,8 @@
 		],
 		"picturesHalf": [
 			"/covers/zoku-owarimonogatari-0.5x.avif",
-			"/covers/zoku-owarimonogatari-0.5x.webp"
+			"/covers/zoku-owarimonogatari-0.5x.webp",
+			"/covers/zoku-owarimonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "top",
 		"hidden": false,
@@ -2949,7 +2993,7 @@
 		"info": {
 			"date": "May 18, 2019",
 			"arcs": [
-				"Koyomi Reverse"
+				["Koyomi Reverse", "こよみリバース"]
 			],
 			"gallery": [
 				[
@@ -3031,7 +3075,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/zoku-owarimonogatari-0.5x.avif",
-						"/covers/lns/zoku-owarimonogatari-0.5x.webp"
+						"/covers/lns/zoku-owarimonogatari-0.5x.webp",
+						"/covers/lns/zoku-owarimonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -3248,7 +3293,8 @@
 		],
 		"picturesHalf": [
 			"/covers/orokamonogatari-0.5x.avif",
-			"/covers/orokamonogatari-0.5x.webp"
+			"/covers/orokamonogatari-0.5x.webp",
+			"/covers/orokamonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "top",
 		"hidden": false,
@@ -3256,7 +3302,7 @@
 		"info": {
 			"date": "July 6, 2024",
 			"arcs": [
-				"Tsukihi Undo"
+				["Tsukihi Undo", "つきひアンドゥ"]
 			],
 			"gallery": [
 				[
@@ -3290,7 +3336,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/orokamonogatari-0.5x.avif",
-						"/covers/lns/orokamonogatari-0.5x.webp"
+						"/covers/lns/orokamonogatari-0.5x.webp",
+						"/covers/lns/orokamonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -3323,7 +3370,8 @@
 		],
 		"picturesHalf": [
 			"/covers/nademonogatari-0.5x.avif",
-			"/covers/nademonogatari-0.5x.webp"
+			"/covers/nademonogatari-0.5x.webp",
+			"/covers/nademonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "center 10%",
 		"hidden": false,
@@ -3331,7 +3379,7 @@
 		"info": {
 			"date": "July 13, 2024",
 			"arcs": [
-				"Nadeko Draw"
+				["Nadeko Draw", "なでこドロー"]
 			],
 			"gallery": [
 				[
@@ -3392,7 +3440,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/nademonogatari-0.5x.avif",
-						"/covers/lns/nademonogatari-0.5x.webp"
+						"/covers/lns/nademonogatari-0.5x.webp",
+						"/covers/lns/nademonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -3492,7 +3541,8 @@
 		],
 		"picturesHalf": [
 			"/covers/wazamonogatari-ova-0.5x.avif",
-			"/covers/wazamonogatari-ova-0.5x.webp"
+			"/covers/lns/nademonogatari-0.5x.webp",
+			"/covers/wazamonogatari-ova-0.5x.jpg"
 		],
 		"responsivePosition": "center 40%",
 		"hidden": false,
@@ -3500,7 +3550,7 @@
 		"info": {
 			"date": "August 17, 2024",
 			"arcs": [
-				"A Cruel Fairy Tale: The Beautiful Princess"
+				["A Cruel Fairy Tale: The Beautiful Princess", "残酷童話 うつくし姫"]
 			],
 			"description": [
 				"Once upon a time, there was a true story that happened about 600 years ago. It's a story of a very beautiful girl who lived in a country that no longer exists."
@@ -3516,7 +3566,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/wazamonogatari-0.5x.avif",
-						"/covers/lns/wazamonogatari-0.5x.webp"
+						"/covers/lns/wazamonogatari-0.5x.webp",
+						"/covers/lns/wazamonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -3539,7 +3590,8 @@
 		],
 		"picturesHalf": [
 			"/covers/wazamonogatari-0.5x.avif",
-			"/covers/wazamonogatari-0.5x.webp"
+			"/covers/wazamonogatari-0.5x.webp",
+			"/covers/wazamonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "center 70%",
 		"hidden": false,
@@ -3547,7 +3599,7 @@
 		"info": {
 			"date": "August 24, 2024",
 			"arcs": [
-				"Acerola Bon Appétit"
+				["Acerola Bon Appétit", "あせろらボナペティ"]
 			],
 			"gallery": [
 				[
@@ -3576,7 +3628,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/wazamonogatari-0.5x.avif",
-						"/covers/lns/wazamonogatari-0.5x.webp"
+						"/covers/lns/wazamonogatari-0.5x.webp",
+						"/covers/lns/wazamonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -3609,7 +3662,8 @@
 		],
 		"picturesHalf": [
 			"/covers/shinobumonogatari-0.5x.avif",
-			"/covers/shinobumonogatari-0.5x.webp"
+			"/covers/shinobumonogatari-0.5x.webp",
+			"/covers/shinobumonogatari-0.5x.jpg"
 		],
 		"responsivePosition": "center 25%",
 		"hidden": false,
@@ -3617,7 +3671,7 @@
 		"info": {
 			"date": "September 14, 2024",
 			"arcs": [
-				"Shinobu Mastered"
+				["Shinobu Mastered", "しのぶマスタード"]
 			],
 			"gallery": [
 				[
@@ -3693,7 +3747,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/shinobumonogatari-0.5x.avif",
-						"/covers/lns/shinobumonogatari-0.5x.webp"
+						"/covers/lns/shinobumonogatari-0.5x.webp",
+						"/covers/lns/shinobumonogatari-0.5x.jpg"
 					]
 				}
 			],

@@ -1,0 +1,3807 @@
+[
+	{
+		"name": "bakemonogatari",
+		"title": "Bakemonogatari",
+		"text": "(Episodios 1 - 15)",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/bakemonogatari.avif",
+			"/covers/bakemonogatari.webp",
+			"/covers/bakemonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/bakemonogatari-0.5x.avif",
+			"/covers/bakemonogatari-0.5x.webp",
+			"/covers/bakemonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "top",
+		"hidden": false,
+		"color": "--bg-purple",
+		"info": {
+			"date": "2009-07-03",
+			"arcs": [
+				["Cangrejo Hitagi", ["Hitagi Crab", "ひたぎクラブ"]],
+				["Maimai Mayoi", ["Mayoi Maimai", "まよいマイマイ"]],
+				["Mono Suruga", ["Suruga Monkey", "するがモンキー"]],
+				["Serpiente Nadeko", ["Nadeko Snake", "なでこスネイク"]],
+				["Gato Tsubasa", ["Tsubasa Cat", "つばさキャット"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/bakemonogatari/hitagi-crab.avif",
+						"/gallery/bakemonogatari/hitagi-crab.webp",
+						"/gallery/bakemonogatari/hitagi-crab.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/mayoi-snail.avif",
+						"/gallery/bakemonogatari/mayoi-snail.webp",
+						"/gallery/bakemonogatari/mayoi-snail.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/suruga-monkey.avif",
+						"/gallery/bakemonogatari/suruga-monkey.webp",
+						"/gallery/bakemonogatari/suruga-monkey.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/nadeko-snake.avif",
+						"/gallery/bakemonogatari/nadeko-snake.webp",
+						"/gallery/bakemonogatari/nadeko-snake.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/tsubasa-cat.avif",
+						"/gallery/bakemonogatari/tsubasa-cat.webp",
+						"/gallery/bakemonogatari/tsubasa-cat.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/shinobu.avif",
+						"/gallery/bakemonogatari/shinobu.webp",
+						"/gallery/bakemonogatari/shinobu.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/hita-mayo-suru-nade-tsuba.avif",
+						"/gallery/bakemonogatari/hita-mayo-suru-nade-tsuba.webp",
+						"/gallery/bakemonogatari/hita-mayo-suru-nade-tsuba.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG20.avif",
+						"/gallery/bakemonogatari/CG20.webp",
+						"/gallery/bakemonogatari/CG20.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG01.avif",
+						"/gallery/bakemonogatari/CG01.webp",
+						"/gallery/bakemonogatari/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG02.avif",
+						"/gallery/bakemonogatari/CG02.webp",
+						"/gallery/bakemonogatari/CG02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG03.avif",
+						"/gallery/bakemonogatari/CG03.webp",
+						"/gallery/bakemonogatari/CG03.jpeg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG04.avif",
+						"/gallery/bakemonogatari/CG04.webp",
+						"/gallery/bakemonogatari/CG04.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG05.avif",
+						"/gallery/bakemonogatari/CG05.webp",
+						"/gallery/bakemonogatari/CG05.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG06.avif",
+						"/gallery/bakemonogatari/CG06.webp",
+						"/gallery/bakemonogatari/CG06.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG07.avif",
+						"/gallery/bakemonogatari/CG07.webp",
+						"/gallery/bakemonogatari/CG07.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG08.avif",
+						"/gallery/bakemonogatari/CG08.webp",
+						"/gallery/bakemonogatari/CG08.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG09.avif",
+						"/gallery/bakemonogatari/CG09.webp",
+						"/gallery/bakemonogatari/CG09.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG10.avif",
+						"/gallery/bakemonogatari/CG10.webp",
+						"/gallery/bakemonogatari/CG10.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG11.avif",
+						"/gallery/bakemonogatari/CG11.webp",
+						"/gallery/bakemonogatari/CG11.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG12.avif",
+						"/gallery/bakemonogatari/CG12.webp",
+						"/gallery/bakemonogatari/CG12.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG13.avif",
+						"/gallery/bakemonogatari/CG13.webp",
+						"/gallery/bakemonogatari/CG13.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG14.avif",
+						"/gallery/bakemonogatari/CG14.webp",
+						"/gallery/bakemonogatari/CG14.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG15.avif",
+						"/gallery/bakemonogatari/CG15.webp",
+						"/gallery/bakemonogatari/CG15.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG16.avif",
+						"/gallery/bakemonogatari/CG16.webp",
+						"/gallery/bakemonogatari/CG16.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG17.avif",
+						"/gallery/bakemonogatari/CG17.webp",
+						"/gallery/bakemonogatari/CG17.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG18.avif",
+						"/gallery/bakemonogatari/CG18.webp",
+						"/gallery/bakemonogatari/CG18.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG19.avif",
+						"/gallery/bakemonogatari/CG19.webp",
+						"/gallery/bakemonogatari/CG19.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG21.avif",
+						"/gallery/bakemonogatari/CG21.webp",
+						"/gallery/bakemonogatari/CG21.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG23.avif",
+						"/gallery/bakemonogatari/CG23.webp",
+						"/gallery/bakemonogatari/CG23.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/bakemonogatari/CG22.avif",
+						"/gallery/bakemonogatari/CG22.webp",
+						"/gallery/bakemonogatari/CG22.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"Gracias a Oshino Meme, Araragi Koyomi, un estudiante de secundaria, logra seguir siendo humano tras haberse enfrentado a una vampira... Sin embargo, desde aquel incidente, Araragi no deja de cruzarse con chicas que sufren problemas relacionados con excentricidades: Senjougahara Hitagi no pesa absolutamente nada, el brazo derecho de Kanbaru Suruga se ha convertido en el de un mono, y una niña llamada Hachikuji Mayoi es incapaz de encontrar el camino a casa sin importar cuántas veces lo intente. Araragi, que es un pan de Dios, termina involucrándose para ayudar a cada una a resolver sus problemas, contando una vez más con la ayuda de Oshino Meme."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Canción Tsubasa",
+					"when": "Después",
+					"pictures": [
+						"/covers/tsubasa-song-0.5x.avif",
+						"/covers/tsubasa-song-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Tsubasa Song.pdf",
+							"fileName": "Tsubasa Song.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Tsubasa Song.pdf",
+							"fileName": "Canción Tsubasa.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Tsubasa Song.pdf",
+							"fileName": "Tsubasa Canção.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Tsubasa Song.pdf",
+							"fileName": "つばさソング.pdf"
+						}
+					]
+				},
+				{
+					"name": "Lanzamiento Hitagi",
+					"when": "Después",
+					"pictures": [
+						"/covers/hitagi-throwing-0.5x.avif",
+						"/covers/hitagi-throwing-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Hitagi Throwing.pdf",
+							"fileName": "Hitagi Throwing.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Hitagi Throwing.pdf",
+							"fileName": "Lanzamiento Hitagi.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Hitagi Throwing.pdf",
+							"fileName": "Hitagi Arremesso.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Hitagi Throwing.pdf",
+							"fileName": "ひたぎスローイング.pdf"
+						}
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "staple-stable",
+					"type": "Opening"
+				},
+				{
+					"name": "kaerimichi",
+					"type": "Opening"
+				},
+				{
+					"name": "ambivalent-world",
+					"type": "Opening"
+				},
+				{
+					"name": "renai-circulation",
+					"type": "Opening"
+				},
+				{
+					"name": "sugar-sweet-nightmare",
+					"type": "Opening"
+				},
+				{
+					"name": "kimi-no-shiranai-monogatari",
+					"type": "Ending"
+				},
+				{
+					"name": "bakemonogatari-ii",
+					"type": "BSO"
+				},
+				{
+					"name": "bakemonogatari-complete-music-works",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari",
+					"type": "Canciones"
+				},
+				{
+					"name": "monogataremix",
+					"type": "Remix"
+				}
+			]
+		}
+	},
+	{
+		"name": "kizumonogatari-I",
+		"title": "Kizumonogatari I",
+		"text": "(Tekketsu-hen)",
+		"kanji": [
+			["傷", "kizu."],
+			["物", "mono."],
+			["語", "gatari."],
+			["I"]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/kizumonogatari-I.avif",
+			"/covers/kizumonogatari-I.webp",
+			"/covers/kizumonogatari-I.jpg"
+		],
+		"picturesHalf": [
+			"/covers/kizumonogatari-I-0.5x.avif",
+			"/covers/kizumonogatari-I-0.5x.webp",
+			"/covers/kizumonogatari-I-0.5x.jpg"
+		],
+		"responsivePosition": "center",
+		"hidden": false,
+		"color": "--bg-red",
+		"info": {
+			"date": "2016-01-08",
+			"arcs": [
+				["Vampi Koyomi", ["Koyomi Vamp", "こよみヴァンプ"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/kizumonogatari-I/kiss-shot.avif",
+						"/gallery/kizumonogatari-I/kiss-shot.webp",
+						"/gallery/kizumonogatari-I/kiss-shot.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/booklet.avif",
+						"/gallery/kizumonogatari-I/booklet.webp",
+						"/gallery/kizumonogatari-I/booklet.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/tenobu-wide.avif",
+						"/gallery/kizumonogatari-I/tenobu-wide.webp",
+						"/gallery/kizumonogatari-I/tenobu-wide.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/CG01.avif",
+						"/gallery/kizumonogatari-I/CG01.webp",
+						"/gallery/kizumonogatari-I/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/CG06.avif",
+						"/gallery/kizumonogatari-I/CG06.webp",
+						"/gallery/kizumonogatari-I/CG06.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/CG02.avif",
+						"/gallery/kizumonogatari-I/CG02.webp",
+						"/gallery/kizumonogatari-I/CG02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/CG04.avif",
+						"/gallery/kizumonogatari-I/CG04.webp",
+						"/gallery/kizumonogatari-I/CG04.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/CG03.avif",
+						"/gallery/kizumonogatari-I/CG03.webp",
+						"/gallery/kizumonogatari-I/CG03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-I/CG05.avif",
+						"/gallery/kizumonogatari-I/CG05.webp",
+						"/gallery/kizumonogatari-I/CG05.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"25 de marzo, un día más durante las vacaciones de primavera. Araragi Koyomi, un estudiante de segundo año en la Secundaria Naoetsu que suele ser bastante antisocial, se hace amigo de Hanekawa Tsubasa, la alumna modelo de su escuela, gracias a su personalidad sencilla. Durante su charla, Hanekawa menciona un rumor acerca de una «vampira rubia» que fue vista recientemente por la ciudad.",
+				"Esa misma noche, Araragi se topa con la rumoreada vampira: se trata de Kiss-shot Acerola-orion Heart-under-blade, también conocida como \"la de sangre de hierro, sangre caliente y sangre fría, rey de las excentricidades\". La deslumbrantemente vampira yace en un charco de su propia sangre, con las cuatro extremidades cercenadas, y le suplica entre lágrimas a Araragi que la salve. Kiss-shot le pide que le dé de su sangre y, cuando él acepta, al despertar momentos después, Araragi renace convertido en su vasallo vampiro. Mientras lucha por aceptar su nueva existencia, Kiss-shot le susurra: «Bienvenido al mundo de la oscuridad...»"
+			],
+			"alternatives": [
+				{
+					"name": "/anime/kizumonogatari-koyomi-vamp",
+					"text": "Compilación",
+					"pictures": [
+						"/covers/kizumonogatari-koyomi-vamp.avif",
+						"/covers/kizumonogatari-koyomi-vamp.webp",
+						"/covers/kizumonogatari-koyomi-vamp.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp",
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "kizumonogatari-music-collection-i",
+					"type": "BSO"
+				}
+			]
+		}
+	},
+	{
+		"name": "kizumonogatari-II",
+		"title": "Kizumonogatari II",
+		"text": "(Nekketsu-hen)",
+		"kanji": [
+			["傷", "kizu."],
+			["物", "mono."],
+			["語", "gatari."],
+			["II"]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/kizumonogatari-II.avif",
+			"/covers/kizumonogatari-II.webp",
+			"/covers/kizumonogatari-II.jpg"
+		],
+		"picturesHalf": [
+			"/covers/kizumonogatari-II-0.5x.avif",
+			"/covers/kizumonogatari-II-0.5x.webp",
+			"/covers/kizumonogatari-II-0.5x.jpg"
+		],
+		"responsivePosition": "top",
+		"hidden": false,
+		"color": "--bg-blue",
+		"info": {
+			"date": "2016-08-19",
+			"arcs": [
+				["Vampi Koyomi", ["Koyomi Vamp", "こよみヴァンプ"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/kizumonogatari-II/tweenobu.avif",
+						"/gallery/kizumonogatari-II/tweenobu.webp",
+						"/gallery/kizumonogatari-II/tweenobu.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-II/tweenobu-wide.avif",
+						"/gallery/kizumonogatari-II/tweenobu-wide.webp",
+						"/gallery/kizumonogatari-II/tweenobu-wide.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-II/CG01.avif",
+						"/gallery/kizumonogatari-II/CG01.webp",
+						"/gallery/kizumonogatari-II/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-II/CG02.avif",
+						"/gallery/kizumonogatari-II/CG02.webp",
+						"/gallery/kizumonogatari-II/CG02.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-II/CG03.avif",
+						"/gallery/kizumonogatari-II/CG03.webp",
+						"/gallery/kizumonogatari-II/CG03.jpg"
+					],
+					"hidden"
+				]
+			],
+			"description": [
+				"En la primavera de su segundo año de secundaria, Araragi Koyomi conoce a la hermosa vampira Kiss-shot Acerola-orion Heart-under-blade. Araragi logra salvarla cuando estaba al borde de la muerte y con sus cuatro extremidades cercenadas, pero a costa de convertirse él mismo en un vampiro y su vasallo. «Para volver a ser humano, tienes que recuperar todas las extremidades de Kiss-shot». Tras recibir el consejo de Oshino Meme, un experto en lo sobrenatural, Araragi se prepara para entrar en combate.",
+				"A su encuentro aguardan tres poderosos cazavampiros: Dramaturgy, un gigantesco cazador de vampiros que también es un vampiro; Episode, un semivampiro que blande una enorme cruz; y Guillotine Cutter, un hombre silencioso especializado en matar vampiros. ¿Podrá Araragi arrebatarles las extremidades de Kiss-shot a los cazadores? En medio de una suave lluvia primaveral, se alza el telón de este fatídico baño de sangre..."
+			],
+			"alternatives": [
+				{
+					"name": "/anime/kizumonogatari-koyomi-vamp",
+					"text": "Compilación",
+					"pictures": [
+						"/covers/kizumonogatari-koyomi-vamp.avif",
+						"/covers/kizumonogatari-koyomi-vamp.webp",
+						"/covers/kizumonogatari-koyomi-vamp.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp",
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "kizumonogatari-music-collection-ii",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari-2",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "kizumonogatari-III",
+		"title": "Kizumonogatari III",
+		"text": "(Reiketsu-hen)",
+		"kanji": [
+			["傷", "kizu."],
+			["物", "mono."],
+			["語", "gatari."],
+			["III"]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/kizumonogatari-III.avif",
+			"/covers/kizumonogatari-III.webp",
+			"/covers/kizumonogatari-III.jpg"
+		],
+		"picturesHalf": [
+			"/covers/kizumonogatari-III-0.5x.avif",
+			"/covers/kizumonogatari-III-0.5x.webp",
+			"/covers/kizumonogatari-III-0.5x.jpg"
+		],
+		"responsivePosition": "top 20% left 0",
+		"hidden": false,
+		"color": "--bg-yellow",
+		"info": {
+			"date": "2017-01-06",
+			"arcs": [
+				["Vampi Koyomi", ["Koyomi Vamp", "こよみヴァンプ"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/kizumonogatari-III/hanekawa.avif",
+						"/gallery/kizumonogatari-III/hanekawa.webp",
+						"/gallery/kizumonogatari-III/hanekawa.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-III/kiss-shot-wide.avif",
+						"/gallery/kizumonogatari-III/kiss-shot-wide.webp",
+						"/gallery/kizumonogatari-III/kiss-shot-wide.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-III/CG01.avif",
+						"/gallery/kizumonogatari-III/CG01.webp",
+						"/gallery/kizumonogatari-III/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-III/CG02.avif",
+						"/gallery/kizumonogatari-III/CG02.webp",
+						"/gallery/kizumonogatari-III/CG02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-III/CG03.avif",
+						"/gallery/kizumonogatari-III/CG03.webp",
+						"/gallery/kizumonogatari-III/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-III/CG04.avif",
+						"/gallery/kizumonogatari-III/CG04.webp",
+						"/gallery/kizumonogatari-III/CG04.jpg"
+					],
+					"hidden"
+				]
+			],
+			"description": [
+				"Con la ayuda de Oshino Meme, el especialista en excentricidades, Araragi logra derrotar a los tres poderosos cazadores de vampiros: Dramaturgy, Episode y Guillotine Cutter. Tras recuperar todas las extremidades de Kiss-shot Acerola-orion Heart-under-blade para poder volver a ser humano, regresa junto a ella; sin embargo, ella le revela la fría verdad sobre lo que realmente significa ser una vampira, una criatura de la noche. Incapaz de deshacer lo ocurrido, Araragi se ve consumido por el arrepentimiento, sin poder hacer otra cosa que rechazar su atroz destino. Mientras lucha por afrontar la realidad, su «amiga» Hanekawa Tsubasa acude a él con cierto plan..."
+			],
+			"alternatives": [
+				{
+					"name": "/anime/kizumonogatari-koyomi-vamp",
+					"text": "Compilación",
+					"pictures": [
+						"/covers/kizumonogatari-koyomi-vamp.avif",
+						"/covers/kizumonogatari-koyomi-vamp.webp",
+						"/covers/kizumonogatari-koyomi-vamp.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.webp",
+						"/covers/kizumonogatari-koyomi-vamp-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Como humano",
+					"when": "Después",
+					"pictures": [
+						"/covers/as-a-human-0.5x.avif",
+						"/covers/as-a-human-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/As A Human.pdf",
+							"fileName": "As A Human.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/As A Human.pdf",
+							"fileName": "Como Humano.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/As A Human.pdf",
+							"fileName": "Como Um Humano.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/As A Human.pdf",
+							"fileName": "人として.pdf"
+						}
+					]
+				},
+				{
+					"name": "Algo anda mal",
+					"when": "Después",
+					"pictures": [
+						"/covers/something-wrong-0.5x.avif",
+						"/covers/something-wrong-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Something Wrong.pdf",
+							"fileName": "Something Wrong.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Something Wrong.pdf",
+							"fileName": "Algo Anda Mal.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Something Wrong.pdf",
+							"fileName": "Algo De Errado.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Something Wrong.pdf",
+							"fileName": "どうかして.pdf"
+						}
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "kizumonogatari-music-collection-iii",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari-2",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "kizumonogatari-koyomi-vamp",
+		"title": "Kizumonogatari: Koyomi Vamp",
+		"text": "Compilación",
+		"kanji": [
+			["傷", "kizu."],
+			["物", "mono."],
+			["語", "gatari."],
+			["こよみヴァンプ"]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/kizumonogatari-koyomi-vamp.avif",
+			"/covers/kizumonogatari-koyomi-vamp.webp",
+			"/covers/kizumonogatari-koyomi-vamp.png"
+		],
+		"picturesHalf": [
+			"/covers/kizumonogatari-koyomi-vamp-0.5x.avif",
+			"/covers/kizumonogatari-koyomi-vamp-0.5x.webp",
+			"/covers/kizumonogatari-koyomi-vamp-0.5x.jpg"
+		],
+		"responsivePosition": "center",
+		"hidden": true,
+		"color": "--bg-black",
+		"info": {
+			"date": "2024-01-12",
+			"arcs": [
+				["Vampi Koyomi", ["Koyomi Vamp", "こよみヴァンプ"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/kizumonogatari-koyomi-vamp/CG01.avif",
+						"/gallery/kizumonogatari-koyomi-vamp/CG01.webp",
+						"/gallery/kizumonogatari-koyomi-vamp/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-koyomi-vamp/CG02.avif",
+						"/gallery/kizumonogatari-koyomi-vamp/CG02.webp",
+						"/gallery/kizumonogatari-koyomi-vamp/CG02.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-koyomi-vamp/CG03.avif",
+						"/gallery/kizumonogatari-koyomi-vamp/CG03.webp",
+						"/gallery/kizumonogatari-koyomi-vamp/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kizumonogatari-koyomi-vamp/kiss-shot.avif",
+						"/gallery/kizumonogatari-koyomi-vamp/kiss-shot.webp",
+						"/gallery/kizumonogatari-koyomi-vamp/kiss-shot.jpg"
+					],
+					"hidden"
+				]
+			],
+			"description": [
+				"Vacaciones de primavera, un intervalo de tiempo entre el segundo y el tercer año de secundaria. Fue una noche fatídica cuando Araragi Koyomi se encontró con ella.",
+				"Kiss-shot Acerola-orion Heart-under-blade. Vampira legendaria. Asesina de excentricidades. Rey de las excentricidades.",
+				"Con las piernas y los brazos cruelmente cercenados de su cuerpo y su extravagante vestido empapado de rojo, es un monstruo en un estado trágico que yace en un charco de su propia sangre. Sin embargo, Koyomi la encuentra sumamente hermosa así.",
+				"Al borde de la muerte tras haber perdido sus cuatro extremidades, le suplica a Koyomi que la salve. Después de experimentar miedo, caos y, finalmente, un profundo conflicto interno, Koyomi le ofrece su propia sangre para podoer salvarla. Pero al despertar, descubre que ha renacido como su vasallo vampiro.",
+				"Koyomi desea dejar de ser un vampiro para volver a ser humano; sin embargo, para lograrlo deberá recuperar todas las extremidades de Kiss-shot. Actuando como negociador, Oshino Meme mantiene una posición neutral mientras Koyomi intenta arrebatarles las partes faltantes a tres poderosos cazavampiros.",
+				"Estas infernales vacaciones de primavera, las últimas de su vida escolar, acaban de comenzar."
+			],
+			"alternatives": [
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Original",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Original",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Original",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "kizumonogatari-koyomi-vamp-music-collection",
+					"type": "BSO"
+				}
+			]
+		}
+	},
+	{
+		"name": "nisemonogatari",
+		"title": "Nisemonogatari",
+		"text": "(Episodios 1 - 11)",
+		"kanji": [
+			["偽", "nise."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/nisemonogatari.avif",
+			"/covers/nisemonogatari.webp",
+			"/covers/nisemonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/nisemonogatari-0.5x.avif",
+			"/covers/nisemonogatari-0.5x.webp",
+			"/covers/nisemonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center",
+		"hidden": false,
+		"color": "--bg-green",
+		"info": {
+			"date": "2012-03-18",
+			"arcs": [
+				["Abeja Karen", ["Karen Bee", "かれんビー"]],
+				["Fénix Tsukihi", ["Tsukihi Phoenix", "つきひフェニックス"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/nisemonogatari/hitagi-karen-bee.avif",
+						"/gallery/nisemonogatari/hitagi-karen-bee.webp",
+						"/gallery/nisemonogatari/hitagi-karen-bee.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/karen-bee.avif",
+						"/gallery/nisemonogatari/karen-bee.webp",
+						"/gallery/nisemonogatari/karen-bee.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/tsukihi-phoenix.avif",
+						"/gallery/nisemonogatari/tsukihi-phoenix.webp",
+						"/gallery/nisemonogatari/tsukihi-phoenix.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/ending.avif",
+						"/gallery/nisemonogatari/ending.webp",
+						"/gallery/nisemonogatari/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/shinobu.avif",
+						"/gallery/nisemonogatari/shinobu.webp",
+						"/gallery/nisemonogatari/shinobu.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/fire-sisters.avif",
+						"/gallery/nisemonogatari/fire-sisters.webp",
+						"/gallery/nisemonogatari/fire-sisters.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/CG02.avif",
+						"/gallery/nisemonogatari/CG02.webp",
+						"/gallery/nisemonogatari/CG02.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/CG03.avif",
+						"/gallery/nisemonogatari/CG03.webp",
+						"/gallery/nisemonogatari/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nisemonogatari/CG04.avif",
+						"/gallery/nisemonogatari/CG04.webp",
+						"/gallery/nisemonogatari/CG04.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"En Bakemonogatari, la historia se centraba en Araragi Koyomi, un estudiante de tercer año de secundaria que había sobrevivido recientemente a un ataque vampírico y se veía envuelto entre todo tipo de excentricidades: dioses, fantasmas, mitos y espíritus. Sin embargo, en Nisemonogatari, retomamos la historia justo donde se quedó y seguimos a Koyomi mientras los giros psicológicos se tornan cada vez más profundos..."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nisemonogatari-jou",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/nisemonogatari-jou.avif",
+						"/covers/lns/nisemonogatari-jou.webp",
+						"/covers/lns/nisemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nisemonogatari-jou-0.5x.avif",
+						"/covers/lns/nisemonogatari-jou-0.5x.webp",
+						"/covers/lns/nisemonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/nisemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/nisemonogatari-ge.avif",
+						"/covers/lns/nisemonogatari-ge.webp",
+						"/covers/lns/nisemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nisemonogatari-ge-0.5x.avif",
+						"/covers/lns/nisemonogatari-ge-0.5x.webp",
+						"/covers/lns/nisemonogatari-ge-0.5x.jpg"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Cumbre Gahara",
+					"when": "Después",
+					"pictures": [
+						"/covers/gahara-summit-0.5x.avif",
+						"/covers/gahara-summit-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Gahara Summit.pdf",
+							"fileName": "Gahara Summit.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Gahara Summit.pdf",
+							"fileName": "Cumbre Gahara.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Gahara Summit.pdf",
+							"fileName": "Gahara Cume.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Gahara Summit.pdf",
+							"fileName": "がはらサミット.pdf"
+						}
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "marshmallow-justice",
+					"type": "Opening"
+				},
+				{
+					"name": "futakotome",
+					"type": "Opening"
+				},
+				{
+					"name": "platinum-disco",
+					"type": "Opening"
+				},
+				{
+					"name": "naisho-no-hanashi",
+					"type": "Ending"
+				},
+				{
+					"name": "nisemonogatari-music-collection-ii",
+					"type": "BSO"
+				},
+				{
+					"name": "nisemonogatari-music-collection-iv",
+					"type": "BSO"
+				},
+				{
+					"name": "nisemonogatari-and-nekomonogatari-kuro-original-soundtracks",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "nekomonogatari-kuro",
+		"title": "Nekomonogatari (Kuro)",
+		"text": "(Episodios 1 - 4)",
+		"kanji": [
+			["猫", "neko."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(黒)", "kuro."]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/nekomonogatari-kuro.avif",
+			"/covers/nekomonogatari-kuro.webp",
+			"/covers/nekomonogatari-kuro.jpg"
+		],
+		"picturesHalf": [
+			"/covers/nekomonogatari-kuro-0.5x.avif",
+			"/covers/nekomonogatari-kuro-0.5x.webp",
+			"/covers/nekomonogatari-kuro-0.5x.jpg"
+		],
+		"responsivePosition": "top",
+		"hidden": false,
+		"color": "--bg-black",
+		"info": {
+			"date": "2012-12-31",
+			"arcs": [
+				["Familia Tsubasa", ["Tsubasa Family", "つばさファミリー"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/nekomonogatari-kuro/tsubasa-family.avif",
+						"/gallery/nekomonogatari-kuro/tsubasa-family.webp",
+						"/gallery/nekomonogatari-kuro/tsubasa-family.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-kuro/ending.avif",
+						"/gallery/nekomonogatari-kuro/ending.webp",
+						"/gallery/nekomonogatari-kuro/ending.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-kuro/CG01.avif",
+						"/gallery/nekomonogatari-kuro/CG01.webp",
+						"/gallery/nekomonogatari-kuro/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-kuro/box-art.avif",
+						"/gallery/nekomonogatari-kuro/box-art.webp",
+						"/gallery/nekomonogatari-kuro/box-art.jpg"
+					],
+					"hidden"
+				]
+			],
+			"description": [
+				"De camino a la librería, Araragi Koyomi se encuentra con Hanekawa Tsubasa, quien lleva el rostro cubierto con una venda. Este incidente le permite a Koyomi descubrir lo que ocurre en el hogar de los Hanekawa, pero ella le pide que no se lo cuente a nadie y asegura que hará lo que sea con tal de que se guarde el secreto. Sin revelar sus circunstancias familiares, Koyomi le comenta a Oshino Meme sobre lo que sucedió ese día: Hanekawa y él enterraron a un «gato» que había sido atropellado por un auto. Al oírlo, Meme le advierte que debe asegurarse de inmediato de que Hanekawa esté a salvo. Koyomi se dirige a su casa, solo para encontrar...",
+				"Y así empiezan los nueve días de pesadilla de la Golden Week."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nekomonogatari-kuro",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/nekomonogatari-kuro.avif",
+						"/covers/lns/nekomonogatari-kuro.webp",
+						"/covers/lns/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-kuro-0.5x.avif",
+						"/covers/lns/nekomonogatari-kuro-0.5x.webp",
+						"/covers/lns/nekomonogatari-kuro-0.5x.jpg"
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "perfect-slumbers",
+					"type": "Opening"
+				},
+				{
+					"name": "kieru-daydream",
+					"type": "Ending"
+				},
+				{
+					"name": "nisemonogatari-and-nekomonogatari-kuro-original-soundtracks",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "nekomonogatari-shiro",
+		"title": "Nekomonogatari (Shiro)",
+		"text": "Second Season (Episodios 1 - 5)",
+		"kanji": [
+			["猫", "neko."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(白)", "shiro."]
+		],
+		"season": "Second Season",
+		"pictures": [
+			"/covers/nekomonogatari-shiro.avif",
+			"/covers/nekomonogatari-shiro.webp",
+			"/covers/nekomonogatari-shiro.png"
+		],
+		"picturesHalf": [
+			"/covers/nekomonogatari-shiro-0.5x.avif",
+			"/covers/nekomonogatari-shiro-0.5x.webp",
+			"/covers/nekomonogatari-shiro-0.5x.jpg"
+		],
+		"responsivePosition": "top",
+		"hidden": false,
+		"color": "--bg-white",
+		"info": {
+			"date": "2013-07-06",
+			"arcs": [
+				["Tigre Tsubasa", ["Tsubasa Tiger", "つばさタイガー"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/nekomonogatari-shiro/tsubasa-tiger-2.avif",
+						"/gallery/nekomonogatari-shiro/tsubasa-tiger-2.webp",
+						"/gallery/nekomonogatari-shiro/tsubasa-tiger-2.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-shiro/ending.avif",
+						"/gallery/nekomonogatari-shiro/ending.webp",
+						"/gallery/nekomonogatari-shiro/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-shiro/CG01.avif",
+						"/gallery/nekomonogatari-shiro/CG01.webp",
+						"/gallery/nekomonogatari-shiro/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-shiro/CG02.avif",
+						"/gallery/nekomonogatari-shiro/CG02.webp",
+						"/gallery/nekomonogatari-shiro/CG02.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-shiro/CG03.avif",
+						"/gallery/nekomonogatari-shiro/CG03.webp",
+						"/gallery/nekomonogatari-shiro/CG03.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nekomonogatari-shiro/CG04.avif",
+						"/gallery/nekomonogatari-shiro/CG04.webp",
+						"/gallery/nekomonogatari-shiro/CG04.png"
+					],
+					"hidden"
+				]
+			],
+			"description": [
+				"«No lo sé todo, pero sé mucho sobre ti, Araragi-kun».",
+				"El primer día del segundo semestre de la perfecta presidenta de la clase, Hanekawa Tsubasa, es acechado por un monstruoso tigre. En medio de un monólogo sin vida yace una confesión inalcanzable..."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nekomonogatari-shiro",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/nekomonogatari-shiro.avif",
+						"/covers/lns/nekomonogatari-shiro.webp",
+						"/covers/lns/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp",
+						"/covers/lns/nekomonogatari-shiro-0.5x.jpg"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Habitación Mayoi",
+					"when": "Antes",
+					"pictures": [
+						"/covers/mayoi-room-0.5x.avif",
+						"/covers/mayoi-room-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Mayoi Room.pdf",
+							"fileName": "Mayoi Room.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Mayoi Room.pdf",
+							"fileName": "Habitación Mayoi.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Mayoi Room.pdf",
+							"fileName": "Mayoi Quarto.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Mayoi Room.pdf",
+							"fileName": "まよいルーム.pdf"
+						}
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "chocolate-insomnia",
+					"type": "Opening"
+				},
+				{
+					"name": "ai-wo-utae",
+					"type": "Ending"
+				},
+				{
+					"name": "nekomonogatari-shiro-music-collection",
+					"type": "BSO"
+				},
+				{
+					"name": "monogatari-series-second-season-original-soundtracks",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "kabukimonogatari",
+		"title": "Kabukimonogatari",
+		"text": "Second Season (Episodios 6 - 9)",
+		"kanji": [
+			["傾", "kabuki."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Second Season",
+		"pictures": [
+			"/covers/kabukimonogatari.avif",
+			"/covers/kabukimonogatari.webp",
+			"/covers/kabukimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/kabukimonogatari-0.5x.avif",
+			"/covers/kabukimonogatari-0.5x.webp",
+			"/covers/kabukimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "top",
+		"hidden": false,
+		"color": "--bg-blue",
+		"info": {
+			"date": "2013-08-17",
+			"arcs": [
+				["Jiangshi Mayoi", ["Mayoi Jiangshi", "まよいキョンシー"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/kabukimonogatari/mayoi-jiangshi.avif",
+						"/gallery/kabukimonogatari/mayoi-jiangshi.webp",
+						"/gallery/kabukimonogatari/mayoi-jiangshi.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/kabukimonogatari/ending.avif",
+						"/gallery/kabukimonogatari/ending.webp",
+						"/gallery/kabukimonogatari/ending.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kabukimonogatari/CG01.avif",
+						"/gallery/kabukimonogatari/CG01.webp",
+						"/gallery/kabukimonogatari/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kabukimonogatari/CG02.avif",
+						"/gallery/kabukimonogatari/CG02.webp",
+						"/gallery/kabukimonogatari/CG02.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kabukimonogatari/CG03.avif",
+						"/gallery/kabukimonogatari/CG03.webp",
+						"/gallery/kabukimonogatari/CG03.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kabukimonogatari/CG04.avif",
+						"/gallery/kabukimonogatari/CG04.webp",
+						"https://i.ibb.co/DD8YW5bj/CG04.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/kabukimonogatari/CG05.avif",
+						"/gallery/kabukimonogatari/CG05.webp",
+						"/gallery/kabukimonogatari/CG05.png"
+					],
+					"hidden"
+				]
+			],
+			"description": [
+				"Araragi Koyomi y Oshino Shinobu deciden viajar 11 años atrás en el tiempo utilizando las partículas espirituales residuales del templo de Kitashirahebi. Durante su aventura, Koyomi salva a Hachikuji Mayoi del accidente de auto que le costó la vida. Sin embargo, al volver al presente, descubren que la realidad ha cambiado drásticamente como consecuencia de sus acciones. Ahora, ambos deberán encontrar una forma alternativa de regresar a su mundo original."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kabukimonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kabukimonogatari.avif",
+						"/covers/lns/kabukimonogatari.webp",
+						"/covers/lns/kabukimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kabukimonogatari-0.5x.avif",
+						"/covers/lns/kabukimonogatari-0.5x.webp",
+						"/covers/lns/kabukimonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "happy-bite",
+					"type": "Opening"
+				},
+				{
+					"name": "ai-wo-utae",
+					"type": "Ending"
+				},
+				{
+					"name": "kabukimonogatari-music-collection",
+					"type": "BSO"
+				},
+				{
+					"name": "monogatari-series-second-season-original-soundtracks",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "hanamonogatari",
+		"title": "Hanamonogatari",
+		"text": "(Episodios 1 - 5)",
+		"kanji": [
+			["花", "hana."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Second Season",
+		"pictures": [
+			"/covers/hanamonogatari.avif",
+			"/covers/hanamonogatari.webp",
+			"/covers/hanamonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/hanamonogatari-0.5x.avif",
+			"/covers/hanamonogatari-0.5x.webp",
+			"/covers/hanamonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "top",
+		"hidden": false,
+		"color": "--bg-salmon",
+		"info": {
+			"date": "2014-08-16",
+			"arcs": [
+				["Demonio Suruga", ["Suruga Devil", "するがデビル"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/hanamonogatari/suruga-devil.avif",
+						"/gallery/hanamonogatari/suruga-devil.webp",
+						"/gallery/hanamonogatari/suruga-devil.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/hanamonogatari/ending.avif",
+						"/gallery/hanamonogatari/ending.webp",
+						"/gallery/hanamonogatari/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/hanamonogatari/CG01.avif",
+						"/gallery/hanamonogatari/CG01.webp",
+						"/gallery/hanamonogatari/CG01.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/hanamonogatari/CG02.avif",
+						"/gallery/hanamonogatari/CG02.webp",
+						"/gallery/hanamonogatari/CG02.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/hanamonogatari/CG03.avif",
+						"/gallery/hanamonogatari/CG03.webp",
+						"/gallery/hanamonogatari/CG03.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"Ahora que Araragi Koyomi y Senjougahara Hitagi se han graduado, pocas caras conocidas permanecen en la Secundaria Privada Naoetsu. Una de ellas es Kanbaru Suruga, portadora de la Pata del Mono. Cuando empieza a oír rumores sobre un ser misterioso conocido como el «Demonio», capaz de resolver mágicamente cualquier problema, enseguida piensa que hablan de ella y decide investigar.",
+				"Kanbaru descubre que el «Demonio» es en realidad Numachi Rouka, una exrival que ofrece consejos gratuitos a quienes acuden a ella tras verse obligada a dejar el básquetbol por una lesión en la pierna. Como coleccionista de desgracias, Numachi disfruta aliviando el estrés de sus clientes al darles falsas esperanzas. Aunque Kanbaru no ve que esté haciendo ningún daño real, reprende a Rouka por mentir y vuelve a casa aliviada al saber que ella no es el origen de los rumores. Pero a la mañana siguiente, al descubrir que su mano izquierda ha vuelto a su forma original, se da cuenta de que tal vez sí tenga motivos para preocuparse."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/hanamonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/hanamonogatari.avif",
+						"/covers/lns/hanamonogatari.webp",
+						"/covers/lns/hanamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/hanamonogatari-0.5x.avif",
+						"/covers/lns/hanamonogatari-0.5x.webp",
+						"/covers/lns/hanamonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Dios Rouka",
+					"when": "Después",
+					"pictures": [
+						"/covers/rouka-god-0.5x.avif",
+						"/covers/rouka-god-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Rouka God.pdf",
+							"fileName": "Rouka God.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Rouka God.pdf",
+							"fileName": "Dios Rouka.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Rouka God.pdf",
+							"fileName": "Rouka Deus.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Rouka God.pdf",
+							"fileName": "ろうかゴッド.pdf"
+						}
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "the-last-day-of-my-adolescence",
+					"type": "Opening"
+				},
+				{
+					"name": "shirushi",
+					"type": "Ending"
+				},
+				{
+					"name": "monogatari-series-second-season-original-soundtracks",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "otorimonogatari",
+		"title": "Otorimonogatari",
+		"text": "Second Season (Episodios 10 - 13)",
+		"kanji": [
+			["囮", "otori."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Second Season",
+		"pictures": [
+			"/covers/otorimonogatari.avif",
+			"/covers/otorimonogatari.webp",
+			"/covers/otorimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/otorimonogatari-0.5x.avif",
+			"/covers/otorimonogatari-0.5x.webp",
+			"/covers/otorimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 35%",
+		"hidden": false,
+		"color": "--bg-white",
+		"info": {
+			"date": "2013-09-21",
+			"arcs": [
+				["Medusa Nadeko", ["Nadeko Medusa", "なでこメドゥーサ"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/otorimonogatari/nadeko-medusa-2.avif",
+						"/gallery/otorimonogatari/nadeko-medusa-2.webp",
+						"/gallery/otorimonogatari/nadeko-medusa-2.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/ending.avif",
+						"/gallery/otorimonogatari/ending.webp",
+						"/gallery/otorimonogatari/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/CG01.avif",
+						"/gallery/otorimonogatari/CG01.webp",
+						"/gallery/otorimonogatari/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/CG02.avif",
+						"/gallery/otorimonogatari/CG02.webp",
+						"/gallery/otorimonogatari/CG02.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/CG03.avif",
+						"/gallery/otorimonogatari/CG03.webp",
+						"/gallery/otorimonogatari/CG03.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/CG04.avif",
+						"/gallery/otorimonogatari/CG04.webp",
+						"/gallery/otorimonogatari/CG04.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/CG05.avif",
+						"/gallery/otorimonogatari/CG05.webp",
+						"/gallery/otorimonogatari/CG05.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/otorimonogatari/CG06.avif",
+						"/gallery/otorimonogatari/CG06.webp",
+						"/gallery/otorimonogatari/CG06.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"«Eres una mentirosa, a pesar de que ya seas una diosa».",
+				"Sengoku Nadeko, la chica que fue una vez poseída por una serpiente sinuosa.",
+				"La joven que lleva tanto tiempo enamorada de Araragi Koyomi aparece ahora como un «ángel» de un blanco puro. ¿Pero cuáles son sus verdaderos colores...?",
+				"A medida que la «historia» se acerca a su capítulo final, se retuerce, se enreda y evoluciona."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/otorimonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/otorimonogatari.avif",
+						"/covers/lns/otorimonogatari.webp",
+						"/covers/lns/otorimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/otorimonogatari-0.5x.avif",
+						"/covers/lns/otorimonogatari-0.5x.webp",
+						"/covers/lns/otorimonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "mousou-express",
+					"type": "Opening"
+				},
+				{
+					"name": "sono-koe-wo-oboeteru",
+					"type": "Ending"
+				},
+				{
+					"name": "otorimonogatari-music-collection",
+					"type": "BSO"
+				},
+				{
+					"name": "monogatari-series-second-season-original-soundtracks",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "onimonogatari",
+		"title": "Onimonogatari",
+		"text": "Second Season (Episodios 14 - 17)",
+		"kanji": [
+			["鬼", "oni."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Second Season",
+		"pictures": [
+			"/covers/onimonogatari.avif",
+			"/covers/onimonogatari.webp",
+			"/covers/onimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/onimonogatari-0.5x.avif",
+			"/covers/onimonogatari-0.5x.webp",
+			"/covers/onimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "top",
+		"hidden": false,
+		"color": "--bg-orange",
+		"info": {
+			"date": "2013-10-26",
+			"arcs": [
+				["Tiempo Shinobu", ["Shinobu Time", "しのぶタイム"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/onimonogatari/shinobu-time-2.avif",
+						"/gallery/onimonogatari/shinobu-time-2.webp",
+						"/gallery/onimonogatari/shinobu-time-2.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/ending.avif",
+						"/gallery/onimonogatari/ending.webp",
+						"/gallery/onimonogatari/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/CG06.avif",
+						"/gallery/onimonogatari/CG06.webp",
+						"/gallery/onimonogatari/CG06.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/CG01.avif",
+						"/gallery/onimonogatari/CG01.webp",
+						"/gallery/onimonogatari/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/CG02.avif",
+						"/gallery/onimonogatari/CG02.webp",
+						"/gallery/onimonogatari/CG02.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/CG03.avif",
+						"/gallery/onimonogatari/CG03.webp",
+						"/gallery/onimonogatari/CG03.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/CG04.avif",
+						"/gallery/onimonogatari/CG04.webp",
+						"/gallery/onimonogatari/CG04.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/onimonogatari/CG05.avif",
+						"/gallery/onimonogatari/CG05.webp",
+						"/gallery/onimonogatari/CG05.png"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"Inmediatamente después de los eventos de Kabukimonogatari, Araragi y Hachikuji comienzan a tener encontronazos con un vacío casi indescriptible, el cual parece perseguirlos por razones que aún no logran determinar. La respuesta a este misterio, y la solución a su aprieto, yace en los recuerdos de Shinobu y la perspicacia de la literalmente sabelotodo Gaen Izuko."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/onimonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/onimonogatari.avif",
+						"/covers/lns/onimonogatari.webp",
+						"/covers/lns/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/onimonogatari-0.5x.avif",
+						"/covers/lns/onimonogatari-0.5x.webp",
+						"/covers/lns/onimonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "white-lies",
+					"type": "Opening"
+				},
+				{
+					"name": "sono-koe-wo-oboeteru",
+					"type": "Ending"
+				},
+				{
+					"name": "onimonogatari-music-collection",
+					"type": "BSO"
+				},
+				{
+					"name": "monogatari-series-second-season-original-soundtracks",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "koimonogatari",
+		"title": "Koimonogatari",
+		"text": "Second Season (Episodios 18 - 23)",
+		"kanji": [
+			["恋", "koi."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Second Season",
+		"pictures": [
+			"/covers/koimonogatari.avif",
+			"/covers/koimonogatari.webp",
+			"/covers/koimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/koimonogatari-0.5x.avif",
+			"/covers/koimonogatari-0.5x.webp",
+			"/covers/koimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "top",
+		"hidden": false,
+		"color": "--bg-purple",
+		"info": {
+			"date": "2013-11-23",
+			"arcs": [
+				["Final Hitagi", ["Hitagi End", "ひたぎエンド"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/koimonogatari/hitagi-end-2.avif",
+						"/gallery/koimonogatari/hitagi-end-2.webp",
+						"/gallery/koimonogatari/hitagi-end-2.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/koimonogatari/ending.avif",
+						"/gallery/koimonogatari/ending.webp",
+						"/gallery/koimonogatari/ending.jpeg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koimonogatari/ending-2.avif",
+						"/gallery/koimonogatari/ending-2.webp",
+						"/gallery/koimonogatari/ending-2.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koimonogatari/CG01.avif",
+						"/gallery/koimonogatari/CG01.webp",
+						"/gallery/koimonogatari/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koimonogatari/CG02.avif",
+						"/gallery/koimonogatari/CG02.webp",
+						"/gallery/koimonogatari/CG02.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/koimonogatari/CG03.avif",
+						"/gallery/koimonogatari/CG03.webp",
+						"/gallery/koimonogatari/CG03.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koimonogatari/CG04.avif",
+						"/gallery/koimonogatari/CG04.webp",
+						"/gallery/koimonogatari/CG04.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/koimonogatari/CG05.avif",
+						"/gallery/koimonogatari/CG05.webp",
+						"/gallery/koimonogatari/CG05.png"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"«¿No crees que un amor no correspondido que dura para siempre es más feliz que un amor mutuo?»",
+				"Senjougahara Hitagi hizo un trato con los dioses a cambio de su propia vida para poder proteger a Araragi Koyomi.",
+				"Mientras las festividades de invierno se acercan junto con el prometido «día destinado», ella eligió tomar la decisión más oscura y terrible..."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/koimonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/koimonogatari.avif",
+						"/covers/lns/koimonogatari.webp",
+						"/covers/lns/koimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/koimonogatari-0.5x.avif",
+						"/covers/lns/koimonogatari-0.5x.webp",
+						"/covers/lns/koimonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Salamandra Hitagi",
+					"when": "Después",
+					"pictures": [
+						"/covers/hitagi-salamander-0.5x.avif",
+						"/covers/hitagi-salamander-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Hitagi Salamander.pdf",
+							"fileName": "Hitagi Salamander.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Hitagi Salamander.pdf",
+							"fileName": "Salamandra Hitagi.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Hitagi Salamander.pdf",
+							"fileName": "Hitagi Salamandra.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Hitagi Salamander.pdf",
+							"fileName": "ひたぎサラマンダー.pdf"
+						}
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "fast-love",
+					"type": "Opening"
+				},
+				{
+					"name": "kogarashi-sentiment",
+					"type": "Opening"
+				},
+				{
+					"name": "snowdrop",
+					"type": "Ending"
+				},
+				{
+					"name": "monogatari-series-second-season-original-soundtracks",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "tsukimonogatari",
+		"title": "Tsukimonogatari",
+		"text": "(Episodios 1 - 4)",
+		"kanji": [
+			["憑", "tsuki."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Final Season",
+		"pictures": [
+			"/covers/tsukimonogatari.avif",
+			"/covers/tsukimonogatari.webp",
+			"/covers/tsukimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/tsukimonogatari-0.5x.avif",
+			"/covers/tsukimonogatari-0.5x.webp",
+			"/covers/tsukimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"hidden": false,
+		"color": "--bg-green",
+		"info": {
+			"date": "2014-12-31",
+			"arcs": [
+				["Muñeca Yotsugi", ["Yotsugi Doll", "よつぎドール"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/tsukimonogatari/yotsugi-doll-2.avif",
+						"/gallery/tsukimonogatari/yotsugi-doll-2.webp",
+						"/gallery/tsukimonogatari/yotsugi-doll-2.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/tsukimonogatari/ending.avif",
+						"/gallery/tsukimonogatari/ending.webp",
+						"/gallery/tsukimonogatari/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/tsukimonogatari/CG01.avif",
+						"/gallery/tsukimonogatari/CG01.webp",
+						"/gallery/tsukimonogatari/CG01.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/tsukimonogatari/CG08.avif",
+						"/gallery/tsukimonogatari/CG08.webp",
+						"/gallery/tsukimonogatari/CG08.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/tsukimonogatari/CG09.avif",
+						"/gallery/tsukimonogatari/CG09.webp",
+						"/gallery/tsukimonogatari/CG09.png"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"Un día de febrero, Araragi Koyomi estaba tomando un baño con su hermana menor, Tsukihi, en plena recta final de sus estudios para el examen de ingreso a la universidad. Esto ocurría poco después del incidente con Sengoku Nadeko, cuya situación había sido resuelta en las sombras por Kaiki Deishuu. Fue entonces cuando Koyomi notó en su cuerpo un cambio «que no podía pasarse por alto» y acudió en busca de consejo a Oshino Shinobu, lo que lo llevó a contactar con Kagenui Yozuru y Ononoki Yotsugi. ¿Acaso este drástico cambio es el castigo por todo lo que Koyomi ha hecho?"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/tsukimonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/tsukimonogatari.avif",
+						"/covers/lns/tsukimonogatari.webp",
+						"/covers/lns/tsukimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/tsukimonogatari-0.5x.avif",
+						"/covers/lns/tsukimonogatari-0.5x.webp",
+						"/covers/lns/tsukimonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Domo de nieve Yotsugi",
+					"when": "Después",
+					"pictures": [
+						"/covers/yotsugi-snow-dome-0.5x.avif",
+						"/covers/yotsugi-snow-dome-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Yotsugi Snow Dome.pdf",
+							"fileName": "Yotsugi Snow Dome.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Yotsugi Snow Dome.pdf",
+							"fileName": "Domo De Nieve Yotsugi.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Yotsugi Snow Dome.pdf",
+							"fileName": "Yotsugi Domo De Neve.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Yotsugi Snow Dome.pdf",
+							"fileName": "よつぎスノードーム.pdf"
+						}
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "orange-mint",
+					"type": "Opening"
+				},
+				{
+					"name": "border",
+					"type": "Ending"
+				},
+				{
+					"name": "tsukimonogatari-music-collection-ii",
+					"type": "BSO"
+				},
+				{
+					"name": "tsukimonogatari-original-soundtracks",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari-2",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "koyomimonogatari",
+		"title": "Koyomimonogatari",
+		"text": "(Episodios 1 - 12)",
+		"kanji": [
+			["暦", "koyomi."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Final Season",
+		"pictures": [
+			"/covers/koyomimonogatari.avif",
+			"/covers/koyomimonogatari.webp",
+			"/covers/koyomimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/koyomimonogatari-0.5x.avif",
+			"/covers/koyomimonogatari-0.5x.webp",
+			"/covers/koyomimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "top",
+		"hidden": false,
+		"color": "--bg-black",
+		"info": {
+			"date": "2016-01-10",
+			"arcs": [
+				["Piedra Koyomi", ["Koyomi Stone", "こよみストーン"]],
+				["Flor Koyomi", ["Koyomi Flower", "こよみフラワー"]],
+				["Arena Koyomi", ["Koyomi Sand", "こよみサンド"]],
+				["Agua Koyomi", ["Koyomi Water", "こよみウォーター"]],
+				["Viento Koyomi", ["Koyomi Wind", "こよみウインド"]],
+				["Árbol Koyomi", ["Koyomi Tree", "こよみツリー"]],
+				["Té Koyomi", ["Koyomi Tea", "こよみティー"]],
+				["Montaña Koyomi", ["Koyomi Mountain", "こよみマウンテン"]],
+				["Toroide Koyomi", ["Koyomi Torus", "こよみトーラス"]],
+				["Semilla Koyomi", ["Koyomi Seed", "こよみシード"]],
+				["Nada Koyomi", ["Koyomi Nothing", "こよみナッシング"]],
+				["Muerte Koyomi", ["Koyomi Dead", "こよみデッド"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/koyomimonogatari/box-art.avif",
+						"/gallery/koyomimonogatari/box-art.webp",
+						"/gallery/koyomimonogatari/box-art.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/ending.avif",
+						"/gallery/koyomimonogatari/ending.webp",
+						"/gallery/koyomimonogatari/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/ending-2.avif",
+						"/gallery/koyomimonogatari/ending-2.webp",
+						"/gallery/koyomimonogatari/ending-2.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG01.avif",
+						"/gallery/koyomimonogatari/CG01.webp",
+						"/gallery/koyomimonogatari/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG02.avif",
+						"/gallery/koyomimonogatari/CG02.webp",
+						"/gallery/koyomimonogatari/CG02.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG03.avif",
+						"/gallery/koyomimonogatari/CG03.webp",
+						"/gallery/koyomimonogatari/CG03.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG04.avif",
+						"/gallery/koyomimonogatari/CG04.webp",
+						"/gallery/koyomimonogatari/CG04.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG05.avif",
+						"/gallery/koyomimonogatari/CG05.webp",
+						"/gallery/koyomimonogatari/CG05.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG06.avif",
+						"/gallery/koyomimonogatari/CG06.webp",
+						"/gallery/koyomimonogatari/CG06.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG07.avif",
+						"/gallery/koyomimonogatari/CG07.webp",
+						"/gallery/koyomimonogatari/CG07.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG08.avif",
+						"/gallery/koyomimonogatari/CG08.webp",
+						"/gallery/koyomimonogatari/CG08.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG09.avif",
+						"/gallery/koyomimonogatari/CG09.webp",
+						"/gallery/koyomimonogatari/CG09.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG10.avif",
+						"/gallery/koyomimonogatari/CG10.webp",
+						"/gallery/koyomimonogatari/CG10.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG11.avif",
+						"/gallery/koyomimonogatari/CG11.webp",
+						"/gallery/koyomimonogatari/CG11.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG12.avif",
+						"/gallery/koyomimonogatari/CG12.webp",
+						"/gallery/koyomimonogatari/CG12.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG13.avif",
+						"/gallery/koyomimonogatari/CG13.webp",
+						"/gallery/koyomimonogatari/CG13.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG14.avif",
+						"/gallery/koyomimonogatari/CG14.webp",
+						"/gallery/koyomimonogatari/CG14.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG15.avif",
+						"/gallery/koyomimonogatari/CG15.webp",
+						"/gallery/koyomimonogatari/CG15.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG16.avif",
+						"/gallery/koyomimonogatari/CG16.webp",
+						"/gallery/koyomimonogatari/CG16.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG17.avif",
+						"/gallery/koyomimonogatari/CG17.webp",
+						"/gallery/koyomimonogatari/CG17.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG18.avif",
+						"/gallery/koyomimonogatari/CG18.webp",
+						"/gallery/koyomimonogatari/CG18.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG19.avif",
+						"/gallery/koyomimonogatari/CG19.webp",
+						"/gallery/koyomimonogatari/CG19.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG20.avif",
+						"/gallery/koyomimonogatari/CG20.webp",
+						"/gallery/koyomimonogatari/CG20.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG21.avif",
+						"/gallery/koyomimonogatari/CG21.webp",
+						"/gallery/koyomimonogatari/CG21.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG22.avif",
+						"/gallery/koyomimonogatari/CG22.webp",
+						"/gallery/koyomimonogatari/CG22.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG23.avif",
+						"/gallery/koyomimonogatari/CG23.webp",
+						"/gallery/koyomimonogatari/CG23.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG24.avif",
+						"/gallery/koyomimonogatari/CG24.webp",
+						"/gallery/koyomimonogatari/CG24.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG25.avif",
+						"/gallery/koyomimonogatari/CG25.webp",
+						"/gallery/koyomimonogatari/CG25.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG26.avif",
+						"/gallery/koyomimonogatari/CG26.webp",
+						"/gallery/koyomimonogatari/CG26.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/koyomimonogatari/CG27.avif",
+						"/gallery/koyomimonogatari/CG27.webp",
+						"/gallery/koyomimonogatari/CG27.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"«¿Estás en búsqueda de una historia de terror? Ojalá tuviera una para ti». Relatos inéditos... uno por mes durante todo un año... Situado entre los distintos arcos de Monogatari, este capítulo oculto sigue a Araragi Koyomi y los extraños sucesos en los que se ve envuelto a lo largo de doce meses. Con un episodio por mes, la trama se va revelando en esta serie de 12 cortos."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/koyomimonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/koyomimonogatari.avif",
+						"/covers/lns/koyomimonogatari.webp",
+						"/covers/lns/koyomimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/koyomimonogatari-0.5x.avif",
+						"/covers/lns/koyomimonogatari-0.5x.webp",
+						"/covers/lns/koyomimonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "whiz",
+					"type": "Ending"
+				},
+				{
+					"name": "utamonogatari-2",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "owarimonogatari-jou",
+		"title": "Owarimonogatari (parte 1)",
+		"text": "(Episodios 1 - 13)",
+		"kanji": [
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(上)", "jou."]
+		],
+		"season": "Final Season",
+		"pictures": [
+			"/covers/owarimonogatari-jou.avif",
+			"/covers/owarimonogatari-jou.webp",
+			"/covers/owarimonogatari-jou.jpg"
+		],
+		"picturesHalf": [
+			"/covers/owarimonogatari-jou-0.5x.avif",
+			"/covers/owarimonogatari-jou-0.5x.webp",
+			"/covers/owarimonogatari-jou-0.5x.jpg"
+		],
+		"responsivePosition": "top",
+		"hidden": false,
+		"color": "--bg-black",
+		"info": {
+			"date": "2015-10-03",
+			"arcs": [
+				["Fórmula Ougi", ["Ougi Formula", "おうぎフォーミュラ"]],
+				["Acertijo Sodachi", ["Sodachi Riddle", "そだちリドル"]],
+				["Pérdida Sodachi", ["Sodachi Lost", "そだちロスト"]],
+				["Armadura Shinobu", ["Shinobu Mail", "しのぶメイル"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/owarimonogatari-jou/sodachi-lost.avif",
+						"/gallery/owarimonogatari-jou/sodachi-lost.webp",
+						"/gallery/owarimonogatari-jou/sodachi-lost.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-jou/sodachi-riddle.avif",
+						"/gallery/owarimonogatari-jou/sodachi-riddle.webp",
+						"/gallery/owarimonogatari-jou/sodachi-riddle.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-jou/shinobu-mail.avif",
+						"/gallery/owarimonogatari-jou/shinobu-mail.webp",
+						"/gallery/owarimonogatari-jou/shinobu-mail.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-jou/shinobu-mail-2.avif",
+						"/gallery/owarimonogatari-jou/shinobu-mail-2.webp",
+						"/gallery/owarimonogatari-jou/shinobu-mail-2.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-jou/ending.avif",
+						"/gallery/owarimonogatari-jou/ending.webp",
+						"/gallery/owarimonogatari-jou/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-jou/CG01.avif",
+						"/gallery/owarimonogatari-jou/CG01.webp",
+						"/gallery/owarimonogatari-jou/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-jou/CG02.avif",
+						"/gallery/owarimonogatari-jou/CG02.webp",
+						"/gallery/owarimonogatari-jou/CG02.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"Durante el mes de octubre en su tercer año de secundaria, Kanbaru Suruga, su compañera de un curso inferior, le presenta a Araragi Koyomi a una estudiante trasnferida llamada Oshino Ougi. Ougi le dice a Koyomi que hay algo que desea consultarle y, al dibujar el mapa de la Secundaria Naoetsu, encuentra algo muy peculiar. Este hallazgo saca a la luz un relato que no estaba destinado a ser contado, cambiando por completo la vida escolar de Koyomi. Esta es la historia que revela «qué» define a Araragi Koyomi. Esta es la historia que muestra el «comienzo» de todo."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/owarimonogatari-jou",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/owarimonogatari-jou.avif",
+						"/covers/lns/owarimonogatari-jou.webp",
+						"/covers/lns/owarimonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-jou-0.5x.avif",
+						"/covers/lns/owarimonogatari-jou-0.5x.webp",
+						"/covers/lns/owarimonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/owarimonogatari-chuu",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/owarimonogatari-chuu.avif",
+						"/covers/lns/owarimonogatari-chuu.webp",
+						"/covers/lns/owarimonogatari-chuu.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-chuu-0.5x.avif",
+						"/covers/lns/owarimonogatari-chuu-0.5x.webp",
+						"/covers/lns/owarimonogatari-chuu-0.5x.jpg"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Estrés Yotsugi",
+					"when": "Después",
+					"pictures": [
+						"/covers/yotsugi-stress-0.5x.avif",
+						"/covers/yotsugi-stress-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Yotsugi Stress.pdf",
+							"fileName": "Yotsugi Stress.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Yotsugi Stress.pdf",
+							"fileName": "Estrés Yotsugi.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Yotsugi Stress.pdf",
+							"fileName": "Yotsugi Estresse.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Yotsugi Stress.pdf",
+							"fileName": "よつぎストレス.pdf"
+						}
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "decent-black",
+					"type": "Opening"
+				},
+				{
+					"name": "mathemagics",
+					"type": "Opening"
+				},
+				{
+					"name": "yuudachi-houteishiki",
+					"type": "Opening"
+				},
+				{
+					"name": "mein-schatz",
+					"type": "Opening"
+				},
+				{
+					"name": "sayonara-no-yukue",
+					"type": "Ending"
+				},
+				{
+					"name": "owarimonogatari-music-collection-ii",
+					"type": "BSO"
+				},
+				{
+					"name": "owarimonogatari-original-soundtracks",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari-2",
+					"type": "Canciones"
+				},
+				{
+					"name": "monogataremix",
+					"type": "Remix"
+				}
+			]
+		}
+	},
+	{
+		"name": "owarimonogatari-ge",
+		"title": "Owarimonogatari (parte 2)",
+		"text": "(Episodios 1 - 7)",
+		"kanji": [
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(下)", "ge."]
+		],
+		"season": "Final Season",
+		"pictures": [
+			"/covers/owarimonogatari-ge.avif",
+			"/covers/owarimonogatari-ge.webp",
+			"/covers/owarimonogatari-ge.jpg"
+		],
+		"picturesHalf": [
+			"/covers/owarimonogatari-ge-0.5x.avif",
+			"/covers/owarimonogatari-ge-0.5x.webp",
+			"/covers/owarimonogatari-ge-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"hidden": false,
+		"color": "--bg-purple",
+		"info": {
+			"date": "2017-08-12",
+			"arcs": [
+				["Infierno Mayoi", ["Mayoi Hell", "まよいヘル"]],
+				["Cita Hitagi", ["Hitagi Rendezvous", "ひたぎランデブー"]],
+				["Oscuridad Ougi", ["Ougi Dark", "おうぎダーク"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/owarimonogatari-ge/mayoi-hell.avif",
+						"/gallery/owarimonogatari-ge/mayoi-hell.webp",
+						"/gallery/owarimonogatari-ge/mayoi-hell.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-ge/ougi-dark.avif",
+						"/gallery/owarimonogatari-ge/ougi-dark.webp",
+						"/gallery/owarimonogatari-ge/ougi-dark.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-ge/ending.avif",
+						"/gallery/owarimonogatari-ge/ending.webp",
+						"/gallery/owarimonogatari-ge/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-ge/CG01.avif",
+						"/gallery/owarimonogatari-ge/CG01.webp",
+						"/gallery/owarimonogatari-ge/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-ge/CG02.avif",
+						"/gallery/owarimonogatari-ge/CG02.webp",
+						"/gallery/owarimonogatari-ge/CG02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-ge/CG03.avif",
+						"/gallery/owarimonogatari-ge/CG03.webp",
+						"/gallery/owarimonogatari-ge/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/owarimonogatari-ge/CG04.avif",
+						"/gallery/owarimonogatari-ge/CG04.webp",
+						"/gallery/owarimonogatari-ge/CG04.jpg"
+					],
+					"hidden"
+				]
+			],
+			"description": [
+				"Al despertar, Koyomi se encuentra con Hachikuji Mayoi frente a él, la chica que se suponía que ya había partido al más allá. Ella le explica que ambos están en Avichi, uno de los niveles más bajos del infierno. Mientras Koyomi se pregunta cómo sabía Mayoi el momento exacto en que moriría y a qué infierno caería, ella le revela que está allí para recogerlo por encargo de cierto individuo."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/owarimonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/owarimonogatari-ge.avif",
+						"/covers/lns/owarimonogatari-ge.webp",
+						"/covers/lns/owarimonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-ge-0.5x.avif",
+						"/covers/lns/owarimonogatari-ge-0.5x.webp",
+						"/covers/lns/owarimonogatari-ge-0.5x.jpg"
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "terminal-terminal",
+					"type": "Opening"
+				},
+				{
+					"name": "dreamy-date-drive",
+					"type": "Opening"
+				},
+				{
+					"name": "dark-cherry-mystery",
+					"type": "Opening"
+				},
+				{
+					"name": "shiori",
+					"type": "Ending"
+				},
+				{
+					"name": "owarimonogatari-original-soundtracks",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari-2",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "zoku-owarimonogatari",
+		"title": "Zoku Owarimonogatari",
+		"text": "(Episodios 1 - 6)",
+		"kanji": [
+			["続", "zoku."],
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Final Season",
+		"pictures": [
+			"/covers/zoku-owarimonogatari.avif",
+			"/covers/zoku-owarimonogatari.webp",
+			"/covers/zoku-owarimonogatari.png"
+		],
+		"picturesHalf": [
+			"/covers/zoku-owarimonogatari-0.5x.avif",
+			"/covers/zoku-owarimonogatari-0.5x.webp",
+			"/covers/zoku-owarimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "top",
+		"hidden": false,
+		"color": "--bg-white",
+		"info": {
+			"date": "2019-05-18",
+			"arcs": [
+				["Reverso Koyomi", ["Koyomi Reverse", "こよみリバース"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/zoku-owarimonogatari/koyomi-reverse-3.avif",
+						"/gallery/zoku-owarimonogatari/koyomi-reverse-3.webp",
+						"/gallery/zoku-owarimonogatari/koyomi-reverse-3.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/ending.avif",
+						"/gallery/zoku-owarimonogatari/ending.webp",
+						"/gallery/zoku-owarimonogatari/ending.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/CG01.avif",
+						"/gallery/zoku-owarimonogatari/CG01.webp",
+						"/gallery/zoku-owarimonogatari/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/CG02.avif",
+						"/gallery/zoku-owarimonogatari/CG02.webp",
+						"/gallery/zoku-owarimonogatari/CG02.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/CG03.avif",
+						"/gallery/zoku-owarimonogatari/CG03.webp",
+						"/gallery/zoku-owarimonogatari/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/CG06.avif",
+						"/gallery/zoku-owarimonogatari/CG06.webp",
+						"/gallery/zoku-owarimonogatari/CG06.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/CG04.avif",
+						"/gallery/zoku-owarimonogatari/CG04.webp",
+						"/gallery/zoku-owarimonogatari/CG04.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/zoku-owarimonogatari/CG05.avif",
+						"/gallery/zoku-owarimonogatari/CG05.webp",
+						"/gallery/zoku-owarimonogatari/CG05.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"La mañana siguiente a su graduación escolar, Koyomi está de pie frente al espejo sobre el lavamanos para lavarse la cara cuando, de repente, siente como si su reflejo empezara a devolverle la mirada. Instintivamente se acerca al cristal y, al tocarlo, sus dedos se hunden en él... Cuando vuelve en sí, Koyomi se encuentra en un mundo donde todo parece estar al revés."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/zoku-owarimonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/zoku-owarimonogatari.avif",
+						"/covers/lns/zoku-owarimonogatari.webp",
+						"/covers/lns/zoku-owarimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/zoku-owarimonogatari-0.5x.avif",
+						"/covers/lns/zoku-owarimonogatari-0.5x.webp",
+						"/covers/lns/zoku-owarimonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Y luego",
+					"when": "Después",
+					"pictures": [
+						"/covers/and-then-0.5x.avif",
+						"/covers/and-then-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/And Then.pdf",
+							"fileName": "And Then.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/And Then.pdf",
+							"fileName": "Y Luego.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/And Then.pdf",
+							"fileName": "E Depois.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/And Then.pdf",
+							"fileName": "そして.pdf"
+						}
+					]
+				},
+				{
+					"name": "Espejo Sodachi",
+					"when": "Después",
+					"pictures": [
+						"/covers/sodachi-mirror-0.5x.avif",
+						"/covers/sodachi-mirror-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Sodachi Mirror.pdf",
+							"fileName": "Sodachi Mirror.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Sodachi Mirror.pdf",
+							"fileName": "Espejo Sodachi.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Sodachi Mirror.pdf",
+							"fileName": "Sodachi Espelho.pdf"
+						}
+					]
+				},
+				{
+					"name": "Reflejo Ougi",
+					"when": "Después",
+					"pictures": [
+						"/covers/ougi-reflect-0.5x.avif",
+						"/covers/ougi-reflect-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Ougi Reflect.pdf",
+							"fileName": "Ougi Reflect.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Ougi Reflect.pdf",
+							"fileName": "Reflejo Ougi.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Ougi Reflect.pdf",
+							"fileName": "Ougi Reflexo.pdf"
+						}
+					]
+				},
+				{
+					"name": "Película de carretera Ougi",
+					"when": "Después",
+					"pictures": [
+						"/covers/ougi-road-movie-0.5x.avif",
+						"/covers/ougi-road-movie-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Ougi Road Movie.pdf",
+							"fileName": "Ougi Road Movie.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Ougi Road Movie.pdf",
+							"fileName": "Película De Carretera Ougi.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Ougi Road Movie.pdf",
+							"fileName": "Ougi Filme De Estrada.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Ougi Road Movie.pdf",
+							"fileName": "おうぎロードムービー.pdf"
+						}
+					]
+				},
+				{
+					"name": "Cepillado Karen",
+					"when": "Después",
+					"pictures": [
+						"/covers/karen-brushing-0.5x.avif",
+						"/covers/karen-brushing-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Karen Brushing.pdf",
+							"fileName": "Karen Brushing.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Karen Brushing.pdf",
+							"fileName": "Cepillado Karen.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Karen Brushing.pdf",
+							"fileName": "Karen Escovando.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Karen Brushing.pdf",
+							"fileName": "かれんブラッシング.pdf"
+						}
+					]
+				},
+				{
+					"name": "Cepillado Tsukihi",
+					"when": "Después",
+					"pictures": [
+						"/covers/tsukihi-brushing-0.5x.avif",
+						"/covers/tsukihi-brushing-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Tsukihi Brushing.pdf",
+							"fileName": "Tsukihi Brushing.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Tsukihi Brushing.pdf",
+							"fileName": "Cepillado Tsukihi.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Tsukihi Brushing.pdf",
+							"fileName": "Tsukihi Escovando.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Tsukihi Brushing.pdf",
+							"fileName": "つきひブラッシング.pdf"
+						}
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "07734",
+					"type": "Opening"
+				},
+				{
+					"name": "azure",
+					"type": "Ending"
+				},
+				{
+					"name": "zoku-owarimonogatari-music-collection-ii",
+					"type": "BSO"
+				},
+				{
+					"name": "zoku-owarimonogatari-original-soundtracks",
+					"type": "BSO"
+				},
+				{
+					"name": "utamonogatari-2",
+					"type": "Canciones"
+				}
+			]
+		}
+	},
+	{
+		"name": "orokamonogatari",
+		"title": "Orokamonogatari",
+		"text": "Off & Monster Season (Episode 1)",
+		"kanji": [
+			["愚", "oroka."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Off & Monster Season",
+		"pictures": [
+			"/covers/orokamonogatari.avif",
+			"/covers/orokamonogatari.webp",
+			"/covers/orokamonogatari.png"
+		],
+		"picturesHalf": [
+			"/covers/orokamonogatari-0.5x.avif",
+			"/covers/orokamonogatari-0.5x.webp",
+			"/covers/orokamonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "top",
+		"hidden": false,
+		"color": "--bg-green",
+		"info": {
+			"date": "2024-07-06",
+			"arcs": [
+				["Deshacer Tsukihi", ["Tsukihi Undo", "つきひアンドゥ"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/orokamonogatari/CG01.avif",
+						"/gallery/orokamonogatari/CG01.webp",
+						"/gallery/orokamonogatari/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/orokamonogatari/CG02.avif",
+						"/gallery/orokamonogatari/CG02.webp",
+						"/gallery/orokamonogatari/CG02.jpg"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"Tsukihi sorprende a Yotsugi moviéndose mientras esta fingía ser su muñeca, creyendo que no había nadie cerca. Para salir del paso, Yotsugi intenta convencerla de que en realidad es una chica mágica que ha poseído su muñeca para cumplir una misión importante."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/orokamonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/orokamonogatari.avif",
+						"/covers/lns/orokamonogatari.webp",
+						"/covers/lns/orokamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/orokamonogatari-0.5x.avif",
+						"/covers/lns/orokamonogatari-0.5x.webp",
+						"/covers/lns/orokamonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "icecream",
+					"type": "Opening"
+				},
+				{
+					"name": "undead",
+					"type": "Ending"
+				}
+			]
+		}
+	},
+	{
+		"name": "nademonogatari",
+		"title": "Nademonogatari",
+		"text": "Off & Monster Season (Episodios 2 - 6)",
+		"kanji": [
+			["撫", "nade."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Off & Monster Season",
+		"pictures": [
+			"/covers/nademonogatari.avif",
+			"/covers/nademonogatari.webp",
+			"/covers/nademonogatari.png"
+		],
+		"picturesHalf": [
+			"/covers/nademonogatari-0.5x.avif",
+			"/covers/nademonogatari-0.5x.webp",
+			"/covers/nademonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"hidden": false,
+		"color": "--bg-green",
+		"info": {
+			"date": "2024-07-13",
+			"arcs": [
+				["Dibujo Nadeko", ["Nadeko Draw", "なでこドロー"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/nademonogatari/nadeko-draw-2.avif",
+						"/gallery/nademonogatari/nadeko-draw-2.webp",
+						"/gallery/nademonogatari/nadeko-draw-2.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nademonogatari/CG01.avif",
+						"/gallery/nademonogatari/CG01.webp",
+						"/gallery/nademonogatari/CG01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nademonogatari/CG02.avif",
+						"/gallery/nademonogatari/CG02.webp",
+						"/gallery/nademonogatari/CG02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/nademonogatari/CG03.avif",
+						"/gallery/nademonogatari/CG03.webp",
+						"/gallery/nademonogatari/CG03.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/nademonogatari/CG04.avif",
+						"/gallery/nademonogatari/CG04.webp",
+						"/gallery/nademonogatari/CG04.jpg"
+					],
+					"hidden"
+				]
+			],
+			"description": [
+				"Sengoku Nadeko, la chica que una vez fue una diosa. Tras haber seguido sus sueños y haberse visto obligada a enfrentar la realidad, logró crear con éxito un álter ego tomando prestado el poder de la pequeña shikigami, Ononoki Yotsugi.",
+				"Sin embargo, las cuatro «Nadekos» escapan y ¿se dispersan...?",
+				"¡Estas excentricidades! ¡Excentricidades! ¡Excentricidades de estos tiempos modernos!",
+				"La juventud es cuando no puedes controlarte ni a ti mismo."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nademonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/nademonogatari.avif",
+						"/covers/lns/nademonogatari.webp",
+						"/covers/lns/nademonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nademonogatari-0.5x.avif",
+						"/covers/lns/nademonogatari-0.5x.webp",
+						"/covers/lns/nademonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Pasado Nadeko",
+					"when": "Antes",
+					"pictures": [
+						"/covers/nadeko-past-0.5x.avif",
+						"/covers/nadeko-past-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Nadeko Past.pdf",
+							"fileName": "Nadeko Past.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Nadeko Past.pdf",
+							"fileName": "Pasado Nadeko.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Nadeko Past.pdf",
+							"fileName": "Nadeko Passado.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Nadeko Past.pdf",
+							"fileName": "なでこパスト.pdf"
+						}
+					]
+				},
+				{
+					"name": "Futuro Shinobu",
+					"when": "Después",
+					"pictures": [
+						"/covers/shinobu-future-0.5x.avif",
+						"/covers/shinobu-future-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Shinobu Future.pdf",
+							"fileName": "Shinobu Future.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Shinobu Future.pdf",
+							"fileName": "Futuro Shinobu.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Shinobu Future.pdf",
+							"fileName": "Shinobu Futuro.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Shinobu Future.pdf",
+							"fileName": "しのぶフューチャー.pdf"
+						}
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "caramel-ribbon-cursetard",
+					"type": "Opening"
+				},
+				{
+					"name": "undead",
+					"type": "Ending"
+				},
+				{
+					"name": "nademonogatari-music-collection-ii",
+					"type": "BSO"
+				}
+			]
+		}
+	},
+	{
+		"name": "wazamonogatari-ova",
+		"title": "Wazamonogatari OVA",
+		"text": "Off & Monster Season (Episode 6.5)",
+		"kanji": [
+			["業", "waza."],
+			["物", "mono."],
+			["語", "gatari."],
+			["EX"]
+		],
+		"season": "Off & Monster Season",
+		"pictures": [
+			"/covers/wazamonogatari-ova.avif",
+			"/covers/wazamonogatari-ova.webp",
+			"/covers/wazamonogatari-ova.jpg"
+		],
+		"picturesHalf": [
+			"/covers/wazamonogatari-ova-0.5x.avif",
+			"/covers/wazamonogatari-ova-0.5x.webp",
+			"/covers/wazamonogatari-ova-0.5x.jpg"
+		],
+		"responsivePosition": "center 40%",
+		"hidden": false,
+		"color": "--bg-orange",
+		"info": {
+			"date": "2024-08-17",
+			"arcs": [
+				["Un cruel cuento de hadas: La princesa hermosa", ["A Cruel Fairy Tale: The Beautiful Princess", "残酷童話 うつくし姫"]]
+			],
+			"description": [
+				"Hace mucho tiempo, alrededor de 600 años atrás, tuvo lugar un antiguo relato. Es la historia de una hermosa joven que vivió en un país que ya no existe."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/wazamonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/wazamonogatari.avif",
+						"/covers/lns/wazamonogatari.webp",
+						"/covers/lns/wazamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/wazamonogatari-0.5x.avif",
+						"/covers/lns/wazamonogatari-0.5x.webp",
+						"/covers/lns/wazamonogatari-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "wazamonogatari",
+		"title": "Wazamonogatari",
+		"text": "Off & Monster Season (Episodios 7 - 8)",
+		"kanji": [
+			["業", "waza."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Off & Monster Season",
+		"pictures": [
+			"/covers/wazamonogatari.avif",
+			"/covers/wazamonogatari.webp",
+			"/covers/wazamonogatari.png"
+		],
+		"picturesHalf": [
+			"/covers/wazamonogatari-0.5x.avif",
+			"/covers/wazamonogatari-0.5x.webp",
+			"/covers/wazamonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 70%",
+		"hidden": false,
+		"color": "--bg-orange",
+		"info": {
+			"date": "2024-08-24",
+			"arcs": [
+				["Bon appétit Acerola", ["Acerola Bon Appétit", "あせろらボナペティ"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/wazamonogatari/CG01.avif",
+						"/gallery/wazamonogatari/CG01.webp",
+						"/gallery/wazamonogatari/CG01.png"
+					],
+					"visible"
+				]
+			],
+			"description": [
+				"«El nombre de Kiss-shot Acerola-orion Heart-under-blade siempre ha estado atado a mí...»",
+				"Hace unos 600 años, en este país hoy destruido vivió la llamada «Princesa Hermosa». Dueña de una belleza tal que cualquiera ofrecería su vida por ella, la muchacha convirtió cada paso de su camino en una montaña de cadáveres.",
+				"¡Estas son las legendarias excentricidades! ¡Excentricidades! ¡Excentricidades!",
+				"La juventud es cruel como un cuento de hadas."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/wazamonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/wazamonogatari.avif",
+						"/covers/lns/wazamonogatari.webp",
+						"/covers/lns/wazamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/wazamonogatari-0.5x.avif",
+						"/covers/lns/wazamonogatari-0.5x.webp",
+						"/covers/lns/wazamonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "suicidal-tendency",
+					"type": "Opening"
+				},
+				{
+					"name": "undead",
+					"type": "Ending"
+				}
+			]
+		}
+	},
+	{
+		"name": "shinobumonogatari",
+		"title": "Shinobumonogatari",
+		"text": "Off & Monster Season (Episodios 9 - 14)",
+		"kanji": [
+			["忍", "shinobu."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Off & Monster Season",
+		"pictures": [
+			"/covers/shinobumonogatari.avif",
+			"/covers/shinobumonogatari.webp",
+			"/covers/shinobumonogatari.png"
+		],
+		"picturesHalf": [
+			"/covers/shinobumonogatari-0.5x.avif",
+			"/covers/shinobumonogatari-0.5x.webp",
+			"/covers/shinobumonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 25%",
+		"hidden": false,
+		"color": "--bg-yellow",
+		"info": {
+			"date": "2024-09-14",
+			"arcs": [
+				["Dominada Shinobu", ["Shinobu Mastered", "しのぶマスタード"]]
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/shinobumonogatari/shinobu-mustard-2.avif",
+						"/gallery/shinobumonogatari/shinobu-mustard-2.webp",
+						"/gallery/shinobumonogatari/shinobu-mustard-2.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/shinobumonogatari/shinobu-mustard-3.avif",
+						"/gallery/shinobumonogatari/shinobu-mustard-3.webp",
+						"/gallery/shinobumonogatari/shinobu-mustard-3.png"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/shinobumonogatari/CG01.avif",
+						"/gallery/shinobumonogatari/CG01.webp",
+						"/gallery/shinobumonogatari/CG01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/shinobumonogatari/CG02.avif",
+						"/gallery/shinobumonogatari/CG02.webp",
+						"/gallery/shinobumonogatari/CG02.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/shinobumonogatari/CG03.avif",
+						"/gallery/shinobumonogatari/CG03.webp",
+						"/gallery/shinobumonogatari/CG03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/shinobumonogatari/CG04.avif",
+						"/gallery/shinobumonogatari/CG04.webp",
+						"/gallery/shinobumonogatari/CG04.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/shinobumonogatari/CG05.avif",
+						"/gallery/shinobumonogatari/CG05.webp",
+						"/gallery/shinobumonogatari/CG05.jpg"
+					],
+					"hidden"
+				]
+			],
+			"description": [
+				"«Tiene estilo salvar a una chica que no tiene nada que ver contigo de vez en cuando».",
+				"Las estudiantes de la Secundaria Naoetsu han empezado a desaparecer una tras otra. Cuando se descubren los cuerpos momificados de las jóvenes, aparece una marca muy distintiva en sus nucas...",
+				"¡Araragi Koyomi, ahora un estudiante de primer año en la universidad, se pone en marcha para rastrear al culpable!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/shinobumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/shinobumonogatari.avif",
+						"/covers/lns/shinobumonogatari.webp",
+						"/covers/lns/shinobumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/shinobumonogatari-0.5x.avif",
+						"/covers/lns/shinobumonogatari-0.5x.webp",
+						"/covers/lns/shinobumonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"shortStories": [
+				{
+					"name": "Bienvenida Mayoi",
+					"when": "Antes",
+					"pictures": [
+						"/covers/mayoi-welcome-0.5x.avif",
+						"/covers/mayoi-welcome-0.5x.webp"
+					],
+					"files": [
+						{
+							"language": "ENG",
+							"file": "/stories/Mayoi Welcome.pdf",
+							"fileName": "Mayoi Welcome.pdf"
+						},
+						{
+							"language": "SPA",
+							"file": "/stories/es/Mayoi Welcome.pdf",
+							"fileName": "Bienvenida Mayoi.pdf"
+						},
+						{
+							"language": "PT-BR",
+							"file": "/stories/pt-br/Mayoi Welcome.pdf",
+							"fileName": "Mayoi Bem-vindo.pdf"
+						},
+						{
+							"language": "JPN",
+							"file": "/stories/jp/Mayoi Welcome.pdf",
+							"fileName": "まよいウエルカム.pdf"
+						}
+					]
+				}
+			],
+			"music": [
+				{
+					"name": "banshi-no-theme",
+					"type": "Opening"
+				},
+				{
+					"name": "undead",
+					"type": "Ending"
+				},
+				{
+					"name": "shinobumonogatari-music-collection-ii",
+					"type": "BSO"
+				},
+				{
+					"name": "shinobumonogatari-atogatari",
+					"type": "Atogatari"
+				}
+			]
+		}
+	}
+]

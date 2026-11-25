@@ -83,6 +83,12 @@ header {
 		}
 
 		nav {
+			display: flex;
+			width: 100%;
+			justify-content: center;
+			position: relative;
+			align-items: center;
+			
 			.menuIcon {
 				display: flex;
 				align-items: center;
@@ -96,13 +102,13 @@ header {
 				outline: none;
 				background-color: transparent;
 				cursor: pointer;
-				font-family: 'Iwata Mincho Pro', serif;
+				font-family: 'Iwata Mincho Pro M', serif;
 
 				span {
 					font-size: 0.7em;
 				}
 
-				@media (width >= 750px) {
+				@media (width >= 870px) {
 					display: none;
 				}
 			}
@@ -126,8 +132,9 @@ header {
 						height: 100%;
 						display: flex;
 						align-items: center;
+						justify-content: flex-start;
 
-						@media (height < 750px) {
+						@media (height < 870px) {
 							align-items: flex-end;
 
 							ul {
@@ -159,6 +166,7 @@ header {
 						display: flex;
 						align-items: center;
 						gap: 0.5em;
+						z-index: 5;
 
 						@media (height < 870px) {
 							font-size: 1.7em;
@@ -231,7 +239,7 @@ header {
 				justify-content: center;
 				gap: 2em;
 
-				@media (width < 750px) {
+				@media (width < 870px) {
 					display: none;
 				}
 
@@ -243,6 +251,178 @@ header {
 						&.active {
 							font-weight: bold;
 							color: black;
+						}
+					}
+				}
+			}
+
+			.languageSelector {
+				position: absolute;
+				right: 0;
+			}
+
+			.languageIcon {
+				display: flex;
+				width: max-content;
+				padding: 0.8em;
+				font-size: 2em;
+				background-color: transparent;
+				color: white;
+				border: none;
+				outline: none;
+				cursor: pointer;
+
+				.texture {
+					position: absolute;
+					top: 0;
+					right: 0;
+					translate: 40% -35%;
+					rotate: -15deg;
+					z-index: -1;
+					pointer-events: none;
+
+					@media (width < 1500px) {
+						display: none;
+					}
+
+					.wrapper {
+						width: 5em;
+						height: 100%;
+						position: relative;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						scale: 1;
+				
+						img {
+							width: 100%;
+							height: 100%;
+							object-fit: contain;
+							display: flex;
+							scale: 1.1;
+							mix-blend-mode: multiply;
+						}
+
+						.duplicate {
+							position: absolute;
+							z-index: -1;
+							background-color: var(--bg-color);
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 100%;
+							scale: 1.1;
+							-webkit-mask: var(--current-img) no-repeat center / contain;
+							mask: var(--current-img) no-repeat center / contain;
+						}
+
+						.duplicate img {
+							position: absolute;
+							z-index: -2;
+							filter: drop-shadow(0px 2000px 0 var(--bg-color));
+							transform: translateY(calc(-2000px - 45.5%)) translateX(-90.9%);
+						}
+					}
+				}
+			}
+
+			.lmenu {
+				position: fixed;
+				top: 0;
+				right: 0;
+				z-index: -2;
+
+				.menuWrapper {
+					width: 100%;
+					height: 100%;
+					position: relative;
+					display: flex;
+
+					nav {
+						margin-top: 5em;
+						padding: 2em;
+						height: 100%;
+						display: flex;
+						align-items: center;
+
+						@media (height < 870px) {
+							align-items: flex-end;
+
+							ul {
+								font-size: 1.2em !important;
+							}
+						}
+						
+						ul {
+							display: flex;
+							flex-direction: column;
+							align-items: flex-start;
+							font-size: 1.5em;
+							gap: 1em;
+							text-align: right;
+							color: white;
+
+							li {
+								&.active a {
+									color: black;
+								}
+
+								a {
+									padding: 0.5em;
+								}
+							}
+						}
+					}
+
+					.menuBackground {
+						position: absolute;
+						z-index: -1;
+						top: 0;
+						right: 0;
+						width: 100%;
+						height: auto;
+						pointer-events: none;
+						rotate: -90deg;
+						translate: 20% 80%;
+						scale: 1.5 -1.5;
+				
+						.backgroundWrapper {
+							width: 30em;
+							height: 100%;
+							position: relative;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							scale: 1;
+					
+							img {
+								width: 100%;
+								height: 100%;
+								object-fit: contain;
+								display: flex;
+								scale: 1.1;
+								mix-blend-mode: multiply;
+							}
+
+							.duplicate {
+								position: absolute;
+								z-index: -1;
+								background-color: var(--bg-color);
+								top: 0;
+								left: 0;
+								width: 100%;
+								height: 100%;
+								scale: 1.1;
+								-webkit-mask: var(--current-img) no-repeat center / contain;
+								mask: var(--current-img) no-repeat center / contain;
+							}
+
+							.duplicate img {
+								position: absolute;
+								z-index: -2;
+								filter: drop-shadow(0px 2000px 0 var(--bg-color));
+								transform: translateY(calc(-2000px - 45.5%)) translateX(-90.9%);
+							}
 						}
 					}
 				}

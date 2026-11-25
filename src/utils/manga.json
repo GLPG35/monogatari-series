@@ -38,7 +38,7 @@
 			"description": [
 				"Senjougahara Hitagi—the girl Araragi Koyomi caught one day. That's right, her body had... no weight at all.",
 				"After an encounter with a certain \"crab\", her weight had been completely stripped away. Oddities have been there from the very beginning. Always. Everywhere.",
-				"Nisioisin (The Memorandum of Kyouko Okitegami) × Oh! great (Air Gear) present a brand-new take on oddities! Oddities! Oddities! A new \"story\" begins right now!"
+				"Nisioisin (The Memorandum of Okitegami Kyouko) × Oh! great (Air Gear) present a brand-new take on oddities! Oddities! Oddities! A new \"story\" begins right now!"
 			],
 			"alternatives": [
 				{
@@ -51,7 +51,22 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-jou-0.5x.avif",
-						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -192,8 +207,8 @@
 				"012"
 			],
 			"description": [
-				"\"I'm just here to act as your guide\".",
-				"The one Araragi Koyomi caught was Senjougahara Hitagi—the \"girl whose weight was stolen\".",
+				"\"I'm just here to act as your guide.\"",
+				"The one Araragi Koyomi caught was Senjougahara Hitagi—the \"girl whose weight was stolen.\"",
 				"She must save herself, so she doesn't lose her way trying to find her true feelings...",
 				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! Youth is a \"story\" you can only experience once!"
 			],
@@ -208,7 +223,22 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-jou-0.5x.avif",
-						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -241,7 +271,7 @@
 					[
 						"/gallery/manga/02/04.avif",
 						"/gallery/manga/02/04.webp",
-						"/gallery/manga/02/04.png"
+						"https://imgbasket.com/i/cWgEDw_4nsm_5SI0ZJpMlw.png"
 					],
 					"visible"
 				],
@@ -314,7 +344,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-jou-0.5x.avif",
-						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
 					]
 				},
 				{
@@ -327,7 +358,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -411,7 +443,7 @@
 			],
 			"description": [
 				"\"I LOVE YOU\", \"Senjougahara fascination\"",
-				"Having accepted Hitagi's feelings and successfully resolved Mayoi Hachikuji's case, Araragi Koyomi felt like everything was finally moving forward smoothly. That is, until his body was completely blown open by a mysterious raincoat-clad figure who appeared out of nowhere...!",
+				"Having accepted Hitagi's feelings and successfully resolved Hachikuji Mayoi's case, Araragi Koyomi felt like everything was finally moving forward smoothly. That is, until his body was completely blown open by a mysterious raincoat-clad figure who appeared out of nowhere...!",
 				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! A \"story\" that wanted nothing more than to hear you call its name!"
 			],
 			"alternatives": [
@@ -425,7 +457,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-jou-0.5x.avif",
-						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
 					]
 				},
 				{
@@ -438,7 +471,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -536,7 +570,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-jou-0.5x.avif",
-						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
 					]
 				},
 				{
@@ -549,7 +584,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -634,7 +670,7 @@
 			],
 			"description": [
 				"Araragi Koyomi is forced to face the stark, undeniable reality of how different his world is from Kanbaru Suruga's. Left thoroughly agonizing over his own naivety, Araragi is suddenly ambushed by Kanbaru's raw, unfiltered \"true feelings\"—exposed like a venomous curse...",
-				"\"I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you\"",
+				"\"I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you I hate you!\"",
 				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! Youth is a hardcore, rock-and-roll \"story\"!"
 			],
 			"alternatives": [
@@ -648,7 +684,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-jou-0.5x.avif",
-						"/covers/lns/bakemonogatari-jou-0.5x.webp"
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
 					]
 				},
 				{
@@ -661,7 +698,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-ge-0.5x.avif",
-						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -674,7 +712,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -707,7 +746,7 @@
 					[
 						"/gallery/manga/06/04.avif",
 						"/gallery/manga/06/04.webp",
-						"/gallery/manga/06/04.png"
+						"https://imgbasket.com/i/mLI3pnWYRBedL5M4WjAU2w.png"
 					],
 					"visible"
 				]
@@ -771,7 +810,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-ge-0.5x.avif",
-						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -784,7 +824,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -869,7 +910,7 @@
 			],
 			"description": [
 				"There weren't one, but two \"snakes\" coiled around Sengoku Nadeko's body. Can Araragi Koyomi save her as her life is suddenly pushed to the absolute brink? And now, the tale surrounding Araragi's very first \"wound\" is finally about to be unveiled...",
-				"\"I suppose I must speak of it. Of the day my personal hell began\"",
+				"\"I suppose I must speak of it. Of the day my personal hell began.\"",
 				"Nisioisin × Oh! great present a brand-new take on oddities! Oddities! Oddities! A \"story\" of begging to live, even if you have to crawl!"
 			],
 			"alternatives": [
@@ -883,7 +924,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-ge-0.5x.avif",
-						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -896,7 +938,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kizumonogatari-0.5x.avif",
-						"/covers/lns/kizumonogatari-0.5x.webp"
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -909,7 +952,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -922,7 +966,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-I-0.5x.avif",
-						"/covers/kizumonogatari-I-0.5x.webp"
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
 					]
 				},
 				{
@@ -935,7 +980,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-II-0.5x.avif",
-						"/covers/kizumonogatari-II-0.5x.webp"
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
 					]
 				},
 				{
@@ -948,7 +994,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-III-0.5x.avif",
-						"/covers/kizumonogatari-III-0.5x.webp"
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
 					]
 				}
 			],
@@ -1045,7 +1092,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kizumonogatari-0.5x.avif",
-						"/covers/lns/kizumonogatari-0.5x.webp"
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -1058,7 +1106,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-I-0.5x.avif",
-						"/covers/kizumonogatari-I-0.5x.webp"
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
 					]
 				},
 				{
@@ -1071,7 +1120,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-II-0.5x.avif",
-						"/covers/kizumonogatari-II-0.5x.webp"
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
 					]
 				},
 				{
@@ -1084,7 +1134,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-III-0.5x.avif",
-						"/covers/kizumonogatari-III-0.5x.webp"
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
 					]
 				}
 			],
@@ -1181,7 +1232,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kizumonogatari-0.5x.avif",
-						"/covers/lns/kizumonogatari-0.5x.webp"
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -1194,7 +1246,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-I-0.5x.avif",
-						"/covers/kizumonogatari-I-0.5x.webp"
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
 					]
 				},
 				{
@@ -1207,7 +1260,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-II-0.5x.avif",
-						"/covers/kizumonogatari-II-0.5x.webp"
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
 					]
 				},
 				{
@@ -1220,7 +1274,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-III-0.5x.avif",
-						"/covers/kizumonogatari-III-0.5x.webp"
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
 					]
 				}
 			],
@@ -1317,7 +1372,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kizumonogatari-0.5x.avif",
-						"/covers/lns/kizumonogatari-0.5x.webp"
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -1330,7 +1386,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-I-0.5x.avif",
-						"/covers/kizumonogatari-I-0.5x.webp"
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
 					]
 				},
 				{
@@ -1343,7 +1400,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-II-0.5x.avif",
-						"/covers/kizumonogatari-II-0.5x.webp"
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
 					]
 				},
 				{
@@ -1356,7 +1414,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-III-0.5x.avif",
-						"/covers/kizumonogatari-III-0.5x.webp"
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
 					]
 				}
 			],
@@ -1453,7 +1512,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kizumonogatari-0.5x.avif",
-						"/covers/lns/kizumonogatari-0.5x.webp"
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -1466,7 +1526,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-I-0.5x.avif",
-						"/covers/kizumonogatari-I-0.5x.webp"
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
 					]
 				},
 				{
@@ -1479,7 +1540,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-II-0.5x.avif",
-						"/covers/kizumonogatari-II-0.5x.webp"
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
 					]
 				},
 				{
@@ -1492,7 +1554,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-III-0.5x.avif",
-						"/covers/kizumonogatari-III-0.5x.webp"
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
 					]
 				}
 			],
@@ -1733,7 +1796,22 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kizumonogatari-0.5x.avif",
-						"/covers/lns/kizumonogatari-0.5x.webp"
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/onimonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/onimonogatari.avif",
+						"/covers/lns/onimonogatari.webp",
+						"/covers/lns/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/onimonogatari-0.5x.avif",
+						"/covers/lns/onimonogatari-0.5x.webp",
+						"/covers/lns/onimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -1746,7 +1824,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-I-0.5x.avif",
-						"/covers/kizumonogatari-I-0.5x.webp"
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
 					]
 				},
 				{
@@ -1759,7 +1838,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-II-0.5x.avif",
-						"/covers/kizumonogatari-II-0.5x.webp"
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
 					]
 				},
 				{
@@ -1772,7 +1852,22 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-III-0.5x.avif",
-						"/covers/kizumonogatari-III-0.5x.webp"
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/onimonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/onimonogatari.avif",
+						"/covers/onimonogatari.webp",
+						"/covers/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/onimonogatari-0.5x.avif",
+						"/covers/onimonogatari-0.5x.webp",
+						"/covers/onimonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -1871,7 +1966,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kizumonogatari-0.5x.avif",
-						"/covers/lns/kizumonogatari-0.5x.webp"
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -1884,7 +1980,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/onimonogatari-0.5x.avif",
-						"/covers/lns/onimonogatari-0.5x.webp"
+						"/covers/lns/onimonogatari-0.5x.webp",
+						"/covers/lns/onimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -1897,7 +1994,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-I-0.5x.avif",
-						"/covers/kizumonogatari-I-0.5x.webp"
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
 					]
 				},
 				{
@@ -1910,7 +2008,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-II-0.5x.avif",
-						"/covers/kizumonogatari-II-0.5x.webp"
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
 					]
 				},
 				{
@@ -1923,7 +2022,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-III-0.5x.avif",
-						"/covers/kizumonogatari-III-0.5x.webp"
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
 					]
 				},
 				{
@@ -1936,7 +2036,8 @@
 					],
 					"picturesHalf": [
 						"/covers/onimonogatari-0.5x.avif",
-						"/covers/onimonogatari-0.5x.webp"
+						"/covers/onimonogatari-0.5x.webp",
+						"/covers/onimonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -2035,7 +2136,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/kizumonogatari-0.5x.avif",
-						"/covers/lns/kizumonogatari-0.5x.webp"
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -2048,7 +2150,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-ge-0.5x.avif",
-						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -2061,7 +2164,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-I-0.5x.avif",
-						"/covers/kizumonogatari-I-0.5x.webp"
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
 					]
 				},
 				{
@@ -2074,7 +2178,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-II-0.5x.avif",
-						"/covers/kizumonogatari-II-0.5x.webp"
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
 					]
 				},
 				{
@@ -2087,7 +2192,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-III-0.5x.avif",
-						"/covers/kizumonogatari-III-0.5x.webp"
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
 					]
 				},
 				{
@@ -2100,7 +2206,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -2198,7 +2305,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-ge-0.5x.avif",
-						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -2211,7 +2319,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/nekomonogatari-kuro-0.5x.avif",
-						"/covers/lns/nekomonogatari-kuro-0.5x.webp"
+						"/covers/lns/nekomonogatari-kuro-0.5x.webp",
+						"/covers/lns/nekomonogatari-kuro-0.5x.jpg"
 					]
 				},
 				{
@@ -2224,7 +2333,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -2237,7 +2347,8 @@
 					],
 					"picturesHalf": [
 						"/covers/nekomonogatari-kuro-0.5x.avif",
-						"/covers/nekomonogatari-kuro-0.5x.webp"
+						"/covers/nekomonogatari-kuro-0.5x.webp",
+						"/covers/nekomonogatari-kuro-0.5x.jpg"
 					]
 				}
 			],
@@ -2343,7 +2454,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/nekomonogatari-kuro-0.5x.avif",
-						"/covers/lns/nekomonogatari-kuro-0.5x.webp"
+						"/covers/lns/nekomonogatari-kuro-0.5x.webp",
+						"/covers/lns/nekomonogatari-kuro-0.5x.jpg"
 					]
 				},
 				{
@@ -2356,7 +2468,22 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-ge-0.5x.avif",
-						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/onimonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/onimonogatari.avif",
+						"/covers/lns/onimonogatari.webp",
+						"/covers/lns/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/onimonogatari-0.5x.avif",
+						"/covers/lns/onimonogatari-0.5x.webp",
+						"/covers/lns/onimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -2369,7 +2496,8 @@
 					],
 					"picturesHalf": [
 						"/covers/nekomonogatari-kuro-0.5x.avif",
-						"/covers/nekomonogatari-kuro-0.5x.webp"
+						"/covers/nekomonogatari-kuro-0.5x.webp",
+						"/covers/nekomonogatari-kuro-0.5x.jpg"
 					]
 				},
 				{
@@ -2382,7 +2510,22 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/onimonogatari",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/onimonogatari.avif",
+						"/covers/onimonogatari.webp",
+						"/covers/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/onimonogatari-0.5x.avif",
+						"/covers/onimonogatari-0.5x.webp",
+						"/covers/onimonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -2480,7 +2623,22 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-ge-0.5x.avif",
-						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/nekomonogatari-shiro",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/nekomonogatari-shiro.avif",
+						"/covers/lns/nekomonogatari-shiro.webp",
+						"/covers/lns/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp",
+						"/covers/lns/nekomonogatari-shiro-0.5x.jpg"
 					]
 				},
 				{
@@ -2493,7 +2651,22 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-shiro",
+					"text": "Alternative",
+					"pictures": [
+						"/covers/nekomonogatari-shiro.avif",
+						"/covers/nekomonogatari-shiro.webp",
+						"/covers/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-shiro-0.5x.avif",
+						"/covers/nekomonogatari-shiro-0.5x.webp",
+						"/covers/nekomonogatari-shiro-0.5x.jpg"
 					]
 				}
 			],
@@ -2591,7 +2764,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-ge-0.5x.avif",
-						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -2604,7 +2778,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
-						"/covers/lns/nekomonogatari-shiro-0.5x.webp"
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp",
+						"/covers/lns/nekomonogatari-shiro-0.5x.jpg"
 					]
 				},
 				{
@@ -2617,7 +2792,22 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/owarimonogatari-chuu-0.5x.avif",
-						"/covers/lns/owarimonogatari-chuu-0.5x.webp"
+						"/covers/lns/owarimonogatari-chuu-0.5x.webp",
+						"/covers/lns/owarimonogatari-chuu-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/wazamonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/wazamonogatari.avif",
+						"/covers/lns/wazamonogatari.webp",
+						"/covers/lns/wazamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/wazamonogatari-0.5x.avif",
+						"/covers/lns/wazamonogatari-0.5x.webp",
+						"/covers/lns/wazamonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -2630,7 +2820,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -2643,7 +2834,8 @@
 					],
 					"picturesHalf": [
 						"/covers/nekomonogatari-shiro-0.5x.avif",
-						"/covers/nekomonogatari-shiro-0.5x.webp"
+						"/covers/nekomonogatari-shiro-0.5x.webp",
+						"/covers/nekomonogatari-shiro-0.5x.jpg"
 					]
 				},
 				{
@@ -2656,7 +2848,8 @@
 					],
 					"picturesHalf": [
 						"/covers/owarimonogatari-jou-0.5x.avif",
-						"/covers/owarimonogatari-jou-0.5x.webp"
+						"/covers/owarimonogatari-jou-0.5x.webp",
+						"/covers/owarimonogatari-jou-0.5x.jpg"
 					]
 				}
 			],
@@ -2754,7 +2947,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/owarimonogatari-chuu-0.5x.avif",
-						"/covers/lns/owarimonogatari-chuu-0.5x.webp"
+						"/covers/lns/owarimonogatari-chuu-0.5x.webp",
+						"/covers/lns/owarimonogatari-chuu-0.5x.jpg"
 					]
 				},
 				{
@@ -2767,7 +2961,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
-						"/covers/lns/nekomonogatari-shiro-0.5x.webp"
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp",
+						"/covers/lns/nekomonogatari-shiro-0.5x.jpg"
 					]
 				},
 				{
@@ -2780,7 +2975,8 @@
 					],
 					"picturesHalf": [
 						"/covers/owarimonogatari-jou-0.5x.avif",
-						"/covers/owarimonogatari-jou-0.5x.webp"
+						"/covers/owarimonogatari-jou-0.5x.webp",
+						"/covers/owarimonogatari-jou-0.5x.jpg"
 					]
 				},
 				{
@@ -2793,7 +2989,8 @@
 					],
 					"picturesHalf": [
 						"/covers/nekomonogatari-shiro-0.5x.avif",
-						"/covers/nekomonogatari-shiro-0.5x.webp"
+						"/covers/nekomonogatari-shiro-0.5x.webp",
+						"/covers/nekomonogatari-shiro-0.5x.jpg"
 					]
 				}
 			],
@@ -2891,7 +3088,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
-						"/covers/lns/nekomonogatari-shiro-0.5x.webp"
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp",
+						"/covers/lns/nekomonogatari-shiro-0.5x.jpg"
 					]
 				},
 				{
@@ -2904,7 +3102,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-ge-0.5x.avif",
-						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -2917,7 +3116,8 @@
 					],
 					"picturesHalf": [
 						"/covers/nekomonogatari-shiro-0.5x.avif",
-						"/covers/nekomonogatari-shiro-0.5x.webp"
+						"/covers/nekomonogatari-shiro-0.5x.webp",
+						"/covers/nekomonogatari-shiro-0.5x.jpg"
 					]
 				},
 				{
@@ -2930,7 +3130,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				}
 			],
@@ -3029,7 +3230,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/bakemonogatari-ge-0.5x.avif",
-						"/covers/lns/bakemonogatari-ge-0.5x.webp"
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -3042,7 +3244,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/onimonogatari-0.5x.avif",
-						"/covers/lns/onimonogatari-0.5x.webp"
+						"/covers/lns/onimonogatari-0.5x.webp",
+						"/covers/lns/onimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -3055,7 +3258,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/nisemonogatari-ge-0.5x.avif",
-						"/covers/lns/nisemonogatari-ge-0.5x.webp"
+						"/covers/lns/nisemonogatari-ge-0.5x.webp",
+						"/covers/lns/nisemonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -3068,7 +3272,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/otorimonogatari-0.5x.avif",
-						"/covers/lns/otorimonogatari-0.5x.webp"
+						"/covers/lns/otorimonogatari-0.5x.webp",
+						"/covers/lns/otorimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -3081,7 +3286,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/owarimonogatari-ge-0.5x.avif",
-						"/covers/lns/owarimonogatari-ge-0.5x.webp"
+						"/covers/lns/owarimonogatari-ge-0.5x.webp",
+						"/covers/lns/owarimonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -3094,7 +3300,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -3107,7 +3314,8 @@
 					],
 					"picturesHalf": [
 						"/covers/onimonogatari-0.5x.avif",
-						"/covers/onimonogatari-0.5x.webp"
+						"/covers/onimonogatari-0.5x.webp",
+						"/covers/onimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -3120,7 +3328,8 @@
 					],
 					"picturesHalf": [
 						"/covers/nisemonogatari-0.5x.avif",
-						"/covers/nisemonogatari-0.5x.webp"
+						"/covers/nisemonogatari-0.5x.webp",
+						"/covers/nisemonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -3133,7 +3342,8 @@
 					],
 					"picturesHalf": [
 						"/covers/otorimonogatari-0.5x.avif",
-						"/covers/otorimonogatari-0.5x.webp"
+						"/covers/otorimonogatari-0.5x.webp",
+						"/covers/otorimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -3146,7 +3356,8 @@
 					],
 					"picturesHalf": [
 						"/covers/owarimonogatari-ge-0.5x.avif",
-						"/covers/owarimonogatari-ge-0.5x.webp"
+						"/covers/owarimonogatari-ge-0.5x.webp",
+						"/covers/owarimonogatari-ge-0.5x.jpg"
 					]
 				}
 			],

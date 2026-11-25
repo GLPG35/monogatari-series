@@ -1,0 +1,112 @@
+---
+import { getLangFromUrl, useTranslatedPath } from '../../../i18n/utils';
+import Layout from '../../../layouts/Layout.astro'
+import './styles.scss'
+
+const currentLanguage = getLangFromUrl(Astro.url)
+const translatePath = useTranslatedPath(currentLanguage)
+---
+
+<html lang="en" style="--bg-color: var(--bg-purple)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - Descargas</title>
+		<meta name="description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series - Descargas" />
+		<meta property="og:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatariseri.es/banners/anime-banner.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series - Descargas" />
+		<meta property="twitter:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="twitter:image" content="https://monogatariseri.es/banners/anime-banner.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="info">
+					<div class="subsection">
+						<h2>Descargas</h2>
+						<p>Aquí encontrarás enlaces de descarga para cada sección de la Monogatari Series.</p>
+						<p>Esta sección se actualizará con frecuencia para mantenerlos al día con los útlimos lanzamientos.</p>
+					</div>
+					<div class="sections">
+						<a class="section" href={translatePath("/downloads/anime")}>
+							<div class="covers">
+								<div class="cover">
+									<picture>
+										<source srcset="/covers/monogatari-second-season-2.avif" type="image/avif" />
+										<source srcset="/covers/monogatari-second-season-2.webp" type="image/webp" />
+										<img src="/covers/monogatari-second-season-2.jpg" alt="" transition:name="anime-downloads" />
+									</picture>
+								</div>
+							</div>
+							<h4>Anime + extras</h4>
+						</a>
+						<a class="section" href={translatePath("/downloads/lns")}>
+							<div class="covers">
+								<div class="cover">
+									<picture>
+										<source srcset="/covers/first-season-box-set.avif" type="image/avif" />
+										<source srcset="/covers/first-season-box-set.webp" type="image/webp" />
+										<img src="/covers/first-season-box-set.png" alt="" transition:name="ln-downloads" />
+									</picture>
+								</div>
+							</div>
+							<h4>Novelas ligeras</h4>
+						</a>
+						<a class="section" href={translatePath("/downloads/stories")}>
+							<div class="covers">
+								<div class="cover">
+									<picture>
+										<source srcset="/covers/final-season-box-set.avif" type="image/avif" />
+										<source srcset="/covers/final-season-box-set.webp" type="image/webp" />
+										<img src="/covers/final-season-box-set.jpg" alt="" transition:name="short-story-downloads" />
+									</picture>
+								</div>
+							</div>
+							<h4>Historias cortas</h4>
+						</a>
+						<a class="section" href={translatePath("/downloads/manga")}>
+							<div class="covers">
+								<div class="cover">
+									<picture>
+										<source srcset="/covers/manga-cover.avif" type="image/avif" />
+										<source srcset="/covers/manga-cover.webp" type="image/webp" />
+										<img src="/covers/manga-cover.jpg" alt="" transition:name="manga-downloads" />
+									</picture>
+								</div>
+							</div>
+							<h4>Manga</h4>
+						</a>
+						<a class="section" href={translatePath("/downloads/music")}>
+							<div class="covers">
+								<div class="cover">
+									<picture>
+										<source srcset="/covers/music-cover-horizontal.avif" type="image/avif" media="(width < 1130px)" />
+										<source srcset="/covers/music-cover-horizontal.webp" type="image/avif" media="(width < 1130px)" />
+										<source srcset="/covers/music-cover-horizontal.png" type="image/png" media="(width < 1130px)" />
+										<source srcset="/covers/music-cover.avif" type="image/avif" />
+										<source srcset="/covers/music-cover.webp" type="image/webp" />
+										<img src="/covers/music-cover.png" alt="" transition:name="music-downloads" />
+									</picture>
+								</div>
+							</div>
+							<h4>Música</h4>
+						</a>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

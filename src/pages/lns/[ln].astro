@@ -67,7 +67,7 @@ const customTransition = {
 				<div class="summary">
 					<div class="cover">
 						<a href={pictures[2]} target="_blank">Full resolution</a>
-						<picture transition:name={`ln-cover-${ln}`} transition:animate={customTransition}>
+						<picture>
 							<source srcset={`/banners/lns/${name}.avif`} type="image/avif" media="(width < 1130px)" />
 							<source srcset={`/banners/lns/${name}.webp`} type="image/webp" media="(width < 1130px)" />
 							<source srcset={`/banners/lns/${name}.jpg`} type="image/jpeg" media="(width < 1130px)" />
@@ -75,7 +75,7 @@ const customTransition = {
 								const isLast = pictures.length === i + 1
 								const type = path.split('.').pop()
 
-								if (isLast) return <img src={path} alt="" />
+								if (isLast) return <img src={path} alt="" transition:name={`ln-cover-${ln}`} transition:animate={customTransition} />
 								
 								return <source srcset={path} type={`image/${type}`} />
 							})}

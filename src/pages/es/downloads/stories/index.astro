@@ -1,0 +1,85 @@
+---
+import ExtDownload from '../../../../components/ExtDownload'
+import { getLangFromUrl, useTranslations } from '../../../../i18n/utils';
+import Layout from '../../../../layouts/Layout.astro'
+import './styles.scss'
+
+const currentLang = getLangFromUrl(Astro.url)
+const t = useTranslations(currentLang)
+---
+
+<html lang="en" style="--bg-color: var(--bg-yellow)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - Descargas de las historias cortas</title>
+		<meta name="description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series - Descargas de las historias cortas" />
+		<meta property="og:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatariseri.es/banners/stories-downloads.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series - Descargas de las historias cortas" />
+		<meta property="twitter:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="twitter:image" content="https://monogatariseri.es/banners/stories-downloads.jpg" />
+	</head>
+	<body style={`--position: top`}>
+		<Layout>
+			<main>
+				<div class="section">
+					<div class="cover">
+						<a href="/covers/final-season-box-set.jpg" target="_blank">{t('fullResolution')}</a>
+						<picture>
+							<source srcset="/covers/final-season-box-set.avif" type="image/avif" />
+							<source srcset="/covers/final-season-box-set.webp" type="image/webp" />
+							<img src="/covers/final-season-box-set.jpg" alt="" transition:name="short-story-downloads">
+						</picture>
+					</div>
+					<div class="info">
+						<div class="subtitle">
+							短物語
+						</div>
+						<div class="title">
+							<h3>Historias cortas</h3>
+						</div>
+						<div class="links">
+							<h4>Links</h4>
+							<ul>
+								<span class="sub">Japonés</span>
+								<li>Mijikanamonogatari [EPUB] (JPN) <ExtDownload href='https://files.catbox.moe/b9ku33.epub' name='短物語.epub' client:idle>[Directa]</ExtDownload> <a href="https://file.garden/afE1MkDycVrE3Bhr/%E7%9F%AD%E7%89%A9%E8%AA%9E.epub" target="_blank">[Mirror]</a></li>
+								<li>Mijikanamonogatari [PDF] (JPN) <ExtDownload href='https://files.catbox.moe/y726ab.pdf' name='短物語.pdf' client:idle>[Directa]</ExtDownload> <a href="https://file.garden/afE1MkDycVrE3Bhr/%E7%9F%AD%E7%89%A9%E8%AA%9E.pdf" target="_blank">[Mirror]</a></li>
+								<li>Manga Short Stories 1, 5 - 22 [PDF] (JPN) <ExtDownload href='https://files.catbox.moe/3j80nd.zip' name='Manga Short Stories [PDF] (JPN).zip' client:idle>[Directa]</ExtDownload> <a href="https://file.garden/afE1MkDycVrE3Bhr/Manga%20Short%20Stories%20%5BPDF%5D%20(JPN).zip" target="_blank">[Mirror]</a></li>
+								<li>Mazemonogatari [EPUB] (JPN) <ExtDownload href='https://files.catbox.moe/mieo9k.epub' name='混物語.epub' client:idle>[Directa]</ExtDownload> <a href="https://file.garden/afE1MkDycVrE3Bhr/%E6%B7%B7%E7%89%A9%E8%AA%9E.epub" target="_blank">[Mirror]</a></li>
+								<span class="sub">Inglés</span>
+								<li>Mijikanamonogatari [EPUB] (ENG) <ExtDownload href='https://files.catbox.moe/ulx5ee.epub' name='MIJIKANAMONOGATARI_20250321.epub' client:idle>[Directa]</ExtDownload> <a href="https://drive.google.com/file/d/1jC-sfRaltT7KLf7H7kok8GJcCNqduBqs/view?usp=drive_link" target="_blank">[Drive]</a></li>
+								<li>Mijikanamonogatari [PDF] (ENG) <ExtDownload href="https://files.catbox.moe/7x1r4k.pdf" name="MIJIKANAMONOGATARI_20250321.pdf" client:idle>[Directa]</ExtDownload> <a href="https://file.garden/afE1MkDycVrE3Bhr/MIJIKANAMONOGATARI_20250321.pdf" target="_blank">[Mirror]</a></li>
+								<li>Mazemonogatari [EPUB] (ENG) <ExtDownload href='https://files.catbox.moe/l14zu7.epub' name='MAZEMONOGATARI_20250321.epub' client:idle>[Directa]</ExtDownload> <a href="https://file.garden/afE1MkDycVrE3Bhr/MAZEMONOGATARI_20250321.epub" target="_blank">[Mirror]</a></li>
+								<li>Mazemonogatari [PDF] (ENG) <ExtDownload href='https://files.catbox.moe/0z5k4o.pdf' name='MAZEMONOGATARI_20250321.pdf' client:idle>[Directa]</ExtDownload> <a href="https://file.garden/afE1MkDycVrE3Bhr/MAZEMONOGATARI_20250321.pdf" target="_blank">[Mirror]</a></li>
+								<span class="sub">Portugués (Brasil)</span>
+								<li>Mijikanamonogatari [PDF] (PT-BR) <ExtDownload href='https://files.catbox.moe/q0zjs6.pdf' name='AAA. Mijikanamonogatari - Conto de Anedotas (2024.12.12).pdf' client:idle>[Directa]</ExtDownload> <a href="https://file.garden/afE1MkDycVrE3Bhr/AAA.%20Mijikanamonogatari%20-%20Conto%20de%20Anedotas%20(2024.12.12).pdf" target="_blank">[Mirror]</a></li>
+								<li>Historias cortas del manga + Historias extra [PDF] (PT-BR) <ExtDownload href='https://files.catbox.moe/wrxk4a.pdf' name='BBB. Contos de Coleções (2024.12.12).pdf' client:idle>[Directa]</ExtDownload> <a href="https://file.garden/afE1MkDycVrE3Bhr/BBB.%20Contos%20de%20Cole%C3%A7%C3%B5es%20(2024.12.12).pdf" target="_blank">[Mirror]</a></li>
+								<li>Mazemonogatari [PDF] (PT-BR) <ExtDownload href='https://files.catbox.moe/qlfap8.pdf' name='CCC. Conto de Misturas - Mazemonogatari (2026.08.22).pdf' client:idle>[Directa]</ExtDownload> <a href="https://file.garden/afE1MkDycVrE3Bhr/CCC.%20Conto%20de%20Misturas%20-%20Mazemonogatari%20(2026.08.22).pdf" target="_blank">[Mirror]</a></li>
+								<li>Tsukimonogatari (León Tsubasa) [PDF] (PT-BR) <ExtDownload href='https://files.catbox.moe/3u2a8y.pdf' name='DDD. Conto de Períodos - Tsukimonogatari (2026.08.22).pdf' client:idle>[Directa]</ExtDownload> <a href="https://file.garden/afE1MkDycVrE3Bhr/DDD.%20Conto%20de%20Per%C3%ADodos%20-%20Tsukimonogatari%20(2026.08.22).pdf" target="_blank">[Mirror]</a></li>
+							</ul>
+						</div>
+						<div class="notes">
+							<h4>Notas</h4>
+							<p>La versión en inglés de Mijikanamonogatari contiene <em>prácticamente</em> todas las historias publicadas hasta Canción Yotsugi (2024), incluidas las historias cortas del manga.</p>
+							<p>En el caso de la edición en portugués, esta fue dividida en cuatro libros independientes.</p>
+							<p>Por su parte, <a href="https://lordsacar.wordpress.com/category/novelas-ligeras/" target="_blank">Monogatarianos TL</a>, publicará pronto una compilación de historias cortas en español.</p>
+						</div>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

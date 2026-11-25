@@ -1,0 +1,3419 @@
+[
+	{
+		"name": "bakemonogatari-01",
+		"title": "Bakemonogatari Volumen 1",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["1", "ichi."]
+		],
+		"pictures": [
+			"/covers/manga/01.avif",
+			"/covers/manga/01.webp",
+			"/covers/manga/01.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/01-alt.avif",
+			"/covers/manga/01-alt.webp",
+			"/covers/manga/01-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/01-0.5x.avif",
+			"/covers/manga/01-0.5x.webp",
+			"/covers/manga/01-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-purple",
+		"info": {
+			"date": "2018-06-15",
+			"arcs": [
+				["Cangrejo Hitagi", ["Hitagi Crab", "ひたぎクラブ"]]
+			],
+			"chapters": [
+				"001",
+				"002",
+				"003"
+			],
+			"description": [
+				"Senjougahara Hitagi, la chica que Araragi Koyomi atrapó aquel día. Así es, su cuerpo... no pesaba nada en absoluto.",
+				"Tras un encuentro con cierto «cangrejo», su peso le había sido arrebatado. Las excentricidades han estado ahí desde el comienzo. Siempre. En todos lados.",
+				"¡NisiOisiN (El Memorándum de Okitegami Kyouko) × Oh! great (Air Gear) presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una nueva «historia» comienza ahora mismo!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/01/01.avif",
+						"/gallery/manga/01/01.webp",
+						"/gallery/manga/01/01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/01/02.avif",
+						"/gallery/manga/01/02.webp",
+						"/gallery/manga/01/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/01/03.avif",
+						"/gallery/manga/01/03.webp",
+						"/gallery/manga/01/03.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/01/04.avif",
+						"/gallery/manga/01/04.webp",
+						"/gallery/manga/01/04.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/01/05.avif",
+						"/gallery/manga/01/05.webp",
+						"/gallery/manga/01/05.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/01/06.avif",
+						"/gallery/manga/01/06.webp",
+						"/gallery/manga/01/06.jpg"
+					],
+					"visible"
+				]
+			],
+			"cards": [
+				[
+					[
+						"/gallery/manga/01/cards/01.avif",
+						"/gallery/manga/01/cards/01.webp",
+						"/gallery/manga/01/cards/01.jpg"
+					],
+					[
+						"/gallery/manga/01/cards/01b.avif",
+						"/gallery/manga/01/cards/01b.webp",
+						"/gallery/manga/01/cards/01b.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/01/cards/02.avif",
+						"/gallery/manga/01/cards/02.webp",
+						"/gallery/manga/01/cards/02.jpg"
+					],
+					[
+						"/gallery/manga/01/cards/02b.avif",
+						"/gallery/manga/01/cards/02b.webp",
+						"/gallery/manga/01/cards/02b.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/01/cards/03.avif",
+						"/gallery/manga/01/cards/03.webp",
+						"/gallery/manga/01/cards/03.jpg"
+					],
+					[
+						"/gallery/manga/01/cards/03b.avif",
+						"/gallery/manga/01/cards/03b.webp",
+						"/gallery/manga/01/cards/03b.jpg"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-02",
+		"title": "Bakemonogatari Volumen 2",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["2", "ni."]
+		],
+		"pictures": [
+			"/covers/manga/02.avif",
+			"/covers/manga/02.webp",
+			"/covers/manga/02.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/02-alt.avif",
+			"/covers/manga/02-alt.webp",
+			"/covers/manga/02-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/02-0.5x.avif",
+			"/covers/manga/02-0.5x.webp",
+			"/covers/manga/02-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-blue",
+		"info": {
+			"date": "2018-08-17",
+			"arcs": [
+				["Cangrejo Hitagi", ["Hitagi Crab", "ひたぎクラブ"]],
+				["Maimai Mayoi", ["Mayoi Maimai", "まよいマイマイ"]]
+			],
+			"chapters": [
+				"004",
+				"005",
+				"006",
+				"007",
+				"008",
+				"009",
+				"010",
+				"011",
+				"012"
+			],
+			"description": [
+				"«Solo estoy aquí para actuar como tu guía».",
+				"A quien Araragi atrapó fue a Senjougahara Hitagi, la «chica cuyo peso le fue arrebatado».",
+				"Ella debe salvarse a sí misma para así no perder el rumbo intentando encontrar sus verdaderos sentimientos...",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡La juventud es una «historia» que solo puedes experimentar una vez!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/02/01.avif",
+						"/gallery/manga/02/01.webp",
+						"/gallery/manga/02/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/02/02.avif",
+						"/gallery/manga/02/02.webp",
+						"/gallery/manga/02/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/02/03.avif",
+						"/gallery/manga/02/03.webp",
+						"/gallery/manga/02/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/02/04.avif",
+						"/gallery/manga/02/04.webp",
+						"https://imgbasket.com/i/cWgEDw_4nsm_5SI0ZJpMlw.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/02/05.avif",
+						"/gallery/manga/02/05.webp",
+						"/gallery/manga/02/05.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-03",
+		"title": "Bakemonogatari Volumen 3",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["3", "san."]
+		],
+		"pictures": [
+			"/covers/manga/03.avif",
+			"/covers/manga/03.webp",
+			"/covers/manga/03.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/03-alt.avif",
+			"/covers/manga/03-alt.webp",
+			"/covers/manga/03-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/03-0.5x.avif",
+			"/covers/manga/03-0.5x.webp",
+			"/covers/manga/03-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-white",
+		"info": {
+			"date": "2018-11-16",
+			"arcs": [
+				["Maimai Mayoi", ["Mayoi Maimai", "まよいマイマイ"]]
+			],
+			"chapters": [
+				"013",
+				"014",
+				"015",
+				"016",
+				"017",
+				"018",
+				"019",
+				"020",
+				"021"
+			],
+			"description": [
+				"Hachikuji Mayoi. La niña de primaria con la que se cruzó Araragi era una niña perdida del «caracol», condenada a no llegar nunca a su destino.",
+				"«Llevarla de regreso a salvo... ese es mi deber». Antes de que sus recuerdos se desgasten y se borren por completo...",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una «historia» en la que los sentimientos resplandecen con fuerza!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/03/01.avif",
+						"/gallery/manga/03/01.webp",
+						"/gallery/manga/03/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/03/02.avif",
+						"/gallery/manga/03/02.webp",
+						"/gallery/manga/03/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/03/03.avif",
+						"/gallery/manga/03/03.webp",
+						"/gallery/manga/03/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/03/04.avif",
+						"/gallery/manga/03/04.webp",
+						"/gallery/manga/03/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-04",
+		"title": "Bakemonogatari Volumen 4",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["4", "yon."]
+		],
+		"pictures": [
+			"/covers/manga/04.avif",
+			"/covers/manga/04.webp",
+			"/covers/manga/04.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/04-alt.avif",
+			"/covers/manga/04-alt.webp",
+			"/covers/manga/04-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/04-0.5x.avif",
+			"/covers/manga/04-0.5x.webp",
+			"/covers/manga/04-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "2019-01-17",
+			"arcs": [
+				["Mono Suruga", ["Suruga Monkey", "するがモンキー"]]
+			],
+			"chapters": [
+				"022",
+				"023",
+				"024",
+				"025",
+				"026",
+				"027",
+				"028",
+				"029",
+				"030"
+			],
+			"description": [
+				"«I LOVE YOU», «Fascinación Senjougahara»",
+				"Habiendo aceptado los sentimientos de Hitagi y resuelto el caso de Hachikuji Mayoi, Araragi Koyomi finalmente sentía que todo marchaba sin problemas. ¡O al menos, hasta que sintió como una misteriosa figura envuelta en un impermeable, que apareció de la nada, hacía volar su cuerpo en pedazos!",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una «historia» que no deseaba nada más que oírte decir su nombre!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/04/01.avif",
+						"/gallery/manga/04/01.webp",
+						"/gallery/manga/04/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/04/02.avif",
+						"/gallery/manga/04/02.webp",
+						"/gallery/manga/04/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/04/03.avif",
+						"/gallery/manga/04/03.webp",
+						"/gallery/manga/04/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/04/04.avif",
+						"/gallery/manga/04/04.webp",
+						"/gallery/manga/04/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-05",
+		"title": "Bakemonogatari Volumen 5",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["5", "go."]
+		],
+		"pictures": [
+			"/covers/manga/05.avif",
+			"/covers/manga/05.webp",
+			"/covers/manga/05.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/05-alt.avif",
+			"/covers/manga/05-alt.webp",
+			"/covers/manga/05-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/05-0.5x.avif",
+			"/covers/manga/05-0.5x.webp",
+			"/covers/manga/05-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-orange",
+		"info": {
+			"date": "2019-04-17",
+			"arcs": [
+				["Mono Suruga", ["Suruga Monkey", "するがモンキー"]]
+			],
+			"chapters": [
+				"031",
+				"032",
+				"033",
+				"034",
+				"035",
+				"036",
+				"037",
+				"038",
+				"039",
+				"040"
+			],
+			"description": [
+				"Kanbaru Suruga es la superestrella absoluta de la escuela, alguien que vive en un mundo completamente diferente al de Araragi Koyomi. Aun así, por alguna razón, él se ve acosado sin cesar por ella. Mientras indaga en busca de una explicación, descubre la presencia de una excentricidad. ¿Pero cuál es el verdadero «deseo» que Kanbaru le confiesa cuando finalmente se enfrentan cara a cara...?",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una «historia» de deseos sin resolver y profundos arrepentimientos!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/05/01.avif",
+						"/gallery/manga/05/01.webp",
+						"/gallery/manga/05/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/05/02.avif",
+						"/gallery/manga/05/02.webp",
+						"/gallery/manga/05/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/05/03.avif",
+						"/gallery/manga/05/03.webp",
+						"/gallery/manga/05/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/05/04.avif",
+						"/gallery/manga/05/04.webp",
+						"/gallery/manga/05/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-06",
+		"title": "Bakemonogatari Volumen 6",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["6", "roku."]
+		],
+		"pictures": [
+			"/covers/manga/06.avif",
+			"/covers/manga/06.webp",
+			"/covers/manga/06.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/06-alt.avif",
+			"/covers/manga/06-alt.webp",
+			"/covers/manga/06-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/06-0.5x.avif",
+			"/covers/manga/06-0.5x.webp",
+			"/covers/manga/06-0.5x.jpg"
+		],
+		"responsivePosition": "center 50%",
+		"color": "--bg-black",
+		"info": {
+			"date": "2019-07-17",
+			"arcs": [
+				["Mono Suruga", ["Suruga Monkey", "するがモンキー"]],
+				["Serpiente Nadeko", ["Nadeko Snake", "なでこスネイク"]]
+			],
+			"chapters": [
+				"041",
+				"042",
+				"043",
+				"044",
+				"045",
+				"046",
+				"047",
+				"048",
+				"049"
+			],
+			"description": [
+				"Araragi Koyomi se ve forzado a aceptar la dura e innegable realidad de lo diferente que es su mundo del de Kanbaru Suruga. Tras haberlo dejado agonizando por su propia ingenuidad, el joven se ve emboscado por los «verdaderos sentimientos» de Kanbaru, crudos y sin filtros, expuestos como una venenosa maldición...",
+				"«¡Te odio, te odio, te odio, te odio, te odio, te odio, te odio, te odio, te odio, te odio, te odio, te odio!»",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡La juventud es una «historia» extrema de puro rock and roll!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/06/01.avif",
+						"/gallery/manga/06/01.webp",
+						"/gallery/manga/06/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/06/02.avif",
+						"/gallery/manga/06/02.webp",
+						"/gallery/manga/06/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/06/03.avif",
+						"/gallery/manga/06/03.webp",
+						"/gallery/manga/06/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/06/04.avif",
+						"/gallery/manga/06/04.webp",
+						"https://imgbasket.com/i/mLI3pnWYRBedL5M4WjAU2w.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-07",
+		"title": "Bakemonogatari Volumen 7",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["7", "nana."]
+		],
+		"pictures": [
+			"/covers/manga/07.avif",
+			"/covers/manga/07.webp",
+			"/covers/manga/07.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/07-alt.avif",
+			"/covers/manga/07-alt.webp",
+			"/covers/manga/07-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/07-0.5x.avif",
+			"/covers/manga/07-0.5x.webp",
+			"/covers/manga/07-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-white",
+		"info": {
+			"date": "2019-10-17",
+			"arcs": [
+				["Serpiente Nadeko", ["Nadeko Snake", "なでこスネイク"]]
+			],
+			"chapters": [
+				"050",
+				"051",
+				"052",
+				"053",
+				"054",
+				"055",
+				"056",
+				"057",
+				"058"
+			],
+			"description": [
+				"Visitando un santuario junto con Kanbaru Suruga, Araragi Koyomi se topa con una escena espeluznante: serpientes descuartizadas y una oleada masiva de maldiciones violentamente garabateadas. Mientras se queda sin palabras ante aquella horrible visión, el nombre de una ya olvidada amiga de sus hermanas menores cruza fugazmente por su mente: Sengoku Nadeko.",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Incluso si no tuviese nombre, es una «historia» que habita en todos nosotros!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/07/01.avif",
+						"/gallery/manga/07/01.webp",
+						"/gallery/manga/07/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/07/02.avif",
+						"/gallery/manga/07/02.webp",
+						"/gallery/manga/07/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/07/03.avif",
+						"/gallery/manga/07/03.webp",
+						"/gallery/manga/07/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/07/04.avif",
+						"/gallery/manga/07/04.webp",
+						"/gallery/manga/07/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-08",
+		"title": "Bakemonogatari Volumen 8",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["8", "hachi."]
+		],
+		"pictures": [
+			"/covers/manga/08.avif",
+			"/covers/manga/08.webp",
+			"/covers/manga/08.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/08-alt.avif",
+			"/covers/manga/08-alt.webp",
+			"/covers/manga/08-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/08-0.5x.avif",
+			"/covers/manga/08-0.5x.webp",
+			"/covers/manga/08-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-lilac",
+		"info": {
+			"date": "2020-02-17",
+			"arcs": [
+				["Serpiente Nadeko", ["Nadeko Snake", "なでこスネイク"]],
+				["Vampi Koyomi", ["Koyomi Vamp", "こよみヴァンプ"]]
+			],
+			"chapters": [
+				"059",
+				"060",
+				"061",
+				"062",
+				"063",
+				"064",
+				"065",
+				"066",
+				"067"
+			],
+			"description": [
+				"No había una, sino dos «serpientes» enroscadas alrededor del cuerpo de Sengoku Nadeko. ¿Podrá Araragi Koyomi salvarla ahora que su vida se ve repentinamente empujada al borde mismo del abismo? Y ahora, el relato que rodea la primera «herida» de Araragi está a punto de ser revelado...",
+				"«Supongo que debo hablar de ello. Del día en que comenzó mi infierno personal».",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una «historia» sobre suplicar por vivir, aunque tengas que arrastrarte!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/08/01.avif",
+						"/gallery/manga/08/01.webp",
+						"/gallery/manga/08/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/08/02.avif",
+						"/gallery/manga/08/02.webp",
+						"/gallery/manga/08/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/08/03.avif",
+						"/gallery/manga/08/03.webp",
+						"/gallery/manga/08/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/08/04.avif",
+						"/gallery/manga/08/04.webp",
+						"/gallery/manga/08/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-09",
+		"title": "Bakemonogatari Volumen 9",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["9", "kyuu."]
+		],
+		"pictures": [
+			"/covers/manga/09.avif",
+			"/covers/manga/09.webp",
+			"/covers/manga/09.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/09-alt.avif",
+			"/covers/manga/09-alt.webp",
+			"/covers/manga/09-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/09-0.5x.avif",
+			"/covers/manga/09-0.5x.webp",
+			"/covers/manga/09-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "2020-05-15",
+			"arcs": [
+				["Vampi Koyomi", ["Koyomi Vamp", "こよみヴァンプ"]]
+			],
+			"chapters": [
+				"068",
+				"069",
+				"070",
+				"071",
+				"072",
+				"073",
+				"074",
+				"075",
+				"076"
+			],
+			"description": [
+				"Ahora, el «comienzo» de la historia de Araragi Koyomi es finalmente contado. Todo empezó con su encuentro con una vampira noble, arrogante, hermosa y profundamente herida. Lo que le esperaba era una sucesión de días que solo podrían describirse como un infierno... ¡La precuela y capítulo cero de Bakemonogatari: Kizumonogatari!",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una «historia» atada por la nostalgia, que nunca estuvo destinada a terminar!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/09/01.avif",
+						"/gallery/manga/09/01.webp",
+						"/gallery/manga/09/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/09/02.avif",
+						"/gallery/manga/09/02.webp",
+						"/gallery/manga/09/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/09/03.avif",
+						"/gallery/manga/09/03.webp",
+						"/gallery/manga/09/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/09/04.avif",
+						"/gallery/manga/09/04.webp",
+						"/gallery/manga/09/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-10",
+		"title": "Bakemonogatari Volumen 10",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["10", "juu."]
+		],
+		"pictures": [
+			"/covers/manga/10.avif",
+			"/covers/manga/10.webp",
+			"/covers/manga/10.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/10-alt.avif",
+			"/covers/manga/10-alt.webp",
+			"/covers/manga/10-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/10-0.5x.avif",
+			"/covers/manga/10-0.5x.webp",
+			"/covers/manga/10-0.5x.jpg"
+		],
+		"responsivePosition": "center 40%",
+		"color": "--bg-purple",
+		"info": {
+			"date": "2020-08-17",
+			"arcs": [
+				["Vampi Koyomi", ["Koyomi Vamp", "こよみヴァンプ"]]
+			],
+			"chapters": [
+				"077",
+				"078",
+				"079",
+				"080",
+				"081",
+				"082",
+				"083",
+				"084",
+				"085"
+			],
+			"description": [
+				"Para volver a ser humano, Araragi Koyomi debe enfrentarse a tres cazavampiros y recuperar las extremidades cercenadas de Kiss-shot. Su primer oponente es Dramaturgy, ¡un vampiro que caza a su propia especie! Aun así, las palabras que le dirige a Araragi son... «Únete a mí. Conviértete en uno de mis aliados...».",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una «historia» de intrigas enfrentadas que giran en torno al Rey!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/10/01.avif",
+						"/gallery/manga/10/01.webp",
+						"/gallery/manga/10/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/10/02.avif",
+						"/gallery/manga/10/02.webp",
+						"/gallery/manga/10/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/10/03.avif",
+						"/gallery/manga/10/03.webp",
+						"/gallery/manga/10/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/10/04.avif",
+						"/gallery/manga/10/04.webp",
+						"/gallery/manga/10/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-11",
+		"title": "Bakemonogatari Volumen 11",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["11", "juuichi."]
+		],
+		"pictures": [
+			"/covers/manga/11.avif",
+			"/covers/manga/11.webp",
+			"/covers/manga/11.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/11-alt.avif",
+			"/covers/manga/11-alt.webp",
+			"/covers/manga/11-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/11-0.5x.avif",
+			"/covers/manga/11-0.5x.webp",
+			"/covers/manga/11-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "2020-11-17",
+			"arcs": [
+				["Vampi Koyomi", ["Koyomi Vamp", "こよみヴァンプ"]]
+			],
+			"chapters": [
+				"086",
+				"087",
+				"088",
+				"089",
+				"090",
+				"091",
+				"092",
+				"093",
+				"094"
+			],
+			"description": [
+				"La precuela y capítulo cero de Bakemonogatari: Kizumonogatari.",
+				"Araragi Koyomi batalla para volver a ser un «humano». Tras haber derrotado a Dramaturgy y recuperado el brazo derecho de Kiss-shot, su siguiente oponente es el semivampiro Episode. Sin embargo, ¿¡este hombre no posee ninguna de las debilidades naturales de los vampiros!?",
+				"¡Una «historia» que hará que todo tu cuerpo se estremezca de escalofríos!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/11/01.avif",
+						"/gallery/manga/11/01.webp",
+						"/gallery/manga/11/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/11/02.avif",
+						"/gallery/manga/11/02.webp",
+						"/gallery/manga/11/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/11/03.avif",
+						"/gallery/manga/11/03.webp",
+						"/gallery/manga/11/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/11/04.avif",
+						"/gallery/manga/11/04.webp",
+						"/gallery/manga/11/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-12",
+		"title": "Bakemonogatari Volumen 12",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["12", "juuni."]
+		],
+		"pictures": [
+			"/covers/manga/12.avif",
+			"/covers/manga/12.webp",
+			"/covers/manga/12.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/12-alt.avif",
+			"/covers/manga/12-alt.webp",
+			"/covers/manga/12-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/12-0.5x.avif",
+			"/covers/manga/12-0.5x.webp",
+			"/covers/manga/12-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-red",
+		"info": {
+			"date": "2021-02-17",
+			"arcs": [
+				["Vampi Koyomi", ["Koyomi Vamp", "こよみヴァンプ"]]
+			],
+			"chapters": [
+				"095",
+				"096",
+				"097",
+				"098",
+				"099",
+				"100",
+				"101",
+				"102",
+				"103"
+			],
+			"description": [
+				"¡La precuela y capítulo cero de Bakemonogatari: Kizumonogatari!",
+				"Araragi Koyomi batalla por salvar a Kiss-shot y volver a ser «humano». Tras haber repelido a dos enemigos formidables, su último oponente es el «humano ordinario» Guillotine Cutter. Aun así, justo cuando un Araragi lleno de energía se prepara para la recta final, una noticia impactante lo golpea antes de la batalla: «¡Hanekawa ha sido secuestrada!».",
+				"¡Una «historia» que desafiará por completo tu imaginación!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/12/01.avif",
+						"/gallery/manga/12/01.webp",
+						"/gallery/manga/12/01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/02.avif",
+						"/gallery/manga/12/02.webp",
+						"/gallery/manga/12/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/03.avif",
+						"/gallery/manga/12/03.webp",
+						"/gallery/manga/12/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/04.avif",
+						"/gallery/manga/12/04.webp",
+						"/gallery/manga/12/04.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/05.avif",
+						"/gallery/manga/12/05.webp",
+						"/gallery/manga/12/05.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/06.avif",
+						"/gallery/manga/12/06.webp",
+						"/gallery/manga/12/06.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/07.avif",
+						"/gallery/manga/12/07.webp",
+						"/gallery/manga/12/07.jpg"
+					],
+					"visible"
+				]
+			],
+			"cards": [
+				[
+					[
+						"/gallery/manga/12/cards/01.avif",
+						"/gallery/manga/12/cards/01.webp",
+						"/gallery/manga/12/cards/01.jpg"
+					],
+					[
+						"/gallery/manga/12/cards/01b.avif",
+						"/gallery/manga/12/cards/01b.webp",
+						"/gallery/manga/12/cards/01b.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/cards/02.avif",
+						"/gallery/manga/12/cards/02.webp",
+						"/gallery/manga/12/cards/02.jpg"
+					],
+					[
+						"/gallery/manga/12/cards/02b.avif",
+						"/gallery/manga/12/cards/02b.webp",
+						"/gallery/manga/12/cards/02b.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/cards/03.avif",
+						"/gallery/manga/12/cards/03.webp",
+						"/gallery/manga/12/cards/03.jpg"
+					],
+					[
+						"/gallery/manga/12/cards/03b.avif",
+						"/gallery/manga/12/cards/03b.webp",
+						"/gallery/manga/12/cards/03b.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/cards/04.avif",
+						"/gallery/manga/12/cards/04.webp",
+						"/gallery/manga/12/cards/04.jpg"
+					],
+					[
+						"/gallery/manga/12/cards/04b.avif",
+						"/gallery/manga/12/cards/04b.webp",
+						"/gallery/manga/12/cards/04b.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/cards/05.avif",
+						"/gallery/manga/12/cards/05.webp",
+						"/gallery/manga/12/cards/05.jpg"
+					],
+					[
+						"/gallery/manga/12/cards/05b.avif",
+						"/gallery/manga/12/cards/05b.webp",
+						"/gallery/manga/12/cards/05b.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/cards/06.avif",
+						"/gallery/manga/12/cards/06.webp",
+						"/gallery/manga/12/cards/06.jpg"
+					],
+					[
+						"/gallery/manga/12/cards/06b.avif",
+						"/gallery/manga/12/cards/06b.webp",
+						"/gallery/manga/12/cards/06b.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/cards/07.avif",
+						"/gallery/manga/12/cards/07.webp",
+						"/gallery/manga/12/cards/07.jpg"
+					],
+					[
+						"/gallery/manga/12/cards/07b.avif",
+						"/gallery/manga/12/cards/07b.webp",
+						"/gallery/manga/12/cards/07b.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/cards/08.avif",
+						"/gallery/manga/12/cards/08.webp",
+						"/gallery/manga/12/cards/08.jpg"
+					],
+					[
+						"/gallery/manga/12/cards/08b.avif",
+						"/gallery/manga/12/cards/08b.webp",
+						"/gallery/manga/12/cards/08b.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/12/cards/09.avif",
+						"/gallery/manga/12/cards/09.webp",
+						"/gallery/manga/12/cards/09.jpg"
+					],
+					[
+						"/gallery/manga/12/cards/09b.avif",
+						"/gallery/manga/12/cards/09b.webp",
+						"/gallery/manga/12/cards/09b.jpg"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-13",
+		"title": "Bakemonogatari Volumen 13",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["13", "juusan."]
+		],
+		"pictures": [
+			"/covers/manga/13.avif",
+			"/covers/manga/13.webp",
+			"/covers/manga/13.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/13-alt.avif",
+			"/covers/manga/13-alt.webp",
+			"/covers/manga/13-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/13-0.5x.avif",
+			"/covers/manga/13-0.5x.webp",
+			"/covers/manga/13-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-orange",
+		"info": {
+			"date": "2021-05-17",
+			"arcs": [
+				["Vampi Koyomi", ["Koyomi Vamp", "こよみヴァンプ"]]
+			],
+			"chapters": [
+				"104",
+				"105",
+				"106",
+				"107",
+				"108",
+				"109",
+				"110",
+				"111",
+				"112"
+			],
+			"description": [
+				"¡La precuela y capítulo cero de Bakemonogatari: Kizumonogatari!",
+				"Tras haber repelido a los tres kazavampiros que tenían en la mira a Kiss-shot, Araragi Koyomi la ha restaurado a su forma completa y perfecta. Parecía que lo único que le faltaba por hacer era volver a ser humano, ¡hasta que de repente se da cuenta de un catastrófico error...!",
+				"¡El arco de Kizumonogatari llega a su absoluta fase final!",
+				"¡Una desgarradora y agonizante «historia» de ama y siervo, humanos y monstruos!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/onimonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/onimonogatari.avif",
+						"/covers/lns/onimonogatari.webp",
+						"/covers/lns/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/onimonogatari-0.5x.avif",
+						"/covers/lns/onimonogatari-0.5x.webp",
+						"/covers/lns/onimonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/onimonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/onimonogatari.avif",
+						"/covers/onimonogatari.webp",
+						"/covers/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/onimonogatari-0.5x.avif",
+						"/covers/onimonogatari-0.5x.webp",
+						"/covers/onimonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/13/01.avif",
+						"/gallery/manga/13/01.webp",
+						"/gallery/manga/13/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/13/02.avif",
+						"/gallery/manga/13/02.webp",
+						"/gallery/manga/13/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/13/03.avif",
+						"/gallery/manga/13/03.webp",
+						"/gallery/manga/13/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/13/04.avif",
+						"/gallery/manga/13/04.webp",
+						"/gallery/manga/13/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-14",
+		"title": "Bakemonogatari Volumen 14",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["14", "juuyon."]
+		],
+		"pictures": [
+			"/covers/manga/14.avif",
+			"/covers/manga/14.webp",
+			"/covers/manga/14.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/14-alt.avif",
+			"/covers/manga/14-alt.webp",
+			"/covers/manga/14-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/14-0.5x.avif",
+			"/covers/manga/14-0.5x.webp",
+			"/covers/manga/14-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-blue",
+		"info": {
+			"date": "2021-08-17",
+			"arcs": [
+				["Vampi Koyomi", ["Koyomi Vamp", "こよみヴァンプ"]]
+			],
+			"chapters": [
+				"113",
+				"114",
+				"115",
+				"116",
+				"117",
+				"118",
+				"119",
+				"120",
+				"121"
+			],
+			"description": [
+				"«¡¡¡¡Entonces perece, mi siervo!!!!» ¡¡¡Vs. Kiss-shot, el «Rey de las Excentricidades»!!! El capítulo «Vampi Koyomi» del arco de Kizumonogatari alcanza su clímax definitivo.",
+				"¡La precuela y capítulo cero de Bakemonogatari: Kizumonogatari!",
+				"Araragi Koyomi se da cuenta de que salvar a Kiss-shot y ayudar en su resurrección fue un error catastrófico «como ser humano». Ahora debe enfrentarse directamente a su ama, el Rey de las Excentricidades. ¡La verdadera batalla final comienza oficialmente!",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una «historia» de innumerables capas sobre un destino inevitable!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/onimonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/onimonogatari.avif",
+						"/covers/lns/onimonogatari.webp",
+						"/covers/lns/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/onimonogatari-0.5x.avif",
+						"/covers/lns/onimonogatari-0.5x.webp",
+						"/covers/lns/onimonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/onimonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/onimonogatari.avif",
+						"/covers/onimonogatari.webp",
+						"/covers/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/onimonogatari-0.5x.avif",
+						"/covers/onimonogatari-0.5x.webp",
+						"/covers/onimonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/14/01.avif",
+						"/gallery/manga/14/01.webp",
+						"/gallery/manga/14/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/14/02.avif",
+						"/gallery/manga/14/02.webp",
+						"/gallery/manga/14/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/14/03.avif",
+						"/gallery/manga/14/03.webp",
+						"/gallery/manga/14/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/14/04.avif",
+						"/gallery/manga/14/04.webp",
+						"/gallery/manga/14/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-15",
+		"title": "Bakemonogatari Volumen 15",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["15", "juugo."]
+		],
+		"pictures": [
+			"/covers/manga/15.avif",
+			"/covers/manga/15.webp",
+			"/covers/manga/15.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/15-alt.avif",
+			"/covers/manga/15-alt.webp",
+			"/covers/manga/15-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/15-0.5x.avif",
+			"/covers/manga/15-0.5x.webp",
+			"/covers/manga/15-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-black",
+		"info": {
+			"date": "2021-11-17",
+			"arcs": [
+				["Vampi Koyomi", ["Koyomi Vamp", "こよみヴァンプ"]],
+				["Gato Tsubasa", ["Tsubasa Cat", "つばさキャット"]]
+			],
+			"chapters": [
+				"122",
+				"123",
+				"124",
+				"125",
+				"126",
+				"127",
+				"128",
+				"129",
+				"130"
+			],
+			"description": [
+				"¡La precuela y capítulo cero de Bakemonogatari, Kizumonogatari, concluye!",
+				"Araragi Koyomi finalmente acorrala a Kiss-shot. Sin embargo, pronto descubre la horrenda verdad: todo fue una trampa orquestada por ella con el fin de sacrificar su propia vida para que Araragi pudiese volver a ser humano. Desafiando incluso su trágico plan, ¿¡cuál es el cierre de telón definitivo que el joven decide llevar a cabo!?",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una «historia» de amargos y recurrentes errores de juicio!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-I",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-I.avif",
+						"/covers/kizumonogatari-I.webp",
+						"/covers/kizumonogatari-I.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-I-0.5x.avif",
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-II",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-II.avif",
+						"/covers/kizumonogatari-II.webp",
+						"/covers/kizumonogatari-II.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-II-0.5x.avif",
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/kizumonogatari-III",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/kizumonogatari-III.avif",
+						"/covers/kizumonogatari-III.webp",
+						"/covers/kizumonogatari-III.png"
+					],
+					"picturesHalf": [
+						"/covers/kizumonogatari-III-0.5x.avif",
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/15/01.avif",
+						"/gallery/manga/15/01.webp",
+						"/gallery/manga/15/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/15/02.avif",
+						"/gallery/manga/15/02.webp",
+						"/gallery/manga/15/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/15/03.avif",
+						"/gallery/manga/15/03.webp",
+						"/gallery/manga/15/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/15/04.avif",
+						"/gallery/manga/15/04.webp",
+						"/gallery/manga/15/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-16",
+		"title": "Bakemonogatari Volumen 16",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["16", "juuroku."]
+		],
+		"pictures": [
+			"/covers/manga/16.avif",
+			"/covers/manga/16.webp",
+			"/covers/manga/16.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/16-alt.avif",
+			"/covers/manga/16-alt.webp",
+			"/covers/manga/16-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/16-0.5x.avif",
+			"/covers/manga/16-0.5x.webp",
+			"/covers/manga/16-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "2022-02-17",
+			"arcs": [
+				["Gato Tsubasa", ["Tsubasa Cat", "つばさキャット"]]
+			],
+			"chapters": [
+				"131",
+				"132",
+				"133",
+				"134",
+				"135",
+				"136",
+				"137",
+				"138",
+				"139"
+			],
+			"description": [
+				"¡Comienza el Capítulo Final: «Gato Tsubasa»!",
+				"Tras recibir un repentino mensaje de SOS de Hanekawa Tsubasa, Araragi Koyomi se apresura de inmediato a su lado. Lo que le espera allí es un par de «orejas gatunas» inquietantemente familiares. La excentricidad que lastima a absolutamente cualquiera, el Sawari Neko, Black Hanekawa... Acompañado de una multitud de nombres y de un intenso y punzante dolor de cabeza, ¡el mayor y más formidable enemigo de Araragi hace acto de presencia!",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡De principio a fin, una «historia» que desconcierta por completo los sentidos!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/nekomonogatari-kuro",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/nekomonogatari-kuro.avif",
+						"/covers/lns/nekomonogatari-kuro.webp",
+						"/covers/lns/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-kuro-0.5x.avif",
+						"/covers/lns/nekomonogatari-kuro-0.5x.webp",
+						"/covers/lns/nekomonogatari-kuro-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-kuro",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/nekomonogatari-kuro.avif",
+						"/covers/nekomonogatari-kuro.webp",
+						"/covers/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-kuro-0.5x.avif",
+						"/covers/nekomonogatari-kuro-0.5x.webp",
+						"/covers/nekomonogatari-kuro-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/16/01.avif",
+						"/gallery/manga/16/01.webp",
+						"/gallery/manga/16/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/16/02.avif",
+						"/gallery/manga/16/02.webp",
+						"/gallery/manga/16/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/16/03.avif",
+						"/gallery/manga/16/03.webp",
+						"/gallery/manga/16/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/16/04.avif",
+						"/gallery/manga/16/04.webp",
+						"/gallery/manga/16/04.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/16/05.avif",
+						"/gallery/manga/16/05.webp",
+						"/gallery/manga/16/05.jpg"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-17",
+		"title": "Bakemonogatari Volumen 17",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["17", "juunana."]
+		],
+		"pictures": [
+			"/covers/manga/17.avif",
+			"/covers/manga/17.webp",
+			"/covers/manga/17.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/17-alt.avif",
+			"/covers/manga/17-alt.webp",
+			"/covers/manga/17-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/17-0.5x.avif",
+			"/covers/manga/17-0.5x.webp",
+			"/covers/manga/17-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-green",
+		"info": {
+			"date": "2022-05-17",
+			"arcs": [
+				["Gato Tsubasa", ["Tsubasa Cat", "つばさキャット"]]
+			],
+			"chapters": [
+				"140",
+				"141",
+				"142",
+				"143",
+				"144",
+				"145",
+				"146",
+				"147",
+				"148"
+			],
+			"description": [
+				"¡El Capítulo Final: «Gato Tsubasa»!",
+				"El «Sawari Neko», una excentricidad que ya debería haber sido enterrada tras un período de inmenso sufrimiento. Aun así, ha vuelto a manifestarse, albergando emociones aún más profundas y oscuras. Araragi Koyomi se apresura desesperadamente a salvarla una y otra vez, completamente ciego ante lo que su propia amabilidad realmente significaba...",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una «historia» que cínicamente traiciona al mundo entero!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nekomonogatari-kuro",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/nekomonogatari-kuro.avif",
+						"/covers/lns/nekomonogatari-kuro.webp",
+						"/covers/lns/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-kuro-0.5x.avif",
+						"/covers/lns/nekomonogatari-kuro-0.5x.webp",
+						"/covers/lns/nekomonogatari-kuro-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/onimonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/onimonogatari.avif",
+						"/covers/lns/onimonogatari.webp",
+						"/covers/lns/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/onimonogatari-0.5x.avif",
+						"/covers/lns/onimonogatari-0.5x.webp",
+						"/covers/lns/onimonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-kuro",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/nekomonogatari-kuro.avif",
+						"/covers/nekomonogatari-kuro.webp",
+						"/covers/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-kuro-0.5x.avif",
+						"/covers/nekomonogatari-kuro-0.5x.webp",
+						"/covers/nekomonogatari-kuro-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/onimonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/onimonogatari.avif",
+						"/covers/onimonogatari.webp",
+						"/covers/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/onimonogatari-0.5x.avif",
+						"/covers/onimonogatari-0.5x.webp",
+						"/covers/onimonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/17/01.avif",
+						"/gallery/manga/17/01.webp",
+						"/gallery/manga/17/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/17/02.avif",
+						"/gallery/manga/17/02.webp",
+						"/gallery/manga/17/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/17/03.avif",
+						"/gallery/manga/17/03.webp",
+						"/gallery/manga/17/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/17/04.avif",
+						"/gallery/manga/17/04.webp",
+						"/gallery/manga/17/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-18",
+		"title": "Bakemonogatari Volumen 18",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["18", "juuhachi."]
+		],
+		"pictures": [
+			"/covers/manga/18.avif",
+			"/covers/manga/18.webp",
+			"/covers/manga/18.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/18-alt.avif",
+			"/covers/manga/18-alt.webp",
+			"/covers/manga/18-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/18-0.5x.avif",
+			"/covers/manga/18-0.5x.webp",
+			"/covers/manga/18-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-blue",
+		"info": {
+			"date": "2022-08-17",
+			"arcs": [
+				["Gato Tsubasa", ["Tsubasa Cat", "つばさキャット"]]
+			],
+			"chapters": [
+				"149",
+				"150",
+				"151",
+				"152",
+				"153",
+				"154",
+				"155",
+				"156",
+				"157"
+			],
+			"description": [
+				"¡El Capítulo Final: «Gato Tsubasa»!",
+				"El «Sawari Neko» ha regresado, manifestándose con mucho más poder que nunca. Por si fuera poco, Shinobu ha desaparecido repentinamente de la sombra de Araragi. ¿Podrá resolverlo todo antes de su próxima cita con Senjougahara? Y como pieza clave definitiva de este misterio, ¡una impactante confesión brota de los labios de Hanekawa...!",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Ah, una «historia» sobre una sierva de las sombras en busca del universo entero!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/nekomonogatari-shiro",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/nekomonogatari-shiro.avif",
+						"/covers/lns/nekomonogatari-shiro.webp",
+						"/covers/lns/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp",
+						"/covers/lns/nekomonogatari-shiro-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-shiro",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/nekomonogatari-shiro.avif",
+						"/covers/nekomonogatari-shiro.webp",
+						"/covers/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-shiro-0.5x.avif",
+						"/covers/nekomonogatari-shiro-0.5x.webp",
+						"/covers/nekomonogatari-shiro-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/18/01.avif",
+						"/gallery/manga/18/01.webp",
+						"/gallery/manga/18/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/18/02.avif",
+						"/gallery/manga/18/02.webp",
+						"/gallery/manga/18/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/18/03.avif",
+						"/gallery/manga/18/03.webp",
+						"/gallery/manga/18/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/18/04.avif",
+						"/gallery/manga/18/04.webp",
+						"/gallery/manga/18/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-19",
+		"title": "Bakemonogatari Volumen 19",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["19", "juukyuu."]
+		],
+		"pictures": [
+			"/covers/manga/19.avif",
+			"/covers/manga/19.webp",
+			"/covers/manga/19.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/19-alt.avif",
+			"/covers/manga/19-alt.webp",
+			"/covers/manga/19-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/19-0.5x.avif",
+			"/covers/manga/19-0.5x.webp",
+			"/covers/manga/19-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-orange",
+		"info": {
+			"date": "2022-11-17",
+			"arcs": [
+				["Gato Tsubasa", ["Tsubasa Cat", "つばさキャット"]]
+			],
+			"chapters": [
+				"158",
+				"159",
+				"160",
+				"161",
+				"162",
+				"163",
+				"164",
+				"165",
+				"166"
+			],
+			"description": [
+				"¡El Capítulo Final: «Gato Tsubasa»!",
+				"La impactante verdad tras el regreso del «Sawari Neko» es nada más y nada menos que el amor no correspondido de Hanekawa hacia Araragi... En un intento por arrancar de raíz el dolor de la joven, se ve empujado al borde mismo de la desaparición. Aun así, justo en el momento en que grita desesperado al cielo vacío en un esfuerzo frenético por sobrevivir, ¿¡una figura aparece de repente frente a él!?",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una «historia» semidúplex de cortejo en vano!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/nekomonogatari-shiro",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/nekomonogatari-shiro.avif",
+						"/covers/lns/nekomonogatari-shiro.webp",
+						"/covers/lns/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp",
+						"/covers/lns/nekomonogatari-shiro-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/owarimonogatari-chuu",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/owarimonogatari-chuu.avif",
+						"/covers/lns/owarimonogatari-chuu.webp",
+						"/covers/lns/owarimonogatari-chuu.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-chuu-0.5x.avif",
+						"/covers/lns/owarimonogatari-chuu-0.5x.webp",
+						"/covers/lns/owarimonogatari-chuu-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/wazamonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/wazamonogatari.avif",
+						"/covers/lns/wazamonogatari.webp",
+						"/covers/lns/wazamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/wazamonogatari-0.5x.avif",
+						"/covers/lns/wazamonogatari-0.5x.webp",
+						"/covers/lns/wazamonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-shiro",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/nekomonogatari-shiro.avif",
+						"/covers/nekomonogatari-shiro.webp",
+						"/covers/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-shiro-0.5x.avif",
+						"/covers/nekomonogatari-shiro-0.5x.webp",
+						"/covers/nekomonogatari-shiro-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/owarimonogatari-jou",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/owarimonogatari-jou.avif",
+						"/covers/owarimonogatari-jou.webp",
+						"/covers/owarimonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/owarimonogatari-jou-0.5x.avif",
+						"/covers/owarimonogatari-jou-0.5x.webp",
+						"/covers/owarimonogatari-jou-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/19/01.avif",
+						"/gallery/manga/19/01.webp",
+						"/gallery/manga/19/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/19/02.avif",
+						"/gallery/manga/19/02.webp",
+						"/gallery/manga/19/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/19/03.avif",
+						"/gallery/manga/19/03.webp",
+						"/gallery/manga/19/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/19/04.avif",
+						"/gallery/manga/19/04.webp",
+						"/gallery/manga/19/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-20",
+		"title": "Bakemonogatari Volumen 20",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["20", "nijuu."]
+		],
+		"pictures": [
+			"/covers/manga/20.avif",
+			"/covers/manga/20.webp",
+			"/covers/manga/20.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/20-alt.avif",
+			"/covers/manga/20-alt.webp",
+			"/covers/manga/20-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/20-0.5x.avif",
+			"/covers/manga/20-0.5x.webp",
+			"/covers/manga/20-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-green",
+		"info": {
+			"date": "2023-01-17",
+			"arcs": [
+				["Gato Tsubasa", ["Tsubasa Cat", "つばさキャット"]]
+			],
+			"chapters": [
+				"167",
+				"168",
+				"169",
+				"170",
+				"171",
+				"172",
+				"173",
+				"174",
+				"175"
+			],
+			"description": [
+				"¡El Capítulo Final: «Gato Tsubasa»!",
+				"A pesar de los esfuerzos desesperados del «Gato» por borrar a Araragi, su plan falla y la situación se deteriora rápidamente. Entonces, en medio del caos, el primer vasallo de Kiss-shot, Seishirou Shishirui, se manifiesta de repente. Mientras los hilos dispersos de la «historia» convergen, ¡la verdad absoluta finalmente sale a la luz! Forzado a afrontar una cruda realidad y acorralado contra la pared, ¿¡qué elección tomará Araragi Koyomi!?",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡La verdad es una «historia» que no termina con un simple doble estándar!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/owarimonogatari-chuu",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/owarimonogatari-chuu.avif",
+						"/covers/lns/owarimonogatari-chuu.webp",
+						"/covers/lns/owarimonogatari-chuu.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-chuu-0.5x.avif",
+						"/covers/lns/owarimonogatari-chuu-0.5x.webp",
+						"/covers/lns/owarimonogatari-chuu-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/nekomonogatari-shiro",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/nekomonogatari-shiro.avif",
+						"/covers/lns/nekomonogatari-shiro.webp",
+						"/covers/lns/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp",
+						"/covers/lns/nekomonogatari-shiro-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/owarimonogatari-jou",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/owarimonogatari-jou.avif",
+						"/covers/owarimonogatari-jou.webp",
+						"/covers/owarimonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/owarimonogatari-jou-0.5x.avif",
+						"/covers/owarimonogatari-jou-0.5x.webp",
+						"/covers/owarimonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-shiro",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/nekomonogatari-shiro.avif",
+						"/covers/nekomonogatari-shiro.webp",
+						"/covers/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-shiro-0.5x.avif",
+						"/covers/nekomonogatari-shiro-0.5x.webp",
+						"/covers/nekomonogatari-shiro-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/20/01.avif",
+						"/gallery/manga/20/01.webp",
+						"/gallery/manga/20/01.png"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/20/02.avif",
+						"/gallery/manga/20/02.webp",
+						"/gallery/manga/20/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/20/03.avif",
+						"/gallery/manga/20/03.webp",
+						"/gallery/manga/20/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/20/04.avif",
+						"/gallery/manga/20/04.webp",
+						"/gallery/manga/20/04.png"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-21",
+		"title": "Bakemonogatari Volumen 21",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["21", "nijuuichi."]
+		],
+		"pictures": [
+			"/covers/manga/21.avif",
+			"/covers/manga/21.webp",
+			"/covers/manga/21.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/21-alt.avif",
+			"/covers/manga/21-alt.webp",
+			"/covers/manga/21-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/21-0.5x.avif",
+			"/covers/manga/21-0.5x.webp",
+			"/covers/manga/21-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-white",
+		"info": {
+			"date": "2023-03-16",
+			"arcs": [
+				["Gato Tsubasa", ["Tsubasa Cat", "つばさキャット"]]
+			],
+			"chapters": [
+				"176",
+				"177",
+				"178",
+				"179",
+				"180",
+				"181",
+				"182",
+				"183",
+				"184"
+			],
+			"description": [
+				"¡El Capítulo Final, «Gato Tsubasa», alcanza su absoluta conclusión!",
+				"Con la crisis de Shinobu por fin resuelta, el único problema restante es la propia Hanekawa Tsubasa. Sin embargo, sus emociones enterradas han manifestado una nueva y terrorífica excentricidad, el Kako, que crece hasta alcanzar un tamaño verdaderamente abrumador. Sin importar cuántas veces Araragi se levante para hacerle frente, ¡su poder bruto es simplemente demasiado inmenso...!",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una «historia» en la que jamás podrán despojarse de su armadura de guerra por toda la eternidad!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nekomonogatari-shiro",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/nekomonogatari-shiro.avif",
+						"/covers/lns/nekomonogatari-shiro.webp",
+						"/covers/lns/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp",
+						"/covers/lns/nekomonogatari-shiro-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/nekomonogatari-shiro",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/nekomonogatari-shiro.avif",
+						"/covers/nekomonogatari-shiro.webp",
+						"/covers/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/nekomonogatari-shiro-0.5x.avif",
+						"/covers/nekomonogatari-shiro-0.5x.webp",
+						"/covers/nekomonogatari-shiro-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/21/01.avif",
+						"/gallery/manga/21/01.webp",
+						"/gallery/manga/21/01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/21/02.avif",
+						"/gallery/manga/21/02.webp",
+						"/gallery/manga/21/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/21/03.avif",
+						"/gallery/manga/21/03.webp",
+						"/gallery/manga/21/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/21/04.avif",
+						"/gallery/manga/21/04.webp",
+						"/gallery/manga/21/04.jpg"
+					],
+					"visible"
+				]
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-22",
+		"title": "Bakemonogatari Volumen 22",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["22", "nijuuni."]
+		],
+		"pictures": [
+			"/covers/manga/22.avif",
+			"/covers/manga/22.webp",
+			"/covers/manga/22.jpg"
+		],
+		"picturesAlt": [
+			"/covers/manga/22-alt.avif",
+			"/covers/manga/22-alt.webp",
+			"/covers/manga/22-alt.jpg"
+		],
+		"picturesHalf": [
+			"/covers/manga/22-0.5x.avif",
+			"/covers/manga/22-0.5x.webp",
+			"/covers/manga/22-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-lilac",
+		"info": {
+			"date": "2023-05-17",
+			"arcs": [
+				["Gato Tsubasa", ["Tsubasa Cat", "つばさキャット"]],
+				["Almanaque Koyomi", ["Koyomi Almanac", "こよみアルマナック"]]
+			],
+			"chapters": [
+				"185",
+				"186",
+				"187",
+				"188",
+				"189",
+				"190",
+				"191",
+				"192",
+				"193"
+			],
+			"description": [
+				"Habiendo triunfado sobre una serie de fieras batallas, Araragi Koyomi finalmente alcanza su momento prometido con Senjougahara Hitagi. Alzando la vista hacia un cielo tan desbordante de estrellas que parece que fueran a caer en cualquier instante, observa a Hitagi desnudar por completo su corazón para expresarle sus sentimientos... y atesora profundamente la inmensa dicha de poder estar simplemente a su lado.",
+				"El manga de Bakemonogatari... ¡está oficialmente completo!",
+				"¡NisiOisiN × Oh! great presentan un enfoque totalmente nuevo sobre las excentricidades! ¡Excentricidades! ¡Excentricidades! ¡Una «historia» que nunca iba a terminar tan fácilmente!"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/onimonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/onimonogatari.avif",
+						"/covers/lns/onimonogatari.webp",
+						"/covers/lns/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/onimonogatari-0.5x.avif",
+						"/covers/lns/onimonogatari-0.5x.webp",
+						"/covers/lns/onimonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/nisemonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/nisemonogatari-ge.avif",
+						"/covers/lns/nisemonogatari-ge.webp",
+						"/covers/lns/nisemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nisemonogatari-ge-0.5x.avif",
+						"/covers/lns/nisemonogatari-ge-0.5x.webp",
+						"/covers/lns/nisemonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/otorimonogatari",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/otorimonogatari.avif",
+						"/covers/lns/otorimonogatari.webp",
+						"/covers/lns/otorimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/otorimonogatari-0.5x.avif",
+						"/covers/lns/otorimonogatari-0.5x.webp",
+						"/covers/lns/otorimonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/owarimonogatari-ge",
+					"text": "Fuente",
+					"pictures": [
+						"/covers/lns/owarimonogatari-ge.avif",
+						"/covers/lns/owarimonogatari-ge.webp",
+						"/covers/lns/owarimonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-ge-0.5x.avif",
+						"/covers/lns/owarimonogatari-ge-0.5x.webp",
+						"/covers/lns/owarimonogatari-ge-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/bakemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/bakemonogatari.avif",
+						"/covers/bakemonogatari.webp",
+						"/covers/bakemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/bakemonogatari-0.5x.avif",
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/onimonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/onimonogatari.avif",
+						"/covers/onimonogatari.webp",
+						"/covers/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/onimonogatari-0.5x.avif",
+						"/covers/onimonogatari-0.5x.webp",
+						"/covers/onimonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/nisemonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/nisemonogatari.avif",
+						"/covers/nisemonogatari.webp",
+						"/covers/nisemonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/nisemonogatari-0.5x.avif",
+						"/covers/nisemonogatari-0.5x.webp",
+						"/covers/nisemonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/otorimonogatari",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/otorimonogatari.avif",
+						"/covers/otorimonogatari.webp",
+						"/covers/otorimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/otorimonogatari-0.5x.avif",
+						"/covers/otorimonogatari-0.5x.webp",
+						"/covers/otorimonogatari-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/anime/owarimonogatari-ge",
+					"text": "Alternativa",
+					"pictures": [
+						"/covers/owarimonogatari-ge.avif",
+						"/covers/owarimonogatari-ge.webp",
+						"/covers/owarimonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/owarimonogatari-ge-0.5x.avif",
+						"/covers/owarimonogatari-ge-0.5x.webp",
+						"/covers/owarimonogatari-ge-0.5x.jpg"
+					]
+				}
+			],
+			"gallery": [
+				[
+					[
+						"/gallery/manga/22/01.avif",
+						"/gallery/manga/22/01.webp",
+						"/gallery/manga/22/01.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/22/02.avif",
+						"/gallery/manga/22/02.webp",
+						"/gallery/manga/22/02.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/22/03.avif",
+						"/gallery/manga/22/03.webp",
+						"/gallery/manga/22/03.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/22/04.avif",
+						"/gallery/manga/22/04.webp",
+						"/gallery/manga/22/04.jpg"
+					],
+					"visible"
+				],
+				[
+					[
+						"/gallery/manga/22/05.avif",
+						"/gallery/manga/22/05.webp",
+						"/gallery/manga/22/05.jpg"
+					],
+					"hidden"
+				],
+				[
+					[
+						"/gallery/manga/22/06.avif",
+						"/gallery/manga/22/06.webp",
+						"/gallery/manga/22/06.jpg"
+					],
+					"visible"
+				]
+			]
+		}
+	}
+]

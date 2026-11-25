@@ -1,0 +1,985 @@
+[
+	{
+		"name": "bakemonogatari-jou",
+		"title": "Bakemonogatari (Parte 1)",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(上)", "jou."]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/lns/en/bakemonogatari-jou.avif",
+			"/covers/lns/en/bakemonogatari-jou.webp",
+			"/covers/lns/en/bakemonogatari-jou.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/bakemonogatari-jou-0.5x.avif",
+			"/covers/lns/en/bakemonogatari-jou-0.5x.webp",
+			"/covers/lns/en/bakemonogatari-jou-0.5x.jpg"
+		],
+		"responsivePosition": "center 40%",
+		"color": "--bg-purple",
+		"info": {
+			"date": "2016-12-20",
+			"arcs": [
+				["Capítulo uno: Cangrejo Hitagi", ["Chapter One: Hitagi Crab", "第一話 ひたぎクラブ"]],
+				["Capítulo dos: Mayoi Maimai", ["Chapter Two: Mayoi Maimai", "第二話 まよいマイマイ"]]
+			],
+			"description": [
+				"Hay una chica en la escuela que siempre está enferma. Llega tarde por rutina, se va temprano o directamente ni aparece, y se salta las clases de gimnasia como si nada. Es linda, y los chicos suelen murmurar que es una princesa recluida. Pero, como pronto descubre el autoproclamado peor perdedor de la clase, simplemente no tienen idea del monstruo que es en realidad. Y así comienza un relato de misteriosas dolencias de origen sobrenatural, aunque profundamente reveladoras de la psique humana; una serie de expedientes tan dados a los sentimientos inesperados como al humor irreverente. De este modo arranca la legendaria novela que dio inicio a la MONOGATARI Series, cuyas adaptaciones al anime han gozado de popularidad internacional y el aplauso de la crítica. Esta primera de tres partes presenta a Senjougahara y a Hachikuji, y los fanáticos de la exitosa precuela KIZUMONOGATARI estarán encantados de reencontrarse con sus excéntricos favoritos: el extrañamente confiable narrador Araragi, la presidenta de la clase por excelencia, Hanekawa, el turbio solucionador de problemas Oshino y cierta exvampira rubia y pálida."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-chuu",
+		"title": "Bakemonogatari (Parte 2)",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(中)", "chuu."]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/lns/en/bakemonogatari-chuu.avif",
+			"/covers/lns/en/bakemonogatari-chuu.webp",
+			"/covers/lns/en/bakemonogatari-chuu.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/bakemonogatari-chuu-0.5x.avif",
+			"/covers/lns/en/bakemonogatari-chuu-0.5x.webp",
+			"/covers/lns/en/bakemonogatari-chuu-0.5x.jpg"
+		],
+		"responsivePosition": "center 5%",
+		"color": "--bg-green",
+		"info": {
+			"date": "2017-02-28",
+			"arcs": [
+				["Capítulo tres: Mono Suruga", ["Chapter Three: Suruga Monkey", "第三話 するがモンキー"]],
+				["Capítulo cuatro: Serpiente Nadeko", ["Chapter Four: Nadeko Snake", "第四話 なでこスネイク"]]
+			],
+			"description": [
+				"Bakemono, literalmente «cosa cambiante», que se traduce como «monstruo». Monogatari, literalmente «narrar cosas», que se traduce como «relato». Combinadas en un neologismo por el autor del seudónimo reversible, estas forman BAKEMONOGATARI, el relato de monstruos que dio inicio a una serie cuyas adaptaciones al anime han gozado de popularidad internacional y el aplauso de la crítica. A Araragi Koyomi, alguien autodescrito como un perdedor, le está costando horrores una escuela preparatoria a la que nunca debería haber ido en primer lugar. Prácticamente ha dejado de importarle todo, pero como estudiante de último año, se enfrenta al frío escenario de no poder graduarse. Es hora de estudiar intensamente, pero las excentricidades sobrenaturales que siguen apareciendo en su ciudad de provincia no lo dejarán en paz. Previamente, nuestro héroe se convirtió en vampiro y volvió a la normalidad, consiguió una novia de lengua afilada y no pudo encontrar su camino a casa por culpa de una niña perdida. En esta segunda de tres partes, la cual introduce a Kanbaru Suruga y a Sengoku Nadeko, se ve involucrado en un caso que parece sacado de un relato clásico inglés de 1902."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-jou",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/bakemonogatari-jou.avif",
+						"/covers/lns/bakemonogatari-jou.webp",
+						"/covers/lns/bakemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-jou-0.5x.avif",
+						"/covers/lns/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/bakemonogatari-jou-0.5x.jpg"
+					]
+				},
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "bakemonogatari-ge",
+		"title": "Bakemonogatari (Parte 3)",
+		"kanji": [
+			["化", "bake."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(下)", "ge."]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/lns/en/bakemonogatari-ge.avif",
+			"/covers/lns/en/bakemonogatari-ge.webp",
+			"/covers/lns/en/bakemonogatari-ge.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/bakemonogatari-ge-0.5x.avif",
+			"/covers/lns/en/bakemonogatari-ge-0.5x.webp",
+			"/covers/lns/en/bakemonogatari-ge-0.5x.jpg"
+		],
+		"responsivePosition": "center 20%",
+		"color": "--bg-blue",
+		"info": {
+			"date": "2017-04-25",
+			"arcs": [
+				["Capítulo cinco: Gato Tsubasa", ["Chapter Five: Tsubasa Cat", "第五話 つばさキャット"]]
+			],
+			"description": [
+				"Como presidenta de la clase por excelencia, una estudiante modelo con lentes que se alza sin fallas en lo más alto del cuadro de honor, Hanekawa Tsubasa también resulta ser un ser humano decente. Es verdad que tiene el hábito de hacer suposiciones precipitadas, pero nacen de buenas intenciones y suelen resultar acertadas con frecuencia. El perdedor por excelencia, Araragi Koyomi, le debe su puesto como vicepresidente y una deuda de gratitud aun mayor por su apoyo incondicional durante las vacaciones de primavera más oscuras de su vida. Todo esto lo ha cegado ante la posibilidad de que la situación familiar de su angelical compañera no sea menos adversa que la de sus otras amigas. Sin embargo, finalmente nos enfrentamos a la improbable excentricidad de Hanekawa en «Gato Tsubasa», la conclusión de la legendaria novela que capturó la sensibilidad de una nueva generación a lo largo de los años y dio origen a una serie animada que ha ganado popularidad internacional y el aplauso de la crítica; antes de que la historia continúe con un «Relato Falso»..."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/bakemonogatari-ge",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/bakemonogatari-ge.avif",
+						"/covers/lns/bakemonogatari-ge.webp",
+						"/covers/lns/bakemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/bakemonogatari-ge-0.5x.avif",
+						"/covers/lns/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/bakemonogatari-ge-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "kizumonogatari",
+		"title": "Kizumonogatari",
+		"kanji": [
+			["傷", "kizu."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/lns/en/kizumonogatari.avif",
+			"/covers/lns/en/kizumonogatari.webp",
+			"/covers/lns/en/kizumonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/kizumonogatari-0.5x.avif",
+			"/covers/lns/en/kizumonogatari-0.5x.webp",
+			"/covers/lns/en/kizumonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 5%",
+		"color": "--bg-red",
+		"info": {
+			"date": "2015-12-15",
+			"arcs": [
+				["Capítulo cero: Vampi Koyomi", ["Chapter Zero: Koyomi Vamp", "第零話 こよみヴァンプ"]]
+			],
+			"description": [
+				"Alrededor de la medianoche, bajo una farola callejera en una ciudad de provincia de Japón, yace una mujer pálida, rubia y solitaria, despojada de sus cuatro extremidades y, aun así, viva. Efectivamente, entre las chicas de la zona ha estado circulando el rumor de que un vampiro ha llegado a su pueblo perdido, de entre todos los lugares posibles. Araragi Koyomi, quien prefiere evitar tener amigos porque reducirían su «intensidad como humano», se muestra naturalmente escéptico. Sin embargo, es a él a quien esta demonio chupasangre, un concepto «doblemente anticuado», le hace señas durante el primer día de las vacaciones de primavera, mientras vuelve a casa con un botín recién adquirido de revistas moralmente comprometedoras. Siempre desarmantemente sincera, a menudo hilarantemente juguetona y, por momentos, devastadoramente conmovedora, KIZUMONOGATARI: Un Relato de Heridas es el punto de partida perfecto para adentrarse en el mundo de NISIOISIN, el joven novelista superventas de Japón en la actualidad. Precuela de BAKEMONOGATARI («Relato de Monstruos»), aquí es donde comienza la legendaria MONOGATARI Series, cuyas adaptaciones al anime han gozado de popularidad internacional y del aplauso de la crítica."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kizumonogatari",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/kizumonogatari.avif",
+						"/covers/lns/kizumonogatari.webp",
+						"/covers/lns/kizumonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kizumonogatari-0.5x.avif",
+						"/covers/lns/kizumonogatari-0.5x.webp",
+						"/covers/lns/kizumonogatari-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "nisemonogatari-jou",
+		"title": "Nisemonogatari (Parte 1)",
+		"kanji": [
+			["偽", "nise."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(上)", "jou."]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/lns/en/nisemonogatari-jou.avif",
+			"/covers/lns/en/nisemonogatari-jou.webp",
+			"/covers/lns/en/nisemonogatari-jou.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/nisemonogatari-jou-0.5x.avif",
+			"/covers/lns/en/nisemonogatari-jou-0.5x.webp",
+			"/covers/lns/en/nisemonogatari-jou-0.5x.jpg"
+		],
+		"responsivePosition": "center 50%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "2017-06-27",
+			"arcs": [
+				["Capítulo seis: Abeja Karen", ["Chapter Six: Karen Bee", "第六話 かれんビー"]]
+			],
+			"description": [
+				"Al contrario del bueno para nada y exvampiro Araragi, sus dos hermanas menores, Karen y Tsukihi, quienes asisten a una secundaria privada, son pequeñas bolas de energía y carisma admiradas por sus compañeros. El hecho de que el «ka» de Karen y el «hi» de Tsukihi se escriban ambos con el carácter de «fuego» no es la única razón por la que son conocidas como las Fire Sisters. Karen es el músculo y Tsukihi el cerebro de una cruzada justiciera que ambas consideran no solo una defensa de la justicia, sino la justicia misma. No pueden toparse con una moda dañina sin intentar dar caza a algún responsable concreto que haya tenido un motivo para difundirla. En la humilde opinión de su hermano, hay algo falso y precario en todo esto. En esta primera de dos partes, la secuela inmediata de la legendaria BAKEMONOGATARI nos sumerge en medio de las vacaciones de verano en la apacible ciudad rural donde transcurre la serie. Sin embargo, como nuestro héroe y narrador puede confirmar por experiencia propia, los adolescentes con demasiado tiempo libre pueden llevarse una buena picadura."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nisemonogatari-jou",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/nisemonogatari-jou.avif",
+						"/covers/lns/nisemonogatari-jou.webp",
+						"/covers/lns/nisemonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nisemonogatari-jou-0.5x.avif",
+						"/covers/lns/nisemonogatari-jou-0.5x.webp",
+						"/covers/lns/nisemonogatari-jou-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "nisemonogatari-ge",
+		"title": "Nisemonogatari (Parte 2)",
+		"kanji": [
+			["偽", "nise."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(下)", "ge."]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/lns/en/nisemonogatari-ge.avif",
+			"/covers/lns/en/nisemonogatari-ge.webp",
+			"/covers/lns/en/nisemonogatari-ge.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/nisemonogatari-ge-0.5x.avif",
+			"/covers/lns/en/nisemonogatari-ge-0.5x.webp",
+			"/covers/lns/en/nisemonogatari-ge-0.5x.jpg"
+		],
+		"responsivePosition": "center 5%",
+		"color": "--bg-green",
+		"info": {
+			"date": "2017-08-29",
+			"arcs": [
+				["Capítulo final: Fénix Tsukihi", ["Final Chapter: Tsukihi Phoenix", "最終話 つきひフェニックス"]]
+			],
+			"description": [
+				"Originalmente planeado como la conclusión de la serie, el capítulo «final» «Fénix Tsukihi» nos invita nuevamente a la aparentemente tranquila ciudad rural donde abundan las aflicciones sobrenaturales y los personajes cambian sus peinados característicos sin pensarlo dos veces. No te preocupes, querido lector, porque la historia continuó en japonés y también lo hará en su traducción. En la primera parte del Relato Falso, el alma perdida de Araragi ayudó a resolver el encontronazo de la mayor de sus hermanas menores, Karen, con un fraude. En esta segunda mitad, debe atender los problemas de la más pequeña de sus hermanas, Tsukihi, no sin antes sin protagonizar el Episodio del Cepillo de Dientes que fue tan aclamado en la adaptación al anime y que los espectadores recuerdan tan vivamente, les guste o no. Tan cargado de un aire ominoso como una calle oscura y vacía, tan inesperadamente emotivo como una novia de lengua afilada, tan desternillantemente divertido como una exdeportista lujuriosa, y (tal vez incluso) tan educativo como la universidad, en la mejor tradición de MONOGATARI, este volumen también nos presenta a las «cazadoras de fantasmas» Kagenui Yozuru y Ononoki Yotsugi."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nisemonogatari-ge",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/nisemonogatari-ge.avif",
+						"/covers/lns/nisemonogatari-ge.webp",
+						"/covers/lns/nisemonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nisemonogatari-ge-0.5x.avif",
+						"/covers/lns/nisemonogatari-ge-0.5x.webp",
+						"/covers/lns/nisemonogatari-ge-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "nekomonogatari-kuro",
+		"title": "Nekomonogatari (Negro)",
+		"kanji": [
+			["猫", "neko."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(黒)", "kuro."]
+		],
+		"season": "First Season",
+		"pictures": [
+			"/covers/lns/en/nekomonogatari-kuro.avif",
+			"/covers/lns/en/nekomonogatari-kuro.webp",
+			"/covers/lns/en/nekomonogatari-kuro.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/nekomonogatari-kuro-0.5x.avif",
+			"/covers/lns/en/nekomonogatari-kuro-0.5x.webp",
+			"/covers/lns/en/nekomonogatari-kuro-0.5x.jpg"
+		],
+		"responsivePosition": "center 15%",
+		"color": "--bg-black",
+		"info": {
+			"date": "2017-12-08",
+			"arcs": [
+				["Capítulo tabú: Familia Tsubasa", ["Chapter Nixed: Tsubasa Family", "第禁話 つばさファミリー"]]
+			],
+			"description": [
+				"Siguiendo con el broche de oro sobre relaciones familiares que puso fin a la entrega previa, pero precediéndola cronológicamente, nos encontramos a Araragi y a su hermana menor Tsukihi, la heroína del volumen anterior, en plena rivalidad fraternal mientras discuten sobre el amor. La conversación sin fin se despliega en estas páginas en todo su esplendor original. Al igual que KIZUMONOGATARI, que se adentró en las desastrosas vacaciones de primavera de nuestro narrador, el Relato Gatuno (Negro) es una precuela sobre otra catástrofe, mencionada varias veces sin llegar a ser relatada incluso en un capítulo anterior dedicado a la señorita H.: el alboroto de la estudiante modelo durante la Golden Week, una sucesión de días festivos que comienza a finales de abril. Cerrando lo que ha llegado a conocerse como la «First Season» de la serie, este episodio de 'GATARI, rico como siempre tanto en discusiones absurdas como en reflexiones profundamente conmovedoras, y más cargado de lo habitual de metacomentarios sarcásticos sobre el anime, te hará reír y llorar, o quizá tan solo te dibujará una sonrisa adulta en tu rostro, pero está garantizado que se quedará contigo para siempre."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nekomonogatari-kuro",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/nekomonogatari-kuro.avif",
+						"/covers/lns/nekomonogatari-kuro.webp",
+						"/covers/lns/nekomonogatari-kuro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-kuro-0.5x.avif",
+						"/covers/lns/nekomonogatari-kuro-0.5x.webp",
+						"/covers/lns/nekomonogatari-kuro-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "nekomonogatari-shiro",
+		"title": "Nekomonogatari (Blanco)",
+		"kanji": [
+			["猫", "neko."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(白)", "shiro."]
+		],
+		"season": "Second Season",
+		"pictures": [
+			"/covers/lns/en/nekomonogatari-shiro.avif",
+			"/covers/lns/en/nekomonogatari-shiro.webp",
+			"/covers/lns/en/nekomonogatari-shiro.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/nekomonogatari-shiro-0.5x.avif",
+			"/covers/lns/en/nekomonogatari-shiro-0.5x.webp",
+			"/covers/lns/en/nekomonogatari-shiro-0.5x.jpg"
+		],
+		"responsivePosition": "center 15%",
+		"color": "--bg-white",
+		"info": {
+			"date": "2018-02-27",
+			"arcs": [
+				["Capítulo intimidad: Tigre Tsubasa", ["Chapter Snug: Tsubasa Tiger", "第懇話 つばさタイガー"]]
+			],
+			"description": [
+				"Lanzándonos hacia territorio nuevo que el autor no había planeado cuando se embarcó en esta serie, NEKOMONOGATARI (Blanco) nos cuenta la historia de la heroína Hanekawa Tsubasa desde su propia perspectiva y con su propia voz, si es que eso puede seguir siendo cierto para un alma rota que, dependiendo de a quién le preguntes, sufre de doble personalidad o de una excentricidad sobrenatural. La escalofriante fragilidad de su hogar, donde padre, madre e hija mantienen tres juegos de ollas en la misma cocina y solo se preparan sus propias comidas, junto con la profunda oscuridad cultivada en el corazón de esta estudiante genio, cobran vida, si esa es la palabra, a través de su propia vivisección. En cuanto a nuestro habitual narrador poco fiable, Araragi, descubrimos datos reveladores sobre él ahora que por fin tenemos una vista externa a su persona, mientras que sus amigas Senjougahara, Hachikuji y compañía, libres de la inclinación por las charlas triviales de las que tanto se enorgullecen, nos muestran sutilmente nuevas caras a través de su interlocutora femenina. Bienvenidos a la Second Season."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/nekomonogatari-shiro",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/nekomonogatari-shiro.avif",
+						"/covers/lns/nekomonogatari-shiro.webp",
+						"/covers/lns/nekomonogatari-shiro.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/nekomonogatari-shiro-0.5x.avif",
+						"/covers/lns/nekomonogatari-shiro-0.5x.webp",
+						"/covers/lns/nekomonogatari-shiro-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "kabukimonogatari",
+		"title": "Kabukimonogatari",
+		"kanji": [
+			["傾", "kabuki."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Second Season",
+		"pictures": [
+			"/covers/lns/en/kabukimonogatari.avif",
+			"/covers/lns/en/kabukimonogatari.webp",
+			"/covers/lns/en/kabukimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/kabukimonogatari-0.5x.avif",
+			"/covers/lns/en/kabukimonogatari-0.5x.webp",
+			"/covers/lns/en/kabukimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-blue",
+		"info": {
+			"date": "2018-05-17",
+			"arcs": [
+				["Capítulo ocio: Jiangshi Mayoi", ["Chapter Idle: Mayoi Jiangshi", "第閑話 まよいキョンシー"]]
+			],
+			"description": [
+				"¿Qué tan lejos puede llegar alguien para ayudar a una niña perdida? En el caso del regreso del narrador Araragi, la respuesta es muy lejos: a través del velo del tiempo. Siguiendo con diligencia (aunque sin saberlo) el descarado presagio de Hachikuji, Araragi se preocupa por su amiguita, heroicamente incapaz, una vez más, de encontrar el camino a casa, y por su destino en esta entrega de la exitosa serie de culto. De este modo, el relato trata también, más o menos, sobre el recorrido en sí mismo: esa oscura luna de miel que supone el viaje que emprende al pasado junto a la habitante de su sombra, Shinobu. Incluso dentro de un elenco que rutinariamente no respeta la cronología con sus metacomentarios, ella se lleva el premio, o la dona, rebobinando el reloj para embarcarse en una perversa película de carretera que, por lo general, no lleva a ninguna parte en el espacio. Es «Kabuki» no como el «teatro», sino con el carácter de «inclinarse», en el sentido de una actitud sesgada ante el mundo, la postura de un bohemio. O, quizá, la de una vampira legendaria que alguna vez buscó la muerte, y un estudiante de último año de secundaria que alguna vez se desconectó de la vida haciendo todo lo posible por atender una bochornosa abundancia de excentricidades en un pueblo de provincia."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/kabukimonogatari",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/kabukimonogatari.avif",
+						"/covers/lns/kabukimonogatari.webp",
+						"/covers/lns/kabukimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/kabukimonogatari-0.5x.avif",
+						"/covers/lns/kabukimonogatari-0.5x.webp",
+						"/covers/lns/kabukimonogatari-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "hanamonogatari",
+		"title": "Hanamonogatari",
+		"kanji": [
+			["花", "hana."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Second Season",
+		"pictures": [
+			"/covers/lns/en/hanamonogatari.avif",
+			"/covers/lns/en/hanamonogatari.webp",
+			"/covers/lns/en/hanamonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/hanamonogatari-0.5x.avif",
+			"/covers/lns/en/hanamonogatari-0.5x.webp",
+			"/covers/lns/en/hanamonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 75%",
+		"color": "--bg-salmon",
+		"info": {
+			"date": "2018-06-20",
+			"arcs": [
+				["Capítulo cambio: Demonio Suruga", ["Chapter Change: Suruga Devil", "第変話 するがデビル"]]
+			],
+			"description": [
+				"Nuestro pobre héroe, su novia reformada y la presidenta amnésica de la clase se han graduado de la secundaria en medio de la nada, y la autodescrita como sáfica y exestrella de básquetbol Kanbaru, retirada a causa de una «lesión», comienza su último año escolar y su rol como narradora de este volumen, con una voz aún más introspectiva que la de la deportista malpensada que creíamos conocer. Privada de la compañía de sus adorados mentores, la única persona a su alrededor con algún conocimiento sobre las excentricidades es la estudiante Oshino Ougi, aparentemente pariente de cierto folclorista con camiseta hawaiana. Así, Kanbaru se siente un poco sola y melancólica, además de muerta de miedo ante la idea de que el demonio que reside en su brazo izquierdo por cortesía de la Pata del Mono vuelva a hacer de las suyas mientras duerme. Investigando un rumor que teme que pueda apuntar hacia ella, la exdeportista termina asomándose a un abismo de negatividad llamado Rouka, una «flor de cera», si tomamos el significado del carácter de su nombre. Atrapada en un pozo del que solo podría escapar la única chica capaz de hacer volcadas en los nacionales de básquetbol, ¿podrá, sin embargo, la arrepentida Kanbaru seguir yendo al ataque?"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/hanamonogatari",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/hanamonogatari.avif",
+						"/covers/lns/hanamonogatari.webp",
+						"/covers/lns/hanamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/hanamonogatari-0.5x.avif",
+						"/covers/lns/hanamonogatari-0.5x.webp",
+						"/covers/lns/hanamonogatari-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "otorimonogatari",
+		"title": "Otorimonogatari",
+		"kanji": [
+			["囮", "otori."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Second Season",
+		"pictures": [
+			"/covers/lns/en/otorimonogatari.avif",
+			"/covers/lns/en/otorimonogatari.webp",
+			"/covers/lns/en/otorimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/otorimonogatari-0.5x.avif",
+			"/covers/lns/en/otorimonogatari-0.5x.webp",
+			"/covers/lns/en/otorimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 5%",
+		"color": "--bg-white",
+		"info": {
+			"date": "2018-08-28",
+			"arcs": [
+				["Capítulo caos: Medusa Nadeko", ["Chapter Chaos: Nadeko Medusa", "第乱話 なでこメドゥーサ"]]
+			],
+			"description": [
+				"Cierta chica de secundaria siente un especial cariño por los sombreros, los cuales sirven como una línea de defensa contra cualquier tipo de contacto visual, junto con el largo flequillo que lleva desde pequeña. Hablando de forma entrecortada cuando no guarda un silencio absoluto, su frase habitual es «Lo siento» y tiende a referirse a sí misma en tercera persona. Sengoku Nadeko es hermosa, y no simplemente linda. Cuando una compañera de clase celosa intentó maldecirla con un amuleto fraudulento, la señorita Flequillo fue y se maldijo de verdad por cuenta propia tras haber hecho mal su tarea y realizado un macabro ritual en un santuario olvidado. Menos mal que Koyomi-oniichan se dio cuenta y acudió a su rescate a tiempo, pero descuartizar serpientes en un lugar de culto consagrado a una de ellas... Podría volverse en su contra y morderla, ¿mmm? Esperando ser salvada por alguien pero sin pedir ayuda, la integrante más tímida del elenco explora en esta ocasión un tema recurrente de estos relatos con su propia voz vacilante: si bien la autosuficiencia está muy bien, hay que tener cuidado con su versión falsificada y devaluada, acuñada a partir de una mera reticencia a conectar con los demás. ¿Sabes a qué me refiero?"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/otorimonogatari",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/otorimonogatari.avif",
+						"/covers/lns/otorimonogatari.webp",
+						"/covers/lns/otorimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/otorimonogatari-0.5x.avif",
+						"/covers/lns/otorimonogatari-0.5x.webp",
+						"/covers/lns/otorimonogatari-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "onimonogatari",
+		"title": "Onimonogatari",
+		"kanji": [
+			["鬼", "oni."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Second Season",
+		"pictures": [
+			"/covers/lns/en/onimonogatari.avif",
+			"/covers/lns/en/onimonogatari.webp",
+			"/covers/lns/en/onimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/onimonogatari-0.5x.avif",
+			"/covers/lns/en/onimonogatari-0.5x.webp",
+			"/covers/lns/en/onimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 30%",
+		"color": "--bg-orange",
+		"info": {
+			"date": "2018-10-30",
+			"arcs": [
+				["Capítulo resistir: Tiempo Shinobu", ["Chapter Endure: Shinobu Time", "第忍話 しのぶタイム"]]
+			],
+			"description": [
+				"Eso, al igual que la oscuridad que ocupa gran parte del cosmos, no es una excentricidad. La nada puede tragarte entero y, sin embargo, en todo caso, es la antiexcentricidad. La Oscuridad, de hecho, es la Ley: un verdugo del que su presa puede intentar huir y esconderse, pero solo por un tiempo. Cuando llama a la puerta, los más afortunados apenas tendrán tiempo para decir adiós. Y la Oscuridad... ya está aquí. Antes de visitar Japón en busca de un lugar donde morir, cuatro siglos antes, efectivamente, de su fallido intento de suicidio, la legendaria vampira Kiss-shot puso literalmente un pie en la tierra del sol naciente tras un salto épico que puso fin a una solitaria estancia en la Antártida. Fue en aquella época cuando la orgullosa noble creó a su primer vasallo. Fue también entonces cuando conoció a la Oscuridad por primera vez. Tras haber alterado un pasado más reciente con su ayuda y regresar al presente para reencontrarse con otros dos personajes que parecen niñas pequeñas pero que en realidad son mayores que él, Araragi, el vasallo n.°2, recupera el micrófono solo para cedérselo en gran medida al demonio chupasangre que hoy en día responde al nombre de «Shinobu». Sin embargo, puede que su historia ni siquiera sea la más conmovedora de las que se cuentan en estas páginas."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/onimonogatari",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/onimonogatari.avif",
+						"/covers/lns/onimonogatari.webp",
+						"/covers/lns/onimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/onimonogatari-0.5x.avif",
+						"/covers/lns/onimonogatari-0.5x.webp",
+						"/covers/lns/onimonogatari-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "koimonogatari",
+		"title": "Koimonogatari",
+		"kanji": [
+			["恋", "koi."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Second Season",
+		"pictures": [
+			"/covers/lns/en/koimonogatari.avif",
+			"/covers/lns/en/koimonogatari.webp",
+			"/covers/lns/en/koimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/koimonogatari-0.5x.avif",
+			"/covers/lns/en/koimonogatari-0.5x.webp",
+			"/covers/lns/en/koimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 5%",
+		"color": "--bg-purple",
+		"info": {
+			"date": "2019-01-29",
+			"arcs": [
+				["Capítulo amor: Final Hitagi", ["Chapter Love: Hitagi End", "第恋話 ひたぎエンド"]]
+			],
+			"description": [
+				"Cerrando el círculo en torno a la apoteosis de cierta chica de secundaria, si es que podemos llamarlo así, en Otorimonogatari, y a la amenaza mortal que supone para el héroe y su novia, el final de esta «Temporada Dos» es narrado, por primera vez en esta serie, por un adulto. Pero si esa palabra evoca en tí, querido lector, algún sentido de fiabilidad, estabilidad y certeza, entonces la lección que debes extraer de todo esto es que no hay que confiar en nadie. Ya que el narrador de este relato, invocado por la heroína para desactivar la situación, a pesar de haber sido su némesis desde el mismísimo comienzo de la serie, no es otro, ante la ausencia de aquel adulto de igualmente dudosa reputación llamado Oshino (quien al menos era un experto), que su viejo conocido y rival de la universidad, el falso cazador de fantasmas que no cree en fantasmas: el estafador sinvergüenza de Kaiki Deishuu. Y es, sin duda, una estafa lo que acepta perpetrar, atípicamente pro bono, contra una deidad colérica; una empresa mítica de ser cierta, cosa que bien podría ser, cuando un mentiroso entre mentirosos sostiene que su historia, como cualquier otra, es toda una mentira. Aunque tal vez no lo sea tanto cuando un hombre que presume de conocer los entresijos del mundo suena tan cohibido como sus contrapartes adolescentes o como un antihéroe ruso."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/koimonogatari",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/koimonogatari.avif",
+						"/covers/lns/koimonogatari.webp",
+						"/covers/lns/koimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/koimonogatari-0.5x.avif",
+						"/covers/lns/koimonogatari-0.5x.webp",
+						"/covers/lns/koimonogatari-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "tsukimonogatari",
+		"title": "Tsukimonogatari",
+		"kanji": [
+			["憑", "tsuki."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Final Season",
+		"pictures": [
+			"/covers/lns/en/tsukimonogatari.avif",
+			"/covers/lns/en/tsukimonogatari.webp",
+			"/covers/lns/en/tsukimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/tsukimonogatari-0.5x.avif",
+			"/covers/lns/en/tsukimonogatari-0.5x.webp",
+			"/covers/lns/en/tsukimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 5%",
+		"color": "--bg-green",
+		"info": {
+			"date": "April 30, 2019",
+			"arcs": [
+				["Capítulo cuerpo: Muñeca Yotsugi", ["Chapter Body: Yotsugi Doll", "第体話 よつぎドール"]]
+			],
+			"description": [
+				"Dando inicio a la tercera o «Final Season» de la exitosa serie internacional de culto, el Relato de Posesión devuelve el micrófono de narrador al estudiante de último año de secundaria y salvador Araragi Koyomi, quien hace mucho tiempo solía rechazar las amistades porque bajarían su «intensidad como humano»: el recelo de un solitario que tal vez dio en el clavo de una manera distinta a la que pretendía. El problema ahora no es el precario destino de uno de sus queridos cofrades, o mejor dicho consorcias, a quienes ayudaría sin pensarlo dos veces con la resistencia de un monstruo, sino su propio estado aberrante y el abuso prolongado de este. Si todo tiene un precio, y si ningún hombre es una isla, ¿acaso el precio de una amistad abnegada, y de la fusión de sangre que irónicamente conlleva, es volverse inhumano para siempre? ¡Dicho esto! Nuestro héroe, cuyo nombre de pila significa «calendario» pero no tiene ninguno en su habitación, no ve motivo alguno para apresurarse; así que, en nuestro camino hacia los profundos misterios de lo sobrehumano, prepárate para una deconstrucción supersuperficial del reloj despertador. A su disposición en este volumen para (casi nunca) seguirle la corriente a su sentido del humor: sus hermanitas, una muñeca viviente hecha de un cadáver y su violenta ama."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/tsukimonogatari",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/tsukimonogatari.avif",
+						"/covers/lns/tsukimonogatari.webp",
+						"/covers/lns/tsukimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/tsukimonogatari-0.5x.avif",
+						"/covers/lns/tsukimonogatari-0.5x.webp",
+						"/covers/lns/tsukimonogatari-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "koyomimonogatari-jou",
+		"title": "Koyomimonogatari (Parte 1)",
+		"kanji": [
+			["暦", "koyomi."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(上​)", "jou."]
+		],
+		"season": "Final Season",
+		"pictures": [
+			"/covers/lns/en/koyomimonogatari-jou.avif",
+			"/covers/lns/en/koyomimonogatari-jou.webp",
+			"/covers/lns/en/koyomimonogatari-jou.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/koyomimonogatari-jou-0.5x.avif",
+			"/covers/lns/en/koyomimonogatari-jou-0.5x.webp",
+			"/covers/lns/en/koyomimonogatari-jou-0.5x.jpg"
+		],
+		"responsivePosition": "center 5%",
+		"color": "--bg-black",
+		"info": {
+			"date": "2019-06-17",
+			"arcs": [
+				["Capítulo uno: Piedra Koyomi", ["Chapter One: Koyomi Stone", "第一話 こよみストーン"]],
+				["Capítulo dos: Flor Koyomi", ["Chapter Two: Koyomi Flower", "第二話 こよみフラワー"]],
+				["Capítulo tres: Arena Koyomi", ["Chapter Three: Koyomi Sand", "第三話 こよみサンド"]],
+				["Capítulo cuatro: Agua Koyomi", ["Chapter Four: Koyomi Water", "第四話 こよみウォーター"]],
+				["Capítulo cinco: Viento Koyomi", ["Chapter Five: Koyomi Wind", "第五話 こよみウインド"]],
+				["Capítulo seis: Árbol Koyomi", ["Chapter Six: Koyomi Tree", "第六話 こよみツリー"]]
+			],
+			"description": [
+				"Presentado en dos partes con portadas que forman un díptico, el Relato de Calendario, narrado por nuestro protagonista, que da nombre al libro, nos transporta a distintos momentos previos de la historia en los que ciertos eventos aún no habían ocurrido: cuando, por ejemplo, el turbio «experto» Oshino aún estaba en la ciudad, y la legendaria exvampira Shinobu aún no se había cansado de estar malhumorada en una esquina. Entrelazando un motivo recurrente de vías, senderos, caminos y calles, sendas de la vida, estas nostálgicas viñetas evocan el aire de «expedientes de casos» del Relato de Monstruos, la entrega que dio inicio a la serie, aunque con un giro. No todas las anomalías son sobrenaturales: las piedras y las flores, la arena y el agua, el viento y el árbol pueden resultar directamente extraños sin llegar a ser excentricidades. En esta entrega, saluda desde el futuro a la presidenta entre presidentas de la clase,  Hanekawa; a la novia de lengua afilada, Senjougahara; a la insolente niña perdida, Hachikuji; a la atleta malpensada, Kanbaru; a la patológicamente tímida Sengoku; y la justiciera amante de las artes marciales, Karen: chicas jóvenes que aman hacer sudar a nuestro muchacho."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/koyomimonogatari",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/koyomimonogatari.avif",
+						"/covers/lns/koyomimonogatari.webp",
+						"/covers/lns/koyomimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/koyomimonogatari-0.5x.avif",
+						"/covers/lns/koyomimonogatari-0.5x.webp",
+						"/covers/lns/koyomimonogatari-0.5x.jpǵ"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "koyomimonogatari-ge",
+		"title": "Koyomimonogatari (Parte 2)",
+		"kanji": [
+			["暦", "koyomi."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(下​)", "ge."]
+		],
+		"season": "Final Season",
+		"pictures": [
+			"/covers/lns/en/koyomimonogatari-ge.avif",
+			"/covers/lns/en/koyomimonogatari-ge.webp",
+			"/covers/lns/en/koyomimonogatari-ge.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/koyomimonogatari-ge-0.5x.avif",
+			"/covers/lns/en/koyomimonogatari-ge-0.5x.webp",
+			"/covers/lns/en/koyomimonogatari-ge-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-black",
+		"info": {
+			"date": "2019-08-27",
+			"arcs": [
+				["Capítulo siete: Té Koyomi", ["Chapter Seven: Koyomi Tea", "第七話 こよみティー"]],
+				["Capítulo ocho: Montaña Koyomi", ["Chapter Eight: Koyomi Mountain", "第八話 こよみマウンテン"]],
+				["Capítulo nueve: Toroide Koyomi", ["Chapter Nine: Koyomi Torus", "第九話 こよみトーラス"]],
+				["Capítulo diez: Semilla Koyomi", ["Chapter Ten: Koyomi Seed", "第十話 こよみシード"]],
+				["Capítulo once: Nada Koyomi", ["Chapter Eleven: Koyomi Nothing", "第十一話 こよみナッシング"]],
+				["Capítulo doce: Muerte Koyomi", ["Chapter Twelve: Koyomi Dead", "第十二話 こよみデッド"]]
+			],
+			"description": [
+				"En esta última mitad del Relato de Calendario, una serie de viajes al pasado que han estado revisitando el aire de «expedientes de casos» de los orígenes de la serie comienza a alcanzar el momento presente, hasta que somos violentamente empalmados de vuelta a la trama principal, justo a tiempo para el cuarteto final conformado por el Relato del Fin (en tres volúmenes) y el Relato del Fin (Continuación). Continuando con el motivo recurrente de vías, senderos, caminos y calles, sendas de la vida, y cerrando otros tantos temas diversos e inquietudes cuasifilosóficas, las viñetas correspondientes a los meses de octubre a marzo abordan a seis damas que o bien no son del todo humanas, o bien son mayores que el narrador que da nombre al libro, Araragi Koyomi, bendita sea su alma charlatana. En esta entrega veremos cómo lidia con ella, o como ellas lidian con él: esa excentricidad de hermana menor que es Tsukihi; ese enigma de estudiante de primer año (o mujer), Ougi; la sombra de una legendaria vampira, Shinobu; el cuerpo de una chica preadolescente, Ononoki; esa psicópata experta en monstruos, Kagenui; y la sabelotodo mediadora maquiavélica, Gaen Izuko."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/koyomimonogatari",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/koyomimonogatari.avif",
+						"/covers/lns/koyomimonogatari.webp",
+						"/covers/lns/koyomimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/koyomimonogatari-0.5x.avif",
+						"/covers/lns/koyomimonogatari-0.5x.webp",
+						"/covers/lns/koyomimonogatari-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "owarimonogatari-jou",
+		"title": "Owarimonogatari (Parte 1)",
+		"kanji": [
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(上)", "jou."]
+		],
+		"season": "Final Season",
+		"pictures": [
+			"/covers/lns/en/owarimonogatari-jou.avif",
+			"/covers/lns/en/owarimonogatari-jou.webp",
+			"/covers/lns/en/owarimonogatari-jou.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/owarimonogatari-jou-0.5x.avif",
+			"/covers/lns/en/owarimonogatari-jou-0.5x.webp",
+			"/covers/lns/en/owarimonogatari-jou-0.5x.jpg"
+		],
+		"responsivePosition": "center 5%",
+		"color": "--bg-black",
+		"info": {
+			"date": "2019-12-16",
+			"arcs": [
+				["Capítulo uno: Fórmula Ougi", ["Chapter One: Ougi Formula", "第一話 おうぎフォーミュラ"]],
+				["Capítulo dos: Acertijo Sodachi", ["Chapter Two: Sodachi Riddle", "第二話 そだちリドル"]],
+				["Capítulo tres: Pérdida Sodachi", ["Chapter Three: Sodachi Lost", "第三話 そだちロスト"]]
+			],
+			"description": [
+				"De la exitosa serie de novelas llega el tramo final de la «Final Season» de Monogatari Series. Antes de que seamos testigos del enfrentamiento culminante en el tercer volumen del Relato del Fin, cuyas partes conforman cada una un todo cohesionado por sí mismo, el narrador Araragi lidia con un episodio crucial de su pasado que lo convirtió en el solitario que vemos al inicio, quien opinaba que las amistades solo reducían su intensidad como humano. Lo que da comienzo a su peregrinaje hacia un ajuste de cuentas es su primer encuentro, en la escuela, con la misteriosa estudiante de primer año Oshino Ougi, autodescrita como la sobrina del igualmente enigmático experto en excentricidades Meme. Así, el capítulo inicial del libro se presenta como una desgarradora novela corta independiente de intriga policial que gira en torno a un enigma de habitación cerrada. Nuestro cada vez más equilibrado héroe siguió destacándose en una sola cosa incluso cuando apenas lograba salir adelante; pero ese punto fuerte, una improbable aptitud para las matemáticas, nada menos, se convierte en el centro de un escándalo por hacer trampa en un examen y de una red de recuerdos que lo obliga a aceptar, mira tú por dónde, su capacidad para conectar con los demás."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/owarimonogatari-jou",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/owarimonogatari-jou.avif",
+						"/covers/lns/owarimonogatari-jou.webp",
+						"/covers/lns/owarimonogatari-jou.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-jou-0.5x.avif",
+						"/covers/lns/owarimonogatari-jou-0.5x.webp",
+						"/covers/lns/owarimonogatari-jou-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "owarimonogatari-chuu",
+		"title": "Owarimonogatari (Parte 2)",
+		"kanji": [
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(中)", "chuu."]
+		],
+		"season": "Final Season",
+		"pictures": [
+			"/covers/lns/en/owarimonogatari-chuu.avif",
+			"/covers/lns/en/owarimonogatari-chuu.webp",
+			"/covers/lns/en/owarimonogatari-chuu.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/owarimonogatari-chuu-0.5x.avif",
+			"/covers/lns/en/owarimonogatari-chuu-0.5x.webp",
+			"/covers/lns/en/owarimonogatari-chuu-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-yellow",
+		"info": {
+			"date": "2020-03-31",
+			"arcs": [
+				["Capítulo cuatro: Armadura Shinobu", ["Chapter Four: Shinobu Mail", "第四話 しのぶメイル"]]
+			],
+			"description": [
+				"De la exitosa serie de novelas llega el libro más reciente de la «Final Season» de la Monogatari Series. Cuando un antiguo amor que se rindió ante la vida y eligió arder en llamas, porque quería dejarte y no podía, vuelve arrastrándose después de cuatrocientos años, puede que no lo aprecies, especialmente si estás en una nueva relación. Pero nada es tan simple entre las personas, y eso es aún más cierto entre monstruos. Por primera vez en meses, nuestro heroico perdedor Araragi vuelve a ser humano, separado a raíz de los eventos previos de la legendaria exvampira atada a su sombra. Antes de que él, el segundo vasallo en toda la historia de la antigua Kiss-shot, pueda reanudar su alianza con la chiquilla amante de las donas en la que ella se ha convertido, esta deberá tomar una decisión... sobre aquel primer vasallo. Antes de que el Relato del Fin pueda concluir, algunos cabos sueltos deben ser atados: en este volumen, la mediadora Gaen reclama su favor, pidiendo que le presenten a su sobrina; el encargo del amuleto que Araragi realizó junto a Kanbaru cobra una nitidez absoluta; y el Relato del Dandi y el Relato del Demonio, historias que viajan y se extienden a través del tiempo, encuentran su devastador desenlace."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/owarimonogatari-chuu",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/owarimonogatari-chuu.avif",
+						"/covers/lns/owarimonogatari-chuu.webp",
+						"/covers/lns/owarimonogatari-chuu.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-chuu-0.5x.avif",
+						"/covers/lns/owarimonogatari-chuu-0.5x.webp",
+						"/covers/lns/owarimonogatari-chuu-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "owarimonogatari-ge",
+		"title": "Owarimonogatari (Parte 3)",
+		"kanji": [
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."],
+			["(下)", "ge."]
+		],
+		"season": "Final Season",
+		"pictures": [
+			"/covers/lns/en/owarimonogatari-ge.avif",
+			"/covers/lns/en/owarimonogatari-ge.webp",
+			"/covers/lns/en/owarimonogatari-ge.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/owarimonogatari-ge-0.5x.avif",
+			"/covers/lns/en/owarimonogatari-ge-0.5x.webp",
+			"/covers/lns/en/owarimonogatari-ge-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-purple",
+		"info": {
+			"date": "2020-10-27",
+			"arcs": [
+				["Capítulo cinco: Infierno Mayoi", ["Chapter Five: Mayoi Hell", "第五話 まよいヘル"]],
+				["Capítulo seis: Cita Hitagi", ["Chapter Six: Hitagi Rendezvous", "第六話 ひたぎランデブー"]],
+				["Capítulo siete: Oscuridad Ougi", ["Chapter Seven: Ougi Dark", "第七話 おうぎダーク"]]
+			],
+			"description": [
+				"De la exitosa serie de novelas llega el libro más reciente de la «Final Season» de la Monogatari Series. Ninguna buena obra queda impune, dicen, y lo mismo vale para la amistad y para reducir tu intensidad como humano, aunque eso no lo digan. Por eso, debido a todo su esfuerzo literalmente doloroso y su necesidad inveterada de salvar a los demás, nuestro ingenuo héroe termina en el infierno, una concepción del infierno en todo su esplendor budista, y se pregunta (ja, ja) si habrá boleto de vuelta. Contada en tres capítulos, la parte final del Relato del Fin concluye la historia propiamente dicha y resuelve la panoplia de misterios pendientes de la serie: la factura que debe pagar un buen samaritano por apoyarse en un poder que no es suyo, la identidad de la turbia estudiante transferida, el resultado de la misión de una presidenta de la clase de viaje por el extranjero e incluso el verdadero nombre de un parque. Araragi, en efecto, es quien sabe, pero en el camino se encuentra con viejas caras conocidas, literalmente hasta con la última de ellas, quienes lo ayudan en su viaje en busca de comprensión y, tal vez, de salvación. Y a ti, por ejemplo, no te sorprendería que tuviera otra cita con cierta antigua «princesa recluída» antes de que esto, adivina qué, llegue a su fin."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/owarimonogatari-ge",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/owarimonogatari-ge.avif",
+						"/covers/lns/owarimonogatari-ge.webp",
+						"/covers/lns/owarimonogatari-ge.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/owarimonogatari-ge-0.5x.avif",
+						"/covers/lns/owarimonogatari-ge-0.5x.webp",
+						"/covers/lns/owarimonogatari-ge-0.5x.jpg"
+					]
+				}
+			]
+		}
+	},
+	{
+		"name": "zoku-owarimonogatari",
+		"title": "Zoku Owarimonogatari",
+		"kanji": [
+			["続", "zoku."],
+			["終", "owari."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "Final Season",
+		"pictures": [
+			"/covers/lns/en/zoku-owarimonogatari.avif",
+			"/covers/lns/en/zoku-owarimonogatari.webp",
+			"/covers/lns/en/zoku-owarimonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/en/zoku-owarimonogatari-0.5x.avif",
+			"/covers/lns/en/zoku-owarimonogatari-0.5x.webp",
+			"/covers/lns/en/zoku-owarimonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 5%",
+		"color": "--bg-white",
+		"info": {
+			"date": "2020-12-15",
+			"arcs": [
+				["Capítulo final: Reverso Koyomi", ["Final Chapter: Koyomi Reverse", "最終話 こよみリバース"]]
+			],
+			"description": [
+				"Justo cuando pensábamos que la oscuridad que amenazaba la ciudad había sido identificada, nombrada y domada, con misterios claros y no tanto de temporadas pasadas saliendo a la superficie para resolverse, no sin lágrimas ni sin un dejo agridulce, por supuesto, pero de manera satisfactoria en un enlace tripartito, dejando todos los cabos sueltos atados en un lazo, o al menos con uno... el Relato del Fin continúa, quizá por última vez, en un nuevo escenario para la historia. Mientras tanto, nuestro protagonista de corazón blando, quien deseó de forma muy madura que todos los involucrados, incluido él mismo, terminaran felices, ve su propio reflejo congelado en el espejo y, lamentablemente con arrepentimiento, extiende la mano hacia él para encontrarse atravesando el cristal. En una realidad alterna donde fragmentos del mundo han sido puestos al revés, el héroe se encuentra cara a cara con la(s) faceta(s) oculta(s) de rostros conocidos, junto con el autor NISIOISIN, cuyo audaz intento por reimaginar las posibilidades de los presentes concluye, con su estilo inconfundible, la MONOGATARI Series propiamente dicha. Gracias por leer."
+			],
+			"alternatives": [
+				{
+					"name": "/lns/zoku-owarimonogatari",
+					"text": "Original",
+					"pictures": [
+						"/covers/lns/zoku-owarimonogatari.avif",
+						"/covers/lns/zoku-owarimonogatari.webp",
+						"/covers/lns/zoku-owarimonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/zoku-owarimonogatari-0.5x.avif",
+						"/covers/lns/zoku-owarimonogatari-0.5x.webp",
+						"/covers/lns/zoku-owarimonogatari-0.5x.jpg"
+					]
+				}
+			]
+		}
+	}
+]

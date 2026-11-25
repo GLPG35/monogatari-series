@@ -1,0 +1,115 @@
+---
+import { getLangFromUrl, useTranslations } from '../../../../i18n/utils';
+import Layout from '../../../../layouts/Layout.astro'
+import './styles.scss'
+
+const currentLang = getLangFromUrl(Astro.url)
+const t = useTranslations(currentLang)
+---
+
+<html lang="en" style="--bg-color: var(--bg-green)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - Descargas del anime</title>
+		<meta name="description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series - Descargas del anime" />
+		<meta property="og:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatariseri.es/banners/anime-banner.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series - Descargas del anime" />
+		<meta property="twitter:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="twitter:image" content="https://monogatariseri.es/banners/anime-banner.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="section">
+					<div class="cover">
+						<a href="/covers/monogatari-second-season-2.jpg" target="_blank">{t('fullResolution')}</a>
+						<picture>
+							<source srcset="/covers/monogatari-second-season-2.avif" type="image/avif" />
+							<source srcset="/covers/monogatari-second-season-2.webp" type="image/webp" />
+							<img src="/covers/monogatari-second-season-2.jpg" alt="" transition:name="anime-downloads">
+						</picture>
+					</div>
+					<div class="info">
+						<div class="subtitle">
+							〈物語〉シリーズ【シーズン1、2、3】
+						</div>
+						<div class="title">
+							<h3>Monogatari Series (Seasons 1, 2 y 3)</h3>
+						</div>
+						<div class="links">
+							<h4>Links</h4>
+							<ul>
+								<li>Monogatari Series Collection [por <a href="https://x.com/KonoVitoDa" target="_blank">@KonoVitoDa</a>] [BDRip 1080p FLAC] (ENG, ESP, PT-BR) + Audiocomentarios <a href="magnet:?xt=urn:btih:7ca45570de9f2ca8994522082e01b09b7c7a0081&dn=Monogatari%20Series%20Collection%20v2.5%20%5Bby%20%40KonoVitoDa%5D%20%5BBDRip%201080p%20FLAC%5D%20%28ENG%2C%20ESP%2C%20PT-BR%29%20%7C%20%2BAudio%20Commentary%20%2BExtras%20%7C%20MTBB%20Commie%20Coalgirls%20%7C%20Beatrice-Raws%20Kawaiika-Raws%20%7C%20Bakemonogatari%20Kizumonogatari%20Nisemonogatari&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce">[Torrent (176GB)]</a> <a href="magnet:?xt=urn:btih:052d8de8046ca566fc3168f2e3276ac49af044ce&dn=Monogatari%20Series%20Collection%20v2.5%20%28Compact%20ver.%29%20%5Bby%20%40KonoVitoDa%5D%20%5BBDRip%201080p%20AAC%5D%20%28ENG%2C%20ESP%2C%20PT-BR%29%20%7C%20%2BAudio%20Commentary%20%2BExtras%20%7C%20MTBB%20Commie%20Coalgirls%20%7C%20Bakemonogatari%20Kizumonogatari%20Nisemonogatari&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce">[Torrent (Versión compacta - 79GB)]</a> <a href="https://docs.google.com/document/d/1ucpZOcOJhETMO3bntQDs5YY4OCPnT4xLdTXNr-Hm5AU/edit?tab=t.0" target="_blank">[MEGA]</a></li>
+								<li>Monogatari Series Collection [por <a href="https://x.com/KonoVitoDa" target="_blank">@KonoVitoDa</a>] - Extras <a href="magnet:?xt=urn:btih:e29752c1d398e701fe68efeda4879861f78eb959&dn=Monogatari%20Series%20Collection%20-%20Extras&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce">[Torrent (39.4GB)]</a></li>
+							</ul>
+						</div>
+						<div class="guide">
+							<h4>Guía</h4>
+							<p>El anime se presenta en el orden recomendado por defecto (aunque siempre puedes verificar en la <a href="/">página de inicio</a> si lo deseas).</p>
+							<p>Hay varias opciones en cuanto a subtítulos, así que lee con atención para saber cuál se adapta mejor a tus preferencias:</p>
+							<ul>
+								<li><b>Inglés:</b> MTBB es la única opción válida en términos de consistencia y calidad de traducción. Dentro de este grupo encontrarás dos pistas: «eng» y «enm». Selecciona «enm» si quieres conservar los honoríficos (-kun, -san, -sama), o «eng» en caso contrario. Se recomienda encarecidamente usar los honoríficos, ya que son cruciales para entender algunos chistes y el contexto en general.</li>
+								<li><b>Español:</b> Los subtítulos de Ñyuum están en español de España (castellano) y no incluyen typesetting (traducción de elementos visuales como carteles). Todas las demás pistas en español están en español latino.</li>
+								<li><b>Portugués (Brasil):</b> Los subtítulos de Anipakku y Yami son la mejor opción cuando están disponibles; de lo contrario, elige los que prefieras.</li>
+							</ul>
+						</div>
+						<div class="notes">
+							<h4>Notas</h4>
+							<p><em>Monogatari está dividida en tres «seasons»: «First Season», «Second Season» y «Final Season». Abarcan desde Bakemonogatari hasta Zoku Owarimonogatari (y sí, eso incluye las películas de Kizumonogatari).</em></p>
+						</div>
+					</div>
+				</div>
+				<div class="section reverse">
+					<div class="cover">
+						<picture>
+							<a href="/covers/monogatari-off-monster-season.jpg" target="_blank">{t('fullResolution')}</a>
+							<source srcset="/covers/monogatari-off-monster-season.avif" type="image/avif" />
+							<source srcset="/covers/monogatari-off-monster-season.webp" type="image/webp" />
+							<img src="/covers/monogatari-off-monster-season.jpg" alt="">
+						</picture>
+					</div>
+					<div class="info">
+						<div class="subtitle">
+							〈物語〉シリーズ オフ＆モンスターシーズン
+						</div>
+						<div class="title">
+							<h3>Monogatari Series: Off & Monster Season</h3>
+						</div>
+						<div class="links">
+							<h4>Links</h4>
+							<ul>
+								<li>Monogatari Series Off & Monster Season S1 [por MTBB] [BD 1080p] (ENG) <a href="magnet:?xt=urn:btih:f7f58923ab6acc26392e7076c6352e1c73d9ef12&dn=%5BMTBB%5D%20Monogatari%20Series%20Off%20%26%20Monster%20Season%20S1%20%28BD%201080p%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce">[Torrent (26.1GB)]</a></li>
+								<li>Monogatari Series Off & Monster Season S1 [por Mattmurdock] [BD 1080p x265 OPUS] (PT-BR) <a href="https://worldfansub.xyz/serie/monogatari-series-off-monster-season/" target="_blank">[Externa]</a></li>
+								<li>Monogatari Series Off & Monster Season S1 [por Furude] [BD 1080p] (ESP) [INCOMPLETO*] <a href="https://drive.google.com/drive/u/0/folders/1IEfrXLiek5Y_eLX6IbRKoJppPLcWyMor" target="_blank">[Drive]</a></li>
+							</ul>
+						</div>
+						<div class="guide">
+							<h4>Guía</h4>
+							<p>El anime sigue el orden establecido por SHAFT, principalmente porque aún no se han adaptado todos los arcos de Off Season.</p>
+							<p>Los subtítulos en inglés mantienen las mismas características que los anteriores. Usa «enm» si quieres honoríficos (-kun, -san, -sama) o «eng» en caso contrario.</p>
+						</div>
+						<div class="notes">
+							<h4>Notas</h4>
+							<p><em>Por ahora, SHAFT solo ha adaptado tres de los cuatro libros de Off Season y uno de los seis de Monster Season. De esos tres libros de Off Season, SHAFT aún debe adaptar cuatro arcos: Fiasco Sodachi, Zoquete Suruga, Ouga Karen y Durmiente Tsubasa.</em></p>
+							<p><em>*La versión en español está incompleta por ahora, ya que el equipo de traducción todavía necesita agregar los subtítulos de Shinobumonogatari.</em></p>
+						</div>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

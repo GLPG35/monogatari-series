@@ -1,9 +1,13 @@
 import { useState, type CSSProperties } from "react"
 import { motion } from "framer-motion"
 import { LuChevronDown } from "react-icons/lu"
+import { useTranslatedPath, useTranslations } from "../../i18n/utils"
+import type { languages } from "../../i18n/ui"
 
-const AnimeShortcuts = () => {
+const AnimeShortcuts = ({ currentLang, path }: { currentLang: keyof typeof languages, path: string }) => {
 	const [show, setShow] = useState(false)
+	const t = useTranslations(currentLang)
+	const translatePath = useTranslatedPath(currentLang)
 	
 	return (
 		<motion.div className="shortcuts" animate={{ y: !show ? 0 : '85%' }} transition={{ duration: 0.7, type: 'spring', bounce: 0 }} drag='y' dragConstraints={{ top: 0, bottom: !show ? 0 : 470 }} dragElastic={0.2} onDragEnd={(_, info) => {
@@ -28,10 +32,10 @@ const AnimeShortcuts = () => {
 					</div>
 				</div>
 				<ul>
-					<li><a onClick={() => setShow(false)} href="#watch-order">Watch Order</a></li>
-					<li><a onClick={() => setShow(false)} href="#essential-stories">Essential Short Stories</a></li>
-					<li><a onClick={() => setShow(false)} href="#essential-audiovisual">Audiovisual Content</a></li>
-					<li><a onClick={() => setShow(false)} href="#books">Miscellaneous Books</a></li>
+					<li><a onClick={() => setShow(false)} href={translatePath("#watch-order")}>{t('anime.watchOrder')}</a></li>
+					<li><a onClick={() => setShow(false)} href={translatePath("#essential-stories")}>{t('anime.essentialShortStories')}</a></li>
+					<li><a onClick={() => setShow(false)} href={translatePath("#essential-audiovisual")}>{t('anime.audiovisualContent')}</a></li>
+					<li><a onClick={() => setShow(false)} href={translatePath("#books")}>{t('anime.miscellaneousBooks')}</a></li>
 				</ul>
 				<motion.div className="drag" onTap={() => setShow(!show)} animate={{ rotate: !show ? 0 : 180 }}>
 					<LuChevronDown />

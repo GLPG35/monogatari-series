@@ -1,0 +1,277 @@
+---
+import type { GetStaticPaths } from "astro"
+import MusicCover from '../../../components/MusicCover'
+import Layout from '../../../layouts/Layout.astro'
+import './album.scss'
+import music from '../../../utils/music.json'
+import arcs from '../../../utils/arcs.json'
+import { Icon } from 'astro-icon/components'
+import { getLangFromUrl, useTranslatedPath } from "../../../i18n/utils"
+
+export const getStaticPaths = (() => {
+	return music.map(({ title }) => ({ params: { album: title }}))
+}) satisfies GetStaticPaths
+
+const { album } = Astro.params
+const findAlbumIndex = music.findIndex(x => x.title === album)
+
+if (findAlbumIndex === -1) return Astro.redirect('/404')
+
+const currentLang = getLangFromUrl(Astro.url)
+const translatePath = useTranslatedPath(currentLang)
+
+const { title, name, kanji, artist, date, color, cover, coverAlt, hidden, position, sources, links, trackList } = music[findAlbumIndex]
+
+const isDate = date.includes('-')
+const [fullYear, month, day] = date.split('-')
+const parseDate = isDate ? Intl.DateTimeFormat(currentLang, { dateStyle: 'long' }).format(new Date(+fullYear, +month - 1, +day)) : date
+
+const prevAlbum = findAlbumIndex === 0 ? null : music[findAlbumIndex - 1]
+const nextAlbum = findAlbumIndex === music.length - 1 ? null : music[findAlbumIndex + 1]
+
+const logos = {
+	'Spotify': 'simple-icons:spotify',
+	'YouTube Music': 'simple-icons:youtubemusic',
+	'Apple Music': 'simple-icons:applemusic',
+}
+
+const colors = [
+	'--bg-purple',
+    '--bg-green',
+    '--bg-lilac',
+    '--bg-salmon',
+    '--bg-blue',
+    '--bg-orange',
+    '--bg-yellow',
+    '--bg-red',
+    '--bg-black',
+    '--bg-white'
+]
+
+const nextRandomCover = Math.floor(Math.random() * 3) + 1
+const prevRandomCover = Math.floor(Math.random() * 3) + 1
+const randomCover = Math.floor(Math.random() * 3) + 1
+const randomColor = Math.floor(Math.random() * colors.length)
+
+const anim = {
+	old: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)",
+		direction: "reverse"
+	},
+	new: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)"
+	}
+}
+
+const customTransition = {
+	forwards: anim,
+	backwards: anim
+}
+---
+
+<html lang="en" style={`--bg-color: var(${color}); --position: ${position};`}>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - {name}</title>
+		<meta name="description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={`〈物語〉Monogatari Series - ${name}`} />
+		<meta property="og:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content={`https://monogatariseri.es/banners/music/${title}.jpg`} />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content={`〈物語〉Monogatari Series - ${name}`} />
+		<meta property="twitter:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="twitter:image" content={`https://monogatariseri.es/banners/music/${title}.jpg`} />
+		<script is:inline>
+			const spoilers = () => {
+				const showSpoilers = localStorage.getItem('musicSpoilers')
+				if (showSpoilers) document.documentElement.classList.add('showSpoilers')
+			}
+
+			spoilers()
+
+			document.addEventListener('astro:after-swap', spoilers)
+		</script>
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="summary">
+					<MusicCover {...{title, cover, coverAlt, hidden, randomColor, randomCover, currentLang}} client:idle transition:animate={customTransition} />
+					<div class="info">
+						<div class="subtitle">
+							{kanji}
+						</div>
+						<div class="title">
+							<h3>{name}</h3>
+						</div>
+						<div class="date">
+							<span>{artist}</span>
+							<span>•</span>
+							<span>{parseDate}</span>
+						</div>
+						{links && <div class="links">
+							{links.map(({ name, url }) => (
+								<a class="link" href={url} target="_blank">
+									<Icon name={logos[name as keyof typeof logos]} />
+									{name}
+								</a>
+							))}
+						</div>}
+						<div class="relations">
+							<h4>Relacionados</h4>
+							<div class="covers">
+								{prevAlbum &&
+									<a class="relation" href={translatePath(`/music/${prevAlbum.title}`)}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<source srcset="/99.avif" type="image/avif">
+														<source srcset="/99.webp" type="image/webp">
+														<img src="/99.png" alt="" />
+													</picture>
+													<picture class="duplicate">
+														<source srcset="/99.avif" type="image/avif">
+														<source srcset="/99.webp" type="image/webp">
+														<img src="/99.png" alt="" />
+													</picture>
+												</div>
+												<span>Anterior</span>
+											</div>
+										</div>
+										<div class="cover">
+											{prevAlbum.hidden &&
+												<div class="overlay" style={`background-color: var(${colors[Math.floor(Math.random() * colors.length)]})`}></div>
+												<picture class="spoiler">
+													<source srcset={`/wrinkled${prevRandomCover}.avif`} type='image/avif' />
+													<source srcset={`/wrinkled${prevRandomCover}.webp`} type='image/webp' />
+													<img src={`/wrinkled${prevRandomCover}.jpg`} alt="" />
+												</picture>
+											}
+											<picture>
+												{(prevAlbum.coverHalf ? prevAlbum.coverHalf : prevAlbum.cover).map((path, i) => {
+													const isLast = (prevAlbum.coverHalf ? prevAlbum.coverHalf : prevAlbum.cover).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="" style={prevAlbum.position ? `object-position: ${prevAlbum.position}` : ''} class={prevAlbum.hidden ? 'hidden' : ''} />
+													
+													return <source srcset={path} type={`image/${type}`} />
+												})}
+											</picture>
+										</div>		
+									</a>
+								}
+								{nextAlbum &&
+									<a class="relation" href={translatePath(`/music/${nextAlbum.title}`)}>
+										<div class="when">
+											<div class="whenWrapper">
+												<div class="texture">
+													<picture>
+														<source srcset="/85.avif" type="image/avif">
+														<source srcset="/85.webp" type="image/webp">
+														<img src="/85.png" alt="" />
+													</picture>
+													<picture class="duplicate">
+														<source srcset="/85.avif" type="image/avif">
+														<source srcset="/85.webp" type="image/webp">
+														<img src="/85.png" alt="" />
+													</picture>
+												</div>
+												<span>Siguiente</span>
+											</div>
+										</div>
+										<div class="cover">
+											{nextAlbum.hidden &&
+												<div class="overlay" style={`background-color: var(${colors[Math.floor(Math.random() * colors.length)]})`}></div>
+												<picture class="spoiler">
+													<source srcset={`/wrinkled${nextRandomCover}.avif`} type='image/avif' />
+													<source srcset={`/wrinkled${nextRandomCover}.webp`} type='image/webp' />
+													<img src={`/wrinkled${nextRandomCover}.jpg`} alt="" />
+												</picture>
+											}
+											<picture>
+												{(nextAlbum.coverHalf ? nextAlbum.coverHalf : nextAlbum.cover).map((path, i) => {
+													const isLast = (nextAlbum.coverHalf ? nextAlbum.coverHalf : nextAlbum.cover).length === i + 1
+													const type = path.split('.').pop()
+
+													if (isLast) return <img src={path} alt="" style={nextAlbum.position ? `object-position: ${nextAlbum.position};` : ''} class={nextAlbum.hidden ? 'hidden' : ''} />
+													
+													return <source srcset={path} type={`image/${type}`} />
+												})}
+											</picture>
+										</div>		
+									</a>
+								}
+								{sources && sources.map(source => {
+									const anime = arcs.find(x => x.name === source)
+
+									if (!anime) return ''
+									
+									return (
+										<a class="relation source" href={translatePath(`/anime/${source}`)}>
+											<div class="when">
+												<div class="whenWrapper">
+													<div class="texture">
+														<picture>
+															<source srcset="/12.avif" type="image/avif">
+															<source srcset="/12.webp" type="image/webp">
+															<img src="/12.png" alt="" />
+														</picture>
+														<picture class="duplicate">
+															<source srcset="/12.avif" type="image/avif">
+															<source srcset="/12.webp" type="image/webp">
+															<img src="/12.png" alt="" />
+														</picture>
+													</div>
+													<span>Fuente</span>
+												</div>
+											</div>
+											<div class="cover">
+												<picture>
+													{(anime.picturesHalf ? anime.picturesHalf : anime.pictures).map((path, i) => {
+														const isLast = (anime.picturesHalf ? anime.picturesHalf : anime.pictures).length === i + 1
+														const type = path.split('.').pop()
+		
+														if (isLast) return <img src={path} alt="" />
+														
+														return <source srcset={path} type={`image/${type}`} />
+													})}
+												</picture>
+											</div>		
+										</a>
+									)
+								})}
+							</div>
+						</div>
+						<div class="section tracklist">
+							<h4>Lista de temas</h4>
+							<ol>
+								{trackList.map(track => <li>
+									<div>
+										<span>{track.name}</span>
+										<span>{track.length}</span>
+									</div>
+								</li>)}
+							</ol>
+						</div>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

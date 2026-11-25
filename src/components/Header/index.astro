@@ -1,6 +1,12 @@
 ---
 import './styles.scss'
 import Menu from '../Menu'
+import LanguageSelector from '../LanguageSelector'
+import { getLangFromUrl, useTranslatedPath, useTranslations, trimLocation } from '../../i18n/utils'
+
+const currentLang = getLangFromUrl(Astro.url)
+const t = useTranslations(currentLang)
+const translatePath = useTranslatedPath(currentLang)
 
 const active = Astro.url.pathname
 ---
@@ -18,15 +24,16 @@ const active = Astro.url.pathname
 			</div>
 		</div>
 		<nav>
-			<Menu client:idle active={active} />
+			<Menu client:idle {...{active, currentLang}} />
 			<ul>
-				<li><a href="/stories" class={active.startsWith('/stories') ? "active" : ""}>Short Stories</a></li>
-				<li><a href="/lns" class={active.startsWith('/lns') ? "active" : ""}>Light Novels</a></li>
-				<li><a href="/" class={active == '/' || active.startsWith('/anime') ? "active" : ""}>Anime</a></li>
-				<li><a href="/manga" class={active.startsWith('/manga') ? "active" : ""}>Manga</a></li>
-				<li><a href="/music" class={active.startsWith('/music') ? "active" : ""}>Music</a></li>
-				<li><a href="/downloads" class={active.startsWith('/downloads') ? "active" : ""}>Downloads</a></li>
+				<li><a href={translatePath("/stories")} class={trimLocation(active, currentLang).startsWith('/stories') ? "active" : ""}>{t('nav.shortStories')}</a></li>
+				<li><a href={translatePath("/lns")} class={trimLocation(active, currentLang).startsWith('/lns') ? "active" : ""}>{t('nav.lightNovels')}</a></li>
+				<li><a href={translatePath("/")} class={trimLocation(active, currentLang) == '/' || trimLocation(active, currentLang).startsWith('/anime') ? "active" : ""}>Anime</a></li>
+				<li><a href={translatePath("/manga")} class={trimLocation(active, currentLang).startsWith('/manga') ? "active" : ""}>Manga</a></li>
+				<li><a href={translatePath("/music")} class={trimLocation(active, currentLang).startsWith('/music') ? "active" : ""}>{t('nav.music')}</a></li>
+				<li><a href={translatePath("/downloads")} class={trimLocation(active, currentLang).startsWith('/downloads') ? "active" : ""}>{t('nav.downloads')}</a></li>
 			</ul>
+			<LanguageSelector {...{currentLang, location: active }} client:idle />
 		</nav>
 	</div>
 </header>

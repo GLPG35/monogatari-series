@@ -1,0 +1,149 @@
+[
+	{
+		"name": "tsukimonogatari",
+		"title": "Tsukimonogatari",
+		"kanji": [
+			["月", "tsuki."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/tsukimonogatari-tsubasa.avif",
+			"/covers/lns/tsukimonogatari-tsubasa.webp",
+			"/covers/lns/tsukimonogatari-tsubasa.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/tsukimonogatari-tsubasa-0.5x.avif",
+			"/covers/lns/tsukimonogatari-tsubasa-0.5x.webp",
+			"/covers/lns/tsukimonogatari-tsubasa-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-white",
+		"info": {
+			"date": "2016-09-29",
+			"stories": [
+			    ["Episodio cruce: León Tsubasa", ["Episode Cross: Tsubasa Lion", "第交話 つばさライオン"]]
+			],
+			"description": [
+				"Kiriyama Rei, un jugador profesional de shogi, se topa con una extraña escena esperándolo una fría mañana en frente al edificio de la Asociación de Shogi: Hanekawa Tsubasa, una chica con aspecto de gato, enroscada y durmiendo entre periódicos viejos.",
+				"",
+				"Atrapado y retenido por la estudiante modelo y mejor alumna de su promoción, la «presidenta entre presidentas», Rei se ve arrastrado a un encuentro inesperado. ¿Qué le traerá consigo esta chica desconocida en medio de un paisaje tan familiar?"
+			]
+		}
+	},
+	{
+		"name": "mazemonogatari",
+		"title": "Mazemonogatari",
+		"kanji": [
+			["混", "maze."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/mazemonogatari.avif",
+			"/covers/lns/mazemonogatari.webp",
+			"/covers/lns/mazemonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/mazemonogatari-0.5x.avif",
+			"/covers/lns/mazemonogatari-0.5x.webp",
+			"/covers/lns/mazemonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-red",
+		"info": {
+			"date": "2019-02-06",
+			"stories": [
+			    ["Episodio olvido: Equilibrio Kyouko", ["Episode Oblivion: Kyouko Balance", "第忘話 きょうこバランス"]],
+			    ["Episodio fuerza: Construcción Jun", ["Episode Strong: Jun Build", "第強話 じゅんビルド"]],
+			    ["Episodio ley: Regla Nomi", ["Episode Law: Nomi Rule", "第法話 のみルール"]],
+			    ["Episodio ojo: Ojo rojo Mayumi", ["Episode Eye: Mayumi Red Eye", "第眼話 まゆみレッドアイ"]],
+			    ["Episodio enfermedad: Cama Kuroneko", ["Episode Illness: Kuroneko Bed", "第病話 くろねこベッド"]],
+			    ["Episodio sangre: Sangre Risuka", ["Episode Blood: Risuka Blood", "第血話) りすかブラッド"]],
+			    ["Episodio espada: Claro Hitei", ["Episode Sword: Hitei Clear", "第刀話 ひていクリア"]],
+			    ["Episodio asesinato: Fuga Iori", ["Episode Kill: Iori Fuga", "第殺話 いおりフーガ"]],
+			    ["Episodio ejército: Ranger Shiogi", ["Episode Army: Shiogi Ranger", "第軍話 しおぎレンジャー"]],
+			    ["Episodio invitación: Triple Akari", ["Episode Invitation: Akari Triple", "第招話 あかりトリプル"]],
+			    ["Episodio comer: Rock'n Rizumu", ["Episode Eat: Rizumu Rock'n", "第喰話 りずむロックン"]],
+			    ["Episodio grandeza: Comunidad Mikoko", ["Episode University: Mikoko Community", "第大話 みここコミュニティ"]],
+			    ["Episodio héroe: Invisible Kuu", ["Episode Hero: Kuu Invisible", "第英話 くうインビジブル"]],
+			    ["Episodio embaucador: Ruleta Rai", ["Episode Deceive: Rai Roulette", "第騙話 らいルーレット"]],
+			    ["Episodio final: Finalista Magokoro", ["Final Episode: Magokoro Finisher", "第終話 まごころフィニッシャー"]]
+			],
+			"description": [
+				"Atravesando los límites de cada serie, ¡las heroínas conocen a Araragi Koyomi! ¡La primera colección de novelas crossover de NisiOisiN se publica con orgullo!"
+			]
+		}
+	},
+	{
+		"name": "mijikanamonogatari",
+		"title": "Mijikanamonogatari",
+		"kanji": [
+			["短", "mijikana."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"pictures": [
+			"/covers/lns/mijikanamonogatari.avif",
+			"/covers/lns/mijikanamonogatari.webp",
+			"/covers/lns/mijikanamonogatari.jpg"
+		],
+		"picturesHalf": [
+			"/covers/lns/mijikanamonogatari-0.5x.avif",
+			"/covers/lns/mijikanamonogatari-0.5x.webp",
+			"/covers/lns/mijikanamonogatari-0.5x.jpg"
+		],
+		"responsivePosition": "center 10%",
+		"color": "--bg-green",
+		"info": {
+			"date": "2024-09-11",
+			"stories": [
+			    ["Bufé Hitagi", ["Hitagi Buffet", "ひたぎブッフェ"]],
+			    ["Habitación Mayoi", ["Mayoi Room", "まよいルーム"]],
+			    ["Cancha Suruga", ["Suruga Court", "するがコート"]],
+			    ["Piscina Nadeko", ["Nadeko Pool", "なでこプール"]],
+			    ["Canción Tsubasa", ["Tsubasa Song", "つばさソング"]],
+			    ["Cuello Hitagi", ["Hitagi Neck","ひたぎネック"]],
+			    ["Brazo-Pierna Karen", ["Karen Arm Leg", "かれんアームレッグ"]],
+			    ["Eterna Tsukihi", ["Tsukihi Eternal", "つきひエターナル"]],
+			    ["Casa Shinobu", ["Shinobu House", "しのぶハウス"]],
+			    ["Tablero Tsubasa", ["Tsubasa Board", "つばさボード"]],
+			    ["Castillo Mayoi", ["Mayoi Castle", "まよいキャッスル"]],
+			    ["Moneda Hitagi", ["Hitagi Coin", "ひたぎコイン"]],
+			    ["Espejo Nadeko", ["Nadeko Mirror", "なでこミラー"]],
+			    ["Ciencia Shinobu", ["Shinobu Science", "しのぶサイエンス"]],
+			    ["Figura Hitagi", ["Hitagi Figure", "ひたぎフィギュア"]],
+			    ["Salamandra Hitagi", ["Hitagi Salamander", "ひたぎサラマンダー"]],
+			    ["Lanzamiento Hitagi", ["Hitagi Throwing", "ひたぎスローイング"]],
+			    ["Palacio Suruga", ["Suruga Palace", "するがパレス"]],
+			    ["Futuro Yotsugi", ["Yotsugi Future", "よつぎフューチャー"]],
+			    ["Viaje Ougi", ["Ougi Travel", "おうぎトラベル"]],
+			    ["Estupenda Suruga", ["Suruga Neat", "するがニート"]],
+			    ["Dios Rouka", ["Rouka God", "ろうかゴッド"]],
+			    ["Figura Shinobu", ["Shinobu Figure", "しのぶフィギュア"]],
+			    ["Cepillado Karen", ["Karen Brushing", "かれんブラッシング"]],
+			    ["Cepillado Tsukihi", ["Tsukihi Brushing", "つきひブラッシング"]],
+			    ["Historia Koyomi", ["Koyomi History", "こよみヒストリー"]],
+			    ["Estrés Yotsugi", ["Yotsugi Stress", "よつぎストレス"]],
+			    ["Como humano", ["Hito Toshite", "人として"]],
+			    ["Algo malo", ["Douka Shite", "どうかして"]],
+			    ["Y luego", ["Soshite", "そして"]],
+			    ["¿Por qué?", ["Doushite", "どうして"]],
+			    ["Con cuidado", ["Kokoro Shite", "心して"]],
+			    ["Bienvenida Mayoi", ["Mayoi Welcome", "まよいウエルカム"]],
+			    ["Domo de nieve Yotsugi", ["Yotsugi Snow Dome", "よつぎスノードーム"]],
+			    ["Película de carretera Ougi", ["Ougi Road Movie", "おうぎロードムービー"]],
+			    ["Penitencia Sodachi", ["Sodachi Penalty", "そだちペナルティ"]],
+			    ["Esta noche Shinobu", ["Shinobu Tonight", "しのぶトゥナイト"]],
+			    ["Pasado Nadeko", ["Nadeko Past", "なでこパスト"]],
+			    ["Futuro Shinobu", ["Shinobu Future", "しのぶフューチャー"]]
+			],
+			"description": [
+				"NisiOisiN presenta la primera colección de historias cortas de esta serie sobrenatural de aprendizaje, ¡Monogatari!",
+				"¡Esta recopilación reúne 39 historias con las que es fácil identificarse, incluidas las 33 historias iniciales y seis historias cortas completamente nuevas!",
+				"¡Estas son las excentricidades de la era moderna! ¡Excentricidades! ¡Excentricidades!",
+				"La habilidad de hablar tanto del pasado como del futuro es en lo que consiste la juventud."
+			]
+		}
+	}
+]

@@ -1,0 +1,69 @@
+---
+import Layout from '../../../layouts/Layout.astro'
+import MusicList from '../../../components/MusicList'
+import music from '../../../utils/music.json'
+import './styles.scss'
+import BackToTop from '../../../components/BackToTop';
+import { getLangFromUrl } from '../../../i18n/utils';
+
+const currentLang = getLangFromUrl(Astro.url)
+
+const anim = {
+	old: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)",
+		direction: "reverse"
+	},
+	new: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)"
+	}
+}
+
+const customTransition = {
+	forwards: anim,
+	backwards: anim
+}
+---
+
+<html lang="en" style="--bg-color: var(--bg-salmon)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - Música</title>
+		<meta name="description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series - Música" />
+		<meta property="og:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatariseri.es/banners/music-banner.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series - Música" />
+		<meta property="twitter:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="twitter:image" content="https://monogatariseri.es/banners/music-banner.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<BackToTop client:load />
+			<main>
+				<div class="info">
+					<div class="subsection">
+						<h2>Música</h2>
+						<p>Esta sección incluye la mayoría de los álbumes físicos disponibles de la Monogatari Series. Para facilitar la navegación y evitar la redundancia, los álbumes exclusivamente digitales se omiten de la lista principal y, en su lugar, se enlazan dentro de sus lanzamientos originales.</p>
+					</div>
+					<MusicList {...{music, currentLang}} client:idle transition:animate={customTransition} />
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

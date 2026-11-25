@@ -1,6 +1,6 @@
 # Monogatari Series
 
-<img src="https://monogatari-series.vercel.app/favicon/favicon.svg" width="100px" align="right" />
+<img src="/favicon/favicon.svg" width="100px" align="right" />
 
 This website was made for the fans of the Monogatari Series. The idea is to have a centralized hub with all of the information about the Monogatari Series light novels, anime, manga, short stories and some extra stuff.
 

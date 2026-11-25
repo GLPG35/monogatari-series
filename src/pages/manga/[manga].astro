@@ -6,6 +6,7 @@ import './manga.scss'
 import mangas from '../../utils/manga.json'
 import GalleryContainer from "../../components/GalleryContainer"
 import CardContainer from '../../components/CardContainer'
+import { getLangFromUrl } from "../../i18n/utils"
 
 export const getStaticPaths = (() => {
 	return mangas.map(({ name }) => ({ params: { manga: name }}))
@@ -15,6 +16,8 @@ const { manga } = Astro.params
 const findMangaIndex = mangas.findIndex(x => x.name === manga)
 
 if (findMangaIndex === -1) return Astro.redirect('/404')
+
+const currentLang = getLangFromUrl(Astro.url)
 
 const { color, pictures, picturesAlt, name, title, kanji, info, responsivePosition } = mangas[findMangaIndex]
 const gallery = info.gallery as [string[], "visible"|"hidden"][]
@@ -70,7 +73,7 @@ const customTransition = {
 		<Layout>
 			<main>
 				<div class="summary">
-					<CoverWithAlt {...{pictures, picturesAlt, name, manga}} client:idle transition:name={`manga-cover-${manga}`} transition:animate={customTransition} />
+					<CoverWithAlt {...{pictures, picturesAlt, name, manga, currentLang}} client:idle transition:animate={customTransition} />
 					<div class="info">
 						<div class="subtitle">
 							{kanji.map(x => x[0]).join('')}
@@ -205,8 +208,8 @@ const customTransition = {
 							<h4>Synopsis</h4>
 							{info.description.map(text => (<p>{text}</p>))}
 						</div>
-						{gallery && <GalleryContainer client:load gallery={gallery} />}
-						{cards && <CardContainer client:load cards={cards} />}
+						{gallery && <GalleryContainer client:load {...{gallery, currentLang}} />}
+						{cards && <CardContainer client:load {...{cards, currentLang}} />}
 					</div>
 				</div>
 			</main>

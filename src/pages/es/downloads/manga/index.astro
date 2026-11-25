@@ -1,0 +1,73 @@
+---
+import { getLangFromUrl, useTranslations } from '../../../../i18n/utils';
+import Layout from '../../../../layouts/Layout.astro'
+import './styles.scss'
+
+const currentLang = getLangFromUrl(Astro.url)
+const t = useTranslations(currentLang)
+---
+
+<html lang="en" style="--bg-color: var(--bg-salmon)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - Descargas del manga</title>
+		<meta name="description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series - Descargas del manga" />
+		<meta property="og:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatariseri.es/banners/manga-downloads.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series - Descargas del manga" />
+		<meta property="twitter:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="twitter:image" content="https://monogatariseri.es/banners/manga-downloads.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<main>
+				<div class="section">
+					<div class="cover">
+						<a href="/covers/manga-cover.jpg" target="_blank">{t('fullResolution')}</a>
+						<picture>
+							<source srcset="/covers/manga-cover.avif" type="image/avif" />
+							<source srcset="/covers/manga-cover.webp" type="image/webp" />
+							<img src="/covers/manga-cover.jpg" alt="" transition:name="manga-downloads" />
+						</picture>
+					</div>
+					<div class="info">
+						<div class="subtitle">
+							化物語【全巻】
+						</div>
+						<div class="title">
+							<h3>Bakemonogatari (Todos los volúmenes)</h3>
+						</div>
+						<div class="links">
+							<h4>Links</h4>
+							<ul>
+								<span class="sub">Japonés</span>
+								<li>Bakemonogatari Volúmenes 1 - 22 [CBZ] (JPN) <a href="https://mega.nz/folder/5UVAmJIC#lhkdFdWI2t7cG2NOr3extA" target="_blank">[MEGA (1.5GB)]</a></li>
+								<span class="sub">English</span>
+								<li>Bakemonogatari Volúmenes 1 - 22 [CBZ] (Localización oficial ENG) <a href="https://mega.nz/folder/w1ABTToJ#Q2voVDe2dqbY5djFJejqpA" target="_blank">[MEGA (5.97GB)]</a></li>
+								<span class="sub">Spanish</span>
+								<li>Bakemonogatari Volúmenes 1 - 22 [CBZ] (Traducción hecha por fans ESP) <a href="https://mega.nz/folder/1IliDQ6b#jmxi-6V_tmNWhyfo2pH_Lg" target="_blank">[MEGA (2.8GB)]</a></li>
+							</ul>
+						</div>
+						<div class="notes">
+							<h4>Notas</h4>
+							<p>La traducción al español fue realizada por fans bajo el nombre de <a href="https://kaminofansub2.blogspot.com/" target="_blank">Kami No Fansub</a>.</p>
+						</div>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

@@ -6,6 +6,7 @@ import './album.scss'
 import music from '../../utils/music.json'
 import arcs from '../../utils/arcs.json'
 import { Icon } from 'astro-icon/components'
+import { getLangFromUrl } from "../../i18n/utils"
 
 export const getStaticPaths = (() => {
 	return music.map(({ title }) => ({ params: { album: title }}))
@@ -15,6 +16,8 @@ const { album } = Astro.params
 const findAlbumIndex = music.findIndex(x => x.title === album)
 
 if (findAlbumIndex === -1) return Astro.redirect('/404')
+
+const currentLang = getLangFromUrl(Astro.url)
 
 const { title, name, kanji, artist, date, color, cover, coverAlt, hidden, position, sources, links, trackList } = music[findAlbumIndex]
 
@@ -107,7 +110,7 @@ const customTransition = {
 		<Layout>
 			<main>
 				<div class="summary">
-					<MusicCover {...{cover, coverAlt, hidden, randomColor, randomCover}} client:idle transition:name={`music-cover-${title}`} transition:animate={customTransition} />
+					<MusicCover {...{title, cover, coverAlt, hidden, randomColor, randomCover, currentLang}} client:idle transition:animate={customTransition} />
 					<div class="info">
 						<div class="subtitle">
 							{kanji}

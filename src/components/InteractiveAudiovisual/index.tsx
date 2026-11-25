@@ -1,16 +1,35 @@
 import { useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
+import type { languages } from '../../i18n/ui'
+import { useTranslations } from '../../i18n/utils'
 
 const parseLang = {
-	'ENG': 'English',
-	'SPA': 'Spanish',
-	'PT-BR': 'Portuguese (Brazil)',
-	'JPN': 'Japanese'
+	'ENG': {
+		en: 'English',
+		es: 'Inglés',
+		pt: 'Inglês'
+	},
+	'SPA': {
+		en: 'Spanish',
+		es: 'Español',
+		pt: 'Espanhol'
+	},
+	'PT-BR': {
+		en: 'Portuguese (Brazil)',
+		es: 'Portugués (Brasil)',
+		pt: 'Portugês (Brasil)'
+	},
+	'JPN': {
+		en: 'Japanese',
+		es: 'Japonés',
+		pt: 'Japonês'
+	}
 }
 
 type Lang = keyof typeof parseLang
 
-const InteractiveAudiovisual = ({ audiovisual }: { audiovisual: { name: string, date: string, when: string, pictures: string[], links: { language: string, url: string, incomplete?: boolean }[] }[] }) => {
+const InteractiveAudiovisual = ({ audiovisual, currentLang }: { audiovisual: { name: string, date: string, when: string, pictures: string[], links: { language: string, url: string, incomplete?: boolean }[] }[], currentLang: keyof typeof languages }) => {
+	const t = useTranslations(currentLang)
 	const [modal, setModal] = useState<{ name: string, links: { language: string, url: string, incomplete?: boolean }[] }>()
 	
 	return (
@@ -28,7 +47,7 @@ const InteractiveAudiovisual = ({ audiovisual }: { audiovisual: { name: string, 
 											<img src="/28.png" alt="" />
 										</picture>
 									</div>
-									Language
+									{t('language')}
 								</div>
 							</motion.div>
 							<motion.div className="labelBackgroundWrapper right" initial={{ translateX: '110%' }} animate={{ translateX: 0 }} transition={{ duration: 0.7, type: 'spring', bounce: -2, delay: 0.4 }}>
@@ -56,7 +75,7 @@ const InteractiveAudiovisual = ({ audiovisual }: { audiovisual: { name: string, 
 							</div>
 							<motion.div className="modal" onClick={e => e.stopPropagation()}>
 								{modal.links.map(({ language, url, incomplete }) => (
-									<a key={language} href={url} target='_blank'>{parseLang[language as Lang]}{incomplete && ' [Incomplete]'}</a>
+									<a key={language} href={url} target='_blank'>{parseLang[language as Lang][currentLang]}{incomplete && ' [Incomplete]'}</a>
 								))}
 							</motion.div>
 						</motion.div>
@@ -66,7 +85,7 @@ const InteractiveAudiovisual = ({ audiovisual }: { audiovisual: { name: string, 
 			{audiovisual.map(({ name, date, when, pictures, links }) => {
 				const isDate = date.includes('-')
 				const [fullYear, month, day] = date.split('-')
-				const parseDate = isDate ? Intl.DateTimeFormat('en-US', { dateStyle: 'long' }).format(new Date(+fullYear, +month - 1, +day)) : date
+				const parseDate = isDate ? Intl.DateTimeFormat(currentLang, { dateStyle: 'long' }).format(new Date(+fullYear, +month - 1, +day)) : date
 				
 				return <div className="media" onClick={() => setModal({ name, links })} key={name}>
 					<div className="cover">

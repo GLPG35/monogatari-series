@@ -1,0 +1,315 @@
+[
+	{
+		"name": "Hyakumonogatari",
+		"date": "2009-08-04",
+		"when": "Después de Nisemonogatari",
+		"pictures": [
+			"/audiovisual/hyakumonogatari.avif",
+			"/audiovisual/hyakumonogatari.webp",
+			"/audiovisual/hyakumonogatari.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1eNSd3XXB_n4KeeIxeErAnBsldbHzq6bc/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://youtube.com/playlist?list=PLbswCduZXzjDQCUOmVNReftcyzshRVjnp&si=aN3uld1sA7aIGDww"
+			}
+		]
+	},
+	{
+		"name": "Monólogo de Hanekawa Tsubasa",
+		"date": "2013-10-23",
+		"when": "Después de Nekomonogatari Shiro",
+		"pictures": [
+			"/audiovisual/tsubasa-monologue.avif",
+			"/audiovisual/tsubasa-monologue.webp",
+			"/audiovisual/tsubasa-monologue.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1BCrFKlI4RWeRfIaRvez-UAfr-ikcwwR9/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://www.youtube.com/watch?v=oCzlnrDfNvo"
+			}
+		]
+	},
+	{
+		"name": "Carta de Tsubasa",
+		"date": "2013-11-27",
+		"when": "Después de Nekomonogatari Shiro",
+		"pictures": [
+			"/audiovisual/tsubasa-letter.avif",
+			"/audiovisual/tsubasa-letter.webp",
+			"/audiovisual/tsubasa-letter.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1wJTOljd-GyTFq2DWBmlEeDMslyDb_tCX/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://drive.google.com/file/d/18RiNdQ5DjzxfGrMbrfr28FIabV1gw009/view?usp=drive_link"
+			}
+		]
+	},
+	{
+		"name": "Narración de camiones publicitarios de Hanamonogatari",
+		"date": "2014-08-16",
+		"when": "Antes de Hanamonogatari",
+		"pictures": [
+			"/audiovisual/hanamonogatari-ad.avif",
+			"/audiovisual/hanamonogatari-ad.webp",
+			"/audiovisual/hanamonogatari-ad.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1_yf-d3fhLDYMj_yAgEjpgaDL4ZiILKwG/edit"
+			}
+		]
+	},
+	{
+		"name": "Videos de modales en el cine de Madoka Magica Rebellion x Monogatari Series",
+		"date": "2013-10-26",
+		"when": "Después de Second Season",
+		"pictures": [
+			"/audiovisual/rebellion-manner-movies.avif",
+			"/audiovisual/rebellion-manner-movies.webp",
+			"/audiovisual/rebellion-manner-movies.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/drive/folders/108Ec9OkvaCYKY_WQGELMDpxMaUZN4Nhv?usp=sharing"
+			},
+			{
+				"language": "SPA",
+				"url": "https://youtube.com/playlist?list=PLbswCduZXzjBn7Gojsky9zrzp9MuRn3pT&si=DChpnMHiJ1iC4o6x"
+			}
+		]
+	},
+	{
+		"name": "El memorándum de Okitegami Kyouko VP",
+		"date": "2014-12-31",
+		"when": "Después de Second Season",
+		"pictures": [
+			"/audiovisual/memorandum.avif",
+			"/audiovisual/memorandum.webp",
+			"/audiovisual/memorandum.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1diSQ0lEAdHMcoGKGKPTgVEOALuYhrDu8/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://www.youtube.com/watch?v=In3kezd89os"
+			}
+		]
+	},
+	{
+		"name": "Videos de modales de Madogatari",
+		"date": "2016-09-22",
+		"when": "Después de Madoka Magica: Rebellion",
+		"pictures": [
+			"/audiovisual/madogatari-manner-movie.avif",
+			"/audiovisual/madogatari-manner-movie.webp",
+			"/audiovisual/madogatari-manner-movie.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/drive/folders/1U9YvZHK0eL25U7lBkymJA4Nyw91g9uNY?usp=sharing"
+			}
+		]
+	},
+	{
+		"name": "Historia Koyomi",
+		"date": "2016-09-22",
+		"when": "Después de Second Season",
+		"pictures": [
+			"/audiovisual/koyomi-history.avif",
+			"/audiovisual/koyomi-history.webp",
+			"/audiovisual/koyomi-history.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1U_KsfiPtkc_D1RGmKlWBYb6kQfuBWC4e/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://www.youtube.com/watch?v=Js5-00jQBV0"
+			}
+		]
+	},
+	{
+		"name": "Video de bienvenida de Nisio Isin Daijiten",
+		"date": "2017-07-21",
+		"when": "Después de Nisemonogatari",
+		"pictures": [
+			"/audiovisual/nisioisin-daijiten.avif",
+			"/audiovisual/nisioisin-daijiten.webp",
+			"/audiovisual/nisioisin-daijiten.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1FSdL-4ND544n3RJodCweNNjaE6sJBlE5/edit"
+			}
+		]
+	},
+	{
+		"name": "Monogatari Fes 〜10th Anniversary Story〜",
+		"date": "2019-05-11",
+		"when": "Después de Zoku Owarimonogatari",
+		"pictures": [
+			"/audiovisual/monogatari-fes.avif",
+			"/audiovisual/monogatari-fes.webp",
+			"/audiovisual/monogatari-fes.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/drive/folders/1uxlgNvOr7CdmjfMRCvD-9L0Eh_qyJ597?usp=sharing"
+			},
+			{
+				"language": "SPA",
+				"url": "https://www.youtube.com/playlist?list=PLbswCduZXzjAu19q2mVVoxogjVytHPvHJ",
+				"incomplete": true
+			}
+		]
+	},
+	{
+		"name": "Entendiendo Monogatari Series en 120 segundos",
+		"date": "2021-08-17",
+		"when": "Después de Shinomonogatari",
+		"pictures": [
+			"/audiovisual/120-seconds.avif",
+			"/audiovisual/120-seconds.webp",
+			"/audiovisual/120-seconds.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1dQRS0CTjqYjPS4ARvZuv23pUGeZ_dpTe/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://www.youtube.com/watch?v=gOkZzLrjuJY"
+			}
+		]
+	},
+	{
+		"name": "Bakemonogatari Manga VP",
+		"date": "2022-02-16",
+		"when": "Después de Kizumonogatari",
+		"pictures": [
+			"/audiovisual/bakemonogatari-pv.avif",
+			"/audiovisual/bakemonogatari-pv.webp",
+			"/audiovisual/bakemonogatari-pv.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1CZBvoqWnRBTdXqaXSPT8l5HVxKDt1GoS/view?usp=sharing"
+			},
+			{
+				"language": "SPA",
+				"url": "https://drive.google.com/file/d/1IK4OvqLD-SAAynIv-HG_BYaYPfLNl1g3/view?usp=sharing"
+			}
+		]
+	},
+	{
+		"name": "¡Una conversación urgente! Usuario sin sentido x Araragi Koyomi",
+		"date": "2023-02-22",
+		"when": "Después de Zoku Owarimonogatari",
+		"pictures": [
+			"/audiovisual/nonsense-user.avif",
+			"/audiovisual/nonsense-user.webp",
+			"/audiovisual/nonsense-user.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1Q3EVWP0CDN2N47psmf756PtbtaBHIW8z/edit"
+			}
+		]
+	},
+	{
+		"name": "Video mensaje de Ikusamonogatari",
+		"date": "2023-05-17",
+		"when": "Antes de Ikusamonogatari",
+		"pictures": [
+			"/audiovisual/ikusamonogatari.avif",
+			"/audiovisual/ikusamonogatari.webp",
+			"/audiovisual/ikusamonogatari.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/file/d/1otuf0u8KjgRdMx_JEifpwIzuDV6Bt1WG/edit"
+			},
+			{
+				"language": "SPA",
+				"url": "https://www.youtube.com/watch?v=g01AlIA8E98&pp=0gcJCSsMAYcqIYzv"
+			}
+		]
+	},
+	{
+		"name": "Nazomonogatari",
+		"date": "2024-06-06",
+		"when": "Después de Second Season",
+		"pictures": [
+			"/audiovisual/nazomonogatari.avif",
+			"/audiovisual/nazomonogatari.webp",
+			"/audiovisual/nazomonogatari.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/drive/folders/1b55UYkm7JdvVa96LMbCplfJD8SIK29Lc?usp=sharing"
+			}
+		]
+	},
+	{
+		"name": "Lectura en vivo de Año Nuevo de Koyomi",
+		"date": "2026-01-10",
+		"when": "Después de Zoku Owarimonogatari",
+		"pictures": [
+			"/audiovisual/shaft-50.avif",
+			"/audiovisual/shaft-50.webp",
+			"/audiovisual/shaft-50.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/drive/folders/1cOz3faJxoza2E14pX9vZhS35lxpQKIBQ?usp=sharing"
+			}
+		]
+	},
+	{
+		"name": "Mahou Doujo Yotsugi☆Peace",
+		"date": "2026-08-20",
+		"when": "Después de Off & Monster Season",
+		"pictures": [
+			"/audiovisual/yotsugi-peace.avif",
+			"/audiovisual/yotsugi-peace.webp",
+			"/audiovisual/yotsugi-peace.jpg"
+		],
+		"links": [
+			{
+				"language": "ENG",
+				"url": "https://drive.google.com/drive/folders/1AF-bSSKPUP-r7VRraDQQPGJ_AGA2fg0W?usp=sharing"
+			}
+		]
+	}
+]

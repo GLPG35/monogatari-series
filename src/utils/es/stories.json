@@ -1,0 +1,581 @@
+[
+	{
+		"name": "Canción Tsubasa",
+		"when": "Después de Bakemonogatari",
+		"pictures": [
+			"/covers/tsubasa-song.avif",
+			"/covers/tsubasa-song.webp",
+			"/covers/tsubasa-song.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Tsubasa Song.pdf",
+				"fileName": "Tsubasa Song.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Tsubasa Song.pdf",
+				"fileName": "Canción Tsubasa.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Tsubasa Song.pdf",
+				"fileName": "Tsubasa Canção.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Tsubasa Song.pdf",
+				"fileName": "つばさソング.pdf"
+			}
+		]
+	},
+	{
+		"name": "Lanzamiento Hitagi",
+		"when": "Después de Bakemonogatari",
+		"pictures": [
+			"/covers/hitagi-throwing.avif",
+			"/covers/hitagi-throwing.webp",
+			"/covers/hitagi-throwing.jpg"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Hitagi Throwing.pdf",
+				"fileName": "Hitagi Throwing.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Hitagi Throwing.pdf",
+				"fileName": "Lanzamiento Hitagi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Hitagi Throwing.pdf",
+				"fileName": "Hitagi Arremesso.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Hitagi Throwing.pdf",
+				"fileName": "ひたぎスローイング.pdf"
+			}
+		]
+	},
+	{
+		"name": "Como humano",
+		"when": "Después de Kizumonogatari III",
+		"pictures": [
+			"/covers/as-a-human.avif",
+			"/covers/as-a-human.webp",
+			"/covers/as-a-human.jpg"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/As A Human.pdf",
+				"fileName": "As A Human.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/As A Human.pdf",
+				"fileName": "Como Humano.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/As A Human.pdf",
+				"fileName": "Como Um Humano.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/As A Human.pdf",
+				"fileName": "人として.pdf"
+			}
+		]
+	},
+	{
+		"name": "Algo anda mal",
+		"when": "Después de Kizumonogatari III",
+		"pictures": [
+			"/covers/something-wrong.avif",
+			"/covers/something-wrong.webp",
+			"/covers/something-wrong.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Something Wrong.pdf",
+				"fileName": "Something Wrong.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Something Wrong.pdf",
+				"fileName": "Algo Anda Mal.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Something Wrong.pdf",
+				"fileName": "Algo De Errado.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Something Wrong.pdf",
+				"fileName": "どうかして.pdf"
+			}
+		]
+	},
+	{
+		"name": "Cumbre Gahara",
+		"when": "Después de Nisemonogatari",
+		"pictures": [
+			"/covers/gahara-summit.avif",
+			"/covers/gahara-summit.webp",
+			"/covers/gahara-summit.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Gahara Summit.pdf",
+				"fileName": "Gahara Summit.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Gahara Summit.pdf",
+				"fileName": "Cumbre Gahara.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Gahara Summit.pdf",
+				"fileName": "Gahara Cume.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Gahara Summit.pdf",
+				"fileName": "がはらサミット.pdf"
+			}
+		]
+	},
+	{
+		"name": "Habitación Mayoi",
+		"when": "Antes de Nekomonogatari Shiro",
+		"pictures": [
+			"/covers/mayoi-room.avif",
+			"/covers/mayoi-room.webp",
+			"/covers/mayoi-room.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Mayoi Room.pdf",
+				"fileName": "Mayoi Room.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Mayoi Room.pdf",
+				"fileName": "Habitación Mayoi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Mayoi Room.pdf",
+				"fileName": "Mayoi Quarto.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Mayoi Room.pdf",
+				"fileName": "まよいルーム.pdf"
+			}
+		]
+	},
+	{
+		"name": "Dios Rouka",
+		"when": "Después de Hanamonogatari",
+		"pictures": [
+			"/covers/rouka-god.avif",
+			"/covers/rouka-god.webp",
+			"/covers/rouka-god.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Rouka God.pdf",
+				"fileName": "Rouka God.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Rouka God.pdf",
+				"fileName": "Dios Rouka.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Rouka God.pdf",
+				"fileName": "Rouka Deus.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Rouka God.pdf",
+				"fileName": "ろうかゴッド.pdf"
+			}
+		]
+	},
+	{
+		"name": "Salamandra Hitagi",
+		"when": "Después de Koimonogatari",
+		"pictures": [
+			"/covers/hitagi-salamander.avif",
+			"/covers/hitagi-salamander.webp",
+			"/covers/hitagi-salamander.jpg"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Hitagi Salamander.pdf",
+				"fileName": "Hitagi Salamander.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Hitagi Salamander.pdf",
+				"fileName": "Salamandra Hitagi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Hitagi Salamander.pdf",
+				"fileName": "Hitagi Salamandra.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Hitagi Salamander.pdf",
+				"fileName": "ひたぎサラマンダー.pdf"
+			}
+		]
+	},
+	{
+		"name": "Domo de nieve Yotsugi",
+		"when": "Después de Tsukimonogatari",
+		"pictures": [
+			"/covers/yotsugi-snow-dome.avif",
+			"/covers/yotsugi-snow-dome.webp",
+			"/covers/yotsugi-snow-dome.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Yotsugi Snow Dome.pdf",
+				"fileName": "Yotsugi Snow Dome.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Yotsugi Snow Dome.pdf",
+				"fileName": "Domo De Nieve Yotsugi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Yotsugi Snow Dome.pdf",
+				"fileName": "Yotsugi Domo De Neve.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Yotsugi Snow Dome.pdf",
+				"fileName": "よつぎスノードーム.pdf"
+			}
+		]
+	},
+	{
+		"name": "Estrés Yotsugi",
+		"when": "Después de Owarimonogatari Jou",
+		"pictures": [
+			"/covers/yotsugi-stress.avif",
+			"/covers/yotsugi-stress.webp",
+			"/covers/yotsugi-stress.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Yotsugi Stress.pdf",
+				"fileName": "Yotsugi Stress.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Yotsugi Stress.pdf",
+				"fileName": "Estrés Yotsugi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Yotsugi Stress.pdf",
+				"fileName": "Yotsugi Estresse.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Yotsugi Stress.pdf",
+				"fileName": "よつぎストレス.pdf"
+			}
+		]
+	},
+	{
+		"name": "Y luego",
+		"when": "Después de Zoku Owarimonogatari",
+		"pictures": [
+			"/covers/and-then.avif",
+			"/covers/and-then.webp",
+			"/covers/and-then.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/And Then.pdf",
+				"fileName": "And Then.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/And Then.pdf",
+				"fileName": "Y Luego.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/And Then.pdf",
+				"fileName": "E Depois.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/And Then.pdf",
+				"fileName": "そして.pdf"
+			}
+		]
+	},
+	{
+		"name": "Espejo Sodachi",
+		"when": "Después de Zoku Owarimonogatari",
+		"pictures": [
+			"/covers/sodachi-mirror.avif",
+			"/covers/sodachi-mirror.webp",
+			"/covers/sodachi-mirror.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Sodachi Mirror.pdf",
+				"fileName": "Sodachi Mirror.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Sodachi Mirror.pdf",
+				"fileName": "Espejo Sodachi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Sodachi Mirror.pdf",
+				"fileName": "Sodachi Espelho.pdf"
+			}
+		]
+	},
+	{
+		"name": "Reflejo Ougi",
+		"when": "Después de Zoku Owarimonogatari",
+		"pictures": [
+			"/covers/ougi-reflect.avif",
+			"/covers/ougi-reflect.webp",
+			"/covers/ougi-reflect.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Ougi Reflect.pdf",
+				"fileName": "Ougi Reflect.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Ougi Reflect.pdf",
+				"fileName": "Reflejo Ougi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Ougi Reflect.pdf",
+				"fileName": "Ougi Reflexo.pdf"
+			}
+		]
+	},
+	{
+		"name": "Película de carretera Ougi",
+		"when": "Después de Zoku Owarimonogatari",
+		"pictures": [
+			"/covers/ougi-road-movie.avif",
+			"/covers/ougi-road-movie.webp",
+			"/covers/ougi-road-movie.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Ougi Road Movie.pdf",
+				"fileName": "Ougi Road Movie.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Ougi Road Movie.pdf",
+				"fileName": "Película De Carretera Ougi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Ougi Road Movie.pdf",
+				"fileName": "Ougi Filme De Estrada.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Ougi Road Movie.pdf",
+				"fileName": "おうぎロードムービー.pdf"
+			}
+		]
+	},
+	{
+		"name": "Cepillado Karen",
+		"when": "Después de Zoku Owarimonogatari",
+		"pictures": [
+			"/covers/karen-brushing.avif",
+			"/covers/karen-brushing.webp",
+			"/covers/karen-brushing.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Karen Brushing.pdf",
+				"fileName": "Karen Brushing.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Karen Brushing.pdf",
+				"fileName": "Cepillado Karen.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Karen Brushing.pdf",
+				"fileName": "Karen Escovando.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Karen Brushing.pdf",
+				"fileName": "かれんブラッシング.pdf"
+			}
+		]
+	},
+	{
+		"name": "Cepillado Tsukihi",
+		"when": "Después de Zoku Owarimonogatari",
+		"pictures": [
+			"/covers/tsukihi-brushing.avif",
+			"/covers/tsukihi-brushing.webp",
+			"/covers/tsukihi-brushing.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Tsukihi Brushing.pdf",
+				"fileName": "Tsukihi Brushing.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Tsukihi Brushing.pdf",
+				"fileName": "Cepillado Tsukihi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Tsukihi Brushing.pdf",
+				"fileName": "Tsukihi Escovando.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Tsukihi Brushing.pdf",
+				"fileName": "つきひブラッシング.pdf"
+			}
+		]
+	},
+	{
+		"name": "Pasado Nadeko",
+		"when": "Antes de Nademonogatari",
+		"pictures": [
+			"/covers/nadeko-past.avif",
+			"/covers/nadeko-past.webp",
+			"/covers/nadeko-past.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Nadeko Past.pdf",
+				"fileName": "Nadeko Past.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Nadeko Past.pdf",
+				"fileName": "Pasado Nadeko.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Nadeko Past.pdf",
+				"fileName": "Nadeko Passado.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Nadeko Past.pdf",
+				"fileName": "なでこパスト.pdf"
+			}
+		]
+	},
+	{
+		"name": "Futuro Shinobu",
+		"when": "Después de Nademonogatari",
+		"pictures": [
+			"/covers/shinobu-future.avif",
+			"/covers/shinobu-future.webp",
+			"/covers/shinobu-future.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Shinobu Future.pdf",
+				"fileName": "Shinobu Future.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Shinobu Future.pdf",
+				"fileName": "Futuro Shinobu.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Shinobu Future.pdf",
+				"fileName": "Shinobu Futuro.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Shinobu Future.pdf",
+				"fileName": "しのぶフューチャー.pdf"
+			}
+		]
+	},
+	{
+		"name": "Bienvenida Mayoi",
+		"when": "Antes de Shinobumonogatari",
+		"pictures": [
+			"/covers/mayoi-welcome.avif",
+			"/covers/mayoi-welcome.webp",
+			"/covers/mayoi-welcome.png"
+		],
+		"files": [
+			{
+				"language": "ENG",
+				"file": "/stories/Mayoi Welcome.pdf",
+				"fileName": "Mayoi Welcome.pdf"
+			},
+			{
+				"language": "SPA",
+				"file": "/stories/es/Mayoi Welcome.pdf",
+				"fileName": "Bienvenida Mayoi.pdf"
+			},
+			{
+				"language": "PT-BR",
+				"file": "/stories/pt-br/Mayoi Welcome.pdf",
+				"fileName": "Mayoi Bem-vindo.pdf"
+			},
+			{
+				"language": "JPN",
+				"file": "/stories/jp/Mayoi Welcome.pdf",
+				"fileName": "まよいウエルカム.pdf"
+			}
+		]
+	}
+]

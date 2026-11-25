@@ -1,5 +1,7 @@
 import { useState } from "react"
 import PDFEmbed from "../PDFEmbed"
+import { useTranslations } from "../../i18n/utils"
+import type { languages } from "../../i18n/ui"
 
 const colors = [
 	'--bg-purple',
@@ -22,12 +24,14 @@ type Props = {
 		date: string,
 		hidden?: boolean,
 		path?: string
-	}[]
+	}[],
+	currentLang: keyof typeof languages
 }
 
-const InteractiveBook = ({ books }: Props) => {
+const InteractiveBook = ({ books, currentLang }: Props) => {
 	const [selectedBook, setSelectedBook] = useState<{ file: string, fileName: string }>()
 	const [show, setShow] = useState(false)
+	const t = useTranslations(currentLang)
 
 	const selectBook = (path?: string) => {
 		if (!path) return
@@ -38,13 +42,13 @@ const InteractiveBook = ({ books }: Props) => {
 	
 	return (
 		<>
-			<button className="showSpoilers" onClick={() => setShow(!show)}>{!show ? 'Show spoilers' : 'Hide spoilers'}</button>
+			<button className="showSpoilers" onClick={() => setShow(!show)}>{!show ? t('showSpoilers') : t('hideSpoilers')}</button>
 			<div className="books">
 				{selectedBook && <PDFEmbed url={selectedBook.file} fileName={selectedBook.fileName} setView={setSelectedBook} />}
 				{books.map(({ name, when, cover, date, hidden, path }) => {
 					const isDate = date.includes('-')
 					const [fullYear, month, day] = date.split('-')
-					const parseDate = isDate ? Intl.DateTimeFormat('en-US', { dateStyle: 'long' }).format(new Date(+fullYear, +month - 1, +day)) : date
+					const parseDate = isDate ? Intl.DateTimeFormat(currentLang, { dateStyle: 'long' }).format(new Date(+fullYear, +month - 1, +day)) : date
 					const randomCover = Math.floor(Math.random() * 3) + 1
 					const randomColor = Math.floor(Math.random() * colors.length)
 					

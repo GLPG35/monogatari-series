@@ -1,9 +1,13 @@
 import { useState } from 'react'
 import { LuMenu, LuX } from 'react-icons/lu'
 import { motion, AnimatePresence } from 'motion/react'
+import { languages } from '../../i18n/ui'
+import { trimLocation, useTranslatedPath, useTranslations } from '../../i18n/utils'
 
-const Menu = ({ active }: { active: string }) => {
+const Menu = ({ active, currentLang }: { active: string, currentLang: keyof typeof languages }) => {
 	const [menu, setMenu] = useState(false)
+	const t = useTranslations(currentLang)
+	const translatePath = useTranslatedPath(currentLang)
 	
 	return (
 		<>
@@ -13,7 +17,7 @@ const Menu = ({ active }: { active: string }) => {
 						<div className="menuWrapper">
 							<button onClick={() => setMenu(false)}>
 								<LuX></LuX>
-								<span>Close</span>
+								<span>{t('nav.close')}</span>
 							</button>
 							<div className="menuBackground">
 								<div className="backgroundWrapper">
@@ -28,12 +32,12 @@ const Menu = ({ active }: { active: string }) => {
 							</div>	
 							<nav>
 								<ul>
-									<li><a href="/stories" className={active.startsWith('/stories') ? "active" : ""}>Short Stories</a></li>
-									<li><a href="/lns" className={active.startsWith('/lns') ? "active" : ""}>Light Novels</a></li>
-									<li><a href="/" className={active == '/' || active.startsWith('/anime') ? "active" : ""}>Anime</a></li>
-									<li><a href="/manga" className={active.startsWith('/manga') ? "active" : ""}>Manga</a></li>
-									<li><a href="/music" className={active.startsWith('/music') ? "active" : ""}>Music</a></li>
-									<li><a href="/downloads" className={active.startsWith('/downloads') ? "active" : ""}>Downloads</a></li>
+									<li><a href={translatePath("/stories")} className={trimLocation(active, currentLang).startsWith('/stories') ? "active" : ""}>{t('nav.shortStories')}</a></li>
+									<li><a href={translatePath("/lns")} className={trimLocation(active, currentLang).startsWith('/lns') ? "active" : ""}>{t('nav.lightNovels')}</a></li>
+									<li><a href={translatePath("/")} className={trimLocation(active, currentLang) == '/' || trimLocation(active, currentLang).startsWith('/anime') ? "active" : ""}>Anime</a></li>
+									<li><a href={translatePath("/manga")} className={trimLocation(active, currentLang).startsWith('/manga') ? "active" : ""}>Manga</a></li>
+									<li><a href={translatePath("/music")} className={trimLocation(active, currentLang).startsWith('/music') ? "active" : ""}>{t('nav.music')}</a></li>
+									<li><a href={translatePath("/downloads")} className={trimLocation(active, currentLang).startsWith('/downloads') ? "active" : ""}>{t('nav.downloads')}</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -42,7 +46,7 @@ const Menu = ({ active }: { active: string }) => {
 			</AnimatePresence>
 			<button className="menuIcon" onClick={() => setMenu(true)}>
 				<LuMenu />
-				<span>Menu</span>
+				<span>{t('nav.menu')}</span>
 			</button>
 		</>
 	)

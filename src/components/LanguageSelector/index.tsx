@@ -1,0 +1,76 @@
+import { AnimatePresence, motion } from "framer-motion"
+import { useEffect, useRef, useState } from "react"
+import { trimLocation, useTranslatedPath } from "../../i18n/utils"
+import { languages } from "../../i18n/ui"
+
+const LanguageSelector = ({ currentLang, location }: { currentLang: keyof typeof languages, location: string }) => {
+	const [lmenu, setLmenu] = useState(false)
+	const translatePath = useTranslatedPath(currentLang)
+	const trimmed = trimLocation(location, currentLang)
+	const ref = useRef<HTMLDivElement>(null)
+
+	useEffect(() => {
+		const handleClickOutside = (e: MouseEvent) => {
+			if (ref.current && !ref.current.contains(e.target as Node)) {
+				setLmenu(false)
+			}
+		}
+		
+		document.addEventListener('click', handleClickOutside)
+
+		return () => {
+			document.removeEventListener('click', handleClickOutside)
+		}
+	}, [])
+	
+	return (
+		<div className="languageSelector" ref={ref}>
+			<AnimatePresence>
+				{lmenu &&
+					<motion.div className="lmenu" initial={{ x: '150%' }} animate={{ x: 0 }} exit={{ x: '150%' }} transition={{ duration: 0.7, type: 'spring', bounce: -2 }}>
+						<div className="menuWrapper">
+							<div className="menuBackground">
+								<div className="backgroundWrapper">
+									<picture>
+										<source srcSet="/104.avif" type='image/avif' />
+										<source srcSet="/104.webp" type='image/webp' />
+										<img src="/104.png" alt="" />
+									</picture>
+									<div className="duplicate" style={{ '--current-img': "image-set(url('/104.avif') type('image/avif'), url('/104.webp') type('image/webp'), url('/104.png') type('image/png'))" } as React.CSSProperties}>
+									</div>
+								</div>
+							</div>	
+							<nav>
+								<ul>
+									{Object.entries(languages).map(([lang, label]) => (
+										<li key={lang} className={lang === currentLang ? "active" : ''}>
+											<a href={`${translatePath(trimmed, lang)}`}>{label}</a>
+										</li>
+									))}
+								</ul>
+							</nav>
+						</div>
+					</motion.div>
+				}
+			</AnimatePresence>
+			<button className="languageIcon" onClick={() => setLmenu(!lmenu)}>
+				<div className="texture">
+					<div className="wrapper">
+						<picture>
+							<source srcSet="/2.avif" type='image/avif' />
+							<source srcSet="/2.webp" type='image/webp' />
+							<img src="/2.png" alt="" />
+						</picture>
+						<div className="duplicate" style={{ '--current-img': "image-set(url('/2.avif') type('image/avif'), url('/2.webp') type('image/webp'), url('/2.png') type('image/png'))" } as React.CSSProperties}>
+						</div>
+					</div>
+				</div>
+				<svg width="1em" height="1em" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M15.796 1.23626C17.2515 -0.281285 19.8963 -0.392751 21.2921 0.85247C21.3744 0.922448 21.4557 0.994276 21.5372 1.06634C21.6928 1.20393 21.8474 1.34497 22.0001 1.49017C21.7895 1.49564 21.5799 1.49718 21.3722 1.49505C21.2635 1.49393 21.1549 1.49239 21.047 1.48919C19.3977 1.48512 18.3301 2.13525 17.4737 2.95208C16.8266 3.60751 16.2496 4.41208 16.0187 5.49017C19.4583 5.49905 22.7549 6.86923 25.1876 9.30169C27.6247 11.7388 28.9961 15.0436 29.0001 18.4902C29.0001 21.0613 28.2371 23.575 26.8087 25.7128C25.3803 27.8505 23.35 29.517 20.9747 30.5009C18.5994 31.4847 15.9856 31.7417 13.464 31.2402C10.9423 30.7386 8.62579 29.5006 6.80772 27.6825C4.98966 25.8645 3.75172 23.548 3.25011 21.0263C2.74852 18.5047 3.00555 15.8909 3.98936 13.5156C4.9733 11.1401 6.63961 9.10905 8.77745 7.6806C10.5316 6.50855 12.5389 5.78639 14.6232 5.56438C14.2149 4.12232 14.6046 2.32877 15.796 1.23626ZM5.046 19.4902C5.25875 21.7817 6.18379 23.9489 7.69054 25.6884C9.19733 27.4279 11.2106 28.6529 13.4483 29.1904C12.0071 27.2816 10.254 24.0539 10.0265 19.4902H5.046ZM21.9689 19.4902C21.7413 24.0539 19.9872 27.2816 18.546 29.1904H18.5509C20.7878 28.6521 22.8008 27.4269 24.3067 25.6874C25.8125 23.948 26.7359 21.781 26.9483 19.4902H21.9689ZM12.0284 19.4902C12.3172 24.6901 14.8064 27.8777 16.0001 29.1152C17.1926 27.8789 19.682 24.6913 19.9708 19.4902H12.0284ZM13.4483 7.78997C11.2108 8.32738 9.1973 9.55162 7.69054 11.2909C6.18366 13.0305 5.25875 15.1986 5.046 17.4902H10.0265C10.2502 12.9265 12.0071 9.69873 13.4483 7.78997ZM16.0001 7.86517C14.8076 9.10142 12.3172 12.2889 12.0284 17.4902H19.9708C19.6821 12.294 17.1939 9.10647 16.0001 7.86517ZM18.5509 7.78997C19.9921 9.69872 21.75 12.9264 21.9737 17.4902H26.9542C26.7415 15.1986 25.8165 13.0305 24.3097 11.2909C22.8028 9.55147 20.7887 8.32735 18.5509 7.78997Z" fill="currentColor"/>
+				</svg>
+			</button>
+		</div>
+	)
+}
+
+export default LanguageSelector

@@ -1,26 +1,30 @@
 import { AnimatePresence } from 'motion/react'
 import CardVisualizer from '../CardVisualizer'
 import { useState } from 'react'
+import type { languages } from '../../i18n/ui'
+import { useTranslations } from '../../i18n/utils'
 
 type Props = {
-	cards: [string[], string[], "visible"|"hidden", boolean?][],
+	cards: [string[], string[], "visible" | "hidden", boolean?][],
+	currentLang: keyof typeof languages
 }
 
-const CardContainer = ({ cards }: Props) => {
+const CardContainer = ({ cards, currentLang }: Props) => {
 	const [viewSS, setViewSS] = useState<number>()
 	const [showHidden, setShowHidden] = useState(false)
+	const t = useTranslations(currentLang)
 	
 	return (
 		<>
 			<AnimatePresence>
 				{viewSS !== undefined &&
-					<CardVisualizer {...{viewSS, setViewSS, screenshots: cards.filter(x => !showHidden ? x[2] === 'visible' : x).map(x => [x[0], x[1]])}} />
+					<CardVisualizer {...{viewSS, setViewSS, screenshots: cards.filter(x => !showHidden ? x[2] === 'visible' : x).map(x => [x[0], x[1]]), currentLang}} />
 				}
 			</AnimatePresence>
 			<div className="cards">
 				<div className="cardsTitle">
-					<h4>Cards</h4>
-					{cards.some(x => x[2] === 'hidden') && <button onClick={() => setShowHidden(!showHidden)}>{!showHidden ? '(Show spoilers)' : '(Hide spoilers)'}</button>}
+					<h4>{t('cards')}</h4>
+					{cards.some(x => x[2] === 'hidden') && <button onClick={() => setShowHidden(!showHidden)}>{!showHidden ? `${t('showSpoilers')}` : `((${t('hideSpoilers')})`}</button>}
 				</div>
 				<div className="pictures">
 					{cards.filter(x => !showHidden ? x[2] === 'visible' : x).map((picture, index) => (

@@ -1,19 +1,38 @@
 import { useState } from 'react'
 import PDFEmbed from '../PDFEmbed'
 import { motion, AnimatePresence } from 'motion/react'
+import { useTranslations } from '../../i18n/utils'
+import type { languages } from '../../i18n/ui'
 
 const parseLang = {
-	'ENG': 'English',
-	'SPA': 'Spanish',
-	'PT-BR': 'Portuguese (Brazil)',
-	'JPN': 'Japanese'
+	'ENG': {
+		en: 'English',
+		es: 'Inglés',
+		pt: 'Inglês'
+	},
+	'SPA': {
+		en: 'Spanish',
+		es: 'Español',
+		pt: 'Espanhol'
+	},
+	'PT-BR': {
+		en: 'Portuguese (Brazil)',
+		es: 'Portugués (Brasil)',
+		pt: 'Portugês (Brasil)'
+	},
+	'JPN': {
+		en: 'Japanese',
+		es: 'Japonés',
+		pt: 'Japonês'
+	}
 }
 
 type Lang = keyof typeof parseLang
 
-const InteractiveStory = ({ stories }: { stories: { name: string, when: string, pictures: string[], files: { language: string, file: string, fileName: string }[] }[] }) => {
+const InteractiveStory = ({ stories, currentLang }: { stories: { name: string, when: string, pictures: string[], files: { language: string, file: string, fileName: string }[] }[], currentLang: keyof typeof languages }) => {
+	const t = useTranslations(currentLang)
 	const [selectedStory, setSelectedStory] = useState<{ file: string, fileName: string }>()
-	const [modal, setModal] = useState<{ language: string, file: string, fileName: string }[]>()
+	const [modal, setModal] = useState<{ name: string, files: { language: string, file: string, fileName: string }[] }>()
 	
 	const handleStory = (files: { language: string, file: string, fileName: string }[], language: Lang) => () => {
 		const findStory = files.find(x => x.language == language)
@@ -38,7 +57,7 @@ const InteractiveStory = ({ stories }: { stories: { name: string, when: string, 
 											<img src="/28.png" alt="" />
 										</picture>
 									</div>
-									Language
+									{t('language')}
 								</div>
 							</motion.div>
 							<motion.div className="labelBackgroundWrapper right" initial={{ translateX: '110%' }} animate={{ translateX: 0 }} transition={{ duration: 0.7, type: 'spring', bounce: -2, delay: 0.4 }}>
@@ -50,7 +69,7 @@ const InteractiveStory = ({ stories }: { stories: { name: string, when: string, 
 											<img src="/28.png" alt="" />
 										</picture>
 									</div>
-									{modal[0].fileName.split('.').shift()}
+									{modal.name}
 								</div>
 							</motion.div>
 							<div className="modalBackground">
@@ -65,8 +84,8 @@ const InteractiveStory = ({ stories }: { stories: { name: string, when: string, 
 								</div>
 							</div>
 							<motion.div className="modal" onClick={e => e.stopPropagation()}>
-								{modal.map(({ language }) => (
-									<button onClick={handleStory(modal, language as Lang)}>{parseLang[language as Lang]}</button>
+								{modal.files.map(({ language }) => (
+									<button onClick={handleStory(modal.files, language as Lang)}>{parseLang[language as Lang][currentLang]}</button>
 								))}
 							</motion.div>
 						</motion.div>
@@ -76,7 +95,7 @@ const InteractiveStory = ({ stories }: { stories: { name: string, when: string, 
 			{selectedStory && <PDFEmbed url={selectedStory.file} fileName={selectedStory.fileName} setView={setSelectedStory} />}
 			{stories.map(({ name, when, pictures, files }) => (
 				<div className="story" key={files[0].fileName}>
-					<div className="cover" onClick={() => setModal(files)}>
+					<div className="cover" onClick={() => setModal({ name, files })}>
 						<picture>
 							{pictures.map((path, i) => {
 								const isLast = pictures.length === i + 1

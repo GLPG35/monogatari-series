@@ -34,7 +34,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/bakemonogatari-jou",
+					"name": "/lns/english/bakemonogatari-jou",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/bakemonogatari-jou.avif",
@@ -43,11 +43,12 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/bakemonogatari-jou-0.5x.avif",
-						"/covers/lns/en/bakemonogatari-jou-0.5x.webp"
+						"/covers/lns/en/bakemonogatari-jou-0.5x.webp",
+						"/covers/lns/en/bakemonogatari-jou-0.5x.jpg"
 					]
 				},
 				{
-					"name": "/lns/en/bakemonogatari-chuu",
+					"name": "/lns/english/bakemonogatari-chuu",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/bakemonogatari-chuu.avif",
@@ -56,7 +57,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/bakemonogatari-chuu-0.5x.avif",
-						"/covers/lns/en/bakemonogatari-chuu-0.5x.webp"
+						"/covers/lns/en/bakemonogatari-chuu-0.5x.webp",
+						"/covers/lns/en/bakemonogatari-chuu-0.5x.jpg"
 					]
 				},
 				{
@@ -69,7 +71,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -109,7 +112,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/bakemonogatari-chuu",
+					"name": "/lns/english/bakemonogatari-chuu",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/bakemonogatari-chuu.avif",
@@ -118,11 +121,12 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/bakemonogatari-chuu-0.5x.avif",
-						"/covers/lns/en/bakemonogatari-chuu-0.5x.webp"
+						"/covers/lns/en/bakemonogatari-chuu-0.5x.webp",
+						"/covers/lns/en/bakemonogatari-chuu-0.5x.jpg"
 					]
 				},
 				{
-					"name": "/lns/en/bakemonogatari-ge",
+					"name": "/lns/english/bakemonogatari-ge",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/bakemonogatari-ge.avif",
@@ -131,7 +135,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/bakemonogatari-ge-0.5x.avif",
-						"/covers/lns/en/bakemonogatari-ge-0.5x.webp"
+						"/covers/lns/en/bakemonogatari-ge-0.5x.webp",
+						"/covers/lns/en/bakemonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -144,7 +149,8 @@
 					],
 					"picturesHalf": [
 						"/covers/bakemonogatari-0.5x.avif",
-						"/covers/bakemonogatari-0.5x.webp"
+						"/covers/bakemonogatari-0.5x.webp",
+						"/covers/bakemonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -181,7 +187,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/kizumonogatari",
+					"name": "/lns/english/kizumonogatari",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/kizumonogatari.avif",
@@ -190,7 +196,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/kizumonogatari-0.5x.avif",
-						"/covers/lns/en/kizumonogatari-0.5x.webp"
+						"/covers/lns/en/kizumonogatari-0.5x.webp",
+						"/covers/lns/en/kizumonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -203,7 +210,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-I-0.5x.avif",
-						"/covers/kizumonogatari-I-0.5x.webp"
+						"/covers/kizumonogatari-I-0.5x.webp",
+						"/covers/kizumonogatari-I-0.5x.jpg"
 					]
 				},
 				{
@@ -216,7 +224,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-II-0.5x.avif",
-						"/covers/kizumonogatari-II-0.5x.webp"
+						"/covers/kizumonogatari-II-0.5x.webp",
+						"/covers/kizumonogatari-II-0.5x.jpg"
 					]
 				},
 				{
@@ -229,7 +238,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kizumonogatari-III-0.5x.avif",
-						"/covers/kizumonogatari-III-0.5x.webp"
+						"/covers/kizumonogatari-III-0.5x.webp",
+						"/covers/kizumonogatari-III-0.5x.jpg"
 					]
 				}
 			]
@@ -267,7 +277,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/nisemonogatari-jou",
+					"name": "/lns/english/nisemonogatari-jou",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/nisemonogatari-jou.avif",
@@ -276,7 +286,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/nisemonogatari-jou-0.5x.avif",
-						"/covers/lns/en/nisemonogatari-jou-0.5x.webp"
+						"/covers/lns/en/nisemonogatari-jou-0.5x.webp",
+						"/covers/lns/en/nisemonogatari-jou-0.5x.jpg"
 					]
 				},
 				{
@@ -289,7 +300,8 @@
 					],
 					"picturesHalf": [
 						"/covers/nisemonogatari-0.5x.avif",
-						"/covers/nisemonogatari-0.5x.webp"
+						"/covers/nisemonogatari-0.5x.webp",
+						"/covers/nisemonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -323,11 +335,11 @@
 				["Final Episode: Tsukihi Phoenix", "最終話 つきひフェニックス"]
 			],
 			"description": [
-				"The second sister proclaims the end of the world. \"I think this world full of fakes should just be destroyed, onii-chan.\" What kind of burning justice will Araragi Koyomi's sister, Tsukihi, carry out!? Nisemonogatari concludes in grand style!"
+				"The second sister proclaims the end of the world. \"I think this world full of fakes should just be destroyed, onii-chan\". What kind of burning justice will Araragi Koyomi's sister, Tsukihi, carry out!? Nisemonogatari concludes in grand style!"
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/nisemonogatari-ge",
+					"name": "/lns/english/nisemonogatari-ge",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/nisemonogatari-ge.avif",
@@ -336,7 +348,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/nisemonogatari-ge-0.5x.avif",
-						"/covers/lns/en/nisemonogatari-ge-0.5x.webp"
+						"/covers/lns/en/nisemonogatari-ge-0.5x.webp",
+						"/covers/lns/en/nisemonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -349,7 +362,8 @@
 					],
 					"picturesHalf": [
 						"/covers/nisemonogatari-0.5x.avif",
-						"/covers/nisemonogatari-0.5x.webp"
+						"/covers/nisemonogatari-0.5x.webp",
+						"/covers/nisemonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -387,7 +401,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/nekomonogatari-kuro",
+					"name": "/lns/english/nekomonogatari-kuro",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/nekomonogatari-kuro.avif",
@@ -396,7 +410,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/nekomonogatari-kuro-0.5x.avif",
-						"/covers/lns/en/nekomonogatari-kuro-0.5x.webp"
+						"/covers/lns/en/nekomonogatari-kuro-0.5x.webp",
+						"/covers/lns/en/nekomonogatari-kuro-0.5x.jpg"
 					]
 				},
 				{
@@ -409,7 +424,8 @@
 					],
 					"picturesHalf": [
 						"/covers/nekomonogatari-kuro-0.5x.avif",
-						"/covers/nekomonogatari-kuro-0.5x.webp"
+						"/covers/nekomonogatari-kuro-0.5x.webp",
+						"/covers/nekomonogatari-kuro-0.5x.jpg"
 					]
 				}
 			]
@@ -449,7 +465,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/nekomonogatari-shiro",
+					"name": "/lns/english/nekomonogatari-shiro",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/nekomonogatari-shiro.avif",
@@ -458,7 +474,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/nekomonogatari-shiro-0.5x.avif",
-						"/covers/lns/en/nekomonogatari-shiro-0.5x.webp"
+						"/covers/lns/en/nekomonogatari-shiro-0.5x.webp",
+						"/covers/lns/en/nekomonogatari-shiro-0.5x.jpg"
 					]
 				},
 				{
@@ -471,7 +488,8 @@
 					],
 					"picturesHalf": [
 						"/covers/nekomonogatari-shiro-0.5x.avif",
-						"/covers/nekomonogatari-shiro-0.5x.webp"
+						"/covers/nekomonogatari-shiro-0.5x.webp",
+						"/covers/nekomonogatari-shiro-0.5x.jpg"
 					]
 				}
 			]
@@ -508,7 +526,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/kabukimonogatari",
+					"name": "/lns/english/kabukimonogatari",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/kabukimonogatari.avif",
@@ -517,7 +535,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/kabukimonogatari-0.5x.avif",
-						"/covers/lns/en/kabukimonogatari-0.5x.webp"
+						"/covers/lns/en/kabukimonogatari-0.5x.webp",
+						"/covers/lns/en/kabukimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -530,7 +549,8 @@
 					],
 					"picturesHalf": [
 						"/covers/kabukimonogatari-0.5x.avif",
-						"/covers/kabukimonogatari-0.5x.webp"
+						"/covers/kabukimonogatari-0.5x.webp",
+						"/covers/kabukimonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -563,9 +583,9 @@
 				["Episode Change: Suruga Devil", "第変話 するがデビル"]
 			],
 			"description": [
-				"\"If you can't be the medicine, be poison. Otherwise Otherwise you're nothing but water.\"",
+				"\"If you can't be the medicine, be poison. Otherwise you're nothing but water.\"",
 				"",
-				"After Araragi Koyomi has graduated, Kanbaru Suruga goes towards her third year in high school. Alone in Naoetsu High School, she hears the rumors of \" a demon that grants any wish\"...",
+				"After Araragi Koyomi has graduated, Kanbaru Suruga goes towards her third year in high school. Alone in Naoetsu High School, she hears the rumors of \"a demon that grants any wish\"...",
 				"",
 				"The story slowly sinks into the depths ー",
 				"",
@@ -573,7 +593,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/hanamonogatari",
+					"name": "/lns/english/hanamonogatari",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/hanamonogatari.avif",
@@ -582,7 +602,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/hanamonogatari-0.5x.avif",
-						"/covers/lns/en/hanamonogatari-0.5x.webp"
+						"/covers/lns/en/hanamonogatari-0.5x.webp",
+						"/covers/lns/en/hanamonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -595,7 +616,8 @@
 					],
 					"picturesHalf": [
 						"/covers/hanamonogatari-0.5x.avif",
-						"/covers/hanamonogatari-0.5x.webp"
+						"/covers/hanamonogatari-0.5x.webp",
+						"/covers/hanamonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -628,7 +650,7 @@
 				["Episode Chaos: Nadeko Medusa", "第乱話 なでこメドゥーサ"]
 			],
 			"description": [
-				"\"—You're a liar, even though you're already a god\".",
+				"\"—You're a liar, even though you're already a god.\"",
 				"",
 				"The girl who was once possessed by a winding serpent, Sengoku Nadeko.",
 				"The girl who has been in love with Araragi Koyomi for so long now appears as an \"angel\" in pure white. But her true colors are...?",
@@ -637,7 +659,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/otorimonogatari",
+					"name": "/lns/english/otorimonogatari",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/otorimonogatari.avif",
@@ -646,7 +668,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/otorimonogatari-0.5x.avif",
-						"/covers/lns/en/otorimonogatari-0.5x.webp"
+						"/covers/lns/en/otorimonogatari-0.5x.webp",
+						"/covers/lns/en/otorimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -659,7 +682,8 @@
 					],
 					"picturesHalf": [
 						"/covers/otorimonogatari-0.5x.avif",
-						"/covers/otorimonogatari-0.5x.webp"
+						"/covers/otorimonogatari-0.5x.webp",
+						"/covers/otorimonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -696,7 +720,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/onimonogatari",
+					"name": "/lns/english/onimonogatari",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/onimonogatari.avif",
@@ -705,7 +729,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/onimonogatari-0.5x.avif",
-						"/covers/lns/en/onimonogatari-0.5x.webp"
+						"/covers/lns/en/onimonogatari-0.5x.webp",
+						"/covers/lns/en/onimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -718,7 +743,8 @@
 					],
 					"picturesHalf": [
 						"/covers/onimonogatari-0.5x.avif",
-						"/covers/onimonogatari-0.5x.webp"
+						"/covers/onimonogatari-0.5x.webp",
+						"/covers/onimonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -759,7 +785,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/koimonogatari",
+					"name": "/lns/english/koimonogatari",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/koimonogatari.avif",
@@ -768,7 +794,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/koimonogatari-0.5x.avif",
-						"/covers/lns/en/koimonogatari-0.5x.webp"
+						"/covers/lns/en/koimonogatari-0.5x.webp",
+						"/covers/lns/en/koimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -781,7 +808,8 @@
 					],
 					"picturesHalf": [
 						"/covers/koimonogatari-0.5x.avif",
-						"/covers/koimonogatari-0.5x.webp"
+						"/covers/koimonogatari-0.5x.webp",
+						"/covers/koimonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -814,11 +842,11 @@
 				["Episode Body: Yotsugi Doll", "第体話 よつぎドール"]
 			],
 			"description": [
-				"\"Please!—Do it, and get it over with.\" Slowly but surely, Araragi Koyomi, who \"has been averting his eyes from reality\", has no choice but to face it. February comes, and the college entrance exam is approaching. What is this \"change\" that is happening to his body that cannot be overlooked? The \"story\" begins to sprint towards its conclusion. This is Oddity taking place in the modern world! In a story of youth, a word of farewell is inevitable."
+				"\"Please!—Do it, and get it over with\". Slowly but surely, Araragi Koyomi, who \"has been averting his eyes from reality\", has no choice but to face it. February comes, and the college entrance exam is approaching. What is this \"change\" that is happening to his body that cannot be overlooked? The \"story\" begins to sprint towards its conclusion. This is Oddity taking place in the modern world! In a story of youth, a word of farewell is inevitable."
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/tsukimonogatari",
+					"name": "/lns/english/tsukimonogatari",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/tsukimonogatari.avif",
@@ -827,7 +855,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/tsukimonogatari-0.5x.avif",
-						"/covers/lns/en/tsukimonogatari-0.5x.webp"
+						"/covers/lns/en/tsukimonogatari-0.5x.webp",
+						"/covers/lns/en/tsukimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -840,7 +869,8 @@
 					],
 					"picturesHalf": [
 						"/covers/tsukimonogatari-0.5x.avif",
-						"/covers/tsukimonogatari-0.5x.webp"
+						"/covers/tsukimonogatari-0.5x.webp",
+						"/covers/tsukimonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -888,7 +918,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/koyomimonogatari-jou",
+					"name": "/lns/english/koyomimonogatari-jou",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/koyomimonogatari-jou.avif",
@@ -897,11 +927,12 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/koyomimonogatari-jou-0.5x.avif",
-						"/covers/lns/en/koyomimonogatari-jou-0.5x.webp"
+						"/covers/lns/en/koyomimonogatari-jou-0.5x.webp",
+						"/covers/lns/en/koyomimonogatari-jou-0.5x.jpg"
 					]
 				},
 				{
-					"name": "/lns/en/koyomimonogatari-ge",
+					"name": "/lns/english/koyomimonogatari-ge",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/koyomimonogatari-ge.avif",
@@ -910,7 +941,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/koyomimonogatari-ge-0.5x.avif",
-						"/covers/lns/en/koyomimonogatari-ge-0.5x.webp"
+						"/covers/lns/en/koyomimonogatari-ge-0.5x.webp",
+						"/covers/lns/en/koyomimonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -923,7 +955,8 @@
 					],
 					"picturesHalf": [
 						"/covers/koyomimonogatari-0.5x.avif",
-						"/covers/koyomimonogatari-0.5x.webp"
+						"/covers/koyomimonogatari-0.5x.webp",
+						"/covers/koyomimonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -965,7 +998,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/owarimonogatari-jou",
+					"name": "/lns/english/owarimonogatari-jou",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/owarimonogatari-jou.avif",
@@ -974,7 +1007,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/owarimonogatari-jou-0.5x.avif",
-						"/covers/lns/en/owarimonogatari-jou-0.5x.webp"
+						"/covers/lns/en/owarimonogatari-jou-0.5x.webp",
+						"/covers/lns/en/owarimonogatari-jou-0.5x.jpg"
 					]
 				},
 				{
@@ -987,7 +1021,8 @@
 					],
 					"picturesHalf": [
 						"/covers/owarimonogatari-jou-0.5x.avif",
-						"/covers/owarimonogatari-jou-0.5x.webp"
+						"/covers/owarimonogatari-jou-0.5x.webp",
+						"/covers/owarimonogatari-jou-0.5x.jpg"
 					]
 				}
 			]
@@ -1029,7 +1064,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/owarimonogatari-chuu",
+					"name": "/lns/english/owarimonogatari-chuu",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/owarimonogatari-chuu.avif",
@@ -1038,7 +1073,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/owarimonogatari-chuu-0.5x.avif",
-						"/covers/lns/en/owarimonogatari-chuu-0.5x.webp"
+						"/covers/lns/en/owarimonogatari-chuu-0.5x.webp",
+						"/covers/lns/en/owarimonogatari-chuu-0.5x.jpg"
 					]
 				},
 				{
@@ -1051,7 +1087,8 @@
 					],
 					"picturesHalf": [
 						"/covers/owarimonogatari-jou-0.5x.avif",
-						"/covers/owarimonogatari-jou-0.5x.webp"
+						"/covers/owarimonogatari-jou-0.5x.webp",
+						"/covers/owarimonogatari-jou-0.5x.jpg"
 					]
 				}
 			]
@@ -1091,7 +1128,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/owarimonogatari-ge",
+					"name": "/lns/english/owarimonogatari-ge",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/owarimonogatari-ge.avif",
@@ -1100,7 +1137,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/owarimonogatari-ge-0.5x.avif",
-						"/covers/lns/en/owarimonogatari-ge-0.5x.webp"
+						"/covers/lns/en/owarimonogatari-ge-0.5x.webp",
+						"/covers/lns/en/owarimonogatari-ge-0.5x.jpg"
 					]
 				},
 				{
@@ -1113,7 +1151,8 @@
 					],
 					"picturesHalf": [
 						"/covers/owarimonogatari-ge-0.5x.avif",
-						"/covers/owarimonogatari-ge-0.5x.webp"
+						"/covers/owarimonogatari-ge-0.5x.webp",
+						"/covers/owarimonogatari-ge-0.5x.jpg"
 					]
 				}
 			]
@@ -1159,7 +1198,7 @@
 			],
 			"alternatives": [
 				{
-					"name": "/lns/en/zoku-owarimonogatari",
+					"name": "/lns/english/zoku-owarimonogatari",
 					"text": "Localization",
 					"pictures": [
 						"/covers/lns/en/zoku-owarimonogatari.avif",
@@ -1168,7 +1207,8 @@
 					],
 					"picturesHalf": [
 						"/covers/lns/en/zoku-owarimonogatari-0.5x.avif",
-						"/covers/lns/en/zoku-owarimonogatari-0.5x.webp"
+						"/covers/lns/en/zoku-owarimonogatari-0.5x.webp",
+						"/covers/lns/en/zoku-owarimonogatari-0.5x.jpg"
 					]
 				},
 				{
@@ -1181,7 +1221,8 @@
 					],
 					"picturesHalf": [
 						"/covers/zoku-owarimonogatari-0.5x.avif",
-						"/covers/zoku-owarimonogatari-0.5x.webp"
+						"/covers/zoku-owarimonogatari-0.5x.webp",
+						"/covers/zoku-owarimonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -1233,7 +1274,8 @@
 					],
 					"picturesHalf": [
 						"/covers/orokamonogatari-0.5x.avif",
-						"/covers/orokamonogatari-0.5x.webp"
+						"/covers/orokamonogatari-0.5x.webp",
+						"/covers/orokamonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -1288,7 +1330,8 @@
 					],
 					"picturesHalf": [
 						"/covers/wazamonogatari-ova-0.5x.avif",
-						"/covers/wazamonogatari-ova-0.5x.webp"
+						"/covers/wazamonogatari-ova-0.5x.webp",
+						"/covers/wazamonogatari-ova-0.5x.jpg"
 					]
 				},
 				{
@@ -1301,7 +1344,8 @@
 					],
 					"picturesHalf": [
 						"/covers/wazamonogatari-0.5x.avif",
-						"/covers/wazamonogatari-0.5x.webp"
+						"/covers/wazamonogatari-0.5x.webp",
+						"/covers/wazamonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -1353,7 +1397,8 @@
 					],
 					"picturesHalf": [
 						"/covers/nademonogatari-0.5x.avif",
-						"/covers/nademonogatari-0.5x.webp"
+						"/covers/nademonogatari-0.5x.webp",
+						"/covers/nademonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -1445,7 +1490,8 @@
 					],
 					"picturesHalf": [
 						"/covers/shinobumonogatari-0.5x.avif",
-						"/covers/shinobumonogatari-0.5x.webp"
+						"/covers/shinobumonogatari-0.5x.webp",
+						"/covers/shinobumonogatari-0.5x.jpg"
 					]
 				}
 			]
@@ -1487,7 +1533,7 @@
 				"",
 				"These modern day Oddities! Oddities! Oddities!",
 				"",
-				"In the Evening(Yoi) darkness, youth shines brightly."
+				"In the evening (Yoi) darkness, youth shines brightly."
 			]
 		}
 	},
@@ -1521,7 +1567,7 @@
 			"description": [
 				"Araragi Koyomi receives a request from Iezumi, an associate professor of linguistics: \"Please save my child from my abuse.\"",
 				"",
-				"Apparently, they had heard from Sodachi Oikura that Koyomi is \"an expert on child abuse\". As Koyomi scrambles to take his beloved car to the associate professor's apartment, the scene of the abuse, he is suddenly confronted by Ononoki Yotsugi. He has no idea why she's tagging along, but the pair soon bear witness to an astonishing sight at their destination."
+				"Apparently, they had heard from Oikura Sodachi that Koyomi is \"an expert on child abuse\". As Koyomi scrambles to take his beloved car to the associate professor's apartment, the scene of the abuse, he is suddenly confronted by Ononoki Yotsugi. He has no idea why she's tagging along, but the pair soon bear witness to an astonishing sight at their destination."
 			]
 		}
 	},
@@ -1549,11 +1595,11 @@
 		"info": {
 			"date": "October 28, 2020",
 			"arcs": [
-				["Episode Six: Ougi Right", "第六話 おうぎライト"],
+				["Episode Six: Ougi Light", "第六話 おうぎライト"],
 				["Episode Seven: Ougi Flight", "第七話 おうぎフライト"]
 			],
 			"description": [
-				"\"It's a monster no joke. Even vampires are no match for them\"",
+				"\"It's a monster no joke. Even vampires are no match for them.\"",
 				"",
 				"Araragi Koyomi is approached by his friend, Hamukai Meniko, for advice about a falling out with her boyfriend.",
 				"",
@@ -1561,7 +1607,8 @@
 				"",
 				"Deducing that the commotion was the work of a supernatural entity, Koyomi heads to Oshino Ougi, an expert on Oddities.",
 				"",
-				"These are the modern-day Oddities! Oddities! Oddities!"
+				"These are the modern-day Oddities! Oddities! Oddities!",
+				"Youth is a never-ending spiral of mysteries and Oddities."
 			]
 		}
 	},
@@ -1593,7 +1640,7 @@
 				["Episode Eight: Shinobu Suicide", "第八話 しのぶスーサイド"]
 			],
 			"description": [
-				"\"Every time I see you, it's always a death sentence\"",
+				"\"Every time I see you, it's always a death sentence.\"",
 				"",
 				"Oshino Shinobu and Araragi Koyomi head to their homeland, the \"Acerola Kingdom (provisional)\", to meet with Deathtopia Virtuoso Suicide-master.",
 				"",
@@ -1601,7 +1648,7 @@
 				"",
 				"These are the modern-day Oddities! Oddities! Oddities!",
 				"",
-				"\"Youth is only truly fulfilling when you live it beside me\"."
+				"\"Youth is only truly fulfilling when you live it beside me.\""
 			]
 		}
 	},
@@ -1633,7 +1680,7 @@
 				["Final Episode: Nadeko Araundo", "最終話 なでこアラウンド"]
 			],
 			"description": [
-				"\"Good night. Have a good night and sweet dreams\"",
+				"\"Good night. Have a good night and sweet dreams.\"",
 				"",
 				"As an apprentice specialist, Sengoku Nadeko heads to Iriomote Island with Ononoki Yotsugi and Kaiki Deishuu.",
 				"",

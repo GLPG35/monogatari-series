@@ -1,21 +1,34 @@
 ---
 import type { GetStaticPaths } from "astro"
+import CoverWithAlt from '../../../components/CoverWithAlt'
 import Layout from '../../../layouts/Layout.astro'
-import '../ln.scss'
-import lns from '../../../utils/lns_en.json'
+import './manga.scss'
+import mangas from '../../../utils/es/manga.json'
+import GalleryContainer from "../../../components/GalleryContainer"
+import CardContainer from '../../../components/CardContainer'
+import { getLangFromUrl, useTranslatedPath } from "../../../i18n/utils"
 
 export const getStaticPaths = (() => {
-	return lns.map(({ name }) => ({ params: { ln: name }}))
+	return mangas.map(({ name }) => ({ params: { manga: name }}))
 }) satisfies GetStaticPaths
 
-const { ln } = Astro.params
-const findLnIndex = lns.findIndex(x => x.name === ln)
+const { manga } = Astro.params
+const findMangaIndex = mangas.findIndex(x => x.name === manga)
 
-if (findLnIndex === -1) return Astro.redirect('/404')
+if (findMangaIndex === -1) return Astro.redirect('/404')
 
-const { color, pictures, name, title, kanji, info, responsivePosition } = lns[findLnIndex]
-const prevLn = findLnIndex === 0 ? null : lns[findLnIndex - 1]
-const nextLn = findLnIndex === lns.length - 1 ? null : lns[findLnIndex + 1]
+const currentLang = getLangFromUrl(Astro.url)
+const translatePath = useTranslatedPath(currentLang)
+
+const { color, pictures, picturesAlt, name, title, kanji, info, responsivePosition } = mangas[findMangaIndex]
+const gallery = info.gallery as [string[], "visible"|"hidden"][]
+const cards = info.cards as [string[], string[], "visible"|"hidden"][]
+const prevManga = findMangaIndex === 0 ? null : mangas[findMangaIndex - 1]
+const nextManga = findMangaIndex === mangas.length - 1 ? null : mangas[findMangaIndex + 1]
+
+const isDate = info.date.includes('-')
+const [fullYear, month, day] = info.date.split('-')
+const parseDate = isDate ? Intl.DateTimeFormat(currentLang, { dateStyle: 'long' }).format(new Date(+fullYear, +month - 1, +day)) : info.date
 
 const anim = {
 	old: {
@@ -49,38 +62,23 @@ const customTransition = {
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Monogatari Series - {title}</title>
-		<meta name="description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta name="description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content={`〈物語〉Monogatari Series - ${title}`} />
-		<meta property="og:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
+		<meta property="og:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
 		<meta property="og:url" content="https://monogatariseri.es/" />
-		<meta property="og:image" content={`https://monogatari-series.vercel.app/banners/lns/en/${name}.jpg`} />
+		<meta property="og:image" content={`https://monogatariseri.es/banners/manga/${name}.jpg`} />
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:url" content="https://monogatariseri.es/" />
 		<meta property="twitter:title" content={`〈物語〉Monogatari Series - ${title}`} />
-		<meta property="twitter:description" content="Here you'll find information about the Monogatari Series light novels, the anime adaptation and more!" />
-		<meta property="twitter:image" content={`https://monogatari-series.vercel.app/banners/lns/en/${name}.jpg`} />
+		<meta property="twitter:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="twitter:image" content={`https://monogatariseri.es/banners/manga/${name}.jpg`} />
 	</head>
 	<body>
 		<Layout>
 			<main>
 				<div class="summary">
-					<div class="cover">
-						<a href={pictures[2]} target="_blank">Full resolution</a>
-						<picture transition:name={`ln-en-cover-${ln}`} transition:animate={customTransition}>
-							<source srcset={`/banners/lns/en/${name}.avif`} type="image/avif" media="(width < 1130px)" />
-							<source srcset={`/banners/lns/en/${name}.webp`} type="image/webp" media="(width < 1130px)" />
-							<source srcset={`/banners/lns/en/${name}.jpg`} type="image/jpeg" media="(width < 1130px)" />
-							{pictures.map((path, i) => {
-								const isLast = pictures.length === i + 1
-								const type = path.split('.').pop()
-
-								if (isLast) return <img src={path} alt="" />
-								
-								return <source srcset={path} type={`image/${type}`} />
-							})}
-						</picture>
-					</div>
+					<CoverWithAlt {...{pictures, picturesAlt, name, manga, currentLang}} client:idle transition:animate={customTransition} />
 					<div class="info">
 						<div class="subtitle">
 							{kanji.map(x => x[0]).join('')}
@@ -89,13 +87,13 @@ const customTransition = {
 							<h3>{title}</h3>
 						</div>
 						<div class="date">
-							{info.date}
+							{parseDate}
 						</div>
 						<div class="relations">
-							<h4>Relations</h4>
+							<h4>Relacionados</h4>
 							<div class="covers">
-								{prevLn &&
-									<a class="relation" href={`/lns/en/${prevLn.name}`}>
+								{prevManga &&
+									<a class="relation" href={translatePath(`/manga/${prevManga.name}`)}>
 										<div class="when">
 											<div class="whenWrapper">
 												<div class="texture">
@@ -110,13 +108,13 @@ const customTransition = {
 														<img src="/99.png" alt="" />
 													</picture>
 												</div>
-												<span>Previous</span>
+												<span>Anterior</span>
 											</div>
 										</div>
 										<div class="cover">
 											<picture>
-												{(prevLn.picturesHalf ? prevLn.picturesHalf : prevLn.pictures).map((path, i) => {
-													const isLast = (prevLn.picturesHalf ? prevLn.picturesHalf : prevLn.pictures).length === i + 1
+												{(prevManga.picturesHalf ? prevManga.picturesHalf : prevManga.pictures).map((path, i) => {
+													const isLast = (prevManga.picturesHalf ? prevManga.picturesHalf : prevManga.pictures).length === i + 1
 													const type = path.split('.').pop()
 
 													if (isLast) return <img src={path} alt="" />
@@ -127,8 +125,8 @@ const customTransition = {
 										</div>		
 									</a>
 								}
-								{nextLn &&
-									<a class="relation" href={`/lns/en/${nextLn.name}`}>
+								{nextManga &&
+									<a class="relation" href={translatePath(`/manga/${nextManga.name}`)}>
 										<div class="when">
 											<div class="whenWrapper">
 												<div class="texture">
@@ -143,13 +141,13 @@ const customTransition = {
 														<img src="/85.png" alt="" />
 													</picture>
 												</div>
-												<span>Next</span>
+												<span>Siguiente</span>
 											</div>
 										</div>
 										<div class="cover">
 											<picture>
-												{(nextLn.picturesHalf ? nextLn.picturesHalf : nextLn.pictures).map((path, i) => {
-													const isLast = (nextLn.picturesHalf ? nextLn.picturesHalf : nextLn.pictures).length === i + 1
+												{(nextManga.picturesHalf ? nextManga.picturesHalf : nextManga.pictures).map((path, i) => {
+													const isLast = (nextManga.picturesHalf ? nextManga.picturesHalf : nextManga.pictures).length === i + 1
 													const type = path.split('.').pop()
 
 													if (isLast) return <img src={path} alt="" />
@@ -161,7 +159,7 @@ const customTransition = {
 									</a>
 								}
 								{info.alternatives && info.alternatives.map(alternative => (
-									<a class="relation" href={alternative.name}>
+									<a class="relation" href={translatePath(alternative.name)}>
 										<div class="when">
 											<div class="whenWrapper">
 												<div class="texture">
@@ -195,16 +193,28 @@ const customTransition = {
 								))}
 							</div>
 						</div>
-						<div class="section">
-							<h4>Arcs</h4>
-							<ul>
-								{info.arcs.map(arc => <li>{arc[0]}<span>{arc[1]}</span></li>)}
-							</ul>
-						</div>
+						{info.chapters.length > 0 &&
+							<div class="section chapters">
+								<h4>Capítulos</h4>
+								<ul>
+									{info.chapters.map(chapter => <li>{chapter}</li>)}
+								</ul>
+							</div>
+						}
+						{info.arcs.length > 0 &&
+							<div class="section">
+								<h4>Arcos</h4>
+								<ul>
+									{info.arcs.map(arc => <li>{arc[0]}<span>{arc[1][0]}, {arc[1][1]}</span></li>)}
+								</ul>
+							</div>
+						}
 						<div class="section description">
-							<h4>Synopsis</h4>
+							<h4>Sinopsis</h4>
 							{info.description.map(text => (<p>{text}</p>))}
 						</div>
+						{gallery && <GalleryContainer client:load {...{gallery, currentLang}} />}
+						{cards && <CardContainer client:load {...{cards, currentLang}} />}
 					</div>
 				</div>
 			</main>

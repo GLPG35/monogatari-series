@@ -1,0 +1,191 @@
+---
+import Layout from '../../../layouts/Layout.astro'
+import './styles.scss'
+import lns from '../../../utils/es/lns.json'
+import lnsEn from '../../../utils/lns_en.json'
+import BackToTop from '../../../components/BackToTop'
+import { getLangFromUrl, useTranslatedPath } from '../../../i18n/utils'
+
+const currentLang = getLangFromUrl(Astro.url)
+const translatePath = useTranslatedPath(currentLang)
+
+const anim = {
+	old: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)",
+		direction: "reverse"
+	},
+	new: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)"
+	}
+}
+
+const customTransition = {
+	forwards: anim,
+	backwards: anim
+}
+---
+
+<html lang="en" style="--bg-color: var(--bg-blue)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series - Novelas Ligeras</title>
+		<meta name="description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series - Novelas Ligeras" />
+		<meta property="og:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatariseri.es/banners/lns-banner.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series - Novelas Ligeras" />
+		<meta property="twitter:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="twitter:image" content="https://monogatariseri.es/banners/lns-banner.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<BackToTop client:load />
+			<main>
+				<div class="info">
+					<div class="subsection">
+						<h2>Ediciones japonesas</h2>
+						<p>Estas son las ediciones japonesas originales de las novelas ligeras, escritas por NisiOisiN con portadas ilustradas por VOFAN.</p>
+						<p>Las novelas están ordenadas por fecha de publicación (el orden previsto). Si quieres leerlas, por favor dirígete a la <a href={translatePath("/downloads/lns")}>página de descargas de las novelas ligeras</a>.</p>
+					</div>
+					<div class="titles">
+						{lns.map(({ name, kanji, season, pictures }, i) => (
+							<div class="book">
+								<div class="number">
+									<div class="numberWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
+											</picture>
+											<div class="duplicate" style={`--current-img: image-set(url('${`/${i % 2 == 0 ? 1 : 2}.avif`}') type('image/avif'), url('${`/${i % 2 == 0 ? 1 : 2}.webp`}') type('image/webp'), url('${`/${i % 2 == 0 ? 1 : 2}.png`}') type('image/png'));`}>
+											</div>
+										</div>
+										<span>{i + 1}</span>
+									</div>
+								</div>
+								<div class="season">
+									<div class="seasonWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/27.avif`} type="image/avif" />
+												<source srcset={`/27.webp`} type="image/webp" />
+												<img src={`/27.png`} alt="" loading="lazy" />
+											</picture>
+											<div class="duplicate" style={`--current-img: image-set(url('/27.avif') type('image/avif'), url('/27.webp') type('image/webp'), url('/27.png') type('image/png'));`}>
+											</div>
+										</div>
+										<span>{season}</span>
+									</div>
+								</div>
+								<a class="cover" href={translatePath(`/lns/${name}`)}>
+									<picture>
+										<source srcset={`/banners/lns/${name}.avif`} type='image/avif' media="(width < 950px)" />
+										<source srcset={`/banners/lns/${name}.webp`} type='image/webp' media="(width < 950px)" />
+										<source srcset={`/banners/lns/${name}.jpg`} type='image/jpg' media="(width < 950px)" />
+										{pictures.map((path, i) => {
+											const isLast = pictures.length === i + 1
+											const type = path.split('.').pop()
+	
+											if (isLast) return <img src={path} alt="" loading="lazy" transition:name={`ln-cover-${name}`} transition:animate={customTransition} />
+											
+											return <source srcset={path} type={`image/${type}`} />
+										})}
+									</picture>
+								</a>
+								<div class="name">
+									<ruby set:html={(kanji.filter(([kanji]) => !kanji.includes('(')).reduce((prev, [kanji, romaji]) => [...prev, `${kanji}${romaji ? `<rt>${romaji}</rt>` : ''}`], []).join(''))}>
+									</ruby>
+									{kanji.some(([kanji]) => kanji.includes('(')) &&
+										<ruby class="small">
+											{kanji.filter(([kanji]) => kanji.includes('('))[0][0]}<rt>{kanji.filter(([kanji]) => kanji.includes('('))[0][1]}</rt>
+										</ruby>
+									}
+								</div>
+							</div>
+						))}
+					</div>
+					<div class="subsection">
+						<h2>Ediciones en inglés</h2>
+						<p>Estas novelas ligeras fueron publicadas por Vertical (un sello editorial de Penguin Random House) y ofrecen traducciones de alta calidad con nuevo arte de portada en la mayoría de los libros, también hecho por VOFAN, al igual que en las ediciones japonesas originales.</p>
+						<p>En este caso, la mayoría de las novelas están ordenadas por fecha de publicación, con la excepción de Kizumonogatari, ya que Vertical la lanzó antes de Bakemonogatari. Si quieres leerlas, por favor dirígete a la <a href={translatePath("/downloads/lns")}>página de descargas de las novelas ligeras</a>.</p>
+					</div>
+					<div class="titles">
+						{lnsEn.map(({ name, kanji, season, pictures }, i) => (
+							<div class="book">
+								<div class="number">
+									<div class="numberWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
+											</picture>
+											<div class="duplicate" style={`--current-img: image-set(url('${`/${i % 2 == 0 ? 1 : 2}.avif`}') type('image/avif'), url('${`/${i % 2 == 0 ? 1 : 2}.webp`}') type('image/webp'), url('${`/${i % 2 == 0 ? 1 : 2}.png`}') type('image/png'));`}>
+											</div>
+										</div>
+										<span>{i + 1}</span>
+									</div>
+								</div>
+								<div class="season">
+									<div class="seasonWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/27.avif`} type="image/avif" />
+												<source srcset={`/27.webp`} type="image/webp" />
+												<img src={`/27.png`} alt="" loading="lazy" />
+											</picture>
+											<div class="duplicate" style={`--current-img: image-set(url('/27.avif') type('image/avif'), url('/27.webp') type('image/webp'), url('/27.png') type('image/png'));`}>
+											</div>
+										</div>
+										<span>{season}</span>
+									</div>
+								</div>
+								<a class="cover" href={translatePath(`/lns/english/${name}`)}>
+									<picture>
+										<source srcset={`/banners/lns/en/${name}.avif`} type='image/avif' media="(width < 950px)" />
+										<source srcset={`/banners/lns/en/${name}.webp`} type='image/webp' media="(width < 950px)" />
+										<source srcset={`/banners/lns/en/${name}.jpg`} type='image/jpg' media="(width < 950px)" />
+										{pictures.map((path, i) => {
+											const isLast = pictures.length === i + 1
+											const type = path.split('.').pop()
+	
+											if (isLast) return <img src={path} alt="" loading="lazy" transition:name={`ln-en-cover-${name}`} transition:animate={customTransition} />
+											
+											return <source srcset={path} type={`image/${type}`} />
+										})}
+									</picture>
+								</a>
+								<div class="name">
+									<ruby set:html={(kanji.filter(([kanji]) => !kanji.includes('(')).reduce((prev, [kanji, romaji]) => [...prev, `${kanji}${romaji ? `<rt>${romaji}</rt>` : ''}`], []).join(''))}>
+									</ruby>
+									{kanji.some(([kanji]) => kanji.includes('(')) &&
+										<ruby class="small">
+											{kanji.filter(([kanji]) => kanji.includes('('))[0][0]}<rt>{kanji.filter(([kanji]) => kanji.includes('('))[0][1]}</rt>
+										</ruby>
+									}
+								</div>
+							</div>
+						))}
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

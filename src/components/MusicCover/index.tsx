@@ -1,4 +1,6 @@
 import { useState } from "react"
+import type { languages } from "../../i18n/ui"
+import { useTranslations } from "../../i18n/utils"
 
 const colors = [
 	'--bg-purple',
@@ -14,15 +16,18 @@ const colors = [
 ]
 
 type Props = {
+	title: string,
 	cover: string[],
 	coverAlt?: string[],
 	hidden?: boolean,
 	randomCover: number,
-	randomColor: number
+	randomColor: number,
+	currentLang: keyof typeof languages
 }
 
-const MusicCover = ({ cover, coverAlt, hidden, randomCover, randomColor }: Props) => {
+const MusicCover = ({ title, cover, coverAlt, hidden, randomCover, randomColor, currentLang }: Props) => {
 	const [alt, setAlt] = useState(false)
+	const t = useTranslations(currentLang)
 	
 	return (
 		<div className="coverWrapper">
@@ -33,7 +38,7 @@ const MusicCover = ({ cover, coverAlt, hidden, randomCover, randomColor }: Props
 						<picture className="spoiler">
 							<source srcSet={`/wrinkled${randomCover}.avif`} type='image/avif' />
 							<source srcSet={`/wrinkled${randomCover}.webp`} type='image/webp' />
-							<img src={`/wrinkled${randomCover}.jpg`} alt="" />
+							<img src={`/wrinkled${randomCover}.jpg`} alt="" style={{ viewTransitionName: `spoiler-music-cover-${title}` }} />
 						</picture>
 					</>
 				}
@@ -42,15 +47,15 @@ const MusicCover = ({ cover, coverAlt, hidden, randomCover, randomColor }: Props
 						const isLast = cover.length === i + 1
 						const type = path.split('.').pop()
 	
-						if (isLast) return <img src={path} alt="" key={i} className={hidden ? 'hidden' : ''} />
+						if (isLast) return <img src={path} alt="" key={i} className={hidden ? 'hidden' : ''} style={{ viewTransitionName: `music-cover-${title}` }} />
 						
 						return <source srcSet={path} type={`image/${type}`} key={i} />
 					})}
 				</picture>
 			</div>
 			<div className="sources">
-				<p><a href={coverAlt ? (alt ? coverAlt[2] : cover[2]) : cover[2]} target="_blank">Full resolution</a></p>
-				{coverAlt && <p><a onClick={() => setAlt(!alt)}>{!alt ? 'Original' : 'Special Edition'}</a></p>}
+				<p><a href={coverAlt ? (alt ? coverAlt[2] : cover[2]) : cover[2]} target="_blank">{t('fullResolution')}</a></p>
+				{coverAlt && <p><a onClick={() => setAlt(!alt)}>{!alt ? 'Original' : t('specialEdition')}</a></p>}
 			</div>
 		</div>
 	)

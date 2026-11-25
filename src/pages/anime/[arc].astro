@@ -6,6 +6,7 @@ import arcs from '../../utils/arcs.json'
 import music from '../../utils/music.json'
 import GalleryContainer from '../../components/GalleryContainer'
 import InteractiveMiniStory from '../../components/InteractiveMiniStory'
+import { getLangFromUrl, useTranslatedPath } from "../../i18n/utils"
 
 export const getStaticPaths = (() => {
 	return arcs.map(({ name }) => ({ params: { arc: name }}))
@@ -16,11 +17,27 @@ const findArcIndex = arcs.findIndex(x => x.name === arc)
 
 if (findArcIndex === -1) return Astro.redirect('/404')
 
+const currentLang = getLangFromUrl(Astro.url)
+const translatePath = useTranslatedPath(currentLang)
+
 const { color, pictures, name, title, kanji, info, responsivePosition } = arcs[findArcIndex]
 const prevArc = findArcIndex === 0 || arcs[findArcIndex].hidden ? null : arcs[findArcIndex - (arcs[findArcIndex - 1].hidden ? 2 : 1)]
 const nextArc = findArcIndex === arcs.length - 1 || arcs[findArcIndex].hidden ? null : arcs[findArcIndex + (arcs[findArcIndex + 1].hidden ? 2 : 1)]
 const gallery = info.gallery as [string[], "visible"|"hidden"][]
 const arcsText = info.arcs.length > 1 ? `${info.arcs.slice(0, info.arcs.length - 1).join(', ')} and ${info.arcs[info.arcs.length - 1]}` : info.arcs.join(', ')
+
+const colors = [
+	'--bg-purple',
+    '--bg-green',
+    '--bg-lilac',
+    '--bg-salmon',
+    '--bg-blue',
+    '--bg-orange',
+    '--bg-yellow',
+    '--bg-red',
+    '--bg-black',
+    '--bg-white'
+]
 
 const anim = {
 	old: {
@@ -82,7 +99,7 @@ const customTransition = {
 				<div class="summary">
 					<div class="cover">
 						<a href={pictures[2]} target="_blank">Full resolution</a>
-						<picture transition:name={`anime-cover-${arc}`} transition:animate={customTransition}>
+						<picture>
 							<source srcset={`/banners/${name}.avif`} type="image/avif" media="(width < 1130px)" />
 							<source srcset={`/banners/${name}.webp`} type="image/webp" media="(width < 1130px)" />
 							<source srcset={`/banners/${name}.jpg`} type="image/jpeg" media="(width < 1130px)" />
@@ -90,7 +107,7 @@ const customTransition = {
 								const isLast = pictures.length === i + 1
 								const type = path.split('.').pop()
 
-								if (isLast) return <img src={path} alt="" />
+								if (isLast) return <img src={path} alt="" transition:name={`anime-cover-${arc}`} transition:animate={customTransition} />
 
 								return <source srcset={path} type={`image/${type}`} />
 							})}
@@ -110,7 +127,7 @@ const customTransition = {
 							<h4>Relations</h4>
 							<div class="covers">
 								{prevArc &&
-									<a class="relation" href={`/anime/${prevArc.name}`}>
+									<a class="relation" href={translatePath(`/anime/${prevArc.name}`)}>
 										<div class="when">
 											<div class="whenWrapper">
 												<div class="texture">
@@ -143,7 +160,7 @@ const customTransition = {
 									</a>
 								}
 								{nextArc &&
-									<a class="relation" href={`/anime/${nextArc.name}`}>
+									<a class="relation" href={translatePath(`/anime/${nextArc.name}`)}>
 										<div class="when">
 											<div class="whenWrapper">
 												<div class="texture">
@@ -176,7 +193,7 @@ const customTransition = {
 									</a>
 								}
 								{info.alternatives && info.alternatives.map(alternative => (
-									<a class="relation" href={alternative.name}>
+									<a class="relation" href={translatePath(alternative.name)}>
 										<div class="when">
 											<div class="whenWrapper">
 												<div class="texture">
@@ -213,7 +230,7 @@ const customTransition = {
 						{info.shortStories &&
 							<div class="relations shortStories">
 								<h4>Short Stories</h4>
-								<InteractiveMiniStory shortStories={info.shortStories} client:idle />
+								<InteractiveMiniStory {...{shortStories: info.shortStories, currentLang}} client:idle />
 							</div>
 						}
 						{info.music &&
@@ -224,9 +241,11 @@ const customTransition = {
 										const album = music.find(x => x.title === name)
 	
 										if (!album) return ''
+
+										const randomCover = Math.floor(Math.random() * 3) + 1
 									
 										return (
-											<a class="relation" href={`/music/${name}`}>
+											<a class="relation" href={translatePath(`/music/${name}`)}>
 												<div class="when">
 													<div class="whenWrapper">
 														<div class="texture">
@@ -245,6 +264,14 @@ const customTransition = {
 													</div>
 												</div>
 												<div class="cover">
+													{album.hidden &&
+														<div class="overlay" style={`background-color: var(${colors[Math.floor(Math.random() * colors.length)]})`}></div>
+														<picture class="spoiler">
+															<source srcset={`/wrinkled${randomCover}.avif`} type='image/avif' />
+															<source srcset={`/wrinkled${randomCover}.webp`} type='image/webp' />
+															<img src={`/wrinkled${randomCover}.jpg`} alt="" />
+														</picture>
+													}
 													<picture>
 														{(album.coverHalf ? album.coverHalf : album.cover).map((path, i) => {
 															const isLast = (album.coverHalf ? album.coverHalf : album.cover).length === i + 1
@@ -264,13 +291,15 @@ const customTransition = {
 						}
 						<div class="section">
 							<h4>Arcs</h4>
-							<p>{arcsText}</p>
+							<ul>
+								{info.arcs.map(arc => <li>{arc[0]}<span>{arc[1]}</span></li>)}
+							</ul>
 						</div>
 						<div class="section">
 							<h4>Synopsis</h4>
 							{info.description.map(text => (<p>{text}</p>))}
 						</div>
-						{gallery && <GalleryContainer client:load gallery={gallery} />}
+						{gallery && <GalleryContainer client:load {...{gallery, currentLang}} />}
 					</div>
 				</div>
 			</main>

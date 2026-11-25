@@ -91,7 +91,7 @@ const customTransition = {
 									</div>
 								</div>
 								<a class="cover" href={`/lns/${name}`}>
-									<picture transition:name={`ln-cover-${name}`} transition:animate={customTransition}>
+									<picture>
 										<source srcset={`/banners/lns/${name}.avif`} type='image/avif' media="(width < 950px)" />
 										<source srcset={`/banners/lns/${name}.webp`} type='image/webp' media="(width < 950px)" />
 										<source srcset={`/banners/lns/${name}.jpg`} type='image/jpg' media="(width < 950px)" />
@@ -99,7 +99,7 @@ const customTransition = {
 											const isLast = pictures.length === i + 1
 											const type = path.split('.').pop()
 	
-											if (isLast) return <img src={path} alt="" loading="lazy" />
+											if (isLast) return <img src={path} alt="" loading="lazy" transition:name={`ln-cover-${name}`} transition:animate={customTransition} />
 											
 											return <source srcset={path} type={`image/${type}`} />
 										})}
@@ -153,8 +153,8 @@ const customTransition = {
 										<span>{season}</span>
 									</div>
 								</div>
-								<a class="cover" href={`/lns/en/${name}`}>
-									<picture transition:name={`ln-en-cover-${name}`} transition:animate={customTransition}>
+								<a class="cover" href={`/lns/english/${name}`}>
+									<picture>
 										<source srcset={`/banners/lns/en/${name}.avif`} type='image/avif' media="(width < 950px)" />
 										<source srcset={`/banners/lns/en/${name}.webp`} type='image/webp' media="(width < 950px)" />
 										<source srcset={`/banners/lns/en/${name}.jpg`} type='image/jpg' media="(width < 950px)" />
@@ -162,7 +162,7 @@ const customTransition = {
 											const isLast = pictures.length === i + 1
 											const type = path.split('.').pop()
 	
-											if (isLast) return <img src={path} alt="" loading="lazy" />
+											if (isLast) return <img src={path} alt="" loading="lazy" transition:name={`ln-en-cover-${name}`} transition:animate={customTransition} />
 											
 											return <source srcset={path} type={`image/${type}`} />
 										})}

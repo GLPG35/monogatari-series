@@ -1,0 +1,202 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import './styles.scss'
+import arcs from '../../utils/es/arcs.json'
+import stories from '../../utils/es/stories.json'
+import audiovisual from '../../utils/es/audiovisual.json'
+import books from '../../utils/es/books.json'
+import InteractiveStory from '../../components/InteractiveStory'
+import InteractiveAudiovisual from '../../components/InteractiveAudiovisual'
+import InteractiveBook from '../../components/InteractiveBook'
+import AnimeShortcuts from '../../components/AnimeShortcuts'
+import BackToTop from '../../components/BackToTop'
+import { getLangFromUrl, useTranslatedPath } from '../../i18n/utils'
+
+const currentLang = getLangFromUrl(Astro.url)
+const translatePath = useTranslatedPath(currentLang)
+
+const anim = {
+	old: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)",
+		direction: "reverse"
+	},
+	new: {
+		name: "bezier",
+		duration: "0.4s",
+		easing: "cubic-bezier(0.65,0.05,0.36,1)"
+	}
+}
+
+const customTransition = {
+	forwards: anim,
+	backwards: anim
+}
+---
+
+<html lang="en" style="--bg-color: var(--bg-lilac)">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="〈物語〉" />
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Monogatari Series</title>
+		<meta name="description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="〈物語〉Monogatari Series" />
+		<meta property="og:site_name" content="〈物語〉Monogatari Series" />
+		<meta property="og:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="og:url" content="https://monogatariseri.es/" />
+		<meta property="og:image" content="https://monogatariseri.es/covers/home-cover.jpg" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://monogatariseri.es/" />
+		<meta property="twitter:title" content="〈物語〉Monogatari Series" />
+		<meta property="twitter:description" content="¡Aquí encontrarás información sobre las novelas ligeras de la Monogatari Series, la adaptación animada y más!" />
+		<meta property="twitter:image" content="https://monogatariseri.es/covers/home-cover.jpg" />
+	</head>
+	<body>
+		<Layout>
+			<BackToTop client:load />
+			<main>
+				<div class="hero">
+					<div class="backgroundWrapper">
+						<div class="background">
+							<div class="overlay"></div>
+							<picture>
+								<source srcset="/Monogatari_Paper_Background.avif" type="image/avif" />
+								<source srcset="/Monogatari_Paper_Background.webp" type="image/webp" />
+								<img src="/Monogatari_Paper_Background.png" alt="" />
+							</picture>
+						</div>
+					</div>
+					<div class="title">
+						<ruby>
+							物<rt>mono.</rt>語<rt>gatari.</rt>
+						</ruby>
+						<ruby class="small">
+							シ<rt>shi.</rt>リ<rt>ri.</rt>ー<rt>i.</rt>ズ<rt>zu.</rt>
+						</ruby>
+					</div>
+					<AnimeShortcuts {...{currentLang, path: Astro.url.pathname}} client:idle />
+				</div>
+				<div class="info">
+					<div class="rippedWrapper">
+						<div class="ripped">
+							<picture>
+								<source srcset="/42.avif" type="image/avif" />
+								<source srcset="/42.webp" type="image/webp" />
+								<img src="/42.png" alt="" fetchpriority="high">
+							</picture>
+							<div class="duplicate" style={`--current-img: image-set(url('/42.avif') type('image/avif'), url('/42.webp') type('image/webp'), url('/42.png') type('image/png'));`}>
+							</div>
+						</div>
+					</div>
+					<div class="subsection">
+						<h2>Introducción</h2>
+						<p>Esta guía fue creada para ayudar a que los espectadores tengan la experiencia más inmersiva posible a la hora de ver el anime.</p>
+						<p>Originalmente, empezó como una serie de novelas ligeras escritas por NisiOisiN en 2005 y recibió una adaptación animada por Studio SHAFT en 2009. Junto a las novelas principales, el autor produjo algo conocido como <b>短々編</b> (historias cortas): relatos complementarios que ofrecen contexto valioso para arcos específicos tanto en el anime como en las novelas ligeras. Estas historias cortas serán cruciales en esta guía y se detallan <a href={translatePath("#essential-stories")}>inmediatamente después de la sección «Orden para ver el anime»</a>.</p>
+						<p>Hay que tener en cuenta que la mayoría de estas historias son solo fragmentos tomados de la traducción en inglés hecha por fans. Más información en la <a href={translatePath("/stories")}>página de historias cortas</a>.</p>
+						<p>Aparte de estas historias cortas, también hay muchísimo contenido audiovisual, como Drama CDs, cortos animados y videos promocionales, que resulta bastante esencial (hasta cierto punto) tanto para los espectadores del anime como para los lectores de las novelas. Para quienes quieran darles un vistazo, este material se detalla <a href={translatePath("#essential-audiovisual")}>inmediatamente después de la sección «Historias cortas esenciales»</a>.</p>
+						<p>También están los audiocomentarios (escritor también por NisiOisiN), que consisten en dos o más personajes comentando sobre un episodio específico del anime. Aunque suelen contener datos interesantes, solo se recomiendan para entusiastas, ya que son puramente <em>opcionales</em>. Estos estarán incluidos en la <a href={translatePath("/downloads/anime")}>página de descargas del anime</a>.</p>
+						<p><em>Texto original escrito por <a href="https://x.com/Ter625Io" target="_blank">@trenole</a>.</em></p>
+					</div>
+					<div class="subsection" id="watch-order">
+						<h2>Orden para ver el anime</h2>
+						<p>Crear este orden es necesario, ya que Studio SHAFT (el estudio de animación) tuvo que emitir algunos arcos <em>en desorden</em> debido a problemas de tiempo y restricciones de programación en la televisión japonesa.</p>
+						<p>Por ello, esta guía sigue el <em>orden de las novelas ligeras</em>, ya que preserva tanto la progresión narrativa del autor como el <em>orden de emisión originalmente planeado</em> por Studio SHAFT.</p>
+					</div>
+					<div class="titles">
+						{arcs.filter(x => !x.hidden).map(({ name, text, kanji, season, pictures }, i) => (
+							<div class="section">
+								<div class="number">
+									<div class="numberWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.avif`} type="image/avif" />
+												<source srcset={`/${i % 2 == 0 ? 1 : 2}.webp`} type="image/webp" />
+												<img src={`/${i % 2 == 0 ? 1 : 2}.png`} alt="" loading="lazy" />
+											</picture>
+											<div class="duplicate" style={`--current-img: image-set(url('${`/${i % 2 == 0 ? 1 : 2}.avif`}') type('image/avif'), url('${`/${i % 2 == 0 ? 1 : 2}.webp`}') type('image/webp'), url('${`/${i % 2 == 0 ? 1 : 2}.png`}') type('image/png'));`}>
+											</div>
+										</div>
+										<span>{i + 1}</span>
+									</div>
+								</div>
+								<div class="season">
+									<div class="seasonWrapper">
+										<div class="texture">
+											<picture>
+												<source srcset={`/27.avif`} type="image/avif" />
+												<source srcset={`/27.webp`} type="image/webp" />
+												<img src={`/27.png`} alt="" loading="lazy" />
+											</picture>
+											<div class="duplicate" style={`--current-img: image-set(url('/27.avif') type('image/avif'), url('/27.webp') type('image/webp'), url('/27.png') type('image/png'));`}>
+											</div>
+										</div>
+										<span>{season}</span>
+									</div>
+								</div>
+								<a class="cover" href={translatePath(`/anime/${name}`)}>
+									<picture>
+										<source srcset={`/banners/${name}.avif`} type='image/avif' media="(width < 950px)" />
+										<source srcset={`/banners/${name}.webp`} type='image/webp' media="(width < 950px)" />
+										<source srcset={`/banners/${name}.jpg`} type='image/jpg' media="(width < 950px)" />
+										{pictures.map((path, i) => {
+											const isLast = pictures.length === i + 1
+											const type = path.split('.').pop()
+
+											if (isLast) return <img src={path} alt="" loading="lazy" transition:name={`anime-cover-${name}`} transition:animate={customTransition} />
+											
+											return <source srcset={path} type={`image/${type}`} />
+										})}
+									</picture>
+								</a>
+								<div class="description">
+									{text}
+								</div>
+								<div class="name">
+									<ruby set:html={(kanji.filter(([kanji]) => !kanji.includes('(')).reduce((prev, [kanji, romaji]) => [...prev, `${kanji}${romaji ? `<rt>${romaji}</rt>` : ''}`], []).join(''))}>
+									</ruby>
+									{kanji.some(([kanji]) => kanji.includes('(')) &&
+										<ruby class="small">
+											{kanji.filter(([kanji]) => kanji.includes('('))[0][0]}<rt>{kanji.filter(([kanji]) => kanji.includes('('))[0][1]}</rt>
+										</ruby>
+									}
+								</div>
+							</div>
+						))}
+					</div>
+					<div class="subsection" id="essential-stories">
+						<h2>Historias cortas esenciales</h2>
+						<p>Estas historias cortas siguen un orden específico, así que, después de terminar un arco, vuelve a esta sección para verificar si hay algo que necesites leer.</p>
+						<p>Ten en cuenta que esta es solo una selección «esencial» de historias cortas, tomadas del <a href="https://www.reddit.com/r/araragi/s/co7hXkb7LF" target="_blank">libro recopilatorio</a> <em>Mijikanamonogatari</em> y del <a href="https://www.reddit.com/r/araragi/s/DyFEwVXgky" target="_blank">hilo recopilatorio en Reddit</a> hecho por @maxdefolsch (<a href="/ss_credits.jpg" target="_blank">todos los créditos aquí</a>).</p>
+						<p>Las traducciones al español y al portugués brasileño están basadas en el libro mencionado anteriormente. La versión en español corre a cargo de <a href="https://lordsacar.wordpress.com/category/novelas-ligeras/" target="_blank">Monogatarianos TL</a>, mientras que la traducción al portugués brasileño es obra de <a href="https://x.com/MNGTR_BR" target="_blank">@MNGTR_BR</a>.</p>
+						<p>Si quieres ver todas las historias cortas, por favor dirígete a la <a href={translatePath("/stories")}>página de historias cortas</a>.</p>
+					</div>
+					<InteractiveStory {...{stories, currentLang}} client:idle />
+					<div class="subsection" id="essential-audiovisual">
+						<h2>Contenido audiovisual esencial</h2>
+						<p>Esta sección está dedicada exclusivamente al contenido complementario esencial para el anime y las novelas ligeras.</p>
+						<p>A lo largo de los años, NisiOisiN y SHAFT han colaborado en numerosos proyectos para promocionar tanto el anime como las novelas ligeras. Estas colaboraciones a menudo involucraban otras obras hechas por NisiOisiN o incluso franquicias no relacionadas como <em>Madoka Magica</em>. En esta sección encontrarás la mayoría del contenido audiovisual relevante para esta serie, organizado por fecha de lanzamiento junto con recomendaciones sobre el mejor momento para disfrutarlo.</p>
+						<p>Mi más sincero agradecimiento a @maxdefolsch una vez más por <a href="https://www.reddit.com/r/araragi/s/SdWDjcQ5Pw" target="_blank">compilar este material en Reddit</a> (<a href="/av_credits.txt" target="_blank">todos los créditos aquí</a>), y a <a href="https://x.com/rokko_00">@rokko_00</a> por recopilar la mayoría del material en español.</p>
+					</div>
+					<InteractiveAudiovisual {...{audiovisual, currentLang}} client:idle />
+					<div class="subsection" id="books">
+						<h2>Libros varios</h2>
+						<p>Debajo encontrarás varios libros creados para el anime.</p>
+						<p>A pesar de que la mayoría estén incompletos, contienen numerosas ilustraciones que nunca fueron lanzadas en otros formatos, lo que los hace raros y notables. Para ver la lista completa de libros de arte, guías y folletos (incluyendo escaneos digitales e imágenes), por favor visita <a href="https://mega.nz/folder/MbRD3CxL#SdIleSaf4sl9w-o9BdUxjQ/folder/FOQlwQjA">esta carpeta en MEGA</a> curada por @maxdefolsch.</p>
+						<p>Estos libros, junto con el resto de contenido complementario de este sitio web, contienen spoilers importantes de la serie. Por favor, ten en cuenta tu progreso para evitar spoilearte.</p>
+						<p><em>Esta sección excluye la extensa lista de folletos de los Blu-ray, ya que pueden encontrarse dentro de los <a href={translatePath("/downloads/anime")}>extras del anime en la sección de descargas</a> y en la carpeta de MEGA mencionada anteriormente.</em></p>
+						<InteractiveBook {...{books, currentLang}} client:idle />
+					</div>
+				</div>
+			</main>
+		</Layout>
+	</body>
+</html>

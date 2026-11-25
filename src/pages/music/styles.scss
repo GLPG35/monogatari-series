@@ -83,6 +83,7 @@ main {
 					height: 100%;
 					mix-blend-mode: multiply;
 					filter: brightness(150%) saturate(70%);
+					z-index: 1;
 				}
 
 				&.hidden {
