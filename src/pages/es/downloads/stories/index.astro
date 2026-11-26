@@ -36,13 +36,17 @@ const t = useTranslations(currentLang)
 		<Layout>
 			<main>
 				<div class="section">
-					<div class="cover">
-						<a href="/covers/final-season-box-set.jpg" target="_blank">{t('fullResolution')}</a>
-						<picture>
-							<source srcset="/covers/final-season-box-set.avif" type="image/avif" />
-							<source srcset="/covers/final-season-box-set.webp" type="image/webp" />
-							<img src="/covers/final-season-box-set.jpg" alt="" transition:name="short-story-downloads">
-						</picture>
+					<div class="coverWrapper">
+						<div class="cover">
+							<picture>
+								<source srcset="/covers/final-season-box-set.avif" type="image/avif" />
+								<source srcset="/covers/final-season-box-set.webp" type="image/webp" />
+								<img src="/covers/final-season-box-set.jpg" alt="" transition:name="short-story-downloads">
+							</picture>
+						</div>
+						<div class="sources">
+							<p><a href="/covers/final-season-box-set.jpg" target="_blank">{t('fullResolution')}</a></p>
+						</div>
 					</div>
 					<div class="info">
 						<div class="subtitle">

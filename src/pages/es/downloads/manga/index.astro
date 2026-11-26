@@ -35,13 +35,17 @@ const t = useTranslations(currentLang)
 		<Layout>
 			<main>
 				<div class="section">
-					<div class="cover">
-						<a href="/covers/manga-cover.jpg" target="_blank">{t('fullResolution')}</a>
-						<picture>
-							<source srcset="/covers/manga-cover.avif" type="image/avif" />
-							<source srcset="/covers/manga-cover.webp" type="image/webp" />
-							<img src="/covers/manga-cover.jpg" alt="" transition:name="manga-downloads" />
-						</picture>
+					<div class="coverWrapper">
+						<div class="cover">
+							<picture>
+								<source srcset="/covers/manga-cover.avif" type="image/avif" />
+								<source srcset="/covers/manga-cover.webp" type="image/webp" />
+								<img src="/covers/manga-cover.jpg" alt="" transition:name="manga-downloads" />
+							</picture>
+						</div>
+						<div class="sources">
+							<p><a href="/covers/manga-cover.jpg" target="_blank">{t('fullResolution')}</a></p>
+						</div>
 					</div>
 					<div class="info">
 						<div class="subtitle">

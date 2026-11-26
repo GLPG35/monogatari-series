@@ -35,13 +35,17 @@ const t = useTranslations(currentLang)
 		<Layout>
 			<main>
 				<div class="section">
-					<div class="cover">
-						<a href="/covers/monogatari-second-season-2.jpg" target="_blank">{t('fullResolution')}</a>
-						<picture>
-							<source srcset="/covers/monogatari-second-season-2.avif" type="image/avif" />
-							<source srcset="/covers/monogatari-second-season-2.webp" type="image/webp" />
-							<img src="/covers/monogatari-second-season-2.jpg" alt="" transition:name="anime-downloads">
-						</picture>
+					<div class="coverWrapper">
+						<div class="cover">
+							<picture>
+								<source srcset="/covers/monogatari-second-season-2.avif" type="image/avif" />
+								<source srcset="/covers/monogatari-second-season-2.webp" type="image/webp" />
+								<img src="/covers/monogatari-second-season-2.jpg" alt="" transition:name="anime-downloads">
+							</picture>
+						</div>
+						<div class="sources">
+							<p><a href="/covers/monogatari-second-season-2.jpg" target="_blank">{t('fullResolution')}</a></p>
+						</div>
 					</div>
 					<div class="info">
 						<div class="subtitle">
@@ -74,13 +78,17 @@ const t = useTranslations(currentLang)
 					</div>
 				</div>
 				<div class="section reverse">
-					<div class="cover">
-						<picture>
-							<a href="/covers/monogatari-off-monster-season.jpg" target="_blank">{t('fullResolution')}</a>
-							<source srcset="/covers/monogatari-off-monster-season.avif" type="image/avif" />
-							<source srcset="/covers/monogatari-off-monster-season.webp" type="image/webp" />
-							<img src="/covers/monogatari-off-monster-season.jpg" alt="">
-						</picture>
+					<div class="coverWrapper">
+						<div class="cover">
+							<picture>
+								<source srcset="/covers/monogatari-off-monster-season.avif" type="image/avif" />
+								<source srcset="/covers/monogatari-off-monster-season.webp" type="image/webp" />
+								<img src="/covers/monogatari-off-monster-season.jpg" alt="">
+							</picture>
+						</div>
+						<div class="sources">
+							<p><a href="/covers/monogatari-off-monster-season.jpg" target="_blank">{t('fullResolution')}</a></p>
+						</div>
 					</div>
 					<div class="info">
 						<div class="subtitle">

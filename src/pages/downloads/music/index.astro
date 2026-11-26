@@ -31,16 +31,20 @@ import './styles.scss'
 		<Layout>
 			<main>
 				<div class="section">
-					<div class="cover">
-						<a href="/covers/music-cover.png" target="_blank">Full resolution</a>
-						<picture>
-							<source srcset="/covers/music-cover-horizontal.avif" type="image/avif" media="(width < 1130px)" />
-							<source srcset="/covers/music-cover-horizontal.webp" type="image/avif" media="(width < 1130px)" />
-							<source srcset="/covers/music-cover-horizontal.png" type="image/png" media="(width < 1130px)" />
-							<source srcset="/covers/music-cover.avif" type="image/avif" />
-							<source srcset="/covers/music-cover.webp" type="image/webp" />
-							<img src="/covers/music-cover.png" alt="" transition:name="music-downloads" />
-						</picture>
+					<div class="coverWrapper">
+						<div class="cover">
+							<picture>
+								<source srcset="/covers/music-cover-horizontal.avif" type="image/avif" media="(width < 1130px)" />
+								<source srcset="/covers/music-cover-horizontal.webp" type="image/avif" media="(width < 1130px)" />
+								<source srcset="/covers/music-cover-horizontal.png" type="image/png" media="(width < 1130px)" />
+								<source srcset="/covers/music-cover.avif" type="image/avif" />
+								<source srcset="/covers/music-cover.webp" type="image/webp" />
+								<img src="/covers/music-cover.png" alt="" transition:name="music-downloads" />
+							</picture>
+						</div>
+						<div class="sources">
+							<p><a href="/covers/music-cover.png" target="_blank">Full resolution</a></p>
+						</div>
 					</div>
 					<div class="info">
 						<div class="subtitle">
