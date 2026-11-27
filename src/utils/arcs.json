@@ -3279,13 +3279,13 @@
 	{
 		"name": "orokamonogatari",
 		"title": "Orokamonogatari",
-		"text": "Off & Monster Season (Episode 1)",
+		"text": "O&M Season 2024 (Episode 1)",
 		"kanji": [
 			["愚", "oroka."],
 			["物", "mono."],
 			["語", "gatari."]
 		],
-		"season": "Off & Monster Season",
+		"season": "O&M Season (2024)",
 		"pictures": [
 			"/covers/orokamonogatari.avif",
 			"/covers/orokamonogatari.webp",
@@ -3356,13 +3356,13 @@
 	{
 		"name": "nademonogatari",
 		"title": "Nademonogatari",
-		"text": "Off & Monster Season (Episodes 2 - 6)",
+		"text": "O&M Season 2024 (Episodes 2 - 6)",
 		"kanji": [
 			["撫", "nade."],
 			["物", "mono."],
 			["語", "gatari."]
 		],
-		"season": "Off & Monster Season",
+		"season": "O&M Season (2024)",
 		"pictures": [
 			"/covers/nademonogatari.avif",
 			"/covers/nademonogatari.webp",
@@ -3526,14 +3526,14 @@
 	{
 		"name": "wazamonogatari-ova",
 		"title": "Wazamonogatari OVA",
-		"text": "Off & Monster Season (Episode 6.5)",
+		"text": "O&M Season 2024 (Episode 6.5)",
 		"kanji": [
 			["業", "waza."],
 			["物", "mono."],
 			["語", "gatari."],
 			["EX"]
 		],
-		"season": "Off & Monster Season",
+		"season": "O&M Season (2024)",
 		"pictures": [
 			"/covers/wazamonogatari-ova.avif",
 			"/covers/wazamonogatari-ova.webp",
@@ -3576,13 +3576,13 @@
 	{
 		"name": "wazamonogatari",
 		"title": "Wazamonogatari",
-		"text": "Off & Monster Season (Episodes 7 - 8)",
+		"text": "O&M Season 2024 (Episodes 7 - 8)",
 		"kanji": [
 			["業", "waza."],
 			["物", "mono."],
 			["語", "gatari."]
 		],
-		"season": "Off & Monster Season",
+		"season": "O&M Season (2024)",
 		"pictures": [
 			"/covers/wazamonogatari.avif",
 			"/covers/wazamonogatari.webp",
@@ -3648,13 +3648,13 @@
 	{
 		"name": "shinobumonogatari",
 		"title": "Shinobumonogatari",
-		"text": "Off & Monster Season (Episodes 9 - 14)",
+		"text": "O&M Season 2024 (Episodes 9 - 14)",
 		"kanji": [
 			["忍", "shinobu."],
 			["物", "mono."],
 			["語", "gatari."]
 		],
-		"season": "Off & Monster Season",
+		"season": "O&M Season (2024)",
 		"pictures": [
 			"/covers/shinobumonogatari.avif",
 			"/covers/shinobumonogatari.webp",
@@ -3800,6 +3800,55 @@
 				{
 					"name": "shinobumonogatari-atogatari",
 					"type": "Atogatari"
+				}
+			]
+		}
+	},
+	{
+		"name": "wazamonogatari-2",
+		"title": "Wazamonogatari",
+		"text": "O&M Season 2026 (Episodes 1 - ?)",
+		"kanji": [
+			["業", "waza."],
+			["物", "mono."],
+			["語", "gatari."]
+		],
+		"season": "O&M Season (2026)",
+		"pictures": [
+			"/covers/wazamonogatari-2.avif",
+			"/covers/wazamonogatari-2.webp",
+			"/covers/wazamonogatari-2.jpg"
+		],
+		"picturesHalf": [
+			"/covers/wazamonogatari-2-0.5x.avif",
+			"/covers/wazamonogatari-2-0.5x.webp",
+			"/covers/wazamonogatari-2-0.5x.jpg"
+		],
+		"responsivePosition": "center 25%",
+		"hidden": false,
+		"color": "--bg-yellow",
+		"info": {
+			"date": "December 31, 2026",
+			"arcs": [
+				["Karen Ouga", "かれんオウガ"]
+			],
+			"description": [
+				"Araragi Karen has entered her first year of high school. Although her karate master acknowledges her strength, Karen is ordered to undergo secluded mountain training in order to advance to the next stage. Her destination is the Three Ouga Mountains, consisting of Oniai Mountain, Senshin Peak, and Kachikachi Mountain—a journey into the mountains to confront herself. Just who awaits her beyond the hardships...?"
+			],
+			"alternatives": [
+				{
+					"name": "/lns/wazamonogatari",
+					"text": "Source",
+					"pictures": [
+						"/covers/lns/wazamonogatari.avif",
+						"/covers/lns/wazamonogatari.webp",
+						"/covers/lns/wazamonogatari.png"
+					],
+					"picturesHalf": [
+						"/covers/lns/wazamonogatari-0.5x.avif",
+						"/covers/lns/wazamonogatari-0.5x.webp",
+						"/covers/lns/wazamonogatari-0.5x.jpg"
+					]
 				}
 			]
 		}

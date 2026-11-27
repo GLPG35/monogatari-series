@@ -1343,6 +1343,20 @@
 						"/covers/wazamonogatari-0.5x.webp",
 						"/covers/wazamonogatari-0.5x.jpg"
 					]
+				},
+				{
+					"name": "/anime/wazamonogatari-2",
+					"text": "Adaptación",
+					"pictures": [
+						"/covers/wazamonogatari-2.avif",
+						"/covers/wazamonogatari-2.webp",
+						"/covers/wazamonogatari-2.png"
+					],
+					"picturesHalf": [
+						"/covers/wazamonogatari-2-0.5x.avif",
+						"/covers/wazamonogatari-2-0.5x.webp",
+						"/covers/wazamonogatari-2-0.5x.jpg"
+					]
 				}
 			]
 		}
